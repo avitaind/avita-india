@@ -14,7 +14,8 @@
         <section class="product-liber-banner py-5 px-2" >
     <div class="row">
     <div class="container"  style="text-align: center; padding:2%;">
-    <h2 class="heading">SALES ENQUIRY</h2>
+    <div class="h2">SALES ENQUIRY</div>
+    <br/>
     <div>
     <span>Dear AVITA fans, Thank you for your support for AVITA. Please fill in the form below for any sales enquiries. Our tech support team replies to all your sales enquiry promptly.  All fields marked with an asterisk (*) are required to register your sales enquiry.</span>
     </div>
