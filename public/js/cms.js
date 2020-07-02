@@ -1,0 +1,1 @@
+var deleteAction=function(){function e(e){e.preventDefault();var n=$(this).attr("href");confirm("Confirm to delete ?")&&t(n)}var t=function(e){$.ajax({url:e,type:"DELETE",success:function(e){window.location.reload(!0)},error:function(e){console.log(e.responseText),alert("Error: "+e.responseText)}})};return{init:function(){$(".delete-link").on("click",e)}}}();deleteAction.init();
