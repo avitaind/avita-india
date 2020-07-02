@@ -16,7 +16,7 @@
             <div class="aboutus-contact py-5 px-2">
 
                 <div class="container">
-                    <h2 class="section-title mt-0 mb-5 my-md-5 font-weight-light">@lang('site.contactus_contactus') </h2>
+                    <h2 class="section-title mt-0 mb-5 my-md-5 font-weight-light">@lang('site.contactus_contactus') <hr style="width:25%;"></h2>
                     <p>AVITA Customer Support. We are always available in case you need help. For queries on the product, warranty related inquiries or any form of customer support, please contact us on our  toll-free customer support number or write to on our support email for general sales enquiry.</p>
                     <hr/>
                     <div class="row">
