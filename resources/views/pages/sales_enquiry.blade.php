@@ -21,7 +21,7 @@
     </div>
 <br/>
 <div>
-<strong>Toll Free</strong>: 1800-103-9635, <strong>Whatsapp</strong>: <a href="https://api.whatsapp.com/send?phone=917827845054" target="_blank" rel="noopener noreferrer">+91-7827845054</a>, <strong>Phone</strong>: +91-7042144117 
+<div class="h6">Toll Free</div>: 1800-103-9635, <div class="h6">Whatsapp</div>: <a href="https://api.whatsapp.com/send?phone=917827845054" target="_blank" rel="noopener noreferrer">+91-7827845054</a>, <div class="h6">Phone</div>: +91-7042144117 
 </div>
 <div class="container"  style="text-align: center; padding:5%;">
 
