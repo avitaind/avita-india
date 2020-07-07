@@ -33,7 +33,7 @@
                                  style="background-image: url('/images/banner/pura_web_banner.jpg')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/PURA-MOB-BANNER.png')"></div>
+                             style="background-image: url('/images/banner/PURA-MOB-BANNER.jpg')"></div>
                     </div>
                     </a>
                 </div>
