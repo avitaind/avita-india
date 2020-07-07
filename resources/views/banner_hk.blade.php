@@ -68,7 +68,7 @@
                                  style="background-image: url('/images/banner/admiror-new-banner-home-web.jpg')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/admiror-new-banner-home-mob.jpg')"></div>
+                             style="background-image: url('/images/banner/ADMIROR-MOB-BANNER.png')"></div>
                     </div>
                      </a>
                 </div>
