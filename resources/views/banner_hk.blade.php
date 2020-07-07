@@ -13,7 +13,7 @@
                                  style="background-image: url('/images/banner/magus_web_banner2.png')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/magus_mob_banner2.png')"></div>
+                             style="background-image: url('/images/banner/MAGUS-MOB-BANNER.png')"></div>
                     </div>
                      </a>
                 </div>
@@ -33,7 +33,7 @@
                                  style="background-image: url('/images/banner/pura_web_banner.jpg')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/pura_mob_banner.jpg')"></div>
+                             style="background-image: url('/images/banner/PURA-MOB-BANNER.png')"></div>
                     </div>
                     </a>
                 </div>
