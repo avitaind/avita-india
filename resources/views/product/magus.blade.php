@@ -131,7 +131,7 @@
             <div class="container">
                 <div class="row">
                 
-                    <img class="" src="/images/magus/magus_warranty.png" style="width:700px;">
+                    <img class="ac-computer-image ac-computer-1" src="/images/magus/magus_warranty.png">
                   
                 </div>
             </div>
