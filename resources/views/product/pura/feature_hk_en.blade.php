@@ -140,17 +140,15 @@
 				<div class="badge-value">512<span class="badge-caption pl-1">GB</span></div>
 				<div class="badge-caption">SSD</div>
 			</div>
-			   <br/>
-                        
+			  </div>
+                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between">
 			  <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>
 				<div class="badge-value">Core i5</div>
                                 <div class="badge-caption">INTEL&reg; CORE&trade; PROCESSOR</div>
                             </div>
 			</div>	
-                     
-                    </div>
-
+                 
                 </div>
             </div>
         </section>
