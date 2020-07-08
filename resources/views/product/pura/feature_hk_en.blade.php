@@ -142,8 +142,8 @@
 			</div>
 			  <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>
-				<div class="badge-value">Intel® | AMD</div>
-                                <div class="badge-caption">CORE™ i3-8145U / i5-8265U | AMD A9-9420E / R3-3200U / R5-3500U </div>
+				<div class="badge-value">Intel<sup>&#174;</sup> | AMD</div>
+                                <div class="badge-caption">CORE<sup>&trade;</sup> i3-8145U / i5-8265U | AMD A9-9420E / R3-3200U / R5-3500U </div>
 			</div>
 		   </div>	
                 </div>
@@ -278,7 +278,7 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
                     	<div class="h2 banner-header"><div class="d-sm-inline" style="text-transform:uppercase;">Show your colours</div></div>
                 <div class="space60"></div>
                         <div class="banner-para ls-0">
-    						<span class="d-lg-block mx-3">The AVITA PURA comes with a complimentary notebook 3-in-1 computer sleeve that can be used as a handy carrying case or a stylish carrying bag for your personal belongings. What's more, the soft and slouchy premium sleeve sports a choice of six colours, grey, green, orange, blue, black and purple, to suit your style. </span>
+    				<span class="d-lg-block mx-3">The AVITA PURA comes with a complimentary notebook 3-in-1 computer sleeve that can be used as a handy carrying case or a stylish carrying bag for your personal belongings. What's more, the soft and slouchy premium sleeve sports a choice of six colours, grey, green, orange, blue, black and purple, to suit your style. </span>
                             <span class="d-lg-block  mx-3">
 <small>*The 3-in-1 sleeve is only available during the promotional period and while stocks last.</small></span>
                         </div>
