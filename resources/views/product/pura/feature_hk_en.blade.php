@@ -171,22 +171,22 @@
                         </div>
                 
                         <div class="banner-para ls-0">
-The 14-inch AVITA PURA embraces a super slim outfit and weighs from a mere 1.21 kg, offering you unparalleled portability and ease of use.</span>                        </div>
+The 14-inch AVITA PURA embraces a super slim outfit and weighs from a mere 1.21 kg, offering you unparalleled portability and ease of use.</span>   </div>
                         <section class="product-liber-wifi">
                             <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
                             <div class="data-card mx-3 text-left">
                                 <span class="badge-value">5</span>
-								<span class="badge-caption">mm</span>
-								<div class="badge-caption">Thinnest part</div>
+				<span class="badge-caption">mm</span>
+				<div class="badge-caption">Thinnest part</div>
                             </div>
+			  <span class="badge-caption">starting from</span>
                            <div class="data-card mx-3 text-left">
-	                   <span class="badge-caption">starting from</span>
                            <span class="badge-value">1.21 </span>
 			    <span class="badge-caption">kg</span>
 				<div class="badge-caption">14-inch weight</div>
                             </div>
                         </div>
-						</section>  
+			</section>  
                     </div>
                 </div>
                 <div class="space60 hidden-sm-down"></div>
@@ -254,13 +254,13 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
                 	<div class="col-12 col-lg-8" align="center">
                     	<div class="h2 banner-header"><div class="d-sm-inline" style="text-transform:uppercase;">SIMPLY PERFECT</div></div>
                         <div class="banner-para ls-0 py-3">
-    						<span class="d-lg-block">Pre-installed Windows 10 (S Mode). Windows 10 in S mode is a version of Windows 10 that's streamlined for the best performance, while providing a fast startup and long life battery. To increase security, it allows apps from the Microsoft Store, and requires Microsoft Edge for safe browsing. It's available to switch from S mode to Windows 10 as your preference.　
+    			 <span class="d-lg-block">Pre-installed Windows 10 (S Mode). Windows 10 in S mode is a version of Windows 10 that's streamlined for the best performance, while providing a fast startup and long life battery. To increase security, it allows apps from the Microsoft Store, and requires Microsoft Edge for safe browsing. It's available to switch from S mode to Windows 10 as your preference.　
                             </span>
                             <span class="d-lg-block  py-3">
                             <a href="https://support.microsoft.com/en-in/help/4020089/windows-10-in-s-mode-faq" style="color:#09F" target="_blank">How to switch to Windows 10 Home Edition for free　></a>
                             </span>
                             <span class="d-lg-block  mb-3">
-								<small>
+				<small>
                                 	*Switch out of S mode is an one-way action. You will not be able to revert to the S mode.
 								</small>
 							</span>
@@ -307,11 +307,11 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
                         <div class="ac-computer-wrap hidden-sm-up">
                             <img class="ac-computer-image ac-computer-2" style="" src="/images/pura/pura_bg4_mob.jpg">
                         </div>
-                		<div class="space30 hidden-sm-down"></div>
+                	<div class="space30 hidden-sm-down"></div>
                         <div class="banner-para ls-0">
-    						<span class="d-lg-block mx-3">The AVITA PURA comes with a complimentary notebook 3-in-1 computer sleeve that can be used as a handy carrying case or a stylish carrying bag for your personal belongings. What's more, the soft and slouchy premium sleeve sports a choice of six colours, grey, green, orange, blue, black and purple, to suit your style. </span>
-                            <span class="d-lg-block  mx-3">
-<small>*The 3-in-1 sleeve is only available during the promotional period and while stocks last.</small></span>
+    			<span class="d-lg-block mx-3">The AVITA PURA comes with a complimentary notebook 3-in-1 computer sleeve that can be used as a handy carrying case or a stylish carrying bag for your personal belongings. What's more, the soft and slouchy premium sleeve sports a choice of six colours, grey, green, orange, blue, black and purple, to suit your style. </span>
+                         <span class="d-lg-block  mx-3">
+                        <small>*The 3-in-1 sleeve is only available during the promotional period and while stocks last.</small></span>
                         </div>
                 		<div class="space30 hidden-sm-down"></div>
                         <div>
