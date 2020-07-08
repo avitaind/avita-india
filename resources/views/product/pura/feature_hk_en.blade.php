@@ -67,11 +67,11 @@
                                       <span class="buy-now2"><a href="{{ route('product.map', ['liber']) }}">Buy Now</a></span>
                             <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-pura-laptop?___store=en_hk&utm_source=brandsitepuraproductpage&utm_medium=web&utm_campaign=puraLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; 
                             <a href="{{ route('product.map', 'pura') }}" style="color:#09F">Where to buy ></a>&nbsp;&nbsp; 
-                            <a href="#offer" style="color:#09F">Offer > </a>
+                            <a href="#offer" style="color:#09F">Offer </a>
                                 
                             </span>
                         </div>
---->
+			--->
                         <div class="space30"></div>
                     </div>
                 </div>
@@ -130,21 +130,22 @@
 								<div class="badge-value">Windows 10 in S Mode</div>
                                 <div class="badge-caption"><a href="https://support.microsoft.com/en-in/help/4020089/windows-10-in-s-mode-faq" style="color:#09F" target="_blank">Know more ></a></div>
                             </div>
+			    <div class="data-card my-3 text-left">
+					<div class="badge-caption">Up to</div>
+				        <div class="badge-value">8<span class="badge-caption pl-1">GB</span></div>
+				 <div class="badge-caption">RAM</div>
+                            </div>
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>
-								<div class="badge-value">Core i5</div>
+				<div class="badge-value">Core i5</div>
                                 <div class="badge-caption">INTEL&reg; CORE&trade; PROCESSOR</div>
                             </div>
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>
-								<div class="badge-value">512<span class="badge-caption pl-1">GB</span></div>
-								<div class="badge-caption">SSD</div>
-							</div>
-							<div class="data-card my-3 text-left">
-								<div class="badge-caption">Up to</div>
-								<div class="badge-value">8<span class="badge-caption pl-1">GB</span></div>
-								<div class="badge-caption">RAM</div>
-                            </div>
+				<div class="badge-value">512<span class="badge-caption pl-1">GB</span></div>
+				<div class="badge-caption">SSD</div>
+			</div>
+				
                         
                         </div>
                     </div>
