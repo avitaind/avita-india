@@ -179,10 +179,11 @@ The 14-inch AVITA PURA embraces a super slim outfit and weighs from a mere 1.21 
 								<span class="badge-caption">mm</span>
 								<div class="badge-caption">Thinnest part</div>
                             </div>
-                            <div class="data-card mx-3 text-left">
-                                <span class="badge-value">1.21 </span>
-								<span class="badge-caption">kg</span>
-								<div class="badge-caption">14-inch weight</div>
+                           <div class="data-card mx-3 text-left">
+	                   <span class="badge-caption">starting from</span>
+                           <span class="badge-value">1.21 </span>
+			    <span class="badge-caption">kg</span>
+				<div class="badge-caption">14-inch weight</div>
                             </div>
                         </div>
 						</section>  
@@ -336,8 +337,7 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
                                 
                              <!--   <div class="banner-para text-center">
                                     <span class="d-lg-block">
-                                        <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-pura-laptop?___store=en_hk&utm_source=brandsitepuraproductpage&utm_medium=web&utm_campaign=puraLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#09F">Buy now
-             ></a>&nbsp;&nbsp; 
+                                        <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-pura-laptop?___store=en_hk&utm_source=brandsitepuraproductpage&utm_medium=web&utm_campaign=puraLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#09F">Buy now</a>&nbsp;&nbsp; 
                                         <a href="{{ route('product.map', 'pura') }}" style="color:#09F">Where to buy ></a> 
                                     </span>
                                 </div>
