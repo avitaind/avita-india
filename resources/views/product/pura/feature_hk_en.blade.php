@@ -180,7 +180,7 @@ The 14-inch AVITA PURA embraces a super slim outfit and weighs from a mere 1.21 
 				<span class="badge-caption">mm</span>
 				<div class="badge-caption">Thinnest part</div>
                             </div>
-			  <span class="badge-caption text-center">starting<br/>from</span>
+			  <span class="badge-caption text-right">starting<br/>from</span>
 			 <div class="data-card mx-3 text-left">
                            <span class="badge-value">1.21 </span>
 			    <span class="badge-caption">kg</span>
