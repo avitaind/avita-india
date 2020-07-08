@@ -30,8 +30,7 @@
         </section>
         
         <section class="product-liber-computer ls-0" id="test" style="background-color:#fff;">
-     
-                <div class="container"  style="text-align:center;">
+                   <div class="container" style="text-align:center;">
                         <div class="space60"></div>
                         <div class="banner-para">
                         <div align="center" class="col-lg-12" >
@@ -181,8 +180,9 @@ The 14-inch AVITA PURA embraces a super slim outfit and weighs from a mere 1.21 
 				<span class="badge-caption">mm</span>
 				<div class="badge-caption">Thinnest part</div>
                             </div>
-			  <span class="badge-caption text-center">starting from</span>
-                           <div class="data-card mx-3 text-left">
+			  <span class="badge-caption text-center">starting</span>
+			  <span class="badge-caption text-center">from</span>
+			 <div class="data-card mx-3 text-left">
                            <span class="badge-value">1.21 </span>
 			    <span class="badge-caption">kg</span>
 				<div class="badge-caption">14-inch weight</div>
