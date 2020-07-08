@@ -9,14 +9,14 @@
     
     	@include('partials.pura-navbar')
 
-        <!--------- Submenu------------->
+        <!--------- Submenu ----------->
 
         <section class="product-liber-banner">
             <div class="responsive-block">
             <a href="https://www.amazon.in/s?k=avita+pura">
                 <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/pura-web-banner.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/pura-mob-banner.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/pura_web_banner.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/PURA-MOB-BANNER.jpg')"></div>
                     <div class="banner-info">
                         <div class="an-scroll-wrap">
                             <div class="an-scroll">
@@ -46,10 +46,11 @@
                             {{ session()->get('message') }}
                         </div>
                     @endif
-<form action="{{url('notify')}}" method="POST" role="form" enctype="multipart/form-data" class="notify-me-form col-12 col-lg-8 col-xl-6 mx-auto">
+
+	<form action="{{url('notify')}}" method="POST" role="form" enctype="multipart/form-data" class="notify-me-form col-12 col-lg-8 col-xl-6 mx-auto">
           {{csrf_field()}}
           <div class="row md-4 no-gutters justify-content-center">
-<div class="col-12 col-sm-7 col-md-6 col-lg-7 ml-auto">
+		<div class="col-12 col-sm-7 col-md-6 col-lg-7 ml-auto">
                     <div class="input-group">
                         <div class="input-group-addon overlay-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
                         <input type="email" name="email" class="form-control" required>
