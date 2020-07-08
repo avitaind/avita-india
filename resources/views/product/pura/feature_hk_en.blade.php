@@ -142,8 +142,8 @@
 			</div>
 			  <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>
-				<div class="badge-value">Core i5</div>
-                                <div class="badge-caption">INTEL&reg; CORE&trade; PROCESSOR</div>
+				<div class="badge-value">Intel&reg; | AMD</div>
+                                <div class="badge-caption">CORE&trade; i3-8145U / i5-8265U | AMD A9-9420E / R3-3200U / R5-3500U </div>
 			</div>
 		   </div>	
                 </div>
