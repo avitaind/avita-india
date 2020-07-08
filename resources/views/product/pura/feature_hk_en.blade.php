@@ -135,16 +135,18 @@
 				        <div class="badge-value">8<span class="badge-caption pl-1">GB</span></div>
 				 <div class="badge-caption">RAM</div>
                             </div>
-                            <div class="data-card my-3 text-left">
-                                <div class="badge-caption">Up to</div>
-				<div class="badge-value">Core i5</div>
-                                <div class="badge-caption">INTEL&reg; CORE&trade; PROCESSOR</div>
-                            </div>
+                   
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>
 				<div class="badge-value">512<span class="badge-caption pl-1">GB</span></div>
 				<div class="badge-caption">SSD</div>
 			</div>
+			
+			  <div class="data-card my-3 text-left">
+                                <div class="badge-caption">Up to</div>
+				<div class="badge-value">Core i5</div>
+                                <div class="badge-caption">INTEL&reg; CORE&trade; PROCESSOR</div>
+                            </div>
 				
                         
                         </div>
@@ -179,7 +181,7 @@ The 14-inch AVITA PURA embraces a super slim outfit and weighs from a mere 1.21 
 				<span class="badge-caption">mm</span>
 				<div class="badge-caption">Thinnest part</div>
                             </div>
-			  <span class="badge-caption">starting from</span>
+			  <span class="badge-caption text-center">starting from</span>
                            <div class="data-card mx-3 text-left">
                            <span class="badge-value">1.21 </span>
 			    <span class="badge-caption">kg</span>
