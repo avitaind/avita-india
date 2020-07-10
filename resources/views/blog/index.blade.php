@@ -111,7 +111,7 @@ $page = 'blogs';
                             <a href="/What-are-the-benefits-of-smart-scale"> <p>What are the benefits of smart scale?</p><br/>
                                 <figure>
                                     <div class="image-wrap">
-                                        <img style="width: 100%; height:100%;" src="/images/blog/blog2.jpg" />
+                                        <img style="width: 100%; height:100%;" src="/images/blog/blog4.jpg" />
                                     </div>
                                     <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                         <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i><strong>Date:</strong> 22rd Feburary, 2019</div>
@@ -146,7 +146,7 @@ $page = 'blogs';
                             <a href="/Avita-Liber-Technology-to-keep-YOU-high-on-Fashion"> <p>Avita Liber: Technology to keep YOU high on Fashion</p><br/>
                                 <figure>
                                     <div class="image-wrap">
-                                        <img style="width: 100%; height:100%;" src="/images/blog/blog4.jpeg" />
+                                        <img style="width: 100%; height:100%;" src="/images/blog/blog2.jpeg" />
                                     </div>
                                     <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                         <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i><strong>Date:</strong> 08th Feburary, 2019</div>
