@@ -12,8 +12,7 @@
                 <div class="event-banner">
                 <img src="/images/blog/why-millennials-are-choosing-cloud-storage-for-personal-computing.png" class="img-responsive" />
                 </div>
-          <div class="event-desc-block pb-5">
-          <div class="event-desc-block pb-5">
+           <div class="event-desc-block pb-5">
             <h5 class="text-center mt-4 mb-3 font-weight-light">@lang('site.blog7')</h5>
             <p><span lang="EN-US">Millennials need their own space. This statement not just applies to their lifestyle but also aptly fits with their computing needs. Although today's computer systems provide an ample amount of storage that people do not worry about it anymore, the question – Is storage a major factor in choosing a certain laptop or PC, still remains. If your answer to the above question is YES, we recommend you to keep reading because, today, you are about to find out all the extra features of Cloud Storage that you can use to your benefit. Let’s cut to the chase and dive straight in! Here are the factors one must underscore while considering Cloud Storage.</span></p>
             <h6 class="text-left mt-4 mb-3 font-weight-light"><strong>1. Affordability</strong></h6>      
