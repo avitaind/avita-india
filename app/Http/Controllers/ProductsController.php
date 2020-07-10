@@ -100,7 +100,7 @@ class ProductsController extends Controller
 
         /** Cosmos Product Page */
 
-        if ( $slug == 'cosmos' ){
+      /*  if ( $slug == 'cosmos' ){
 
             switch ( $country ) {
                 case 'in':
@@ -111,7 +111,7 @@ class ProductsController extends Controller
             
         }
 
-
+*/
         if ( $slug == 'magus-lite-2in1-laptop' ) {
                 return view('product.magus', compact( 'product'));
         }

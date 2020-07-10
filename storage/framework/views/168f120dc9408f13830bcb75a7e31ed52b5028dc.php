@@ -36,7 +36,7 @@
                                         </li>
                             
                                         <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'cosmos')); ?>"><?php echo app('translator')->getFromJson('site.cosmos'); ?></a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.spec', ['cosmos'])); ?>"><?php echo app('translator')->getFromJson('site.cosmos'); ?></a>
                                         </li>
 
                                            <li class="nav-item">
