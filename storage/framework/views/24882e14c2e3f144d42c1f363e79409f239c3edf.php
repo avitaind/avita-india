@@ -1,10 +1,10 @@
- @extends('layouts.app')
+ 
 
- @section('title')
-        @lang('title.blog4')
-@stop
+ <?php $__env->startSection('title'); ?>
+        <?php echo app('translator')->getFromJson('title.blog4'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
     <main>
         <section class="event-detail top-nav-padding">
             <div class="container mb-5">
@@ -13,7 +13,7 @@
                         <img src="/images/blog/blog4.jpg" class="img-responsive" />
                     </div>
                     <div class="event-desc-block pb-5">
-                    <h5 class="text-center mt-4 mb-3 font-weight-light">@lang('site.blog4')</h5>
+                    <h5 class="text-center mt-4 mb-3 font-weight-light"><?php echo app('translator')->getFromJson('site.blog4'); ?></h5>
                     <p><span lang="EN-US">
                 <ul>
                     <li>Weight is one of the most important health concerns people face today.</li>
@@ -55,10 +55,10 @@
         </div>
 
     </main>
-@endsection
+<?php $__env->stopSection(); ?>
 
 
-@section('js')
+<?php $__env->startSection('js'); ?>
 
     <script>
     
@@ -90,4 +90,6 @@
 
     </script>
 
-@stop
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
