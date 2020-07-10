@@ -1,21 +1,20 @@
-@extends('layouts.app')
-
-@php
+<?php 
 
         $page_title = __('title.tnc');
 
-@endphp
+ ?>
 
-@section('title')
-    {{ $page_title }}
-@stop
+<?php $__env->startSection('title'); ?>
+    <?php echo e($page_title); ?>
 
-@section('content')
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
 <main>
     <section class="top-nav-padding terms-panel">
         <div class="container">
             <div class=" py-4">
-                <h4 class="text-left mt-4 mb-3 font-weight-light">{{ $page_title }}</h4>
+                <h4 class="text-left mt-4 mb-3 font-weight-light"><?php echo e($page_title); ?></h4>
 
 
                 <div class="terms-wrap ls-0">
@@ -142,5 +141,7 @@
     </div>
 </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

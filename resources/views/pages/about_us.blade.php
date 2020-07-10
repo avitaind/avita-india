@@ -20,8 +20,7 @@
                         <div class="aboutus-info-mob-img">
                             <img class="hidden-lg-up " src="images/background/aboutus-min.png"/>
                         </div>
-                        <h1 class="section-title my-4 text-left font-weight-light">@lang('site.aboutus_about')</h1>
-
+                        <h1 class="text-left mt-4 mb-3 font-weight-light">@lang('site.aboutus_about')</h1>
                         @foreach (data_get(__('site'), 'aboutus_content', []) as $content)
                             <p>{!! $content !!}</p>
                         @endforeach

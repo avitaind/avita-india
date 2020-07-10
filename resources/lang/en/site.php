@@ -55,6 +55,15 @@ return [
 
     // universal
     'blogs_title'                   => 'AVITA INDIA | Blogs',
+    'blog1'                         => 'Why should your Personal Laptop be Light Weighted?',
+    'blog2'                         => 'Avita Liber: Technology to keep YOU high on Fashion',
+    'blog3'                         => 'Why is College the RIGHT time to become Creative? ',
+    'blog4'                         => 'What are the benefits of smart scale?',
+    'blog5'                         => 'AVITA’s Guide to Buying the Perfect Student Laptop',
+    'blog6'                         => 'AVITA Magus – 8 Wonderful Benefits of a 2-in-1 Laptops',
+    'blog7'                         => 'Why Millennials are choosing Cloud Storage for Personal Computing',
+    'blog8'                         => 'Why SSD Storage has become a Necessity for Modern Computing?',
+    'blog9'                         => 'AVITA breaks down the Most Creative Career Choices students make today',
 
     'header_store'                  => 'AVITA Store',
     'header_where_to_buy'           => 'Where To Buy',

@@ -1,14 +1,12 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.sales_enquiry'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.sales_enquiry')
-@stop
-
-@php
+<?php 
         $page = 'sales';
-    @endphp
+     ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
         
         <section class="product-liber-banner py-5 px-2" >
@@ -25,13 +23,15 @@
 </div>
 <div class="container"  style="text-align: center; padding:5%;">
 
-    @if(session()->has('message'))
+    <?php if(session()->has('message')): ?>
     <div class="alert alert-success">
-       {{ session()->get('message') }}
+       <?php echo e(session()->get('message')); ?>
+
      </div>
-    @endif
+    <?php endif; ?>
     <form action="/sales-enquiry" method="POST" role="form" enctype="multipart/form-data">
-    {{ csrf_field() }}
+    <?php echo e(csrf_field()); ?>
+
      <!--Student Name Start-->
     <div class="form-group row">
      <label for="name">Name* :</label>
@@ -70,18 +70,20 @@
         </div>
 
     </main>
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('css')
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/product-liber.css') }}"/>
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/custom.css') }}"/>
-
-
-@endsection
-
-@section('js')
-
-    <script type="text/javascript" src="{{ asset('js/liber.js') }}"></script>
+<?php $__env->startSection('css'); ?>
+    <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-liber.css')); ?>"/>
+    <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/custom.css')); ?>"/>
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('js'); ?>
+
+    <script type="text/javascript" src="<?php echo e(asset('js/liber.js')); ?>"></script>
+
+
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -20,7 +20,7 @@ return [
     'news3'               => 'Hong Kong Tech Innovator Nexstgo returns to COMPUTEX 2019',
     'news4'               => 'AVITA debuts stylish ADMIROR and PURA laptops at CES 2020',
     'news5'               => 'AVITA Appoints Ingram Micro To Boost Distribution Network In Indian Market',
-
+    'blogs'                     =>'AVITA INDIA | BLOG',
     'blog1'                    => 'AVITA’s Guide to Buying the Perfect Student Laptop',
     'blog2'                    => 'Avita Liber: Technology to keep YOU high on Fashion',
     'blog3'                    => 'Why is College the RIGHT time to become Creative?',
