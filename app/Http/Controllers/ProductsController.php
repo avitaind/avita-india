@@ -98,6 +98,19 @@ class ProductsController extends Controller
             
         }
 
+        /** Cosmos Product Page */
+
+        if ( $slug == 'cosmos' ){
+
+            switch ( $country ) {
+                case 'in':
+                    return view('product.cosmos.feature_hk_en', compact( 'product'));
+                    break;
+
+            }
+            
+        }
+
 
         if ( $slug == 'magus-lite-2in1-laptop' ) {
                 return view('product.magus', compact( 'product'));

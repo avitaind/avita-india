@@ -1,28 +1,25 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.Pura_home'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.COSMOS_home')
-@stop
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
     
-    	@include('partials.cosmos-navbar')
+    	<?php echo $__env->make('partials.pura-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
-        <!--------- Submenu------------->
+        <!--------- Submenu ----------->
 
         <section class="product-liber-banner">
             <div class="responsive-block">
-            <a href="https://www.amazon.in/s?k=avita+cosmos">
+            <a href="https://www.amazon.in/s?k=avita+pura">
                 <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/cosmos-banner-web.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/cosmos-banner-mob.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/pura_web_banner.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/PURA-MOB-BANNER.jpg')"></div>
                     <div class="banner-info">
                         <div class="an-scroll-wrap">
-                          <div class="an-scroll">
+                            <div class="an-scroll">
                                 <span></span>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -31,47 +28,49 @@
         </section>
         
         <section class="product-liber-computer ls-0" id="test" style="background-color:#fff;">
-     
-                <div class="container"  style="text-align:center;">
+                   <div class="container" style="text-align:center;">
                         <div class="space60"></div>
                         <div class="banner-para">
-                        <div class="col-lg-12 center" >
+                        <div align="center" class="col-lg-12" >
           <!---     <div class="h2 banner-header">COMING SOON</div> --->
         <span class="buy-now2"><a href="https://www.amazon.in/s?k=avita+pura">Buy Now</a></span>
            </div>
   <!--
                     <br/>
                  
-                   @if(session()->has('message'))
+                   <?php if(session()->has('message')): ?>
                         <div class="alert alert-success" style="text-align:center;">
-                            {{ session()->get('message') }}
+                            <?php echo e(session()->get('message')); ?>
+
                         </div>
-                    @endif
-<form action="{{url('notify')}}" method="POST" role="form" enctype="multipart/form-data" class="notify-me-form col-12 col-lg-8 col-xl-6 mx-auto">
-          {{csrf_field()}}
+                    <?php endif; ?>
+
+	<form action="<?php echo e(url('notify')); ?>" method="POST" role="form" enctype="multipart/form-data" class="notify-me-form col-12 col-lg-8 col-xl-6 mx-auto">
+          <?php echo e(csrf_field()); ?>
+
           <div class="row md-4 no-gutters justify-content-center">
-<div class="col-12 col-sm-7 col-md-6 col-lg-7 ml-auto">
+		<div class="col-12 col-sm-7 col-md-6 col-lg-7 ml-auto">
                     <div class="input-group">
                         <div class="input-group-addon overlay-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
                         <input type="email" name="email" class="form-control" required>
                     </div>
                 </div>
                 <div class="col-12 col-sm-4 col-md-4">
-                    <button class="btn btn-primary d-block mt-3 mt-sm-0 mt-md-0 mx-auto ml-md-3" type="submit">@lang('site.home_notify')</button>
+                    <button class="btn btn-primary d-block mt-3 mt-sm-0 mt-md-0 mx-auto ml-md-3" type="submit"><?php echo app('translator')->getFromJson('site.home_notify'); ?></button>
                 </div>
             </div>
             </form>
              
 	      <div class="banner-para text-center">
                             <span class="d-lg-block">
-                                      <span class="buy-now2"><a href="{{ route('product.map', ['liber']) }}">Buy Now</a></span>
+                                      <span class="buy-now2"><a href="<?php echo e(route('product.map', ['liber'])); ?>">Buy Now</a></span>
                             <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-pura-laptop?___store=en_hk&utm_source=brandsitepuraproductpage&utm_medium=web&utm_campaign=puraLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; 
-                            <a href="{{ route('product.map', 'pura') }}" style="color:#09F">Where to buy ></a>&nbsp;&nbsp; 
-                            <a href="#offer" style="color:#09F">Offer > </a>
+                            <a href="<?php echo e(route('product.map', 'pura')); ?>" style="color:#09F">Where to buy ></a>&nbsp;&nbsp; 
+                            <a href="#offer" style="color:#09F">Offer </a>
                                 
                             </span>
                         </div>
---->
+			--->
                         <div class="space30"></div>
                     </div>
                 </div>
@@ -121,7 +120,7 @@
 
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">The all-new AVITA PURA cleverly packs powerful functionalities inside a clean and sleek body design that is like no others. Forget the clumsiness of conventional laptop computers and welcome to a world of new experience!</span>
-                            <span class="d-lg-block"><a href="{{ route('product.spec', 'pura') }}" style="color:#09F">Tech Spec ></a></span>
+                            <span class="d-lg-block"><a href="<?php echo e(route('product.spec', 'pura')); ?>" style="color:#09F">Tech Spec ></a></span>
                         </div>
                         
                             <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between">
@@ -130,25 +129,23 @@
 								<div class="badge-value">Windows 10 in S Mode</div>
                                 <div class="badge-caption"><a href="https://support.microsoft.com/en-in/help/4020089/windows-10-in-s-mode-faq" style="color:#09F" target="_blank">Know more ></a></div>
                             </div>
+			    <div class="data-card my-3 text-left">
+					<div class="badge-caption">Up to</div>
+				        <div class="badge-value">8<span class="badge-caption pl-1">GB</span></div>
+				 <div class="badge-caption">RAM</div>
+                            </div>
+                   
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>
-								<div class="badge-value">Core i5</div>
-                                <div class="badge-caption">INTEL&reg; CORE&trade; PROCESSOR</div>
-                            </div>
-                            <div class="data-card my-3 text-left">
+				<div class="badge-value">512<span class="badge-caption pl-1">GB</span></div>
+				<div class="badge-caption">SSD</div>
+			</div>
+			  <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Up to</div>
-								<div class="badge-value">512<span class="badge-caption pl-1">GB</span></div>
-								<div class="badge-caption">SSD</div>
-							</div>
-							<div class="data-card my-3 text-left">
-								<div class="badge-caption">Up to</div>
-								<div class="badge-value">8<span class="badge-caption pl-1">GB</span></div>
-								<div class="badge-caption">RAM</div>
-                            </div>
-                        
-                        </div>
-                    </div>
-
+				<div class="badge-value">Intel<sup>&reg;</sup> | AMD</div>
+                                <div class="badge-caption">CORE<sup>&trade;</sup> i3-8145U / i5-8265U | AMD A9-9420E / R3-3200U / R5-3500U </div>
+			</div>
+		   </div>	
                 </div>
             </div>
         </section>
@@ -170,21 +167,22 @@
                         </div>
                 
                         <div class="banner-para ls-0">
-The 14-inch AVITA PURA embraces a super slim outfit and weighs from a mere 1.344kg, offering you unparalleled portability and ease of use.</span>                        </div>
+The 14-inch AVITA PURA embraces a super slim outfit and weighs from a mere 1.21 kg, offering you unparalleled portability and ease of use.</span>   </div>
                         <section class="product-liber-wifi">
                             <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
                             <div class="data-card mx-3 text-left">
                                 <span class="badge-value">5</span>
-								<span class="badge-caption">mm</span>
-								<div class="badge-caption">Thinnest part</div>
+				<span class="badge-caption">mm</span>
+				<div class="badge-caption">Thinnest part</div>
                             </div>
-                            <div class="data-card mx-3 text-left">
-                                <span class="badge-value">1.344</span>
-								<span class="badge-caption">kg</span>
-								<div class="badge-caption">14-inch weight</div>
+			  <span class="badge-caption text-right">starting<br/>from</span>
+			 <div class="data-card mx-3 text-left">
+                           <span class="badge-value">1.21 </span>
+			    <span class="badge-caption">kg</span>
+				<div class="badge-caption">14-inch weight</div>
                             </div>
                         </div>
-						</section>  
+			</section>  
                     </div>
                 </div>
                 <div class="space60 hidden-sm-down"></div>
@@ -208,7 +206,7 @@ The 14-inch AVITA PURA embraces a super slim outfit and weighs from a mere 1.344
                         </div>
                 <div class="space60 hidden-sm-down"></div>
                         <div class="banner-para ls-0">
-No more agonising wait for the laptop to power up! The AVITA PURA is the perfect example of modern computing and could turn on in as soon as 20 seconds, so you can hop on anytime to flex your creativity - in a lightning fast manner. Thanks to the extended battery life that lasts up to 10 hours, the AVITA PURA is the perfect companion to have your work and life seamlessly combined.<br />
+No more agonising wait for the laptop to power up! The AVITA PURA is the perfect example of modern computing and could turn on in as soon as 20 seconds, so you can hop on anytime to flex your creativity - in a lightning fast manner. Thanks to the extended battery life that lasts up to 10 hours*, the AVITA PURA is the perfect companion to have your work and life seamlessly combined.<br />
 <br />
 The AVITA PURA is pre-installed with the Windows 10 Home Edition operating system (in S mode), along with the 8th-generation Intel® Core™ i3-8145U or i5-8265U processor, up to 8GB RAM, 512GB SSD hard disk and various ports to meet your everyday needs.</span>                        </div>
                     </div>
@@ -252,13 +250,13 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
                 	<div class="col-12 col-lg-8" align="center">
                     	<div class="h2 banner-header"><div class="d-sm-inline" style="text-transform:uppercase;">SIMPLY PERFECT</div></div>
                         <div class="banner-para ls-0 py-3">
-    						<span class="d-lg-block">Pre-installed Windows 10 (S Mode). Windows 10 in S mode is a version of Windows 10 that's streamlined for the best performance, while providing a fast startup and long life battery. To increase security, it allows apps from the Microsoft Store, and requires Microsoft Edge for safe browsing. It's available to switch from S mode to Windows 10 as your preference.　
+    			 <span class="d-lg-block">Pre-installed Windows 10 (S Mode). Windows 10 in S mode is a version of Windows 10 that's streamlined for the best performance, while providing a fast startup and long life battery. To increase security, it allows apps from the Microsoft Store, and requires Microsoft Edge for safe browsing. It's available to switch from S mode to Windows 10 as your preference.　
                             </span>
                             <span class="d-lg-block  py-3">
                             <a href="https://support.microsoft.com/en-in/help/4020089/windows-10-in-s-mode-faq" style="color:#09F" target="_blank">How to switch to Windows 10 Home Edition for free　></a>
                             </span>
                             <span class="d-lg-block  mb-3">
-								<small>
+				<small>
                                 	*Switch out of S mode is an one-way action. You will not be able to revert to the S mode.
 								</small>
 							</span>
@@ -280,7 +278,7 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
                     	<div class="h2 banner-header"><div class="d-sm-inline" style="text-transform:uppercase;">Show your colours</div></div>
                 <div class="space60"></div>
                         <div class="banner-para ls-0">
-    						<span class="d-lg-block mx-3">The AVITA PURA comes with a complimentary notebook 3-in-1 computer sleeve that can be used as a handy carrying case or a stylish carrying bag for your personal belongings. What's more, the soft and slouchy premium sleeve sports a choice of six colours, grey, green, orange, blue, black and purple, to suit your style. </span>
+    				<span class="d-lg-block mx-3">The AVITA PURA comes with a complimentary notebook 3-in-1 computer sleeve that can be used as a handy carrying case or a stylish carrying bag for your personal belongings. What's more, the soft and slouchy premium sleeve sports a choice of six colours, grey, green, orange, blue, black and purple, to suit your style. </span>
                             <span class="d-lg-block  mx-3">
 <small>*The 3-in-1 sleeve is only available during the promotional period and while stocks last.</small></span>
                         </div>
@@ -305,11 +303,11 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
                         <div class="ac-computer-wrap hidden-sm-up">
                             <img class="ac-computer-image ac-computer-2" style="" src="/images/pura/pura_bg4_mob.jpg">
                         </div>
-                		<div class="space30 hidden-sm-down"></div>
+                	<div class="space30 hidden-sm-down"></div>
                         <div class="banner-para ls-0">
-    						<span class="d-lg-block mx-3">The AVITA PURA comes with a complimentary notebook 3-in-1 computer sleeve that can be used as a handy carrying case or a stylish carrying bag for your personal belongings. What's more, the soft and slouchy premium sleeve sports a choice of six colours, grey, green, orange, blue, black and purple, to suit your style. </span>
-                            <span class="d-lg-block  mx-3">
-<small>*The 3-in-1 sleeve is only available during the promotional period and while stocks last.</small></span>
+    			<span class="d-lg-block mx-3">The AVITA PURA comes with a complimentary notebook 3-in-1 computer sleeve that can be used as a handy carrying case or a stylish carrying bag for your personal belongings. What's more, the soft and slouchy premium sleeve sports a choice of six colours, grey, green, orange, blue, black and purple, to suit your style. </span>
+                         <span class="d-lg-block  mx-3">
+                        <small>*The 3-in-1 sleeve is only available during the promotional period and while stocks last.</small></span>
                         </div>
                 		<div class="space30 hidden-sm-down"></div>
                         <div>
@@ -335,9 +333,8 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
                                 
                              <!--   <div class="banner-para text-center">
                                     <span class="d-lg-block">
-                                        <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-pura-laptop?___store=en_hk&utm_source=brandsitepuraproductpage&utm_medium=web&utm_campaign=puraLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#09F">Buy now
-             ></a>&nbsp;&nbsp; 
-                                        <a href="{{ route('product.map', 'pura') }}" style="color:#09F">Where to buy ></a> 
+                                        <a href="https://www.nexstmall.com/en_hk/avita.html/cto/avita-pura-laptop?___store=en_hk&utm_source=brandsitepuraproductpage&utm_medium=web&utm_campaign=puraLaunchPhase1&utm_content=overviewpage" target="_blank" style="color:#09F">Buy now</a>&nbsp;&nbsp; 
+                                        <a href="<?php echo e(route('product.map', 'pura')); ?>" style="color:#09F">Where to buy ></a> 
                                     </span>
                                 </div>
 
@@ -364,6 +361,8 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
                     <li>Colors of actual products may differ from product shots due to photography lighting or display setting of your viewing device.</li>
                     <li>We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.</li>
                     <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.</li>
+                    <li>*Under Test Conditions</li>
+
                 </ul>
             </div>
         </section>
@@ -374,15 +373,16 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
 
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('css')
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/product-liber.css') }}"/>
-@endsection
+<?php $__env->startSection('css'); ?>
+    <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-liber.css')); ?>"/>
+<?php $__env->stopSection(); ?>
 
-@section('js')
+<?php $__env->startSection('js'); ?>
 
-    <script type="text/javascript" src="{{ asset('js/pura.js') }}"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/pura.js')); ?>"></script>
 
+<?php $__env->stopSection(); ?>
 
-@endsection
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

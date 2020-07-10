@@ -17,7 +17,7 @@
 
                 <li class="nav-item has-dropdown">
                     <input id="header_product" type="checkbox" hidden="">
-                    <a class="nav-link"><label for="header_product">@lang('site.products')</label></a>
+                    <a class="nav-link"><label for="header_product"><?php echo app('translator')->getFromJson('site.products'); ?></label></a>
 
 
                     <div class="dropdown">
@@ -25,29 +25,29 @@
 
                             <li class="nav-item has-dropdown">
                                 <input id="header_product_liber" type="checkbox" hidden="">
-                                <a class="nav-link px-md-4 py-2"><label for="header_product_liber" class="d-block mb-0">@lang('site.laptops')</label></a>
+                                <a class="nav-link px-md-4 py-2"><label for="header_product_liber" class="d-block mb-0"><?php echo app('translator')->getFromJson('site.laptops'); ?></label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
                                        <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['admiror']) }}">@lang('site.admiror')</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['admiror'])); ?>"><?php echo app('translator')->getFromJson('site.admiror'); ?></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['pura']) }}">@lang('site.pura')</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['pura'])); ?>"><?php echo app('translator')->getFromJson('site.pura'); ?></a>
                                         </li>
                             
                                         <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'cosmos') }}">@lang('site.cosmos')</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'cosmos')); ?>"><?php echo app('translator')->getFromJson('site.cosmos'); ?></a>
                                         </li>
 
                                            <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber12']) }}">@lang('site.liber12')</a>
+                                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber12'])); ?>"><?php echo app('translator')->getFromJson('site.liber12'); ?></a>
                                             </li>
                                              <li class="nav-item">
-                                                    <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-new-generation']) }}">@lang('site.liber-new-generation')</a>
+                                                    <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-new-generation'])); ?>"><?php echo app('translator')->getFromJson('site.liber-new-generation'); ?></a>
                                                 </li>
 
                                         <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'magus-lite-2in1-laptop') }}">@lang('magus.name')</a>
+                                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'magus-lite-2in1-laptop')); ?>"><?php echo app('translator')->getFromJson('magus.name'); ?></a>
                                             </li>
 
                                     </ul>
@@ -57,14 +57,14 @@
 
                             <li class="nav-item has-dropdown">
                                 <input id="header_product_device" type="checkbox" hidden="">
-                                <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">@lang('site.smart_device')</label></a>
+                                <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0"><?php echo app('translator')->getFromJson('site.smart_device'); ?></label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
                                         <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['imago']) }}">@lang('site.imago_series')</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['imago'])); ?>"><?php echo app('translator')->getFromJson('site.imago_series'); ?></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['modus']) }}">@lang('site.modus_scale')</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['modus'])); ?>"><?php echo app('translator')->getFromJson('site.modus_scale'); ?></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -73,13 +73,13 @@
 
                             <li class="nav-item has-dropdown">
                                 <input id="header_product_accessories" type="checkbox" hidden="">
-                                <a class="nav-link px-md-4 py-2"><label for="header_product_accessories" class="d-block mb-0">@lang('site.accessories')</label></a>
+                                <a class="nav-link px-md-4 py-2"><label for="header_product_accessories" class="d-block mb-0"><?php echo app('translator')->getFromJson('site.accessories'); ?></label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
 
                                         <li class="nav-item">
 
-                                            <a class="nav-link px-md-4 py-2" href="/accessories/mouse">@lang('site.mouse')</a>
+                                            <a class="nav-link px-md-4 py-2" href="/accessories/mouse"><?php echo app('translator')->getFromJson('site.mouse'); ?></a>
                                         </li>
 
                                     </ul>
@@ -91,21 +91,21 @@
 
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('news') }}">@lang('site.news')</a>
+                    <a class="nav-link" href="<?php echo e(route('news')); ?>"><?php echo app('translator')->getFromJson('site.news'); ?></a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/where-to-buy">@lang('site.header_where_to_buy')</a>
+                    <a class="nav-link" href="/where-to-buy"><?php echo app('translator')->getFromJson('site.header_where_to_buy'); ?></a>
                 </li>
-                @if( $storeURL )
+                <?php if( $storeURL ): ?>
 
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="{{ $storeURL }}">@lang('site.header_store')</a>
+                        <a class="nav-link" target="_blank" href="<?php echo e($storeURL); ?>"><?php echo app('translator')->getFromJson('site.header_store'); ?></a>
                     </li>
-                @endif
+                <?php endif; ?>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('support') }}">@lang('site.service')</a>
+                    <a class="nav-link" href="<?php echo e(route('support')); ?>"><?php echo app('translator')->getFromJson('site.service'); ?></a>
                 </li>
 
                 <li class="nav-item has-dropdown">
