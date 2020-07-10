@@ -13,7 +13,7 @@
                         <img src="/images/blog/blog3.jpeg" class="img-responsive" />
                     </div>
         <div class="event-desc-block pb-5">
-        <h5 class="text-center mt-4 mb-3 font-weight-light">@lang('site.blog4')</h5>
+        <h5 class="text-center mt-4 mb-3 font-weight-light">@lang('site.blog3')</h5>
         <p><span lang="EN-US">After years of education, it is finally time for you to become a graduate. It is finally time for you to learn what you have craved your entire life. You take admission in a college and go through a ton of syllabus. But the question stands, "What now?" In order to succeed in life, you need to come up with unique, innovative ideas and apply them in real life. Competition is at an all-time high. You must know that it is now or never. You must understand the importance of being creative during your college days for you to succeed. College days are considered to be the best days in the life of a person during which the person holds the highest probability of success.</span></p>
         <h6 class="text-left mt-4 mb-3 font-weight-light"><strong>Why are College days the best days to be Creative?</strong></h6> 
         <p><span lang="EN-US">It is essential for the students to be creative while they are in college. Let us know why.</span></p>
