@@ -49,12 +49,12 @@
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 
     @yield('meta')
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" async/>
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" async/>
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/global.css') }}" async/>
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css') }}" async />
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('css/global.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}"/>
 
-    
+
     <title>@yield('title', 'AVITA') {{ $TITLE_SUFFIX or "" }}</title>
 
  
