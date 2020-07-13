@@ -5,13 +5,13 @@
             <span></span>
         </div>
         <a class="navbar-brand mr-0 hidden-md-up" href="/">
-            <img src="/images/logo.png"/>
+            <img src="/images/logo.png" alt="AVITA INDIA Official Website"/>
         </a>
 
         <div class="navbar-collapse">
             <ul class="navbar-nav mr-auto d-md-flex flex-md-row align-items-md-center justify-content-md-between">
                 <li class="hidden-sm-down">
-                    <a class="" href="/"><img src="/images/logo.png"/></a>
+                    <a class="" href="/"><img src="/images/logo.png" alt="AVITA INDIA Official Website"/></a>
                 </li>
 
 
@@ -95,7 +95,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/where-to-buy">@lang('site.header_where_to_buy')</a>
+                    <a class="nav-link" href="{{ route('product.map') }}">@lang('site.header_where_to_buy')</a>
                 </li>
                 @if( $storeURL )
 

@@ -111,16 +111,16 @@ class HomeController extends Controller
         return view('pages.global');
     }
 
-    public function getContact_us( ){
+    public function getContactUs( ){
 
         // Determine which contact_us page by region
 
         $country_code = session('country', 'hk');
 
-        $view_name = 'pages.contact_us_'.$country_code;
+        $view_name = 'pages.contact-us-'.$country_code;
 
         if ( !\View::exists($view_name) ) {
-            $view_name = 'pages.contact_us';
+            $view_name = 'pages.contact-us';
         }
 
         return view( $view_name );
@@ -133,8 +133,8 @@ class HomeController extends Controller
 
     public function getRepairTerms( ){
 
-     $title = __('site.footer_repair_tnc');
-	            return view('pages.repair_tnc', ['title' => $title]);
+     $title = __('site.footer-repair-tnc');
+	            return view('pages.repair-tnc', ['title' => $title]);
 
 
     }

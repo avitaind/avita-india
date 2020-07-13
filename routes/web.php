@@ -91,7 +91,7 @@ Route::get('/entry','HomeController@entry');
 
 
 Route::get('/aboutus', 'HomeController@getAboutUs');
-Route::get('/contact_us', 'HomeController@getContact_us');
+Route::get('/contact-us', 'HomeController@getContactUs');
 Route::get('tnc', 'HomeController@getTerms');
 
 // Route::get('/imago', 'HomeController@getImago')->name('imago');
@@ -151,7 +151,7 @@ if ( Request::segment(1) != 'admin') {
 
 
     // Pages
-    Route::get('/repair_tnc', 'HomeController@getRepairTerms')->name('repair_tnc');
+    Route::get('/repair-tnc', 'HomeController@getRepairTerms')->name('repair-tnc');
     Route::get('/support', 'HomeController@getSupport')->name('support');
     Route::post('/support', 'HomeController@handleSupportRedirect');
     Route::get('/search_result', 'HomeController@getSearch_result');

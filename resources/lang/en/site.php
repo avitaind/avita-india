@@ -71,7 +71,7 @@ return [
     'footer_aboutus'                => 'About Us',
     'footer_contact'                => 'Contact AVITA',
     'footer_terms_privacy'          => '',
-    'footer_repair_tnc'             => 'Repair Terms & Conditions',
+    'footer-repair-tnc'             => 'Repair Terms & Conditions',
 
     'home_learnmore'                => 'Learn More',
     'home_shopnow'                  => 'Shop Now',

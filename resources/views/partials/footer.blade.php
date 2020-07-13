@@ -48,13 +48,13 @@
                                 <a class="my-1" target="_blank" href="{{ $storeURL }}">@lang('site.header_store')</a>
                             @endif
 
-                            <a href="/contact_us" class="my-1">@lang('site.footer_contact')</a>
+                            <a href="/contact-us" class="my-1">@lang('site.footer_contact')</a>
 
 
                         </div>
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
                             <a href="{{ route('support') }}" class="my-1">@lang('site.productnav_support')</a>
-                            <a href="{{ route('repair_tnc') }}" class="my-1">@lang('site.footer_repair_tnc')</a>
+                            <a href="{{ route('repair-tnc') }}" class="my-1">@lang('site.footer-repair-tnc')</a>
                             <a href="/tnc" class="my-1">@lang('site.terms')</a>
                             <a href="/tnc" class="my-1">@lang('site.privacy')</a>
                         </div>
@@ -74,11 +74,11 @@
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
 
 
-                            <a href="/contact_us" class="my-1">@lang('site.footer_contact')</a>
+                            <a href="{{ route('repair-tnc') }}" class="my-1">@lang('site.footer_contact')</a>
 
                             <a href="{{ route('support') }}" class="my-1">@lang('site.productnav_support')</a>
 
-                            <a href="/repair_tnc" class="my-1">@lang('site.footer_repair_tnc')</a>
+                            <a href="{{ route('repair-tnc') }}" class="my-1">@lang('site.footer-repair-tnc')</a>
 
                             <a href="/tnc" class="my-1">@lang('site.terms')</a>
                             <a href="/tnc" class="my-1">@lang('site.privacy')</a>
