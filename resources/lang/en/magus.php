@@ -44,6 +44,6 @@ return [
     'color'               			=> 'Color',
     'color-detail'           		=> 'Steel Blue, Charcoal Grey, Seashell pink, Pastel Violet',
     'img-feature'           		=> '/images/magus/feature.png',
-	'img-banner1'           		=> '/images/banner/magus_web_banner2.png',
-	'img-banner2'           		=> '/images/banner/MAGUS-MOB-BANNER.png',
+	'img-banner1'           		=> '/images/banner/MAGUS-WEB-BANNER.jpg',
+	'img-banner2'           		=> '/images/banner/MAGUS-MOB-BANNER.jpg',
 ];
