@@ -52,10 +52,10 @@
 
     <title>@yield('title', 'AVITA') {{ $TITLE_SUFFIX or "" }}</title>
 
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" async/>
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" async/>
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/global.css') }}" async/>
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css') }}" async/>
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" defer/>
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" defer/>
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/global.css') }}" defer/>
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css') }}" defer/>
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css"> -->
     <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap" type="text/javascript"></script>-->
