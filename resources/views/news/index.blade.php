@@ -22,7 +22,7 @@ $page = 'events';
                             <p>AVITA Appoints Ingram Micro To Boost Distribution Network In Indian Market</p>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/events/avita-ingram.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/events/avita-ingram.jpg" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i>2020.06.20</div>

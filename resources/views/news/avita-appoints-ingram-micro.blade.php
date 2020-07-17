@@ -30,7 +30,7 @@
 
                 </div>
                 <div class="event-banner">
-                    <img src="/images/events/avita-ingram.png" class="img-responsive">
+                    <img src="/images/events/avita-ingram.jpg" class="img-responsive">
                 </div>
                 <div class="event-desc py-3 mb-5">
                     <div class="event-desc-block pb-5">
