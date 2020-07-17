@@ -11,6 +11,7 @@ class ProductsController extends Controller
 {
 
     protected function productFromURL($country, $slug ) {
+
         $country = 'in';
         $product = Product::whereCountry($country)->where('short_code', $slug)->first();
 
@@ -40,9 +41,22 @@ class ProductsController extends Controller
                 case 'in':
                     return view('product.magus-lite', compact( 'product'));
                     break;
+            }
+        }
+
+
+       /* if ( $slug == 'liber-v' ){
+
+            switch ( $country ) {
+                case 'in':
+                    return view('product.liber-v.feature_hk_en', compact( 'product'));
+                    break;
 
             }
         }
+         */
+        
+         
 
       /*  if ( $slug == 'cosmos' ){
 
@@ -53,7 +67,7 @@ class ProductsController extends Controller
 
             }
         }
-*/
+    */
         if ( $slug == 'admiror' ){
 
             switch ( $country ) {
@@ -150,6 +164,15 @@ class ProductsController extends Controller
         $country = 'in';
         $product = $this->productFromURL($country, $slug);
 
+        /*if ( $slug == 'liber-v' ){
+            switch ( $country ) {
+                case 'in':
+                    return view('product.liber-v.spec_hk_en', compact( 'product'));
+
+                    break;
+            }
+        }
+        */
    
         if ( $slug == 'cosmos' ){
             switch ( $country ) {
@@ -332,7 +355,8 @@ class ProductsController extends Controller
             return ASPAPIService::getProductNumbersByMarketingNumber( $request->get('marketing_number') );
         } else {
             return ASPAPIService::getProductNumbersByProductSeries( $request->get('series') );
-        }https://avita-india.com/product/liber-new-generation
+        }
+        https://avita-india.com/product/liber-new-generation
 
 
 

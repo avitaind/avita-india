@@ -30,7 +30,7 @@
                 <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.support', 'liber')); ?>"><?php echo app('translator')->getFromJson('site.productnav_support'); ?></a></li>
 
                     <li class="nav-item">
-                        <a class="nav-link py-1" href="<?php echo e(route('product.map', 'liber')); ?>"><?php echo app('translator')->getFromJson('site.productnav_wheretobuy'); ?></a>
+                        <a class="nav-link py-1" href="<?php echo e(route('product.map')); ?>"><?php echo app('translator')->getFromJson('site.productnav_wheretobuy'); ?></a>
                     </li>
             </ul>
         </div>
