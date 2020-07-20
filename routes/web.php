@@ -27,7 +27,7 @@ Route::post('/sales-enquiry','SalesEnquiryController@enquirySaveData');
 Route::get('/cap','CampusController@index'); 
 Route::post('/cap','CampusController@storeDevice');
 // Campus Controller
-Route::post('/subscription', 'HomeController@handleSubscription');
+//Route::post('/subscription', 'HomeController@handleSubscription');
 
 
 
