@@ -8,7 +8,7 @@ use App\ProductModel;
 use App\RepairTerm;
 use App\ServiceCenter;
 use App\Settings;
-use App\Subscription;
+
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -138,24 +138,6 @@ class HomeController extends Controller
 
 
     }
-
-    public function handleSubscription(Request $request) {
-        $this->validate($request, ['subscription_email' => 'required|email']);
-        $email = $request->get('subscription_email');
-        // Store to DB.
-        $subscription = Subscription::firstOrCreate(['email' => $email]);
-        $sub = new SendInMail;
-        $sub->createUser($email);
-        $data = [
-            'status' => 'success',
-            'message' => 'Thank you for your subscription!'
-        ];
-        return response( $data );
-        
-    }
-
-    
-	
 
     public function getImago(Request $request) {
         return view('product.imago');

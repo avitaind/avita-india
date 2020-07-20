@@ -6,31 +6,36 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
 
-
 use App\Http\Requests;
 
 use App\Subscription;
 
 class SubscriptionController extends Controller
 {
-    public function handleSubscription(Reqest $request){
 
-        $subscription = new Subscription([
-            'email' => $request->get('email'),
-        ]);
-        $subscription->save();
+    public function handleSubscription(Request $request){
 
-        \Mail::send('emails.subscription',
+     $subscription = new Subscription([
+      'email' => $request->get('subscription_email'),
+      
+      ]);
+
+         $Subscription->save();
+
+       \Mail::send('emails.subscription',
         array(
-            'email' => $request->get('email'),
+         'email' => $request->get('subscription_email'),
+         
         ), function ($message) use ($request)
-        {
-            $email = $request->input('email');
+      {
+            $email = $request->input('subscription_email');
+          
+           $message->from('contact@avita-india.com');
+           $message->to($email, $name)->subject('AVITA INDIA | SUBSCRIPTION');
+       });
      
-            $message->from('contact@avita-india.com');
-            $message->to($email)->subject('AVITA INDIA | Subscription');
-        });
-        return redirect()->back()->with('message', 'Thank you for your submission. You shall receive a confirmation mail shortly!');
+        return redirect()->back()->with('message', 'Thank you for your subscription!');
 
     }
+
 }

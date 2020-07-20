@@ -118,7 +118,6 @@ Route::get('/member/product_reg_success', 'MemberController@showProduct_reg_succ
 
 
 //EDM
-Route::post('/subscription', 'SubscriptionController@handleSubscription');
 
 
 Route::auth();
@@ -219,8 +218,10 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin'],  'namespace' 
     Route::get('device_data_export', 'DeviceDataController@downloadForm');
     Route::post('device_data_export', 'DeviceDataController@handleDownload');
 
-    Route::get('subscriptions', 'SubscriptionsController@showSubcriptionList');
-    // EDM subscription
+// EDM subscription
+    Route::post('/subscription', 'SubscriptionController@handleSubscription');
+    Route::get('/subscription', 'SubscriptionController@showSubcriptionList');
+    
 
 //    Route::get('registrations', 'RegistrationsController@showRegistrationList');
 
