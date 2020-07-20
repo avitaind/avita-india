@@ -35,7 +35,7 @@
                         <div class="banner-para">
                         <div align="center" class="col-lg-12" >
           <!---     <div class="h2 banner-header">COMING SOON</div> --->
-        <span class="buy-now2"><a href="https://www.amazon.in/s?k=avita+pura">Buy Now</a></span>
+        <span class="buy-now2"><a href="https://www.flipkart.com/search?q=avita%20pura%20&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off">Buy Now</a></span>
            </div>
   <!--
                     <br/>
