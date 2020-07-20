@@ -35,7 +35,7 @@ class ProductsController extends Controller
         $country = 'in';
         $product = $this->productFromURL($country, $slug);
 
-        if ( $slug == 'magus-lite' ){
+    if ( $slug == 'magus-lite' ){
 
             switch ( $country ) {
                 case 'in':
@@ -44,8 +44,7 @@ class ProductsController extends Controller
             }
         }
 
-
-       /* if ( $slug == 'liber-v' ){
+    if ( $slug == 'liber-v' ){
 
             switch ( $country ) {
                 case 'in':
@@ -54,10 +53,7 @@ class ProductsController extends Controller
 
             }
         }
-         */
-        
-         
-
+  
       /*  if ( $slug == 'cosmos' ){
 
             switch ( $country ) {
@@ -160,11 +156,12 @@ class ProductsController extends Controller
         return view('product.liber_spec_new');
     }
     */
+
     public function showProductSpec( $slug) {
         $country = 'in';
         $product = $this->productFromURL($country, $slug);
 
-        /*if ( $slug == 'liber-v' ){
+        if ( $slug == 'liber-v' ){
             switch ( $country ) {
                 case 'in':
                     return view('product.liber-v.spec_hk_en', compact( 'product'));
@@ -172,7 +169,7 @@ class ProductsController extends Controller
                     break;
             }
         }
-        */
+        
    
         if ( $slug == 'cosmos' ){
             switch ( $country ) {

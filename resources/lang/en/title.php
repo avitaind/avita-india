@@ -48,7 +48,13 @@ return [
      'COSMOS_home'      =>'AVITA COSMOS',
      'COSMOS_spec'      =>'AVITA COSMOS',
      'sales_enquiry'      =>'Sales Enquiry',
-
+     'new_liber_125_home'  => 'AVITA LIBER 12.5" NEW',
+     'LIBER_v_home'  	  => 'AVITA LIBER V',
+     'LIBER_v_home_intel'  => 'AVITA LIBER V Intel',
+     'LIBER_v_home_amd'    => 'AVITA LIBER V AMD',
+     'LIBER_v_spec'  	  => 'AVITA LIBER V Spec', 
+     'Essential_home'   	  => 'AVITA Essential',
+     'Essential_spec'  	  => 'AVITA Essential Spec',
     
 
 ];
