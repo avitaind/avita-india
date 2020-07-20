@@ -118,7 +118,7 @@ Route::get('/member/product_reg_success', 'MemberController@showProduct_reg_succ
 
 
 //EDM
-Route::post('subscription', 'HomeController@handleSubscription');
+Route::post('/subscription', 'SubscriptionController@handleSubscription');
 
 
 Route::auth();
