@@ -64,7 +64,7 @@ class HomeController extends Controller
         return view('pages.about_us');
     }
 
-    public function getSupportNew( ){
+   /* public function getSupportNew( ){
 
         $productModels = ProductModel::all();
 
@@ -73,7 +73,7 @@ class HomeController extends Controller
 
         return view('pages.support-new', compact('productModels', 'serviceCenters'));
     }
-
+*/
 
 
     public function getSupport( ){

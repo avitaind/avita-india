@@ -158,7 +158,7 @@ if ( Request::segment(1) != 'admin') {
 
     //Support Demo
 
-    Route::get('/support-new', 'HomeController@getSupportNew')->name('support');
+//    Route::get('/support-new', 'HomeController@getSupportNew')->name('support');
 
     //
     // News
