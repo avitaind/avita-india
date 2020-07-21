@@ -222,9 +222,9 @@ window.addEventListener('load',
 <script async type="text/javascript" src="{{ asset('js/conversion.js') }}"></script>
 <script async type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
 
-<script async src="{{asset('/js/wpk4iql.js')}}"></script>
-<script async src="{{asset('/js/support.js')}}"></script>
-<script async src="{{asset('/js/liber.js')}}"></script>
+<script async type="text/javascript" src="{{asset('/js/wpk4iql.js')}}"></script>
+<script async type="text/javascript" src="{{asset('/js/support.js')}}"></script>
+<script async type="text/javascript" src="{{asset('/js/liber.js')}}"></script>
 
 @stack('js')
 @yield('js')
