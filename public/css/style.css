@@ -520,6 +520,11 @@ section.color-choice .container{
   text-decoration: none;
 }
 
+.buy-now2:hover{
+  color: white;
+  text-decoration: none;
+}
+
 .preloader 
 {
     position: absolute;

@@ -25,24 +25,30 @@
                 </div>
             </div>
         </section>
+
         
-         <section class="product-liber-computer ls-0" id="test" style="background-color:#ebf3f5;">
+        
+         <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
                 <div class="container">
                         <div class="space60"></div>
                         <div class="banner-para">
                         <div align="center" class="col-lg-12" >
-                        	<div class="h2 banner-header">AVAILABLE NOW</div>
+                       <!--   <div class="admiror_h1">COMING SOON</div>--->
+                      <span class="buy-now2"> COMING SOON</span> 
                         </div>
-                        <div class="banner-para text-center">
+                        <!--
+                            <div class="banner-para text-center">
                             <span class="d-lg-block">
                             <a href="https://www.nexstmall.com/products/avita-liber-v-14?utm_source=brandsite_medium=overview_campaign=buynow" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; 
                             <a href="<?php echo e(route('product.map', 'liber-v')); ?>" style="color:#09F">Where to buy ></a>
                             </span>
                         </div>
+                        --->
                         <div class="space60"></div>
                     </div>
                 </div>
         </section>
+
         
 
         <section class="product-liber-computer product-liber-v-computer">
@@ -51,9 +57,9 @@
                 <div class="container">
                 
                     <div class="banner-info">
-                    	<div class="h1 banner-header mb-4 mb-sm-5">Post-modern inspired design</div>
+                    	<div class="h1 banner-header mb-4 mb-sm-5">Avant Garde Design</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Taking "Limitless Evolution" as its concept, LIBER V's design is inspired by the creativity of the avant-garde post-modern fortress La Muralla Roja in Spain. LIBER V installs its high-quality webcam out of the screen with neat geometric lines, perfectly interprets the epistemology of geometry. Paired with the vibrant color options of LIBER V, the geometric chassis realizes a slimmer body and an easy-to-open clip, thereby offering a new interpretation of design in laptop fashion.</span> 
+                            <span class="d-lg-block">Inspired by the neat geometric lines of La Muralla Roja (The Red Wall) fortress in Spain, the perfect embodiment of Post-Modern architecture, LIBER V’s design completely justifies its slogan ‘Limitless evolution’. Its high-quality webcam stands out quite literally, perfectly completing the picture of a sleek and angular body with pleasing aesthetics. LIBER V comes in 14 vibrant color options* encasing an ultra slim Aluminum build and equipped with an easy-to-open clip thereby achieving the trifecta of design, durability and function.</span> 
                         </div> 
                     </div>
                     
@@ -88,9 +94,9 @@
                 </div>
                 <div class="container">
                     <div class="banner-info">
-                        <div class="h1 banner-header mb-4 mb-sm-5">Incredible Viewing Experience</div>
+                        <div class="h1 banner-header mb-4 mb-sm-5">Experience Visual Transcendence</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Slimmer but greater. The LIBER V series has a 3.7mm unbound ultra-narrow bezel which has been reduced by about 63% compared with previous LIBER series notebooks, one step closer to perfection with its 78.2% screen-to-body ratio. With a full HD 16:9 IPS display with anti-glare, presenting detailed images clearly with a stable response time under various ambient indoor and outdoor lighting conditions, allowing you to enjoy the LIBER V's big world with the ultra-wide viewing angle of 178 degrees. Whether you are studying, working, or simply having fun, LIBER V brings you an extraordinary viewing experience that you have never seen.</span> 
+                            <span class="d-lg-block">Expand your vision with LIBER V’s 3.7 mm unbound ultra- narrow bezel which gives its screen a larger viewing area compared to previous LIBER notebooks.  A high screen to body ratio at 72.8% combined with an FHD 16:9 IPS anti-glare display allows you to the stretch the limits of your viewing experience for an ultra-wide viewing angle of 178 degrees. Whether you are working or playing; indoors or outdoors, never miss any details with the vibrant image feedback at a quite stable response time with LIBER V.</span> 
                         </div> 
                     </div>
 
@@ -108,21 +114,17 @@
                 </div>
                 <div class="container">
                     <div class="banner-info"> 
-                        <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Colorful Expression</div></div>
+                        <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Kaleidoscopic Expression</div></div>
                         <div class="banner-para ls-0">
-                            <span class="d-md-block">Appealing to different style personalities, LIBER V debuts</span>
-                            <span class="d-md-block">with over 14 distinguishably attractive colors. You can</span>
-                            <span class="d-md-block">also customize your LIBER V with a laser engraving service,</span>
-                            <span class="d-md-block">engraving names or words onto the chassis to reflect your</span> 
-                            <span class="d-md-block">unique personal statement, like a fashion accessory tailored</span>
-                            <span class="d-md-block">just for you. You can fully release your personal charm</span>
-                            <span class="d-md-block">and stand out from the crowd.</span>
+                            <span class="d-md-block">The 14 distinctive and flamboyant color options of </span>
+                            <span class="d-md-block">LIBER V boost it uniqueness as a personality statement accessory. </span>
+                            <span class="d-md-block">Now, put your own mark further on LIBER V by opting for</span>
+                            <span class="d-md-block">Laser Engraving Service for the chassis. We will keep</span> 
+                            <span class="d-md-block">adding more colors and patterns to LIBER V catalog,</span>
+                            <span class="d-md-block">keeping you spoilt for choices.</span>
                             <span class="d-md-block">&nbsp;</span>
                             <span class="d-md-block"></span>
                             <p class="hidden-md-up">&nbsp;</p>
-                            <span class="d-md-block">More color combinations will be coming soon to suit</span>
-                            <span class="d-md-block">your every day needs. Whether you are a professional</span>
-                            <span class="d-md-block">or a fashionista, LIBER V makes you shine even more.</span>
                             
                         </div>
                           
@@ -148,16 +150,16 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-1" style="" src="/images/liber-v/AVITA_liber_v_screen.jpg">  
                         </div>
-                        <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Readily Portable</div></div>
+                        <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Prompt Portability</div></div>
                         <div class="banner-para ls-0">
-                            <span class="d-md-block">LIBER V is sophisticatedly engineered by compacting</span>
-                            <span class="d-md-block">a 14-inch screen inside the 13.3-inch that weights</span>
-                            <span class="d-md-block">from just 1.28kg, 14% less than previous models and</span>
-                            <span class="d-md-block">well-balancing lightness and durability, bringing you</span>
-                            <span class="d-md-block">an easy and convenient experience. LIBER V incorporates</span>
-                            <span class="d-md-block">a Windows Hello fingerprint reader, which strengthens</span>
-                            <span class="d-md-block">privacy protection. LIBER V can always accompany you</span>
-                            <span class="d-md-block">while traveling or working effortlessly.</span>
+                            <span class="d-md-block">The smart design and sophisticated engineering behind </span>
+                            <span class="d-md-block">LIBER V ensures that the 14-inch visage of</span>
+                            <span class="d-md-block">LIBER V weighs merely 1.25 kgs. 14% lighter than</span>
+                            <span class="d-md-block">previous LIBER models, LIBER V achieves the ideal</span>
+                            <span class="d-md-block">in terms of easy mobility factor. Combine that</span>
+                            <span class="d-md-block">with the fingerprint lock powered by Windows Hello,</span>
+                            <span class="d-md-block">and LIBER V becomes the perfect technology weapon,</span>
+                            <span class="d-md-block">easy to carry and ready to be unleashed with a snap and a touch.</span>
                         </div>
                         <div class="banner-data d-flex flex-wrap text-left mx-auto pl-sm-5">
                         	
@@ -197,25 +199,16 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-1" style="" src="/images/liber-v/AVITA_liber_v_performance.jpg">
                         </div>
-                        <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Extraordinary Performance and Productivity</div></div>
+                        <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Sensational Performance and Productivity</div></div>
                         <div class="banner-para ls-0">
-                            <span class="d-md-block">Not only LIBER V is unique in appearance but also in </span>
-                            <span class="d-md-block">performance. Adapting the new 10th Gen Intel® Core™</span>
-                            <span class="d-md-block">i5-10210U/i7-10510U processors, 8GB RAM and large storage</span>
-                            <span class="d-md-block"> up to 1TB SSD, LIBER V can swiftly process and access files,</span>
-                            <span class="d-md-block">allowing you to work with ease, even with complex workflows.</span>
-                            <span class="d-md-block">&nbsp;</span>
-                            <span class="d-md-block">LIBER V’s full-size backlit keyboard with 1.5mm key</span>
-                            <span class="d-md-block">travel and 19mm key pitch delivers the ultimate word</span>
-                            <span class="d-md-block">processing experience that you could ever ask for.</span>
-                            <span class="d-md-block">Along with AVITA’s extra-large touchpad, support</span>
-                            <span class="d-md-block">for 4 fingers gestures perfectly, you can have more</span>
-                            <span class="d-md-block">space to control. LIBER V’s battery life lasts for</span>
-                            <span class="d-md-block">up to 10 hours whilst the notebook is equipped</span>
-                            <span class="d-md-block">with different ports that are compatible with other</span>
-                            <span class="d-md-block">devices. Making it possible to simultaneously charge,</span>
-                            <span class="d-md-block">transfer data, display, and connect to various</span>
-                            <span class="d-md-block">devices to meet your different needs.</span> 
+                            <span class="d-md-block">LIBER V takes an evolutionary step forward in terms of </span>
+                            <span class="d-md-block">performance parameter by adapting the new 10th Gen Intel® </span>
+                            <span class="d-md-block">Core™i5-10210U/i7-10510U processors and AMD Ryzen™ 5</span>
+                            <span class="d-md-block">3500U- AMD Ryzen™ 7 3700U with 8 GB RAM,</span>
+                            <span class="d-md-block">an ultra-fast SSD Drive up to 1 TB and </span>
+                            <span class="d-md-block">preloaded Windows 10 home enabling you tackle even</span>
+                            <span class="d-md-block"> the most complex tasks with practiced ease.</span>
+
                         </div>
                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between">
                                 

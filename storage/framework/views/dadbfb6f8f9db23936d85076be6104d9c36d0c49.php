@@ -144,6 +144,7 @@
     <?php echo $__env->yieldPushContent('css'); ?>
     <?php echo $__env->yieldContent('css'); ?>
    
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" async></script> 
 
 <script type="text/javascript">
 window.addEventListener('load', 
@@ -218,15 +219,13 @@ window.addEventListener('load',
 </noscript>
 -->
 
-<script async type="text/javascript" src="<?php echo e(asset('js/vendor.js')); ?>"></script>
-<script async type="text/javascript" src="<?php echo e(asset('js/conversion.js')); ?>"></script>
-<script async type="text/javascript" src="<?php echo e(asset('js/demo.js')); ?>"></script>
+<script type="text/javascript" src="<?php echo e(asset('js/vendor.js')); ?>"></script>
+<script type="text/javascript" src="<?php echo e(asset('js/conversion.js')); ?>"></script>
+<script type="text/javascript" src="<?php echo e(asset('js/demo.js')); ?>"></script>
 
-<script async type="text/javascript" src="<?php echo e(asset('/js/wpk4iql.js')); ?>"></script>
-<script async type="text/javascript" src="<?php echo e(asset('/js/support.js')); ?>"></script>
-<script async type="text/javascript" src="<?php echo e(asset('/js/liber.js')); ?>"></script>
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" async></script> 
+<script type="text/javascript" src="<?php echo e(asset('/js/wpk4iql.js')); ?>"></script>
+<script type="text/javascript" src="<?php echo e(asset('/js/support.js')); ?>"></script>
+<script type="text/javascript" src="<?php echo e(asset('/js/liber.js')); ?>"></script>
 
 <?php echo $__env->yieldPushContent('js'); ?>
 <?php echo $__env->yieldContent('js'); ?>
