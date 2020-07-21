@@ -143,7 +143,8 @@
 
     <?php echo $__env->yieldPushContent('css'); ?>
     <?php echo $__env->yieldContent('css'); ?>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" async></script> 
+
 <script type="text/javascript">
 window.addEventListener('load', 
   function() { 
@@ -220,7 +221,6 @@ window.addEventListener('load',
 <script async type="text/javascript" src="<?php echo e(asset('js/vendor.js')); ?>"></script>
 <script async type="text/javascript" src="<?php echo e(asset('js/conversion.js')); ?>"></script>
 <script async type="text/javascript" src="<?php echo e(asset('js/demo.js')); ?>"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" async></script> 
 
 <script async src="<?php echo e(asset('/js/wpk4iql.js')); ?>"></script>
 <script async src="<?php echo e(asset('/js/support.js')); ?>"></script>
