@@ -76,6 +76,7 @@
 <!--
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154623067-1"></script>
     --->
+    <script async type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
 
 <script async>
   window.dataLayer = window.dataLayer || [];
@@ -142,13 +143,11 @@
 
     @stack('css')
     @yield('css')
+    
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" async></script> 
 
- <script async type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
 
 
-<script async src="{{asset('/js/wpk4iql.js')}}"></script>
-<script async src="{{asset('/js/support.js')}}"></script>
 
 <script type="text/javascript">
 window.addEventListener('load', 
@@ -157,6 +156,7 @@ window.addEventListener('load',
   },false);
 
 </script>
+
 </head>
 
 <body class="lang_{{$lang}} country_{{ $country }}">
@@ -225,6 +225,11 @@ window.addEventListener('load',
 <script async type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
 <script async type="text/javascript" src="{{ asset('js/conversion.js') }}"></script>
 <script async type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
+
+<script async src="{{asset('/js/wpk4iql.js')}}"></script>
+<script async src="{{asset('/js/support.js')}}"></script>
+<script async src="{{asset('/js/liber.js')}}"></script>
+
 @stack('js')
 @yield('js')
 
