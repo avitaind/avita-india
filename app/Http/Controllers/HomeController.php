@@ -64,6 +64,18 @@ class HomeController extends Controller
         return view('pages.about_us');
     }
 
+    public function getSupportNew( ){
+
+        $productModels = ProductModel::all();
+
+        $country = 'in';
+        $serviceCenters = ServiceCenter::whereCountry($country)->get();
+
+        return view('pages.support-new', compact('productModels', 'serviceCenters'));
+    }
+
+
+
     public function getSupport( ){
 
         $productModels = ProductModel::all();

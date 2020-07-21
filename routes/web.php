@@ -155,6 +155,12 @@ if ( Request::segment(1) != 'admin') {
     Route::post('/support', 'HomeController@handleSupportRedirect');
     Route::get('/search_result', 'HomeController@getSearch_result');
 
+
+    //Support Demo
+
+    Route::get('/support-new', 'HomeController@getSupportNew')->name('support');
+
+    //
     // News
     Route::get('/news/{month?}', 'NewsController@showNewsList')->name('news');
     Route::get('/news/detail/{slug}', 'NewsController@showNewsDetail')->name('news.detail');
