@@ -173,11 +173,11 @@
                                 </div>
                                 <div class="badge-caption">Thin</div>
                             </div>
-                            <img class="bc-computer-image bc-computer-2"  style="padding-top:15%;" src="/images/liber-v/FaceUnlock.png">
+                            <img class="bc-computer-image bc-computer-2"  style="padding-top:20%;" src="/images/liber-v/FaceUnlock.png">
 
                             <div class="data-card data-card-2 col-1 my-2 my-sm-4 px-0 px-sm-3">
                             <div class="badge-caption pb-1">
-                                    <div class="h1">Fingerprint</div>
+                                    <div class="h1">Fingerprint Reader</div>
                                 </div>
 
                             </div> 
