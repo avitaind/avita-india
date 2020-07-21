@@ -115,9 +115,7 @@
                         </div>                                     
 	                </div><!--row-->  
                 </div><!--container-->
-          
-
-   </section>
+        </section>
 
 <div class="gotop-wrap">
     <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
