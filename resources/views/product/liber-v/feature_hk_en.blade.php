@@ -210,7 +210,21 @@
                             <span class="d-md-block">an ultra-fast SSD Drive up to 1 TB and </span>
                             <span class="d-md-block">preloaded Windows 10 home enabling you tackle even</span>
                             <span class="d-md-block"> the most complex tasks with practiced ease.</span>
-
+                            <span class="d-md-block">&nbsp;</span>
+                            <span class="d-md-block"></span>
+                            <p class="hidden-md-up">&nbsp;</p>
+                            <span class="d-md-block"></span>
+                            <span class="d-md-block">&nbsp;</span>
+                            <span class="d-md-block">&nbsp;</span>
+                            <span class="d-md-block"></span>
+                            <p class="hidden-md-up">&nbsp;</p>
+                            <span class="d-md-block"></span>
+                            <span class="d-md-block">&nbsp;</span>
+                            <span class="d-md-block">&nbsp;</span>
+                            <span class="d-md-block"></span>
+                            <p class="hidden-md-up">&nbsp;</p>
+                            <span class="d-md-block"></span>
+                            <span class="d-md-block">&nbsp;</span>
                         </div>
                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between">
                                 
