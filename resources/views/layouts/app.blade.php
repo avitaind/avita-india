@@ -76,7 +76,6 @@
 <!--
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154623067-1"></script>
     --->
-    <script async type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
 
 <script async>
   window.dataLayer = window.dataLayer || [];
@@ -145,6 +144,7 @@
     @yield('css')
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" async></script> 
 
+ <script async type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
 
 
 <script async src="{{asset('/js/wpk4iql.js')}}"></script>
