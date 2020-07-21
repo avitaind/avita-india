@@ -120,7 +120,7 @@
                                 <div>Up to 10 hours<sup>*</sup></div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.security')/div>
+                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.security')</div>
                                 <div>With Fingerprint Reader</div>
                             </li>
                            <!-- <li class="spec-item d-flex">
