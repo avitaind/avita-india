@@ -61,11 +61,11 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.cpu')</div>
-                                <div>Intel® Core™ i5-10210U / Intel® Core™ i7-10510U</div>
+                                <div>Intel® Core™ i5-10210U / Intel® Core™ i7-10510U / AMD Ryzen™ 5 3500U / AMD Ryzen™ 7 3700U</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.display')</div>
-                                <div>14" 16:9 Full HD (1920 x 1080) Anti-Glare IPS Panel with 178 degree wide viewing angle</div>
+                                <div>14" 16:9 Full HD (1920 x 1080) <!-- Anti-Glare IPS Panel with 178 degree wide viewing angle --> </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.memory')</div>
@@ -73,7 +73,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.graphics')</div>
-                                <div>Intel® UHD Graphics 620</div>
+                                <div>Intel® UHD Graphics 620 / Radeon™ Vega 8 Graphics / Radeon™ RX Vega 10 Graphics</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.storage')</div>
@@ -101,15 +101,15 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.ports')</div>
-                                <div>2 x USB 3.0, 1 x USB 3.0 Type-C (PD 2.0 Charging, Display out), 1 x 3.5mm Headphone Jack, DC in, 1 x MicroSD card slot, 1 x Micro HDMI Type D</div>
+                                <div>USB 3.0 x 2, USB3.0 Type-C x 1 (PD 2.0 charging, Display out) /  USB 3.0 x 1, USB2.0 x 1 USB3.0 Type-C x 1 (PD 3.0 charging, Display out), 1 x 3.5mm Headphone Jack, DC in, 1 x MicroSD card slot, 1 x Micro HDMI Type D</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.dimension')</div>
-                                <div>W318 X H218 X D 15.9 mm</div>
+                                <div>W317.5 X H215.9 X D 18.8 mm</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.weight')</div>
-                                <div>Starting from 1.28kg</div>
+                                <div>Starting from 1.25kg</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.battery')</div>
