@@ -434,7 +434,8 @@
             </div>
         </section>
 
-        <section class="product-statement">
+     <!---
+            <section class="product-statement">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-3">
@@ -451,7 +452,7 @@
 
 
         </section>
-
+--->
         <section class="product-statement">
             <div class="container">
                 <ul class="product-statement-list py-2 py-sm-5 mx-auto ls-0 pl-4 py-0 mt-0 mt-sm-5">
