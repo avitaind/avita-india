@@ -335,9 +335,11 @@
                                     <div class="badge-caption">NTSC</div>
                                 </div>
                                 --->
-                                <div class="data-card col-6 col-sm-5 my-2 my-sm-3">
+                                
+                                <div class="data-card col-6 col-sm-9 my-2 my-sm-3">
                                     <div class="badge-value">1920x1080</div>
                                     <div class="badge-caption">Resolution</div>
+                                    
                                 </div>
 
                                 <div class="col-12 clearfix"></div>
@@ -354,12 +356,12 @@
                                 <div class="col-12 clearfix"></div>
 
                                 <div class="data-card col-12 col-sm-3 my-2 my-sm-3">
-                                    <div class="badge-image"><img src="/images/liber/liber_u_feature/sc8_img2.png"></div>
+                                    <div class="badge-image"><img src="/images/liber/liber12_feature/sc8_img2.png"></div>
                                 </div>
 
                                 <div class="data-card col-6 col-sm-4 my-2 my-sm-3">
                                     <span class="badge-value">2</span>
-                                    <span class="badge-caption pl-1">Channels</span>
+									<span class="badge-caption pl-1">Channels</span>
                                     <div class="badge-caption">Stereo sound effects</div>
                                 </div>
 
@@ -369,7 +371,6 @@
                                     <!-- <div class="badge-value">2</div> -->
                                     <div class="badge-caption">&nbsp;</div>
                                 </div>
-
 
                             </div>
 
