@@ -78,6 +78,7 @@
     --->
     <script async type="text/javascript" src="<?php echo e(asset('js/ga.js')); ?>"></script>
     <script type="text/javascript" src="<?php echo e(asset('/js/liber.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(asset('/js/support.js')); ?>"></script>
 
 <script async>
   window.dataLayer = window.dataLayer || [];
@@ -226,7 +227,6 @@ window.addEventListener('load',
 <script type="text/javascript" src="<?php echo e(asset('js/conversion.js')); ?>"></script>
 <script type="text/javascript" src="<?php echo e(asset('js/demo.js')); ?>"></script>
 <script type="text/javascript" src="<?php echo e(asset('/js/wpk4iql.js')); ?>"></script>
-<script type="text/javascript" src="<?php echo e(asset('/js/support.js')); ?>"></script>
 
 
 
