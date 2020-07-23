@@ -26,13 +26,13 @@
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/MAGUS-WEB-BANNER.jpg')"></div>
+                                 style="background-image: url('/images/banner/MAGUS-WEB-BANNER-NEW.png')"></div>
                         @else
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/MAGUS-WEB-BANNER.jpg')"></div>
+                                 style="background-image: url('/images/banner/MAGUS-WEB-BANNER-NEW.png')"></div>
                         @endif
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/MAGUS-MOB-BANNER.jpg')"></div>
+                             style="background-image: url('/images/banner/MAGUS-MOB-BANNER-NEW.png')"></div>
                     </div>
                      </a>
                 </div>
@@ -58,23 +58,7 @@
                 </div>
             </div>
             
-              <div class="carousel-item">
-                <div class="responsive-block">
-                <a href="https://in.nexstmall.com/">
-                    <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/brand-store-web-banner.png')"></div>
-                        @else
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/brand-store-web-banner.png')"></div>
-                        @endif
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/brand-store-mob-banner.png')"></div>
-                    </div>
-                     </a>
-                </div>
-            </div>
+           
              <div class="carousel-item">
                 <div class="responsive-block">
                 <a href="{{ route('product.overview', ['admiror']) }}">
@@ -144,23 +128,6 @@
                             @endif
                             <div class="banner-bg hidden-md-up"
                                  style="background-image: url('/images/banner/lifestyle_banner_mob2.jpg')"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="responsive-block">
-                    <a href="/product/liber-u-series">
-                        <div class="banner-block responsive-item">
-                            @if( App::isLocale('en') )
-                                <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/lifestyle_banner_web3.jpg')"></div>
-                            @else
-                                <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/lifestyle_banner_web3.jpg')"></div>
-                            @endif
-                            <div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/lifestyle_banner_mob3.jpg')"></div>
                         </div>
                     </a>
                 </div>
