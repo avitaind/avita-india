@@ -57,8 +57,7 @@
                     </a>
                 </div>
             </div>
-            
-           
+          
              <div class="carousel-item">
                 <div class="responsive-block">
                 <a href="{{ route('product.overview', ['admiror']) }}">
@@ -115,19 +114,20 @@
                 </div>
             </div>
 
+    
             <div class="carousel-item">
                 <div class="responsive-block">
                     <a href="/product/liber-u-series">
                         <div class="banner-block responsive-item">
                             @if( App::isLocale('en') )
                                 <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/lifestyle_banner_web2.jpg')"></div>
+                                     style="background-image: url('/images/banner/lifestyle_banner_web3.jpg')"></div>
                             @else
                                 <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/lifestyle_banner_web2.jpg')"></div>
+                                     style="background-image: url('/images/banner/lifestyle_banner_web3.jpg')"></div>
                             @endif
                             <div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/lifestyle_banner_mob2.jpg')"></div>
+                                 style="background-image: url('/images/banner/lifestyle_banner_mob3.jpg')"></div>
                         </div>
                     </a>
                 </div>
@@ -158,9 +158,6 @@
            <li data-target="#home_banner" data-slide-to="5"></li>
            <li data-target="#home_banner" data-slide-to="6"></li>
            <li data-target="#home_banner" data-slide-to="7"></li>
-           <li data-target="#home_banner" data-slide-to="8"></li>
-           <li data-target="#home_banner" data-slide-to="9"></li>
-
         </ol>
     </div>
             </div>       
