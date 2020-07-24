@@ -28,7 +28,7 @@ $page = 'events';
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.23</div>
-                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> BER.in </div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> BGR.in </div>
                                 </figcaption>
                             </figure>
                             <a class="overlay-link" href="https://www.bgr.in/laptops/avita-teases-liber-v-with-10th-gen-intel-processors-to-take-on-xiaomi-and-honor-904609/"></a>
