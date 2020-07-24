@@ -21,7 +21,7 @@ $page = 'events';
                             <p>Avita teases LIBER V with 10th gen Intel processors</p><br/><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.24</div>
