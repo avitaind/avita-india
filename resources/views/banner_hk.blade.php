@@ -82,14 +82,14 @@
                     <div class="banner-block responsive-item">
                         @if( App::isLocale('en') )
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/cosmos-banner-web.jpg')"></div>
+                                 style="background-image: url('/images/banner/cosmos-banner-web-new.jpg')"></div>
                         @else
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/cosmos-banner-web.jpg')"></div>
+                                 style="background-image: url('/images/banner/cosmos-banner-web-new.jpg')"></div>
                         @endif
                         
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/cosmos-banner-mob.jpg')"></div>
+                             style="background-image: url('/images/banner/cosmos-banner-mob-new.jpg')"></div>
                     </div>
                     </a>
                    </div>
