@@ -21,6 +21,25 @@ $page = 'events';
                           ------->
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors</p><br/><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.24</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> MY MOBILE </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.mymobileindia.com/news/avita-liber-v-10th-gen-intel-processors"></a>
+
+                        </div>
+
+                    </div>
+                       <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
                             <p>Avita teases LIBER V with 10th gen Intel processors to take on Xiaomi and Honor</p><br/>
                             <figure>
                                 <div class="image-wrap">
@@ -34,8 +53,10 @@ $page = 'events';
                             <a class="overlay-link" href="https://www.bgr.in/laptops/avita-teases-liber-v-with-10th-gen-intel-processors-to-take-on-xiaomi-and-honor-904609/"></a>
 
                         </div>
+                    </div>
 
                     </div>
+                    <div class="row">
                     <!-----
                           ------->
                     <div class="col-12 col-md-6">
@@ -54,8 +75,7 @@ $page = 'events';
 
                         </div>
                     </div>
-                    </div>
-                    <div class="row">
+                  
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>AVITA appoints Ingram Micro to boost distribution network in Indian market</p><br/>
@@ -73,6 +93,8 @@ $page = 'events';
                         </div>
 
                     </div>
+                    </div>
+                    <div class="row">
 
             <!---
                 ---->
@@ -96,8 +118,7 @@ $page = 'events';
                         </div>
 
                     </div>
-                    </div>
-                    <div class="row">
+                  
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>Avita’s fashion –forward laptop’s launched in India </p><br/><br/>
@@ -115,18 +136,15 @@ $page = 'events';
                         </div>
 
                     </div>
+                    </div>
+                    <div class="row">
 
-                    <!---
-
-                    -------->
-
-
-                    <!-----
+                                  <!-----
 
                    ------->
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>Bollywood actress Neha Sharma launches US lifestyle Tech Brand AVITA</p><br/>
+                            <p>Bollywood actress Neha Sharma launches US lifestyle Tech Brand AVITA</p>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/pc_quest.png" />
@@ -165,7 +183,8 @@ $page = 'events';
                         </div>
 
                     </div>
-
+                    </div>
+                    <div class="row">
                     <!---
 
                     -------->
@@ -174,7 +193,6 @@ $page = 'events';
                            ------->
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p><br/><br/></p>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/sub_guru.png" />
@@ -197,7 +215,6 @@ $page = 'events';
                           ------->
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p><br/></p>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/dainik_savera.png" />
@@ -211,6 +228,8 @@ $page = 'events';
                         </div>
 
                     </div>
+                    </div>
+                    <div class="row">
 
                     <!---
 
@@ -259,7 +278,8 @@ $page = 'events';
                         </div>
 
                     </div>
-
+                    </div>
+                    <div class="row">
                     <!---
 
                     -------->
@@ -306,7 +326,8 @@ $page = 'events';
                         </div>
 
                     </div>
-
+                    </div>
+                    <div class="row">
                     <!---
 
                     -------->
@@ -352,6 +373,9 @@ $page = 'events';
                         </div>
 
                     </div>
+
+                    </div>
+                    <div class="row">
 
                     <!---
 
@@ -399,6 +423,9 @@ $page = 'events';
 
                     </div>
 
+                    </div>
+                    <div class="row">
+
                     <!---
 
                     -------->
@@ -444,7 +471,8 @@ $page = 'events';
                         </div>
 
                     </div>
-
+                    </div>
+                    <div class="row">
                     <!---
 
                     -------->
@@ -467,6 +495,7 @@ $page = 'events';
                         </div>
 
                     </div>
+                    
 
                     <!---
 
@@ -490,6 +519,9 @@ $page = 'events';
                         </div>
 
                     </div>
+
+                    </div>
+                    <div class="row">
 
                     <!---
 
@@ -536,7 +568,8 @@ $page = 'events';
                         </div>
 
                     </div>
-
+                    </div>
+                    <div class="row">
                     <!---
 
                     -------->
