@@ -38,7 +38,15 @@
                                         <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="{{ route('product.spec', ['cosmos']) }}">@lang('site.cosmos')</a>
                                         </li>
-
+                                       
+                                        <li class="nav-item has-dropdown">
+                                          <input id="header_product_liber" type="checkbox" hidden="">
+                                          <a class="nav-link px-md-4 py-2"><label for="header_product_liber" class="d-block mb-0">@lang('site.liber')</label></a>
+                                        <div class="dropdown">
+                                        <ul class="list-unstyled">
+                                        <li class="nav-item">
+                                                    <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-v']) }}">@lang('site.liber-v')</a>
+                                          </li>
                                            <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber12']) }}">@lang('site.liber12')</a>
                                             </li>
@@ -46,9 +54,14 @@
                                                     <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-new-generation']) }}">@lang('site.liber-new-generation')</a>
                                                 </li>
 
+
+
                                         <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'magus-lite-2in1-laptop') }}">@lang('magus.name')</a>
                                             </li>
+                                            </ul>
+                                </div>
+                            </li> 
 
                                     </ul>
                                 </div>
