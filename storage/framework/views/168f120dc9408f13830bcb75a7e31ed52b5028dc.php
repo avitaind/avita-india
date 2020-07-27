@@ -40,8 +40,8 @@
                                         </li>
                                        
                                         <li class="nav-item has-dropdown">
-                                          <input id="header_product_liber" type="checkbox" hidden="">
-                                          <a class="nav-link px-md-4 py-2"><label for="header_product_liber" class="d-block mb-0"><?php echo app('translator')->getFromJson('site.liber'); ?></label></a>
+                                          <input id="liber" type="checkbox" hidden="">
+                                          <a class="nav-link px-md-4 py-2"><label for="liber" class="d-block mb-0"><?php echo app('translator')->getFromJson('site.liber'); ?></label></a>
                                         <div class="dropdown">
                                         <ul class="list-unstyled">
                                         <li class="nav-item">
