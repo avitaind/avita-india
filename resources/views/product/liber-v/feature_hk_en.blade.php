@@ -98,7 +98,7 @@
                     <div class="banner-info">
                         <div class="h1 banner-header mb-4 mb-sm-5">Experience Visual Transcendence</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Expand your vision with LIBER V’s 3.7 mm unbound ultra-narrow bezel which gives its screen a larger viewing area compared to previous LIBER notebooks.  A high screen to body ratio at 72.8% combined with an FHD 16:9 IPS anti-glare display allows you to the stretch the limits of your viewing experience for an ultra-wide viewing angle of 178 degrees. Whether you are working or playing; indoors or outdoors, never miss any details with the vibrant image feedback at a quite stable response time with LIBER V.</span> 
+                            <span class="d-lg-block">Expand your vision with LIBER V’s 3.7 mm unbound ultra-narrow bezel which gives its screen a larger viewing area compared to the previous LIBER notebooks.  A high screen to body ratio at 72.8% combined with an FHD 16:9 IPS anti-glare display allows you to the stretch the limits of your viewing experience for an ultra-wide viewing angle of 178 degrees. Whether you are working or playing; indoors or outdoors, never miss any details with the vibrant image feedback at a quite stable response time with LIBER V.</span> 
                         </div> 
                     </div>
 
@@ -156,7 +156,7 @@
                         <div class="banner-para ls-0">
                             <span class="d-md-block">The smart design and sophisticated engineering behind </span>
                             <span class="d-md-block">LIBER V ensures that the 14-inch visage of</span>
-                            <span class="d-md-block">LIBER V weighs merely 1.25 kgs. 14% lighter than</span>
+                            <span class="d-md-block">LIBER V weighs merely 1.25 kgs, 14% lighter than</span>
                             <span class="d-md-block">previous LIBER models, LIBER V achieves the ideal</span>
                             <span class="d-md-block">in terms of easy mobility factor. Combine that</span>
                             <span class="d-md-block">with the fingerprint lock powered by Windows Hello,</span>

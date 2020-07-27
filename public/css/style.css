@@ -552,3 +552,14 @@ section.color-choice .container{
 
   
 }
+@media (max-width: 575px){
+section.product-liber-v-screen .bc-computer-2 {
+margin-top:15%!important;
+
+}
+.lang_en .banner-para{
+
+  padding-bottom: 12%;
+}
+}
+
