@@ -88,13 +88,19 @@
                  </div>
              </div>
         </div>
-                <div class="hidden-md-down panel-image">
-                    <img src="/images/background/support-min.png"/>
-                </div>
+           <div class="hidden-md-down panel-image">
+               <img src="/images/background/support-min.png"/>
+           </div>
+           
     </div>
-    <div class="warranty-center-wrap py-5 text-center">            
+   
+    <div class="warranty-center-wrap py-5 text-center">      
+          
             	<div class="container h-100">
-                	<div class="row h-100 align-items-center">
+                <div class="alert alert-dismissible alert-info">
+                Due to the global outbreak of the coronavirus (COVID-19), the service center will adjust the operation time or temporarily shut down for the time being. The adjustment will be subjected to local regulations and will be updated as soon as possible. We thank you for your patience and understanding.
+                </div>
+                 	<div class="row h-100 align-items-center">
                     
                     	<div class="col-12 col-lg-6">
 	                        <img src="/images/background/AVITA_warranty.png" style="width:100%; max-width:600px;">
@@ -107,16 +113,27 @@
                             <div class="warranty-content text-left mt-4 mb-3 font-weight-light">Thanks for the valuable suggestion from our customers. You can purchase the newly launched “Warranty Extension Service” online now. You may choose to extend 1 or 2 years to enjoy our worry-free warranty service.</div>
                             
                             <div class="text-center purchase_steps">
-                                <a href="https://www.avita.global/warranty-extension" class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">
-                                    See More 
-                                </a> 
+                                <a href="/warranty-extension" class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">
+                                    See More                                </a> 
                             </div>  
                         </div>                                     
 	                </div><!--row-->  
                 </div><!--container-->
-          
+            </div>
 
-   </section>
+
+
+
+
+
+
+
+
+
+   
+           </div><!--row-->  
+     </div><!--container-->
+ </section>
 
 <div class="gotop-wrap">
     <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
@@ -127,42 +144,8 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('js'); ?>
-    <script>
-        function initMap() {
-
-            // Get all lat lng
-
-            $('.google_map').each(function( index, item ) {
-
-                var data = $(item).data();
-
-                var location = new google.maps.LatLng( data.lat, data.lng );
-
-                var map = new google.maps.Map(item, {
-                    zoom: 18,
-                    maxZoom: 18,
-                    minZoom: 18,
-                    disableDefaultUI: true,
-                    center: location,
-                });
-
-                var marker = new google.maps.Marker({
-                    position: location,
-                    map: map,
-                });
-
-            });
-
-        }
-    </script>
-
-
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL2du53CNS9kfAQ1itk4kwF4aSBSjIgHE&callback=initMap"></script>
-
+ 
     <script src="../js/support.js"></script>
-
-
-
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

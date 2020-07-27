@@ -64,7 +64,64 @@ class HomeController extends Controller
         return view('pages.about_us');
     }
 
-/*    public function getSupportNew( ){
+
+
+   /* public function getSupportSearch(Request $request)
+      {
+        if($request->ajax())
+        {
+         $output = '';
+         $query = $request->get('query');
+         if($query != '')
+         {
+          $data = DB::table('service_center_translations')
+            ->where('name', 'like', '%'.$query.'%')
+            ->orWhere('address', 'like', '%'.$query.'%')
+            ->orWhere('city', 'like', '%'.$query.'%')
+            ->orWhere('postal_code', 'like', '%'.$query.'%')
+            ->orderBy('service_center_id', 'desc')
+            ->get();
+            
+         }
+         else
+         {
+          $data = DB::table('service_center_translations')
+            ->orderBy('service_center_id', 'desc')
+            ->get();
+         }
+         $total_row = $data->count();
+         if($total_row > 0)
+         {
+          foreach($data as $row)
+          {
+           $output .= '
+           <tr>
+            <td>'.$row->name.'</td>
+            <td>'.$row->address.'</td>
+            <td>'.$row->city.'</td>
+            <td>'.$row->postal_code.'</td>
+          </tr>
+           ';
+          }
+         }
+         else
+         {
+          $output = '
+          <tr>
+           <td align="center" colspan="5">No Data Found</td>
+          </tr>
+          ';
+         }
+         $data = array(
+          'table_data'  => $output,
+          'total_data'  => $total_row
+         );
+   
+         echo json_encode($data);
+        }
+       }
+
+       public function getSupport( ){
 
         $productModels = ProductModel::all();
 
@@ -73,9 +130,7 @@ class HomeController extends Controller
 
         return view('pages.support-new', compact('productModels', 'serviceCenters'));
     }
-
 */
-
     public function getSupport( ){
 
         $productModels = ProductModel::all();

@@ -64,7 +64,7 @@
                     </div>
                     
                     <div class="banner-image">
-                    	<img class="bc-computer-image bc-computer-1" src="/images/liber-v/LiberV_14colors_hk_en.png">
+                    	<img class="bc-computer-image bc-computer-1" src="/images/liber-v/LiberV_14colors_hk_en2.png">
                     </div>
                     
                 </div>
