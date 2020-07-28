@@ -7,7 +7,7 @@
 @section('content')
     <main class="top-nav-padding">
 
-     @include('partials.admiror-navbar')
+    @include('partials.admiror-navbar')
         
           <section class="product-liber-banner">
             <div class="responsive-block">

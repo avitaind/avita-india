@@ -1,1 +1,198 @@
-var $productTypeField=$("#product_type"),$productSeriesField=$("#product_series"),$productNumberField=$("#product_number"),$productModelField=$("#product_model"),$productConfiguartionField=$("#product_configuration");function reloadProductTypeField(){var d=$productTypeField;$.getJSON("/api/products/types").done(function(e){var t=d.attr("data-init-val"),o=e.product_types;d.empty(),d.append("<option selected></option>");for(var a=0;a<o.length;a++){var n=document.createElement("option");n.textContent=o[a].name,n.value=o[a].id,n.selected=n.value==t,d.append(n)}t&&d.removeAttr("data-init-val"),d.change()})}$productTypeField.change(function(){var n=$productSeriesField;if($(this).val()){$.getJSON("/api/products/series",{type:$(this).val()}).done(function(e){var t=n.attr("data-init-val");n.empty(),n.append("<option disabled selected></option>");for(var o=0;o<e.length;o++){var a=document.createElement("option");a.textContent=e[o],a.value=e[o],a.selected=a.value==t,n.append(a)}n.change(),n.closest(".row").show(),t&&n.removeAttr("data-init-val")})}else n.closest(".row").hide(),n.empty(),n.change()}),$productSeriesField.change(function(){var n=$productNumberField;if($(this).val()){$.getJSON("/api/products/numbers",{series:$(this).val()}).done(function(e){var t=n.attr("data-init-val");n.empty(),n.append("<option disabled selected></option>");for(var o=0;o<e.length;o++){var a=document.createElement("option");a.textContent=e[o],a.value=e[o],a.selected=a.value==t,n.append(a)}n.change(),n.closest(".row").show(),t&&n.removeAttr("data-init-val")})}else n.closest(".row").hide(),n.empty(),n.change()}),$productNumberField.change(function(){var n=$productModelField;if($(this).val()){$.getJSON("/api/products/models",{product_number:$(this).val()}).done(function(e){var t=n.attr("data-init-val");n.empty(),n.append("<option disabled selected></option>");for(var o=0;o<e.length;o++){var a=document.createElement("option");a.textContent=e[o].model_number,a.value=e[o].model_number,a.setAttribute("data-configuration",e[o].name),a.selected=a.value==t,n.append(a)}n.change(),n.closest(".row").show(),t&&n.removeAttr("data-init-val")})}else n.closest(".row").hide(),n.empty(),n.change()}),$productModelField.change(function(){var e=$productConfiguartionField,t=$("option:selected",this).attr("data-configuration");e.text(t),t?e.closest(".row").show():e.closest(".row").hide()}),reloadProductTypeField();
+var $productTypeField = $('#product_type');
+var $productSeriesField = $('#product_series');
+var $productNumberField = $('#product_number');
+var $productModelField = $("#product_model");
+var $productConfiguartionField = $("#product_configuration");
+
+// Product Type
+function reloadProductTypeField( ) {
+
+    var select = $productTypeField;
+
+    var url = "/api/products/types";
+
+
+    $.getJSON( url ).done(function ( data ) {
+
+        var default_value = select.attr('data-init-val');
+        var productTypes = data.product_types;
+
+        select.empty();
+        select.append('<option selected></option>');
+
+        for (var i = 0; i < productTypes.length; i++) {
+            var opt = document.createElement('option');
+            opt.textContent = productTypes[i].name;
+            opt.value = productTypes[i].id;
+            opt.selected = (opt.value == default_value );
+            select.append(opt);
+        }
+
+        if ( default_value ) {
+            select.removeAttr('data-init-val');
+        }
+
+
+        //manually trigger a change event for the contry so that the change handler will get triggered
+        select.change();
+
+    });
+}
+
+// Product Series
+$productTypeField.change(function() {
+
+
+    var select = $productSeriesField;
+
+    if ( $(this).val() ) {
+
+        var url = "/api/products/series";
+
+        $.getJSON( url, {
+            type: $(this).val()
+        } ).done(function ( data ) {
+
+
+
+            var default_value = select.attr('data-init-val');
+
+            select.empty();
+            select.append('<option disabled selected></option>');
+
+            for (var i = 0; i < data.length; i++) {
+                var opt = document.createElement('option');
+                opt.textContent = data[i];
+                opt.value = data[i];
+                opt.selected = ( opt.value == default_value );
+                select.append(opt);
+            }
+
+            select.change();
+            select.closest('.row').show();
+
+            if ( default_value ) {
+                select.removeAttr('data-init-val');
+            }
+
+        });
+
+    } else {
+        select.closest('.row').hide();
+        select.empty();
+        select.change();
+    }
+});
+
+// Product Number
+$productSeriesField.change(function() {
+
+    var select = $productNumberField;
+
+    if ( $(this).val() ) {
+        var url = "/api/products/numbers";
+
+        $.getJSON( url, {
+            series: $(this).val()
+        } ).done(function ( data ) {
+
+            var default_value = select.attr('data-init-val');
+
+            select.empty();
+
+            select.append('<option disabled selected></option>');
+
+            for (var i = 0; i < data.length; i++) {
+                var opt = document.createElement('option');
+                opt.textContent = data[i];
+                opt.value = data[i];
+                opt.selected = ( opt.value == default_value );
+                select.append(opt);
+            }
+
+            select.change();
+            select.closest('.row').show();
+
+            if ( default_value ) {
+                select.removeAttr('data-init-val');
+            }
+        });
+
+    } else {
+        select.closest('.row').hide();
+        select.empty();
+        select.change();
+    }
+});
+
+// Product Model
+$productNumberField.change(function() {
+
+    var select = $productModelField;
+
+    if ( $(this).val() ) {
+
+        var url = "/api/products/models";
+
+        $.getJSON( url, {
+            product_number: $(this).val()
+        } ).done(function ( data ) {
+
+            var default_value = select.attr('data-init-val');
+
+            select.empty();
+
+            select.append('<option disabled selected></option>');
+
+            for (var i = 0; i < data.length; i++) {
+                var opt = document.createElement('option');
+                opt.textContent = data[i].model_number;
+                opt.value = data[i].model_number;
+                opt.setAttribute('data-configuration', data[i].name);
+                opt.selected = ( opt.value == default_value );
+                select.append(opt);
+            }
+
+
+            select.change();
+            select.closest('.row').show();
+
+            if ( default_value ) {
+                select.removeAttr('data-init-val');
+            }
+        });
+
+    } else {
+        select.closest('.row').hide();
+        select.empty();
+        select.change();
+    }
+
+
+});
+
+$productModelField.change(function() {
+
+    var textField = $productConfiguartionField;
+
+    var config_text = $('option:selected', this).attr('data-configuration');
+    textField.text(config_text);
+
+    if (config_text ) {
+        textField.closest('.row').show();
+    } else {
+        textField.closest('.row').hide();
+    }
+
+
+
+
+});
+
+
+
+
+
+reloadProductTypeField();
+
+

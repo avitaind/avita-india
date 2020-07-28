@@ -70,21 +70,13 @@
                 </div>
             </div>
         </section>
-        
-        
-         
-         
-         <section class="product-liber-banner product-liber-v-banner">
+       <section class="product-liber-banner product-liber-v-banner">
             <div class="responsive-block"> 
                 <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en.jpg')"></div>
                 <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en_mo.jpg')"></div> 
             </div>
         </section>
- 
-         
-        
-        
-        
+    
         <section class="product-liber-wifi product-liber-v-view">
             <div class="banner-block">
                 <div class="banner-bg"></div>
@@ -96,7 +88,7 @@
                     <div class="banner-info">
                         <div class="h1 banner-header mb-4 mb-sm-5">Experience Visual Transcendence</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Expand your vision with LIBER V’s 3.7 mm unbound ultra-narrow bezel which gives its screen a larger viewing area compared to previous LIBER notebooks.  A high screen to body ratio at 72.8% combined with an FHD 16:9 IPS anti-glare display allows you to the stretch the limits of your viewing experience for an ultra-wide viewing angle of 178 degrees. Whether you are working or playing; indoors or outdoors, never miss any details with the vibrant image feedback at a quite stable response time with LIBER V.</span> 
+                            <span class="d-lg-block">Expand your vision with LIBER V’s 3.7 mm unbound ultra-narrow bezel which gives its screen a larger viewing area compared to the previous LIBER notebooks.  A high screen to body ratio at 72.8% combined with an FHD 16:9 IPS anti-glare display allows you to the stretch the limits of your viewing experience for an ultra-wide viewing angle of 178 degrees. Whether you are working or playing; indoors or outdoors, never miss any details with the vibrant image feedback at a quite stable response time with LIBER V.</span> 
                         </div> 
                     </div>
 
@@ -125,11 +117,8 @@
                             <span class="d-md-block">&nbsp;</span>
                             <span class="d-md-block"></span>
                             <p class="hidden-md-up">&nbsp;</p>
-                            
                         </div>
-                          
                     </div>
-                     
                 </div>
             </div>
         </section>
@@ -154,7 +143,7 @@
                         <div class="banner-para ls-0">
                             <span class="d-md-block">The smart design and sophisticated engineering behind </span>
                             <span class="d-md-block">LIBER V ensures that the 14-inch visage of</span>
-                            <span class="d-md-block">LIBER V weighs merely 1.25 kgs. 14% lighter than</span>
+                            <span class="d-md-block">LIBER V weighs merely 1.25 kgs, 14% lighter than</span>
                             <span class="d-md-block">previous LIBER models, LIBER V achieves the ideal</span>
                             <span class="d-md-block">in terms of easy mobility factor. Combine that</span>
                             <span class="d-md-block">with the fingerprint lock powered by Windows Hello,</span>

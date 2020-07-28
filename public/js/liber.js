@@ -82,16 +82,7 @@ $(document).ready(function() {
 					})
 					// .addIndicators({name:'.product-liber-computer .bc-computer-6'}) 
 					.addTo(controller);
-					
-		var tween = TweenMax.fromTo(".product-liber-computer .bc-computer-7", 1.3, { 'caly': 200 }, { x: -20, 'caly': -70 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-computer .banner-info", duration: '450px', offset: '100px'})
-					.setTween(tween)
-					.on("progress", function (e) {
-						TweenMax.to(".product-liber-computer .bc-computer-7", .2 ,{ y: (200 - ( ( 200 - ( -70 ) ) * e.progress)) , overwrite:5, ease:Power1.easeOut });       
-					})
-					// .addIndicators({name:'.product-liber-computer .bc-computer-3'}) 
-					.addTo(controller);					
-					 
+
 		/* .product-liber-size */
 		var tween = TweenMax.fromTo(".product-liber-size .bc-computer-1", .8, { 'caly': -400 }, { 'caly': 0 });
 		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-size", duration: '100%', offset: '200px'})
@@ -134,18 +125,6 @@ $(document).ready(function() {
 					.setTween(tween)
 					// .addIndicators({name:'.product-liber-size .bc-computer-6'}) 
 					.addTo(controller);
-					  
-					
-		var tween = TweenMax.fromTo(".product-liber-size .new-bc-computer-6", .8, { 'caly': -300 }, { 'caly': 0 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-size", duration: '100%', offset: '200px'})
-					.setTween(tween)
-					.on("progress", function (e) {
-						TweenMax.to(".product-liber-size .new-bc-computer-6", .2 ,{ y: ((-300 - 0) * e.progress) , overwrite:5, ease:Power1.easeOut });       
-					})
-					// .addIndicators({name:'.product-liber-size .bc-computer-1'}) 
-					.addTo(controller);
-					
-							
 
 		var tween = TweenMax.fromTo(".product-liber-size .bc-computer-7", 2, { y: 270, opacity: .3 }, { y: 0, opacity: 1 });
 		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-size", duration: '100%', offset: '500px', triggerHook: 'onEnter'})
@@ -168,12 +147,6 @@ $(document).ready(function() {
 						$(".product-liber-size .data-card .badge-value").each(function(i, e){ $(e).data('value', $(e).text()); $(e).text(0); $(e).animateNumbers($(e).data('value')) })
 					})
 					.addTo(controller);	
-					
-		var tween = TweenMax.fromTo(".product-liber-size .new-liber-performance", 1.3, { opacity: 0 }, { opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".new-liber-performance", reverse: false})
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-performance2 .banner-data-block'}) 
-					.addTo(controller);						
 
 
 		/* .product-liber-performance */
@@ -182,8 +155,6 @@ $(document).ready(function() {
 					.setTween(tween)
 					// .addIndicators({name:'.product-liber-performance .data-card .badge-value'}) 
 					.addTo(controller);	
-					
-	 
 
 		/* .product-liber-power */
 		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-power", reverse: false})
@@ -200,37 +171,6 @@ $(document).ready(function() {
 		/* .product-liber-keyboard */
 		var tween = TweenMax.fromTo(".product-liber-keyboard .bc-computer-1", .9, { x: 100, opacity: 0 }, { x: 0, opacity: 1 });
 		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-keyboard", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);
-					
-		/* .product-liber-keyboard */
-		var tween = TweenMax.fromTo(".product-liber-v-view .bc-view-2", .9, { x: 100, opacity: 0 }, { x: 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-view", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);
-					 
-		var tween = TweenMax.fromTo(".product-liber-v-view .bc-view-1", .9, { x: -100, opacity: 0 }, { x: 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-view", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);	
-					
-		var tween = TweenMax.fromTo(".product-liber-v-screen .bc-computer-1", .9, { x: -100, opacity: 0 }, { x: 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-screen", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);	
-					
-		var tween = TweenMax.fromTo(".product-liber-v-screen .bc-computer-2", .9, { x: 100, opacity: 0 }, { x: 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-screen", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);															
-
-		var tween = TweenMax.fromTo(".product-liber-v-performance .bc-computer-1", .9, { x: 100, opacity: 0 }, { x: 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-performance", reverse: false, })
 					.setTween(tween)
 					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
 					.addTo(controller);
@@ -322,89 +262,9 @@ $(document).ready(function() {
 					})
 					// .addIndicators({name:'.product-liber-size .bc-computer-2'}) 
 					.addTo(controller);
-					
-		/* .product-liber-keyboard  
-		var tween = TweenMax.fromTo(".product-liber-v-view .bc-view-2", .9, { x: 100, opacity: 0 }, { x: 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-view", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);*/
-					  
-					
-		var tween = TweenMax.fromTo(".product-liber-v-banner .banner-image .fade-img", .9, { x: 100, opacity: 0 }, { x: 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-banner", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);	
-					
-		var tween = TweenMax.fromTo(".product-liber-v-view .banner-image .fade-img-1", .9, { y: -100, opacity: 0  }, { y: 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-view", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);	
-					
-		var tween = TweenMax.fromTo(".product-liber-v-view .banner-image .fade-img-2", .9, { y: 100, opacity: 0  }, { y: 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-view", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);	
-					 
-					
-		var tween = TweenMax.fromTo(".product-liber-v-color .banner-image .fade-img", .9, { x: -100, opacity: 0 }, { x: 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-color", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);	
-					
-		var tween = TweenMax.fromTo(".product-liber-v-color .banner-image .fade-img-2", .9, { x: 100, opacity: 0, delay: .5 }, { x: 0, opacity: 1, delay: .5 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-color", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);						
 
-		var tween = TweenMax.fromTo(".product-liber-v-color .bc-computer-1", .9, { y: 100, opacity: 0, delay: 1}, { y: 0, opacity: 1, delay: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-color", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);	
-	
-		
-					
-		var tween = TweenMax.fromTo(".product-liber-v-mon .banner-image .fade-img", .9, { x: 100, opacity: 0 }, { x: 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-mon", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);	
-					
-		var tween = TweenMax.fromTo(".product-liber-v-screen .banner-image .fade-img", .9, { x: -100, opacity: 0, delay: .5 }, { x: 0, opacity: 1, delay: .5 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-screen", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);		
-					 
- 
-		var tween = TweenMax.fromTo(".product-liber-v-performance .banner-image .fade-img", .6, { x: 100, opacity: 0 , delay: .5}, { x: 0, opacity: 1, delay: .5 }, .3);
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-performance", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);
 
-		var tween = TweenMax.fromTo(".product-liber-v-mon .bc-computer-1", .6, { x: -100, opacity: 0 }, { x: 0, opacity: 1 }, .3);
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-mon", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);					
-					
-					
-					
-					
-		var tween = TweenMax.fromTo(".product-liber-v-io .bc-computer-1", .6, { y: 100, opacity: 0 }, { y: 0, opacity: 1 }, .3);
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-v-io", reverse: false, })
-					.setTween(tween)
-					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
-					.addTo(controller);						
-					 																													
- 
+
 		//reverse
 		var tween = TweenMax.fromTo(".product-liber-banner .banner-block", .4, {opacity: 1 }, { opacity: .3 });
 		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-computer", duration: '50%', offset: '-100px'})

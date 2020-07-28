@@ -72,21 +72,13 @@
                 </div>
             </div>
         </section>
-        
-        
-         
-         
-         <section class="product-liber-banner product-liber-v-banner">
+       <section class="product-liber-banner product-liber-v-banner">
             <div class="responsive-block"> 
                 <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en.jpg')"></div>
                 <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en_mo.jpg')"></div> 
             </div>
         </section>
- 
-         
-        
-        
-        
+    
         <section class="product-liber-wifi product-liber-v-view">
             <div class="banner-block">
                 <div class="banner-bg"></div>
@@ -127,11 +119,8 @@
                             <span class="d-md-block">&nbsp;</span>
                             <span class="d-md-block"></span>
                             <p class="hidden-md-up">&nbsp;</p>
-                            
                         </div>
-                          
                     </div>
-                     
                 </div>
             </div>
         </section>

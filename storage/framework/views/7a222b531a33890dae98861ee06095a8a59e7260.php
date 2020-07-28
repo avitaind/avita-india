@@ -114,10 +114,26 @@
                             
                             <div class="text-center purchase_steps">
                                 <a href="/warranty-extension" class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">
-                                    See More                                </a> 
+                                    See More  </a> 
                             </div>  
-                        </div>                                     
-	                </div><!--row-->  
+                        </div> 
+                              
+                   </div><!--row-->  
+                </div><!--container-->
+                        <div class="h2 section-title mb-3 ls-0"><?php echo app('translator')->getFromJson('site.support_title_2'); ?></div>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                   </div><!--row-->  
                 </div><!--container-->
             </div>
 

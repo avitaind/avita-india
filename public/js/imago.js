@@ -1,1 +1,254 @@
-$(function(){new t(".product-imago-banner .masked-inner","/images/imago/sc1_01.jpg",1218,699,10,7,35,"_js-fold"),new t(".product-imago-life   .masked-inner","/images/imago/sc2_01.png",1329,976,10,7,11,"_js-fold"),new t(".product-imago-home   .masked-inner","/images/imago/sc5_01.png",1330,975,10,7,61,"_js-fold");if(!(navigator.userAgent.match(/Android/i)||navigator.userAgent.match(/webOS/i)||navigator.userAgent.match(/iPhone/i)||navigator.userAgent.match(/iPad/i)||navigator.userAgent.match(/iPod/i)||navigator.userAgent.match(/BlackBerry/i)||navigator.userAgent.match(/Windows Phone/i))){var a=new ScrollMagic.Controller,e=(new ScrollMagic.Scene({triggerElement:".product-imago-banner",reverse:!1}).on("enter leave",function(e){$(".product-imago-banner ._js-fold").trigger("tileAnim")}).addTo(a),new ScrollMagic.Scene({triggerElement:".product-imago-life",reverse:!1}).on("enter leave",function(e){$(".product-imago-life ._js-fold").trigger("tileAnim")}).addTo(a),new ScrollMagic.Scene({triggerElement:".product-imago-home",reverse:!1}).on("enter leave",function(e){$(".product-imago-home ._js-fold").trigger("tileAnim")}).addTo(a),TweenMax.fromTo(".product-imago-banner .ac-image-01",.8,{x:-100,alpha:0},{x:0,alpha:1}));new ScrollMagic.Scene({triggerElement:".product-imago-banner .ac-image-02",reverse:!1}).setTween(e).addTo(a),e=TweenMax.fromTo(".product-imago-banner .ac-image-02",.8,{scale:1.3,alpha:0},{scale:1,alpha:1}),new ScrollMagic.Scene({triggerElement:".product-imago-banner .ac-image-02",reverse:!1}).setTween(e).addTo(a),e=TweenMax.fromTo(".product-imago-interface .ac-image-01",.8,{scale:1.3,alpha:0},{scale:1,alpha:1}),new ScrollMagic.Scene({triggerElement:".product-imago-interface",reverse:!1}).setTween(e).addTo(a);$(".an-scroll").length&&TweenMax.to(".an-scroll span",1.5,{y:"7px",ease:Circ.easeInOut,repeat:-1,yoyo:!0}),$("section").each(function(){if($el=$(this).find(".float-text"),$el.length){var e=TweenMax.staggerFromTo($el,.8,{y:40,alpha:0},{ease:Back.easeOut.config(1.7),y:0,alpha:1},.2);new ScrollMagic.Scene({triggerElement:this}).setTween(e).addTo(a)}})}function t(e,a,t,n,o,r,i,l){var c=document.createElement("div");c.className="foldImg "+l;for(var g=o*r,s=[],m=Math.round(t/o),d=Math.round(n/r),u=0;u<g;u++)s.push(new p(u,c,m,d,o,r));var f=new v(a,null,t,n,"prodImg",function(){for(var e=0;e<g;e++)s[e].drawSection(f.img,m,d)}),h=0;$(e).append(c),f.load(),$(c).on("tileAnim",function(e,a){for(a=null==a?i:a,h++,u=0;u<g;u++)s[u].neighbourCalledMe(a,h)})}function p(r,i,c,g,s,e){var a=this,m=document.createElement("div");m.className="tile";var l=document.createElement("canvas");l.className="canvas";var d=r%s*c,u=Math.floor(r/s)*g,f=document.createElement("div");f.className="black",m.appendChild(l);var h=c,p=g,v=90,w=90,M=s*e,T=0,x=0,y="0 50%",S="0",b="0",A=l.getContext("2d");a.drawSection=function(e,a,t){l.width=1*a,l.height=1*t;var n=r%s*a,o=Math.floor(r/s)*t;m.style.left=n+"px",m.style.top=o+"px",m.style.width=a+"px",m.style.height=t+"px",A.drawImage(e,r%s*h,Math.floor(r/s)*p,h,p,0,0,1*a,1*t),i.appendChild(m)};var C=!1;function E(){m.style.visibility="visible"}function _(){$(i).trigger("tileAnim",r)}function O(){r%s!=0&&r%s!=s-1&&0!=Math.floor(r/e)&&Math.floor(r/s)!=e-1||(S=r%s==0?(x=w,"100%"):r%s==s-1?(x=-w,"0"):(x=0,"50%"),b=0==Math.floor(r/e)?(T=-v,"100%"):Math.floor(r/s)==e-1?(T=v,"0"):(T=0,"50%"),y=S+" "+b)}a.neighbourCalledMe=function(e,a){if(!C){var t=e%s*c+.5*c,n=Math.floor(e/s)*g+.5*g,o=d+.5*c,r=u+.5*g;if(!(Math.sqrt(Math.pow(o-t,2)+Math.pow(r-n,2))>Math.max(c,g)+4)){C=!0,S=o<t?(x=w,"100%"):t<o?(x=-w,"0"):"50%",b=r<n?(T=-v,"100%"):n<r?(T=v,"0"):"50%",y=S+" "+b,TweenLite.set(m,{rotationX:T,rotationY:x,transformPerspective:500,transformOrigin:y});var i=0+.7*Math.random(),l=Quad.easeOut;.5*M<a&&(l=Back.easeOut,i+=.2),setTimeout(_,Math.max(0,1e3*i*.5)),m.appendChild(f),TweenLite.to(m,i,{rotationX:0,rotationY:0,transformOrigin:y,transformPerspective:500,ease:l,onStart:E,onComplete:O}),TweenLite.to(f,.9*i,{autoAlpha:0,ease:Quad.easeOut})}}},a.getTileW=function(){return c}}function v(e,a,l,c,t,n,o){function r(e){l&&c||(l=g.naturalWidth,c=g.naturalHeight),s=l/c,n&&n.call(i,e)}var g,s,m,d,i=this;(g=l&&c?new Image(l,c):new Image).src=e,i.img=g,t?g.className=t:g.style.position="absolute",i.load=function(){g.onload=r,g.src=e,g.onmousedown=function(e){e&&e.preventDefault&&e.preventDefault()},a&&(o?a.insertBefore(g,a.firstChild):a.appendChild(g))},i.destroy=function(){g.src="",g=null},i.scaleTo=function(e,a,t,n,o){var r=a/t,i=s;"fill"==e||"fit"==e&&(r=s,i=a/t),d=r<i?(m=Math.ceil(t*s),t):(m=a,Math.ceil(a/s)),"none"!=e?(g.style.width=m+"px",g.style.height=d+"px"):(m=l,d=c),"center"==n?g.style.marginLeft=Math.round(.5*(a-m))+"px":"left"==n?g.style.marginLeft="0px":"right"==n&&(g.style.marginLeft=Math.round(a-m)+"px"),"center"==o?g.style.marginTop=Math.round(.5*(t-d))+"px":"top"==o?g.style.marginTop="0px":"bottom"==o&&(g.style.marginTop=Math.round(t-d)+"px")},i.getW=function(){return m},i.getH=function(){return d}}});
+$(function(){
+
+	function detectmob() { 
+		if( navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i) ) 
+			return true;
+
+		return false;
+	}	
+
+	var banner1 = new foldImage('.product-imago-banner .masked-inner', '/images/imago/sc1_01.jpg', 1218, 699, 10, 7, 35, '_js-fold');
+	var banner2 = new foldImage('.product-imago-life   .masked-inner', '/images/imago/sc2_01.png', 1329, 976, 10, 7, 11, '_js-fold');
+	var banner3 = new foldImage('.product-imago-home   .masked-inner', '/images/imago/sc5_01.png', 1330, 975, 10, 7, 61, '_js-fold');
+
+	if (!detectmob()) {
+
+		var controller = new ScrollMagic.Controller();
+
+		var scene = new ScrollMagic.Scene({triggerElement: ".product-imago-banner",  reverse: false})
+					.on('enter leave', function(e){
+						$('.product-imago-banner ._js-fold').trigger('tileAnim')
+					})
+					.addTo(controller);		
+
+		var scene = new ScrollMagic.Scene({triggerElement: ".product-imago-life",  reverse: false})
+					.on('enter leave', function(e){
+						$('.product-imago-life ._js-fold').trigger('tileAnim')
+					})
+					.addTo(controller);	
+					
+		var scene = new ScrollMagic.Scene({triggerElement: ".product-imago-home",  reverse: false})
+					.on('enter leave', function(e){
+						$('.product-imago-home ._js-fold').trigger('tileAnim')
+					})
+					.addTo(controller);				
+
+	 
+		var tween = TweenMax.fromTo(".product-imago-banner .ac-image-01", .8, { x: -100, alpha : 0 }, {x: 0, alpha : 1 });
+		var scene = new ScrollMagic.Scene({triggerElement: ".product-imago-banner .ac-image-02",  reverse: false})
+					.setTween(tween)
+					.addTo(controller);				
+
+		var tween = TweenMax.fromTo(".product-imago-banner .ac-image-02", .8, { scale: 1.3, alpha : 0 }, {scale: 1, alpha : 1 });
+		var scene = new ScrollMagic.Scene({triggerElement: ".product-imago-banner .ac-image-02",  reverse: false})
+					.setTween(tween)
+					.addTo(controller);
+
+
+		// var timeline = new TimelineLite()
+		// 			    .fromTo('.product-imago-life .masked-inner', 1.25, {width: '0%'}, {width: '100%'})
+		// 			    .fromTo('.product-imago-life .mask-img', 1.25, {x: -50, alpha: .5}, {x: 0, alpha: 1}, '-=1.25');
+		// var scene    = new ScrollMagic.Scene({triggerElement: ".product-imago-life",  reverse: false})
+	 //    				.setTween(timeline)
+	 //    				// .addIndicators({name:'.product-liber-life'}) 
+		// 				.addTo(controller);			
+
+
+		var tween = TweenMax.fromTo(".product-imago-interface .ac-image-01", .8, { scale: 1.3, alpha : 0 }, {scale: 1, alpha : 1 });
+		var scene = new ScrollMagic.Scene({triggerElement: ".product-imago-interface",  reverse: false})
+					.setTween(tween)
+					// .addIndicators({name:'.ac-image-02'}) 
+					.addTo(controller);
+
+		// var timeline = new TimelineLite()
+		// 			    .fromTo('.product-imago-home .masked-inner', 1.25, {width: '0%'}, {width: '100%'})
+		// 			    .fromTo('.product-imago-home .mask-img', 1.25, {x: 50, alpha: .5}, {x: 0, alpha: 1}, '-=1.25');
+		// var scene    = new ScrollMagic.Scene({triggerElement: ".product-imago-home",  reverse: false})
+	 //    				.setTween(timeline)
+	 //    				// .addIndicators({name:'.product-liber-life'}) 
+		// 				.addTo(controller);		
+
+		$('.an-scroll').length && TweenMax.to('.an-scroll span', 1.5, {y:"7px", ease:Circ.easeInOut, repeat:-1, yoyo: true});
+
+
+		$('section').each(function(){
+			$el = $(this).find('.float-text');
+
+			if (!$el.length){ return }
+
+
+			var tween = TweenMax.staggerFromTo($el, .8, {  y: 40, alpha: 0}, {ease: Back.easeOut.config(1.7), y: 0, alpha: 1}, 0.2);
+			var scene    = new ScrollMagic.Scene({triggerElement: this})
+	    				.setTween(tween)
+						.addTo(controller);		
+
+		});
+
+	}
+
+	
+
+	function foldImage(_container, _url, _w, _h, _tilesX, _tilesY, _startTileID, _className){
+		var _this = this;
+		var _me = document.createElement("div");
+		_me.className = "foldImg " + _className;
+		var _loaded = false;
+		var _numTiles = _tilesX*_tilesY;
+		var _tiles = [];
+		var _tileW = Math.round(_w/_tilesX), _tileH = Math.round(_h/_tilesY);
+		var _animedIn = false;
+		for(var i=0;i<_numTiles;i++) _tiles.push(new foldTile(i, _me, _tileW, _tileH, _tilesX, _tilesY));
+
+		var _baseImg = new GetImage(GetUrl(_url), null, _w, _h, "prodImg", baseLoaded);
+		var _totalCalls = 0;
+
+		$(_container).append(_me);
+		_baseImg.load();
+		$(_me).on("tileAnim", neighbourCall);
+
+		function baseLoaded(){
+			for(var i=0;i<_numTiles;i++) _tiles[i].drawSection(_baseImg.img, _tileW, _tileH);
+		}
+	
+		function neighbourCall(e, c){
+			c = c == undefined ? _startTileID : c;
+			_totalCalls++;
+			for(i=0;i<_numTiles;i++) _tiles[i].neighbourCalledMe(c, _totalCalls);
+		}
+	}
+
+	function foldTile(_id, _container, _tileW, _tileH, _tilesX, _tilesY){
+		var _this = this;
+		var _me = document.createElement("div");
+		_me.className = "tile";
+		var _canvas = document.createElement("canvas");
+		_canvas.className = "canvas";
+		var _x = (_id%_tilesX) * _tileW, _y = Math.floor(_id/_tilesX) * _tileH;
+		var _black = document.createElement("div");
+		_black.className = "black";
+		_me.appendChild(_canvas);
+		var _scale = 1;
+		
+		var _oriTileW = _tileW, _oriTileH = _tileH;
+		var _maxRotX = 90, _maxRotY = 90, _numTiles = _tilesX*_tilesY;
+		var _rotX = 0, _rotY = 0;
+		var _origin = "0 50%", _perspective = 500;
+		var _oriX = "0", _oriY = "0";
+		var _ctx = _canvas.getContext('2d');
+
+		_this.drawSection = function(_img, _tileW, _tileH){
+			_canvas.width = _tileW*_scale, _canvas.height = _tileH*_scale;
+			var _x = (_id%_tilesX) * _tileW, _y = Math.floor(_id/_tilesX) * _tileH;
+			_me.style.left = _x + "px", _me.style.top = _y+"px", _me.style.width = _tileW + "px", _me.style.height = _tileH + "px";
+			_ctx.drawImage(_img, (_id%_tilesX) * _oriTileW, Math.floor(_id/_tilesX) * _oriTileH, _oriTileW, _oriTileH, 0, 0, _tileW*_scale, _tileH*_scale);
+			_container.appendChild(_me);
+		}
+		
+		var _animTime = 0;
+		var _animInCalled = false;
+		
+		_this.neighbourCalledMe = function(_neighbourId, _totalCalls){
+			if(_animInCalled) return;
+			
+			var _xstart = (_neighbourId%_tilesX) * _tileW + _tileW*.5, _ystart = Math.floor(_neighbourId/_tilesX) * _tileH + _tileH*.5;
+			var _mycenterX = _x+_tileW*.5, _mycenterY = _y+_tileH*.5;
+			var _distanceToStartTile = Math.sqrt( Math.pow((_mycenterX-_xstart), 2) + Math.pow((_mycenterY-_ystart), 2));
+			
+			if(_distanceToStartTile > (Math.max(_tileW,_tileH)+4)) return;
+			_animInCalled = true;
+			
+			if(_mycenterX < _xstart) _rotY = _maxRotY, _oriX = "100%";
+			else if(_mycenterX > _xstart) _rotY = -_maxRotY, _oriX = "0";
+			else _oriX = "50%";
+			if(_mycenterY < _ystart) _rotX = -_maxRotX, _oriY = "100%";
+			else if(_mycenterY > _ystart) _rotX = _maxRotX, _oriY = "0";
+			else _oriY = "50%";
+			_origin = _oriX + " " + _oriY;
+
+			TweenLite.set(_me, {rotationX:_rotX, rotationY:_rotY, transformPerspective:_perspective, transformOrigin:_origin});
+			
+			var _myTime = _animTime+Math.random()*.7, _ease = Quad.easeOut;
+			if(_totalCalls > _numTiles * .5) _ease = Back.easeOut, _myTime += .2;
+
+			setTimeout(callNeighbour, Math.max(0, _myTime*1000 * .5));
+			_me.appendChild(_black);
+			TweenLite.to(_me, _myTime, {rotationX:0, rotationY:0, transformOrigin:_origin, transformPerspective:_perspective, ease:_ease, onStart:started, onComplete:animInOver});
+			TweenLite.to(_black, _myTime*.9, {autoAlpha:0, ease:Quad.easeOut});
+		}
+		
+		function started(){
+			_me.style.visibility = "visible";
+		}
+		
+		function callNeighbour(){
+			$(_container).trigger("tileAnim", _id);
+		}
+		
+		function animInOver(){
+			if(_id%_tilesX == 0 || _id%_tilesX == (_tilesX-1) || Math.floor(_id/_tilesY) == 0 || Math.floor(_id/_tilesX) == (_tilesY-1)){
+				if(_id%_tilesX == 0) _rotY = _maxRotY, _oriX = "100%";
+				else if(_id%_tilesX == (_tilesX-1)) _rotY = -_maxRotY, _oriX = "0";
+				else _rotY = 0, _oriX = "50%";
+				if(Math.floor(_id/_tilesY) == 0) _rotX = -_maxRotX, _oriY = "100%";
+				else if(Math.floor(_id/_tilesX) == (_tilesY-1)) _rotX = _maxRotX, _oriY = "0";
+				else _rotX = 0, _oriY = "50%";
+				_origin = _oriX + " " + _oriY;
+			}
+		}
+		
+		_this.getTileW = function(){
+			return _tileW;
+		}
+	}
+
+	function GetImage(n, t, i, r, u, f, e) {
+	    function a(n) {
+	        i && r || (i = o.naturalWidth,
+	        r = o.naturalHeight);
+	        l = i / r;
+	        f && f.call(s, n)
+	    }
+	    var s = this, o, l, h, c;
+	    o = i && r ? new Image(i,r) : new Image;
+        o.src = n;
+	    s.img = o;
+	    u ? o.className = u : o.style.position = "absolute";
+	    s.load = function() {
+	        o.onload = a;
+	        o.src = n;
+	        o.onmousedown = function(n) {
+	            n && n.preventDefault && n.preventDefault()
+	        };
+	        t && (e ? t.insertBefore(o, t.firstChild) : t.appendChild(o))
+	    };
+	    s.destroy = function() {
+	        o.src = "";
+	        o = null
+	    };
+	    s.scaleTo = function(n, t, u, f, e) {
+	        var s = t / u
+	          , a = l;
+	        n == "fill" || n == "fit" && (s = l,
+	        a = t / u);
+	        s < a ? (h = Math.ceil(u * l),
+	        c = u) : (h = t,
+	        c = Math.ceil(t / l));
+	        n != "none" ? (o.style.width = h + "px",
+	        o.style.height = c + "px") : (h = i,
+	        c = r);
+	        f == "center" ? o.style.marginLeft = Math.round((t - h) * .5) + "px" : f == "left" ? o.style.marginLeft = "0px" : f == "right" && (o.style.marginLeft = Math.round(t - h) + "px");
+	        e == "center" ? o.style.marginTop = Math.round((u - c) * .5) + "px" : e == "top" ? o.style.marginTop = "0px" : e == "bottom" && (o.style.marginTop = Math.round(u - c) + "px")
+	    };
+	    s.getW = function() {
+	        return h
+	    };
+	    s.getH = function() {
+	        return c
+	    }
+	}
+
+	function GetUrl(_input) {
+        return _input;
+    }
+
+});

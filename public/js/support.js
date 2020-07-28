@@ -1,1 +1,232 @@
-var $productTypeField=$("#product_type_field"),$productSeriesField=$("#product_series_field"),$productNumberField=$("#product_number_field"),$marketingNumberField=$("#marketing_number_field"),$productModelField=$("#product_model_field"),$productConfiguartionField=$("#product_config_field");$productTypeField.on("init",function(){$.getJSON("https://asp.avita.global/api/product/types").done(function(e){var t=$productTypeField.attr("data-init-val"),a=e.product_types;$productTypeField.empty(),$productTypeField.append("<option selected></option>");for(var i=0;i<a.length;i++){var d=document.createElement("option");d.textContent=a[i].name,d.value=a[i].id,d.selected=d.value==t,$productTypeField.append(d)}t&&$productTypeField.removeAttr("data-init-val"),$productTypeField.change()})}),$productTypeField.change(function(){var d=$productSeriesField;if($(this).val()){$.getJSON("https://asp.avita.global/api/product/product-series?country=in&brand=avita&type=1",{type:$(this).val()}).done(function(e){var t=d.attr("data-init-val");d.empty(),d.append("<option disabled selected></option>");for(var a=0;a<e.length;a++){var i=document.createElement("option");i.textContent=e[a],i.value=e[a],i.selected=i.value==t,d.append(i)}d.show(),d.change(),t&&d.removeAttr("data-init-val")})}else d.hide(),d.empty(),d.change()}),$productSeriesField.change(function(){var d=$marketingNumberField;if($(this).val()){$.getJSON("https://asp.avita.global/api/product/marketing-numbers?country=in&brand=avita&series=liber",{series:$(this).val()}).done(function(e){var t=d.attr("data-init-val");d.empty(),d.append("<option disabled selected></option>");for(var a=0;a<e.length;a++){var i=document.createElement("option");i.textContent=e[a],i.value=e[a],i.selected=i.value==t,d.append(i)}d.show(),d.change(),t&&d.removeAttr("data-init-val")})}else d.hide(),d.empty(),d.change()}),$marketingNumberField.change(function(){var d=$productNumberField;if($(this).val()){$.getJSON("https://asp.avita.global/api/product/product-models?country=in&brand=avita&marketing_number=NS13A1",{marketing_number:$(this).val()}).done(function(e){var t=d.attr("data-init-val");d.empty(),d.append("<option disabled selected></option>");for(var a=0;a<e.length;a++){var i=document.createElement("option");i.textContent=e[a].model_number,i.value=e[a].model_number,i.setAttribute("data-configuration",e[a].name),i.selected=i.value==t,d.append(i)}d.show(),d.change(),t&&d.removeAttr("data-init-val")})}else d.hide(),d.empty(),d.change()}),$productNumberField.change(function(){}),$productTypeField.trigger("init");
+var $productTypeField = $('#product_type_field');
+var $productSeriesField = $('#product_series_field');
+var $productNumberField = $('#product_number_field');
+var $marketingNumberField = $('#marketing_number_field');
+var $productModelField = $("#product_model_field");
+var $productConfiguartionField = $("#product_config_field");
+
+// 1. Product Type
+$productTypeField.on('init', function() {
+
+    var url = "https://asp.avita.global/api/product/types";
+
+    $.getJSON( url ).done(function ( data ) {
+
+
+        var default_value = $productTypeField.attr('data-init-val');
+
+        var productTypes = data.product_types;
+
+        $productTypeField.empty();
+        $productTypeField.append('<option selected></option>');
+
+        for (var i = 0; i < productTypes.length; i++) {
+            var opt = document.createElement('option');
+            opt.textContent = productTypes[i].name;
+            opt.value = productTypes[i].id;
+            opt.selected = (opt.value == default_value );
+
+            $productTypeField.append(opt);
+        }
+
+        if ( default_value ) {
+            $productTypeField.removeAttr('data-init-val');
+        }
+
+
+        //manually trigger a change event for the contry so that the change handler will get triggered
+        $productTypeField.change();
+
+    });
+
+});
+
+$productTypeField.change(function() {
+
+
+    var select = $productSeriesField;
+
+    if ( $(this).val() ) {
+
+        var url = "https://asp.avita.global/api/product/product-series?country=bd&brand=avita&type=1";
+
+        $.getJSON( url, {
+            type: $(this).val()
+        } ).done(function ( data ) {
+
+
+
+            var default_value = select.attr('data-init-val');
+
+            select.empty();
+            select.append('<option disabled selected></option>');
+
+            for (var i = 0; i < data.length; i++) {
+                var opt = document.createElement('option');
+                opt.textContent = data[i];
+                opt.value = data[i];
+                opt.selected = ( opt.value == default_value );
+                select.append(opt);
+            }
+
+            select.show();
+            select.change();
+
+            if ( default_value ) {
+                select.removeAttr('data-init-val');
+            }
+
+        });
+
+    } else {
+
+        select.hide();
+        select.empty();
+        select.change();
+    }
+});
+
+// 2.
+$productSeriesField.change(function() {
+
+    var select = $marketingNumberField;
+
+    if ( $(this).val() ) {
+        var url = "https://asp.avita.global/api/product/marketing-numbers?country=bd&brand=avita&series=liber";
+
+        $.getJSON( url, {
+            series: $(this).val()
+        } ).done(function ( data ) {
+
+            var default_value = select.attr('data-init-val');
+
+            select.empty();
+
+            select.append('<option disabled selected></option>');
+
+            for (var i = 0; i < data.length; i++) {
+                var opt = document.createElement('option');
+                opt.textContent = data[i];
+                opt.value = data[i];
+                opt.selected = ( opt.value == default_value );
+                select.append(opt);
+            }
+
+            select.show();
+            select.change();
+
+            if ( default_value ) {
+                select.removeAttr('data-init-val');
+            }
+        });
+
+    } else {
+
+        select.hide();
+        select.empty();
+        select.change();
+    }
+
+});
+
+// 3.
+$marketingNumberField.change(function() {
+
+    var select = $productNumberField;
+
+    if ( $(this).val() ) {
+        var url = "https://asp.avita.global/api/product/product-models?country=bd&brand=avita&marketing_number=NS13A1";
+
+        $.getJSON( url, {
+            marketing_number: $(this).val()
+        } ).done(function ( data ) {
+
+            var default_value = select.attr('data-init-val');
+
+            select.empty();
+
+            select.append('<option disabled selected></option>');
+
+            for (var i = 0; i < data.length; i++) {
+                var opt = document.createElement('option');
+                opt.textContent = data[i].model_number;
+                opt.value = data[i].model_number;
+                opt.setAttribute('data-configuration', data[i].name);
+                opt.selected = ( opt.value == default_value );
+                select.append(opt);
+            }
+
+            select.show();
+            select.change();
+
+            if ( default_value ) {
+                select.removeAttr('data-init-val');
+            }
+        });
+
+    } else {
+
+        select.hide();
+        select.empty();
+        select.change();
+    }
+});
+
+// 4.
+$productNumberField.change(function() {
+
+    // var select = $productModelField;
+    //
+    // if ( $(this).val() ) {
+    //
+    //     var url = "/api/products/models";
+    //
+    //     $.getJSON( url, {
+    //         product_number: $(this).val()
+    //     } ).done(function ( data ) {
+    //
+    //         var default_value = select.attr('data-init-val');
+    //
+    //         select.empty();
+    //
+    //         select.append('<option disabled selected></option>');
+    //
+    //         for (var i = 0; i < data.length; i++) {
+    //             var opt = document.createElement('option');
+    //             opt.textContent = data[i].model_number;
+    //             opt.value = data[i].model_number;
+    //             opt.setAttribute('data-configuration', data[i].name);
+    //             opt.selected = ( opt.value == default_value );
+    //             select.append(opt);
+    //         }
+    //
+    //         select.show();
+    //         select.change();
+    //
+    //         if ( default_value ) {
+    //             select.removeAttr('data-init-val');
+    //         }
+    //     });
+    //
+    // } else {
+    //
+    //     select.hide();
+    //     select.empty();
+    //     select.change();
+    // }
+
+    // var config_text = $('option:selected', this).attr('data-configuration');
+    // $productConfiguartionField.text(config_text);
+
+});
+
+// // 5.
+// $productModelField.change(function() {
+//
+//     var config_text = $('option:selected', this).attr('data-configuration');
+//     $productConfiguartionField.text(config_text);
+// });
+
+
+
+$productTypeField.trigger('init');

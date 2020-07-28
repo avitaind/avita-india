@@ -4,6 +4,7 @@
 
         <div class="carousel-item  active">
                 <div class="responsive-block">
+                <a href="<?php echo e(route('product.overview', ['liber-v'])); ?>">
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
@@ -15,7 +16,7 @@
                         <div class="banner-bg hidden-md-up"
                              style="background-image: url('/images/banner/liber-v-mob.jpg')"></div>
                     </div>
-                     
+                     </a>
                 </div>
             </div>
 

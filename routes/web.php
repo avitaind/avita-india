@@ -147,18 +147,15 @@ if ( Request::segment(1) != 'admin') {
 
     // Route::group(['prefix' => '{country}',  'middleware' => 'country' ], function() {
 
-
-
     // Pages
     Route::get('/repair-tnc', 'HomeController@getRepairTerms')->name('repair-tnc');
-   // Route::get('/support', 'HomeController@getSupport')->name('support');
+    Route::get('/support', 'HomeController@getSupport')->name('support');
     Route::post('/support', 'HomeController@handleSupportRedirect');
     Route::get('/search_result', 'HomeController@getSearch_result');
 
 
     //Support Demo
 
-    Route::get('/support', 'HomeController@getSupport')->name('support');
    
 
     //

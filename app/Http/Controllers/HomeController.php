@@ -65,8 +65,8 @@ class HomeController extends Controller
     }
 
 
-
-   /* public function getSupportSearch(Request $request)
+/*
+    public function getSupportSearch(Request $request)
       {
         if($request->ajax())
         {
@@ -144,7 +144,7 @@ class HomeController extends Controller
     public function handleSupportRedirect(Request $request) {
         $this->validate($request, [
             'product_number'   => 'required',
-//         'product_model'  => 'required',
+            'product_model'  => 'required',
             'type'             => 'required',
             'series'           => 'required',
             'marketing_number' => 'required',
