@@ -89,6 +89,7 @@
                 <!---
 
                 --->
+                <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
 
                 <div class="col-12 col-md-3 py-3 py-md-0 text-left">
                     <div class="d-flex justify-content-between hidden-xs-down">
@@ -101,7 +102,7 @@
                             <a href="https://ekhareedo.com/product-category/laptops/shop-by-brand/avita/" target="_blank" class="my-1">Ekhareedo</a>
 
                         </div>
-
+                    </div>
 
                     </div>
 
