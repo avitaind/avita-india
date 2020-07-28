@@ -56,13 +56,13 @@
 
 
 
-                                        <li class="nav-item">
+                                            </ul>
+                                         </div>
+                                   </li> 
+
+                                   <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'magus-lite-2in1-laptop') }}">@lang('magus.name')</a>
                                             </li>
-                                            </ul>
-                                </div>
-                            </li> 
-
                                     </ul>
                                 </div>
                             </li>
