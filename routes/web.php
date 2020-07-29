@@ -151,12 +151,12 @@ if ( Request::segment(1) != 'admin') {
     Route::get('/repair-tnc', 'HomeController@getRepairTerms')->name('repair-tnc');
     Route::get('/support', 'HomeController@getSupport')->name('support');
     Route::post('/support', 'HomeController@handleSupportRedirect');
+
+ 
     Route::get('/search_result', 'HomeController@getSearch_result');
 
 
     //Support Demo
-
-   
 
     //
     // News
@@ -187,7 +187,7 @@ if ( Request::segment(1) != 'admin') {
 
 }
 
-
+Route::post('/search', 'HomeController@search')->name('full-text-search.action');
 
 // ====================================
 // Admin CMS routes
@@ -255,5 +255,10 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin'],  'namespace' 
 
     Route::post('file_uploads', 'FileUploadController@uploadImage')->name('image_upload');
 
-
+    
 });
+
+/* Route::get('/support', 'SearchController@index');
+Route::get('/search', 'SearchController@search');
+
+*/

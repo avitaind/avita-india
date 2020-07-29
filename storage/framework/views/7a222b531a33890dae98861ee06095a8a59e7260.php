@@ -33,9 +33,8 @@
 
 <?php $__env->startSection('content'); ?>
     <main>
-    <section class="top-nav-padding support-search-section">
-
-    <div class="support-search-wrap pb-sm-5">
+<section class="top-nav-padding support-search-section">
+<div class="support-search-wrap pb-sm-5">
 
 <div class="container h-100">
     <div class="row h-100 align-items-center">
@@ -46,11 +45,8 @@
                 <div class="support-search-mob-img">
                     <img class="hidden-lg-up " src="/images/background/support-min.png"/>
                 </div>
-
-                
-                <div class="h1 section-title my-4 ls-0 font-weight-light"><?php echo app('translator')->getFromJson('site.support_title'); ?></div>
-
-                <div class="row no-gutters my-4 align-content-center justify-content-center col-12 col-sm-8 col-lg-12 mx-auto">
+        <div class="h1 section-title my-4 ls-0 font-weight-light"><?php echo app('translator')->getFromJson('site.support_title'); ?></div>
+              <div class="row no-gutters my-4 align-content-center justify-content-center col-12 col-sm-8 col-lg-12 mx-auto">
                     <div class="col-12 col-md-12 col-md-12 ml-0 ml-md-4">
                         <div class="form-group mb-2">
 
@@ -100,7 +96,7 @@
                 <div class="alert alert-dismissible alert-info">
                 Due to the global outbreak of the coronavirus (COVID-19), the service center will adjust the operation time or temporarily shut down for the time being. The adjustment will be subjected to local regulations and will be updated as soon as possible. We thank you for your patience and understanding.
                 </div>
-                 	<div class="row h-100 align-items-center">
+                 	<div class="row h-70 align-items-center">
                     
                     	<div class="col-12 col-lg-6">
 	                        <img src="/images/background/AVITA_warranty.png" style="width:100%; max-width:600px;">
@@ -120,35 +116,7 @@
                               
                    </div><!--row-->  
                 </div><!--container-->
-                        <div class="h2 section-title mb-3 ls-0"><?php echo app('translator')->getFromJson('site.support_title_2'); ?></div>
-
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                   </div><!--row-->  
-                </div><!--container-->
-            </div>
-
-
-
-
-
-
-
-
-
-
    
-           </div><!--row-->  
-     </div><!--container-->
  </section>
 
 <div class="gotop-wrap">
@@ -160,6 +128,56 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('js'); ?>
+
+<script>
+$(document).ready(function(){
+
+ load_data('');
+
+ function load_data(full_text_search_query = '')
+ {
+  var _token = $("input[name=_token]").val();
+  $.ajax({
+   url:"<?php echo e(route('full-text-search.action')); ?>",
+   method:"POST",
+   data:{full_text_search_query:full_text_search_query, _token:_token},
+   dataType:"json",
+   success:function(data)
+   {
+    var output = '';
+    if(data.length > 0)
+    {
+     for(var count = 0; count < data.length; count++)
+     {
+      output += '<tr>';
+      output += '<td>'+data[count].CustomerName+'</td>';
+      output += '<td>'+data[count].Gender+'</td>';
+      output += '<td>'+data[count].Address+'</td>';
+      output += '<td>'+data[count].City+'</td>';
+      output += '<td>'+data[count].PostalCode+'</td>';
+      output += '<td>'+data[count].Country+'</td>';
+      output += '</tr>';
+     }
+    }
+    else
+    {
+     output += '<tr>';
+     output += '<td colspan="6">No Data Found</td>';
+     output += '</tr>';
+    }
+    $('tbody').html(output);
+   }
+  });
+ }
+
+ $('#search').click(function(){
+  var full_text_search_query = $('#full_text_search').val();
+  load_data(full_text_search_query);
+ });
+
+});
+</script>
+
  
     <script src="../js/support.js"></script>
 <?php $__env->stopSection(); ?>

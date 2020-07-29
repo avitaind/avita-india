@@ -1100,7 +1100,7 @@ body.lang_en .other-event, body.lang_en .event-detail{
 
 .support-search-wrap , .support-center-wrap {
   position: relative;
-  background-color: #f7f7f7
+  /*background-color: #f7f7f7*/
 }
 .support-center-wrap {
   background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%);
