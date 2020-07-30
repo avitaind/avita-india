@@ -149,11 +149,12 @@ if ( Request::segment(1) != 'admin') {
 
     // Pages
     Route::get('/repair-tnc', 'HomeController@getRepairTerms')->name('repair-tnc');
-    Route::get('/support', 'HomeController@getSupport')->name('support');
-    Route::post('/support', 'HomeController@handleSupportRedirect');
+    
+   Route::get('/support', 'HomeController@getSupport')->name('support');
+   Route::post('/support', 'HomeController@handleSupportRedirect');
 
  
-    Route::get('/search_result', 'HomeController@getSearch_result');
+    //Route::get('/search_result', 'HomeController@getSearch_result');
 
 
     //Support Demo
@@ -258,7 +259,6 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin'],  'namespace' 
     
 });
 
-/* Route::get('/support', 'SearchController@index');
-Route::get('/search', 'SearchController@search');
+//Route::get('/support', 'SearchController@index');
+//Route::get('/search', 'SearchController@search');
 
-*/

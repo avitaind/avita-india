@@ -118,7 +118,7 @@
                 @endif
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('support') }}">@lang('site.service')</a>
+                        <a class="nav-link" href="{{ route('support') }}">@lang('site.service')</a> 
                 </li>
 
                 <li class="nav-item has-dropdown">

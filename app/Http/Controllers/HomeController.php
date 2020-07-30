@@ -64,8 +64,8 @@ class HomeController extends Controller
         return view('pages.about_us');
     }
 
-/*
-    public function getSupport( ){
+
+    /*public function getSupport( ){
 
         $productModels = ProductModel::all();
 
@@ -74,7 +74,7 @@ class HomeController extends Controller
 
         return view('pages.support-new', compact('productModels', 'serviceCenters'));
     }
-
+*/
 
     public function search(Request $request)
      {
@@ -86,8 +86,7 @@ class HomeController extends Controller
             }
      }       
 
-*/
-    
+
 
     public function getSupport( ){
 
@@ -131,6 +130,8 @@ class HomeController extends Controller
     public function getSearch_result( ){
         return view('pages.search_result');
     }
+    
+  
 
     public function showCountrySelections( ){
         return view('pages.global');

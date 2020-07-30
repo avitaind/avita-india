@@ -23,8 +23,8 @@
                                     <tr>
                                         <th>Shop ID</th>            
                                         <th>Shop Name</th>
-                                        <th>Shop Address</th>
-                                        <th>Priority</th>
+                                        <th>Local</th>
+                                        <th>Address</th>
                                    </tr>
                                  </thead>
                                  <tbody>
