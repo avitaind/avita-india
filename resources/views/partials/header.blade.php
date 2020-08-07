@@ -53,9 +53,6 @@
                                              <li class="nav-item">
                                                     <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-new-generation']) }}">@lang('site.liber-new-generation')</a>
                                                 </li>
-
-
-
                                             </ul>
                                          </div>
                                    </li> 
@@ -155,7 +152,6 @@
             </ul>
         </div>
    <!-- <div id="overlay">
-
         </div> -->
         @if( $user = Auth::user( ) )
             <aside class="navbar-user-warp hidden-md-up">

@@ -4,42 +4,59 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\NewServiceCenter;
+
 use DB;
 
 
 class SearchController extends Controller
 {
     public function index(){
-        return view('search');  
+
+        $searchResults = NewServiceCenter::all();
+        return view('search', compact('searchResults'));
+       
     }
 
 
     public function search(Request $request)
-    {
+    { 
+       
         if($request->ajax())
         {
             $output="";
-            $shops = DB::table('shop_translations')->where('name', 'LIKE', '%'.$request->search.'%')
-                                                   ->orWhere('address','LIKE','%'.$request->search.'%')->get();
+            $shops = DB::table('new_service_centers')->where('address', 'LIKE', '%'.$request->search.'%')
+                                                   ->orWhere('city','LIKE','%'.$request->search.'%')
+                                                   ->orWhere('state','LIKE','%'.$request->search.'%')
+                                                   ->orWhere('pin','LIKE','%'.$request->search.'%')->get();
                                                    
-          if($shops)
-          {
-              foreach($shops as $key => $shop)
-              {
-                  $output.='<tr>'.
-                         '<td>'.$shop->id.'</td>'.
-                         '<td>'.$shop->name.'</td>'.
-                         '<td>'.$shop->locale.'</td>'.
-                         '<td>'.$shop->address.'</td>'.
-                          '</tr>';
-              }
-              return Response($output);
-              
-
+                  if($shops)
+                      {
+                foreach($shops as $key => $shop)
+                {
+                    $output.='<div class="col-md-6">
+                         <div>
+                        <i class="fa fa-map icon"></i>'
+                        .$shop->address.
+                    '</div>
+                    <div>
+                        <i class="fa fa-clock-o icon"></i>'
+                        .$shop->opening_hour.
+                    '</div>
+                    <div>
+                        <i class="fa fa-phone icon"></i>'
+                        .$shop->phone.
+                    '</div>
+                    
+             </div>';
+                            
+                                        
+                   }
+                return Response($output);
+                                         
           }
-
+   
         }
-
     }
 
 

@@ -53,9 +53,6 @@
                                              <li class="nav-item">
                                                     <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-new-generation'])); ?>"><?php echo app('translator')->getFromJson('site.liber-new-generation'); ?></a>
                                                 </li>
-
-
-
                                             </ul>
                                          </div>
                                    </li> 
@@ -155,7 +152,6 @@
             </ul>
         </div>
    <!-- <div id="overlay">
-
         </div> -->
         <?php if( $user = Auth::user( ) ): ?>
             <aside class="navbar-user-warp hidden-md-up">

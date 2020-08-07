@@ -64,8 +64,8 @@ class HomeController extends Controller
         return view('pages.about_us');
     }
 
-
-    /*public function getSupport( ){
+/*
+   public function getSupport( ){
 
         $productModels = ProductModel::all();
 
@@ -87,7 +87,7 @@ class HomeController extends Controller
      }       
 
 
-
+/*
     public function getSupport( ){
 
         $productModels = ProductModel::all();
@@ -97,7 +97,7 @@ class HomeController extends Controller
 
         return view('pages.support', compact('productModels', 'serviceCenters'));
     }
-
+*/
     public function handleSupportRedirect(Request $request) {
         $this->validate($request, [
             'product_number'   => 'required',
@@ -108,7 +108,6 @@ class HomeController extends Controller
         ]);
 
         $product_model = $request->get('product_model');
-
         $product_number = $request->get('product_number');
         $product_type = $request->get('type');
         $product_series = $request->get('series');

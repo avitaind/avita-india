@@ -12,6 +12,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo e($xml_lang); ?>" lang="<?php echo e($xml_lang); ?>">
 <head>
 
+
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
@@ -49,10 +50,12 @@
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 
     <?php echo $__env->yieldContent('meta'); ?>
+    
     <link rel="stylesheet" href="<?php echo e(asset('css/bootstrap.min.css')); ?>"/>
     <link rel="stylesheet" href="<?php echo e(asset('css/font-awesome.min.css')); ?>"/>
     <link rel="stylesheet" href="<?php echo e(asset('css/global.css')); ?>"/>
     <link rel="stylesheet" href="<?php echo e(asset('css/style.css')); ?>"/>
+
 
 
     <title><?php echo $__env->yieldContent('title', 'AVITA'); ?> <?php echo e(isset($TITLE_SUFFIX) ? $TITLE_SUFFIX : ""); ?></title>

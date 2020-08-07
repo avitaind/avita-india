@@ -150,11 +150,11 @@ if ( Request::segment(1) != 'admin') {
     // Pages
     Route::get('/repair-tnc', 'HomeController@getRepairTerms')->name('repair-tnc');
     
-   Route::get('/support', 'HomeController@getSupport')->name('support');
+  // Route::get('/support', 'HomeController@getSupport')->name('support');
    Route::post('/support', 'HomeController@handleSupportRedirect');
 
  
-    //Route::get('/search_result', 'HomeController@getSearch_result');
+    Route::get('/search_result', 'HomeController@getSearch_result');
 
 
     //Support Demo
@@ -188,7 +188,7 @@ if ( Request::segment(1) != 'admin') {
 
 }
 
-Route::post('/search', 'HomeController@search')->name('full-text-search.action');
+//Route::post('/search', 'HomeController@search')->name('full-text-search.action');
 
 // ====================================
 // Admin CMS routes
@@ -253,12 +253,10 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin'],  'namespace' 
 //    Route::post('/repair_tnc', 'SettingController@postRepairTerms')->middleware('can:manage-service-data');
 
     Route::resource('service_centers', 'ServiceCenterController');
-
     Route::post('file_uploads', 'FileUploadController@uploadImage')->name('image_upload');
 
     
 });
 
-//Route::get('/support', 'SearchController@index');
-//Route::get('/search', 'SearchController@search');
-
+Route::get('/support', 'SearchController@index')->name('support');
+Route::get('/search', 'SearchController@search');

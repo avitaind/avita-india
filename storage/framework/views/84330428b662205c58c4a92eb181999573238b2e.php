@@ -94,7 +94,7 @@
                 <div class="col-12 col-md-3 py-3 py-md-0 text-left">
                     <div class="d-flex justify-content-between hidden-xs-down">
                         <div class="d-flex flex-column mr-3 ml-md-0 small-lsm-little">
-                            <strong>Available On</strong>
+                            <p class="heading">Available On</p>
                             <a href="https://in.nexstmall.com/" target="_blank" class="my-1">NEXSTMALL</a>
                             <a href="https://www.flipkart.com/search?q=avita+laptops&otracker=search&otracker1=search&marketplace=FLIPKART&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DAvita" target="_blank" class="my-1">Flipkart</a>
                             <a href="https://www.amazon.in/s?k=avita+admiror" target="_blank" class="my-1">Amazon</a>
