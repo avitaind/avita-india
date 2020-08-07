@@ -1103,7 +1103,7 @@ body.lang_en .other-event, body.lang_en .event-detail{
   /*background-color: #f7f7f7*/
 }
 .support-center-wrap {
-  background: -moz-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%);
+  background: -moz-linear-gradient(top, rgba(240,240,240,1) 94%, rgba(255,255,255,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247,247,247,1)), color-stop(100%, rgba(255,255,255,1)));
   background: -webkit-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%);
   background: -o-linear-gradient(top, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%);
