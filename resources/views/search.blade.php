@@ -96,8 +96,9 @@
                 </div>
             </div>
 
-            <div class="warranty-center-wrap py-5">            
+          <!----  <div class="warranty-center-wrap py-5">            
             	<div class="container h-100">
+               
                 	<div class="row h-100 align-items-center">
                     
                     	<div class="col-12 col-lg-6">
@@ -114,9 +115,26 @@
                                     See More
                                 </a> 
                             </div>  
-                        </div>                                     
+
+                          
+                        </div>  
+                                                      
                 </div>
-          
+        --->
+        <div class="support-center-wrap py-5">
+
+<div class="h1 text-center mt-4 mb-3 font-weight-light">Warranty Extension</div>
+    <div class="text-center purchase_steps">
+ <a href="https://www.avita.global/warranty-extension" target="_blank" class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">See More</a> 
+   </div>
+   
+   <br/>
+
+   <div class="container">
+   <div class="alert alert-dismissible alert-info">
+   Due to the global outbreak of the coronavirus (COVID-19), the service center will adjust the operation time or temporarily shut down for the time being. The adjustment will be subjected to local regulations and will be updated as soon as possible. We thank you for your patience and understanding.
+   </div>
+      
        <div class="panel-heading">
 
        <div class="h2 text-center section-title mb-3 ls-0 font-weight-light pt-5">@lang('site.support_title_2')</div>
@@ -148,7 +166,7 @@
 
 
                 </div>
-                    <div class="form-group">
+                  <!--  <div class="form-group">
                         
                         <div class="input-group">
                        
@@ -157,7 +175,7 @@
                         
                         </div>
                     </div>
-                 
+                 --->
                 
         
               
