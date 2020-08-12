@@ -31,11 +31,28 @@ class ProductsController extends Controller
         return view('product.overview');
     }
 
+
+    public function showAccessoriesFeatures( $slug) {
+        $country = 'in';
+        $accessories = $this->productFromURL($country, $slug);
+
+    if ( $slug == 'ubique' ){
+
+            switch ( $country ) {
+                case 'in':
+                    return view('accessories.mouse.feature_hk_en', compact( 'accessories'));
+                    break;
+            }
+        }
+    }
+
+
     public function showProductFeatures( $slug) {
         $country = 'in';
         $product = $this->productFromURL($country, $slug);
 
-    if ( $slug == 'magus-lite' ){
+ 
+     if ( $slug == 'magus-lite' ){
 
             switch ( $country ) {
                 case 'in':
@@ -157,6 +174,21 @@ class ProductsController extends Controller
     }
     */
 
+    public function showAccessoriesSpec( $slug) {
+        $country = 'in';
+        $accessories = $this->productFromURL($country, $slug);
+
+        if ( $slug == 'ubique' ){
+            switch ( $country ) {
+                case 'in':
+                    return view('accessories.mouse.spec_hk_en', compact( 'accessories'));
+
+                    break;
+            }
+        }
+    }
+
+
     public function showProductSpec( $slug) {
         $country = 'in';
         $product = $this->productFromURL($country, $slug);
@@ -170,6 +202,7 @@ class ProductsController extends Controller
             }
         }
         
+  
    
         if ( $slug == 'cosmos' ){
             switch ( $country ) {
@@ -361,7 +394,7 @@ class ProductsController extends Controller
 
     public static function showProductModels(Request $request) {
 
-        return ASPAPIService::getProductModels( $request->get('product_number'), $request->get('marketing_number') );
+        return ASPAPIService::getProductModels( $request->get('product_number'), $request->get('marketing_number'));
 
     }
 

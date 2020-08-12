@@ -258,5 +258,6 @@ return [
     'productnav_overview_liber_v'   => 'Overview LIBER V',	
     'productnav_overview_essential' => 'Overview Essential', 
     'liber' => 'LIBER',
-    'liber-v' => 'LIBER V'
+    'liber-v' => 'LIBER V',
+    'productnav_overview_ubique' => 'AVITA UBIQUE'
 ];

@@ -55,6 +55,7 @@ return [
      'LIBER_v_spec'  	  => 'AVITA LIBER V Spec', 
      'Essential_home'   	  => 'AVITA Essential',
      'Essential_spec'  	  => 'AVITA Essential Spec',
+     'UBIQUE_home'  => 'AVITA UBIQUE',
     
 
 ];

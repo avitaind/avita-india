@@ -17,4 +17,4 @@
 
 </main>
 
-@stop
+@endsection

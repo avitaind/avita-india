@@ -172,10 +172,15 @@ if ( Request::segment(1) != 'admin') {
 
 
 
- Route::get('/products', 'ProductsController@getProducts')->name('products');
-
+    Route::get('/products', 'ProductsController@getProducts')->name('products');
     Route::get('/accessories/mouse', 'ProductsController@mouse');
+
+    
     //});
+    Route::get('/accessories/{slug}', 'ProductsController@showAccessoriesFeatures')->name('accessories.overview');
+    Route::get('/accessories/{slug}/spec', 'ProductsController@showAccessoriesSpec')->name('accessories.spec');
+
+
 
     Route::get('/product/{slug}', 'ProductsController@showProductFeatures')->name('product.overview');
     Route::get('/product/{slug}/spec_new', 'ProductsController@showProductSpecNew')->name('product.spec_new');
