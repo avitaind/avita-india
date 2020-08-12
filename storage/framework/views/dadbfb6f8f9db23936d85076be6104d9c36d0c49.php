@@ -124,7 +124,7 @@
     </script>
 -->
     <!-- Facebook Pixel -->
-  <!--  <script>
+    <script>
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -133,18 +133,18 @@
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '149202439004103');
+        fbq('init', '3386287304724739');
         fbq('track', 'PageView');
     </script>
-    -->
+   
     <!-- End Facebook Pixel -->
 
     <!-- Facebook Pixel (noscript) -->
-  <!--  <noscript><img height="1" width="1"
-                   style="display:none" src="https://www.facebook.com/tr?id=149202439004103&ev=PageView&noscript=1"
-        /></noscript>
-    --->    
-    <!-- End Facebook Pixel (noscript) -->
+    <noscript>
+    
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=3386287304724739&ev=PageView&noscript=1"/>
+        </noscript>
+        <!-- End Facebook Pixel (noscript) -->
 
     <?php echo $__env->yieldPushContent('css'); ?>
     <?php echo $__env->yieldContent('css'); ?>

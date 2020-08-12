@@ -177,8 +177,10 @@ if ( Request::segment(1) != 'admin') {
 
     
     //});
-    Route::get('/accessories/{slug}', 'ProductsController@showAccessoriesFeatures')->name('accessories.overview');
-    Route::get('/accessories/{slug}/spec', 'ProductsController@showAccessoriesSpec')->name('accessories.spec');
+
+
+//    Route::get('/accessories/{slug}', 'ProductsController@showAccessoriesFeatures')->name('accessories.overview');
+  //  Route::get('/accessories/{slug}/spec', 'ProductsController@showAccessoriesSpec')->name('accessories.spec');
 
 
 
