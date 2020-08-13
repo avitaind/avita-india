@@ -57,27 +57,7 @@
                      </a>
                 </div>
             </div>
-            
-            <div class="carousel-item">
-            <div class="responsive-block">
-            <a href="<?php echo e(route('product.spec', 'cosmos')); ?>">
-                    <div class="banner-block responsive-item">
-                        <?php if( App::isLocale('en') ): ?>
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/cosmos-banner-web-new.jpg')"></div>
-                        <?php else: ?>
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/cosmos-banner-web-new.jpg')"></div>
-                        <?php endif; ?>
-                        
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/cosmos-banner-mob-new.jpg')"></div>
-                    </div>
-                    </a>
-                   </div>
-            </div>
 
-          
          <div class="carousel-item">
                 <div class="responsive-block">
                     <a href="/product/liber-u-series">
@@ -138,7 +118,6 @@
            <li data-target="#home_banner" data-slide-to="3"></li>
            <li data-target="#home_banner" data-slide-to="4"></li>
            <li data-target="#home_banner" data-slide-to="5"></li>
-           <li data-target="#home_banner" data-slide-to="6"></li>
         </ol>
     </div>
             </div>       
