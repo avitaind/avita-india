@@ -57,27 +57,7 @@
                      </a>
                 </div>
             </div>
-            
-         <!---   <div class="carousel-item">
-            <div class="responsive-block">
-            <a href="{{ route('product.spec', 'cosmos') }}">
-                    <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/cosmos-banner-web-new.jpg')"></div>
-                        @else
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/cosmos-banner-web-new.jpg')"></div>
-                        @endif
-                        
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/cosmos-banner-mob-new.jpg')"></div>
-                    </div>
-                    </a>
-                   </div>
-            </div>
----->
-          
+
          <div class="carousel-item">
                 <div class="responsive-block">
                     <a href="/product/liber-u-series">
