@@ -58,7 +58,7 @@
                 </div>
             </div>
             
-            <div class="carousel-item">
+         <!---   <div class="carousel-item">
             <div class="responsive-block">
             <a href="{{ route('product.spec', 'cosmos') }}">
                     <div class="banner-block responsive-item">
@@ -76,7 +76,7 @@
                     </a>
                    </div>
             </div>
-
+---->
           
          <div class="carousel-item">
                 <div class="responsive-block">
@@ -138,7 +138,6 @@
            <li data-target="#home_banner" data-slide-to="3"></li>
            <li data-target="#home_banner" data-slide-to="4"></li>
            <li data-target="#home_banner" data-slide-to="5"></li>
-           <li data-target="#home_banner" data-slide-to="6"></li>
         </ol>
     </div>
             </div>       

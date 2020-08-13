@@ -44,7 +44,7 @@ class CampusController extends Controller
         {
             $email = $request->input('email');
             $name = $request->input('name');
-     
+            $message->attach(public_path() . '/images/AVITA-Family-Brochure.pdf');
             $message->from('contact@avita-india.com');
             $message->to($email, $name)->subject('Campus Ambassador Program');
         });
