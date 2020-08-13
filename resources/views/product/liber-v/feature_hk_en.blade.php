@@ -30,19 +30,19 @@
 
         
         
-      <!---   <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
+         <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
                 <div class="container">
                         <div class="space60"></div>
                         <div class="banner-para">
                         <div align="center" class="col-lg-12" >
-                        <div class="admiror_h1">COMING SOON</div>
-                  <span class="buy-now2"> COMING SOON</span> 
+                       <!--   <div class="admiror_h1">COMING SOON</div>
+                      <span class="buy-now2"> COMING SOON</span> --->
                         </div>
-                       
+                      
                             <div class="banner-para text-center">
                             <span class="d-lg-block">
-                            <a href="https://www.nexstmall.com/products/avita-liber-v-14?utm_source=brandsite_medium=overview_campaign=buynow" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; 
-                            <a href="{{ route('product.map', 'liber-v') }}" style="color:#09F">Where to buy ></a>
+                            <a href="https://www.amazon.in/AVITA-NS14A8INF561-MB-14-inch-i5-10210U-Graphics/dp/B0873JP8WQ/" target="_blank" style="color:#09F">Buy now ></a>&nbsp;&nbsp; 
+                            <!--- <a href="{{ route('product.map', 'liber-v') }}" style="color:#09F">Where to buy ></a> --->
                             </span>
                         </div>
                        
@@ -51,7 +51,7 @@
                 </div>
         </section>
 
-        ---->
+        
 
         <section class="product-liber-computer product-liber-v-computer">
             <div class="banner-block">
