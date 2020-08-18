@@ -152,7 +152,6 @@
     @stack('css')
     @yield('css')
    
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
 
 <script type="text/javascript">
 window.addEventListener('load', 
@@ -233,6 +232,7 @@ window.addEventListener('load',
 </noscript>
 -->
 <script type="text/javascript" src="{{asset('/js/liber.js')}}"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
 
 @stack('js')
 @yield('js')
