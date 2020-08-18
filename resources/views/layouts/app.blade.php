@@ -122,6 +122,10 @@
         gtag('config', 'AW-878181922');
     </script>
 -->
+
+<script async type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
+<script async type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
+
     <!-- Facebook Pixel -->
     <script>
         !function(f,b,e,v,n,t,s)
@@ -179,12 +183,12 @@ window.addEventListener('load',
     @include('partials.footer')
 @endif
 
-<script async type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
-<script async type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
 
-<script type="text/javascript" src="{{asset('/js/liber.js')}}"></script>
+
 <script type="text/javascript" src="{{asset('/js/support.js')}}"></script>
 
+<script type="text/javascript" src="{{ asset('js/conversion.js') }}"></script>
+<script type="text/javascript" src="{{asset('/js/wpk4iql.js')}}"></script>
 
 <!-- Facebook API -->
 <!--
@@ -228,13 +232,7 @@ window.addEventListener('load',
     </div>
 </noscript>
 -->
-
-
-<script type="text/javascript" src="{{ asset('js/conversion.js') }}"></script>
-<script type="text/javascript" src="{{asset('/js/wpk4iql.js')}}"></script>
-
-
-
+<script type="text/javascript" src="{{asset('/js/liber.js')}}"></script>
 
 @stack('js')
 @yield('js')
