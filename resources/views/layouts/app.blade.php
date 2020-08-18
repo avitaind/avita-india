@@ -80,8 +80,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154623067-1"></script>
     --->
     <script async type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
-    <script type="text/javascript" src="{{asset('/js/liber.js')}}"></script>
-    <script type="text/javascript" src="{{asset('/js/support.js')}}"></script>
+  
 
 <script async>
   window.dataLayer = window.dataLayer || [];
@@ -150,6 +149,7 @@
     @yield('css')
    
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+
 <script type="text/javascript">
 window.addEventListener('load', 
   function() { 
@@ -179,8 +179,12 @@ window.addEventListener('load',
     @include('partials.footer')
 @endif
 
-<script type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
-<script type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
+<script async type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
+<script async type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
+
+<script type="text/javascript" src="{{asset('/js/liber.js')}}"></script>
+<script type="text/javascript" src="{{asset('/js/support.js')}}"></script>
+
 
 <!-- Facebook API -->
 <!--
