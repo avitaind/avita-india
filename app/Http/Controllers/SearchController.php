@@ -16,6 +16,7 @@ class SearchController extends Controller
 
         $searchResults = NewServiceCenter::all();
         $productModels = ProductModel::all();
+        $country = 'in';
         return view('search', compact('searchResults','productModels'));
        
     }
