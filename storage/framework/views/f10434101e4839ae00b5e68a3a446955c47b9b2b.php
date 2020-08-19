@@ -42,7 +42,7 @@
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-6 text-center">
-                            <form method="POST" action="/" class="">
+                            <form method="POST" action="<?php echo e(route('support')); ?>" class="">
                                 <?php echo e(csrf_field()); ?>
 
                                 <div class="support-search-mob-img">
@@ -214,21 +214,41 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('js'); ?>
-<script type="text/javascript">
+            <script type="text/javascript">
 
- $('#search').on('keyup', function(){
-        $value=$(this).val();
-        $.ajax({
-            type: 'get',
-            url: '<?php echo e(URL::to('search')); ?>',
-            data: { 'search': $value},
-            success:function(data){
-                $('#shopsList').html(data);
+            $('#search').on('keyup', function(){
+                    $value=$(this).val();
+                    $.ajax({
+                        type: 'get',
+                        url: '<?php echo e(URL::to('search')); ?>',
+                        data: { 'search': $value},
+                        success:function(data){
+                            $('#shopsList').html(data);
+                        }
+                    })
+                })
+
+            </script>
+
+            <script>
+            var init_data = <?php echo json_encode($json_data); ?>;
+            function reload_driver_list( ) {
+                var product_number = $("#product_number_field").val();
+                if (product_number != null) {
+                    var url = '/api/drivers?product_number=' + product_number;
+                    $("#product-driver-wrapper").load(url);
+                }
             }
-        })
-    })
 
-</script>
+            $('#product_number_field').on('init change', function(e) {
+                reload_driver_list( );
+            }).trigger('init');
+
+
+
+    </script>
+    <script type="text/javascript" src="<?php echo e(asset('js/support.js')); ?>"></script>
+
 
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

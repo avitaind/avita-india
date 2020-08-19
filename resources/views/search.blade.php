@@ -44,7 +44,7 @@
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-6 text-center">
-                            <form method="POST" action="/" class="">
+                            <form method="POST" action="{{ route('support') }}" class="">
                                 {{ csrf_field() }}
                                 <div class="support-search-mob-img">
                                     <img class="hidden-lg-up " src="/images/background/support-min.png"/>
@@ -228,6 +228,8 @@
 
             </script>
 
-        
+    
+    <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
+
 
 @endsection
