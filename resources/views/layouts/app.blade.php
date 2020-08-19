@@ -50,6 +50,8 @@
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 
     @yield('meta')
+
+    <title>@yield('title', 'AVITA') {{ $TITLE_SUFFIX or "" }}</title>
     
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
     <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>
@@ -57,17 +59,8 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}"/>
 
 
-
-    <title>@yield('title', 'AVITA') {{ $TITLE_SUFFIX or "" }}</title>
-
- 
-
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css"> -->
-    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWQCKIl7B4w27KcSW-tW4ja_Rk4SbcPnk&callback=initMap" type="text/javascript"></script>-->
-   <!--- <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script> -->
-
-    <script>try{Typekit.load();}catch(e){}</script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+   <script src="//use.typekit.net/wpk4iql.js"></script>
+   <script>try{Typekit.load();}catch(e){}</script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -76,44 +69,41 @@
     @endphp
 
     @if( $ga_code )
-<!--
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154623067-1"></script>
-    --->
-    <script async type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
-  
 
+    <script async type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
+    
 <script async>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-133345635-5');
 
-//  gtag('config', 'UA-128035503-6');
 </script>
   @endif
 
 <!-- Google Tag Manager -->
-   <!---
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+ 
+ <!---
+   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-WLGC2FG');</script>
 
-        -->
+  ---->    
     <!-- End Google Tag Manager -->
 
     <!-- Google Tag Manager (noscript) -->
-<!--
+<!---
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLGC2FG"
                       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
--->
+--->
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Global site tag (gtag.js) - Google Ads: 878181922 -->
+  
   <!--
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-878181922"></script>
+   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-878181922"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -121,11 +111,7 @@
 
         gtag('config', 'AW-878181922');
     </script>
--->
-
-<script async type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
-<script async type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
-
+  --->
     <!-- Facebook Pixel -->
     <script>
         !function(f,b,e,v,n,t,s)
@@ -151,8 +137,7 @@
 
     @stack('css')
     @yield('css')
-   
-
+  
 <script type="text/javascript">
 window.addEventListener('load', 
   function() { 
@@ -183,14 +168,11 @@ window.addEventListener('load',
 @endif
 
 
-
-<script type="text/javascript" src="{{asset('/js/support.js')}}"></script>
-
-<script type="text/javascript" src="{{ asset('js/conversion.js') }}"></script>
-<script type="text/javascript" src="{{asset('/js/wpk4iql.js')}}"></script>
+<script type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
 
 <!-- Facebook API -->
-<!--
+
     <script>
     window.fbAsyncInit = function() {
         FB.init({
@@ -209,9 +191,9 @@ window.addEventListener('load',
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 </script>
---->
+
 <!-- Google Code for Remarketing Tag -->
-<!--
+
     <script type="text/javascript">
     /* <![CDATA[ */
     var google_conversion_id = 830592061;
@@ -219,19 +201,17 @@ window.addEventListener('load',
     var google_remarketing_only = true;
     /* ]]> */
 </script>
--->
 
-<!-- 
+
+
     <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script> -->
-<!--
+</script>
+
     <noscript>
     <div style="display:inline;">
         <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/830592061/?guid=ON&amp;script=0"/>
     </div>
 </noscript>
--->
-<script type="text/javascript" src="{{asset('/js/liber.js')}}"></script>
 
 @stack('js')
 @yield('js')

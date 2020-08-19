@@ -146,15 +146,11 @@ function metaDescriptionByPage( $page ) {
 function googleAnalyticCode( $country ) {
 
     switch ( $country ) {
-        //case 'in' : return "UA-128035503-6";
+
         case 'in' : return "UA-133345635-5";
 
     }
     return 'UA-133345635-5'; 
-
-    //return 'UA-128035503-6';    // Default
-
-
 }
 function GoogleMap( $key ) {
 
