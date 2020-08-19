@@ -58,25 +58,36 @@
     <?php echo e(csrf_field()); ?>
 
      <!--Student Name Start-->
-    <div class="form-group row">
+    <div class="form-group<?php echo e($errors->has('name') ? ' has-error' : ''); ?> row">
      <label for="name">Name* :</label>
      <input type="text" class="form-control" placeholder="Enter Name" id="name" name="name" require>
+     <?php if($errors->has('name')): ?>
+       <span class="error" style="color:red;">Name Can Not Be Empty</span>
+      <?php endif; ?>
     </div>
+
+
    <!-- Student Name End-->
    <!-- Email Start-->
-   <div class="form-group row">
+   <div class="form-group<?php echo e($errors->has('email') ? ' has-error' : ''); ?> row">
      <label for="email">Email*:</label>
      <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" require>
+     <?php if($errors->has('email')): ?>
+       <span class="error" style="color:red;">Email Can Not Be Empty</span>
+      <?php endif; ?>
    </div>
    <!-- Email End-->
       <!-- Phone Number Start-->
-  <div class="form-group row">
+  <div class="form-group<?php echo e($errors->has('phone') ? ' has-error' : ''); ?> row">
    <label for="phone">Phone Number* :</label>
    <input type="text" class="form-control" placeholder="Enter Phone Number" id="phone" name="phone" require>
+   <?php if($errors->has('phone')): ?>
+       <span class="error" style="color:red;">Phone no. Can Not Be Empty</span>
+      <?php endif; ?>
    </div>
    <!-- Phone Number End-->
     <!-- College Name Start-->
-    <div class="form-group row">
+    <div class="form-group<?php echo e($errors->has('internship') ? ' has-error' : ''); ?> row">
      <label for="internship">Will you be interested in pursuing a summer internship with AVITA India? :</label>
      <label class="radio-inline">
       <input type="radio" name="internship" value="YES" checked> YES
@@ -84,22 +95,34 @@
     <label class="radio-inline">
       <input type="radio" name="internship" value="NO"> NO
     </label>
+    <?php if($errors->has('internship')): ?>
+       <span class="error" style="color:red;">Please choose anyone</span>
+      <?php endif; ?>
     </div>
    <!-- College Name End-->
    <!-- College Name Start-->
-   <div class="form-group row">
+   <div class="form-group<?php echo e($errors->has('college') ? ' has-error' : ''); ?> row">
      <label for="college">College/University Name* :</label>
      <input type="text" class="form-control" placeholder="Enter College/University Name" id="college" name="college" require>
+     <?php if($errors->has('college')): ?>
+       <span class="error" style="color:red;">College / University Name Can Not Be Empty</span>
+      <?php endif; ?>
     </div>
    <!-- College Name End-->
-   <div class="form-group row">
-     <label for="college">Have you ever been in the organising team of a festival or event in your college in some official capacity?:</label>
+   <div class="form-group<?php echo e($errors->has('team') ? ' has-error' : ''); ?> row">
+     <label for="team">Have you ever been in the organising team of a festival or event in your college in some official capacity?:</label>
      <input type="text" class="form-control" placeholder="Please Give Details" id="team" name="team" require>
+     <?php if($errors->has('name')): ?>
+       <span class="error" style="color:red;">This Can Not Be Empty</span>
+      <?php endif; ?>
     </div>
    <!-- College Name End-->
-   <div class="form-group row">
-     <label for="college">How do you think you can help represent Avita in a better way in your college? :</label>
+   <div class="form-group<?php echo e($errors->has('represent') ? ' has-error' : ''); ?> row">
+     <label for="represent">How do you think you can help represent Avita in a better way in your college? :</label>
      <input type="text" class="form-control" placeholder="Write Your Answer Here" id="represent" name="represent" require>
+     <?php if($errors->has('represent')): ?>
+       <span class="error" style="color:red;">This Can Not Be Empty</span>
+      <?php endif; ?>
     </div>
    <!-- College Name End-->
 
