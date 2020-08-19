@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @php
-
 	$item_count = $product->faqs->count();
 @endphp
 
@@ -193,6 +192,7 @@
 
 @section('js')
 
+    <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
 
 	<script>
 
@@ -216,6 +216,5 @@
 
 
 	</script>
-    <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
 
 @stop
