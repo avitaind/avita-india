@@ -193,7 +193,7 @@
 
 @section('js')
 
-	<script src="/js/support.js"></script>
+    <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
 
 	<script>
 
