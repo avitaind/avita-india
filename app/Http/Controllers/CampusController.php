@@ -58,7 +58,7 @@ class CampusController extends Controller
             $message->from('contact@avita-india.com','Campus Ambassador Program');
             $message->to($email, $name)->subject('Campus Ambassador Program');
             $message->replyTo('manvi.anand@avita-india.com', 'Manvi Anand');
-            $message->cc('contact@avita-india.com', 'AVITA INDIA');
+            $message->replyTo('contact@avita-india.com', 'AVITA INDIA');
         });
      
         return redirect()->back()->with('message', 'Thank you for your submission. You shall receive a confirmation mail shortly!');
