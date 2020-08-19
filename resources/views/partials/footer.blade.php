@@ -36,7 +36,7 @@
                 <div class="col-12 col-md-5 py-3 py-md-0 text-left">
                     <div class="d-flex justify-content-between hidden-xs-down">
                         <div class="d-flex flex-column mr-3 ml-md-0 small-lsm-little">
-                            <a href="{{ route('product.overview', ['liber12']) }}" class="my-1">@lang('site.products')</a>
+                            <a href="{{ route('product.overview', ['liber-new-generation']) }}" class="my-1">@lang('site.products')</a>
                             <a href="{{ route('news') }}" class="my-1">@lang('site.news')</a>
                             <a href="/aboutus" class="my-1">@lang('site.footer_aboutus')</a>
                         </div>
@@ -99,8 +99,6 @@
                             <a href="https://www.flipkart.com/search?q=avita+laptops&otracker=search&otracker1=search&marketplace=FLIPKART&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DAvita" target="_blank" class="my-1">Flipkart</a>
                             <a href="https://www.amazon.in/s?k=avita+admiror" target="_blank" class="my-1">Amazon</a>
                             <a href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2&page=1&brand=510306" target="_blank" class="my-1">Paytm Mall</a>
-                            <a href="https://ekhareedo.com/product-category/laptops/shop-by-brand/avita/" target="_blank" class="my-1">Ekhareedo</a>
-
                         </div>
                     </div>
 
