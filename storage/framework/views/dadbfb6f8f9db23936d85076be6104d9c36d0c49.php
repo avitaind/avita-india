@@ -172,7 +172,7 @@ window.addEventListener('load',
 <script type="text/javascript" src="<?php echo e(asset('js/demo.js')); ?>"></script>
 
 <!-- Facebook API -->
-
+<!---
     <script>
     window.fbAsyncInit = function() {
         FB.init({
@@ -191,6 +191,8 @@ window.addEventListener('load',
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 </script>
+
+--->
 
 <!-- Google Code for Remarketing Tag -->
 
