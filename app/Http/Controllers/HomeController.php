@@ -124,7 +124,7 @@ class HomeController extends Controller
                    'series' => $product_series,
                    'marketing_number' => $request->get('marketing_number')];
 
-        return redirect('product.support', $params);
+        return redirect()->route('product.support', $params);
     }
 
     public function getSearch_result( ){
