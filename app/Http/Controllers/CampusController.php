@@ -22,6 +22,17 @@ class CampusController extends Controller
  
   
     public function storeDevice(Request $request){
+
+        $this->validate($request, [
+            'name' =>  'required',
+            'email' =>  'required',
+            'phone' =>  'required',
+            'internship' =>  'required',
+            'college' =>  'required',
+            'team' =>  'required',
+            'represent' =>  'required',
+
+            ]);
      
         $campus = new Campus([
             'name' => $request->get('name'),
