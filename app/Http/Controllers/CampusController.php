@@ -57,7 +57,8 @@ class CampusController extends Controller
             $name = $request->input('name');
             $message->from('contact@avita-india.com','Campus Ambassador Program');
             $message->to($email, $name)->subject('Campus Ambassador Program');
-            $message->replyTo('manvi.anand@avita-india.com', 'Manvi Anand');
+            $message->to('avitacampusambassador@gmail.com', 'AVITA Campus Ambassador Program');
+            $message->replyTo('avitacampusambassador@gmail.com', 'AVITA Campus Ambassador Program');
             $message->replyTo('contact@avita-india.com', 'AVITA INDIA');
         });
      
