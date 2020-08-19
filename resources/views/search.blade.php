@@ -212,20 +212,40 @@
 @endsection
 
 @section('js')
-<script type="text/javascript">
+            <script type="text/javascript">
 
- $('#search').on('keyup', function(){
-        $value=$(this).val();
-        $.ajax({
-            type: 'get',
-            url: '{{URL::to('search')}}',
-            data: { 'search': $value},
-            success:function(data){
-                $('#shopsList').html(data);
+            $('#search').on('keyup', function(){
+                    $value=$(this).val();
+                    $.ajax({
+                        type: 'get',
+                        url: '{{URL::to('search')}}',
+                        data: { 'search': $value},
+                        success:function(data){
+                            $('#shopsList').html(data);
+                        }
+                    })
+                })
+
+            </script>
+
+            <script>
+            var init_data = <?php echo json_encode($json_data); ?>;
+            function reload_driver_list( ) {
+                var product_number = $("#product_number_field").val();
+                if (product_number != null) {
+                    var url = '/api/drivers?product_number=' + product_number;
+                    $("#product-driver-wrapper").load(url);
+                }
             }
-        })
-    })
 
-</script>
+            $('#product_number_field').on('init change', function(e) {
+                reload_driver_list( );
+            }).trigger('init');
+
+
+
+    </script>
+    <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
+
 
 @endsection
