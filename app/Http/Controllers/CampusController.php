@@ -44,8 +44,9 @@ class CampusController extends Controller
         {
             $email = $request->input('email');
             $name = $request->input('name');
-            $message->from('contact@avita-india.com','manvi.anand@avita-india.com');
+            $message->from('contact@avita-india.com','Campus Ambassador Program');
             $message->to($email, $name)->subject('Campus Ambassador Program');
+            $message->replyTo('manvi.anand@avita-india.com', 'Manvi Anand');
         });
      
         return redirect()->back()->with('message', 'Thank you for your submission. You shall receive a confirmation mail shortly!');
