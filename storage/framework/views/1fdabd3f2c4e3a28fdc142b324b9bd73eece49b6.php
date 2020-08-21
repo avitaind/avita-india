@@ -54,6 +54,406 @@ $page = 'events';
 
                     </div>
                     <div class="row">
+                        <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors</p><br/><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.24</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> MY MOBILE </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.mymobileindia.com/news/avita-liber-v-10th-gen-intel-processors"></a>
+
+                        </div>
+
+                    </div>
+                       <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors to take on Xiaomi and Honor</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.23</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> BGR.in </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.bgr.in/laptops/avita-teases-liber-v-with-10th-gen-intel-processors-to-take-on-xiaomi-and-honor-904609/"></a>
+
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="row">
+                        <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors</p><br/><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.24</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> MY MOBILE </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.mymobileindia.com/news/avita-liber-v-10th-gen-intel-processors"></a>
+
+                        </div>
+
+                    </div>
+                       <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors to take on Xiaomi and Honor</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.23</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> BGR.in </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.bgr.in/laptops/avita-teases-liber-v-with-10th-gen-intel-processors-to-take-on-xiaomi-and-honor-904609/"></a>
+
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="row">
+                        <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors</p><br/><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.24</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> MY MOBILE </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.mymobileindia.com/news/avita-liber-v-10th-gen-intel-processors"></a>
+
+                        </div>
+
+                    </div>
+                       <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors to take on Xiaomi and Honor</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.23</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> BGR.in </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.bgr.in/laptops/avita-teases-liber-v-with-10th-gen-intel-processors-to-take-on-xiaomi-and-honor-904609/"></a>
+
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="row">
+                        <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors</p><br/><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.24</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> MY MOBILE </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.mymobileindia.com/news/avita-liber-v-10th-gen-intel-processors"></a>
+
+                        </div>
+
+                    </div>
+                       <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors to take on Xiaomi and Honor</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.23</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> BGR.in </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.bgr.in/laptops/avita-teases-liber-v-with-10th-gen-intel-processors-to-take-on-xiaomi-and-honor-904609/"></a>
+
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="row">
+                        <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors</p><br/><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.24</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> MY MOBILE </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.mymobileindia.com/news/avita-liber-v-10th-gen-intel-processors"></a>
+
+                        </div>
+
+                    </div>
+                       <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors to take on Xiaomi and Honor</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.23</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> BGR.in </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.bgr.in/laptops/avita-teases-liber-v-with-10th-gen-intel-processors-to-take-on-xiaomi-and-honor-904609/"></a>
+
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="row">
+                        <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors</p><br/><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.24</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> MY MOBILE </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.mymobileindia.com/news/avita-liber-v-10th-gen-intel-processors"></a>
+
+                        </div>
+
+                    </div>
+                       <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors to take on Xiaomi and Honor</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.23</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> BGR.in </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.bgr.in/laptops/avita-teases-liber-v-with-10th-gen-intel-processors-to-take-on-xiaomi-and-honor-904609/"></a>
+
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="row">
+                        <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors</p><br/><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.24</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> MY MOBILE </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.mymobileindia.com/news/avita-liber-v-10th-gen-intel-processors"></a>
+
+                        </div>
+
+                    </div>
+                       <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors to take on Xiaomi and Honor</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.23</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> BGR.in </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.bgr.in/laptops/avita-teases-liber-v-with-10th-gen-intel-processors-to-take-on-xiaomi-and-honor-904609/"></a>
+
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="row">
+                        <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors</p><br/><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.24</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> MY MOBILE </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.mymobileindia.com/news/avita-liber-v-10th-gen-intel-processors"></a>
+
+                        </div>
+
+                    </div>
+                       <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors to take on Xiaomi and Honor</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.23</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> BGR.in </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.bgr.in/laptops/avita-teases-liber-v-with-10th-gen-intel-processors-to-take-on-xiaomi-and-honor-904609/"></a>
+
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="row">
+                        <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors</p><br/><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.24</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> MY MOBILE </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.mymobileindia.com/news/avita-liber-v-10th-gen-intel-processors"></a>
+
+                        </div>
+
+                    </div>
+                       <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors to take on Xiaomi and Honor</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.23</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> BGR.in </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.bgr.in/laptops/avita-teases-liber-v-with-10th-gen-intel-processors-to-take-on-xiaomi-and-honor-904609/"></a>
+
+                        </div>
+                    </div>
+
+                    </div>
+                <div class="row">
+                        <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors</p><br/><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.24</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> MY MOBILE </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.mymobileindia.com/news/avita-liber-v-10th-gen-intel-processors"></a>
+
+                        </div>
+
+                    </div>
+                       <!-----
+                          ------->
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita teases LIBER V with 10th gen Intel processors to take on Xiaomi and Honor</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.23</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> BGR.in </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.bgr.in/laptops/avita-teases-liber-v-with-10th-gen-intel-processors-to-take-on-xiaomi-and-honor-904609/"></a>
+
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="row">
                     <!-----
                           ------->
                     <div class="col-12 col-md-6">

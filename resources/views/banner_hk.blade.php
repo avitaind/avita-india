@@ -2,7 +2,25 @@
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
 
-        <div class="carousel-item active">
+        <div class="carousel-item active active">
+                <div class="responsive-block">
+                <a href="{{ route('product.overview', ['liber-v']) }}">
+                    <div class="banner-block responsive-item">
+                        @if( App::isLocale('en') )
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/AVITA_liber_v_banner_web.jpg')"></div>
+                        @else
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/AVITA_liber_v_banner_web.jpg')"></div>
+                        @endif
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/AVITA_liber_v_banner_mob.jpg')"></div>
+                    </div>
+                     </a>
+                </div>
+            </div>
+
+        <div class="carousel-item">
                 <div class="responsive-block">
                 <a href="https://www.flipkart.com/avita-magus-lite-celeron-dual-core-4-gb-64-gb-emmc-storage-windows-10-home-ns12t5in005p-2-1-laptop/p/itm1692bd8b2fe84?pid=COMFP5TFUBVABEXD">
                     <div class="banner-block responsive-item">
