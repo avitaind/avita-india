@@ -47,9 +47,7 @@
                                         <li class="nav-item">
                                                     <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-v']) }}">@lang('site.liber-v')</a>
                                           </li>
-                                           <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber12']) }}">@lang('site.liber12')</a>
-                                            </li>
+                                        
                                              <li class="nav-item">
                                                     <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-new-generation']) }}">@lang('site.liber-new-generation')</a>
                                                 </li>
@@ -135,11 +133,7 @@
                             <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2"  target="_blank" href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2&page=1&brand=510306">Paytm Mall</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2"  target="_blank" href="https://ekhareedo.com/product-category/laptops/shop-by-brand/avita/">E-Khareedo</a>
-                            </li>
-
-                        </ul>
+                       </ul>
                     </div>
                 </li>
                 <li class="nav-item">
