@@ -17,16 +17,14 @@ $page = 'events';
             <div class="container">
 
                 <h3 class="section-title ls-0 my-5">News and Media</h3>
-                <!---
+            
                 <div class="row">
-                     
-                        
-                          <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>AVITA Introduces New Sleek And Stylish Liber V Laptop In India</p><br/><br/>
+                            <p>AVITA Introduces New Sleek And Stylish Liber V Laptop In India</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/dt-web.jpg" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.31</div>
@@ -44,11 +42,11 @@ $page = 'events';
                             <p>AVITA Launches Liber V Laptop with Intel Core 10th Generation Processor</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/telecom-logo.jpg" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.31</div>
-                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> AVITA Launches Liber V Laptop with Intel Core 10th Generation Processor </div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong>Telecom Today</div>
                                 </figcaption>
                             </figure>
                             <a class="overlay-link" href="http://www.telecomtoday.in/top-stories/avita-launches-liber-v-laptop-with-intel-core-10th-generation-processor.html/"></a>
@@ -64,7 +62,7 @@ $page = 'events';
                             <p>AVITA unveils its new laptop Liber V</p><br/><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/technuter-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.31</div>
@@ -82,7 +80,7 @@ $page = 'events';
                             <p>AVITA Liber V announced in India with 10th Gen Intel CPUs, starting from Rs 41,490</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/money-control-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.31</div>
@@ -102,7 +100,7 @@ $page = 'events';
                             <p>अमेरिकी कंपनी AVITA ने 8GB रैम के साथ भारत में लॉन्च किया लैपटॉप</p><br/><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/amar-ujala-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.31</div>
@@ -120,7 +118,7 @@ $page = 'events';
                             <p>AVITA Liber V भारत में लॉन्‍च, 8GB रैम लैपटॉप की कीमत 41,490 रुपये शुरू</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/local-khabar-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.07.31</div>
@@ -137,7 +135,7 @@ $page = 'events';
                        
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>Avita unveils Liber V laptop with Intel Core 10th gen processor, top-up camera in India</p><br/><br/>
+                            <p>Avita unveils Liber V laptop with Intel Core 10th gen processor, top-up camera in India</p><br/>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
@@ -158,7 +156,7 @@ $page = 'events';
                             <p>अमेरिकी कंपनी AVITA ने भारत में लॉन्च किया Liber V लैपटॉप, जानें कीमत और फीचर्स</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/dainik-bhaskar-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.01</div>
@@ -175,10 +173,10 @@ $page = 'events';
                       
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>Avita launches Liber V14 laptop in India, price starts at Rs 41,490</p><br/><br/>
+                            <p>Avita launches Liber V14 laptop in India, price starts at Rs 41,490</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/the-toi-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.02</div>
@@ -196,7 +194,7 @@ $page = 'events';
                             <p>American Company Avita Launches Laptop In India with 8GB RAM</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/punjab-kesari-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.01</div>
@@ -213,10 +211,10 @@ $page = 'events';
                      
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>Avita launches Liber V14 laptop in India, price starts at Rs 41,490</p><br/><br/>
+                            <p>Avita launches Liber V14 laptop in India, price starts at Rs 41,490</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/gadgets-now-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.02</div>
@@ -234,7 +232,7 @@ $page = 'events';
                             <p>Avita launches Liber V14 laptop in India, price starts at Rs 41,490</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/headlines-now-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.02</div>
@@ -251,10 +249,10 @@ $page = 'events';
                       
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>New Avita Liber V laptops with AMD or 10th gen Intel chips make India debut, price starts at Rs. 41,490</p><br/><br/>
+                            <p>New Avita Liber V laptops with AMD or 10th gen Intel chips make India debut, price starts at Rs. 41,490</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/pc-tablet-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.01</div>
@@ -289,10 +287,10 @@ $page = 'events';
                        
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>AVITA Liber V laptop launched in India with 10th gen Intel CPU, top-up camera</p><br/><br/>
+                            <p>AVITA Liber V laptop launched in India with 10th gen Intel CPU, top-up camera</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/91-mobile-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.01</div>
@@ -310,7 +308,7 @@ $page = 'events';
                             <p>Avita Liber V laptop launched in India: Check price and specifications</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/microsoft-news-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.01</div>
@@ -330,7 +328,7 @@ $page = 'events';
                             <p>टॉप-अप कैमरा और फिंगरप्रिंट वाला नया लैपटॉप लॉन्च, जानें कीमत</p><br/><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/nbt-logo.jpg" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.01</div>
@@ -348,7 +346,7 @@ $page = 'events';
                             <p>अमेरिकी ब्रांड Avita ने भारत में लॉन्च किया Liber V14 लैपटॉप, नेक्स्ट जेनरेशन प्रोसेसर से है लैस</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/dainki-jagran-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.02</div>
@@ -368,7 +366,7 @@ $page = 'events';
                             <p>Avita launch new Liber V14 laptop model</p><br/><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/my-mobile-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/tech-herald-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.02</div>
@@ -386,7 +384,7 @@ $page = 'events';
                             <p>Avita Liber V with 10th Gen Intel processor and a top-up camera launched in India</p><br/>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/bgr-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/tech-radar-logo.png" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.02</div>
@@ -399,7 +397,7 @@ $page = 'events';
                     </div>
 
                     </div>
-                    --->
+                  
                 <div class="row">
                         <!-----
                           ------->
