@@ -131,7 +131,7 @@
             <!-- Main content -->
             <section class="content">
 
-                @include('alert::bootstrap')
+              <!--  @include('alert::bootstrap') --->
 
                 @if( $errors->any() )
                     <div class="alert alert-danger" role="alert">
