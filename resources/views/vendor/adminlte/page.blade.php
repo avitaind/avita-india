@@ -67,10 +67,6 @@
                             <a class="link-muted" href="javascript:void()">
                                 {{ $user->name }} <i>&lt;{{ $user->email }}&gt;</i>
                             </a>
-
-
-
-
                         </li>
                         @endif
                         <li>
@@ -131,7 +127,7 @@
             <!-- Main content -->
             <section class="content">
 
-              <!--  @include('alert::bootstrap') --->
+              @include('alert::bootstrap') 
 
                 @if( $errors->any() )
                     <div class="alert alert-danger" role="alert">

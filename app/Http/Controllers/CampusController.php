@@ -66,14 +66,5 @@ class CampusController extends Controller
 
     }
 
-    public function handleSubscription(Request $request){
-    
-        $subscription = new Subscription([
-            'email' => $request->get('email'),
-            ]);
-    
-        }
-
-
-
+     
 }

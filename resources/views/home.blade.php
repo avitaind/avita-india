@@ -63,8 +63,10 @@
         </div>
     </section>
 
-    <section class="email-subscription py-5 ls-0">
-          <form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto" action="/subscription" method="POST" role="form" enctype="multipart/form-data">
+
+
+<section class="email-subscription py-5 ls-0">
+<form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto">
             <h2 class="text-center mt-4 mb-3 font-weight-light">@lang('site.home_join')</h2>
             <div class="text-center mt-3 mb-4 lead">@lang('site.home_receiving')</div>
             <div class="row my-4 no-gutters justify-content-center">
@@ -78,9 +80,10 @@
                     <button class="btn btn-primary d-block mt-3 mt-sm-0 mt-md-0 mx-auto ml-md-3" type="submit">@lang('site.home_subscribe')</button>
                 </div>
             </div>
-            </form>
+        </form>
   
         <p style="text-align: center;"><a href="/images/AVITA-Products-Brochure.pdf" target="_blank" download="AVITA-Family-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button">Download Brochure </button></a></p>
 
     </section>
+
     @endsection
