@@ -78,7 +78,7 @@
 
          <div class="carousel-item">
                 <div class="responsive-block">
-                    <a href="/product/liber-u-series">
+                    <a href="{{ route('product.overview', ['liber-new-generation']) }}">
                         <div class="banner-block responsive-item">
                             @if( App::isLocale('en') )
                                 <div class="banner-bg hidden-sm-down"
@@ -97,7 +97,7 @@
     
             <div class="carousel-item">
                 <div class="responsive-block">
-                    <a href="/product/liber-u-series">
+                    <a href="{{ route('product.overview', ['liber-new-generation']) }}">
                         <div class="banner-block responsive-item">
                             @if( App::isLocale('en') )
                                 <div class="banner-bg hidden-sm-down"
@@ -136,6 +136,8 @@
            <li data-target="#home_banner" data-slide-to="3"></li>
            <li data-target="#home_banner" data-slide-to="4"></li>
            <li data-target="#home_banner" data-slide-to="5"></li>
+           <li data-target="#home_banner" data-slide-to="6"></li>
+
         </ol>
     </div>
             </div>       

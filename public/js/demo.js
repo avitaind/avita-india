@@ -193,10 +193,8 @@ $(document).ready(function() {
 	$(function() {
 		$('.email-subscription-form').on('submit', function(e){
 			e.preventDefault();
-
 			var form = $(this).serializeArray();
 			this.reset();
-
 			if(!$.isEmptyObject(form)) {
 				$.post('/subscription', form);
 			}

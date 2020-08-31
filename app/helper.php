@@ -70,6 +70,14 @@ function youtubeLinkForCountry( $country ) {
 }
 
 
+function linkedinLinkForCountry( $country ) {
+
+    switch ( $country ) {
+        case 'in':  return 'https://www.linkedin.com/showcase/avita-india/';
+             default:    return "";
+    }
+}
+
 function metaKeywordByCountryAndLanguage( $country, $language ) {
 
     // Default
