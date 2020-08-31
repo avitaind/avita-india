@@ -59,8 +59,8 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}"/>
 
 
-   <script src="//use.typekit.net/wpk4iql.js"></script>
-   <script>try{Typekit.load();}catch(e){}</script>
+   <script defer src="//use.typekit.net/wpk4iql.js"></script>
+   <script defer>try{Typekit.load();}catch(e){}</script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -70,9 +70,9 @@
 
     @if( $ga_code )
 
-    <script async type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
     
-<script async>
+<script defer type="text/javascript">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -138,7 +138,7 @@
     @stack('css')
     @yield('css')
   
-<script type="text/javascript">
+<script defer type="text/javascript">
 window.addEventListener('load', 
   function() { 
     $('.preloader').fadeOut('slow');
@@ -168,8 +168,8 @@ window.addEventListener('load',
 @endif
 
 
-<script type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
-<script type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
+<script defer type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
+<script defer type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
 
 <!-- Facebook API -->
 <!---
@@ -206,8 +206,7 @@ window.addEventListener('load',
 
 
 
-    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
+    <script defer type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
 
     <noscript>
     <div style="display:inline;">
