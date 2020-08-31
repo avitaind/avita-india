@@ -561,63 +561,278 @@ section.color-choice .container{
   /*Banner Images*/
 
 /*Web Banners*/
+
+@media only screen and (min-width : 1600px) {
+ 
  .banner-web-1{
     background: url('/images/banner/AVITA_liber_v_banner_web.jpg');
- }
+    -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
   .banner-web-2{
-    background: url('/images/banner/MAGUS-WEB-BANNER-NEW.png');
-}
+      background: url('/images/banner/MAGUS-WEB-BANNER-NEW.png');
+      -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+    }
 .banner-web-3{
-    background: url('/images/banner/pura_web_banner.jpg');
-}
+       background: url('/images/banner/pura_web_banner.jpg');
+       -webkit-background-size: 100% 100%;
+       -moz-background-size: 100% 100%;
+       -o-background-size: 100% 100%;
+       background-size: 100% 100%;
+    }
 .banner-web-4{
-    background: url('/images/banner/ADMIROR-Web-Banner-Dextop.png');
-}
+       background: url('/images/banner/ADMIROR.jpg');
+       -webkit-background-size: 100% 100%;
+       -moz-background-size: 100% 100%;
+       -o-background-size: 100% 100%;
+       background-size: 100% 100%;
+    }
 .banner-web-5{
-    background: url('/images/banner/lifestyle_banner_web1.jpg');
-}
-.banner-web-6{
-    background: url('/images/banner/lifestyle_banner_mob3.jpg');
-}
+       background: url('/images/banner/lifestyle_banner_web1.jpg');
+       -webkit-background-size: 100% 100%;
+       -moz-background-size: 100% 100%;
+       -o-background-size: 100% 100%;
+       background-size: 100% 100%;
+    }
+.banner-web-6{  
+    background: url('/images/banner/lifestyle_banner_web3.jpg');
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
 .banner-web-7{
-    background: url('/images/banner/warranty_banner1_web.jpg');
+     background: url('/images/banner/warranty_banner1_web.jpg');
+     -webkit-background-size: 100% 100%;
+     -moz-background-size: 100% 100%;
+     -o-background-size: 100% 100%;
+     background-size: 100% 100%;
+    }
+
 }
 
+/*Laptop Size */
+@media only screen and (min-width : 1200px) {
+ 
+    .banner-web-1{
+       background: url('/images/banner/AVITA_liber_v_banner_web.jpg');
+       -webkit-background-size: 100% 100%;
+     -moz-background-size: 100% 100%;
+     -o-background-size: 100% 100%;
+     background-size: 100% 100%;
+   }
+     .banner-web-2{
+         background: url('/images/banner/MAGUS-WEB-BANNER-NEW.png');
+         -webkit-background-size: 100% 100%;
+         -moz-background-size: 100% 100%;
+         -o-background-size: 100% 100%;
+         background-size: 100% 100%;
+       }
+   .banner-web-3{
+          background: url('/images/banner/pura_web_banner.jpg');
+          -webkit-background-size: 100% 100%;
+          -moz-background-size: 100% 100%;
+          -o-background-size: 100% 100%;
+          background-size: 100% 100%;
+       }
+   .banner-web-4{
+          background: url('/images/banner/ADMIROR.jpg');
+          -webkit-background-size: 100% 100%;
+          -moz-background-size: 100% 100%;
+          -o-background-size: 100% 100%;
+          background-size: 100% 100%;
+       }
+   .banner-web-5{
+          background: url('/images/banner/lifestyle_banner_web1.jpg');
+          -webkit-background-size: 100% 100%;
+          -moz-background-size: 100% 100%;
+          -o-background-size: 100% 100%;
+          background-size: 100% 100%;
+       }
+   .banner-web-6{  
+       background: url('/images/banner/lifestyle_banner_web3.jpg');
+       -webkit-background-size: 100% 100%;
+       -moz-background-size: 100% 100%;
+       -o-background-size: 100% 100%;
+       background-size: 100% 100%;
+       }
+   .banner-web-7{
+        background: url('/images/banner/warranty_banner1_web.jpg');
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+       }
+   
+   }
+   
+/*Tab Size*/
+@media only screen and (min-width : 768px){
+
+    .banner-web-1{
+       background: url('/images/banner/AVITA_liber_v_banner_web.jpg');
+       -webkit-background-size: 100% 100%;
+     -moz-background-size: 100% 100%;
+     -o-background-size: 100% 100%;
+     background-size: 100% 100%;
+   }
+     .banner-web-2{
+         background: url('/images/banner/MAGUS-WEB-BANNER-NEW.png');
+         -webkit-background-size: 100% 100%;
+         -moz-background-size: 100% 100%;
+         -o-background-size: 100% 100%;
+         background-size: 100% 100%;
+       }
+   .banner-web-3{
+          background: url('/images/banner/pura_web_banner.jpg');
+          -webkit-background-size: 100% 100%;
+          -moz-background-size: 100% 100%;
+          -o-background-size: 100% 100%;
+          background-size: 100% 100%;
+       }
+   .banner-web-4{
+          background: url('/images/banner/ADMIROR.jpg');
+          -webkit-background-size: 100% 100%;
+          -moz-background-size: 100% 100%;
+          -o-background-size: 100% 100%;
+          background-size: 100% 100%;
+       }
+   .banner-web-5{
+          background: url('/images/banner/lifestyle_banner_web1.jpg');
+          -webkit-background-size: 100% 100%;
+          -moz-background-size: 100% 100%;
+          -o-background-size: 100% 100%;
+          background-size: 100% 100%;
+       }
+   .banner-web-6{  
+       background: url('/images/banner/lifestyle_banner_web3.jpg');
+       -webkit-background-size: 100% 100%;
+       -moz-background-size: 100% 100%;
+       -o-background-size: 100% 100%;
+       background-size: 100% 100%;
+       }
+   .banner-web-7{
+        background: url('/images/banner/warranty_banner1_web.jpg');
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+       }
+   
+   }
+
 /*Mob Banners*/
-@media (max-width: 575px){
+@media only screen and (min-width : 320px)  {
+
 .banner-mob-1{
-    background-repeat: no-repeat;
      background: url('/images/banner/AVITA_liber_v_banner_mob.jpg');
+     -webkit-background-size: 100% 100%;
+     -moz-background-size: 100% 100%;
+     -o-background-size: 100% 100%;
+     background-size: 100% 100%;
     
 }
 .banner-mob-2{
-    width: 100%;
-    height: 100%;
-    background: url('/images/banner/MAGUS-MOB-BANNER-NEW.png');
+      background: url('/images/banner/MAGUS-MOB-BANNER-NEW.png');
+      -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
 }
 .banner-mob-3{
-    width: 100%;
-    height: 100%;
-    background: url('/images/banner/PURA-MOB-BANNER.jpg');
+     background: url('/images/banner/PURA-MOB-BANNER.jpg');
+     -webkit-background-size: 100% 100%;
+     -moz-background-size: 100% 100%;
+     -o-background-size: 100% 100%;
+     background-size: 100% 100%;
 }
 .banner-mob-4{
-    width: 100%;
-    height: 100%;
-    background: url('/images/banner/ADMIROR-MOB-BANNER.png');
+    background: url('/images/banner/ADMIROR-Mobile.jpg');
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 .banner-mob-5{
-    width: 100%;
-    height: 100%;
-    background: url('/images/banner/lifestyle_banner_mob1.jpg');
+     background: url('/images/banner/lifestyle_banner_mob1.jpg');
+     -webkit-background-size: 100% 100%;
+     -moz-background-size: 100% 100%;
+     -o-background-size: 100% 100%;
+     background-size: 100% 100%;
 }
 .banner-mob-6{
-    width: 100%;
-    height: 100%;
     background: url('/images/banner/lifestyle_banner_mob3.jpg');
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 .banner-mob-7{
-    width: 100%;
-    height: 100%;
     background: url('/images/banner/warranty_banner1_mob.jpg');
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 }
+
+/*Mob Banners*/
+@media only screen and (min-width : 200px)  {
+
+    .banner-mob-1{
+         background: url('/images/banner/AVITA_liber_v_banner_mob.jpg');
+         -webkit-background-size: 100% 100%;
+         -moz-background-size: 100% 100%;
+         -o-background-size: 100% 100%;
+         background-size: 100% 100%;
+        
+    }
+    .banner-mob-2{
+          background: url('/images/banner/MAGUS-MOB-BANNER-NEW.png');
+          -webkit-background-size: 100% 100%;
+          -moz-background-size: 100% 100%;
+          -o-background-size: 100% 100%;
+          background-size: 100% 100%;
+    }
+    .banner-mob-3{
+         background: url('/images/banner/PURA-MOB-BANNER.jpg');
+         -webkit-background-size: 100% 100%;
+         -moz-background-size: 100% 100%;
+         -o-background-size: 100% 100%;
+         background-size: 100% 100%;
+    }
+    .banner-mob-4{
+        background: url('/images/banner/ADMIROR-Mobile.jpg');
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+    .banner-mob-5{
+         background: url('/images/banner/lifestyle_banner_mob1.jpg');
+         -webkit-background-size: 100% 100%;
+         -moz-background-size: 100% 100%;
+         -o-background-size: 100% 100%;
+         background-size: 100% 100%;
+    }
+    .banner-mob-6{
+        background: url('/images/banner/lifestyle_banner_mob3.jpg');
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+    .banner-mob-7{
+        background: url('/images/banner/warranty_banner1_mob.jpg');
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+    }
+    

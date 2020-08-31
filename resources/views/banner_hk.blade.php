@@ -6,15 +6,8 @@
                 <div class="responsive-block">
                 <a href="{{ route('product.overview', ['liber-v']) }}">
                     <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/AVITA_liber_v_banner_web.jpg')"></div>
-                        @else
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/AVITA_liber_v_banner_web.jpg')"></div>
-                        @endif
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/AVITA_liber_v_banner_mob.jpg')"></div>
+                        <div class="banner-bg hidden-sm-down banner-web-1"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-1"></div>
                     </div>
                      </a>
                 </div>
@@ -22,17 +15,12 @@
 
         <div class="carousel-item">
                 <div class="responsive-block">
-                <a href="https://www.flipkart.com/avita-magus-lite-celeron-dual-core-4-gb-64-gb-emmc-storage-windows-10-home-ns12t5in005p-2-1-laptop/p/itm1692bd8b2fe84?pid=COMFP5TFUBVABEXD">
+                <a href="https://bit.ly/3lwkCyN">
                     <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/MAGUS-WEB-BANNER-NEW.png')"></div>
-                        @else
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/MAGUS-WEB-BANNER-NEW.png')"></div>
-                        @endif
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/MAGUS-MOB-BANNER-NEW.png')"></div>
+                   
+                        <div class="banner-bg hidden-sm-down banner-web-2"></div>
+                    
+                        <div class="banner-bg hidden-md-up banner-mob-2"></div>
                     </div>
                      </a>
                 </div>
@@ -44,15 +32,8 @@
                     <a href="{{ route('product.overview', ['pura']) }}">
 
                     <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/pura_web_banner.jpg')"></div>
-                        @else
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/pura_web_banner.jpg')"></div>
-                        @endif
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/PURA-MOB-BANNER.jpg')"></div>
+                        <div class="banner-bg hidden-sm-down banner-web-3"></div>
+                        <div class="banner-bg hidden-md-up banner-mob-3"></div>
                     </div>
                     </a>
                 </div>
@@ -62,15 +43,10 @@
                 <div class="responsive-block">
                 <a href="{{ route('product.overview', ['admiror']) }}">
                     <div class="banner-block responsive-item">
-                        @if( App::isLocale('en') )
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/ADMIROR.jpg')"></div>
-                        @else
-                            <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/ADMIROR.jpg')"></div>
-                        @endif
-                        <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/ADMIROR-Mobile.jpg')"></div>
+                     
+                            <div class="banner-bg hidden-sm-down banner-web-4"></div>
+                       
+                            <div class="banner-bg hidden-md-up banner-mob-4"></div>
                     </div>
                      </a>
                 </div>
@@ -80,15 +56,10 @@
                 <div class="responsive-block">
                     <a href="{{ route('product.overview', ['liber-new-generation']) }}">
                         <div class="banner-block responsive-item">
-                            @if( App::isLocale('en') )
-                                <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/lifestyle_banner_web1.jpg')"></div>
-                            @else
-                                <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/lifestyle_banner_web1.jpg')"></div>
-                            @endif
-                            <div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/lifestyle_banner_mob1.jpg')"></div>
+                         
+                                <div class="banner-bg hidden-sm-down banner-web-5"></div>
+                       
+                            <div class="banner-bg hidden-md-up banner-mob-5"></div>
                         </div>
                     </a>
                 </div>
@@ -99,15 +70,10 @@
                 <div class="responsive-block">
                     <a href="{{ route('product.overview', ['liber-new-generation']) }}">
                         <div class="banner-block responsive-item">
-                            @if( App::isLocale('en') )
-                                <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/lifestyle_banner_web3.jpg')"></div>
-                            @else
-                                <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/lifestyle_banner_web3.jpg')"></div>
-                            @endif
-                            <div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/lifestyle_banner_mob3.jpg')"></div>
+                       
+                              <div class="banner-bg hidden-sm-down banner-web-6"></div>
+                         
+                              <div class="banner-bg hidden-md-up banner-mob-6"></div>
                         </div>
                     </a>
                 </div>
@@ -116,15 +82,10 @@
             <div class="carousel-item">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item">
-                            @if( App::isLocale('en') )
-                                <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/warranty_banner1_web.jpg')"></div>
-                            @else
-                                <div class="banner-bg hidden-sm-down"
-                                     style="background-image: url('/images/banner/warranty_banner1_web.jpg')"></div>
-                            @endif
-                            <div class="banner-bg hidden-md-up"
-                                 style="background-image: url('/images/banner/warranty_banner1_mob.jpg')"></div>
+                          
+                            <div class="banner-bg hidden-sm-down banner-web-7"></div>
+                                                 
+                            <div class="banner-bg hidden-md-up banner-mob-7"></div>
                        </div>
                   </div>
             </div>
