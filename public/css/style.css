@@ -563,7 +563,19 @@ section.color-choice .container{
 
   }
 
+  /*additional css*/
 
+    .googleads{
+        display:inline;
+    }
+
+    .googleads img{
+        border-style:none;
+    }
+
+    img .facebookads{
+        display:none;
+    }
 
   /*Banner Images*/
 

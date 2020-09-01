@@ -131,7 +131,7 @@
     <!-- Facebook Pixel (noscript) -->
     <noscript>
     
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=3386287304724739&ev=PageView&noscript=1"/>
+    <img class="facebookads" height="1" width="1" src="https://www.facebook.com/tr?id=3386287304724739&ev=PageView&noscript=1"/>
         </noscript>
         <!-- End Facebook Pixel (noscript) -->
 
@@ -139,9 +139,9 @@
     @yield('css')
   
 <script defer type="text/javascript">
-window.addEventListener('load', 
-  function() { 
-    $('.preloader').fadeOut('slow');
+    window.addEventListener('load', 
+     function() { 
+          $('.preloader').fadeOut('slow');
   },false);
 
 </script>
@@ -209,8 +209,8 @@ window.addEventListener('load',
     <script defer type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
 
     <noscript>
-    <div style="display:inline;">
-        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/830592061/?guid=ON&amp;script=0"/>
+    <div class="googleads">
+        <img height="1" width="1" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/830592061/?guid=ON&amp;script=0"/>
     </div>
 </noscript>
 

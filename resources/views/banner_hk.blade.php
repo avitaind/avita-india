@@ -101,26 +101,11 @@
 
         </ol>
     </div>
-            </div>       
+  </div>       
 
 </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-@section('css')
-    <style type="text/css">
-        #home_banner video{
-            position: absolute;
-            -webkit-transform: translate(-50%,-50%);
-            -ms-transform: translate(-50%,-50%);
-            transform: translate(-50%,-50%);
-            top: 50%;
-            left: 50%;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-        }
-    </style>
-@endsection
 @section('js')
 <script type="text/javascript">
         $(document).ready(function() {
