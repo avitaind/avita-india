@@ -930,10 +930,10 @@ z-index: 9; /* Specify a stack order in case you're using a different order for 
 
 @media (max-width: 575px) {
   .footer-info .info-lang {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   .footer-info .info-copyright {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin-top: 1rem;
     color: #aaa
   }
