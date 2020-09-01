@@ -71,7 +71,22 @@
     <?php if( $ga_code ): ?>
 
     <script type="text/javascript" src="<?php echo e(asset('js/ga.js')); ?>"></script>
-    
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            "name": "AVITA INDIA",
+            "url": "https://www.avita-india.com/",
+            "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.avita-india.com/{search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+</script>
+
 <script defer type="text/javascript">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
