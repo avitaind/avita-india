@@ -4,7 +4,7 @@
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-around justify-content-md-start">
                 <span class="d-inline-block navbar-brand hidden-sm-down">
-                    <img src="/images/logo.png"/>
+                    <img src="/images/logo.png" alt="AVITA India Official Website"/>
                 </span>
 
 
@@ -44,7 +44,7 @@
                         </div>
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
 
-                            <a href="{{ route('product.map', ['liber']) }}" class="my-1">@lang('site.header_where_to_buy')</a>
+                            <a href="{{ route('product.map') }}" class="my-1">@lang('site.header_where_to_buy')</a>
 
                             @if( $storeURL )
                                 <a class="my-1" target="_blank" href="{{ $storeURL }}">@lang('site.header_store')</a>

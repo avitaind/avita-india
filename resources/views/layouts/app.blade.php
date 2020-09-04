@@ -228,7 +228,7 @@
 
     <noscript>
     <div class="googleads">
-        <img height="1" width="1" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/830592061/?guid=ON&amp;script=0"/>
+        <img height="1" width="1" alt="AVITA Google Ads" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/830592061/?guid=ON&amp;script=0"/>
     </div>
 </noscript>
 

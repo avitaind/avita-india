@@ -44,7 +44,7 @@
                         </div>
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
 
-                            <a href="<?php echo e(route('product.map', ['liber'])); ?>" class="my-1"><?php echo app('translator')->getFromJson('site.header_where_to_buy'); ?></a>
+                            <a href="<?php echo e(route('product.map')); ?>" class="my-1"><?php echo app('translator')->getFromJson('site.header_where_to_buy'); ?></a>
 
                             <?php if( $storeURL ): ?>
                                 <a class="my-1" target="_blank" href="<?php echo e($storeURL); ?>"><?php echo app('translator')->getFromJson('site.header_store'); ?></a>
