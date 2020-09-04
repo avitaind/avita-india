@@ -4,7 +4,7 @@
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-around justify-content-md-start">
                 <span class="d-inline-block navbar-brand hidden-sm-down">
-                    <img src="/images/logo.png"/>
+                    <img src="/images/logo.png" alt="AVITA India Official Website"/>
                 </span>
 
 

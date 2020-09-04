@@ -5,13 +5,13 @@
             <span></span>
         </div>
         <a class="navbar-brand mr-0 hidden-md-up" href="/">
-            <img src="/images/logo.png" alt="AVITA INDIA Official Website"/>
+            <img src="/images/logo.png" alt="AVITA India Official Website"/>
         </a>
 
         <div class="navbar-collapse">
             <ul class="navbar-nav mr-auto d-md-flex flex-md-row align-items-md-center justify-content-md-between">
                 <li class="hidden-sm-down">
-                    <a class="" href="/"><img src="/images/logo.png" alt="AVITA INDIA Official Website"/></a>
+                    <a href="/"><img src="/images/logo.png" alt="AVITA India Official Website"/></a>
                 </li>
 
 
