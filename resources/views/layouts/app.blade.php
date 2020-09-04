@@ -146,10 +146,11 @@
 <!-- End Facebook Pixel Code -->
 
     <!-- Facebook Pixel (noscript) -->
-    <noscript>
+ <!--   <noscript>
     
     <img class="facebookads" height="1" width="1" src="https://www.facebook.com/tr?id=3386287304724739&ev=PageView&noscript=1"/>
         </noscript>
+        --->
         <!-- End Facebook Pixel (noscript) -->
 
     @stack('css')
