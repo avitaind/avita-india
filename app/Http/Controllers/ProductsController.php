@@ -287,38 +287,30 @@ class ProductsController extends Controller
         return view('product.support', compact('product', 'slug', 'json_data'));
     }
 
- /*   public function whereToBuy($slug){
-        $country = 'in';
+    public function whereToBuy(){
 
-         $product = Product::where('short_code', $slug)->first();
-        if ( $slug == 'admiror' || $slug == 'pura' ){
-            $product = Product::where('short_code', 'liber')->first();
-        }
-        if ( !$product ) {
-            abort(404);
-        }
+        $country = 'in';
+            
         if ( \App::isLocale('en') ) {
             $query = Shop::select('shops.*')->leftJoin('shop_translations', function ($join) {
                 $join->on('shops.id', '=', 'shop_translations.shop_id');
                 $join->on('shop_translations.locale', '=', \DB::raw('"en"') );
             })
                 ->orderBy('shop_translations.priority', 'desc');
+
         } else {
             $query = Shop::select();
         }
         $query->where('country', $country);
         $query->where('enabled', true);
         $shops = $query->get();
-//        dd( $shops );
-        if ( $country == 'cn' ) {
-            return view('product.baidu_map', compact( 'product', 'shops'));
-        } else {
-            return view('product.map', compact( 'product', 'shops'));
-        }
-    }
-*/
+      //dd( $shops );
+    
+            return view('product.map', compact('shops'));
 
-    public function whereToBuy(){
+    }
+
+    /*public function whereToBuy(){
         $country = 'in';
         $product = Product::select();
       
@@ -338,11 +330,13 @@ class ProductsController extends Controller
         $query->where('country', $country);
         $query->where('enabled', true);
         $shops = $query->get();
-//        dd( $shops );
+      dd( $shops );
     
-            return view('product.map', compact( 'product', 'shops'));
+            return view('product.map', compact('product', 'shops'));
     
     }
+
+    */
     
 
     public function showDriverComponent(Request $request) {

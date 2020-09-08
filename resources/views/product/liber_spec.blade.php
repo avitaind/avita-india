@@ -15,7 +15,8 @@
             <div class="nav-product-wrap">
                 <div class="container px-0">
                     <nav class="nav nav-pills nav-product-spec justify-content-center">
-                    <a class="col text-center nav-link active" data-toggle="tab" href="#spec-3" role="tab">
+                    <!--- 
+                    <a class="col text-center nav-link" data-toggle="tab" href="#spec-3" role="tab">
                             <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">12.5" (31.75 cm) @if( !$HAVE_LIBER_12) / @lang('site.coming_soon') @endif</div></div>
                             <img class="hidden-sm-down" src="/images/liber/12/pink.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
@@ -26,7 +27,8 @@
 
                             </ul>
                         </a>
-                        <a class="col text-center nav-link" data-toggle="tab" href="#spec-1" role="tab">
+                        --->
+                        <a class="col text-center nav-link active" data-toggle="tab" href="#spec-1" role="tab">
                             <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">13.3" (33.78 cm)</div></div>
                             <img class="hidden-sm-down" src="/images/liber/u13/silver.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
@@ -75,7 +77,7 @@
             </div>
 
             <!-- Tab panes -->
-            <div class="tab-content">
+           <!--  <div class="tab-content">
                 <div class="tab-pane active" id="spec-3" role="tabpanel">
                     <div class="container">
                             <ul class="list-unstyled spec-list">
@@ -142,6 +144,8 @@
                         </ul>
                     </div>
                 </div>
+
+                --->
                 <div class="tab-pane" id="spec-1" role="tabpanel">
                     <div class="container">
                     <div class="logo-wrapper d-flex px-3 mt-4">

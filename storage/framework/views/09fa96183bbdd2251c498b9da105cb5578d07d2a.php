@@ -11,7 +11,7 @@
             <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.overview', ['admiror'])); ?>"><?php echo app('translator')->getFromJson('site.admiror'); ?></a></li>
             <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.spec', ['admiror'])); ?>"><?php echo app('translator')->getFromJson('site.productnav_spec'); ?></a></li>
            <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.support', ['liber'])); ?>"><?php echo app('translator')->getFromJson('site.productnav_support'); ?></a></li>
-           <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.map')); ?>"><?php echo app('translator')->getFromJson('site.productnav_wheretobuy'); ?></a></li>
+           <li class="nav-item"><a class="nav-link py-1" href="/where-to-buy"><?php echo app('translator')->getFromJson('site.productnav_wheretobuy'); ?></a></li>
           </ul>
         </div>
     </div>

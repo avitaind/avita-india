@@ -40,7 +40,7 @@
                             <div class="banner-para text-center">
                             <span class="d-lg-block">
                             <span class="buy-now2"><a href="https://www.amazon.in/AVITA-NS14A8INF561-MB-14-inch-i5-10210U-Graphics/dp/B0873JP8WQ/" target="_blank">Buy now ></a></span>
-                            <!--- <a href="<?php echo e(route('product.map', 'liber-v')); ?>" style="color:#09F">Where to buy ></a> --->
+                            <!--- <a href="/where-to-buy" style="color:#09F">Where to buy ></a> --->
                             </span>
                         </div>
                        

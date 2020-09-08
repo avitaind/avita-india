@@ -103,7 +103,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('product.map') }}">@lang('site.header_where_to_buy')</a>
+                    <a class="nav-link" href="/where-to-buy">@lang('site.header_where_to_buy')</a>
                 </li>
                 @if( $storeURL )
 

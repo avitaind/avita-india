@@ -76,7 +76,6 @@
 
 		<?php echo $__env->make('partials.product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
-
 		<section class="map-panel">
 
 		
@@ -130,11 +129,10 @@
 				</div>
 			</div>
 --->
-<div class="container py-5 ls-0">
+	<div class="container py-5 ls-0">
                 <div class="shopsList">
 				<?php $__currentLoopData = $shops; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $shop): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-					<div class="col-md-6">
-					
+					<div class="col-md-6">					
                             <div class="pb-1"><strong><?php echo e($shop->name); ?></strong></div>
                             <div class="">
                                 <i class="fa fa-map icon"></i>
@@ -148,7 +146,7 @@
                             </div>
         
                         </div>
-						<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+					<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 				</div>
 				
 		</div>

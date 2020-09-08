@@ -8,12 +8,7 @@
             <ul class="nav-product d-flex list-unstyled flex-column justify-content-center text-center flex-sm-row justify-content-sm-end my-2">
 
 
-                @if(!$HAVE_LIBER_12)
-
-                <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'liber') }}">@lang('site.productnav_overview')</a></li>
-
-                @else
-
+               
             <!--  <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'liber12') }}">@lang('site.productnav_overview_12')</a></li> -->
 
                     @if (!$HAVE_LIBER_U)
@@ -22,7 +17,7 @@
                         <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'liber') }}">@lang('site.productnav_overview_13')</a></li>   
                     @endif    
 
-                @endif
+            
 
             
                 <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.spec', 'liber') }}">@lang('site.productnav_spec')</a></li>
@@ -30,7 +25,8 @@
                 <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.support', 'liber') }}">@lang('site.productnav_support')</a></li>
 
                     <li class="nav-item">
-                        <a class="nav-link py-1" href="{{ route('product.map') }}">@lang('site.productnav_wheretobuy')</a>
+                        <a class="nav-link py-1" href="/where-to-buy">@lang('site.productnav_wheretobuy')</a>
+                        
                     </li>
             </ul>
         </div>

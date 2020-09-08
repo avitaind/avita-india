@@ -9,7 +9,7 @@
        <!---  <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', ['cosmos']) }}">@lang('site.cosmos')</a></li> --->
             <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.spec', ['cosmos']) }}">@lang('site.productnav_spec')</a></li>
         <!---  <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.support', ['liber']) }}">@lang('site.productnav_support')</a></li> 
-              <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.map') }}">@lang('site.productnav_wheretobuy')</a></li>  --->
+              <li class="nav-item"><a class="nav-link py-1" href="/where-to-buy">@lang('site.productnav_wheretobuy')</a></li>  --->
 
             </ul>
         </div>

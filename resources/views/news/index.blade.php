@@ -15,10 +15,199 @@ $page = 'events';
     <main>
         <section class="focus-event top-nav-padding">
             <div class="container">
-
                 <h3 class="section-title ls-0 my-5">News and Media</h3>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Laptop Buying Guide: Best Laptops Under Rs 50,000 That Do Not Compromise On Performance</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/news-18.jpg" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.09.07</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> News18 Tech</div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.news18.com/news/tech/laptop-buying-guide-best-laptops-under-rs-50000-that-do-not-compromise-on-performance-2838877.html"></a>
+
+                        </div>
+
+                    </div>
+                     
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>4 Best Laptops 2020 to increase your productivity in Work from Home</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/local-khabar-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.09.03</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong>Local Khabar</div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://localkhabar.com/4-best-laptops-2020-to-increase-your-productivity-in-work-from-home/28740/"></a>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>यह 4 बेहतरीन लैपटॉप वर्क फ्रॉम होम के लिए हैं सही विकल्प, एक से बढ़कर एक मॉडल</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/india-tv-paisa.jpg" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.09.03</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong>India TV Paisa</div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.indiatv.in/paisa/gadgets-here-are-the-4-best-laptops-to-increase-your-productivity-in-work-from-home-738533"></a>
+
+                        </div>
+
+                    </div>
+                     
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>4 बेहतरीन लैपटॉप वर्क फ्रॉम होम के लिए हैं सही विकल्प</p><br/><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/digit.jpg" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.09.04</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong>Digit </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.digit.in/hi/features/laptops/these-4-laptops-you-would-like-for-work-from-home-75962.html"></a>
+
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Looking for a super thin and ultra-light laptop? Avita is here to meet all your needs!</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/times-of-republic.jpg" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.09.02</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> Times of Republic</div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.timesofrepublic.com/2020/09/looking-for-a-super-thin-and-ultra-light-laptop-avita-is-here-to-meet-all-your-needs/"></a>
+
+                        </div>
+
+                    </div>
+                     
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Looking for a super thin and ultra-light laptop? Avita is here to meet all your needs!</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/zee5-news.jpg" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.09.02</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong>Zee5 News</div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.zee5.com/zeekannada/looking-for-a-super-thin-and-ultra-light-laptop-avita-is-here-to-meet-all-your-needs/"></a>
+
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Looking for a super thin and ultra-light laptop? Avita is here to meet all your needs!</p>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/the-toi-logo.png" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.09.01</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> Times of India</div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://timesofindia.indiatimes.com/business/india-business/looking-for-a-super-thin-and-ultra-light-laptop-avita-is-here-to-meet-all-your-needs/articleshow/77873435.cms"></a>
+
+                        </div>
+
+                    </div>
+                     
+                       
+                  
+                    <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Here's a look at what Avita has in store for you!</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/big-news-network.jpg" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.28</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> Big News Network</div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.bignewsnetwork.com/news/266224820/here-a-look-at-what-avita-has-in-store-for-you"></a>
+
+                        </div>
+
+                    </div>
+                     
+             
+
+                    </div>
             
                 <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>Avita's range of thin and light laptops aim to offer a top-notch experience, while still adhering to a range of different budgets and requirements.</p><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/digit.jpg" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.25</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> Digit (Instagram)</div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="https://www.instagram.com/p/CEUQmE6j86g/"></a>
+
+                        </div>
+
+                    </div>
+                     
+                          <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>On The Hunt For A Thin And Light Laptop? Here'S A Look At What Avita Has In Store For You!</p><br/><br/>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/digit.jpg" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.08.24</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> Digit </div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="http://www.telecomtoday.in/top-stories/avita-launches-liber-v-laptop-with-intel-core-10th-generation-processor.html/"></a>
+
+                        </div>
+                    </div>
+
+                    </div>
+
+                    <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>AVITA Introduces New Sleek And Stylish Liber V Laptop In India</p><br/>
@@ -97,7 +286,7 @@ $page = 'events';
                     
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>अमेरिकी कंपनी AVITA ने 8GB रैम के साथ भारत में लॉन्च किया लैपटॉप</p><br/><br/>
+                            <p>अमेरिकी कंपनी AVITA ने 8GB रैम के साथ भारत में लॉन्च किया लैपटॉप</p><br/>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/amar-ujala-logo.png" />

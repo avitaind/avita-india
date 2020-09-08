@@ -44,7 +44,7 @@
                         </div>
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
 
-                            <a href="{{ route('product.map') }}" class="my-1">@lang('site.header_where_to_buy')</a>
+                            <a href="/where-to-buy" class="my-1">@lang('site.header_where_to_buy')</a>
 
                             @if( $storeURL )
                                 <a class="my-1" target="_blank" href="{{ $storeURL }}">@lang('site.header_store')</a>
@@ -66,7 +66,7 @@
                             <a href="{{ route('product.overview', ['liber12']) }}" class="my-1">@lang('site.products')</a>
                             <a href="{{ route('news') }}" class="my-1">@lang('site.news')</a>
                             <a href="/aboutus" class="my-1">@lang('site.footer_aboutus')</a>
-                            <a href="{{ route('product.map', ['liber']) }}" class="my-1">@lang('site.header_where_to_buy')</a>
+                            <a href="/where-to-buy" class="my-1">@lang('site.header_where_to_buy')</a>
 
                             @if( $storeURL )
                                 <a class="my-1" target="_blank" href="{{ $storeURL }}">@lang('site.header_store')</a>

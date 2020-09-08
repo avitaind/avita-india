@@ -78,7 +78,6 @@
 
 		@include('partials.product-navbar')
 
-
 		<section class="map-panel">
 
 		
@@ -130,11 +129,10 @@
 				</div>
 			</div>
 --->
-<div class="container py-5 ls-0">
+	<div class="container py-5 ls-0">
                 <div class="shopsList">
 				@foreach( $shops as $shop )
-					<div class="col-md-6">
-					
+					<div class="col-md-6">					
                             <div class="pb-1"><strong>{{ $shop->name }}</strong></div>
                             <div class="">
                                 <i class="fa fa-map icon"></i>
@@ -146,7 +144,7 @@
                             </div>
         
                         </div>
-						@endforeach
+					@endforeach
 				</div>
 				
 		</div>
