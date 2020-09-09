@@ -1,11 +1,9 @@
-@extends('layouts.app')
-
-@section('title')
-    @lang('title.news3')
-@stop
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.news3'); ?>
+<?php $__env->stopSection(); ?>
 
 
-@section('content')
+<?php $__env->startSection('content'); ?>
     <main>
         <section class="event-detail top-nav-padding">
             <div class="container mb-5">
@@ -22,7 +20,7 @@
 
 
                     <div class="event-share ml-auto">
-                        <span class="px-2">@lang('site.share'):</span>
+                        <span class="px-2"><?php echo app('translator')->getFromJson('site.share'); ?>:</span>
                         <a href="#" class="ml-0 ml-md-auto fb_share_btn"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         <a href="#" class="ml-0 ml-md-2 twitter_share_btn"><i class="fa fa-twitter pl-1" aria-hidden="true"></i></a>
                     </div>
@@ -59,10 +57,10 @@
         </div>
 
     </main>
-@endsection
+<?php $__env->stopSection(); ?>
 
 
-@section('js')
+<?php $__env->startSection('js'); ?>
 
     <script>
         $('.fb_share_btn').click( function(e) {
@@ -92,4 +90,6 @@
 
     </script>
 
-@stop
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

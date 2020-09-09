@@ -11,7 +11,8 @@ use App\Subscription;
 
 class SubscriptionController extends Controller
 {
-    
+ 
+  
   public function handleSubscription(Request $request){
 
      $subscription = new Subscription([
@@ -36,6 +37,8 @@ class SubscriptionController extends Controller
         return redirect()->back()->with('message', 'Thank you for your subscription!');
 
     }
+
+    
     
 /*
     public function storeDevice(Request $request){

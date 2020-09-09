@@ -190,6 +190,7 @@ $(document).ready(function() {
 	});
 
 	/***************** Form  ******************/
+	
 	$(function() {
 		$('.email-subscription-form').on('submit', function(e){
 			e.preventDefault();
@@ -202,5 +203,7 @@ $(document).ready(function() {
 			alert('Thank you for your subscription!');
 		});
 	});
+
+
 
 });
