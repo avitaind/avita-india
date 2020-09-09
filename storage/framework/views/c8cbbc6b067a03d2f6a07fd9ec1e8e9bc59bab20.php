@@ -69,13 +69,14 @@
                                 <li style="background-color: #bdbbb7" data-image="/images/liber/u14/lightsilver.png"></li>
                             </ul>
                         </a>
-                      
-                    </nav>
-                </div>
-            </div>
 
+                          </nav>
+                     </div>
+                </div>
+             
             <!-- Tab panes -->
-           <!--  <div class="tab-content">
+        
+                   <!-- 
                 <div class="tab-pane active" id="spec-3" role="tabpanel">
                     <div class="container">
                             <ul class="list-unstyled spec-list">
@@ -141,10 +142,11 @@
 
                         </ul>
                     </div>
+                     
                 </div>
-
-                --->
-                <div class="tab-pane" id="spec-1" role="tabpanel">
+               --->
+               <div class="tab-content">
+                <div class="tab-pane active" id="spec-1" role="tabpanel">
                     <div class="container">
                     <div class="logo-wrapper d-flex px-3 mt-4">
                             <div class="offset-md-1">
@@ -219,6 +221,7 @@
                         </ul>
                     </div>
                 </div>
+              
                 <div class="tab-pane" id="spec-2" role="tabpanel">
                     <div class="container">
                     <div class="logo-wrapper d-flex px-3 mt-4">

@@ -35,11 +35,7 @@
                                             <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['pura'])); ?>"><?php echo app('translator')->getFromJson('site.pura'); ?></a>
                                         </li>
                             
-                                        <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.spec', ['cosmos'])); ?>"><?php echo app('translator')->getFromJson('site.cosmos'); ?></a>
-                                        </li>
-                                       
-                                        <li class="nav-item has-dropdown">
+                                       <li class="nav-item has-dropdown">
                                           <input id="liber" type="checkbox" hidden="">
                                           <a class="nav-link px-md-4 py-2"><label for="liber" class="d-block mb-0"><?php echo app('translator')->getFromJson('site.liber'); ?></label></a>
                                         <div class="dropdown">
