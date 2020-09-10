@@ -233,7 +233,9 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin'],  'namespace' 
     Route::post('device_data_export', 'DeviceDataController@handleDownload');
 
 // EDM subscription
-   Route::post('/subscription', 'SubscriptionController@handleSubscription');
+//   Route::post('/subscription', 'SubscriptionController@handleSubscription');
+
+   Route::post('/subscription', 'SubscriptionController@store');
 
 //Route::get('/subscription','SubscriptionController@index'); 
 //Route::post('/subscription','SubscriptionController@storeDevice');

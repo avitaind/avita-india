@@ -63,12 +63,38 @@
 
 
 
-<section class="email-subscription py-5 ls-0">
-  <form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto">
+    <section class="email-subscription py-5 ls-0">
+     <!---
+      <?php echo $__env->make('includes.flash', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+        <form role="form" method="POST" action="<?php echo e(url('/subscription')); ?>">
+              <?php echo csrf_field(); ?>
+
+
+           <div class="form-group<?php echo e($errors->has('email') ? ' has-error' : ''); ?>">
+                     <label for="email" class="col-md-10 control-label">Email</label>
+                        <div class="col-md-10">
+                            <input id="email" type="email" class="form-control" name="email" value="<?php echo e(old('email')); ?>">
+                               <?php if($errors->has('title')): ?>
+                                    <span class="help-block">
+                                    <strong><span class="error">Email Can Not Be Empty</span></strong>
+                                    </span>
+                             <?php endif; ?>
+                  </div>
+              </div>
+              <div class="form-group">
+                       <div class="col-md-10 col-md-offset-4">
+                            <button type="submit" class="btn btn-primary">
+                               <i class="fa fa-btn"></i> Submit
+                           </button>
+                     </div>
+              </div>
+        </form>
+    ---->
+        <form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto">
             <h2 class="text-center mt-4 mb-3 font-weight-light"><?php echo app('translator')->getFromJson('site.home_join'); ?></h2>
-            <div class="text-center mt-3 mb-4 lead"><?php echo app('translator')->getFromJson('site.home_receiving'); ?></div>
-            <div class="row my-4 no-gutters justify-content-center">
-                <div class="col-12 col-sm-7 col-md-6 col-lg-7 ml-auto">
+                <div class="text-center mt-3 mb-4 lead"><?php echo app('translator')->getFromJson('site.home_receiving'); ?></div>
+                  <div class="row my-4 no-gutters justify-content-center">
+                    <div class="col-12 col-sm-7 col-md-6 col-lg-7 ml-auto">
                     <div class="input-group">
                         <div class="input-group-addon overlay-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
                         <input type="email" name="subscription_email" class="form-control" required>
@@ -79,7 +105,7 @@
                 </div>
             </div>
         </form>
-  
+    
         <p class="download-brochure" ><a href="/images/AVITA-Products-Brochure.pdf" target="_blank" download="AVITA-Family-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button">Download Brochure </button></a></p>
 
     </section>

@@ -13,7 +13,7 @@ class SubscriptionController extends Controller
 {
  
   
-  public function handleSubscription(Request $request){
+ /* public function handleSubscription(Request $request){
 
      $subscription = new Subscription([
       'email' => $request->get('subscription_email'),
@@ -37,13 +37,14 @@ class SubscriptionController extends Controller
         return redirect()->back()->with('message', 'Thank you for your subscription!');
 
     }
-
+*/
     
     
-/*
-    public function storeDevice(Request $request){
 
-      $this->validate($request, [
+    public function store(Request $request){
+
+
+ /*  $this->validate($request, [
           'email' =>  'required|email',
         ]);
    
@@ -67,10 +68,10 @@ class SubscriptionController extends Controller
       });
    
       return redirect()->back()->with('message', 'Thank you for your subscription. You shall receive a mail shortly!');
-
+*/
+      return view('home');
   }
 
- 
-*/
+
 }
 
