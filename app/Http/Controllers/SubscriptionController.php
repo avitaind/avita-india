@@ -69,7 +69,7 @@ class SubscriptionController extends Controller
    
       return redirect()->back()->with('message', 'Thank you for your subscription. You shall receive a mail shortly!');
 */
-      return view('home');
+      return view('/');
   }
 
 

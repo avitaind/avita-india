@@ -61,6 +61,7 @@
 
    <script defer src="//use.typekit.net/wpk4iql.js"></script>
    <script defer>try{Typekit.load();}catch(e){}</script>
+   <script type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 

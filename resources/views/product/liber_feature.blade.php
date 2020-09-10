@@ -82,7 +82,7 @@
                             <span class="d-lg-block">LIBER offers great mobility. </span>
 							<span class="d-lg-block">Having no compromise to a silky metallic body </span>
 							<span class="d-lg-block">with the thinnest part of only 5mm and </span>
-							<span class="d-lg-block"> weight starting from 1.37kg (13.3-inch) or 1.49kg (14-inch), </span>
+							<span class="d-lg-block"> weight starting from 1.49kg (14-inch), </span>
 							<span class="d-lg-block">it comes with an ultra slim and light design </span>
 							<span class="d-lg-block">that unburdens you on the go.</span>
 							<span class="d-block"><small>* Thinnest part</small></span>
@@ -98,12 +98,13 @@
 								<span style="font-size: 3rem; font-weight: 300;">&deg;</span>
 								<div class="badge-caption pt-1">Hinge</div>
                             </div>
-                            <div class="data-card data-card-3 col-6 my-2 my-sm-4 pl-1 px-sm-4">
+                           <!--- <div class="data-card data-card-3 col-6 my-2 my-sm-4 pl-1 px-sm-4">
                                 <div class="badge-caption">Starting from</div>
                                 <span class="badge-value">1.37</span>
 								<span class="badge-caption">kg</span>
 								<div  class="badge-caption pt-1">13.3-inch weight</div>
                             </div>
+                            --->
                             <div class="data-card data-card-4 col-6 my-2 my-sm-4">
                                 <div class="badge-caption">Starting from</div>
                                 <span class="badge-value">1.49</span>

@@ -241,7 +241,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin'],  'namespace' 
 //Route::post('/subscription','SubscriptionController@storeDevice');
 
 
-    Route::get('subscription', 'SubscriptionController@showSubcriptionList');
+  //  Route::get('subscription', 'SubscriptionController@showSubcriptionList');
     
 
 //    Route::get('registrations', 'RegistrationsController@showRegistrationList');
