@@ -28,7 +28,7 @@ Route::get('/cap','CampusController@index');
 Route::post('/cap','CampusController@storeDevice');
 // Campus Controller
 //Route::post('/subscription', 'HomeController@handleSubscription');
-
+Route::post('subscribe', 'HomeController@handleSubscription');
 
 
 //Pre Order Controller 
@@ -191,8 +191,6 @@ if ( Request::segment(1) != 'admin') {
   
    Route::get('where-to-buy', 'ProductsController@whereToBuy');
 
-
-
     //  });
 
 }
@@ -235,13 +233,13 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin'],  'namespace' 
 // EDM subscription
 //   Route::post('/subscription', 'SubscriptionController@handleSubscription');
 
-   Route::post('/subscription', 'SubscriptionController@store');
+   
 
 //Route::get('/subscription','SubscriptionController@index'); 
 //Route::post('/subscription','SubscriptionController@storeDevice');
 
 
-  //  Route::get('subscription', 'SubscriptionController@showSubcriptionList');
+  // Route::get('subscription', 'SubscriptionController@showSubcriptionList');
     
 
 //    Route::get('registrations', 'RegistrationsController@showRegistrationList');

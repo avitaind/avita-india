@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Mailers;
 
 use App\Subscription;
@@ -19,13 +20,14 @@ class AppMailer {
         $this->mailer = $mailer;
     }
 
-    public function sendSubscriberInformation($user, Ticket $ticket)
+    public function sendSubscriberInformation($user, Subscription $subscription)
     {
               
-        $this->to = ['contact@avita-india.com'];
+        $this->to = $subscription->email;
         $this->subject = "New Subscriber | AVITA INDIA";
         $this->view = 'emails.subscription';
-      
+        $this->data = compact('user', 'subscription');
+
         return $this->deliver();
     }
 

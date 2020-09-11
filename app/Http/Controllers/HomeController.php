@@ -2,14 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use Auth;
 use App\Country;
 use App\Product;
 use App\ProductModel;
 use App\RepairTerm;
 use App\ServiceCenter;
 use App\Settings;
-
 use Illuminate\Http\Request;
+use App\Subscription;
+use App\Mailers\AppMailer;
 
 class HomeController extends Controller
 {
@@ -164,6 +166,26 @@ class HomeController extends Controller
 
 
     }
+
+    public function handleSubscription(Request $request, AppMailer $mailer) {
+
+        $this->validate($request, [
+             'email'     => 'required',
+            ]);
+    
+        $subscription = new Subscription([
+           'email'     => $request->input('email'),
+         ]);
+        
+           
+        $subscription->save();
+        $mailer->sendSubscriberInformation(Auth::user(), $subscription);
+        return redirect()->back()->with("status", "Thanks for Subscribing, We will connect you shortly.");
+        
+
+
+    }
+
 
     public function getImago(Request $request) {
         return view('product.imago');

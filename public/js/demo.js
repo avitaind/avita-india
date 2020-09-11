@@ -190,8 +190,8 @@ $(document).ready(function() {
 	});
 
 	/***************** Form  ******************/
-	
-	$(function() {
+
+	/*$(function() {
 		$('.email-subscription-form').on('submit', function(e){
 			e.preventDefault();
 			var form = $(this).serializeArray();
@@ -203,7 +203,7 @@ $(document).ready(function() {
 			alert('Thank you for your subscription!');
 		});
 	});
-
+*/
 
 
 });
