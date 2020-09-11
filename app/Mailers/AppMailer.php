@@ -24,6 +24,8 @@ class AppMailer {
     {
               
         $this->to = $subscription->email;
+        $this->fromAddress = 'contact@avita-india.com'; 
+        $this->$fromName = 'Avita India';
         $this->subject = "New Subscriber | AVITA INDIA";
         $this->view = 'emails.subscription';
         $this->data = compact('user', 'subscription');
