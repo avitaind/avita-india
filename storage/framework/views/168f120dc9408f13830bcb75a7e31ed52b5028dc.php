@@ -28,13 +28,24 @@
                                 <a class="nav-link px-md-4 py-2"><label for="header_product_liber" class="d-block mb-0"><?php echo app('translator')->getFromJson('site.laptops'); ?></label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
+                                    <li class="nav-item">
+                                                    <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v'])); ?>"><?php echo app('translator')->getFromJson('site.liber-v'); ?></a>
+                                          </li>
                                        <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['admiror'])); ?>"><?php echo app('translator')->getFromJson('site.admiror'); ?></a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['pura'])); ?>"><?php echo app('translator')->getFromJson('site.pura'); ?></a>
                                         </li>
-                            
+                                        
+                                          <li class="nav-item">
+                                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'magus-lite-2in1-laptop')); ?>"><?php echo app('translator')->getFromJson('magus.name'); ?></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                    <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-new-generation'])); ?>"><?php echo app('translator')->getFromJson('site.liber-new-generation'); ?></a>
+                                                </li>
+                                      
+                                      <!---
                                        <li class="nav-item has-dropdown">
                                           <input id="liber" type="checkbox" hidden="">
                                           <a class="nav-link px-md-4 py-2"><label for="liber" class="d-block mb-0"><?php echo app('translator')->getFromJson('site.liber'); ?></label></a>
@@ -50,10 +61,8 @@
                                             </ul>
                                          </div>
                                    </li> 
-
-                                   <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'magus-lite-2in1-laptop')); ?>"><?php echo app('translator')->getFromJson('magus.name'); ?></a>
-                                            </li>
+                                --->
+                                   
                                     </ul>
                                 </div>
                             </li>

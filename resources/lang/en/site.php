@@ -8,7 +8,7 @@ return [
     'pura'                           => 'PURA ',
     'pura-intel'                     => 'PURA Intel',
     'pura-amd'                       => 'PURA AMD',
-    'liber-new-generation'          => 'LIBER 14"',
+    'liber-new-generation'          => 'LIBER',
     'liber14'                       =>'Overview 14"',
     'liber12'                       => 'LIBER 12.5"',
     'accessories'                   =>'Accessories',
@@ -258,6 +258,6 @@ return [
     'productnav_overview_liber_v'   => 'Overview LIBER V',	
     'productnav_overview_essential' => 'Overview Essential', 
     'liber' => 'LIBER',
-    'liber-v' => 'LIBER V',
+    'liber-v' => 'LIBER V14',
     'productnav_overview_ubique' => 'AVITA UBIQUE'
 ];

@@ -23,7 +23,7 @@ return [
                     <li>*Under Test Conditions</li>
 
 ',
-    'name'               			=> 'MAGUS Lite 2-in-1 Laptop',
+    'name'               			=> 'MAGUS Lite',
     'lite'                          => 'MAGUS Lite',
     'os'               				=> 'Operating System',
     'cpu'               			=> 'CPU',

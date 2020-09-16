@@ -290,23 +290,24 @@ class ProductsController extends Controller
     public function whereToBuy(){
 
         $country = 'in';
-            
+
         if ( \App::isLocale('en') ) {
             $query = Shop::select('shops.*')->leftJoin('shop_translations', function ($join) {
                 $join->on('shops.id', '=', 'shop_translations.shop_id');
                 $join->on('shop_translations.locale', '=', \DB::raw('"en"') );
-            })
-                ->orderBy('shop_translations.priority', 'desc');
-
-        } else {
+            });
+               
+            } else {
             $query = Shop::select();
         }
         $query->where('country', $country);
         $query->where('enabled', true);
+        $query->where('priority', 0);
         $shops = $query->get();
-      //dd( $shops );
     
-            return view('product.map', compact('shops'));
+
+
+      return view('product.map', compact('shops'));
 
     }
 

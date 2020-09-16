@@ -78,57 +78,13 @@
 
 		@include('partials.product-navbar')
 		@include('partials.rolling-cta')
-		<section class="map-panel">
-
-		
-		<!---
-			<div class="container py-5 ls-0">
-				<div class="row mx-2">
-
-					<div class="map-search col-12 col-lg-4 push-lg-8 p-4">
-						<div class="lead">@lang('site.shops_near_you')</div>
-
-
-
-						<div class="input-group py-4">
-							<input type="text" name="search" placeholder="Enter Store Name" class="form-control search-result-input search-input" id="map-search" required="">
-							<div class="input-group-addon search-result-button">
-								<button type="button" class=""><i class="fa fa-search" aria-hidden="true"></i></button>
-							</div>
-						</div>
-
-						<div class="shop-list">
-
-							@foreach( $shops as $shop )
-
-								<div class="shop-row pb-4" data-latitude="{{ $shop->latitude }}" data-longitude="{{ $shop->longitude }}">
-
-									<div class="shop-name pb-1">{{ $shop->name }}</div>
-									<div class="shop-address">
-										<i class="fa fa-map icon"></i>
-										{{ $shop->address }}
-									</div>
-									<div class="shop-phone">
-										<i class="fa fa-phone icon"></i>
-										{{ $shop->phone }}
-									</div>
-
-								</div>
-							@endforeach
-						</div>
-					</div>
-
-					<div class="col-12 col-lg-8 pull-lg-4 px-0">
-						<div class="map-wrap embed-responsive embed-responsive-1by1">
-							<div id="gmap-embed" class="embed-responsive-item">
-
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
---->
+	
+	
+<section class="map-panel">
+	
+		<!--	<div class="h2 pt-5 px-5 text-center font-weight-light">Exclusive Brand Store</div> 
+		<hr class="w-25"/>
+---->
 	<div class="container py-5 ls-0">
                 <div class="shopsList">
 				@foreach( $shops as $shop )
@@ -148,8 +104,32 @@
 				</div>
 				
 		</div>
+	
+<!---
+		<div class="h2 pt-5 px-5 text-center font-weight-light">Retail Partners</div>
+<hr class="w-25"/>
 
-		</section>
+<div class="container py-5 ls-0">
+			<div class="shopsList">
+			@foreach( $shops as $shop )
+				<div class="col-md-6">					
+						<div class="pb-1"><strong>{{ $shop->name }}</strong></div>
+						<div class="">
+							<i class="fa fa-map icon"></i>
+							{{ $shop->address }}
+						</div>
+						<div class="">
+							<i class="fa fa-phone icon"></i>
+							{{ $shop->phone }}
+						</div>
+	
+					</div>
+				@endforeach
+			</div>
+			
+	</div>
+	--->
+	</section>
 
 		<section class="product-statement mt-4 mt-sm-0">
 			<div class="container">
