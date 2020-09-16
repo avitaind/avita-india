@@ -1946,3 +1946,30 @@ table.product-list-table th{
   }
 }
 
+.product-fix-menu {
+  position: fixed;
+  right: 0;
+  top: 25%;
+  z-index: 99;
+}
+.product-fix-menu .menu-item {
+  padding: 15px 20px 15px 30px;
+  background: #662d91;
+  color: #fff;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 60px 0 0 60px;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
+}
+.product-fix-menu .menu-item a {
+  color: #fff;
+  font-size: 25px;
+  line-height: 25px;
+  margin: auto;
+  text-align: left;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+}

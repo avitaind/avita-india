@@ -1,10 +1,8 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+	<?php echo app('translator')->getFromJson('title.where_to_buy'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-	@lang('title.where_to_buy')
-@stop
-
-@section('css')
+<?php $__env->startSection('css'); ?>
 	<style>
 	
 	/** 
@@ -65,29 +63,29 @@
     			margin-bottom: 30px;
 			}	
 	</style>
-@stop
+<?php $__env->stopSection(); ?>
 
-@php
+<?php 
         $page = 'wheretobuy';
 
-@endphp
+ ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 	<main class="top-nav-padding">
 
-		@include('partials.product-navbar')
+		<?php echo $__env->make('partials.product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 		<div class="product-fix-menu">
 
 		<div class="menu-item">        
 					   
-		<a href="https://in.nexstmall.com/" target="_blank">BUY<br><small>NOW</small></a> 
+		<a href="https://www.nexstmall.com/en?utm_source=brandsite&amp;utm_medium=rightbutton&amp;utm_campaign=buynow" target="_blank">BUY<br><small>NOW</small></a> 
 		
 	  
 		</div>
 
 		<div class="menu-item">
-			<a href="https://avita-india.com/where-to-buy">Where<br><small>to buy</small></a>
+			<a href="https://avita.com/hk/product/liber/where_to_buy">Where<br><small>to buy</small></a>
 		</div>
 
 		</div>
@@ -99,7 +97,7 @@
 				<div class="row mx-2">
 
 					<div class="map-search col-12 col-lg-4 push-lg-8 p-4">
-						<div class="lead">@lang('site.shops_near_you')</div>
+						<div class="lead"><?php echo app('translator')->getFromJson('site.shops_near_you'); ?></div>
 
 
 
@@ -112,22 +110,24 @@
 
 						<div class="shop-list">
 
-							@foreach( $shops as $shop )
+							<?php $__currentLoopData = $shops; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $shop): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 
-								<div class="shop-row pb-4" data-latitude="{{ $shop->latitude }}" data-longitude="{{ $shop->longitude }}">
+								<div class="shop-row pb-4" data-latitude="<?php echo e($shop->latitude); ?>" data-longitude="<?php echo e($shop->longitude); ?>">
 
-									<div class="shop-name pb-1">{{ $shop->name }}</div>
+									<div class="shop-name pb-1"><?php echo e($shop->name); ?></div>
 									<div class="shop-address">
 										<i class="fa fa-map icon"></i>
-										{{ $shop->address }}
+										<?php echo e($shop->address); ?>
+
 									</div>
 									<div class="shop-phone">
 										<i class="fa fa-phone icon"></i>
-										{{ $shop->phone }}
+										<?php echo e($shop->phone); ?>
+
 									</div>
 
 								</div>
-							@endforeach
+							<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 						</div>
 					</div>
 
@@ -144,20 +144,22 @@
 --->
 	<div class="container py-5 ls-0">
                 <div class="shopsList">
-				@foreach( $shops as $shop )
+				<?php $__currentLoopData = $shops; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $shop): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 					<div class="col-md-6">					
-                            <div class="pb-1"><strong>{{ $shop->name }}</strong></div>
+                            <div class="pb-1"><strong><?php echo e($shop->name); ?></strong></div>
                             <div class="">
                                 <i class="fa fa-map icon"></i>
-                                {{ $shop->address }}
+                                <?php echo e($shop->address); ?>
+
                             </div>
                             <div class="">
                                 <i class="fa fa-phone icon"></i>
-                                {{ $shop->phone }}
+                                <?php echo e($shop->phone); ?>
+
                             </div>
         
                         </div>
-					@endforeach
+					<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 				</div>
 				
 		</div>
@@ -168,10 +170,10 @@
 			<div class="container">
 				<ul class="product-statement-list py-2 py-sm-5 mx-auto ls-0 pl-4 py-0">
 					<li>Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside are trademarks of Intel Corporation in the U.S. and other countries.</li>
-					<li>@lang('site.product_support_footer_1')</li>
-					<li>@lang('site.product_support_footer_2')</li>
-					<li>@lang('site.product_support_footer_3')</li>
-					<li>@lang('site.product_support_footer_4')</li>
+					<li><?php echo app('translator')->getFromJson('site.product_support_footer_1'); ?></li>
+					<li><?php echo app('translator')->getFromJson('site.product_support_footer_2'); ?></li>
+					<li><?php echo app('translator')->getFromJson('site.product_support_footer_3'); ?></li>
+					<li><?php echo app('translator')->getFromJson('site.product_support_footer_4'); ?></li>
 				</ul>
 
 			</div>
@@ -183,9 +185,9 @@
 
 	</main>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('js')
+<?php $__env->startSection('js'); ?>
 
 	<script>
 		var infowindows = [];
@@ -354,4 +356,6 @@
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL2du53CNS9kfAQ1itk4kwF4aSBSjIgHE&callback=initMap"> </script>
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
