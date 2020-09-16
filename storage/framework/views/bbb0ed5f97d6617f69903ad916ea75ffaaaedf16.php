@@ -75,20 +75,7 @@
 	<main class="top-nav-padding">
 
 		<?php echo $__env->make('partials.product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-		<div class="product-fix-menu">
-
-		<div class="menu-item">        
-					   
-		<a href="https://www.nexstmall.com/en?utm_source=brandsite&amp;utm_medium=rightbutton&amp;utm_campaign=buynow" target="_blank">BUY<br><small>NOW</small></a> 
-		
-	  
-		</div>
-
-		<div class="menu-item">
-			<a href="https://avita.com/hk/product/liber/where_to_buy">Where<br><small>to buy</small></a>
-		</div>
-
-		</div>
+		<?php echo $__env->make('partials.rolling-cta', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 		<section class="map-panel">
 
 		

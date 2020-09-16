@@ -9,7 +9,8 @@
     <main class="top-nav-padding">
 
 	@include('partials.pura-navbar')
-        
+    @include('partials.rolling-cta')
+
         <!-------------------Submenu------------ 
         <div class="nav-product-panel">
             <div class="container">

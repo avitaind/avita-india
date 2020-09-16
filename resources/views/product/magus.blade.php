@@ -22,6 +22,8 @@
         </div>
     </div>
 </div>
+@include('partials.rolling-cta')
+
 <!--------------->
         <section class="product-liber-banner">
             <div class="responsive-block">

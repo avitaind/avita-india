@@ -10,6 +10,7 @@
 
 	 
     @include('partials.cosmos-navbar')
+    @include('partials.rolling-cta')
 
         
         <!-------------------Submenu------------ 

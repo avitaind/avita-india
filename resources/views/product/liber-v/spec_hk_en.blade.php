@@ -9,6 +9,7 @@
     <main class="top-nav-padding">
 
         @include('partials.liber-v-navbar')
+		@include('partials.rolling-cta')
 
         <section>
 

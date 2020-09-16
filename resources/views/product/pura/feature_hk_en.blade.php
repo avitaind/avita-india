@@ -8,6 +8,7 @@
     <main class="top-nav-padding">
     
     	@include('partials.pura-navbar')
+		@include('partials.rolling-cta')
 
         <!--------- Submenu ----------->
 

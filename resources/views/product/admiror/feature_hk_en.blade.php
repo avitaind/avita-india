@@ -8,7 +8,8 @@
     <main class="top-nav-padding">
 
     @include('partials.admiror-navbar')
-        
+    @include('partials.rolling-cta')
+
           <section class="product-liber-banner">
             <div class="responsive-block">
             <a href="https://www.amazon.in/s?k=avita+admiror">
