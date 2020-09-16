@@ -8,6 +8,7 @@
 @section('content')
 
 <main class="top-nav-padding">
+@include('partials.rolling-cta')
 
 	<section class="">
 

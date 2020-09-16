@@ -1,10 +1,8 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.IMAGO_spec'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.IMAGO_spec')
-@stop
-
-@section('css')
+<?php $__env->startSection('css'); ?>
 <style>
     main{
         background-color : #fff
@@ -54,9 +52,9 @@
         .nav-spec.active:after{ display: none;}
     }
 </style>
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 <main class="top-nav-padding">
     <div class="nav-product-panel">
@@ -67,13 +65,13 @@
 
             <div class="product-nav-collapse">
                 <ul class="nav-product d-flex list-unstyled flex-column justify-content-center text-center flex-sm-row justify-content-sm-end py-2 mb-0">
-                    <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', $product->short_code) }}">@lang('site.productnav_overview')</a></li>
-                    <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.spec', $product->short_code) }}">@lang('site.productnav_spec')</a></li>
+                    <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.overview', $product->short_code)); ?>"><?php echo app('translator')->getFromJson('site.productnav_overview'); ?></a></li>
+                    <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.spec', $product->short_code)); ?>"><?php echo app('translator')->getFromJson('site.productnav_spec'); ?></a></li>
                 </ul>
             </div>
         </div>
     </div>
-    @include('partials.rolling-cta')
+    <?php echo $__env->make('partials.rolling-cta', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
     <section>
         <div class="container py-5">
@@ -427,4 +425,6 @@
 
 </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

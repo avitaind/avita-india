@@ -29,11 +29,11 @@
                         <li class="nav-item" style="display:none;"><a class="nav-link py-1" href="<?php echo e(route('product.support', 'admiror')); ?>"><?php echo app('translator')->getFromJson('site.productnav_support'); ?></a></li>
                         
                         <li class="nav-item">
-                            <a class="nav-link py-1" href="<?php echo e(route('product.map', 'liber')); ?>"><?php echo app('translator')->getFromJson('site.productnav_wheretobuy'); ?></a>
+                            <a class="nav-link py-1" href="/where-to-buy"><?php echo app('translator')->getFromJson('site.productnav_wheretobuy'); ?></a>
                         </li>
                         
                         <li class="nav-item" style="display:none;">
-                            <a class="nav-link py-1" href="<?php echo e(route('product.map', 'admiror')); ?>"><?php echo app('translator')->getFromJson('site.productnav_wheretobuy'); ?></a>
+                            <a class="nav-link py-1" href="/where-to-buy"><?php echo app('translator')->getFromJson('site.productnav_wheretobuy'); ?></a>
                         </li>
                         
                     </ul>

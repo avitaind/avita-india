@@ -22,6 +22,7 @@
 		        </div>
 		    </div>
 		</div>
+		@include('partials.rolling-cta')
 
         <section class="product-imago-banner">
         	<div class="u-relative">

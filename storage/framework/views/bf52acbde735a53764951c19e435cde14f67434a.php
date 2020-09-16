@@ -1,10 +1,8 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+	<?php echo app('translator')->getFromJson('title.IMAGO_home'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-	@lang('title.IMAGO_home')
-@stop
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 
     <main class="top-nav-padding">
 
@@ -16,19 +14,19 @@
 
 				<div class="product-nav-collapse">
 					<ul class="nav-product d-flex list-unstyled flex-column justify-content-center text-center flex-sm-row justify-content-sm-end py-2 mb-0">
-						<li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', $product->short_code) }}">@lang('site.productnav_overview')</a></li>
-						<li class="nav-item"><a class="nav-link py-1" href="{{ route('product.spec', $product->short_code) }}">@lang('site.productnav_spec')</a></li>
+						<li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.overview', $product->short_code)); ?>"><?php echo app('translator')->getFromJson('site.productnav_overview'); ?></a></li>
+						<li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.spec', $product->short_code)); ?>"><?php echo app('translator')->getFromJson('site.productnav_spec'); ?></a></li>
 					</ul>
 				</div>
 		    </div>
 		</div>
-		@include('partials.rolling-cta')
+		<?php echo $__env->make('partials.rolling-cta', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         <section class="product-imago-banner">
         	<div class="u-relative">
         		<div class="mask-wrap hidden-sm-down">
         			<div class="masked-inner">
-        				{{-- <img class="bg-image ml-auto mask-img " src="/images/imago/sc1_01.jpg"> --}}
+        				
         			</div>
         		</div>
 
@@ -78,7 +76,7 @@
 
         		<div class="mask-wrap hidden-sm-down">
         			<div class="masked-inner">
-        				{{-- <img class="bg-image ml-auto mask-img" src="/images/imago/sc2_01.png"> --}}
+        				
         			</div>
         		</div>
 
@@ -159,7 +157,7 @@
 
         		<div class="mask-wrap hidden-sm-down">
         			<div class="masked-inner">
-        				{{-- <img class="bg-image ml-auto mask-img" src="/images/imago/sc5_01.png"> --}}
+        				
         			</div>
         		</div>
 
@@ -230,7 +228,7 @@
       <section>
             <div class="container">
                 <div class="py-5">
-                    <h5 class="font-weight-bold my-2">{{ __('site.imago_retail_store') }}</h5>
+                    <h5 class="font-weight-bold my-2"><?php echo e(__('site.imago_retail_store')); ?></h5>
 
                     <div class="list-item my-1">
                         <i class="fa fa-map icon mr-2" style="width: 16px;"></i>
@@ -254,12 +252,14 @@
 
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('css')
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/product-imago.css') }}"/>
-@endsection
+<?php $__env->startSection('css'); ?>
+    <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-imago.css')); ?>"/>
+<?php $__env->stopSection(); ?>
 
-@section('js')
-    <script type="text/javascript" src="{{ asset('js/imago.js') }}"></script>
-@endsection
+<?php $__env->startSection('js'); ?>
+    <script type="text/javascript" src="<?php echo e(asset('js/imago.js')); ?>"></script>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
