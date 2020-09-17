@@ -300,14 +300,18 @@ class ProductsController extends Controller
             } else {
             $query = Shop::select();
         }
+
         $query->where('country', $country);
         $query->where('enabled', true);
-        $query->where('priority', 0);
-        $shops = $query->get();
+        $query->where('priority', 1);
+        $eshops = $query->get();
+        $query->orwhere('priority', 0);
+        $rshops = $query->get();
+
     
 
 
-      return view('product.map', compact('shops'));
+      return view('product.map', compact('eshops','rshops'));
 
     }
 

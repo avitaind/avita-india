@@ -81,22 +81,21 @@
 	
 	
 <section class="map-panel">
-	
-		<!--	<div class="h2 pt-5 px-5 text-center font-weight-light">Exclusive Brand Store</div> 
+	<div class="h2 pt-5 px-5 text-center font-weight-light">Exclusive Brand Store</div> 
 		<hr class="w-25"/>
----->
+
 	<div class="container py-5 ls-0">
                 <div class="shopsList">
-				@foreach( $shops as $shop )
+				@foreach( $eshops as $eshop )
 					<div class="col-md-6">					
-                            <div class="pb-1"><strong>{{ $shop->name }}</strong></div>
+                            <div class="pb-1"><strong>{{ $eshop->name }}</strong></div>
                             <div class="">
                                 <i class="fa fa-map icon"></i>
-                                {{ $shop->address }}
+                                {{ $eshop->address }}
                             </div>
                             <div class="">
                                 <i class="fa fa-phone icon"></i>
-                                {{ $shop->phone }}
+                                {{ $eshop->phone }}
                             </div>
         
                         </div>
@@ -104,23 +103,22 @@
 				</div>
 				
 		</div>
-	
-<!---
+
 		<div class="h2 pt-5 px-5 text-center font-weight-light">Retail Partners</div>
 <hr class="w-25"/>
 
 <div class="container py-5 ls-0">
 			<div class="shopsList">
-			@foreach( $shops as $shop )
+			@foreach( $rshops as $rshop )
 				<div class="col-md-6">					
-						<div class="pb-1"><strong>{{ $shop->name }}</strong></div>
+						<div class="pb-1"><strong>{{ $rshop->name }}</strong></div>
 						<div class="">
 							<i class="fa fa-map icon"></i>
-							{{ $shop->address }}
+							{{ $rshop->address }}
 						</div>
 						<div class="">
 							<i class="fa fa-phone icon"></i>
-							{{ $shop->phone }}
+							{{ $rshop->phone }}
 						</div>
 	
 					</div>
@@ -128,7 +126,7 @@
 			</div>
 			
 	</div>
-	--->
+
 	</section>
 
 		<section class="product-statement mt-4 mt-sm-0">
@@ -152,173 +150,3 @@
 
 @endsection
 
-@section('js')
-
-	<script>
-		var infowindows = [];
-		var markers = [];
-
-		function initMap() {
-			var uluru = {lat: 22.313144, lng: 114.219235};
-			var map = new google.maps.Map(document.getElementById('gmap-embed'), {
-				zoom: 17,
-				center: uluru
-			});
-
-			setMarkers(map);
-
-			initCardRowEvent(map);
-
-
-
-
-//
-//            // Try HTML5 geolocation.
-//            if (navigator.geolocation) {
-//                navigator.geolocation.getCurrentPosition(function(position) {
-//                    var pos = {
-//                        lat: position.coords.latitude,
-//                        lng: position.coords.longitude
-//                    };
-//
-////                    infoWindow.setPosition(pos);
-////                    infoWindow.setContent('Location found.');
-//                    map.setCenter(pos);
-//                }, function() {
-//
-//                    console.log("The geolocation service failed");
-//
-//                });
-//            } else {
-//                console.log("Your browser doesn\'t support geolocation");
-//            }
-
-		}
-
-
-		function setMarkers( map ){
-
-
-			$('.shop-row').each( function(index, element) {
-
-
-				var name = $(element).find('.shop-name').text();
-				var lat = $(element).data('latitude');
-				var lng = $(element).data('longitude');
-				var address = $(element).find('.shop-address').text();
-				var phone = $(element).find('.shop-phone').text();
-
-				var marker = new google.maps.Marker({
-					map: map, title: name , position:  new google.maps.LatLng(lat, lng)
-				});
-				marker.setIcon('http://maps.google.com/mapfiles/ms/icons/blue-dot.png');
-				markers.push(marker);
-
-				map.setCenter(marker.getPosition());
-
-				var content = "<b> " + name +  '</b><br>' + address + '<br>' + phone;
-
-				var infowindow = new google.maps.InfoWindow;
-				infowindow.setContent(content);
-				infowindows.push(infowindow);
-
-
-				google.maps.event.addListener(marker,'click', (function(marker,content,infowindow){
-					return function() {
-						if (infowindow) {
-							infowindows.forEach(closeInfowindow);
-						}
-
-						marker.setIcon('http://maps.google.com/mapfiles/ms/icons/red-dot.png')
-						infowindow.open(map,marker);
-					};
-				})(marker,content,infowindow));
-
-
-			});
-
-
-		}
-
-		function initCardRowEvent(map) {
-
-
-			$('.shop-row').click(function( e ) {
-
-				var lat = $(this).data('latitude');
-				var lng = $(this).data('longitude');
-
-				var shopLatLng = new google.maps.LatLng(lat, lng);
-
-
-				for (var i = 0; i < markers.length; i++) {
-					var marker = markers[i];
-
-					var mapLatLng = markers[i].getPosition( );
-
-					if( mapLatLng.equals(shopLatLng)) {
-						new google.maps.event.trigger( marker, 'click' );
-						break;
-					}
-				}
-
-				map.panTo( shopLatLng ) ;
-
-
-
-			})
-
-		}
-
-		function closeInfowindow(item, index){
-			infowindows[index].close();
-			markers[index].setIcon('http://maps.google.com/mapfiles/ms/icons/blue-dot.png')
-		}
-
-		function resize_shop_list_bar( ) {
-
-			// Get avita support us google map.
-			var map_height = $( ".map-wrap" ).height();
-
-			$('.shop-list').css('height', map_height - $('.shop-list').offset() );
-
-		}
-
-		$(document).ready(function(){
-
-			$("#map-search").change(function(e){
-
-				var search_term = $(this).val();
-
-				$('.shop-row').each(function(index, item) {
-
-					var search = new RegExp(search_term , "i");
-
-					var title = $(item).find(".shop-name").text();
-
-					if ( title.match(search) ) {
-						$(item).css("display", "");
-					} else {
-						$(item).css("display", "none");
-					}
-				});
-
-			});
-
-
-			$( window ).resize(function() {
-
-				resize_shop_list_bar();
-			});
-
-			resize_shop_list_bar();
-
-		});
-
-
-	</script>
-
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL2du53CNS9kfAQ1itk4kwF4aSBSjIgHE&callback=initMap"> </script>
-
-@endsection
