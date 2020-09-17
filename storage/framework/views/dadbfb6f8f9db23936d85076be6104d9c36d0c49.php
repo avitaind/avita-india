@@ -9,7 +9,7 @@
     
  ?>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo e($xml_lang); ?>" lang="<?php echo e($xml_lang); ?>">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo e($xml_lang); ?>" lang="<?php echo e(app()->getLocale()); ?>">
 <head>
 
 
@@ -51,7 +51,7 @@
 
     <?php echo $__env->yieldContent('meta'); ?>
 
-    <title><?php echo $__env->yieldContent('title', 'AVITA'); ?> <?php echo e(isset($TITLE_SUFFIX) ? $TITLE_SUFFIX : ""); ?></title>
+    <title><?php echo e(__('messages.title')); ?></title>
     
     <link rel="stylesheet" href="<?php echo e(asset('css/bootstrap.min.css')); ?>"/>
     <link rel="stylesheet" href="<?php echo e(asset('css/font-awesome.min.css')); ?>"/>

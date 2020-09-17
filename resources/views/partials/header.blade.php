@@ -17,7 +17,7 @@
 
                 <li class="nav-item has-dropdown">
                     <input id="header_product" type="checkbox" hidden="">
-                    <a class="nav-link"><label for="header_product">@lang('site.products')</label></a>
+                    <a class="nav-link"><label for="header_product">{{ __('messages.products') }}</label></a>
 
 
                     <div class="dropdown">
@@ -25,7 +25,7 @@
 
                             <li class="nav-item has-dropdown">
                                 <input id="header_product_liber" type="checkbox" hidden="">
-                                <a class="nav-link px-md-4 py-2"><label for="header_product_liber" class="d-block mb-0">@lang('site.laptops')</label></a>
+                                <a class="nav-link px-md-4 py-2"><label for="header_product_liber" class="d-block mb-0">{{ __('messages.laptops') }}</label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
                                     <li class="nav-item">
@@ -44,33 +44,14 @@
                                             <li class="nav-item">
                                                     <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-new-generation']) }}">@lang('site.liber-new-generation')</a>
                                                 </li>
-                                      
-                                      <!---
-                                       <li class="nav-item has-dropdown">
-                                          <input id="liber" type="checkbox" hidden="">
-                                          <a class="nav-link px-md-4 py-2"><label for="liber" class="d-block mb-0">@lang('site.liber')</label></a>
-                                        <div class="dropdown">
-                                        <ul class="list-unstyled">
-                                        <li class="nav-item">
-                                                    <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-v']) }}">@lang('site.liber-v')</a>
-                                          </li>
-                                        
-                                             <li class="nav-item">
-                                                    <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-new-generation']) }}">@lang('site.liber-new-generation')</a>
-                                                </li>
-                                            </ul>
-                                         </div>
-                                   </li> 
-                                --->
-                                   
-                                    </ul>
+                                      </ul>
                                 </div>
                             </li>
 
 
                             <li class="nav-item has-dropdown">
                                 <input id="header_product_device" type="checkbox" hidden="">
-                                <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">@lang('site.smart_device')</label></a>
+                                <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">{{ __('messages.smart device') }}</label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
                                         <li class="nav-item">
@@ -86,7 +67,7 @@
 
                             <li class="nav-item has-dropdown">
                                 <input id="header_product_accessories" type="checkbox" hidden="">
-                                <a class="nav-link px-md-4 py-2"><label for="header_product_accessories" class="d-block mb-0">@lang('site.accessories')</label></a>
+                                <a class="nav-link px-md-4 py-2"><label for="header_product_accessories" class="d-block mb-0">{{ __('messages.accessories') }}</label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
 
@@ -104,26 +85,19 @@
 
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('news') }}">@lang('site.news')</a>
+                    <a class="nav-link" href="{{ route('news') }}">{{ __('messages.news') }}</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/where-to-buy">@lang('site.header_where_to_buy')</a>
+                    <a class="nav-link" href="/where-to-buy">{{ __('messages.where_to_buy') }}</a>
                 </li>
-                @if( $storeURL )
-
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="{{ $storeURL }}">@lang('site.header_store')</a>
-                    </li>
-                @endif
-
-                <li class="nav-item">
-                        <a class="nav-link" href="{{ route('support') }}">@lang('site.service')</a> 
+                   <li class="nav-item">
+                        <a class="nav-link" href="{{ route('support') }}">{{ __('messages.support') }}</a> 
                 </li>
 
                 <li class="nav-item has-dropdown">
                     <input id="header_buy_online" type="checkbox" hidden="">
-                    <a class="nav-link px-md-4 py-2"><label for="header_buy_online" class="d-block mb-0">Buy Online</label></a>
+                    <a class="nav-link px-md-4 py-2"><label for="header_buy_online" class="d-block mb-0">{{ __('messages.buy_online') }}</label></a>
                     <div class="dropdown">
                         <ul class="list-unstyled">
                         <li class="nav-item">
@@ -142,12 +116,30 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/blog">Blog</a>
+                    <a class="nav-link" href="/blog">{{ __('messages.blog') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/sales-enquiry">Sales Enquiry</a>
+                    <a class="nav-link" href="/sales-enquiry">{{ __('messages.sales enquiry') }}</a>
                 </li>
-
+            
+                <!---- Language Dropdown --------->
+               <!---
+                <li class="nav-item has-dropdown">
+                    <input id="header_buy_online" type="checkbox" hidden="">
+                    <a class="nav-link px-md-4 py-2"><label for="header_buy_online" class="d-block mb-0">{{ app()->getLocale() }}</label></a>
+                    <div class="dropdown">
+                        <ul class="list-unstyled">
+                          <li class="nav-item">
+                               <a href="{{ url('locale/en') }}" ><img src="{{asset('images/en.jpg')}}" width="30px" height="20x"></i> ENGLISH</a>                          
+                           </li>
+                            <li class="nav-item">
+                                <a href="{{ url('locale/hi') }}" ><img src="{{asset('images/hi.jpg')}}" width="30px" height="20x"></i> हिन्दी</a>
+                            </li>
+                        </ul> 
+                    </div> 
+                 </li>   
+                ------>       
+               <!--- Language Dropdown ----->       
             </ul>
         </div>
    <!-- <div id="overlay">

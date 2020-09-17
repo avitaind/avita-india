@@ -13,7 +13,8 @@ function bytesToHuman($bytes, $precision = 2)
 
 function enabled_countries(  ) {
 
- 	return ['in'];
+     return ['in'];
+     
 }
 
 function supported_language( $country ) {
@@ -21,6 +22,7 @@ function supported_language( $country ) {
     switch ( $country ) {
         case 'in':
             return ['en'];
+
 
         default:
             return ['en'];

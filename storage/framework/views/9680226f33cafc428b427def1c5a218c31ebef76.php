@@ -70,8 +70,8 @@
 
     <?php echo $__env->make('includes.flash', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
-    <h2 class="text-center mt-4 mb-3 font-weight-light"><?php echo app('translator')->getFromJson('site.home_join'); ?></h2>
-                <div class="text-center mt-3 mb-4 lead"><?php echo app('translator')->getFromJson('site.home_receiving'); ?></div>
+    <h2 class="text-center mt-4 mb-3 font-weight-light"><?php echo e(__('messages.home_join')); ?></h2>
+                <div class="text-center mt-3 mb-4 lead"><?php echo e(__('messages.home_receiving')); ?></div>
                   <div class="row my-4 no-gutters justify-content-center">
                     <div class="col-12 col-sm-7 col-md-6 col-lg-7 ml-auto">
                 <div class="input-group">
@@ -81,7 +81,7 @@
               </div>
               <div class="form-group">
               <div class="col-12 col-sm-4 col-md-4">
-                    <button class="btn btn-primary d-block mt-3 mt-sm-0 mt-md-0 mx-auto ml-md-3" type="submit"><?php echo app('translator')->getFromJson('site.home_subscribe'); ?></button>
+                    <button class="btn btn-primary d-block mt-3 mt-sm-0 mt-md-0 mx-auto ml-md-3" type="submit"><?php echo e(__('messages.home_subscribe')); ?></button>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
            
     </form>
       
-        <p class="download-brochure" ><a href="/images/AVITA-Products-Brochure.pdf" target="_blank" download="AVITA-Family-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button">Download Brochure </button></a></p>
+        <p class="download-brochure" ><a href="/images/AVITA-Products-Brochure.pdf" target="_blank" download="AVITA-Family-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button"><?php echo e(__('messages.brochuer')); ?></button></a></p>
 
     </section>
 

@@ -2,5 +2,6 @@
 
 return [
     'en' => 'English',
+    'hi' => 'Hindi',
    ];
 

@@ -277,3 +277,8 @@ Route::get('/support', 'SearchController@index')->name('support');
 Route::post('/support', 'HomeController@handleSupportRedirect');
 
 Route::get('/search', 'SearchController@search');
+
+Route::get('locale/{locale}', function ($locale){
+    Session::put('locale', $locale);
+    return redirect()->back();
+});

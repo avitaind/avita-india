@@ -9,7 +9,7 @@
     
 @endphp
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ $xml_lang }}" lang="{{ $xml_lang }}">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ $xml_lang }}" lang="{{ app()->getLocale() }}">
 <head>
 
 
@@ -51,7 +51,7 @@
 
     @yield('meta')
 
-    <title>@yield('title', 'AVITA') {{ $TITLE_SUFFIX or "" }}</title>
+    <title>{{ __('messages.title') }}</title>
     
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
     <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>

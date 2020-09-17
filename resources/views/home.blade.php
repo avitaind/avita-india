@@ -71,8 +71,8 @@
 
     @include('includes.flash')
 
-    <h2 class="text-center mt-4 mb-3 font-weight-light">@lang('site.home_join')</h2>
-                <div class="text-center mt-3 mb-4 lead">@lang('site.home_receiving')</div>
+    <h2 class="text-center mt-4 mb-3 font-weight-light">{{ __('messages.home_join') }}</h2>
+                <div class="text-center mt-3 mb-4 lead">{{ __('messages.home_receiving') }}</div>
                   <div class="row my-4 no-gutters justify-content-center">
                     <div class="col-12 col-sm-7 col-md-6 col-lg-7 ml-auto">
                 <div class="input-group">
@@ -82,7 +82,7 @@
               </div>
               <div class="form-group">
               <div class="col-12 col-sm-4 col-md-4">
-                    <button class="btn btn-primary d-block mt-3 mt-sm-0 mt-md-0 mx-auto ml-md-3" type="submit">@lang('site.home_subscribe')</button>
+                    <button class="btn btn-primary d-block mt-3 mt-sm-0 mt-md-0 mx-auto ml-md-3" type="submit">{{ __('messages.home_subscribe') }}</button>
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@
            
     </form>
       
-        <p class="download-brochure" ><a href="/images/AVITA-Products-Brochure.pdf" target="_blank" download="AVITA-Family-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button">Download Brochure </button></a></p>
+        <p class="download-brochure" ><a href="/images/AVITA-Products-Brochure.pdf" target="_blank" download="AVITA-Family-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button">{{ __('messages.brochuer') }}</button></a></p>
 
     </section>
 
