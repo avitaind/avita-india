@@ -311,6 +311,8 @@ class ProductsController extends Controller
         $equery->where('enabled', true);
         $equery->where('priority', 1);
         $eshops = $equery->get();
+        $rquery->where('country', $country);
+        $rquery->where('enabled', true);
        $rquery->orwhere('priority', 0);
        $rshops = $rquery->get();
 
