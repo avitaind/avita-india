@@ -292,26 +292,29 @@ class ProductsController extends Controller
         $country = 'in';
 
         if ( \App::isLocale('en') ) {
-            $query = Shop::select('shops.*')->leftJoin('shop_translations', function ($join) {
+            $equery = Shop::select('shops.*')->leftJoin('shop_translations', function ($join) {
+                $join->on('shops.id', '=', 'shop_translations.shop_id');
+                $join->on('shop_translations.locale', '=', \DB::raw('"en"') );
+            });
+            $rquery = Shop::select('shops.*')->leftJoin('shop_translations', function ($join) {
                 $join->on('shops.id', '=', 'shop_translations.shop_id');
                 $join->on('shop_translations.locale', '=', \DB::raw('"en"') );
             });
                
             } else {
-            $query = Shop::select();
+            $equery = Shop::select();
+            $rquery = Shop::select();
+
         }
 
-        $query->where('country', $country);
-        $query->where('enabled', true);
-        $query->where('priority', 1);
-        $eshops = $query->get();
-        $query->orwhere('priority', 0);
-        $rshops = $query->get();
+        $equery->where('country', $country);
+        $equery->where('enabled', true);
+        $equery->where('priority', 1);
+        $eshops = $equery->get();
+       $rquery->orwhere('priority', 0);
+       $rshops = $rquery->get();
 
-    
-
-
-      return view('product.map', compact('eshops','rshops'));
+        return view('product.map', compact('eshops','rshops'));
 
     }
 

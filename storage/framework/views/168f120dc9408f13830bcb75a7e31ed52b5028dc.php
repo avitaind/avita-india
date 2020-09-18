@@ -123,7 +123,7 @@
                 </li>
             
                 <!---- Language Dropdown --------->
-               
+                  <!-----
                 <li class="nav-item has-dropdown">
                     <input id="header_buy_online" type="checkbox" hidden="">
                     <a class="nav-link px-md-4 py-2"><label for="header_buy_online" class="d-block mb-0"><?php echo e(app()->getLocale()); ?></label></a>
@@ -138,7 +138,7 @@
                         </ul> 
                     </div> 
                  </li>   
-
+                ------>
                <!--- Language Dropdown ----->       
             </ul>
         </div>

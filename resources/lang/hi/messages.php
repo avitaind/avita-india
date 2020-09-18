@@ -26,4 +26,9 @@ return [
     'india'    => 'भारत',
     'all_rights_reserved'    => 'सभी अधिकार सुरक्षित',
 
+    //Where to Buy
+
+    'AVITA Exclusive Store'    => 'AVITA विशेष स्टोर',
+
+
 ];

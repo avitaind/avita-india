@@ -104,10 +104,10 @@
 				
 		</div>
 
-		<div class="h2 pt-5 px-5 text-center font-weight-light">Retail Partners</div>
-<hr class="w-25"/>
+	<div class="h2 pt-5 px-5 text-center font-weight-light">Retail Partners</div>
+	<hr class="w-25"/>
 
-<div class="container py-5 ls-0">
+	<div class="container py-5 ls-0">
 			<div class="shopsList">
 			@foreach( $rshops as $rshop )
 				<div class="col-md-6">					
@@ -120,11 +120,9 @@
 							<i class="fa fa-phone icon"></i>
 							{{ $rshop->phone }}
 						</div>
-	
 					</div>
 				@endforeach
-			</div>
-			
+			</div>		
 	</div>
 
 	</section>

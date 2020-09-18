@@ -1,5 +1,6 @@
 <?php
 return [
+    //Home Page
     'en'          => 'English',
     'title'       => 'AVITA | AVITA India Official Website',
     'products'    => 'Products',
@@ -24,6 +25,9 @@ return [
     'available_on'    => 'Available On',
     'india'    => 'INDIA',
     'all_rights_reserved'    => 'All Rights Reserved',
+
+    //Where to Buy
+    'AVITA Exclusive Store'    => 'AVITA Exclusive Store',
 
 
 ];
