@@ -81,7 +81,7 @@
 	
 	
 <section class="map-panel">
-	<div class="h2 pt-5 px-5 text-center font-weight-light">Exclusive Brand Store</div> 
+	<div class="h2 pt-5 px-5 text-center font-weight-light">Exclusive Brand Stores</div> 
 		<hr class="w-25"/>
 
 	<div class="container py-5 ls-0">
