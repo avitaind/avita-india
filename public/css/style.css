@@ -585,6 +585,14 @@ section.color-choice .container{
 /*Web Banners*/
 
 @media only screen and (min-width : 1600px) {
+
+  .banner-web-e{
+    background: url('/images/banner/AVITA_essentials_banner_web.jpg');
+    -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
  
  .banner-web-1{
     background: url('/images/banner/AVITA_liber_v_banner_web.jpg');
@@ -638,9 +646,18 @@ section.color-choice .container{
 
 }
 
+
 /*Laptop Size */
 @media only screen and (min-width : 1200px) {
  
+    .banner-web-e{
+       background: url('/images/banner/AVITA_essentials_banner_web.jpg');
+       -webkit-background-size: 100% 100%;
+     -moz-background-size: 100% 100%;
+     -o-background-size: 100% 100%;
+     background-size: 100% 100%;
+   }
+
     .banner-web-1{
        background: url('/images/banner/AVITA_liber_v_banner_web.jpg');
        -webkit-background-size: 100% 100%;
@@ -695,6 +712,15 @@ section.color-choice .container{
    
 /*Tab Size*/
 @media only screen and (min-width : 768px){
+
+
+     .banner-web-e{
+       background: url('/images/banner/AVITA_essentials_banner_web.jpg');
+       -webkit-background-size: 100% 100%;
+     -moz-background-size: 100% 100%;
+     -o-background-size: 100% 100%;
+     background-size: 100% 100%;
+   }
 
     .banner-web-1{
        background: url('/images/banner/AVITA_liber_v_banner_web.jpg');
@@ -751,6 +777,15 @@ section.color-choice .container{
 /*Mob Banners*/
 @media only screen and (min-width : 320px)  {
 
+
+  .banner-mob-e{
+      background: url('/images/banner/AVITA_essentials_banner_mob.jpg');
+      -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+    }
+
 .banner-mob-1{
      background: url('/images/banner/AVITA_liber_v_banner_mob.jpg');
      -webkit-background-size: 100% 100%;
@@ -805,6 +840,14 @@ section.color-choice .container{
 
 /*Mob Banners*/
 @media only screen and (min-width : 200px)  {
+
+  .banner-mob-e{
+      background: url('/images/banner/AVITA_essentials_banner_mob.jpg');
+      -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+    }
 
     .banner-mob-1{
          background: url('/images/banner/AVITA_liber_v_banner_mob.jpg');

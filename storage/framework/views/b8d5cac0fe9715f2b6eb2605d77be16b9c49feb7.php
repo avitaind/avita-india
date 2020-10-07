@@ -2,7 +2,18 @@
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
 
-        <div class="carousel-item active active">
+      <div class="carousel-item active">
+                <div class="responsive-block">
+           
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-e"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-e"></div>
+                    </div>
+                
+                </div>
+            </div>
+
+        <div class="carousel-item">
                 <div class="responsive-block">
                 <a href="<?php echo e(route('product.overview', ['liber-v'])); ?>">
                     <div class="banner-block responsive-item">
