@@ -1,17 +1,14 @@
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.whats_new'); ?>
+<?php $__env->stopSection(); ?>
 
-@extends('layouts.app')
-
-@section('title')
-    @lang('title.whats_new')
-@stop
-
-@php
+<?php 
 
 $page = 'events';
 
-@endphp
+ ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
     <main>
         <section class="focus-event top-nav-padding">
             <div class="container">
@@ -43,7 +40,7 @@ $page = 'events';
                                     <img style="width: 100%; height:100%;" src="/images/publication/AJMEERNAMA.jpg" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
-                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.10.09</div>
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.10.08</div>
                                     <div class="event-status coming_soon ml-auto"></strong>Publication:</strong>Ajmernama</div>
                                 </figcaption>
                             </figure>
@@ -1248,7 +1245,7 @@ $page = 'events';
         </section>
         <section class="focus-event top-nav-padding">
             <div class="container">
-                <h3 class="section-title ls-0 my-5">@lang('site.news_title')</h3>
+                <h3 class="section-title ls-0 my-5"><?php echo app('translator')->getFromJson('site.news_title'); ?></h3>
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
@@ -1325,19 +1322,19 @@ $page = 'events';
         </div>
 
     </main>
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('js')
+<?php $__env->startSection('js'); ?>
     <script>
         $('#news-month-option').change( function(event) {
 
             window.location = 'news/'+ $(this).val() ;
         })
     </script>
-@endsection
+<?php $__env->stopSection(); ?>
 
 
-@section('css')
+<?php $__env->startSection('css'); ?>
 
     <style>
 
@@ -1371,4 +1368,6 @@ $page = 'events';
 
         }
     </style>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
