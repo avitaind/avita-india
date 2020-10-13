@@ -12,6 +12,13 @@
 */
 Route::get('/', 'HomeController@redirectToHome');
 
+Route::get('/test', function () {
+    return view('test');
+});
+
+
+
+
 Route::get('/christmas-offer','CustomController@chirstmasOffer');
 
 Route::get('/sales-enquiry', 'SalesEnquiryController@salesEnquiry');
@@ -244,6 +251,8 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin'],  'namespace' 
 
 //    Route::get('registrations', 'RegistrationsController@showRegistrationList');
 
+
+    
     Route::resource('news', 'NewsController');
 
 
