@@ -6,7 +6,7 @@
 
 @section('content')
 <main>
-<iframe src="https://avita.com/hk/support" style="width:100%; height:1900px;" frameborder="0" scrolling="no" ></iframe>
+<iframe src="https://avita.com/hk/support" style="width:100%; height:2000px;" frameborder="0" scrolling="no" ></iframe>
 
 
 </main>
