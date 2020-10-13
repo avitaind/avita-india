@@ -12,8 +12,8 @@
 */
 Route::get('/', 'HomeController@redirectToHome');
 
-Route::get('/test', function () {
-    return view('test');
+Route::get('/support-demo', function () {
+    return view('support-demo');
 });
 
 
