@@ -586,13 +586,21 @@ section.color-choice .container{
 
 @media only screen and (min-width : 1600px) {
 
-  .banner-web-e{
-    background: url('/images/banner/AVITA_essentials_banner_web.jpg');
+.banner-web-d1{
+    background: url('/images/banner/AVITA_diwali_banner1_web.jpg');
     -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
   background-size: 100% 100%;
-}
+ }
+
+ .banner-web-d2{
+    background: url('/images/banner/AVITA_diwali_banner2_web.jpg');
+    -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+ }
  
  .banner-web-1{
     background: url('/images/banner/AVITA_liber_v_banner_web.jpg');
@@ -840,6 +848,23 @@ section.color-choice .container{
 
 /*Mob Banners*/
 @media only screen and (min-width : 200px)  {
+
+    .banner-mob-d1{
+        background: url('/images/banner/AVITA_diwali_banner1_mob.jpg');
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+      }
+
+      .banner-mob-d2{
+        background: url('/images/banner/AVITA_diwali_banner2_mob.jpg');
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+      }
+
 
   .banner-mob-e{
       background: url('/images/banner/AVITA_essentials_banner_mob.jpg');
