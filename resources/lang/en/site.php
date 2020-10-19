@@ -256,8 +256,10 @@ return [
     'experience_liber125_here' => 'Experience LIBER 12.5" here! ',
     'coming_soon' => 'Coming Soon',
     'productnav_overview_liber_v'   => 'Overview LIBER V',	
+    'productnav_overview_liber_v_gold'   => 'Overview LIBER V Gold',	
     'productnav_overview_essential' => 'Overview Essential', 
     'liber' => 'LIBER',
     'liber-v' => 'LIBER V14',
+    'liber-v-gold' => 'LIBER V Gold',
     'productnav_overview_ubique' => 'AVITA UBIQUE'
 ];

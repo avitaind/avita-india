@@ -71,6 +71,15 @@ class ProductsController extends Controller
             }
         }
   
+        if ( $slug == 'liber-v-gold' ){
+
+            switch ( $country ) {
+                case 'in':
+                    return view('product.liber-v-gold.feature_hk_en', compact( 'product'));
+                    break;
+
+            }
+        }
       /*  if ( $slug == 'cosmos' ){
 
             switch ( $country ) {
@@ -201,8 +210,16 @@ class ProductsController extends Controller
                     break;
             }
         }
-        
-  
+
+        if ( $slug == 'liber-v-gold' ){
+            switch ( $country ) {
+                case 'in':
+                    return view('product.liber-v-gold.spec_hk_en', compact( 'product'));
+
+                    break;
+            }
+        }
+       
    
         if ( $slug == 'cosmos' ){
             switch ( $country ) {
