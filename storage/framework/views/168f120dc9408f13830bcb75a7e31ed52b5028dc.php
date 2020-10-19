@@ -14,14 +14,12 @@
                     <a href="/"><img src="/images/logo.png" alt="AVITA India Official Website"/></a>
                 </li>
 
-
                 <li class="nav-item has-dropdown">
-                    <input id="header_product" type="checkbox" hidden="">
+                  <input id="header_product" type="checkbox" hidden="">
                     <a class="nav-link"><label for="header_product"><?php echo e(__('messages.products')); ?></label></a>
-
-
+                
                     <div class="dropdown">
-                        <ul class="list-unstyled">
+                       <ul class="list-unstyled">
 
                             <li class="nav-item has-dropdown">
                                 <input id="header_product_liber" type="checkbox" hidden="">
@@ -31,11 +29,11 @@
                                     <li class="nav-item">
                                           <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v'])); ?>"><?php echo app('translator')->getFromJson('site.liber-v'); ?></a>
                                        </li>
-                                       <!---
+                                    
                                        <li class="nav-item">
                                           <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v-gold'])); ?>"><?php echo app('translator')->getFromJson('site.liber-v-gold'); ?></a>
                                        </li>
-                                       --->
+                                    
                                        <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['admiror'])); ?>"><?php echo app('translator')->getFromJson('site.admiror'); ?></a>
                                         </li>

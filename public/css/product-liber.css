@@ -728,6 +728,10 @@ section.product-liber-v-computer{
     background-repeat: no-repeat;
 }
 
+
+
+
+
 section.product-liber-v-computer .banner-image{
     position: relative;
     margin: 100px auto 0px;
@@ -756,7 +760,50 @@ section.product-liber-v-computer .banner-image img{
     right: -100px;
 }
  
+
+ /*Liber V Gold Edition*/
+
+ section.product-liber-v-gold-computer{
+    background-image: url(../images/liber-v-gold/product-liber-v-gold-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+	background-repeat: no-repeat;
+	height: 720px;
+}
+
  
+section.product-liber-v-gold-computer .banner-image{
+    position: relative;
+    margin: 100px auto 10px;
+    left: 0;
+    width: auto;
+}
+
+section.product-liber-v-gold-computer .banner-info{
+    max-width: 450px;
+    margin-left: 0; 
+}
+
+section.product-liber-v-gold-computer .banner-info .banner-header{	
+	font-size: 2.5rem;
+	font-weight: 700;
+	color:#fff;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+section.product-liber-v-gold-computer .banner-info .banner-para{
+	font-size:1.3rem;
+}
+
+
+section.product-liber-v-gold-computer .banner-image img{
+    width: 700px;
+    top: -400px;
+    right: -120px;
+}
+
+/**/
 section.product-liber-v-view{
     background-image: url(../images/liber-v/product-liber-v-view-bg.jpg);
     background-size: cover;

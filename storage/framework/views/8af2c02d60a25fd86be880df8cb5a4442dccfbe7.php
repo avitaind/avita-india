@@ -18,16 +18,11 @@
  
 <!--------------LIBER v 14"(New Generation)-------------->
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-140" role="tab">
-                            <div class="spec-item-name mb-12"><div class="d-sm-block">AVITA LIBER V</div><div class="d-sm-block">(14-inch)</div></div>
-                            <img class="hidden-sm-down" src="/images/liber-v/c2c2c2.png">
+                            <div class="spec-item-name mb-12"><div class="d-sm-block">AVITA LIBER V GOLD</div><div class="d-sm-block">(14-inch)</div></div>
+                            <img class="hidden-sm-down" src="/images/liber-v-gold/333333.jpg">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4"> 
-                                <li style="background-color: #c2c2c2" class="active" data-image="/images/liber-v/c2c2c2.png"></li>
-                                <li style="background-color: #1f1f1f" data-image="/images/liber-v/1f1f1f.png"></li>
-                                <li style="background-color: #ebd9f2" data-image="/images/liber-v/ebd9f2.png"></li>
-                                <li style="background-color: #54a7d9" data-image="/images/liber-v/54a7d9.png"></li>
-                                <li style="background-color: #f6bdc8" data-image="/images/liber-v/f6bdc8.png"></li> 
-                                <li style="background-color: #787878" data-image="/images/liber-v/787878.png"></li>  
-                                <li style="background-color: #f7f7f7" data-image="/images/liber-v/f7f7f7.png"></li> 
+                                <li style="background-color: #333333" class="active" data-image="/images/liber-v-gold/333333.jpg"></li>
+                                <li style="background-color: #284474" data-image="/images/liber-v-gold/284474.jpg"></li>
                             </ul>
                         </a>
   
@@ -60,19 +55,19 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.cpu'); ?></div>
-                                <div>Intel® Core™ i5-10210U / Intel® Core™ i7-10510U / AMD Ryzen™ 5 3500U / AMD Ryzen™ 7 3700U</div>
+                                <div>Intel® Core™ i5-10210U / Intel® Core™ i7-10510U </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.display'); ?></div>
-                                <div>14" 16:9 Full HD (1920 x 1080) <!-- Anti-Glare IPS Panel with 178 degree wide viewing angle --> </div>
+                                <div>14" 16:9 Full HD (1920 x 1080) </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.memory'); ?></div>
-                                <div>8GB DDR4 2400MHz</div>
+                                <div>8GB /16GB DDR4 2400MHz</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.graphics'); ?></div>
-                                <div>Intel® UHD Graphics 620 / Radeon™ Vega 8 Graphics / Radeon™ RX Vega 10 Graphics</div>
+                                <div>Intel® UHD Graphics 620 </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.storage'); ?></div>
@@ -128,7 +123,7 @@
                             </li> -->
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.colour'); ?></div>
-                                <div>Cloud Silver, Matt Black, Fragrant Lilac, Angel Blue, Blossom Pink, Space Grey, Pearl White<br/>(14+ colours are coming soon, please stay close to our updates)</div>
+                                <div>Golden Matt Black / Golden Navy Blue</div>
                             </li>
                            <!-- <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.accessories'); ?></div>

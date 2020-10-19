@@ -586,7 +586,14 @@ section.color-choice .container{
 
 @media only screen and (min-width : 1600px) {
 
-.banner-web-d1{
+    .banner-web-gold{
+        background: url('/images/banner/AVITA_liber_v_gold_banner_web.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+.banner-web-f1{
     background: url('/images/banner/AVITA_diwali_banner1_web.jpg');
     -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
@@ -594,7 +601,7 @@ section.color-choice .container{
   background-size: 100% 100%;
  }
 
- .banner-web-d2{
+ .banner-web-f2{
     background: url('/images/banner/AVITA_diwali_banner2_web.jpg');
     -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
@@ -602,113 +609,63 @@ section.color-choice .container{
   background-size: 100% 100%;
  }
  
- .banner-web-1{
-    background: url('/images/banner/AVITA_liber_v_banner_web.jpg');
-    -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
-}
-  .banner-web-2{
-      background: url('/images/banner/MAGUS-WEB-BANNER-NEW.png');
-      -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-    }
-.banner-web-3{
-       background: url('/images/banner/pura_web_banner.jpg');
-       -webkit-background-size: 100% 100%;
-       -moz-background-size: 100% 100%;
-       -o-background-size: 100% 100%;
-       background-size: 100% 100%;
-    }
-.banner-web-4{
-       background: url('/images/banner/ADMIROR.jpg');
-       -webkit-background-size: 100% 100%;
-       -moz-background-size: 100% 100%;
-       -o-background-size: 100% 100%;
-       background-size: 100% 100%;
-    }
-.banner-web-5{
-       background: url('/images/banner/lifestyle_banner_web1.jpg');
-       -webkit-background-size: 100% 100%;
-       -moz-background-size: 100% 100%;
-       -o-background-size: 100% 100%;
-       background-size: 100% 100%;
-    }
-.banner-web-6{  
-    background: url('/images/banner/lifestyle_banner_web3.jpg');
+      
+ .banner-web-nexstmall{
+    background: url('/images/banner/brand-store-web-banner.png');
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
-    }
-.banner-web-7{
-     background: url('/images/banner/warranty_banner1_web.jpg');
-     -webkit-background-size: 100% 100%;
-     -moz-background-size: 100% 100%;
-     -o-background-size: 100% 100%;
-     background-size: 100% 100%;
-    }
-
 }
+
+   .banner-web-warranty{
+        background: url('/images/banner/warranty_banner1_web.jpg');
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+       }
+   
+   }
 
 
 /*Laptop Size */
 @media only screen and (min-width : 1200px) {
  
-    .banner-web-e{
-       background: url('/images/banner/AVITA_essentials_banner_web.jpg');
-       -webkit-background-size: 100% 100%;
-     -moz-background-size: 100% 100%;
-     -o-background-size: 100% 100%;
-     background-size: 100% 100%;
-   }
+    
+    .banner-web-gold{
+        background: url('/images/banner/AVITA_liber_v_gold_banner_web.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+.banner-web-f1{
+    background: url('/images/banner/AVITA_diwali_banner1_web.jpg');
+    -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+ }
 
-    .banner-web-1{
-       background: url('/images/banner/AVITA_liber_v_banner_web.jpg');
-       -webkit-background-size: 100% 100%;
-     -moz-background-size: 100% 100%;
-     -o-background-size: 100% 100%;
-     background-size: 100% 100%;
-   }
-     .banner-web-2{
-         background: url('/images/banner/MAGUS-WEB-BANNER-NEW.png');
-         -webkit-background-size: 100% 100%;
-         -moz-background-size: 100% 100%;
-         -o-background-size: 100% 100%;
-         background-size: 100% 100%;
-       }
-   .banner-web-3{
-          background: url('/images/banner/pura_web_banner.jpg');
-          -webkit-background-size: 100% 100%;
-          -moz-background-size: 100% 100%;
-          -o-background-size: 100% 100%;
-          background-size: 100% 100%;
-       }
-   .banner-web-4{
-          background: url('/images/banner/ADMIROR.jpg');
-          -webkit-background-size: 100% 100%;
-          -moz-background-size: 100% 100%;
-          -o-background-size: 100% 100%;
-          background-size: 100% 100%;
-       }
-   .banner-web-5{
-          background: url('/images/banner/lifestyle_banner_web1.jpg');
-          -webkit-background-size: 100% 100%;
-          -moz-background-size: 100% 100%;
-          -o-background-size: 100% 100%;
-          background-size: 100% 100%;
-       }
-   .banner-web-6{  
-       background: url('/images/banner/lifestyle_banner_web3.jpg');
-       -webkit-background-size: 100% 100%;
-       -moz-background-size: 100% 100%;
-       -o-background-size: 100% 100%;
-       background-size: 100% 100%;
-       }
-   .banner-web-7{
+ .banner-web-f2{
+    background: url('/images/banner/AVITA_diwali_banner2_web.jpg');
+    -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+ }
+ 
+      
+ .banner-web-nexstmall{
+    background: url('/images/banner/brand-store-web-banner.png');
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+   .banner-web-warranty{
         background: url('/images/banner/warranty_banner1_web.jpg');
         -webkit-background-size: 100% 100%;
         -moz-background-size: 100% 100%;
@@ -721,58 +678,40 @@ section.color-choice .container{
 /*Tab Size*/
 @media only screen and (min-width : 768px){
 
+    .banner-web-gold{
+        background: url('/images/banner/AVITA_liber_v_gold_banner_web.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+.banner-web-f1{
+    background: url('/images/banner/AVITA_diwali_banner1_web.jpg');
+    -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+ }
 
-     .banner-web-e{
-       background: url('/images/banner/AVITA_essentials_banner_web.jpg');
-       -webkit-background-size: 100% 100%;
-     -moz-background-size: 100% 100%;
-     -o-background-size: 100% 100%;
-     background-size: 100% 100%;
-   }
+ .banner-web-f2{
+    background: url('/images/banner/AVITA_diwali_banner2_web.jpg');
+    -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+ }
+ 
 
-    .banner-web-1{
-       background: url('/images/banner/AVITA_liber_v_banner_web.jpg');
-       -webkit-background-size: 100% 100%;
-     -moz-background-size: 100% 100%;
-     -o-background-size: 100% 100%;
-     background-size: 100% 100%;
-   }
-     .banner-web-2{
-         background: url('/images/banner/MAGUS-WEB-BANNER-NEW.png');
-         -webkit-background-size: 100% 100%;
-         -moz-background-size: 100% 100%;
-         -o-background-size: 100% 100%;
-         background-size: 100% 100%;
-       }
-   .banner-web-3{
-          background: url('/images/banner/pura_web_banner.jpg');
-          -webkit-background-size: 100% 100%;
-          -moz-background-size: 100% 100%;
-          -o-background-size: 100% 100%;
-          background-size: 100% 100%;
-       }
-   .banner-web-4{
-          background: url('/images/banner/ADMIROR.jpg');
-          -webkit-background-size: 100% 100%;
-          -moz-background-size: 100% 100%;
-          -o-background-size: 100% 100%;
-          background-size: 100% 100%;
-       }
-   .banner-web-5{
-          background: url('/images/banner/lifestyle_banner_web1.jpg');
-          -webkit-background-size: 100% 100%;
-          -moz-background-size: 100% 100%;
-          -o-background-size: 100% 100%;
-          background-size: 100% 100%;
-       }
-   .banner-web-6{  
-       background: url('/images/banner/lifestyle_banner_web3.jpg');
-       -webkit-background-size: 100% 100%;
-       -moz-background-size: 100% 100%;
-       -o-background-size: 100% 100%;
-       background-size: 100% 100%;
-       }
-   .banner-web-7{
+       
+ .banner-web-nexstmall{
+    background: url('/images/banner/brand-store-web-banner.png');
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+   .banner-web-warranty{
         background: url('/images/banner/warranty_banner1_web.jpg');
         -webkit-background-size: 100% 100%;
         -moz-background-size: 100% 100%;
@@ -784,60 +723,40 @@ section.color-choice .container{
 
 /*Mob Banners*/
 @media only screen and (min-width : 320px)  {
-
-
-  .banner-mob-e{
-      background: url('/images/banner/AVITA_essentials_banner_mob.jpg');
-      -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-    }
-
-.banner-mob-1{
-     background: url('/images/banner/AVITA_liber_v_banner_mob.jpg');
-     -webkit-background-size: 100% 100%;
-     -moz-background-size: 100% 100%;
-     -o-background-size: 100% 100%;
-     background-size: 100% 100%;
     
-}
-.banner-mob-2{
-      background: url('/images/banner/MAGUS-MOB-BANNER-NEW.png');
-      -webkit-background-size: 100% 100%;
+    .banner-mob-gold{
+        background: url('/images/banner/AVITA_liber_v_gold_banner_mob.png');
+        -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
       background-size: 100% 100%;
-}
-.banner-mob-3{
-     background: url('/images/banner/PURA-MOB-BANNER.jpg');
-     -webkit-background-size: 100% 100%;
-     -moz-background-size: 100% 100%;
-     -o-background-size: 100% 100%;
-     background-size: 100% 100%;
-}
-.banner-mob-4{
-    background: url('/images/banner/ADMIROR-Mobile.jpg');
+     }
+.banner-mob-f1{
+    background: url('/images/banner/AVITA_diwali_banner1_mob.jpg');
+    -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+ }
+
+ .banner-mob-f2{
+    background: url('/images/banner/AVITA_diwali_banner2_mob.jpg');
+    -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+ }
+ 
+
+ .banner-mob-nexstmall{
+    background: url('/images/banner/brand-store-mob-banner.png');
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
 }
-.banner-mob-5{
-     background: url('/images/banner/lifestyle_banner_mob1.jpg');
-     -webkit-background-size: 100% 100%;
-     -moz-background-size: 100% 100%;
-     -o-background-size: 100% 100%;
-     background-size: 100% 100%;
-}
-.banner-mob-6{
-    background: url('/images/banner/lifestyle_banner_mob3.jpg');
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-}
-.banner-mob-7{
+
+.banner-mob-warranty{
     background: url('/images/banner/warranty_banner1_mob.jpg');
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -849,75 +768,38 @@ section.color-choice .container{
 /*Mob Banners*/
 @media only screen and (min-width : 200px)  {
 
-    .banner-mob-d1{
-        background: url('/images/banner/AVITA_diwali_banner1_mob.jpg');
+    .banner-mob-gold{
+        background: url('/images/banner/AVITA_liber_v_gold_banner_mob.png');
         -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        background-size: 100% 100%;
-      }
-
-      .banner-mob-d2{
-        background: url('/images/banner/AVITA_diwali_banner2_mob.jpg');
-        -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        background-size: 100% 100%;
-      }
-
-
-  .banner-mob-e{
-      background: url('/images/banner/AVITA_essentials_banner_mob.jpg');
-      -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
       background-size: 100% 100%;
-    }
+     }
+.banner-mob-f1{
+    background: url('/images/banner/AVITA_diwali_banner1_mob.jpg');
+    -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+ }
 
-    .banner-mob-1{
-         background: url('/images/banner/AVITA_liber_v_banner_mob.jpg');
-         -webkit-background-size: 100% 100%;
-         -moz-background-size: 100% 100%;
-         -o-background-size: 100% 100%;
-         background-size: 100% 100%;
-        
-    }
-    .banner-mob-2{
-          background: url('/images/banner/MAGUS-MOB-BANNER-NEW.png');
-          -webkit-background-size: 100% 100%;
-          -moz-background-size: 100% 100%;
-          -o-background-size: 100% 100%;
-          background-size: 100% 100%;
-    }
-    .banner-mob-3{
-         background: url('/images/banner/PURA-MOB-BANNER.jpg');
-         -webkit-background-size: 100% 100%;
-         -moz-background-size: 100% 100%;
-         -o-background-size: 100% 100%;
-         background-size: 100% 100%;
-    }
-    .banner-mob-4{
-        background: url('/images/banner/ADMIROR-Mobile.jpg');
-        -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        background-size: 100% 100%;
-    }
-    .banner-mob-5{
-         background: url('/images/banner/lifestyle_banner_mob1.jpg');
-         -webkit-background-size: 100% 100%;
-         -moz-background-size: 100% 100%;
-         -o-background-size: 100% 100%;
-         background-size: 100% 100%;
-    }
-    .banner-mob-6{
-        background: url('/images/banner/lifestyle_banner_mob3.jpg');
-        -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        background-size: 100% 100%;
-    }
-    .banner-mob-7{
+ .banner-mob-f2{
+    background: url('/images/banner/AVITA_diwali_banner2_mob.jpg');
+    -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+ }
+
+ .banner-mob-nexstmall{
+    background: url('/images/banner/brand-store-mob-banner.png');
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+ 
+    .banner-mob-warranty{
         background: url('/images/banner/warranty_banner1_mob.jpg');
         -webkit-background-size: 100% 100%;
         -moz-background-size: 100% 100%;
