@@ -80,6 +80,24 @@ class ProductsController extends Controller
 
             }
         }
+        if ( $slug == 'liber-v-gold-black' ){
+
+            switch ( $country ) {
+                case 'in':
+                    return view('product.liber-v-gold.feature_hk_black_en', compact( 'product'));
+                    break;
+
+            }
+        }
+        if ( $slug == 'liber-v-gold-blue' ){
+
+            switch ( $country ) {
+                case 'in':
+                    return view('product.liber-v-gold.feature_hk_blue_en', compact( 'product'));
+                    break;
+
+            }
+        }
       /*  if ( $slug == 'cosmos' ){
 
             switch ( $country ) {

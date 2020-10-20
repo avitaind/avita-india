@@ -13,8 +13,8 @@
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block1 responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_banner_web.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_banner_mob.png')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_banner_web.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_banner_mob.png')"></div>
                     <div class="banner-info">
                         <div class="btn-group mt-3">
                             {{--<img class="mx-auto" src="/images/liber-v/brand.png">--}}
@@ -32,8 +32,8 @@
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block1 responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_page2_web.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_page2_mob.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page2_web.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page2_mob.jpg')"></div>
               
                 </div>
             </div>
@@ -44,8 +44,8 @@
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block2 responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_page3_web.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_page3_mob.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page3_web.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page3_mob.jpg')"></div>
            
                 </div>
             </div>
@@ -55,8 +55,8 @@
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block3 responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_page4_web.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_page4_mob.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page4_web.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page4_mob.jpg')"></div>
         
                 </div>
             </div>
@@ -67,8 +67,8 @@
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block4 responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_page5_web.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_page5_mob.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page5_web.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page5_mob.jpg')"></div>
                 </div>
             </div>
         </section>   
@@ -77,8 +77,8 @@
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block5 responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_page6_web.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_page6_mob.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page6_web.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page6_mob.jpg')"></div>
    
                 </div>
             </div>
