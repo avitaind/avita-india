@@ -8,7 +8,7 @@
     <main class="top-nav-padding">
 
         @include('partials.liber-v-gold-navbar')
-		@include('partials.rolling-cta')
+		@include('partials.rolling-cta-liber-v-gold')
 
         <section class="product-liber-banner">
             <div class="responsive-block">
@@ -28,30 +28,6 @@
                 </div>
             </div>
         </section>
-
-        
-        
-         <section class="product-liber-computer ls-0" id="test" >
-                <div class="container">
-                        <div class="space60"></div>
-                        <div class="banner-para">
-                        <div align="center" class="col-lg-12" >
-                       <!--   <div class="admiror_h1">COMING SOON</div>
-                      <span class="buy-now2"> COMING SOON</span> --->
-                        </div>
-                      
-                            <div class="banner-para text-center">
-                            <span class="d-lg-block">
-                            <span class="buy-now2"><a href="https://bit.ly/3m1k0Rj" target="_blank">Buy now ></a></span>
-                            <!--- <a href="/where-to-buy" style="color:#09F">Where to buy ></a> --->
-                            </span>
-                        </div>
-                       
-                        <div class="space60"></div>
-                    </div>
-                </div>
-        </section>
-
      
         <section class="product-liber-banner">
             <div class="responsive-block">
@@ -93,7 +69,6 @@
                 <div class="banner-block4 responsive-item">
                     <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_page5_web.jpg')"></div>
                     <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_page5_mob.jpg')"></div>
-      
                 </div>
             </div>
         </section>   
