@@ -14,14 +14,38 @@
                 </div>
             </div>
 
+            <div class="carousel-item">
+                <div class="responsive-block">
+                <a href="/where-to-buy">
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-bfl1"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-bfl1"></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+            
+        <div class="carousel-item">
+                <div class="responsive-block">
+                <a href="/where-to-buy">
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-bfl2"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-bfl2"></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
 
         <div class="carousel-item">
                 <div class="responsive-block">
+                <a href="https://in.nexstmall.com/">
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-f1"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-f1"></div>
                     </div>
-                
+                    </a>
                 </div>
             </div>
 
@@ -54,7 +78,8 @@
            <li data-target="#home_banner" data-slide-to="1"></li>
            <li data-target="#home_banner" data-slide-to="2"></li>
            <li data-target="#home_banner" data-slide-to="3"></li>
-       
+           <li data-target="#home_banner" data-slide-to="4"></li>
+           <li data-target="#home_banner" data-slide-to="5"></li>
 
         </ol>
     </div>
