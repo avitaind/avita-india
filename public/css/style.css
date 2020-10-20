@@ -841,7 +841,7 @@ section.color-choice .container{
   .dropdown:hover .dropdown-content {display: block;}
   
   
-  @media only screen and (min-width : 320px)  {
+  @media only screen and (max-width : 320px)  {
        
   .dropdown-content {
     display: none;

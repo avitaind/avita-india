@@ -9,8 +9,8 @@
         <div class="dropdown">
          <button class="dropbtn"><a class="nav-link py-1" href="<?php echo e(route('product.overview', ['liber-v-gold'])); ?>"><?php echo app('translator')->getFromJson('site.productnav_overview_liber_v_gold'); ?></a></button>
                 <div class="dropdown-content">
-                    <li class="nav-item"><a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v-gold-black'])); ?>"><?php echo app('translator')->getFromJson('site.liber-v-gold-black'); ?></a></li>
-                    <li class="nav-item"><a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v-gold-blue'])); ?>"><?php echo app('translator')->getFromJson('site.liber-v-gold-blue'); ?></a></li>
+                    <li class="nav-item"><a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v-gold-black'])); ?>"><small><?php echo app('translator')->getFromJson('site.liber-v-gold-black'); ?></small></a></li>
+                    <li class="nav-item"><a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v-gold-blue'])); ?>"><small><?php echo app('translator')->getFromJson('site.liber-v-gold-blue'); ?></small></a></li>
     
               </div>
               
