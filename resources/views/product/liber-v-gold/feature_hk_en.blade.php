@@ -12,7 +12,7 @@
 
         <section class="product-liber-banner">
             <div class="responsive-block">
-                <div class="banner-block responsive-item">
+                <div class="banner-block1 responsive-item">
                     <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_banner_web.jpg')"></div>
                     <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/AVITA_liber_v_gold_banner_mob.png')"></div>
                     <div class="banner-info">
