@@ -725,7 +725,7 @@ section.color-choice .container{
 @media only screen and (min-width : 320px)  {
     
     .banner-mob-gold{
-        background: url('/images/banner/AVITA_liber_v_gold_banner_mob.png');
+        background: url('/images/banner/AVITA_liber_v_gold_banner_mob.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -769,7 +769,7 @@ section.color-choice .container{
 @media only screen and (min-width : 200px)  {
 
 .banner-mob-gold{
-        background: url('/images/banner/AVITA_liber_v_gold_banner_mob.png');
+        background: url('/images/banner/AVITA_liber_v_gold_banner_mob.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
