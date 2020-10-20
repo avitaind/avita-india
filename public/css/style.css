@@ -587,7 +587,7 @@ section.color-choice .container{
 @media only screen and (min-width : 1600px) {
 
     .banner-web-gold{
-        background: url('/images/banner/AVITA_liber_v_gold_banner_web.jpg');
+        background: url('/images/banner/AVITA_liber_v_gold_banner_web.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -634,7 +634,7 @@ section.color-choice .container{
  
     
     .banner-web-gold{
-        background: url('/images/banner/AVITA_liber_v_gold_banner_web.jpg');
+        background: url('/images/banner/AVITA_liber_v_gold_banner_web.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -679,7 +679,7 @@ section.color-choice .container{
 @media only screen and (min-width : 768px){
 
     .banner-web-gold{
-        background: url('/images/banner/AVITA_liber_v_gold_banner_web.jpg');
+        background: url('/images/banner/AVITA_liber_v_gold_banner_web.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -768,7 +768,7 @@ section.color-choice .container{
 /*Mob Banners*/
 @media only screen and (min-width : 200px)  {
 
-    .banner-mob-gold{
+.banner-mob-gold{
         background: url('/images/banner/AVITA_liber_v_gold_banner_mob.png');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
@@ -783,7 +783,7 @@ section.color-choice .container{
   background-size: 100% 100%;
  }
 
- .banner-mob-f2{
+.banner-mob-f2{
     background: url('/images/banner/AVITA_diwali_banner2_mob.jpg');
     -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
@@ -791,7 +791,7 @@ section.color-choice .container{
   background-size: 100% 100%;
  }
 
- .banner-mob-nexstmall{
+.banner-mob-nexstmall{
     background: url('/images/banner/brand-store-mob-banner.png');
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -799,7 +799,7 @@ section.color-choice .container{
     background-size: 100% 100%;
   }
  
-    .banner-mob-warranty{
+.banner-mob-warranty{
         background: url('/images/banner/warranty_banner1_mob.jpg');
         -webkit-background-size: 100% 100%;
         -moz-background-size: 100% 100%;
