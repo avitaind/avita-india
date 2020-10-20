@@ -467,6 +467,7 @@ form .overlay-addon + input{
   .header .dropdown .nav-item:last-child{
     border-bottom: 0;
   }
+  
   .header .nav-item.has-dropdown input[type="checkbox"]+.nav-link:after {
     position: absolute;
     top: 50%;
