@@ -1982,6 +1982,24 @@ table.product-list-table th{
   top: 25%;
   z-index: 99;
 }
+
+
+
+@media only screen and (max-width : 320px){
+
+  .product-fix-menu-2 .menu-item a {
+    color: #fff;
+    font-size: 14px!important;
+    line-height: 14px!important;
+    margin: auto;
+    text-align: left;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+}
+
 .product-fix-menu-2 .menu-item {
   padding: 15px 20px 15px 30px;
   background: #333333;

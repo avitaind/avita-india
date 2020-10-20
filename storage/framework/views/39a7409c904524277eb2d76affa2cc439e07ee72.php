@@ -6,7 +6,7 @@
     <main class="top-nav-padding">
 
         <?php echo $__env->make('partials.liber-v-gold-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-		<?php echo $__env->make('partials.rolling-cta-liber-v-gold', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<?php echo $__env->make('partials.rolling-cta-liber-v-gold-black', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         <section class="product-liber-banner">
             <div class="responsive-block">

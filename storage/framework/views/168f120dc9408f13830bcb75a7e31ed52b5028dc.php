@@ -31,7 +31,7 @@
                                        </li>
                                     
                                        <li class="nav-item">
-                                          <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v-gold'])); ?>"><?php echo app('translator')->getFromJson('site.liber-v-gold'); ?></a>
+                                          <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v-gold-blue'])); ?>"><?php echo app('translator')->getFromJson('site.liber-v-gold'); ?></a>
                                        </li>
                                     
                                        <li class="nav-item">

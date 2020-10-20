@@ -6,15 +6,7 @@
 
         <div class="product-nav-collapse">
         <ul class="nav-product d-flex list-unstyled flex-column justify-content-center text-center flex-sm-row justify-content-sm-end my-2">
-        <div class="dropdown">
-         <span class="dropbtn"><a class="nav-link py-1" href="{{ route('product.overview', ['liber-v-gold']) }}">@lang('site.productnav_overview_liber_v_gold')</a></span>
-                <div class="dropdown-content">
-                    <li class="nav-item"><a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-v-gold-black']) }}"><small>@lang('site.liber-v-gold-black')</small></a></li>
-                    <li class="nav-item"><a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-v-gold-blue']) }}"><small>@lang('site.liber-v-gold-blue')</small></a></li>
-    
-              </div>
-              
-            </div>
+             <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', ['liber-v-gold-blue']) }}">@lang('site.productnav_overview_liber_v_gold')</a></li>
             <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.spec', ['liber-v-gold']) }}">@lang('site.productnav_spec')</a></li>
               <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.support', ['liber']) }}">@lang('site.productnav_support')</a></li>
               <li class="nav-item"><a class="nav-link py-1" href="/where-to-buy">@lang('site.productnav_wheretobuy')</a></li>
