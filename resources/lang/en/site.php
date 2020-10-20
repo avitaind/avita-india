@@ -261,7 +261,7 @@ return [
     'liber' => 'LIBER',
     'liber-v' => 'LIBER V14',
     'liber-v-gold' => 'LIBER V Gold',
-    'liber-v-gold-black' => 'Matt Black',
-    'liber-v-gold-blue' => 'Navy Blue',
+    'liber-v-gold-black' => 'Midnight Black',
+    'liber-v-gold-blue' => 'Royal Blue',
     'productnav_overview_ubique' => 'AVITA UBIQUE'
 ];
