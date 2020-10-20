@@ -1982,6 +1982,85 @@ table.product-list-table th{
   top: 25%;
   z-index: 99;
 }
+.product-fix-menu-2 .menu-item {
+  padding: 15px 20px 15px 30px;
+  background: #662d91;
+  color: #fff;
+  margin: 35px auto;
+  text-align: center;
+  border-radius: 60px 0 0 60px;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
+}
+.product-fix-menu-2 .menu-item a {
+  color: #fff;
+  font-size: 25px;
+  line-height: 25px;
+  margin: auto;
+  text-align: left;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.product-fix-menu-3 {
+  position: fixed;
+  right: 0;
+  top: 32%;
+  z-index: 99;
+}
+.product-fix-menu-3 .menu-item {
+  padding: 15px 20px 15px 30px;
+  background: #662d91;
+  color: #fff;
+  margin: 35px auto;
+  text-align: center;
+  border-radius: 60px 0 0 60px;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
+}
+.product-fix-menu-3 .menu-item a {
+  color: #fff;
+  font-size: 25px;
+  line-height: 25px;
+  margin: auto;
+  text-align: left;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+.product-fix-menu-4 {
+  position: fixed;
+  right: 0;
+  top: 32%;
+  z-index: 99;
+}
+.product-fix-menu-4 .menu-item {
+  padding: 15px 20px 15px 30px;
+  background: #662d91;
+  color: #fff;
+  margin: 35px auto;
+  text-align: center;
+  border-radius: 60px 0 0 60px;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
+}
+.product-fix-menu-4 .menu-item a {
+  color: #fff;
+  font-size: 25px;
+  line-height: 25px;
+  margin: auto;
+  text-align: left;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 
 
 

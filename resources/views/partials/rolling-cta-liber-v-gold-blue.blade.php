@@ -6,6 +6,13 @@
 		
 	  
         </div>
+   
+	
+</div>
+
+<div class="product-fix-menu-3">
+
+	
         <div class="menu-item">        
       
          <a  href="{{ route('product.overview', ['liber-v-gold-black']) }}"><small>Midnight <br/>Black </small></a>
