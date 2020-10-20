@@ -838,7 +838,7 @@ section.color-choice .container{
   .dropdown-content a:hover {background-color: #ddd;}
   
   .dropdown:hover .dropdown-content {display: block;}
-  
+
  }
 
  @media only screen and (max-width : 320px){
@@ -871,6 +871,8 @@ section.color-choice .container{
      .dropdown-content a:hover {background-color: #ddd;}
      
      .dropdown:hover .dropdown-content {display: block;}
+
+  
      
     }
     
