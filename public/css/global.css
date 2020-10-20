@@ -473,7 +473,7 @@ form .overlay-addon + input{
     right: 0;
     transform: translateY(-50%);
     content: "\f067";
-    display: inline-block;
+    display: none;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
