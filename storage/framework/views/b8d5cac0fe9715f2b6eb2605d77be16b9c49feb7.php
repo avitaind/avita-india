@@ -5,10 +5,21 @@
 
         <div class="carousel-item active">
                 <div class="responsive-block">
-                <a href="<?php echo e(route('product.overview', ['liber-v-gold'])); ?>">
+                <a href="<?php echo e(route('product.overview', ['liber-v-gold-blue'])); ?>">
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-gold"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-gold"></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            
+        <div class="carousel-item">
+                <div class="responsive-block">
+                <a href="https://in.nexstmall.com/">
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-f1"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-f1"></div>
                     </div>
                     </a>
                 </div>
@@ -25,29 +36,8 @@
                 </div>
             </div>
 
-            
-        <div class="carousel-item">
-                <div class="responsive-block">
-                <a href="/where-to-buy">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-bfl2"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-bfl2"></div>
-                    </div>
-                    </a>
-                </div>
-            </div>
+       
 
-
-        <div class="carousel-item">
-                <div class="responsive-block">
-                <a href="https://in.nexstmall.com/">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-f1"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-f1"></div>
-                    </div>
-                    </a>
-                </div>
-            </div>
 
             
         <div class="carousel-item">
@@ -62,6 +52,17 @@
             </div>
 
     
+     
+            <div class="carousel-item">
+                <div class="responsive-block">
+                <a href="/where-to-buy">
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-bfl2"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-bfl2"></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
 
       
             <div class="carousel-item">
