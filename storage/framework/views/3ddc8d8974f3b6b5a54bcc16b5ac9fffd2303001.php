@@ -1,14 +1,12 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.Pura_home'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.Pura_home')
-@stop
-
-@section('content')
+<?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
     
-    	@include('partials.pura-navbar')
-		@include('partials.rolling-cta')
+    	<?php echo $__env->make('partials.pura-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<?php echo $__env->make('partials.rolling-cta', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         <!--------- Submenu ----------->
 
@@ -41,14 +39,16 @@
   <!--
                     <br/>
                  
-                   @if(session()->has('message'))
+                   <?php if(session()->has('message')): ?>
                         <div class="alert alert-success" style="text-align:center;">
-                            {{ session()->get('message') }}
-                        </div>
-                    @endif
+                            <?php echo e(session()->get('message')); ?>
 
-	<form action="{{url('notify')}}" method="POST" role="form" enctype="multipart/form-data" class="notify-me-form col-12 col-lg-8 col-xl-6 mx-auto">
-          {{csrf_field()}}
+                        </div>
+                    <?php endif; ?>
+
+	<form action="<?php echo e(url('notify')); ?>" method="POST" role="form" enctype="multipart/form-data" class="notify-me-form col-12 col-lg-8 col-xl-6 mx-auto">
+          <?php echo e(csrf_field()); ?>
+
           <div class="row md-4 no-gutters justify-content-center">
 		<div class="col-12 col-sm-7 col-md-6 col-lg-7 ml-auto">
                     <div class="input-group">
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-4 col-md-4">
-                    <button class="btn btn-primary d-block mt-3 mt-sm-0 mt-md-0 mx-auto ml-md-3" type="submit">@lang('site.home_notify')</button>
+                    <button class="btn btn-primary d-block mt-3 mt-sm-0 mt-md-0 mx-auto ml-md-3" type="submit"><?php echo app('translator')->getFromJson('site.home_notify'); ?></button>
                 </div>
             </div>
             </form>
@@ -121,7 +121,7 @@
 
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">The all-new AVITA PURA cleverly packs powerful functionalities inside a clean and sleek body design that is like no others. Forget the clumsiness of conventional laptop computers and welcome to a world of new experience!</span>
-                            <span class="d-lg-block"><a href="{{ route('product.spec', 'pura') }}" style="color:#09F">Tech Spec ></a></span>
+                            <span class="d-lg-block"><a href="<?php echo e(route('product.spec', 'pura')); ?>" style="color:#09F">Tech Spec ></a></span>
                         </div>
                         
                             <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between">
@@ -373,14 +373,16 @@ The AVITA PURA is pre-installed with the Windows 10 Home Edition operating syste
 
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('css')
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/product-liber.css') }}"/>
-@endsection
+<?php $__env->startSection('css'); ?>
+    <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-liber.css')); ?>"/>
+<?php $__env->stopSection(); ?>
 
-@section('js')
+<?php $__env->startSection('js'); ?>
 
-    <script type="text/javascript" src="{{ asset('js/pura.js') }}"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/pura.js')); ?>"></script>
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

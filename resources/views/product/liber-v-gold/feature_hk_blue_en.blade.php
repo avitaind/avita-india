@@ -100,6 +100,12 @@
             </div>
         </section>
 
+        <!---
+        <div class="color-opt">
+            <button class="btn-opt"><span class="sr-only">Back to Top</span></button>
+            <div class="slide-text">Midnight Black</div> 
+        </div>
+        --->
         <div class="gotop-wrap">
             <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
         </div>

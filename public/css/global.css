@@ -167,6 +167,59 @@ span.btn-secondary:focus {
   color: #fff;
 }
 
+.slide-text{
+  background-color:#101010;
+  opacity: .7;
+  padding: 15px 50px 15px 10px;
+  overflow: hidden;
+  position: fixed;
+  display: block;
+  right: 25px;
+  bottom: 103px;
+  z-index: 100;
+  /*max-width: 1440px;*/
+  text-align: right;
+}
+
+.color-opt {
+  overflow: hidden;
+  position: fixed;
+  display: block;
+  right: 15px;
+  bottom: 100px;
+  z-index: 100;
+  /*max-width: 1440px;*/
+  text-align: right;
+
+}
+
+.color-opt .btn-opt {
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  background: #101010;
+  font-size: 0;
+  opacity: .7;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  cursor: pointer;
+}
+.color-opt .btn-opt:before {
+  content: '';
+  overflow: hidden;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 4px auto;
+  background: url('../images/background/color-otp.png') 100% / cover no-repeat;
+  background-size: 100%;
+}
+
 .gotop-wrap {
   overflow: hidden;
   position: fixed;
@@ -177,6 +230,7 @@ span.btn-secondary:focus {
   /*max-width: 1440px;*/
   text-align: right;
 }
+
 .gotop-wrap .btn-gotop {
   width: 40px;
   height: 40px;
