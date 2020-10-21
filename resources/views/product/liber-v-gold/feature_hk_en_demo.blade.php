@@ -7,14 +7,14 @@
 @section('content')
     <main class="top-nav-padding">
 
-        @include('partials.liber-v-gold-navbar')
-		@include('partials.rolling-cta')
-
+    @include('partials.liber-v-gold-navbar')
+    @include('partials.rolling-cta-liber-v-gold-blue')
+    
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/AVITA_liber_v_banner_web.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/AVITA_liber_v_banner_mob.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_banner_web.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_banner_mob.png')"></div>
                     <div class="banner-info">
                         <div class="btn-group mt-3">
                             {{--<img class="mx-auto" src="/images/liber-v/brand.png">--}}
@@ -29,32 +29,6 @@
             </div>
         </section>
 
-        
-        <!-----
-         <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
-                <div class="container">
-                        <div class="space60"></div>
-                        <div class="banner-para">
-                        <div align="center" class="col-lg-12" >
-                         <div class="admiror_h1">COMING SOON</div>
-                      <span class="buy-now2"> COMING SOON</span> --->
-                      <!---
-                        </div>
-                  
-                            <div class="banner-para text-center">
-                            <span class="d-lg-block">
-                            <span class="buy-now2"><a href="https://bit.ly/3m1k0Rj" target="_blank">Buy now ></a></span>
-                           <a href="/where-to-buy" style="color:#09F">Where to buy ></a> --->
-                            <!---
-                            </span>
-                        </div>
-                       
-                        <div class="space60"></div>
-                    </div>
-                </div>
-        </section>
-
-        ---------->
 
         <section class="product-liber-computer product-liber-v-gold-computer">
             <div class="banner-block">
