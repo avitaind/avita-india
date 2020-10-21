@@ -9,7 +9,7 @@
    
 	
 </div>
-
+<!----
 <div class="product-fix-menu-3">
 
 	
@@ -21,3 +21,5 @@
        </div>
 	
 </div>
+
+---->

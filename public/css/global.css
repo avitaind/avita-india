@@ -168,28 +168,41 @@ span.btn-secondary:focus {
 }
 
 .slide-text{
+  display:none;
+  }
+  
+.slide-text a{
+    text-decoration: none;
+    color:#fff;
+ }
+
+.color-opt:hover > .slide-text {
   background-color:#101010;
+  color:#ffffff;
   opacity: .7;
-  padding: 15px 50px 15px 10px;
+  padding: 15px 50px 15px 15px;
   overflow: hidden;
   position: fixed;
   display: block;
   right: 25px;
-  bottom: 103px;
-  z-index: 100;
+  bottom: 100px;
+  z-index: 1;
   /*max-width: 1440px;*/
   text-align: right;
-}
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 21px;
 
+}
 .color-opt {
   overflow: hidden;
   position: fixed;
   display: block;
   right: 15px;
   bottom: 100px;
-  z-index: 100;
-  /*max-width: 1440px;*/
+  max-width: 1440px;
   text-align: right;
+  z-index: 999;
 
 }
 
@@ -208,6 +221,7 @@ span.btn-secondary:focus {
   appearance: none;
   border: 0;
   cursor: pointer;
+  z-index: 999;
 }
 .color-opt .btn-opt:before {
   content: '';
