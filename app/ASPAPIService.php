@@ -98,7 +98,7 @@ class ASPAPIService
 
         $client = self::getClient();
 
-        $url = "/api2/drivers?product_number=".$product_number;
+        $url = "/api/drivers?product_number=".$product_number;
 
         try{
             $res = $client->get($url);
@@ -115,7 +115,7 @@ class ASPAPIService
 
         $client = self::getClient();
 
-        $url = "/api2/drivers?model_number=".$model_number;
+        $url = "/api/drivers?model_number=".$model_number;
 
         try{
             $res = $client->get($url);
