@@ -191,7 +191,7 @@
 		    var product_number = $("#product_number_field").val();
 
 		    if (product_number != null) {
-                var url = '/api2/drivers?product_number=' + product_number;
+                var url = '/api/drivers?product_number=' + product_number;
                 $("#product-driver-wrapper").load(url);
 			}
 		}
