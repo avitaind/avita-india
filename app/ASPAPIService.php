@@ -115,7 +115,7 @@ class ASPAPIService
 
         $client = self::getClient();
 
-        $url = "/api/drivers?model_number=".$model_number;
+        $url = "/api2/drivers?model_number=".$model_number;
 
         try{
             $res = $client->get($url);
@@ -175,7 +175,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'hk'),
+            'country' => session('country', 'in'),
             'brand' => self::$brand,
             'type' => $type
         ];
@@ -194,7 +194,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'hk'),
+            'country' => session('country', 'in'),
             'brand' => self::$brand,
             'series' => $series
         ];
@@ -213,7 +213,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'hk'),
+            'country' => session('country', 'in'),
             'brand' => self::$brand,
             'marketing_number' => $marketing_number
         ];
@@ -231,7 +231,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'hk'),
+            'country' => session('country', 'in'),
             'brand' => self::$brand,
             'series' => $product_series
         ];
@@ -255,7 +255,7 @@ class ASPAPIService
 
         $client = self::getClient();
         $jsonData = [
-            'country' => session('country', 'hk'),
+            'country' => session('country', 'in'),
             'brand' => self::$brand,
             'product_number' => $product_number,
             'marketing_number' => $marketing_number
