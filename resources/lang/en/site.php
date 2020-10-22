@@ -263,5 +263,7 @@ return [
     'liber-v-gold' => 'LIBER V Gold',
     'liber-v-gold-black' => 'Midnight Black',
     'liber-v-gold-blue' => 'Royal Blue',
-    'productnav_overview_ubique' => 'AVITA UBIQUE'
+    'productnav_overview_ubique' => 'AVITA UBIQUE',
+    'essential' => 'Overview Essential',
+    'essential_spec' => 'Tech Spec'
 ];

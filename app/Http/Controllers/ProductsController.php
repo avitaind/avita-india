@@ -51,7 +51,18 @@ class ProductsController extends Controller
         $country = 'in';
         $product = $this->productFromURL($country, $slug);
 
- 
+
+     		
+		if ( $slug == 'essential' ){  
+			
+			switch ( $country ) {
+				case 'in':  
+                        return view('product.essential.feature_hk_en', compact( 'product')); 
+                        break;
+                    }
+                }
+				
+       
      if ( $slug == 'magus-lite' ){
 
             switch ( $country ) {
@@ -220,11 +231,19 @@ class ProductsController extends Controller
         $country = 'in';
         $product = $this->productFromURL($country, $slug);
 
+        if ( $slug == 'essential' ){  
+			
+			switch ( $country ) {
+				case 'in': 
+                        return view('product.essential.spec_hk_en', compact( 'product')); 
+                        break;
+					}
+                } 
+         
         if ( $slug == 'liber-v' ){
             switch ( $country ) {
                 case 'in':
                     return view('product.liber-v.spec_hk_en', compact( 'product'));
-
                     break;
             }
         }

@@ -260,7 +260,7 @@ margin-top: 0;
 	width: 100%;
 }
 .product-liber-computer .banner-header {
-	/*margin-top: 60px;*/
+	margin-top: 60px;
 }
 .product-liber-computer .bc-computer-image {
 	position: absolute;
@@ -271,8 +271,8 @@ margin-top: 0;
 	right: 1180px
 }
 .product-liber-computer .bc-computer-2 {
-	top: 100px;
-	right: 1003px
+	top: 150px;
+	right: 1000px
 }
 .product-liber-computer .bc-computer-3 {
 	top: 210px;
@@ -799,8 +799,18 @@ section.product-liber-v-gold-computer .banner-info .banner-para{
 
 section.product-liber-v-gold-computer .banner-image img{
     width: 700px;
-    top: -400px;
-    right: -120px;
+    top: -750px;
+    right: 100px;
+}
+
+
+
+@media (max-width: 350px) {
+	section.product-liber-v-gold-computer .banner-image img{
+    	width: 200px;
+    	top: 50px;
+    	right: 100px;
+	}
 }
 
 /**/
@@ -1085,6 +1095,7 @@ section.product-liber-v-io{
 		margin-right: auto;
 		margin-top: 80px;
 	}
+
 	.product-liber-port .banner-data {
 		margin-top: 90px;
 		width: 620px;
@@ -1093,6 +1104,8 @@ section.product-liber-v-io{
 		margin-top: 90px;
 	}
 }
+
+
 @media (min-width: 960px){
 	.product-liber-port .banner-data {
 		width:500px;

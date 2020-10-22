@@ -963,3 +963,14 @@ section.color-choice .container{
      
     }
     
+    .icon-text{
+        color:#fff;
+        font-size:24px;
+        display:inline-block;
+        margin: 0px 25px;
+    }
+
+    .product-liber-v-gold-computer .bc-computer-2{
+        top: 250px;
+        right: 500px;
+    }
