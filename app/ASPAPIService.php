@@ -10,7 +10,9 @@ class ASPAPIService
     protected static $brand = 'avita';
 
     protected static function asp_url( ) {
-        return env('ASP_URL', 'http://avita_asp.dev');
+       // return env('ASP_URL', 'http://avita_asp.dev');
+        return env('ASP_URL', 'https://asp.avita.global/');
+
     }
 
     protected static function getClient() {
@@ -96,7 +98,7 @@ class ASPAPIService
 
         $client = self::getClient();
 
-        $url = "/api/drivers?product_number=".$product_number;
+        $url = "/api2/drivers?product_number=".$product_number;
 
         try{
             $res = $client->get($url);
