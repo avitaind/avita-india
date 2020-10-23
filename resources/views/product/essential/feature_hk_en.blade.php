@@ -8,8 +8,6 @@
     <main class="top-nav-padding">
     
     	@include('partials.essential-product-navbar')
- 
-
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block responsive-item">

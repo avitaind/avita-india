@@ -8,7 +8,6 @@ class ASPAPIService
 {
 
     protected static $brand = 'avita';
-    protected static $country = 'india';
 
     protected static function asp_url( ) {
        // return env('ASP_URL', 'http://avita_asp.dev');
