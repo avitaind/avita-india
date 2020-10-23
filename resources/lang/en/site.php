@@ -265,5 +265,6 @@ return [
     'liber-v-gold-blue' => 'Royal Blue',
     'productnav_overview_ubique' => 'AVITA UBIQUE',
     'essential' => 'Overview Essential',
-    'essential_spec' => 'Tech Spec'
+    'essential_spec' => 'Tech Spec',
+    'essential_name' => 'Essential'
 ];

@@ -26,7 +26,16 @@
                                 <a class="nav-link px-md-4 py-2"><label for="header_product_liber" class="d-block mb-0">{{ __('messages.laptops') }}</label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
-                                    <li class="nav-item">
+
+                                      <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['admiror']) }}">@lang('site.admiror')</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['pura']) }}">@lang('site.pura')</a>
+                                        </li>
+
+                                      <li class="nav-item">
                                           <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-v']) }}">@lang('site.liber-v')</a>
                                        </li>
                                     
@@ -35,14 +44,11 @@
                                        </li>
                                     
                                        <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['admiror']) }}">@lang('site.admiror')</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['pura']) }}">@lang('site.pura')</a>
-                                        </li>
+                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'magus-lite-2in1-laptop') }}">@lang('magus.name')</a>
+                                            </li>
                                         
                                           <li class="nav-item">
-                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'magus-lite-2in1-laptop') }}">@lang('magus.name')</a>
+                                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'essential') }}">@lang('site.essential_name')</a>
                                             </li>
                                             <li class="nav-item">
                                                     <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-new-generation']) }}">@lang('site.liber-new-generation')</a>
