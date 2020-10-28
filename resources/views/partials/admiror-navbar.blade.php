@@ -1,4 +1,3 @@
-
 <div class="nav-product-panel">
 
     <div class="container">
