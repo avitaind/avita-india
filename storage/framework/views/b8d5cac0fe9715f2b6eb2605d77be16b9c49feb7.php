@@ -16,7 +16,7 @@
             
             <div class="carousel-item">
                 <div class="responsive-block">
-                <a href="http://gifts.avita-india.com/">
+                <a href="https://gifts.avita-india.com/">
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-goa"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-goa"></div>
