@@ -30,52 +30,77 @@
         </section>
 
 
-        <section class="product-liber-computer product-liber-v-gold-computer">
+        <section class="product-liber-computer product-liber-v-gold-display">
             <div class="banner-block">
                 <div class="banner-bg"></div>
-               
                        <img class="bc-computer-image bc-computer-2" src="/images/liber-v-gold/icons-text.png">
-                       
                     </div> 
+            
+                <div class="banner-image">
+                    	<img class="bc-computer-image bc-computer-4" src="/images/liber-v-gold/LiberV_14colors_hk_en2.png">
                 </div>
-                    
-                    <div class="banner-image">
-                    	<img class="bc-computer-image bc-computer-2" src="/images/liber-v-gold/LiberV_14colors_hk_en2.png">
-                    </div>
-                    
+             </div>
+          </div>
+       </section>
+
+     
+
+       <section class="product-liber-computer product-liber-v-gold-ssd">
+     
+                <div class="dynamic-performance-banner">
+                    	<img class="dynamic-performance-image dynamic-performance-laptop" src="/images/liber-v-gold/dynamic-performance-laptop.png">
+                    	<img class="dynamic-performance-image dynamic-performance-screen screen1" src="/images/liber-v-gold/screen-1.png">
+                    	<img class="dynamic-performance-image dynamic-performance-screen screen2" src="/images/liber-v-gold/screen-2.png">
                 </div>
-            </div>
-        </section>
 
-       <section class="product-liber-banner product-liber-v-banner">
-            <div class="responsive-block"> 
-                <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page3_web.jpg')"></div>
-                <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page3_mob.jpg')"></div> 
-            </div>
-        </section>
-
-    
-           <section class="product-liber-banner product-liber-v-banner">
-            <div class="responsive-block"> 
-                <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page4_web.jpg')"></div>
-                <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page4_mob.jpg')"></div> 
-            </div>
-        </section>
+              <div class="banner-block">
+                  <div class="banner-bg"></div>
+                       <img class="bc-computer-image bc-computer-6" src="/images/liber-v-gold/dynamic-performance.png">
+              </div> 
+                
+             </div>
+          </div>
+       </section>
 
 
+
+       <section class="product-liber-computer product-liber-v-gold-light">
+     
+                <div class="light-weight-banner">
+                    	<img class="light-weight-image light-weight-text" src="/images/liber-v-gold/thin&light_text.png">
+                </div>
+
+              <div class="banner-block">
+                  <div class="banner-bg"></div>
+                  <img class="bc-computer-image light-weight-thin" src="/images/liber-v-gold/thin.png">
+                  <img class="bc-computer-image light-weight-light" src="/images/liber-v-gold/light.png">
+
+              </div> 
+                
           
-      
-    
-        <section class="product-liber-banner product-liber-v-banner">
-            <div class="responsive-block"> 
-                <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page5_web.jpg')"></div>
-                <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v-gold/blue/AVITA_liber_v_gold_page5_mob.jpg')"></div> 
-            </div>
-        </section>
+             </div>
+          </div>
+       </section>
 
 
-               
-      
+ 
+       <section class="product-liber-computer product-liber-v-gold-keyboard">
+     
+                <div class="keyboard-fingerprint-banner">
+                    	<img class="keyboard-fingerprint-image keyboard-fingerprint-light" src="/images/liber-v-gold/keyboard_fingerprint_lighting.png">
+                    	<img class="keyboard-fingerprint-image keyboard-fingerprint-laptop1" src="/images/liber-v-gold/keyboard_fingerprint_laptop1.png">
+                    	<img class="keyboard-fingerprint-image keyboard-fingerprint-laptop2" src="/images/liber-v-gold/keyboard_fingerprint_laptop2.png">
+                </div>
+
+              <div class="banner-block">
+                  <div class="banner-bg"></div>
+                       <img class="bc-computer-image keyboard-fingerprint-text" src="/images/liber-v-gold/keyboard_fingerprint_text.png">
+              </div> 
+                
+             </div>
+          </div>
+       </section>
+
     
         <section class="product-liber-banner product-liber-v-banner">
             <div class="responsive-block"> 
@@ -114,11 +139,13 @@
 @endsection
 
 @section('css')
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/product-liber.css') }}"/>
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/liber-v-gold.css') }}"/>
 @endsection
 
 @section('js')
 
+    <script type="text/javascript" src="{{ asset('js/liber-v-gold.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/liber.js') }}"></script>
+
 
 @endsection

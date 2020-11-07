@@ -73,6 +73,7 @@
                 </div>
             </div>
         </section>
+        
        <section class="product-liber-banner product-liber-v-banner">
             <div class="responsive-block"> 
                 <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en.jpg')"></div>

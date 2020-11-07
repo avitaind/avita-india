@@ -27,6 +27,7 @@ $(document).ready(function() {
 
 		var controller = new ScrollMagic.Controller();
 
+	
 		/* .product-liber-computer */
 		var tween = TweenMax.fromTo(".product-liber-computer .bc-computer-1", 1.3, { x:-20, 'caly': 120 }, { x:0, 'caly': -40 });
 		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-computer .banner-info", duration: '450px', offset: '100px'})
