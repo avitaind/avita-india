@@ -30,7 +30,7 @@
 
         <section class="product-liber-computer product-liber-v-gold-display">
             <div class="banner-block">
-                <div class="banner-bg"></div>
+                <div class="banner-bg" id="banner-bg"></div>
                        <img class="bc-computer-image bc-computer-2" src="/images/liber-v-gold/icons-text.png">
                     </div> 
             
@@ -151,7 +151,13 @@
 
     <script type="text/javascript" src="<?php echo e(asset('js/liber-v-gold.js')); ?>"></script>
     <script type="text/javascript" src="<?php echo e(asset('js/liber.js')); ?>"></script>
-
+    <script type="text/javascript">
+    $(window).resize(function() {
+    if ($(window).width() < 750) {
+        $selector.removeClass('bc-computer-image');
+    }
+    }).resize();
+    </script>
 
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

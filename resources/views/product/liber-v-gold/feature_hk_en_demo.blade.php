@@ -32,7 +32,7 @@
 
         <section class="product-liber-computer product-liber-v-gold-display">
             <div class="banner-block">
-                <div class="banner-bg"></div>
+                <div class="banner-bg" id="banner-bg"></div>
                        <img class="bc-computer-image bc-computer-2" src="/images/liber-v-gold/icons-text.png">
                     </div> 
             
@@ -153,6 +153,6 @@
 
     <script type="text/javascript" src="{{ asset('js/liber-v-gold.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/liber.js') }}"></script>
-
+  
 
 @endsection

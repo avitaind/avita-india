@@ -138,6 +138,7 @@
 	/*.product-liber-banner {
 	  min-height: 890px;
 	}*/
+
 }
 
 @media (max-width: 1920px) {
@@ -1648,4 +1649,10 @@ section.product-liber-v-io{
 	}
 	 
 
+}
+
+@media screen and (max-width: 480px) {
+    .bc-computer-image {
+        display: inline-flex;
+    }
 }
