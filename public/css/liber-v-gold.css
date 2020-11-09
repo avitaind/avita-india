@@ -799,14 +799,51 @@ section.product-liber-v-gold-keyboard{
 	z-index: 999;
 }
 
+section.product-liber-v-gold-battery{
+    background-image: url(../images/liber-v-gold/battery_life_bg.png);
+    background-size: cover;
+    background-position: center top;
+	background-repeat: no-repeat;
+	height: 720px;
+	z-index: 999;
+}
+
+
+.product-liber-computer .light-weight-text {
+	position: absolute;
+	max-width: 50%;
+	margin: 5%;
+	width: 450px;
+
+}
+
+.product-liber-computer .battery-life-laptop {
+	position: absolute;
+	max-width: 100%;
+	margin: 10% 70%;
+	width: 10%;
+	transition: 1s;
+
+}
+
+
+.battery-life-laptop.large{
+	position: absolute;
+	max-width: 100%;
+	margin: 0% 60%;
+	width: 30%;
+	
+}
 .product-liber-computer .keyboard-fingerprint-light {
 	position: absolute;
 	max-width: 50%;
 	margin: -2% 0%;
 	width: 450px;
-	transition: 3s;
+	transition: 1s;
 
 }
+
+
 
 .keyboard-fingerprint-light.off{
 	opacity: 0.1;
@@ -825,7 +862,8 @@ section.product-liber-v-gold-keyboard{
     max-width: 100%;
     width: 500px;
 	margin: 10% 20%;
-	z-index: -1;
+	z-index: 1;
+	
    
 }
 
@@ -833,8 +871,17 @@ section.product-liber-v-gold-keyboard{
     position: absolute;
     max-width: 100%;
     width: 500px;
-    margin: 10% 20%;
+	margin: 10% 20%;
+	transition: 1s;
    
+}
+
+.keyboard-fingerprint-laptop1.hide{
+	position: absolute;
+    max-width: 100%;
+    width: 500px;
+	margin: 10% 20%;
+	z-index: -1;
 }
 
 .product-liber-computer .dynamic-performance-laptop {
@@ -897,7 +944,7 @@ section.product-liber-v-gold-keyboard{
 
 .product-liber-computer .light-weight-thin {
 	position: absolute;
-	margin: -10% 40% 0% 20%;
+	margin: 10% 40% 0% 20%;
 	transform: translateX(-50%);
 	transition: 1s;
 }
@@ -905,13 +952,13 @@ section.product-liber-v-gold-keyboard{
 .light-weight-thin.thin{
 	position: absolute;
 	max-width: 100%;
-	margin-top:-100px;
+	margin-top: 100px;
 }
 
 
 .product-liber-computer .light-weight-light {
 	position: absolute;
-	margin: -10% 0% 10% 60%;
+	margin: 10% 0% 10% 60%;
 	max-width: 100%;
 	transform: translateY(-50%);
 	transition: 1s;
@@ -920,9 +967,10 @@ section.product-liber-v-gold-keyboard{
 
 .light-weight-light.light{
 	position: absolute;
-	margin: 0% 0% 10% 60%;
+	margin: 5% 0% 10% 60%;
 	max-width: 100%;
 }
+
 
 
 

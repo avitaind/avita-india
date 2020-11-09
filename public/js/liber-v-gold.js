@@ -51,9 +51,23 @@ var scene = new ScrollMagic.Scene({
 
 
 var scene = new ScrollMagic.Scene({
-    triggerElement:'.keyboard-fingerprint-light',
+    triggerElement:'.keyboard-fingerprint-laptop1',
 })
 
-.setClassToggle('.keyboard-fingerprint-light', 'off')
+.setClassToggle('.keyboard-fingerprint-laptop1', 'hide')
 .addTo(controller);    
+
+
+/** 
+ * Keyboard and Fingerprint
+ * 
+*/
+var scene = new ScrollMagic.Scene({
+    triggerElement:'.battery-life-laptop',
+})
+
+.setClassToggle('.battery-life-laptop', 'large')
+.addTo(controller);    
+
+
 
