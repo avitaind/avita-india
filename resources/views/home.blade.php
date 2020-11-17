@@ -28,7 +28,7 @@
                 <div class="banner-block s-banner">
                     <div class="banner-inner">
                         <div class="banner-wrap">
-                            <a class="banner-bg" href="https://gifts.avita-india.com/" style="background-image: url('/images/demo/@lang('site.home_photo1_image')')"></a>
+                            <a class="banner-bg" href="https://avita-india.com/product/liber/spec" style="background-image: url('/images/demo/@lang('site.home_photo1_image')')"></a>
                         </div>
                     </div>
                 </div>
