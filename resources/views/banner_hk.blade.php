@@ -14,6 +14,7 @@
                 </div>
             </div>
             
+       <!---
             <div class="carousel-item">
                 <div class="responsive-block">
                 <a href="https://gifts.avita-india.com/">
@@ -25,7 +26,7 @@
                 </div>
             </div>
 
-
+    ---->
         <div class="carousel-item">
                 <div class="responsive-block">
                 <a href="https://in.nexstmall.com/">
