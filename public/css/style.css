@@ -594,6 +594,15 @@ section.color-choice .container{
       background-size: 100% 100%;
      }
 
+      .banner-web-liber-v{
+        background: url('/images/banner/avita-liber-v-web-new.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
+    
     .banner-web-admiror{
         background: url('/images/banner/avita-admiror-web-new.jpg');
         -webkit-background-size: 100% 100%;
@@ -640,6 +649,14 @@ section.color-choice .container{
       background-size: 100% 100%;
      }
 
+     .banner-web-liber-v{
+        background: url('/images/banner/avita-liber-v-web-new.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+    
     .banner-web-admiror{
         background: url('/images/banner/avita-admiror-web-new.jpg');
         -webkit-background-size: 100% 100%;
@@ -679,6 +696,14 @@ section.color-choice .container{
 
        .banner-web-essential{
         background: url('/images/banner/avita-essential-web-new.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+    
+    .banner-web-liber-v{
+        background: url('/images/banner/avita-liber-v-web-new.jpg');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -730,6 +755,16 @@ section.color-choice .container{
       background-size: 100% 100%;
      }
 
+    
+        .banner-mob-liber-v{
+        background: url('/images/banner/avita-liber-v-mob-new.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+    
+    
     .banner-mob-admiror{
         background: url('/images/banner/ADMIROR-Mobile.jpg');
         -webkit-background-size: 100% 100%;
@@ -774,6 +809,16 @@ section.color-choice .container{
       -o-background-size: 100% 100%;
       background-size: 100% 100%;
      }
+    
+        
+     .banner-mob-liber-v{
+        background: url('/images/banner/avita-liber-v-mob-new.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+    
 
     .banner-mob-admiror{
         background: url('/images/banner/ADMIROR-Mobile.jpg');
