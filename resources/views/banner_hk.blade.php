@@ -5,25 +5,30 @@
 
         <div class="carousel-item active">
                 <div class="responsive-block">
+                <a href="https://avita-india.com/product/essential">
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-essential"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-essential"></div>
                     </div>
+                    </a>
                 </div>
             </div>
             
   
     <div class="carousel-item">
                 <div class="responsive-block">
+               <a href="https://avita-india.com/product/liber-v">
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-liber-v"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-liber-v"></div>
                     </div>
+                    </a>
                 </div>
             </div>
 
         <div class="carousel-item">
                 <div class="responsive-block">
+                 <a href="https://avita-india.com/product/admiror">
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-admiror"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-admiror"></div>
@@ -33,15 +38,18 @@
 
             <div class="carousel-item">
                 <div class="responsive-block">
+                    <a href="https://avita-india.com/product/pura">
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-pura"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-pura"></div>
                     </div>
+                    </a>
                 </div>
             </div>
 
         <div class="carousel-item">
                 <div class="responsive-block">
+                   <a href="https://avita-india.com/product/magus-lite-2in1-laptop">
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-magus"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-magus"></div>
