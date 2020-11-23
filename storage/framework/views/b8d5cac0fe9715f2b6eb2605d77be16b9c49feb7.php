@@ -5,74 +5,55 @@
 
         <div class="carousel-item active">
                 <div class="responsive-block">
-                <a href="<?php echo e(route('product.overview', ['liber-v-gold-blue'])); ?>">
+                <a href="https://avita-india.com/product/essential">
                     <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-gold"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-gold"></div>
+                        <div class="banner-bg hidden-sm-down banner-web-essential"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-essential"></div>
                     </div>
                     </a>
                 </div>
             </div>
             
-            <div class="carousel-item">
+  
+    <div class="carousel-item">
                 <div class="responsive-block">
-                <a href="https://gifts.avita-india.com/">
+               <a href="https://avita-india.com/product/liber-v">
                     <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-goa"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-goa"></div>
+                        <div class="banner-bg hidden-sm-down banner-web-liber-v"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-liber-v"></div>
                     </div>
                     </a>
                 </div>
             </div>
-
 
         <div class="carousel-item">
                 <div class="responsive-block">
-                <a href="https://in.nexstmall.com/">
+                 <a href="https://avita-india.com/product/admiror">
                     <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-f1"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-f1"></div>
+                        <div class="banner-bg hidden-sm-down banner-web-admiror"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-admiror"></div>
                     </div>
-                    </a>
                 </div>
             </div>
 
             <div class="carousel-item">
                 <div class="responsive-block">
-                <a href="/where-to-buy">
+                    <a href="https://avita-india.com/product/pura">
                     <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-bfl1"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-bfl1"></div>
+                        <div class="banner-bg hidden-sm-down banner-web-pura"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-pura"></div>
                     </div>
                     </a>
                 </div>
             </div>
 
-       
-
-
-            
         <div class="carousel-item">
                 <div class="responsive-block">
-                <a href="https://in.nexstmall.com/">
+                   <a href="https://avita-india.com/product/magus-lite-2in1-laptop">
                     <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-f2"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-f2"></div>
+                        <div class="banner-bg hidden-sm-down banner-web-magus"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-magus"></div>
                     </div>
-                    </a>
-                </div>
-            </div>
-
-    
-     
-            <div class="carousel-item">
-                <div class="responsive-block">
-                <a href="/where-to-buy">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-bfl2"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-bfl2"></div>
-                    </div>
-                    </a>
                 </div>
             </div>
 
