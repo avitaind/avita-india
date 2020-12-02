@@ -53,7 +53,7 @@
                 <div class="banner-block s-banner">
                     <div class="banner-inner">
                         <div class="banner-wrap">
-                            <a class="banner-bg" href="https://www.avita.com/in/login" style="background-image: url('/images/demo/<?php echo app('translator')->getFromJson('site.home_photo4_image'); ?>')"></a>
+                            <a class="banner-bg" href="https://www.avita.com/login" style="background-image: url('/images/demo/<?php echo app('translator')->getFromJson('site.home_photo4_image'); ?>')"></a>
                         </div>
                     </div>
                 </div>
