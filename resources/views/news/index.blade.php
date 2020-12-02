@@ -16,6 +16,8 @@ $page = 'events';
         <section class="focus-event top-nav-padding">
             <div class="container">
                 <h3 class="section-title ls-0 my-5">News and Media</h3>
+                <!---
+                --->
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
@@ -36,27 +38,41 @@ $page = 'events';
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>4 Best Laptops 2020 to increase your productivity in Work from Home</p>
+                            <p>AVITA Partners With Robin Hood Army To Help Underprivileged Children</p>
                             <figure>
                                 <div class="image-wrap">
-                                    <img style="width: 100%; height:100%;" src="/images/publication/local-khabar-logo.png" />
+                                    <img style="width: 100%; height:100%;" src="/images/publication/dt-web.jpg" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
-                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.09.03</div>
-                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong>Local Khabar</div>
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.12.02</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong>Digital Terminal</div>
                                 </figcaption>
                             </figure>
-                            <a class="overlay-link" href="https://localkhabar.com/4-best-laptops-2020-to-increase-your-productivity-in-work-from-home/28740/"></a>
+                            <a class="overlay-link" href="https://digitalterminal.in/news/avita-partners-with-robin-hood-army-to-help-underprivileged-children/20982.html"></a>
                         </div>
                     </div>
-                       
-
-
-                    </div>
-
+                </div>
+                <!---
+                --->
 
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6">
+                        <div class="event-item mb-5">
+                            <p>AVITA Collaborates with Robin Hood Army to Support Underprivileged Children</p>
+                            <figure>
+                                <div class="image-wrap">
+                                    <img style="width: 100%; height:100%;" src="/images/publication/telecom-logo.jpg" />
+                                </div>
+                                <figcaption class="d-flex event-caption coming_soon px-4 py-1">
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i> 2020.12.02</div>
+                                    <div class="event-status coming_soon ml-auto"></strong>Publication:</strong>Telecom Today</div>
+                                </figcaption>
+                            </figure>
+                            <a class="overlay-link" href="http://www.telecomtoday.in/top-stories/avita-collaborates-with-robin-hood-army-to-support-underprivileged-children.html/"></a>
+                        </div>
+                    </div>
+
+                   <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>AVITA to strengthen its offline presence, set to launch a new store in Jaipur</p>
                             <figure>
@@ -73,8 +89,10 @@ $page = 'events';
                         </div>
 
                     </div>
-                     
-                          <div class="col-12 col-md-6">
+               </div>
+
+              <div class="row">
+                    <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>AVITA ने जयपुर में अपने नए स्टोर लॉन्च की घोषणा की</p><br/>
                             <figure>
@@ -89,11 +107,7 @@ $page = 'events';
                             <a class="overlay-link" href="https://ajmernama.com/rajasthan/348887/"></a>
                         </div>
                     </div>
-
-                    </div>
-
-
-                    <div class="row">
+                  
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>AVITA announced its new store launch in Jaipur</p><br/>
@@ -111,7 +125,8 @@ $page = 'events';
                         </div>
 
                     </div>
-                     
+                </div>
+                <div class="row">
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>अवीता का राज्य का पहला स्टोर शुरू</p><br/>
@@ -128,13 +143,9 @@ $page = 'events';
                         </div>
                     </div>
 
-                    </div>
-     
-     
-                <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>Laptop Buying Guide: Best Laptops Under Rs 50,000 That Do Not Compromise On Performance</p><br/>
+                            <p>Laptop Buying Guide: Best Laptops Under Rs 50,000 That Do Not Compromise On Performance</p>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/news-18.jpg" />
@@ -148,11 +159,13 @@ $page = 'events';
 
                         </div>
 
-                    </div>
+                     </div>
                      
-                          <div class="col-12 col-md-6">
+                    </div>
+                <div class="row">
+                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>4 Best Laptops 2020 to increase your productivity in Work from Home</p><br/>
+                            <p>4 Best Laptops 2020 to increase your productivity in Work from Home</p>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/local-khabar-logo.png" />
@@ -166,11 +179,10 @@ $page = 'events';
                         </div>
                     </div>
 
-                    </div>
-                    <div class="row">
+                    
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>यह 4 बेहतरीन लैपटॉप वर्क फ्रॉम होम के लिए हैं सही विकल्प, एक से बढ़कर एक मॉडल</p><br/>
+                            <p>यह 4 बेहतरीन लैपटॉप वर्क फ्रॉम होम के लिए हैं सही विकल्प, एक से बढ़कर एक मॉडल</p>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/india-tv-paisa.jpg" />
@@ -185,10 +197,11 @@ $page = 'events';
                         </div>
 
                     </div>
-                     
+                    </div>
+                <div class="row">
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>4 बेहतरीन लैपटॉप वर्क फ्रॉम होम के लिए हैं सही विकल्प</p><br/><br/>
+                            <p>4 बेहतरीन लैपटॉप वर्क फ्रॉम होम के लिए हैं सही विकल्प</p><br/>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/digit.jpg" />
@@ -203,11 +216,10 @@ $page = 'events';
                         </div>
                     </div>
 
-                    </div>
-                    <div class="row">
+                   
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>Looking for a super thin and ultra-light laptop? Avita is here to meet all your needs!</p><br/>
+                            <p>Looking for a super thin and ultra-light laptop? Avita is here to meet all your needs!</p>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/times-of-republic.jpg" />
@@ -222,10 +234,11 @@ $page = 'events';
                         </div>
 
                     </div>
-                     
+                    </div>
+                    <div class="row">
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>Looking for a super thin and ultra-light laptop? Avita is here to meet all your needs!</p><br/>
+                            <p>Looking for a super thin and ultra-light laptop? Avita is here to meet all your needs!</p>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/zee5-news.jpg" />
@@ -240,8 +253,7 @@ $page = 'events';
                         </div>
                     </div>
 
-                    </div>
-                    <div class="row">
+                  
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>Looking for a super thin and ultra-light laptop? Avita is here to meet all your needs!</p>
@@ -259,12 +271,13 @@ $page = 'events';
                         </div>
 
                     </div>
-                     
+                    </div>
+                    <div class="row">
                        
                   
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>Here's a look at what Avita has in store for you!</p><br/>
+                            <p>Here's a look at what Avita has in store for you!</p><br/><br/>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/big-news-network.jpg" />
@@ -279,15 +292,10 @@ $page = 'events';
                         </div>
 
                     </div>
-                     
-             
-
-                    </div>
-            
-                <div class="row">
+                   
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>Avita's range of thin and light laptops aim to offer a top-notch experience, while still adhering to a range of different budgets and requirements.</p><br/>
+                            <p>Avita's range of thin and light laptops aim to offer a top-notch experience, while still adhering to a range of different budgets and requirements.</p>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/digit.jpg" />
@@ -302,10 +310,12 @@ $page = 'events';
                         </div>
 
                     </div>
-                     
-                          <div class="col-12 col-md-6">
+                 </div>
+            
+                <div class="row">
+                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
-                            <p>On The Hunt For A Thin And Light Laptop? Here'S A Look At What Avita Has In Store For You!</p><br/><br/>
+                            <p>On The Hunt For A Thin And Light Laptop? Here'S A Look At What Avita Has In Store For You!</p>
                             <figure>
                                 <div class="image-wrap">
                                     <img style="width: 100%; height:100%;" src="/images/publication/digit.jpg" />
@@ -320,9 +330,7 @@ $page = 'events';
                         </div>
                     </div>
 
-                    </div>
-
-                    <div class="row">
+              
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>AVITA Introduces New Sleek And Stylish Liber V Laptop In India</p><br/>
@@ -340,7 +348,9 @@ $page = 'events';
                         </div>
 
                     </div>
-                     
+                    </div>
+
+                    <div class="row">
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>AVITA Launches Liber V Laptop with Intel Core 10th Generation Processor</p><br/>
@@ -358,10 +368,7 @@ $page = 'events';
                         </div>
                     </div>
 
-                    </div>
-                    <div class="row">
-                       
-                          <div class="col-12 col-md-6">
+                  <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>AVITA unveils its new laptop Liber V</p><br/><br/>
                             <figure>
@@ -378,7 +385,8 @@ $page = 'events';
                         </div>
 
                     </div>
-                   
+                    </div>
+                    <div class="row">
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>AVITA Liber V announced in India with 10th Gen Intel CPUs, starting from Rs 41,490</p><br/>
@@ -391,15 +399,12 @@ $page = 'events';
                                     <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> Money Control </div>
                                 </figcaption>
                             </figure>
-                  <a class="overlay-link" href="https://www.moneycontrol.com/news/technology/avita-liber-v-announced-in-india-with-10th-gen-intel-cpus-starting-from-rs-41490-5628011.html"></a>
+                         <a class="overlay-link" href="https://www.moneycontrol.com/news/technology/avita-liber-v-announced-in-india-with-10th-gen-intel-cpus-starting-from-rs-41490-5628011.html"></a>
 
                         </div>
                     </div>
-
-                    </div>
-                    <div class="row">
                     
-                          <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>अमेरिकी कंपनी AVITA ने 8GB रैम के साथ भारत में लॉन्च किया लैपटॉप</p><br/>
                             <figure>
@@ -416,6 +421,8 @@ $page = 'events';
                         </div>
 
                     </div>
+                    </div>
+                    <div class="row">
                      
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
@@ -434,10 +441,7 @@ $page = 'events';
                         </div>
                     </div>
 
-                    </div>
-                    <div class="row">
-                       
-                          <div class="col-12 col-md-6">
+                   <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>Avita unveils Liber V laptop with Intel Core 10th gen processor, top-up camera in India</p><br/>
                             <figure>
@@ -454,8 +458,9 @@ $page = 'events';
                         </div>
 
                     </div>
-                      
-                          <div class="col-12 col-md-6">
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>अमेरिकी कंपनी AVITA ने भारत में लॉन्च किया Liber V लैपटॉप, जानें कीमत और फीचर्स</p><br/>
                             <figure>
@@ -471,11 +476,7 @@ $page = 'events';
 
                         </div>
                     </div>
-
-                    </div>
-                    <div class="row">
-                      
-                          <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>Avita launches Liber V14 laptop in India, price starts at Rs 41,490</p><br/>
                             <figure>
@@ -492,6 +493,8 @@ $page = 'events';
                         </div>
 
                     </div>
+                    </div>
+                    <div class="row">
                       
                           <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
@@ -510,10 +513,7 @@ $page = 'events';
                         </div>
                     </div>
 
-                    </div>
-                    <div class="row">
-                     
-                          <div class="col-12 col-md-6">
+                      <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>Avita launches Liber V14 laptop in India, price starts at Rs 41,490</p><br/>
                             <figure>
@@ -530,8 +530,9 @@ $page = 'events';
                         </div>
 
                     </div>
-                     
-                          <div class="col-12 col-md-6">
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>Avita launches Liber V14 laptop in India, price starts at Rs 41,490</p><br/>
                             <figure>
@@ -548,10 +549,7 @@ $page = 'events';
                         </div>
                     </div>
 
-                    </div>
-                    <div class="row">
-                      
-                          <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>New Avita Liber V laptops with AMD or 10th gen Intel chips make India debut, price starts at Rs. 41,490</p><br/>
                             <figure>
@@ -567,9 +565,10 @@ $page = 'events';
 
                         </div>
 
+                      </div>
                     </div>
-                   
-                          <div class="col-12 col-md-6">
+                    <div class="row">
+                      <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>Avita Liber V laptop launched in India: Check price and specifications</p><br/>
                             <figure>
@@ -586,10 +585,7 @@ $page = 'events';
                         </div>
                     </div>
 
-                    </div>
-                    <div class="row">
-                       
-                          <div class="col-12 col-md-6">
+                   <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>AVITA Liber V laptop launched in India with 10th gen Intel CPU, top-up camera</p><br/>
                             <figure>
@@ -606,8 +602,9 @@ $page = 'events';
                         </div>
 
                     </div>
-                   
-                          <div class="col-12 col-md-6">
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>Avita Liber V laptop launched in India: Check price and specifications</p><br/>
                             <figure>
@@ -624,9 +621,6 @@ $page = 'events';
                         </div>
                     </div>
 
-                    </div>
-                  
-                    <div class="row">
                      
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
@@ -644,7 +638,11 @@ $page = 'events';
 
                         </div>
 
+                     </div>
+                    
                     </div>
+                  
+                    <div class="row">
                        <div class="col-12 col-md-6">
                          <div class="event-item mb-5">
                             <p>Avita launch new Liber V14 laptop model</p><br/><br/>
@@ -663,10 +661,7 @@ $page = 'events';
 
                     </div>
                      
-                    
-                    </div>
-                  
-                <div class="row">
+            
                         <!-----
                           ------->
                     <div class="col-12 col-md-6">
@@ -685,6 +680,10 @@ $page = 'events';
 
                         </div>
                     </div>
+                            
+                 </div>
+                  
+                <div class="row">
 
                    <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
@@ -703,8 +702,7 @@ $page = 'events';
                           </div>
 
                         </div>
-                    </div>
-                    <div class="row">
+                  
                     <!-----
                           ------->
                     <div class="col-12 col-md-6">
@@ -722,6 +720,8 @@ $page = 'events';
                             <a class="overlay-link" href="https://www.bgr.in/laptops/avita-teases-liber-v-with-10th-gen-intel-processors-to-take-on-xiaomi-and-honor-904609/"></a>
                         </div>
                     </div>
+                    </div>
+                    <div class="row">
 
                     <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
@@ -741,8 +741,6 @@ $page = 'events';
                     </div>
                   
                 
-                  </div>
-               <div class="row">
                <!---
                 ---->    
                 <div class="col-12 col-md-6">
@@ -761,6 +759,8 @@ $page = 'events';
                     </div>
                  </div>
               
+                 </div>
+               <div class="row">
                     <!-----
                           ------->
                    <div class="col-12 col-md-6">
@@ -779,8 +779,7 @@ $page = 'events';
                          </div>
                       </div>
                   
-                    </div>
-                    <div class="row">
+                  
 
                <!-----
                ------->
@@ -796,12 +795,15 @@ $page = 'events';
                                     <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> Sunday Guardian </div>
                                 </figcaption>
                             </figure>
-                          <!--  <a class="overlay-link" href="/"></a> -->
+                       
 
                         </div>
 
                     </div>
 
+                    </div>
+
+                    <div class="row">
                     <!-----
                     ------->
                       <div class="col-12 col-md-6">
@@ -821,8 +823,7 @@ $page = 'events';
 
                       </div>
                   
-                    </div>
-                    <div class="row">
+                  
                     <!------
                     -------->
                     <div class="col-12 col-md-6">
@@ -841,6 +842,9 @@ $page = 'events';
                         </div>
 
                     </div>
+
+                    </div>
+                    <div class="row">
                    <!----- 
                      ------->
                      <div class="col-12 col-md-6">
@@ -860,9 +864,7 @@ $page = 'events';
 
                      </div>
                    
-                    </div>
-                    <div class="row">
-
+              
                     <!------
                     -------->
                     <div class="col-12 col-md-6">
@@ -881,7 +883,10 @@ $page = 'events';
                         </div>
 
                     </div>
-                   
+
+                    </div>
+                    <div class="row">
+
                     <!-----
                     ------->
                     <div class="col-12 col-md-6">
@@ -901,8 +906,7 @@ $page = 'events';
 
                     </div>
                     
-                    </div>
-                    <div class="row">
+                   
                     <!---
                     -------->
                     <div class="col-12 col-md-6">
@@ -921,6 +925,8 @@ $page = 'events';
                         </div>
 
                     </div>
+                    </div>
+                    <div class="row">
                     <!-----
                      ------->
                   <div class="col-12 col-md-6">
@@ -940,8 +946,7 @@ $page = 'events';
 
                     </div>
                   
-                    </div>
-                    <div class="row">
+                
                     <!---
                     -------->
                     <div class="col-12 col-md-6">
@@ -960,6 +965,8 @@ $page = 'events';
                         </div>
 
                     </div>
+                    </div>
+                    <div class="row">
 
                     <!-----
                     -------->
@@ -981,8 +988,6 @@ $page = 'events';
                     </div>
 
 
-                    </div>
-                    <div class="row">
 
                     <!---
                     -------->
@@ -1003,6 +1008,8 @@ $page = 'events';
 
                     </div>
 
+                    </div>
+                    <div class="row">
 
                     <!------
                     ------->
@@ -1022,9 +1029,7 @@ $page = 'events';
                         </div>
                     </div>
 
-                    </div>
-                    <div class="row">
-
+                 
                     <!------
                     -------->
                     <div class="col-12 col-md-6">
@@ -1043,6 +1048,8 @@ $page = 'events';
                         </div>
                     </div>
        
+                    </div>
+                    <div class="row">
 
                     <!------
                     -------->
@@ -1063,8 +1070,7 @@ $page = 'events';
                         </div>
                      </div>
 
-                    </div>
-                    <div class="row">
+                  
                     <!------
                     -------->
                
@@ -1084,7 +1090,8 @@ $page = 'events';
                         </div>
 
                     </div>
-                    
+                    </div>
+                    <div class="row">
                     <!------
                     -------->
                  
@@ -1105,9 +1112,7 @@ $page = 'events';
 
                     </div>
 
-                    </div>
-                    <div class="row">
-
+                  
                     <!-----
                     -------->
                     <div class="col-12 col-md-6">
@@ -1126,6 +1131,9 @@ $page = 'events';
                         </div>
 
                     </div>
+                    </div>
+                    <div class="row">
+
                     <!-----
                     ------->
                     <div class="col-12 col-md-6">
@@ -1147,8 +1155,7 @@ $page = 'events';
                     <!---
                     ------->
           
-                    </div>
-                    <div class="row">
+              
                     <!---
 
                     -------->
@@ -1168,7 +1175,8 @@ $page = 'events';
                         </div>
 
                     </div>
-                    
+                    </div>
+                    <div class="row">
                     <!-----
 
                            ------->
@@ -1209,7 +1217,6 @@ $page = 'events';
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i>2020.01.08</div>
-                                 <!--   <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> AVITA ADMIROR Flagship Laptop</div>-->
                                 </figcaption>
                             </figure>
                             <a class="overlay-link" href="/ces-events-2020"></a>
@@ -1224,7 +1231,6 @@ $page = 'events';
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i>2019.05.28</div>
-                                  <!--  <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> AVITA ADMIROR Flagship Laptop</div>-->
                                 </figcaption>
                             </figure>
                             <a class="overlay-link" href="/Hong-Kong-tech-innovator-Nexstgo-returns-to-COMPUTEX-2019_final"></a>
@@ -1243,7 +1249,6 @@ $page = 'events';
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i>2019.05.27</div>
-                                  <!--  <div class="event-status coming_soon ml-auto"></strong>Publication:</strong> stylish ADMIROR notebooks</div>-->
                                 </figcaption>
                             </figure>
                             <a class="overlay-link" href="/AVITA-launches-stylish-ADMIROR-notebooks"></a>
@@ -1260,7 +1265,6 @@ $page = 'events';
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
                                     <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i>2019.01.08-11</div>
-                               <!--     <div class="event-status coming_soon ml-auto">Finished</div>-->
                                 </figcaption>
                             </figure>
                             <a class="overlay-link" href="/ces-events"></a>
@@ -1280,7 +1284,6 @@ $page = 'events';
 @section('js')
     <script>
         $('#news-month-option').change( function(event) {
-
             window.location = 'news/'+ $(this).val() ;
         })
     </script>
@@ -1290,7 +1293,6 @@ $page = 'events';
 @section('css')
 
     <style>
-
         .status {
             color: #ffffff;
             display: inline-block;
