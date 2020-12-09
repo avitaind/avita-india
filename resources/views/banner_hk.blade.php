@@ -1,8 +1,6 @@
 <section class="top-nav-padding homepage-banner">
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
-        
-
         <div class="carousel-item active">
                 <div class="responsive-block">
                 <a href="https://avita-india.com/product/essential">
