@@ -76,7 +76,6 @@
 
 	<main class="top-nav-padding">
 
-		@include('partials.product-navbar')
 		@include('partials.rolling-cta')
 	
 	
