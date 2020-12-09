@@ -170,13 +170,9 @@ if ( Request::segment(1) != 'admin') {
     Route::get('/news/{month?}', 'NewsController@showNewsList')->name('news');
     Route::get('/news/detail/{slug}', 'NewsController@showNewsDetail')->name('news.detail');
 
-
-
     //Route::group(['prefix' => '{country}',  'middleware' => 'country' ], function() {
     // Products
- //Route::get('/products', 'ProductsController@products');
-
-
+    //Route::get('/products', 'ProductsController@products');
 
     Route::get('/products', 'ProductsController@getProducts')->name('products');
     Route::get('/accessories/mouse', 'ProductsController@mouse');

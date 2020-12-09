@@ -31,10 +31,10 @@ class NewsController extends Controller
 
         $months = ['all' => trans('site.news_select_month')] + News::getNewsStatistic( );
 
-        return view('news.index', compact('news', 'feature_news', 'months', 'selected_month'));
+        return view('news.index', compact('news','country', 'feature_news', 'months', 'selected_month'));
     }
 
-    public function showNewsDetail( $country, $slug ){
+    public function showNewsDetail($slug){
 
         $country = request()->session()->get('country');
 

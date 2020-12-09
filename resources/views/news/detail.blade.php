@@ -6,7 +6,7 @@
 
 @section('meta')
 
-    <meta property="og:url"                content="{{ route('news.detail', [$country, $news_detail->id] ) }}" />
+    <meta property="og:url"                content="{{ route('news.detail', [ $news_detail->id] ) }}" />
     <meta property="og:type"               content="article" />
     <meta property="og:title"              content="AVITA - {{ $news_detail->title }}" />
     <meta property="og:description"        content="{{ $news_detail->introduction }}" />
@@ -32,15 +32,14 @@
                         {{ $news_detail->title }}
                         </div>
                         --->
-                    @if( $country != 'cn')
+               
 
                         <div class="event-share ml-auto">
                             <span class="px-2">@lang('site.share'):</span>
                             <a href="#" class="ml-0 ml-md-auto fb_share_btn"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             <a href="#" class="ml-0 ml-md-2 twitter_share_btn"><i class="fa fa-twitter pl-1" aria-hidden="true"></i></a>
                         </div>
-
-                    @endif
+                  
 
                 </div>
             @if( $image_url = $news_detail->image_url() )
