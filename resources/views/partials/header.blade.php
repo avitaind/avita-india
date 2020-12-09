@@ -122,6 +122,9 @@
                             <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2"  target="_blank" href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2&page=1&brand=510306">Paytm Mall</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.tatacliq.com/search/?searchCategory=all&text=avita">TATA Cliq</a>
+                            </li>
                        </ul>
                     </div>
                 </li>

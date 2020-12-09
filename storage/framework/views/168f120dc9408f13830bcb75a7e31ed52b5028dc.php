@@ -38,10 +38,11 @@
                                       <li class="nav-item">
                                           <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v'])); ?>"><?php echo app('translator')->getFromJson('site.liber-v'); ?></a>
                                        </li>
-                                    
+                                 
                                        <li class="nav-item">
                                           <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['liber-v-gold-blue'])); ?>"><?php echo app('translator')->getFromJson('site.liber-v-gold'); ?></a>
                                        </li>
+                                      
                                     
                                        <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'magus-lite-2in1-laptop')); ?>"><?php echo app('translator')->getFromJson('magus.name'); ?></a>
@@ -120,6 +121,9 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2"  target="_blank" href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2&page=1&brand=510306">Paytm Mall</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.tatacliq.com/search/?searchCategory=all&text=avita">TATA Cliq</a>
                             </li>
                        </ul>
                     </div>
