@@ -206,7 +206,7 @@ return [
 
     'news_title'                    => 'Events',
     'news_process'                  => 'On Going',
-    'news_other_event'              => 'Other Event',
+    'news_other_event'              => 'Articles',
     'news_select_month'             => 'Choose the month',
 
     // News Status
