@@ -22,7 +22,7 @@
     <section class="other-event py-5" >
    
          <div class="container">
-            <h2 class="page-title mb-5">@lang('site.news_other_event')</h2>
+            <h3 class="section-title ls-0 my-5">@lang('site.news_other_event')</h3>
              <div class="row">
               <select id="news-month-option" class="col-12 col-md-auto event-filter custom-select ml-auto mt-3 mt-md-0">
 

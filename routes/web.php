@@ -16,9 +16,6 @@ Route::get('/support-demo', function () {
     return view('support-demo');
 });
 
-
-
-
 Route::get('/christmas-offer','CustomController@chirstmasOffer');
 
 Route::get('/sales-enquiry', 'SalesEnquiryController@salesEnquiry');
