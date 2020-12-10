@@ -4,34 +4,19 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\News;
+use App\Article;
+
 
 class NewsController extends Controller
 {
-    public function showNewsList($selected_month = "all"){
+    public function showNewsList(){
 
         $country = 'in';
+        $feature_news = News::latest()->orderBy('id', 'desc')->published()->featured()->get();
+        $article = Article::latest()->orderBy('id', 'desc')->limit('4')->get();
 
-        $feature_news = News::whereCountry($country)->published()->featured()->get();
-
-        $query = News::whereCountry($country)->published()->featured(false);
-
-        // Add Month Query
-        if ( $selected_month != "all") {
-
-            $year_string = substr($selected_month, 0, 4);
-            $month_string = substr($selected_month, 4, 2);
-
-            if ( $year_string && $month_string ) {
-                $query->whereRaw("MONTH(start_date) = {$month_string} AND YEAR(start_date) = {$year_string}");
-            }
-
-        }
-
-        $news = $query->paginate(10);
-
-        $months = ['all' => trans('site.news_select_month')] + News::getNewsStatistic( );
-
-        return view('news.index', compact('news','country', 'feature_news', 'months', 'selected_month'));
+      
+        return view('news.index', compact('country','feature_news','article'));
     }
 
     public function showNewsDetail($slug){

@@ -10,9 +10,8 @@
         <div class="container">
             <h3 class="section-title ls-0 my-5">@lang('site.news_title')</h3>
             <div class="row">
-                @foreach ($feature_news as $feature_news)
-                    @component('news.feature_news_block', ['news' => $feature_news ])
-                    @endcomponent
+                @foreach ($feature_news as $news)
+                       {{ $news->title }}
                 @endforeach
             </div>
         </div>
@@ -24,16 +23,9 @@
          <div class="container">
             <h3 class="section-title ls-0 my-5">@lang('site.news_other_event')</h3>
              <div class="row">
-              <select id="news-month-option" class="col-12 col-md-auto event-filter custom-select ml-auto mt-3 mt-md-0">
+       
 
-                   @foreach( $months as $key => $month_name)
-                        <option value="{{ $key }}" {{ $key == $selected_month ? "selected" : "" }} >{{ $month_name }}</option>
-                    @endforeach
-
-                </select>
-    
-
-            @foreach ($news as $item)
+            @foreach ($article as $item)
 
            <a class="list-item d-flex flex-column col-12 col-md-6 col-lg-4 mb-4" target="_blank" href="{{ $item->url }}">
 
@@ -51,7 +43,7 @@
 
             </div>
             <div class="text-center mt-3">
-                {{ $news->links('vendor.pagination.bootstrap-4') }}
+               
             </div>
         </div>
       

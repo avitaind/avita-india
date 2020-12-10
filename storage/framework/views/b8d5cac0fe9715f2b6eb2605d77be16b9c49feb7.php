@@ -52,12 +52,14 @@
                         <div class="banner-bg hidden-sm-down banner-web-magus"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-magus"></div>
                     </div>
+                    </a>
                 </div>
             </div>
 
       
             <div class="carousel-item">
                 <div class="responsive-block">
+                
                     <div class="banner-block responsive-item">
                             <div class="banner-bg hidden-sm-down banner-web-warranty"></div>
                             <div class="banner-bg hidden-md-up banner-mob-warranty"></div>
