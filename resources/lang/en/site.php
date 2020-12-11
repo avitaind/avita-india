@@ -267,7 +267,10 @@ return [
     'essential' => 'Overview Essential',
     'essential_spec' => 'Tech Spec',
     'essential_name' => 'Essential',
-    'article_title' => 'News and Media'
+    'article_title' => 'News and Media',
+    'article_status_finished'=>'Finished',
+    'article_status_processing'=>'Processing',
+    'article_status_coming_soon'=>'Coming Soon',
 
 
 ];

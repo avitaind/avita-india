@@ -84,7 +84,7 @@ class Article extends Model
     public function image_url() {
 
         if ( $this->image_path ) {
-            return \Storage::drive('public')->url( $this->image_path );
+            return url( $this->image_path );
         }
 
         return null;
@@ -94,7 +94,7 @@ class Article extends Model
     public function thumbnail_url() {
 
         if ( $this->thumbnail_path ) {
-            return \Storage::drive('public')->url( $this->thumbnail_path );
+            return url( $this->thumbnail_path );
         }
 
         return null;
