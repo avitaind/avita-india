@@ -15,7 +15,7 @@
                         <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>2020.01.08
                     </div>
                     <div class="event-status px-4 py-1">
-                        In Progress
+                        Finished
                     </div>
                 </div>
                 <div class="row p-3 align-items-center">

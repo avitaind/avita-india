@@ -1264,7 +1264,7 @@ $page = 'events';
                                     <img style="width: 100%;" src="/images/events/CES/IMG_5033.jpg" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
-                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i>2019.01.08-11</div>
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i>2019.01.08</div>
                                 </figcaption>
                             </figure>
                             <a class="overlay-link" href="/ces-events"></a>
