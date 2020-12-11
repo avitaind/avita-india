@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit537449b0b0473ca3ad8ca3845d1cd3a9
+class ComposerStaticInitb3cd941445ab4ec29de9693f45f83661
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -666,7 +666,7 @@ class ComposerStaticInit537449b0b0473ca3ad8ca3845d1cd3a9
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'CountrySeeder' => __DIR__ . '/../..' . '/database/seeds/CountrySeeder.php',
         'CreateAdminTable' => __DIR__ . '/../..' . '/database/migrations/2017_06_24_180504_create_admin_table.php',
-        'CreateArticlesTable' => __DIR__ . '/../..' . '/database/migrations/2020_12_10_120558_create_articles_table.php',
+        'CreateArticlesTable' => __DIR__ . '/../..' . '/database/migrations/2020_12_11_110338_create_articles_table.php',
         'CreateBouncerTables' => __DIR__ . '/../..' . '/database/migrations/2017_06_24_170310_create_bouncer_tables.php',
         'CreateCampusTable' => __DIR__ . '/../..' . '/database/migrations/2020_02_08_182528_create_campus_table.php',
         'CreateCountriesTable' => __DIR__ . '/../..' . '/database/migrations/2017_06_24_152223_create_countries_table.php',
@@ -4769,11 +4769,11 @@ class ComposerStaticInit537449b0b0473ca3ad8ca3845d1cd3a9
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit537449b0b0473ca3ad8ca3845d1cd3a9::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit537449b0b0473ca3ad8ca3845d1cd3a9::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInit537449b0b0473ca3ad8ca3845d1cd3a9::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit537449b0b0473ca3ad8ca3845d1cd3a9::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit537449b0b0473ca3ad8ca3845d1cd3a9::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitb3cd941445ab4ec29de9693f45f83661::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitb3cd941445ab4ec29de9693f45f83661::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInitb3cd941445ab4ec29de9693f45f83661::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitb3cd941445ab4ec29de9693f45f83661::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitb3cd941445ab4ec29de9693f45f83661::$classMap;
 
         }, null, ClassLoader::class);
     }

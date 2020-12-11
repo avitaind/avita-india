@@ -160,7 +160,9 @@ if ( Request::segment(1) != 'admin') {
     Route::get('/search_result', 'HomeController@getSearch_result');
 
 
-    //Support Demo
+    //News and Media | Article
+    Route::get('article', 'ArticleController@showArticleList')->name('article');
+    Route::get('/article/detail/{slug}', 'ArticleController@showArticleDetail')->name('article.detail');
 
     //
     // News

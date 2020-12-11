@@ -266,5 +266,8 @@ return [
     'productnav_overview_ubique' => 'AVITA UBIQUE',
     'essential' => 'Overview Essential',
     'essential_spec' => 'Tech Spec',
-    'essential_name' => 'Essential'
+    'essential_name' => 'Essential',
+    'article_title' => 'News and Media'
+
+
 ];

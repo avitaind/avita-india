@@ -193,7 +193,7 @@ return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'CountrySeeder' => $baseDir . '/database/seeds/CountrySeeder.php',
     'CreateAdminTable' => $baseDir . '/database/migrations/2017_06_24_180504_create_admin_table.php',
-    'CreateArticlesTable' => $baseDir . '/database/migrations/2020_12_10_120558_create_articles_table.php',
+    'CreateArticlesTable' => $baseDir . '/database/migrations/2020_12_11_110338_create_articles_table.php',
     'CreateBouncerTables' => $baseDir . '/database/migrations/2017_06_24_170310_create_bouncer_tables.php',
     'CreateCampusTable' => $baseDir . '/database/migrations/2020_02_08_182528_create_campus_table.php',
     'CreateCountriesTable' => $baseDir . '/database/migrations/2017_06_24_152223_create_countries_table.php',
