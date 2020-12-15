@@ -6,7 +6,7 @@
 
 @section('meta')
 
-    <meta property="og:url"                content="{{ route('article.detail', [$country, $article_detail->id] ) }}" />
+    <meta property="og:url"                content="{{ route('news.detail', [$country, $article_detail->id] ) }}" />
     <meta property="og:type"               content="article" />
     <meta property="og:title"              content="AVITA - {{ $article_detail->title }}" />
     <meta property="og:description"        content="{{ $article_detail->introduction }}" />
