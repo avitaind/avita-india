@@ -6,6 +6,17 @@
 
 @section('content')
 <main>
+<section class="focus-event top-nav-padding">
+        <div class="container">
+            <h3 class="section-title ls-0 my-5">@lang('site.publish_title')</h3>
+            <div class="row">
+                @foreach ($feature_publish as $feature_publish)
+                    @component('article.feature_publish_block', ['publish' => $feature_publish ])
+                    @endcomponent
+                @endforeach
+            </div>
+        </div>
+    </section>
 
     <section class="focus-event top-nav-padding">
         <div class="container">
@@ -19,7 +30,7 @@
         </div>
     </section>
 
-
+   
 
     <div class="gotop-wrap">
         <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>

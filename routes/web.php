@@ -161,13 +161,13 @@ if ( Request::segment(1) != 'admin') {
 
 
     //News and Media | Article
-    Route::get('article', 'ArticleController@showArticleList')->name('article');
-    Route::get('/article/detail/{slug}', 'ArticleController@showArticleDetail')->name('article.detail');
+    Route::get('news', 'ArticleController@showArticleList')->name('news');
+    Route::get('/news/detail/{slug}', 'ArticleController@showArticleDetail')->name('news.detail');
 
     //
     // News
-    Route::get('/news/{month?}', 'NewsController@showNewsList')->name('news');
-    Route::get('/news/detail/{slug}', 'NewsController@showNewsDetail')->name('news.detail');
+    //Route::get('/news/{month?}', 'NewsController@showNewsList')->name('news');
+    //Route::get('/news/detail/{slug}', 'NewsController@showNewsDetail')->name('news.detail');
 
     //Route::group(['prefix' => '{country}',  'middleware' => 'country' ], function() {
     // Products
@@ -248,7 +248,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin'],  'namespace' 
 
 
     
-    Route::resource('news', 'NewsController');
+  //  Route::resource('news', 'NewsController');
 
 
     Route::get('export', 'CustomersController@export')->name('customers.export');

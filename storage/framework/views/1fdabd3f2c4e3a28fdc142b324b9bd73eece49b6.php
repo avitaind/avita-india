@@ -29,11 +29,11 @@ $page = 'events';
                                 </figcaption>
                             </figure>
                             <a class="overlay-link" href="https://candcindia.com/avita-cares-joins-hand-with-the-robin-hood-army-to-conduct-classes-for-underprivileged-children/"></a>
-
                         </div>
 
                     </div>
-                    <div class="col-12 col-md-6">
+
+                <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>AVITA Partners With Robin Hood Army To Help Underprivileged Children</p>
                             <figure>
@@ -1261,7 +1261,7 @@ $page = 'events';
                                     <img style="width: 100%;" src="/images/events/CES/IMG_5033.jpg" />
                                 </div>
                                 <figcaption class="d-flex event-caption coming_soon px-4 py-1">
-                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i>2019.01.08-11</div>
+                                    <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i>2019.01.08</div>
                                 </figcaption>
                             </figure>
                             <a class="overlay-link" href="/ces-events"></a>

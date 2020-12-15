@@ -32,11 +32,11 @@ $page = 'events';
                                 </figcaption>
                             </figure>
                             <a class="overlay-link" href="https://candcindia.com/avita-cares-joins-hand-with-the-robin-hood-army-to-conduct-classes-for-underprivileged-children/"></a>
-
                         </div>
 
                     </div>
-                    <div class="col-12 col-md-6">
+
+                <div class="col-12 col-md-6">
                         <div class="event-item mb-5">
                             <p>AVITA Partners With Robin Hood Army To Help Underprivileged Children</p>
                             <figure>
