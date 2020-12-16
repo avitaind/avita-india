@@ -1,19 +1,17 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.contact_us'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.contact_us')
-@stop
-
-@php
+<?php 
  $page = 'contactus';
-@endphp
+ ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
     <main>
        <section class="aboutus-panel top-nav-padding ls-0">
             <div class="aboutus-contact py-5 px-2">
                 <div class="container">
-                    <h3 class="text-left mt-4 mb-3 font-weight-light">@lang('site.contactus_contactus')</h3>
+                    <h3 class="text-left mt-4 mb-3 font-weight-light"><?php echo app('translator')->getFromJson('site.contactus_contactus'); ?></h3>
                     <p>AVITA Customer Support. We are always available in case you need help. For queries on the product, warranty related inquiries or any form of customer support, please contact us on our  toll-free customer support number or write to on our support email for general sales enquiry.</p>
                     <hr/>
                     <div class="row">
@@ -25,7 +23,7 @@
                             <div class="mb-2"><b>Email :</b><br>
                                 Insales@nexstgo.com</div>
 
-                            <div><b>@lang('site.contactus_operating') :</b><br>
+                            <div><b><?php echo app('translator')->getFromJson('site.contactus_operating'); ?> :</b><br>
                                 Monday to Friday : 9:00 am - 6:00 pm</div>
 
 
@@ -49,4 +47,6 @@
         </div>
    </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
