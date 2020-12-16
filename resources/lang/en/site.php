@@ -271,9 +271,9 @@ return [
     'article_status_finished'=>'Finished',
     'article_status_processing'=>'Processing',
     'article_status_coming_soon'=>'Coming Soon',
-    'publish_title'=>'News and Media',
-
-    
+    'blog_title'=>'Blogs',
+    'blog_published' => 'Published',
+      
 
 
 ];

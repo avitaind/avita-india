@@ -4,7 +4,7 @@
 
 <?php $__env->startSection('meta'); ?>
 
-    <meta property="og:url"                content="<?php echo e(route('article.detail', [$country, $article_detail->id] )); ?>" />
+    <meta property="og:url"                content="<?php echo e(route('news.detail', [$country, $article_detail->id] )); ?>" />
     <meta property="og:type"               content="article" />
     <meta property="og:title"              content="AVITA - <?php echo e($article_detail->title); ?>" />
     <meta property="og:description"        content="<?php echo e($article_detail->introduction); ?>" />

@@ -148,6 +148,7 @@
         src="https://www.facebook.com/tr?id=235106801230662&ev=PageView
         &noscript=1"/>
         </noscript>
+        
 <!-- End Facebook Pixel Code -->
 
     <?php echo $__env->yieldPushContent('css'); ?>

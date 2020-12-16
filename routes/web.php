@@ -38,7 +38,13 @@ Route::post('subscribe', 'HomeController@handleSubscription');
 //Pre Order Controller 
 Route::resource('notify','NotifyController');
 //Blogs Start
-Route::get('/blog','BlogController@index');
+//Route::get('/blog','BlogController@index');
+
+//Blogs
+Route::get('/blog', 'BlogController@showBlogList')->name('blog');
+Route::get('/blog/detail/{slug}', 'BlogController@showBlogDetail')->name('blog.detail');
+//
+
 
 Route::get('/Why-should-your-Personal-Laptop-be-Light-Weighted', 'BlogController@blog1');
 
