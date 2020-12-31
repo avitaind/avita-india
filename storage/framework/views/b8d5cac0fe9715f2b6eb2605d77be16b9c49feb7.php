@@ -3,6 +3,15 @@
         <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
                 <div class="responsive-block">
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-2021"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-2021"></div>
+                    </div>
+                </div>
+        </div>
+            
+        <div class="carousel-item">
+                <div class="responsive-block">
                 <a href="<?php echo e(route('product.overview', ['essential'])); ?>">
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-essential"></div>                  
@@ -10,8 +19,7 @@
                     </div>
                     </a>
                 </div>
-            </div>
-            
+        </div>
   
     <div class="carousel-item">
                 <div class="responsive-block">
@@ -76,6 +84,7 @@
            <li data-target="#home_banner" data-slide-to="3"></li>
            <li data-target="#home_banner" data-slide-to="4"></li>
            <li data-target="#home_banner" data-slide-to="5"></li>
+           <li data-target="#home_banner" data-slide-to="6"></li>
 
         </ol>
     </div>
