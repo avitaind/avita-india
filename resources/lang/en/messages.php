@@ -25,7 +25,7 @@ return [
     'available_on'    => 'Available On',
     'india'    => 'INDIA',
     'all_rights_reserved'    => 'All Rights Reserved',
-    'career'    => 'CAREER',
+    'career'    => 'Career',
 
    //Where to Buy
     'AVITA Exclusive Store'    => 'AVITA Exclusive Store',
