@@ -56,7 +56,7 @@
                             <a href="<?php echo e(route('repair-tnc')); ?>" class="my-1"><?php echo e(__('messages.repair_tnc')); ?></a>
                             <a href="/tnc" class="my-1"><?php echo e(__('messages.terms')); ?></a>
                             <a href="/tnc" class="my-1"><?php echo e(__('messages.privacy')); ?></a>
-                            <a href="https://forms.gle/UGBuhasZap8T3NoP8" class="my-1"><?php echo e(__('messages.career')); ?></a>
+                            <a href="https://forms.gle/UGBuhasZap8T3NoP8" target="_blank" class="my-1"><?php echo e(__('messages.career')); ?></a>
 
                         </div>
                     </div>
@@ -79,7 +79,7 @@
 
                             <a href="/tnc" class="my-1"><?php echo e(__('messages.terms')); ?></a>
                             <a href="/tnc" class="my-1"><?php echo e(__('messages.privacy')); ?></a>
-                            <a href="https://forms.gle/UGBuhasZap8T3NoP8" class="my-1"><?php echo e(__('messages.career')); ?></a>
+                            <a href="https://forms.gle/UGBuhasZap8T3NoP8"  target="_blank"  class="my-1"><?php echo e(__('messages.career')); ?></a>
 
 
                         </div>

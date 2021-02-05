@@ -586,18 +586,9 @@ section.color-choice .container{
 
 @media only screen and (min-width : 1600px) {
 
-    .banner-web-2021{
-        background: url('/images/banner/avita-new-year-web.png');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-
-
-   
+ 
     .banner-web-essential{
-        background: url('/images/banner/avita-essential-web-new.jpg');
+        background: url('/images/banner/Essential-Banner-GIF-File.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -605,7 +596,7 @@ section.color-choice .container{
      }
 
       .banner-web-liber-v{
-        background: url('/images/banner/avita-liber-v-web-new.jpg');
+        background: url('/images/banner/Liber-V-V-day-GIF.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -650,17 +641,10 @@ section.color-choice .container{
 
 /*Laptop Size */
 @media only screen and (min-width : 1200px) {
-    
-    .banner-web-2021{
-        background: url('/images/banner/avita-new-year-web.png');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
+   
 
         .banner-web-essential{
-        background: url('/images/banner/avita-essential-web-new.jpg');
+        background: url('/images/banner/Essential-Banner-GIF-File.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -668,7 +652,7 @@ section.color-choice .container{
      }
 
      .banner-web-liber-v{
-        background: url('/images/banner/avita-liber-v-web-new.jpg');
+        background: url('/images/banner/Liber-V-V-day-GIF.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -712,17 +696,9 @@ section.color-choice .container{
 /*Tab Size*/
 @media only screen and (min-width : 768px){
 
-    
-    .banner-web-2021{
-        background: url('/images/banner/avita-new-year-web.png');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
 
        .banner-web-essential{
-        background: url('/images/banner/avita-essential-web-new.jpg');
+        background: url('/images/banner/Essential-Banner-GIF-File.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -730,7 +706,7 @@ section.color-choice .container{
      }
     
     .banner-web-liber-v{
-        background: url('/images/banner/avita-liber-v-web-new.jpg');
+        background: url('/images/banner/Liber-V-V-day-GIF.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -774,17 +750,10 @@ section.color-choice .container{
 /*Mob Banners*/
 @media only screen and (min-width : 320px)  {
 
-    
-    .banner-mob-2021{
-        background: url('/images/banner/avita-new-year-mob.png');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
+  
     
       .banner-mob-essential{
-        background: url('/images/banner/avita-essential-mob-new.jpg');
+        background: url('/images/banner/Essential-Banner-GIF-Mobile.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -793,7 +762,7 @@ section.color-choice .container{
 
     
         .banner-mob-liber-v{
-        background: url('/images/banner/avita-liber-v-mob-new.jpg');
+        background: url('/images/banner/Liber-V-V-day-GIF-Mobile.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -838,17 +807,9 @@ section.color-choice .container{
 @media only screen and (min-width : 200px)  {
 
 
-        
-    .banner-mob-2021{
-        background: url('/images/banner/avita-new-year-mob.png');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
    
     .banner-mob-essential{
-        background: url('/images/banner/avita-essential-mob-new.jpg');
+        background: url('/images/banner/Essential-Banner-GIF-Mobile.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -857,7 +818,7 @@ section.color-choice .container{
     
         
      .banner-mob-liber-v{
-        background: url('/images/banner/avita-liber-v-mob-new.jpg');
+        background: url('/images/banner/Liber-V-V-day-GIF-Mobile.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
