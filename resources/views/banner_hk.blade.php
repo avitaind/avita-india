@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-
+    <!---
             <div class="carousel-item">
                 <div class="responsive-block">
                     <a href="{{ route('product.overview', ['pura']) }}">
@@ -46,6 +46,7 @@
                 </div>
             </div>
 
+  
         <div class="carousel-item">
                 <div class="responsive-block">
                    <a href="{{ route('product.overview', ['magus-lite-2in1-laptop']) }}">
@@ -56,7 +57,7 @@
                     </a>
                 </div>
             </div>
-
+    ----->
       
             <div class="carousel-item">
                 <div class="responsive-block">
@@ -89,7 +90,7 @@
 <script type="text/javascript">
         $(document).ready(function() {
     $('.carousel').carousel({
-      interval: 8000
+      interval: 4000
     });
   });
   
