@@ -273,6 +273,8 @@ return [
     'article_status_coming_soon'=>'Coming Soon',
     'blog_title'=>'Blogs',
     'blog_published' => 'Published',
+    'publish_title'=>'News',
+
       
 
 

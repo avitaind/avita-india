@@ -2,19 +2,9 @@
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
        
-            
-        <div class="carousel-item active">
-                <div class="responsive-block">
-                <a href="<?php echo e(route('product.overview', ['essential'])); ?>">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-essential"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-essential"></div>
-                    </div>
-                    </a>
-                </div>
-        </div>
+ 
   
-    <div class="carousel-item">
+    <div class="carousel-item active">
                 <div class="responsive-block">
                <a href="<?php echo e(route('product.overview', ['liber-v'])); ?>">
                     <div class="banner-block responsive-item">
@@ -24,6 +14,18 @@
                     </a>
                 </div>
             </div>
+           
+            <div class="carousel-item">
+                <div class="responsive-block">
+                <a href="<?php echo e(route('product.overview', ['essential'])); ?>">
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-essential"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-essential"></div>
+                    </div>
+                    </a>
+                </div>
+        </div>
+
 
         <div class="carousel-item">
                 <div class="responsive-block">
@@ -34,7 +36,7 @@
                     </div>
                 </div>
             </div>
-
+    <!---
             <div class="carousel-item">
                 <div class="responsive-block">
                     <a href="<?php echo e(route('product.overview', ['pura'])); ?>">
@@ -46,6 +48,7 @@
                 </div>
             </div>
 
+  
         <div class="carousel-item">
                 <div class="responsive-block">
                    <a href="<?php echo e(route('product.overview', ['magus-lite-2in1-laptop'])); ?>">
@@ -56,7 +59,7 @@
                     </a>
                 </div>
             </div>
-
+    ----->
       
             <div class="carousel-item">
                 <div class="responsive-block">
@@ -75,8 +78,7 @@
            <li data-target="#home_banner" data-slide-to="1"></li>
            <li data-target="#home_banner" data-slide-to="2"></li>
            <li data-target="#home_banner" data-slide-to="3"></li>
-           <li data-target="#home_banner" data-slide-to="4"></li>
-           <li data-target="#home_banner" data-slide-to="5"></li>
+
 
         </ol>
     </div>
@@ -89,7 +91,7 @@
 <script type="text/javascript">
         $(document).ready(function() {
     $('.carousel').carousel({
-      interval: 8000
+      interval: 4000
     });
   });
   
