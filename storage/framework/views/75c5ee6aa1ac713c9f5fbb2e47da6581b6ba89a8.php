@@ -1,15 +1,13 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.LIBER_v_spec'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.LIBER_v_spec')
-@stop
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 
     <main class="top-nav-padding">
 
-        @include('partials.liber-v-navbar')
-		@include('partials.rolling-cta')
+        <?php echo $__env->make('partials.liber-v-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<?php echo $__env->make('partials.rolling-cta', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         <section>
 
@@ -58,90 +56,90 @@
 
                         <div class="logo-wrapper d-flex px-3 mt-4">
                             <div class="offset-md-1">
-                                <img style="width: 200px;" src="{{ asset('images/win10_logo.png') }}" alt="Windows 10 Home">
+                                <img style="width: 200px;" src="<?php echo e(asset('images/win10_logo.png')); ?>" alt="Windows 10 Home">
                             </div>
                         </div>
 
                         <ul class="list-unstyled spec-list">
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.os')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.os'); ?></div>
                                 <div>Windows 10 Home</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.cpu')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.cpu'); ?></div>
                                 <div>Intel® Core™ i5-10210U / Intel® Core™ i7-10510U / AMD Ryzen™ 5 3500U / AMD Ryzen™ 7 3700U</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.display')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.display'); ?></div>
                                 <div>14" 16:9 Full HD (1920 x 1080) <!-- Anti-Glare IPS Panel with 178 degree wide viewing angle --> </div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.memory')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.memory'); ?></div>
                                 <div>8GB DDR4 2400MHz</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.graphics')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.graphics'); ?></div>
                                 <div>Intel® UHD Graphics 620 / Radeon™ Vega 8 Graphics / Radeon™ RX Vega 10 Graphics</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.storage')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.storage'); ?></div>
                                 <div>512GB / 1TB SSD SATA M.2</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.camera')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.camera'); ?></div>
                                 <div>1M</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.audio')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.audio'); ?></div>
                                 <div>1W x 2 Speakers, Dual Microphones</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.keyboard')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.keyboard'); ?></div>
                                 <div>Full-size Backlit Keyboard</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.wireless')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.wireless'); ?></div>
                                 <div>IEEE 802.11 b/g/n/ac</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.bluetooth')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.bluetooth'); ?></div>
                                 <div>Bluetooth 4.2</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.ports')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.ports'); ?></div>
                                 <div>USB 3.0 x 2, USB3.0 Type-C x 1 (PD 2.0 charging, Display out) /  USB 3.0 x 1, USB2.0 x 1 USB3.0 Type-C x 1 (PD 3.0 charging, Display out), 1 x 3.5mm Headphone Jack, DC in, 1 x MicroSD card slot, 1 x Micro HDMI Type D</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.dimension')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.dimension'); ?></div>
                                 <div>W317.5 X H215.9 X D 18.8 mm</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.weight')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.weight'); ?></div>
                                 <div>Starting from 1.25kg</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.battery')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.battery'); ?></div>
                                 <div>7.6V 4830mAh</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.battery_life')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.battery_life'); ?></div>
                                 <div>Up to 10 hours<sup>*</sup></div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.security')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.security'); ?></div>
                                 <div>With Fingerprint Reader</div>
                             </li>
                            <!-- <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.material')</div>
-                                <div>@lang('prod_spec_hk.liber140_material')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.material'); ?></div>
+                                <div><?php echo app('translator')->getFromJson('prod_spec_hk.liber140_material'); ?></div>
                             </li> -->
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.colour')</div>
-                                <div>Soft Lavender, Summer Pink, Azure Blue, Charming Red, Unicorn Gold, Star Silver, Infinite Black, Shinning White, Original Purple, Anchor Grey, Cloud Silver, Matt Black, Fragrant Lilac, Angel Blue, Blossom Pink, Space Grey, Pearl White<br/>(More colours are coming soon, stay tuned for updates)</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.colour'); ?></div>
+                                <div>Soft Lavender, Summer Pink, Azure Blue, Charming Red, Unicorn Gold, Star Silver, Infinite Black, Shinning White, Original Purple, Anchor Grey, Cloud Silver, Matt Black, Fragrant Lilac, Angel Blue, Blossom Pink, Space Grey, Pearl White<br/>(More colours are coming soon, stay tuned to our updates)</div>
                             </li>
                            <!-- <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.accessories')</div>
-                                <div>@lang('prod_spec_hk.liber140_accessories')</div>
+                                <div class="offset-md-1 col-4 col-md-3"><?php echo app('translator')->getFromJson('prod_spec.accessories'); ?></div>
+                                <div><?php echo app('translator')->getFromJson('prod_spec_hk.liber140_accessories'); ?></div>
                             </li> -->
                         </ul>
                     </div>
@@ -171,4 +169,6 @@
 
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

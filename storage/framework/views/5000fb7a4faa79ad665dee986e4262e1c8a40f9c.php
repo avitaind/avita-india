@@ -11,8 +11,8 @@
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/AVITA_liber_v_banner_web.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/AVITA_liber_v_banner_mob.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/Liber-V-V-day-GIF.gif')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/Liber-V-V-day-GIF-Mobile.gif')"></div>
                     <div class="banner-info">
                         <div class="btn-group mt-3">
                             
