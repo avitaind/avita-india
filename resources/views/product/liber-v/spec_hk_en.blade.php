@@ -130,7 +130,7 @@
                             </li> -->
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.colour')</div>
-                                <div>Cloud Silver, Matt Black, Fragrant Lilac, Angel Blue, Blossom Pink, Space Grey, Pearl White<br/>(14+ colours are coming soon, please stay close to our updates)</div>
+                                <div>Soft Lavender, Summer Pink, Azure Blue, Charming Red, Unicorn Gold, Star Silver, Infinite Black, Shinning White, Original Purple, Anchor Grey, Cloud Silver, Matt Black, Fragrant Lilac, Angel Blue, Blossom Pink, Space Grey, Pearl White<br/>(More colours are coming soon, stay tuned to our updates)</div>
                             </li>
                            <!-- <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.accessories')</div>
