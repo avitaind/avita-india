@@ -30,6 +30,13 @@
                                 <li style="background-color: #f6bdc8" data-image="/images/liber-v/f6bdc8.png"></li> 
                                 <li style="background-color: #787878" data-image="/images/liber-v/787878.png"></li>  
                                 <li style="background-color: #f7f7f7" data-image="/images/liber-v/f7f7f7.png"></li> 
+                                <li style="background-color: #ff6082" data-image="/images/liber-v/ff6082.png"></li>
+                                <li style="background-color: #c54343" data-image="/images/liber-v/c54343.png"></li>
+                                <li style="background-color: #b55cba" data-image="/images/liber-v/b55cba.png"></li>
+                                <li style="background-color: #31496d" data-image="/images/liber-v/31496d.png"></li>
+                                <li style="background-color: #94c880" data-image="/images/liber-v/94c880.png"></li> 
+                                <li style="background-color: #9bbfe3" data-image="/images/liber-v/9bbfe3.png"></li>  
+                                <li style="background-color: #9b5abe" data-image="/images/liber-v/9b5abe.png"></li> 
                             </ul>
                         </a>
   
