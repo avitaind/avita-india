@@ -13,9 +13,13 @@
 Route::get('/','HomeController@redirectToHome')->middleware('cacheable:5');
 //Route::get('/', 'HomeController@redirectToHome');
 
+
+/*
 Route::get('/support-demo', function () {
     return view('support-demo');
 });
+*/
+
 
 Route::get('/christmas-offer','CustomController@chirstmasOffer');
 
