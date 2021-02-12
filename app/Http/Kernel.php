@@ -65,7 +65,8 @@ class Kernel extends HttpKernel
         'throttle'             => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'auth.avita'           => \App\Http\Middleware\AvitaAuthMiddleware::class,
         'api_service_provider' => \App\Http\Middleware\APIServiceProviderMiddleware::class,
-        'cache.headers'        => \App\Http\Middleware\SetCacheHeaders::class
+        'cache.headers'        => \App\Http\Middleware\SetCacheHeaders::class,
+        'cacheable'            =>\App\Http\Middleware\CacheResponse::class,
 
     ];
 }

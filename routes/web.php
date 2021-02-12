@@ -10,7 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'HomeController@redirectToHome');
+Route::get('/','HomeController@redirectToHome')->middleware('cacheable:5');
+//Route::get('/', 'HomeController@redirectToHome');
 
 Route::get('/support-demo', function () {
     return view('support-demo');
