@@ -14,11 +14,8 @@ Route::get('/','HomeController@redirectToHome')->middleware('cacheable:5');
 //Route::get('/', 'HomeController@redirectToHome');
 
 
-/*
-Route::get('/support-demo', function () {
-    return view('support-demo');
-});
-*/
+Route::get('/support-demo','HomeController@supportDemo');
+
 
 
 Route::get('/christmas-offer','CustomController@chirstmasOffer');
@@ -293,7 +290,5 @@ Route::post('/support', 'HomeController@handleSupportRedirect');
 
 Route::get('/search', 'SearchController@search');
 
-Route::get('locale/{locale}', function ($locale){
-    Session::put('locale', $locale);
-    return redirect()->back();
-});
+
+Route::get('locale/{locale}','HomeController@local');

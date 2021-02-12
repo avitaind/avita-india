@@ -101,6 +101,21 @@ class HomeController extends Controller
     }
 */
 
+
+    public function supportDemo(){
+
+        return view('support-demo');
+
+    }
+
+    public function local($locale){
+
+    Session::put('locale', $locale);
+    return redirect()->back();
+
+    }
+
+
     public function handleSupportRedirect(Request $request) {
         $this->validate($request, [
             'product_number'   => 'required',
