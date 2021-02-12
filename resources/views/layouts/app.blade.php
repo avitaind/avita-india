@@ -52,17 +52,17 @@
     @yield('meta')
 
     <title>{{ __('messages.title') }}</title>
-    
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
-    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}"/>
-    <link rel="stylesheet" href="{{ asset('css/global.css') }}"/>
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}"/>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+
+    <link rel="preload" href="{{ asset('css/bootstrap.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+    <link rel="preload" href="{{ asset('css/font-awesome.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+    <link rel="preload" href="{{ asset('css/global.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+    <link rel="preload"  href="{{ asset('css/style.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+    <script defer src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 
 
    <script defer src="//use.typekit.net/wpk4iql.js"></script>
    <script defer>try{Typekit.load();}catch(e){}</script>
-   <script type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
+   <script defer type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
