@@ -16,10 +16,6 @@ Route::get('/','HomeController@redirectToHome')->middleware('cacheable:5');
 
 Route::get('/support-demo','HomeController@supportDemo');
 
-
-
-Route::get('/christmas-offer','CustomController@chirstmasOffer');
-
 Route::get('/sales-enquiry', 'SalesEnquiryController@salesEnquiry');
 Route::post('/sales-enquiry','SalesEnquiryController@enquirySaveData');
 
@@ -93,8 +89,8 @@ Route::get('/lang/{lang}', ['as' => 'lang.switch', 'uses' => 'LanguageController
 
 
 // OAuth Routes
-Route::get('auth/{provider}', 'Auth\AuthController@redirectToProvider');
-Route::get('auth/{provider}/callback', 'Auth\AuthController@handleProviderCallback');
+//Route::get('auth/{provider}', 'Auth\AuthController@redirectToProvider');
+//Route::get('auth/{provider}/callback', 'Auth\AuthController@handleProviderCallback');
 
 
 // Global URLs.

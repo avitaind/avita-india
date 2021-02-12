@@ -82,6 +82,7 @@ return array(
     'App\\Http\\Middleware\\APIServiceProviderMiddleware' => $baseDir . '/app/Http/Middleware/APIServiceProviderMiddleware.php',
     'App\\Http\\Middleware\\AppMiddleware' => $baseDir . '/app/Http/Middleware/AppMiddleware.php',
     'App\\Http\\Middleware\\AvitaAuthMiddleware' => $baseDir . '/app/Http/Middleware/AvitaAuthMiddleware.php',
+    'App\\Http\\Middleware\\CacheResponse' => $baseDir . '/app/Http/Middleware/CacheResponse.php',
     'App\\Http\\Middleware\\CountryMiddleware' => $baseDir . '/app/Http/Middleware/CountryMiddleware.php',
     'App\\Http\\Middleware\\EncryptCookies' => $baseDir . '/app/Http/Middleware/EncryptCookies.php',
     'App\\Http\\Middleware\\Language' => $baseDir . '/app/Http/Middleware/Language.php',

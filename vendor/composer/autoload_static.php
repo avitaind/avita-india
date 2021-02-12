@@ -555,6 +555,7 @@ class ComposerStaticInit32ea8de922307936540fcd2b09e6ecf1
         'App\\Http\\Middleware\\APIServiceProviderMiddleware' => __DIR__ . '/../..' . '/app/Http/Middleware/APIServiceProviderMiddleware.php',
         'App\\Http\\Middleware\\AppMiddleware' => __DIR__ . '/../..' . '/app/Http/Middleware/AppMiddleware.php',
         'App\\Http\\Middleware\\AvitaAuthMiddleware' => __DIR__ . '/../..' . '/app/Http/Middleware/AvitaAuthMiddleware.php',
+        'App\\Http\\Middleware\\CacheResponse' => __DIR__ . '/../..' . '/app/Http/Middleware/CacheResponse.php',
         'App\\Http\\Middleware\\CountryMiddleware' => __DIR__ . '/../..' . '/app/Http/Middleware/CountryMiddleware.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\Language' => __DIR__ . '/../..' . '/app/Http/Middleware/Language.php',
