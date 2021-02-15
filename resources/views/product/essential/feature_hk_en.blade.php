@@ -11,8 +11,8 @@
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/Essential-Banner-GIF-File.gif')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/Essential-Banner-GIF-Mobile.gif')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/avita-essential-web-new.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/avita-essential-mob-new.jpg')"></div>
                     <div class="banner-info">
                         <div class="an-scroll-wrap">
                             <div class="an-scroll">
