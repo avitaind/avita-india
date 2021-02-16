@@ -114,6 +114,6 @@
 
 @section('js')
 
-    <script type="text/javascript" src="{{ asset('js/liber.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/liber-v-gold.js') }}"></script>
 
 @endsection

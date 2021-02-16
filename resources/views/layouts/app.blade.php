@@ -12,7 +12,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ $xml_lang }}" lang="{{ app()->getLocale() }}">
 <head>
 
-
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
@@ -53,11 +52,11 @@
 
     <title>{{ __('messages.title') }}</title>
 
-    <link rel="preload" href="{{ asset('css/bootstrap.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
-    <link rel="preload" href="{{ asset('css/font-awesome.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
-    <link rel="preload" href="{{ asset('css/global.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
-    <link rel="preload"  href="{{ asset('css/style.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
-    <script defer src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/global.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 
@@ -74,6 +73,7 @@
     @if( $ga_code )
 
     <script type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
+
 
 
     <script type="application/ld+json">
