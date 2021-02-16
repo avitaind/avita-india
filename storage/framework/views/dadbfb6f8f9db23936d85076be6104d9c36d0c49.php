@@ -52,10 +52,10 @@
 
     <title><?php echo e(__('messages.title')); ?></title>
 
-    <link rel="preload" href="<?php echo e(asset('css/bootstrap.min.css')); ?>" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
-    <link rel="preload" href="<?php echo e(asset('css/font-awesome.min.css')); ?>" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
-    <link rel="preload" href="<?php echo e(asset('css/global.css')); ?>" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
-    <link rel="preload"  href="<?php echo e(asset('css/style.css')); ?>" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+    <link rel="stylesheet" href="<?php echo e(asset('css/bootstrap.min.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(asset('css/font-awesome.min.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(asset('css/global.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(asset('css/style.css')); ?>" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
