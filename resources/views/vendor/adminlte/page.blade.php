@@ -127,8 +127,7 @@
             <!-- Main content -->
             <section class="content">
 
-              @include('alert::bootstrap') 
-
+          
                 @if( $errors->any() )
                     <div class="alert alert-danger" role="alert">
                         <strong>Errors:</strong> Required fields missing, please check the form, included different tabs.
