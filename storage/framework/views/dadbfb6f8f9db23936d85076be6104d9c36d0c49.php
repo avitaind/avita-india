@@ -184,6 +184,7 @@
     <?php echo $__env->make('partials.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 <?php endif; ?>
 
+<script type="text/javascript" src="<?php echo e(asset('js/support.js')); ?>"></script>
 
 <script defer type="text/javascript" src="<?php echo e(asset('js/vendor.js')); ?>"></script>
 <script defer type="text/javascript" src="<?php echo e(asset('js/demo.js')); ?>"></script>

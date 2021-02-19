@@ -28,10 +28,8 @@
                 </div>
             </div>
         </section>
-
-        
-        
-         <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
+    
+     <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
                 <div class="container">
                         <div class="space60"></div>
                         <div class="banner-para">
@@ -51,26 +49,20 @@
                     </div>
                 </div>
         </section>
-
-        
-
         <section class="product-liber-computer product-liber-v-computer">
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="container">
-                
                     <div class="banner-info">
                     	<div class="h1 banner-header mb-4 mb-sm-5">Avant Garde Design</div>
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">Inspired by the neat geometric lines of La Muralla Roja (The Red Wall) fortress in Spain, the perfect embodiment of Post-Modern architecture, LIBER V’s design completely justifies its slogan ‘Limitless evolution’. Its high-quality webcam stands out quite literally, perfectly completing the picture of a sleek and angular body with pleasing aesthetics. LIBER V comes in 14 vibrant color options* encasing an ultra-slim Aluminum build and equipped with an easy-to-open clip thereby achieving the trifecta of design, durability and function.</span> 
                         </div> 
                     </div>
-                    
                     <div class="banner-image">
                     	<img class="bc-computer-image bc-computer-1" src="/images/liber-v/LiberV_14colors_hk_en2.png">
                     </div>
-                    
-                </div>
+                  </div>
             </div>
         </section>
         

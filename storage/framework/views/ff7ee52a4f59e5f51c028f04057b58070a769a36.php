@@ -132,8 +132,7 @@
             <!-- Main content -->
             <section class="content">
 
-              <?php echo $__env->make('alert::bootstrap', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?> 
-
+          
                 <?php if( $errors->any() ): ?>
                     <div class="alert alert-danger" role="alert">
                         <strong>Errors:</strong> Required fields missing, please check the form, included different tabs.
