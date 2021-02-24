@@ -36,7 +36,8 @@
 
                         </div>
                         <div class="col-sm-6">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14018.80764606324!2d77.27820308857007!3d28.548678217944985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce342cfe1b883%3A0x49d836c6d03ff6da!2sCopia%20Corporate%20Suites%20Jasola!5e0!3m2!1sen!2sin!4v1608119662161!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.2536055828955!2d77.28351261508101!3d28.562146382445686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce7ea6bcee9bf%3A0x4fee98c6c6f1c5b1!2sAVITA%20India!5e0!3m2!1sen!2sin!4v1614163274176!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
                     </div>
                 </div>
 
