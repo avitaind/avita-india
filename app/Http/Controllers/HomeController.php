@@ -89,7 +89,7 @@ class HomeController extends Controller
      }       
 
 
-/*
+
     public function getSupport( ){
 
         $productModels = ProductModel::all();
@@ -99,10 +99,9 @@ class HomeController extends Controller
 
         return view('pages.support', compact('productModels', 'serviceCenters'));
     }
-*/
 
 
-    public function supportDemo(){
+    /*public function supportDemo(){
 
         return view('support-demo');
 
@@ -114,7 +113,7 @@ class HomeController extends Controller
     return redirect()->back();
 
     }
-
+*/
 
     public function handleSupportRedirect(Request $request) {
         $this->validate($request, [
@@ -158,7 +157,7 @@ class HomeController extends Controller
 
         // Determine which contact_us page by region
 
-        $country_code = session('country', 'hk');
+        $country_code = session('country', 'in');
 
         $view_name = 'pages.contact-us-'.$country_code;
 
