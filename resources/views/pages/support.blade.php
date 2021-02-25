@@ -217,6 +217,7 @@ Due to the global outbreak of the coronavirus (COVID-19), the service center wil
 
     <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
 
+    <script type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
 
 
 @endsection
