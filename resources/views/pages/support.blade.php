@@ -214,7 +214,6 @@ Due to the global outbreak of the coronavirus (COVID-19), the service center wil
     </script>
 
 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL2du53CNS9kfAQ1itk4kwF4aSBSjIgHE&callback=initMap"></script>
 
     <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
 
