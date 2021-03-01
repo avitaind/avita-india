@@ -49,8 +49,8 @@ $productTypeField.change(function() {
 
     if ( $(this).val() ) {
 
-       // var url = "https://asp.avita.global/api/product/product-series?country=in&brand=avita&type=1";
-        var url = "/api/products/series";
+        var url = "https://asp.avita.global/api/product/product-series?country=in&brand=avita&type=1";
+       // var url = "/api/products/series";
 
         $.getJSON( url, {
             type: $(this).val()
@@ -94,8 +94,8 @@ $productSeriesField.change(function() {
     var select = $marketingNumberField;
 
     if ( $(this).val() ) {
-        //var url = "https://asp.avita.global/api/product/marketing-numbers?country=in&brand=avita&series=liber";
-        var url = "/api/products/marketing_numbers";
+        var url = "https://asp.avita.global/api/product/marketing-numbers?country=in&brand=avita&series=liber";
+     //   var url = "/api/products/marketing_numbers";
 
         $.getJSON( url, {
             series: $(this).val()
@@ -138,8 +138,8 @@ $marketingNumberField.change(function() {
     var select = $productNumberField;
 
     if ( $(this).val() ) {
-       // var url = "https://asp.avita.global/api/product/product-models?country=in&brand=avita&marketing_number=NS13A1";
-       var url = "/api/products/models";
+       var url = "https://asp.avita.global/api/product/product-models?country=in&brand=avita&marketing_number=NS13A1";
+     //  var url = "/api/products/models";
 
         $.getJSON( url, {
             marketing_number: $(this).val()
