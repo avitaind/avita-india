@@ -217,7 +217,8 @@ Due to the global outbreak of the coronavirus (COVID-19), the service center wil
 
 
 
-    <script type="text/javascript" src="<?php echo e(asset('js/support.js')); ?>"></script>
+    <script type="text/javascript" defer src="<?php echo e(asset('js/support.js')); ?>"></script>
+    <script type="text/javascript" defer src="<?php echo e(asset('js/demo.js')); ?>"></script>
 
 
 
