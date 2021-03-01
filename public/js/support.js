@@ -8,8 +8,8 @@ var $productConfiguartionField = $("#product_config_field");
 // 1. Product Type
 $productTypeField.on('init', function() {
 
-//    var url = "https://asp.avita.global/api/product/types";
-        var url = "/api/products/types";
+    var url = "https://asp.avita.global/api/product/types";
+//        var url = "/api/products/types";
 
     $.getJSON( url ).done(function ( data ) {
 
