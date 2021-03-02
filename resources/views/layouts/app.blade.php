@@ -184,9 +184,9 @@
     @include('partials.footer')
 @endif
 
-<script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
-<script defer type="text/javascript" src="{{ asset('js/vendor.js') }}"></script>
-<script defer type="text/javascript" src="{{ asset('js/demo.js') }}"></script>
+<script type="text/javascript" defer src="{{ asset('js/support.js') }}"></script>
+<script defer type="text/javascript" defer src="{{ asset('js/vendor.js') }}"></script>
+<script defer type="text/javascript"defer src="{{ asset('js/demo.js') }}"></script>
 
 <!-- Facebook API -->
 <!---
