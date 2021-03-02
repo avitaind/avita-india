@@ -184,9 +184,7 @@
     @include('partials.footer')
 @endif
 
-<script type="text/javascript" defer src="{{ asset('js/support.js') }}"></script>
-<script defer type="text/javascript" defer src="{{ asset('js/vendor.js') }}"></script>
-<script defer type="text/javascript"defer src="{{ asset('js/demo.js') }}"></script>
+
 
 <!-- Facebook API -->
 <!---
@@ -220,10 +218,12 @@
     var google_remarketing_only = true;
     /* ]]> */
 </script>
+<script defer type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
 
+<script type="text/javascript" defer src="{{ asset('js/support.js') }}"></script>
+<script defer type="text/javascript" defer src="{{ asset('js/vendor.js') }}"></script>
+<script defer type="text/javascript"defer src="{{ asset('js/demo.js') }}"></script>
 
-
-    <script defer type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
 
     <noscript>
     <div class="googleads">
