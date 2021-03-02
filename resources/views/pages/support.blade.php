@@ -184,7 +184,11 @@ Due to the global outbreak of the coronavirus (COVID-19), the service center wil
 @endsection
 
 @section('js')
-    <script>
+
+<script type="text/javascript" defer src="{{ asset('js/support.js') }}"></script>
+    <script type="text/javascript" defer src="{{ asset('js/demo.js') }}"></script>
+   <!--
+        <script>
         function initMap() {
 
             // Get all lat lng
@@ -212,11 +216,10 @@ Due to the global outbreak of the coronavirus (COVID-19), the service center wil
 
         }
     </script>
+    --->
 
 
 
-    <script type="text/javascript" defer src="{{ asset('js/support.js') }}"></script>
-    <script type="text/javascript" defer src="{{ asset('js/demo.js') }}"></script>
 
 
 
