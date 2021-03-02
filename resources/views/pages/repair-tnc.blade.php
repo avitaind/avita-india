@@ -3,7 +3,7 @@
 @section('title')
     {{ $title }}
 @stop
-@php
+    @php
         $page = 'repairs';
     @endphp
 

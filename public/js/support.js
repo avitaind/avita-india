@@ -2,8 +2,8 @@ var $productTypeField = $('#product_type_field');
 var $productSeriesField = $('#product_series_field');
 var $productNumberField = $('#product_number_field');
 var $marketingNumberField = $('#marketing_number_field');
-var $productModelField = $("#product_model_field");
-var $productConfiguartionField = $("#product_config_field");
+var $productModelField = $('#product_model_field');
+var $productConfiguartionField = $('#product_config_field');
 
 // 1. Product Type
 $productTypeField.on('init', function() {
