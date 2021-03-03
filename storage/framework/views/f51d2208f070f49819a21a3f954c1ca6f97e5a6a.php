@@ -11,7 +11,6 @@
 <main class="top-nav-padding">
 
 	<?php echo $__env->make('partials.product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-	<?php echo $__env->make('partials.rolling-cta', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
 	<section class="product-support-section">
 		<div class="tab-product-support">
@@ -59,9 +58,13 @@
 							
 							<div class="mt-4">
 
+						
+
 									<p class="text-left">The entirety of AVITA Laptop products do not support update of Windows 10 S.</p>
 									<p class="text-left">AVITA does not have plans to release Windows 10 S based Laptop products.</p>
 							
+
+
 							</div>
 
 						</div>
@@ -180,7 +183,6 @@
 
 <?php $__env->startSection('js'); ?>
 
-    <script type="text/javascript" src="<?php echo e(asset('js/support.js')); ?>"></script>
 
 	<script>
 
@@ -204,6 +206,7 @@
 
 
 	</script>
+<script type="text/javascript" defer src="<?php echo e(asset('js/support.js')); ?>"></script>
 
 <?php $__env->stopSection(); ?>
 

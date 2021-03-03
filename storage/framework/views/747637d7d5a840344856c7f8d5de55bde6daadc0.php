@@ -186,7 +186,9 @@ Due to the global outbreak of the coronavirus (COVID-19), the service center wil
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('js'); ?>
-    <script>
+
+   <!--
+        <script>
         function initMap() {
 
             // Get all lat lng
@@ -214,10 +216,11 @@ Due to the global outbreak of the coronavirus (COVID-19), the service center wil
 
         }
     </script>
-
-
+    --->
 
     <script type="text/javascript" defer src="<?php echo e(asset('js/support.js')); ?>"></script>
+
+
 
 
 
