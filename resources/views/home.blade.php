@@ -91,6 +91,7 @@
     </form>
       
         <p class="download-brochure" ><a href="/images/AVITA-Products-Brochure.pdf" target="_blank" download="AVITA-Family-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button">{{ __('messages.brochuer') }}</button></a></p>
+     <!---   <p class="download-brochure" ><a href="/images/Revised-Product-Brochure.pdf" target="_blank" download="Revised-Product-Brochure.pdf"><button class="btn btn-primary btn-lg " type="button">{{ __('messages.brochuer') }}</button></a></p> --->
 
     </section>
 
