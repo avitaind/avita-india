@@ -62,7 +62,4 @@
         </div>
     @endforeach
 
-    <script type="text/javascript" defer src="{{ asset('js/support.js') }}"></script>
-
-
 </div>
