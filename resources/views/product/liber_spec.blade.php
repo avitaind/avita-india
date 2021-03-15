@@ -53,7 +53,7 @@
                         </a>
                           --->
                         <a class="col text-center nav-link" data-toggle="tab" href="#spec-2" role="tab">
-                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">14" (35.56 cm)</div></div>
+                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA LIBER</div><div class="d-sm-block">(35.56 cm)</div></div>
                             <img class="hidden-sm-down" src="/images/liber/u14/silver.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4">
 

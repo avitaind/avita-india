@@ -46,7 +46,7 @@
 
 <!-------------- PURA 14-inch-------------->
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-4" role="tab">
-                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA PURA</div><div class="d-sm-block">(14-inch)</div></div>
+                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA PURA</div><div class="d-sm-block">(35.56 cm)</div></div>
                             <!--<img class="hidden-sm-down" src="/images/liber/u13/lightpurple.png"> -->
                             <img class="hidden-sm-down" src="/images/pura/Pura_grey.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">  

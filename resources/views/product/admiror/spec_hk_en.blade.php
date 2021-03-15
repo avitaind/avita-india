@@ -54,7 +54,7 @@
 
 <!------------- AVITA ADMIROR (14-inch) -------------->
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-4" role="tab">
-                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA ADMIROR</div><div class="d-sm-block">(14-inch)</div></div>
+                            <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA ADMIROR</div><div class="d-sm-block">(35.56 cm)</div></div>
                             <img class="hidden-sm-down" src="/images/admiror/admiror_brown.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">   
                                 <li style="background-color: #b1816b"  class="active"  data-image="/images/admiror/admiror_brown.png"></li> 

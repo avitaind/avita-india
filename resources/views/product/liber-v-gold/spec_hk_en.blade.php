@@ -20,7 +20,7 @@
  
 <!--------------LIBER v 14"(New Generation)-------------->
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-140" role="tab">
-                            <div class="spec-item-name mb-12"><div class="d-sm-block">AVITA LIBER V GOLD</div><div class="d-sm-block">(14-inch)</div></div>
+                            <div class="spec-item-name mb-12"><div class="d-sm-block">AVITA LIBER V GOLD</div><div class="d-sm-block">(35.56 cm)</div></div>
                             <img class="hidden-sm-down" src="/images/liber-v-gold/333333.jpg">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4"> 
                                 <li style="background-color: #333333" class="active" data-image="/images/liber-v-gold/333333.jpg"></li>
