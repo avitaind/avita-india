@@ -174,7 +174,7 @@
                             <div class="data-card mx-3 text-left">
                                 <span class="badge-value">1.377</span>
 								<span class="badge-caption">kg</span>
-								<div class="badge-caption">14-inch weight</div>
+								<div class="badge-caption">35.56 cm weight</div>
                             </div>
                         </div>
 						</section>  

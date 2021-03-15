@@ -167,7 +167,7 @@
                         </div>
                 
                         <div class="banner-para ls-0">
-The 14-inch AVITA PURA embraces a super slim outfit and weighs from a mere 1.21 kg, offering you unparalleled portability and ease of use.</span>   </div>
+The 35.56 cm AVITA PURA embraces a super slim outfit and weighs from a mere 1.21 kg, offering you unparalleled portability and ease of use.</span>   </div>
                         <section class="product-liber-wifi">
                             <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
                             <div class="data-card mx-3 text-left">
@@ -179,7 +179,7 @@ The 14-inch AVITA PURA embraces a super slim outfit and weighs from a mere 1.21 
 			 <div class="data-card mx-3 text-left">
                            <span class="badge-value">1.21 </span>
 			    <span class="badge-caption">kg</span>
-				<div class="badge-caption">14-inch weight</div>
+				<div class="badge-caption">35.56 cm weight</div>
                             </div>
                         </div>
 			</section>  

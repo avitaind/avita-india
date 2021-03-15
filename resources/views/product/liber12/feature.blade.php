@@ -99,7 +99,7 @@
                                 <div class="badge-caption">Starting from</div>
                                 <span class="badge-value">1.14</span>
 								<span class="badge-caption">kg</span>
-								<div  class="badge-caption pt-1">12.5-inch weight</div>
+								<div  class="badge-caption pt-1">31.75 cm weight</div>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@
                             <span class="d-lg-block">Therefore, LIBER incorporates a pleasing-to-use</span>
                             <span class="d-lg-block">keyboard of delicate details that ensures</span>
                             <span class="d-lg-block">the best comfort and accuracy for you. An extra-large touch pad is equipped on every LIBER to enable intuitive manipulation.</span>
-                            <span class="d-lg-block"><small>*Backlit keyboard, which improve input experience in dimly-lit environment, is available on all 12.5-inch models</small></span>
+                            <span class="d-lg-block"><small>*Backlit keyboard, which improve input experience in dimly-lit environment, is available on all 31.75 cm models</small></span>
 
                         </div>
                         <!-- <div class="banner-data d-flex justify-content-around">
@@ -422,7 +422,7 @@
                             <span class="d-lg-block">LIBER offers the speediest online means, </span>
                             <span class="d-lg-block">which is three times faster than an 802.11n connection.</span>
                             <span class="d-lg-block">
-                                <small>*12.5-inch provides one USB Type-C port  (with additional USB-C to USB + HDMI adapter for free)</small>
+                                <small>*31.75 cm provides one USB Type-C port  (with additional USB-C to USB + HDMI adapter for free)</small>
                             </span>
 
                         </div>

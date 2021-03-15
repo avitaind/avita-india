@@ -248,7 +248,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Display</div>
-                                <div>14" FHD IPS (1920 x 1080)</div>
+                                <div>35.56 cm FHD IPS (1920 x 1080)</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>
