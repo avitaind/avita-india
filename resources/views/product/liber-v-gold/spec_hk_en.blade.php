@@ -61,7 +61,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.display')</div>
-                                <div>35.56 cm 16:9 Full HD (1920 x 1080) </div>
+                                <div>14 16:9 Full HD (1920 x 1080) </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.memory')</div>

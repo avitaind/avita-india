@@ -70,7 +70,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.dis')</div>
-                                <div>12.2&quot; TFT,  (1920 x 1200) IPS Touch Screen</div>
+                                <div>12.2 TFT,  (1920 x 1200) IPS Touch Screen</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('magus.mem')</div>
