@@ -115,7 +115,7 @@
                         </div>
 
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Measuring merely 20mm for the 14" model, the lightweight, effortlessly portable Essential is designed to accompany you wherever you go. The thin bezel design in both models offers a maximized screen area that makes graphics more immersive. Outstanding visuals and being easy to carry around means conducting presentations or streaming movies on the go can never be easier.</span>
+                            <span class="d-lg-block">Measuring merely 20mm for the 14 model, the lightweight, effortlessly portable Essential is designed to accompany you wherever you go. The thin bezel design in both models offers a maximized screen area that makes graphics more immersive. Outstanding visuals and being easy to carry around means conducting presentations or streaming movies on the go can never be easier.</span>
                             <span class="d-lg-block"><a href="{{ route('product.spec', 'essential') }}" style="color:#09F">@lang('site.productnav_spec') ></a></span>
                         </div>
                         
