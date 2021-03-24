@@ -7,7 +7,7 @@ return [
     'laptops'    => 'Laptops',
     'smart device'    => 'Smart Device',
     'accessories'    => 'Accessories',
-    'news'  => "What's New",
+    'news'  => "News",
     'where_to_buy'    => 'Where to Buy',
     'support'    => 'Service',
     'buy_online'    => 'Buy Online',
