@@ -22,6 +22,12 @@ class HomeController extends Controller
 
     }
 
+    public function fools( ) {
+
+        return view('april-fools.index');
+ 
+     }
+
     public function entry(){
         return view('global');
     }

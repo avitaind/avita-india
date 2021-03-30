@@ -288,3 +288,4 @@ Route::get('/search', 'SearchController@search');
 
 
 Route::get('locale/{locale}','HomeController@local');
+Route::get('april-fools', 'HomeController@fools');
