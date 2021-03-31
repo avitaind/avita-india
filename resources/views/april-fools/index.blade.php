@@ -15,8 +15,7 @@
 	<div class="container" style="padding: 10% 40%;">
 		<img src="/images/april-fool.gif" style="width: 100%">
 		
-	<h1>Lorem Ipsum</h1>
-	<p>What is Lorem Ipsum?</p>	
+	<h2>You have been April Fooled!!!</h2>
 </div>
 </body>
 </html>
