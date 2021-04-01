@@ -8,18 +8,26 @@
 		}
 
 	.text {
-  		font-family: "Audiowide", sans-serif;
+		font-family: "Audiowide", sans-serif;
 		text-align: center;
 		font-size: 21px;
 		margin-top:5%;
 		}
 
+		
+
 		/*Mob Size*/
 
-@media  only screen and (max-width: 350px) {
+@media  only screen and (max-width: 768px) {
+
 		.container{
-				padding: 25%;
+				padding: 5%;
 		}
+
+		body{
+			margin-top: 20%!important;
+		}
+
 		.text{
   		font-family: "Audiowide", sans-serif;
 		text-align: center;
@@ -34,6 +42,8 @@
 <body>
 	<div class="container">
 		<img src="/images/april-fool.gif" style="width: 100%;">
+
+		
 		<br/>
 		<div class="text">You have been April Fooled!!!</div>
 
