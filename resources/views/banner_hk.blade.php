@@ -3,8 +3,19 @@
         <div class="carousel-inner" role="listbox">
        
  
-  
-    <div class="carousel-item active">
+   
+        <div class="carousel-item active">
+                <div class="responsive-block">
+                <a href="https://in.nexstmall.com/collections/gifts-on-air">
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-goa"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-goa"></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+    <div class="carousel-item">
                 <div class="responsive-block">
                <a href="{{ route('product.overview', ['liber-v']) }}">
                     <div class="banner-block responsive-item">
@@ -36,30 +47,6 @@
                     </div>
                 </div>
             </div>
-    <!---
-            <div class="carousel-item">
-                <div class="responsive-block">
-                    <a href="{{ route('product.overview', ['pura']) }}">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-pura"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-pura"></div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-
-  
-        <div class="carousel-item">
-                <div class="responsive-block">
-                   <a href="{{ route('product.overview', ['magus-lite-2in1-laptop']) }}">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-magus"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-magus"></div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-    ----->
       
             <div class="carousel-item">
                 <div class="responsive-block">
@@ -78,6 +65,7 @@
            <li data-target="#home_banner" data-slide-to="1"></li>
            <li data-target="#home_banner" data-slide-to="2"></li>
            <li data-target="#home_banner" data-slide-to="3"></li>
+           <li data-target="#home_banner" data-slide-to="4"></li>
 
 
         </ol>
