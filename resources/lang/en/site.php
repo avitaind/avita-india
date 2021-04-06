@@ -54,7 +54,6 @@ return [
     // universal
 
     // universal
-    'blogs_title'                   => 'AVITA INDIA | Blogs',
     'blog1'                         => 'Why should your Personal Laptop be Light Weighted?',
     'blog2'                         => 'Avita Liber: Technology to keep YOU high on Fashion',
     'blog3'                         => 'Why is College the RIGHT time to become Creative? ',
