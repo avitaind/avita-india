@@ -4,7 +4,7 @@
   
  <div class="carousel-item active">
                 <div class="responsive-block">
-                <a href="https://www.reliancedigital.in/laptops/c/S101210?searchQuery=AVITA">
+                <a target="_blank" href="https://www.reliancedigital.in/laptops/c/S101210?searchQuery=AVITA">
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-rd"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-rd"></div>
@@ -15,7 +15,7 @@
 
   <div class="carousel-item">
                 <div class="responsive-block">
-                <a href="https://in.nexstmall.com/collections/gifts-on-air">
+                <a  target="_blank" href="https://in.nexstmall.com/collections/gifts-on-air">
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-goa"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-goa"></div>
