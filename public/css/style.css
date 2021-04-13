@@ -586,6 +586,13 @@ section.color-choice .container{
 
 @media only screen and (min-width : 1600px) {
 
+    .banner-web-rd{
+        background: url('/images/banner/avita-rd-web.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
 
     .banner-web-goa{
         background: url('/images/banner/gifts-on-air-web-banner.jpg');
@@ -651,6 +658,14 @@ section.color-choice .container{
 /*Laptop Size */
 @media only screen and (min-width : 1200px) {
 
+    .banner-web-rd{
+        background: url('/images/banner/avita-rd-web.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
     .banner-web-goa{
         background: url('/images/banner/gifts-on-air-web-banner.jpg');
         -webkit-background-size: 100% 100%;
@@ -713,6 +728,14 @@ section.color-choice .container{
    
 /*Tab Size*/
 @media only screen and (min-width : 768px){
+
+    .banner-web-rd{
+        background: url('/images/banner/avita-rd-web.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
 
     .banner-web-goa{
         background: url('/images/banner/gifts-on-air-web-banner.jpg');
@@ -777,6 +800,14 @@ section.color-choice .container{
 /*Mob Banners*/
 @media only screen and (min-width : 320px)  {
 
+    .banner-mob-rd{
+        background: url('/images/banner/avita-rd-mob.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
       
     .banner-mob-goa{
         background: url('/images/banner/gifts-on-air-mob-banner.jpg');
@@ -839,6 +870,14 @@ section.color-choice .container{
 
 /*Mob Banners*/
 @media only screen and (min-width : 200px)  {
+    
+    .banner-mob-rd{
+        background: url('/images/banner/avita-rd-mob.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
 
           
     .banner-mob-goa{
