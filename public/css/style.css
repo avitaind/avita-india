@@ -801,7 +801,7 @@ section.color-choice .container{
 @media only screen and (min-width : 320px)  {
 
     .banner-mob-rd{
-        background: url('/images/banner/avita-rd-mob.jpg');
+        background: url('/images/banner/avita-rd-mob.png');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
@@ -870,9 +870,9 @@ section.color-choice .container{
 
 /*Mob Banners*/
 @media only screen and (min-width : 200px)  {
-    
+
     .banner-mob-rd{
-        background: url('/images/banner/avita-rd-mob.jpg');
+        background: url('/images/banner/avita-rd-mob.png');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
