@@ -1,19 +1,39 @@
 <section class="top-nav-padding homepage-banner">
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
-       
- 
-   
-        <div class="carousel-item active">
+  
+    <div class="carousel-item active">
+            <div class="responsive-block">
+                <a target="_blank" href="https://in.nexstmall.com/">
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-lvg"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-lvg"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+ <div class="carousel-item ">
                 <div class="responsive-block">
-               
+                <a target="_blank" href="https://www.reliancedigital.in/laptops/c/S101210?searchQuery=AVITA">
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-rd"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-rd"></div>
+                    </div>
+               </a>
+          </div>
+     </div>
+
+  <div class="carousel-item">
+                <div class="responsive-block">
+                <a  target="_blank" href="https://in.nexstmall.com/collections/gifts-on-air">
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-goa"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-goa"></div>
                     </div>
-                   
-                </div>
-            </div>
+               </a>
+          </div>
+     </div>
 
     <div class="carousel-item">
                 <div class="responsive-block">
@@ -47,30 +67,6 @@
                     </div>
                 </div>
             </div>
-    <!---
-            <div class="carousel-item">
-                <div class="responsive-block">
-                    <a href="<?php echo e(route('product.overview', ['pura'])); ?>">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-pura"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-pura"></div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-
-  
-        <div class="carousel-item">
-                <div class="responsive-block">
-                   <a href="<?php echo e(route('product.overview', ['magus-lite-2in1-laptop'])); ?>">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-magus"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-magus"></div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-    ----->
       
             <div class="carousel-item">
                 <div class="responsive-block">
@@ -89,8 +85,9 @@
            <li data-target="#home_banner" data-slide-to="1"></li>
            <li data-target="#home_banner" data-slide-to="2"></li>
            <li data-target="#home_banner" data-slide-to="3"></li>
-
-
+           <li data-target="#home_banner" data-slide-to="4"></li>
+           <li data-target="#home_banner" data-slide-to="5"></li>
+           <!-- <li data-target="#home_banner" data-slide-to="6"></li> -->
         </ol>
     </div>
   </div>       
