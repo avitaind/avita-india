@@ -2,6 +2,17 @@
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
   
+        <!-- <div class="carousel-item active">
+            <div class="responsive-block">
+                <a target="_blank" href="">
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-RD"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-RD"></div>
+                    </div>
+                </a>
+            </div>
+        </div> -->
+
     <div class="carousel-item active">
             <div class="responsive-block">
                 <a target="_blank" href="https://in.nexstmall.com/">

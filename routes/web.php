@@ -280,9 +280,9 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin'],  'namespace' 
     
 });
 
-//Route::get('/support', 'SearchController@index')->name('support');
+Route::get('/support', 'SearchController@index')->name('support');
 
-Route::post('/support', 'HomeController@handleSupportRedirect');
+// Route::post('/support', 'HomeController@handleSupportRedirect');
 
 Route::get('/search', 'SearchController@search');
 

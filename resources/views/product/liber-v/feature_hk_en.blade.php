@@ -70,6 +70,8 @@
             <div class="responsive-block"> 
                 <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en.jpg')"></div>
                 <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en_mo.jpg')"></div> 
+                <!-- <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/AVITA_liber_v_amd_banner_en_web.jpg')"></div> -->
+                <!-- <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/AVITA_liber_v_amd_banner_en_mob.jpg')"></div>  -->
             </div>
         </section>
     
