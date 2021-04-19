@@ -167,7 +167,7 @@
 
                 </div>
                 
-                   <div class="form-group">
+                   <!-- <div class="form-group">
                         
                         <div class="input-group">
                        
@@ -175,7 +175,7 @@
                         <div class="input-group-addon overlay-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
                         
                         </div>
-                    </div>
+                    </div> -->
                  
                 
         
