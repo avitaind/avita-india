@@ -5,7 +5,7 @@
                 <img style="width: 100%;" src="<?php echo e($article->thumbnail_url()); ?>" />
             </div>
             <figcaption class="d-flex event-caption <?php echo e($article->status); ?> px-4 py-1">
-                <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i><?php echo e($article->eventDateString()); ?></div>
+                <div class="event-date"><i class="fa fa-calendar-o mr-3" aria-hidden="true"></i><?php echo e($article->start_date->toDateString()); ?></div>
                 <div class="event-publication <?php echo e($article->status); ?> ml-auto"><?php echo app('translator')->getFromJson('site.news_status_'.$article->status); ?></div>
             </figcaption>
         </figure>
