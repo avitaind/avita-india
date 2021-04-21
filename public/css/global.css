@@ -1064,6 +1064,7 @@ body.lang_en .sub-panel{
 }
 .focus-event .event-item {
   position: relative;
+  background-color: #a3a49f;
 }
 .focus-event .event-item .overlay-link {
   position: absolute;
