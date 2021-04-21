@@ -4,17 +4,7 @@
 
 <?php $__env->startSection('content'); ?>
 <main>
-<section class="focus-event top-nav-padding">
-        <div class="container">
-            <h3 class="section-title ls-0 my-5"><?php echo app('translator')->getFromJson('site.publish_title'); ?></h3>
-            <div class="row">
-                <?php $__currentLoopData = $feature_publish; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $feature_publish): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                    <?php $__env->startComponent('article.feature_publish_block', ['publish' => $feature_publish ]); ?>
-                    <?php echo $__env->renderComponent(); ?>
-                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-            </div>
-        </div>
-    </section>
+
 
     <section class="focus-event top-nav-padding">
         <div class="container">
@@ -27,7 +17,17 @@
             </div>
         </div>
     </section>
-
+    <section class="focus-event top-nav-padding">
+        <div class="container">
+            <h3 class="section-title ls-0 my-5"><?php echo app('translator')->getFromJson('site.publish_title'); ?></h3>
+            <div class="row">
+                <?php $__currentLoopData = $feature_publish; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $feature_publish): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <?php $__env->startComponent('article.feature_publish_block', ['publish' => $feature_publish ]); ?>
+                    <?php echo $__env->renderComponent(); ?>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+            </div>
+        </div>
+    </section>
    
 
     <div class="gotop-wrap">
