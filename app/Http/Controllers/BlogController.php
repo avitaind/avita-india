@@ -7,12 +7,10 @@ use App\Blog;
 
 class BlogController extends Controller
 {
-    //
-        //
         public function showBlogList(){
 
             $country = 'in';
-            $feature_blog = Blog::latest()->orderBy('id', 'asc')->get();
+            $feature_blog = Blog::latest()->orderBy('id', 'desc')->get();
     
             return view('blog.index', compact('feature_blog','country'));
     
