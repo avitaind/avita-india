@@ -167,15 +167,15 @@
 
                 </div>
                 
-                   <!-- <div class="form-group">
+                   <div class="form-group">
                         
                         <div class="input-group">
-                       
+                    
                         <input type="text" class="form-control" id="search" name="search" placeholder="Type your City / State or Postal Code Here"> </input> 
                         <div class="input-group-addon overlay-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
                         
                         </div>
-                    </div> -->
+                    </div>
                  
                 
         

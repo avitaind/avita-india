@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\NewServiceCenter;
+use App\ServiceCenter;
 
 use DB;
 
@@ -14,8 +15,8 @@ class SearchController extends Controller
     public function index(){
 
         $searchResults = NewServiceCenter::all();
-        return view('search', compact('searchResults'));
-       
+        // $searchResults = ServiceCenter::all();
+        return view('search', compact('searchResults'));   
     }
 
 
