@@ -35,7 +35,7 @@
           </div>
      </div>
 
-  <div class="carousel-item">
+  <!-- <div class="carousel-item">
                 <div class="responsive-block">
                 <a  target="_blank" href="https://in.nexstmall.com/collections/gifts-on-air">
                     <div class="banner-block responsive-item">
@@ -44,7 +44,7 @@
                     </div>
                </a>
           </div>
-     </div>
+     </div> -->
 
     <div class="carousel-item">
                 <div class="responsive-block">
@@ -97,8 +97,6 @@
            <li data-target="#home_banner" data-slide-to="2"></li>
            <li data-target="#home_banner" data-slide-to="3"></li>
            <li data-target="#home_banner" data-slide-to="4"></li>
-           <li data-target="#home_banner" data-slide-to="5"></li>
-           <!-- <li data-target="#home_banner" data-slide-to="6"></li> -->
         </ol>
     </div>
   </div>       
