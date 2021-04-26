@@ -12,7 +12,7 @@
                 </a>
             </div>
         </div> 
-
+---->
     <div class="carousel-item active">
             <div class="responsive-block">
                 <a target="_blank" href="https://in.nexstmall.com/">
@@ -23,8 +23,8 @@
                 </a>
             </div>
         </div>
----->
-    <div class="carousel-item active">
+
+    <div class="carousel-item">
                 <div class="responsive-block">
                 <a target="_blank" href="https://www.reliancedigital.in/laptops/c/S101210?searchQuery=AVITA">
                     <div class="banner-block responsive-item">
