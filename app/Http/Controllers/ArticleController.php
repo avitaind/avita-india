@@ -12,7 +12,7 @@ class ArticleController extends Controller
     public function showArticleList(){
 
         $country = 'in';
-        $feature_article = Article::latest()->orderBy('id', 'asc')->published()->featured()->get();
+        $feature_article = Article::latest()->orderBy('id', 'desc')->published()->featured()->get();
         $feature_publish = Publication::latest()->orderBy('id', 'asc')->get();
 
         return view('article.index', compact('feature_article','country','feature_publish'));

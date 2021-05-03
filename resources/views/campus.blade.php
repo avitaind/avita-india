@@ -48,7 +48,7 @@
 
     <div class="col-md-6">
     <div class="container">
-    <h3 style="text-align:center;">Signup to receive your welcome kit for getting started</h3>
+    <h3 style="text-align:center;">Signup to receive your welcome mail for getting started</h3>
 
     @if(session()->has('message'))
     <div class="alert alert-success">
