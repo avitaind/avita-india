@@ -31,3 +31,4 @@ class notifyme extends Mailable
         return $this->markdown('view.name')
             ->attach('/path/to/file');
     }
+}

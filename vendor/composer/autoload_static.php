@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit32ea8de922307936540fcd2b09e6ecf1
+class ComposerStaticInited0376bfcda764db686f524eb3182e9e
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -551,6 +551,7 @@ class ComposerStaticInit32ea8de922307936540fcd2b09e6ecf1
         'App\\Http\\Controllers\\SearchController' => __DIR__ . '/../..' . '/app/Http/Controllers/SearchController.php',
         'App\\Http\\Controllers\\ServicesController' => __DIR__ . '/../..' . '/app/Http/Controllers/ServicesController.php',
         'App\\Http\\Controllers\\SubscriptionController' => __DIR__ . '/../..' . '/app/Http/Controllers/SubscriptionController.php',
+        'App\\Http\\Controllers\\WhereToBuyController' => __DIR__ . '/../..' . '/app/Http/Controllers/WhereToBuyController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\APIServiceProviderMiddleware' => __DIR__ . '/../..' . '/app/Http/Middleware/APIServiceProviderMiddleware.php',
         'App\\Http\\Middleware\\AppMiddleware' => __DIR__ . '/../..' . '/app/Http/Middleware/AppMiddleware.php',
@@ -570,6 +571,7 @@ class ComposerStaticInit32ea8de922307936540fcd2b09e6ecf1
         'App\\Mail\\Welcome' => __DIR__ . '/../..' . '/app/Mail/Welcome.php',
         'App\\Mailers\\AppMailer' => __DIR__ . '/../..' . '/app/Mailers/AppMailer.php',
         'App\\NewServiceCenter' => __DIR__ . '/../..' . '/app/Models/NewServiceCenter.php',
+        'App\\NewWhereToBuy' => __DIR__ . '/../..' . '/app/Models/NewWhereToBuy.php',
         'App\\News' => __DIR__ . '/../..' . '/app/Models/News.php',
         'App\\Notifications\\AdminResetPasswordNotification' => __DIR__ . '/../..' . '/app/Notifications/AdminResetPasswordNotification.php',
         'App\\Notify' => __DIR__ . '/../..' . '/app/Notify.php',
@@ -681,6 +683,7 @@ class ComposerStaticInit32ea8de922307936540fcd2b09e6ecf1
         'CreateFaqTable' => __DIR__ . '/../..' . '/database/migrations/2017_06_26_130412_create_faq_table.php',
         'CreateJobsTable' => __DIR__ . '/../..' . '/database/migrations/2018_01_24_155938_create_jobs_table.php',
         'CreateNewServiceCentersTable' => __DIR__ . '/../..' . '/database/migrations/2020_08_04_180215_create_new_service_centers_table.php',
+        'CreateNewWhereToBuyTable' => __DIR__ . '/../..' . '/database/migrations/2021_04_30_103502_create_new_where_to_buy_table.php',
         'CreateNewsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_17_124920_create_news_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateProductRegistrationsTable' => __DIR__ . '/../..' . '/database/migrations/2017_06_25_175925_create_product_registrations_table.php',
@@ -4775,11 +4778,11 @@ class ComposerStaticInit32ea8de922307936540fcd2b09e6ecf1
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit32ea8de922307936540fcd2b09e6ecf1::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit32ea8de922307936540fcd2b09e6ecf1::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInit32ea8de922307936540fcd2b09e6ecf1::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit32ea8de922307936540fcd2b09e6ecf1::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit32ea8de922307936540fcd2b09e6ecf1::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInited0376bfcda764db686f524eb3182e9e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInited0376bfcda764db686f524eb3182e9e::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInited0376bfcda764db686f524eb3182e9e::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInited0376bfcda764db686f524eb3182e9e::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInited0376bfcda764db686f524eb3182e9e::$classMap;
 
         }, null, ClassLoader::class);
     }
