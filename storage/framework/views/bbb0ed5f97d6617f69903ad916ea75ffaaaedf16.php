@@ -1,10 +1,8 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+	<?php echo app('translator')->getFromJson('title.where_to_buy'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-	@lang('title.where_to_buy')
-@stop
-
-@section('css')
+<?php $__env->startSection('css'); ?>
 	<style>
 	
 	/** 
@@ -65,18 +63,18 @@
     			margin-bottom: 30px;
 			}	
 	</style>
-@stop
+<?php $__env->stopSection(); ?>
 
-@php
+<?php 
         $page = 'wheretobuy';
 
-@endphp
+ ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 	<main class="top-nav-padding">
 
-		@include('partials.rolling-cta')
+		<?php echo $__env->make('partials.rolling-cta', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 	
 	
 <section class="map-panel">
@@ -85,20 +83,22 @@
 
 	<div class="container py-5 ls-0">
                 <div class="shopsList">
-				@foreach( $eshops as $eshop )
+				<?php $__currentLoopData = $eshops; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $eshop): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 					<div class="col-md-6">					
-                            <div class="pb-1"><strong>{{ $eshop->name }}</strong></div>
+                            <div class="pb-1"><strong><?php echo e($eshop->name); ?></strong></div>
                             <div class="">
                                 <i class="fa fa-map icon"></i>
-                                {{ $eshop->address }}
+                                <?php echo e($eshop->address); ?>
+
                             </div>
                             <div class="">
                                 <i class="fa fa-phone icon"></i>
-                                {{ $eshop->phone }}
+                                <?php echo e($eshop->phone); ?>
+
                             </div>
         
                         </div>
-					@endforeach
+					<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 				</div>
 				
 		</div>
@@ -106,30 +106,32 @@
 	<div class="h2 pt-5 px-5 text-center font-weight-light">Retail Partners</div>
 	<hr class="w-25"/>
 
-	{{-- Search Bar Start --}}
+	
 	<div class="container">
 		<div class="input-group">
 		<input type="text" class="form-control" id="search" name="search" placeholder="Type your City / State or Postal Code Here"> </input> 
 		<div class="input-group-addon overlay-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
 		</div>
 	</div>
-	{{-- Search Bar End --}}
+	
 		
 	<div class="container  ls-0">
 			<div class="shopsList" id="shopsList">
-			@foreach( $rshops as $rshop )
+			<?php $__currentLoopData = $rshops; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $rshop): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 				<div class="col-md-6">					
-						<div class="pb-1"><strong>{{ $rshop->name }}</strong></div>
+						<div class="pb-1"><strong><?php echo e($rshop->name); ?></strong></div>
 						<div class="">
 							<i class="fa fa-map icon"></i>
-							{{ $rshop->address }}
+							<?php echo e($rshop->address); ?>
+
 						</div>
 						<div class="">
 							<i class="fa fa-phone icon"></i>
-							{{ $rshop->phone }}
+							<?php echo e($rshop->phone); ?>
+
 						</div>
 					</div>
-				@endforeach
+				<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 			</div>		
 	</div>
 
@@ -139,10 +141,10 @@
 			<div class="container">
 				<ul class="product-statement-list py-2 py-sm-5 mx-auto ls-0 pl-4 py-0">
 					<li>Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon, and Xeon Inside are trademarks of Intel Corporation in the U.S. and other countries.</li>
-					<li>@lang('site.product_support_footer_1')</li>
-					<li>@lang('site.product_support_footer_2')</li>
-					<li>@lang('site.product_support_footer_3')</li>
-					<li>@lang('site.product_support_footer_4')</li>
+					<li><?php echo app('translator')->getFromJson('site.product_support_footer_1'); ?></li>
+					<li><?php echo app('translator')->getFromJson('site.product_support_footer_2'); ?></li>
+					<li><?php echo app('translator')->getFromJson('site.product_support_footer_3'); ?></li>
+					<li><?php echo app('translator')->getFromJson('site.product_support_footer_4'); ?></li>
 				</ul>
 
 			</div>
@@ -154,16 +156,16 @@
 
 	</main>
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('js')
+<?php $__env->startSection('js'); ?>
             <script type="text/javascript">
 
             $('#search').on('keyup', function(){
                     $value=$(this).val();
                     $.ajax({
                         type: 'get',
-                        url: '{{URL::to('searchWhereToBuy')}}',
+                        url: '<?php echo e(URL::to('searchWhereToBuy')); ?>',
                         data: { 'search': $value},
                         success:function(data){
                             $('#shopsList').html(data);
@@ -174,7 +176,9 @@
             </script>
 
     
-    <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/support.js')); ?>"></script>
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

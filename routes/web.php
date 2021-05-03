@@ -197,6 +197,8 @@ if ( Request::segment(1) != 'admin') {
   
    Route::get('where-to-buy', 'ProductsController@whereToBuy');
 
+   Route::get('/searchWhereToBuy', 'WhereToBuyController@searchWhereToBuy');
+
     //  });
 
 }
@@ -282,7 +284,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:admin'],  'namespace' 
 
 Route::get('/support', 'SearchController@index')->name('support');
 
-// Route::post('/support', 'HomeController@handleSupportRedirect');
+Route::post('/support', 'HomeController@handleSupportRedirect');
 
 Route::get('/search', 'SearchController@search');
 

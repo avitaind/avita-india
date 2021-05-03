@@ -5,6 +5,7 @@ use App\ASPAPIService;
 use App\Product;
 use App\ProductModel;
 use App\Shop;
+use App\NewWhereToBuy;
 use Illuminate\Http\Request;
 
 class ProductsController extends Controller
@@ -343,6 +344,7 @@ class ProductsController extends Controller
 
     public function whereToBuy(){
 
+        $rshops = NewWhereToBuy::all();
         $country = 'in';
 
         if ( \App::isLocale('en') ) {
@@ -365,8 +367,8 @@ class ProductsController extends Controller
         $equery->where('enabled', true);
         $equery->where('priority', 1);
         $eshops = $equery->get();
-       $rquery->orwhere('priority', 0);
-       $rshops = $rquery->get();
+    //    $rquery->orwhere('priority', 0);
+    //    $rshops = $rquery->get();
 
         return view('product.map', compact('eshops','rshops'));
 
