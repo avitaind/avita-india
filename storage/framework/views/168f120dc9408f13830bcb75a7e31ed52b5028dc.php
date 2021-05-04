@@ -117,7 +117,10 @@
                                 <a class="nav-link px-md-4 py-2" target="_blank" href="https://www.flipkart.com/search?q=avita+laptops&otracker=search&otracker1=search&marketplace=FLIPKART&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DAvita">Flipkart</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.amazon.in/s?k=avita+admiror">Amazon</a>
+                                <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.amazon.in/s?k=avita&ref=nb_sb_noss_2">Amazon</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.reliancedigital.in/search?q=avita:relevance">Reliance Digital</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2"  target="_blank" href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2&page=1&brand=510306">Paytm Mall</a>
