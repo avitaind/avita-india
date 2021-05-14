@@ -13,6 +13,11 @@
                 <div class="banner-block responsive-item">
                     <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/avita-liber-v-web-new-v1.jpg')"></div>
                     <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/avita-liber-v-mob-new-v1.jpg')"></div>
+<<<<<<< HEAD
+=======
+                    
+                    
+>>>>>>> 78dc6d3539948aca9f62bc3586cbbbe149244c07
                     <div class="banner-info">
                         <div class="btn-group mt-3">
                             
@@ -66,14 +71,26 @@
         
        <section class="product-liber-banner product-liber-v-banner">
             <div class="responsive-block"> 
+<<<<<<< HEAD
                 <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en.jpg')"></div>
                 <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/AVITA_liber_v_banner_v2_hk_en_mo.jpg')"></div> 
+=======
+                <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/Avita_Liber_V_Red_Dot_Award_Web.jpg')"></div>
+                <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/Avita_Liber_V_Red_Dot_Award_Mob.jpg')"></div>
+                
+                
+>>>>>>> 78dc6d3539948aca9f62bc3586cbbbe149244c07
                 <!-- <div class="banner-bg hidden-sm-down" style="background-image: url('/images/liber-v/AVITA_liber_v_amd_banner_en_web.jpg')"></div> -->
                 <!-- <div class="banner-bg hidden-md-up" style="background-image: url('/images/liber-v/AVITA_liber_v_amd_banner_en_mob.jpg')"></div>  -->
             </div>
         </section>
     
         <section class="product-liber-wifi product-liber-v-view">
+<<<<<<< HEAD
+=======
+            <div class="h1 banner-header mb-sm-5 container  text-center pt-3">Statement by the Red Dot Jury</div>
+            <div class=" container text-center banner-para ls-0"><span class="d-lg-block">LIBER V impressively combines expressive individuality with state-of-the-art technology, paying attention to carefully crafted details such as the webcam that is beautifully integrated into the frame.</span></div>
+>>>>>>> 78dc6d3539948aca9f62bc3586cbbbe149244c07
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image"> 
