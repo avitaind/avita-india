@@ -586,6 +586,16 @@ section.color-choice .container{
 
 @media only screen and (min-width : 1600px) {
 
+
+    .banner-web-cosmos2in1{
+        background: url('/images/banner/cosmos_2_in_1_web.png');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
+
     .banner-web-99{
         background: url('/images/banner/essential-web-99.png');
         -webkit-background-size: 100% 100%;
@@ -673,6 +683,16 @@ section.color-choice .container{
 
 /*Laptop Size */
 @media only screen and (min-width : 1200px) {
+    
+    .banner-web-cosmos2in1{
+        background: url('/images/banner/cosmos_2_in_1_web.png');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
+
 
     .banner-web-99{
         background: url('/images/banner/essential-web-99.png');
@@ -761,6 +781,17 @@ section.color-choice .container{
 /*Tab Size*/
 @media only screen and (min-width : 768px){
 
+    
+    .banner-web-cosmos2in1{
+        background: url('/images/banner/cosmos_2_in_1_web.png');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
+
+
     .banner-web-99{
         background: url('/images/banner/essential-web-99.png');
         -webkit-background-size: 100% 100%;
@@ -847,6 +878,17 @@ section.color-choice .container{
 
 /*Mob Banners*/
 @media only screen and (min-width : 320px)  {
+
+    
+    .banner-mob-cosmos2in1{
+        background: url('/images/banner/cosmos_2_in_1_mob.png');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
+
 
     .banner-mob-99{
         background: url('/images/banner/essential-mob-99.png');
@@ -935,6 +977,15 @@ section.color-choice .container{
 /*Mob Banners*/
 @media only screen and (min-width : 200px)  {
 
+    .banner-mob-cosmos2in1{
+        background: url('/images/banner/cosmos_2_in_1_mob.png');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
+     
     .banner-mob-99{
         background: url('/images/banner/essential-mob-99.png');
         -webkit-background-size: 100% 100%;
