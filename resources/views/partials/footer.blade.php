@@ -41,6 +41,7 @@
                             <a href="{{ route('product.overview', ['liber-new-generation']) }}" class="my-1">{{ __('messages.products') }}</a>
                             <a href="{{ route('news') }}" class="my-1">{{ __('messages.news') }}</a>
                             <a href="/aboutus" class="my-1">{{ __('messages.about_us') }}</a>
+                            <a href="/blog" class="my-1" >{{ __('messages.blog') }}</a>
                         </div>
                         <div class="d-flex flex-column ml-5 ml-md-0 small-lsm-little">
 
@@ -65,6 +66,7 @@
                             <a href="{{ route('product.overview', ['liber12']) }}" class="my-1">{{ __('messages.products') }}</a>
                             <a href="{{ route('news') }}" class="my-1">{{ __('messages.news') }}</a>
                             <a href="/aboutus" class="my-1">{{ __('messages.about_us') }}</a>
+                            <a href="/blog" class="my-1" >{{ __('messages.blog') }}</a>
                             <a href="/where-to-buy" class="my-1">{{ __('messages.where_to_buy') }}</a>
 
                          </div>

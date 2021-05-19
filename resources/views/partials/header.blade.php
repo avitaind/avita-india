@@ -7,14 +7,12 @@
         <a class="navbar-brand mr-0 hidden-md-up" href="/">
             <img src="/images/logo.png" alt="AVITA India Official Website"/>
         </a>
-
         <div class="navbar-collapse">
             <ul class="navbar-nav mr-auto d-md-flex flex-md-row align-items-md-center justify-content-md-between">
                 <li class="hidden-sm-down">
                     <a href="/"><img src="/images/logo.png" alt="AVITA India Official Website"/></a>
                 </li>
-
-                <li class="nav-item has-dropdown">
+               <li class="nav-item has-dropdown">
                   <input id="header_product" type="checkbox" hidden="">
                     <a class="nav-link"><label for="header_product">{{ __('messages.products') }}</label></a>
                 
@@ -131,13 +129,40 @@
                        </ul>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/blog">{{ __('messages.blog') }}</a>
-                </li>
+               
                 <li class="nav-item">
                     <a class="nav-link" href="/sales-enquiry">{{ __('messages.sales enquiry') }}</a>
                 </li>
             
+
+                <li class="nav-item has-dropdown">
+                    <input id="header_countries" type="checkbox" hidden="">
+                    <a class="nav-link px-md-4 py-2"><label for="header_countries" class="d-block mb-0"><i class="fa fa-map-marker"></i></label></a>
+                    <div class="dropdown">
+                        <ul class="list-unstyled">
+                        <li class="nav-item">
+                                <a class="nav-link px-md-4 py-2" target="_blank" href="https://avita-bangladesh.com/">Bangladesh</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-md-4 py-2" target="_blank" href="#">Nepal (Launching Soon)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-md-4 py-2" target="_blank" href="#">Sri Lanka (Launching Soon)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-md-4 py-2" target="_blank" href="#">Bhutan (Launching Soon)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-md-4 py-2" target="_blank" href="#">Afghanistan (Launching Soon)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-md-4 py-2" target="_blank" href="#">Maldives (Launching Soon)</a>
+                            </li>
+                         </ul>
+                    </div>
+                </li>
+
+
                 <!---- Language Dropdown --------->
                   <!-----
                 <li class="nav-item has-dropdown">
