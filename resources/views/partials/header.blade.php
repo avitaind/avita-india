@@ -144,19 +144,19 @@
                                 <a class="nav-link px-md-4 py-2" target="_blank" href="https://avita-bangladesh.com/">Bangladesh</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2" target="_blank" href="#">Nepal (Launching Soon)</a>
+                                <a class="nav-link px-md-4 py-2" target="_blank">Nepal (Launching Soon)</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2" target="_blank" href="#">Sri Lanka (Launching Soon)</a>
+                                <a class="nav-link px-md-4 py-2" target="_blank">Sri Lanka (Launching Soon)</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2" target="_blank" href="#">Bhutan (Launching Soon)</a>
+                                <a class="nav-link px-md-4 py-2" target="_blank">Bhutan (Launching Soon)</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2" target="_blank" href="#">Afghanistan (Launching Soon)</a>
+                                <a class="nav-link px-md-4 py-2" target="_blank">Afghanistan (Launching Soon)</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2" target="_blank" href="#">Maldives (Launching Soon)</a>
+                                <a class="nav-link px-md-4 py-2" target="_blank">Maldives (Launching Soon)</a>
                             </li>
                          </ul>
                     </div>
