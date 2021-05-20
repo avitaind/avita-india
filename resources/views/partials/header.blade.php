@@ -105,7 +105,7 @@
 
                 <li class="nav-item has-dropdown">
                     <input id="header_buy_online" type="checkbox" hidden="">
-                    <a class="nav-link px-md-4 py-2"><label for="header_buy_online" class="d-block mb-0">{{ __('messages.buy_online') }}</label></a>
+                    <label for="header_buy_online" class="d-block mb-0">{{ __('messages.buy_online') }}</label>
                     <div class="dropdown">
                         <ul class="list-unstyled">
                         <li class="nav-item">
@@ -137,7 +137,7 @@
 
                 <li class="nav-item has-dropdown">
                     <input id="header_countries" type="checkbox" hidden="">
-                    <a class="nav-link px-md-4 py-2"><label for="header_countries" class="d-block mb-0"><i class="fa fa-map-marker"></i></label></a>
+                <label for="header_countries" class="d-block mb-0"><i class="fa fa-map-marker"></i></label>
                     <div class="dropdown">
                         <ul class="list-unstyled">
                         <li class="nav-item">
