@@ -17,7 +17,7 @@
 
         <div class="product-nav-collapse">
             <ul class="nav-product d-flex list-unstyled flex-column justify-content-center text-center flex-sm-row justify-content-sm-end my-2">
-                <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'magus-lite') }}">@lang('magus.lite')</a></li>
+                <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'magus-lite-2in1-laptop') }}">@lang('magus.lite')</a></li>
                 <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.overview', 'magus-lite-spec') }}">@lang('site.productnav_spec')</a></li>
                 <li class="nav-item"><a class="nav-link py-1" href="{{ route('product.support', 'liber') }}">@lang('site.productnav_support')</a></li>
             </ul>
