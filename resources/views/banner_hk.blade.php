@@ -50,7 +50,6 @@
             <div class="carousel-item">
                 <div class="responsive-block">
                 <a href="{{ route('product.overview', 'cosmos-2in1') }}">
-
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-cosmos2in1"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-cosmos2in1"></div>
