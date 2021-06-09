@@ -28,6 +28,12 @@ Route::post('/sales-enquiry','SalesEnquiryController@enquirySaveData');
 // Campus Controller
 Route::get('/cap','CampusController@index'); 
 Route::post('/cap','CampusController@storeDevice');
+
+// Webinar Controller
+Route::get('/webinar','WebinarController@index'); 
+Route::post('/webinar','WebinarController@storeDevice');
+
+
 // Campus Controller
 //Route::post('/subscription', 'HomeController@handleSubscription');
 Route::post('subscribe', 'HomeController@handleSubscription');

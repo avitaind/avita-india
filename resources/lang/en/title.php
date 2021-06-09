@@ -30,7 +30,7 @@ return [
     'blog7'                    => 'Why Millennials are choosing Cloud Storage for Personal Computing',
     'blog8'                    => 'Why SSD Storage has become a Necessity for Modern Computing?',
     'blog9'                    => 'AVITA breaks down the Most Creative Career Choices students make today',
-
+'webinar'   => 'Webinar Registration',
     'member'              => 'AVITA Member',
     'about_us'            => 'About AVITA',
     'contact_us'          => 'Contact Us',
