@@ -99,6 +99,7 @@
               <span class="error" style="color:red;">This Can Not Be Empty</span>
               <?php endif; ?>
             </div>
+            </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>
   

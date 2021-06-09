@@ -49,19 +49,19 @@ class WebinarController extends Controller
 
         $webinar->save();
 
-        \Mail::send('emails.webinar',
-        array(
-            'name' => $request->get('name'),
+        // \Mail::send('emails.webinar',
+        // array(
+        //     'name' => $request->get('name'),
          
-        ), function ($message) use ($request)
-        {
-            $email = $request->input('email');
-            $name = $request->input('name');
-            $message->from('contact@avita-india.com','AVITA India');
-            $message->to($email, $name)->subject('AVITA India | Webinar Registration');
-            $message->to('avitaind@gmail.com', 'AVITA Campus Ambassador Program');
-            $message->replyTo('contact@avita-india.com', 'AVITA INDIA | Webinar Registration');
-        });
+        // ), function ($message) use ($request)
+        // {
+        //     $email = $request->input('email');
+        //     $name = $request->input('name');
+        //     $message->from('contact@avita-india.com','AVITA India');
+        //     $message->to($email, $name)->subject('AVITA India | Webinar Registration');
+        //     $message->to('avitaind@gmail.com', 'AVITA Campus Ambassador Program');
+        //     $message->replyTo('contact@avita-india.com', 'AVITA INDIA | Webinar Registration');
+        // });
      
         return redirect()->back()->with('message', 'Thank you for your submission. You shall receive a confirmation mail shortly!');
 
