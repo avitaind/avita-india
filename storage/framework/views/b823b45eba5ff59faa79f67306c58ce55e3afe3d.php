@@ -1,13 +1,12 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo e($title); ?>
 
-@section('title')
-    {{ $title }}
-@stop
-    @php
+<?php $__env->stopSection(); ?>
+    <?php 
         $page = 'repairs';
-    @endphp
+     ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
     <main>
             <section class="top-nav-padding terms-panel">
 
@@ -71,3 +70,5 @@
             
             </section>
             </main>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
