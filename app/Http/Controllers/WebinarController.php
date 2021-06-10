@@ -24,7 +24,7 @@ class WebinarController extends Controller
 
         $this->validate($request, [
             'name' =>  'required',
-            'email' =>  'required|unique:webinar',
+            'email' =>  'required|unique:webinars',
             'college_name' =>  'required',
             'college_id' =>  'required',
             'referred_by' =>  'required',
