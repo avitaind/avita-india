@@ -42,13 +42,13 @@
                     </div>
                 </div>
                 
-                <div class=" py-4">
+                <!-- <div class=" py-4">
                     <h4 class="mb-4 font-weight-light ls-0">International Warranty</h4>
                        <div class="terms-wrap ls-0">
                          <p><span lang="EN-US">The standard international warranty on all AVITA products are registered and applicable in only the following countries: Hong Kong, Taiwan, Singapore, India, Malaysia, and China. All localised and color parts such as keyboard, power cord, hinge-up/C/D cover/TP, etc. are excluded under the aegis of AVITA’s international warranty.</span></p>
 
 
-                </div>
+                </div> -->
 
                            
                 <div class=" py-4">
