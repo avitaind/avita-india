@@ -3,7 +3,7 @@
 return [
     // universal
     '2in1'               				=> '2-in-1 detachable design',
-    '2in1-detail'                      	=> 'With the AVITA COSMOS 2-in-1 Laptop, your work, play, and entertainment experience become convenient, smooth, and stylish. It comes with a 11.6 (1920x1080) IPS touch screen that offers ultra-wide viewing angle. With a keyboard cover, the COSMOS 2-in-1 transforms from a tablet into a laptop by simply opening the built-in stand, enabling users to stay productive with ease anytime, anywhere.',
+    '2in1-detail'                      	=> 'With the AVITA COSMOS 2-in-1 Laptop, your work, play, and entertainment experience become convenient, smooth, and stylish. It comes with a 11.6 IPS touch screen that offers ultra-wide viewing angle. With a keyboard cover, the COSMOS 2-in-1 transforms from a tablet into a laptop by simply opening the built-in stand, enabling users to stay productive with ease anytime, anywhere.',
 	'inside-out'               			=> 'Inside-out Vibrancy',
 	'inside-out-detail'               	=> 'COSMOS 2-in-1 combines minimalistic design with a metallic casing. Be it in tablet form or laptop mode, MAGUS allows users to express their personal styles with the four color options available – Seashell Pink, Steel Blue, Charcoal Grey, and Pastel Violet.',
 	'accommodate'               		=> 'Accommodate daily work and entertainment needs',
