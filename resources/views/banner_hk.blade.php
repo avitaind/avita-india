@@ -15,6 +15,17 @@
             </div>
         </div>
 
+        <div class="carousel-item">
+            <div class="responsive-block">
+                    <div class="banner-block responsive-item" controls>
+                        
+                        <div class="banner-bg hidden-sm-down banner-web-iamavita-1"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-iamavita-1"></div>
+                    </div>
+                
+            </div>
+        </div>
+
 
     <div class="carousel-item">
             <div class="responsive-block">

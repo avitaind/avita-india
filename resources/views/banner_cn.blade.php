@@ -17,6 +17,21 @@
                 </div>
             </div>
 
+            <div class="carousel-item-1">
+                <div class="responsive-block">
+                    <div class="banner-block responsive-item">
+                        <a href="{{ route('product.overview', ['liber12']) }}">
+
+                            <div class="banner-bg hidden-sm-down"
+                                     style="background-image: url('/images/banner/AVITA-KV_001_green_web_banners_1920x720_v02-sc.jpg')"></div>
+                            <div class="banner-bg hidden-md-up"
+                                 style="background-image: url('/images/banner/banner3_mob-sc.jpg')"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
             <div class="carousel-item ">
                 <div class="responsive-block">
                     <div class="banner-block responsive-item  d-flex align-items-center">
