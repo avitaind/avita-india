@@ -3,7 +3,20 @@
         <div class="carousel-inner" role="listbox">
 <!---
 --->
-    <div class="carousel-item active">
+
+<div class="carousel-item active">
+            <div class="responsive-block">
+                <a target="_blank" href="https://in.nexstmall.com/">
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-iamavita"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-iamavita"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+    <div class="carousel-item">
             <div class="responsive-block">
                 <a target="_blank" href="https://in.nexstmall.com/">
                     <div class="banner-block responsive-item">
@@ -101,6 +114,7 @@
            <li data-target="#home_banner" data-slide-to="5"></li>
            <li data-target="#home_banner" data-slide-to="6"></li>
            <li data-target="#home_banner" data-slide-to="7"></li>
+           <li data-target="#home_banner" data-slide-to="8"></li>
 
         </ol>
     </div>

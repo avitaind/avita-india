@@ -587,6 +587,15 @@ section.color-choice .container{
 @media only screen and (min-width : 1600px) {
 
 
+    .banner-web-iamavita{
+        background: url('/images/banner/iamavita_web.mp4');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
+
     .banner-web-cosmos2in1{
         background: url('/images/banner/cosmos_2_in_1_web.png');
         -webkit-background-size: 100% 100%;
@@ -683,7 +692,15 @@ section.color-choice .container{
 
 /*Laptop Size */
 @media only screen and (min-width : 1200px) {
-    
+
+    .banner-web-iamavita{
+        background: url('/images/banner/iamavita_web.mp4');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
     .banner-web-cosmos2in1{
         background: url('/images/banner/cosmos_2_in_1_web.png');
         -webkit-background-size: 100% 100%;
@@ -780,6 +797,14 @@ section.color-choice .container{
    
 /*Tab Size*/
 @media only screen and (min-width : 768px){
+
+   .banner-web-iamavita{
+        background: url('/images/banner/iamavita_web.mp4');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
 
     
     .banner-web-cosmos2in1{
@@ -879,6 +904,15 @@ section.color-choice .container{
 /*Mob Banners*/
 @media only screen and (min-width : 320px)  {
 
+    .banner-mob-iamavita{
+        background: url('/images/banner/iamavita_mob.mp4');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
+
     
     .banner-mob-cosmos2in1{
         background: url('/images/banner/cosmos_2_in_1_mob.png');
@@ -977,6 +1011,15 @@ section.color-choice .container{
 /*Mob Banners*/
 @media only screen and (min-width : 200px)  {
 
+    .banner-mob-iamavita{
+        background: url('/images/banner/iamavita_mob.mp4');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
+     
     .banner-mob-cosmos2in1{
         background: url('/images/banner/cosmos_2_in_1_mob.png');
         -webkit-background-size: 100% 100%;
