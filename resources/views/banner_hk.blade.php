@@ -7,7 +7,8 @@
 <div class="carousel-item active">
             <div class="responsive-block">
                 <a target="_blank" href="https://in.nexstmall.com/">
-                    <div class="banner-block responsive-item">
+                    <div class="banner-block responsive-item" controls>
+                        
                         <div class="banner-bg hidden-sm-down banner-web-iamavita"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-iamavita"></div>
                     </div>
@@ -127,7 +128,7 @@
 <script type="text/javascript">
         $(document).ready(function() {
     $('.carousel').carousel({
-      interval: 4000
+      interval: 6000
     });
   });
   
