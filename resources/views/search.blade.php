@@ -131,6 +131,8 @@
    
          <br/>
 
+         
+
    <div class="container">
    <div class="alert alert-dismissible alert-info">
    Due to the global outbreak of the coronavirus (COVID-19), the service center will adjust the operation time or temporarily shut down for the time being. The adjustment will be subjected to local regulations and will be updated as soon as possible. We thank you for your patience and understanding.
