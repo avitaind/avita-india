@@ -172,10 +172,10 @@
                                 <a class="nav-link px-md-4 py-2" target="_blank" href="https://avita-bangladesh.com/">Bangladesh</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2" target="_blank">Nepal <span class="small">(Launching Soon)</span></a>
+                                <a class="nav-link px-md-4 py-2" target="_blank" href="https://avita-nepal.com/">Nepal</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-md-4 py-2" target="_blank">Sri Lanka <span class="small">(Launching Soon)</span></a>
+                                <a class="nav-link px-md-4 py-2" target="_blank" href="https://avita-srilanka.com/">Sri Lanka</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2" target="_blank">Bhutan <span class="small">(Launching Soon)</span></a>
