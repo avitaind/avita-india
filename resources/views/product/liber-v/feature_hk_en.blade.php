@@ -42,7 +42,7 @@
                       
                             <div class="banner-para text-center">
                             <span class="d-lg-block">
-                            <span class="buy-now2"><a href="https://www.amazon.in/AVITA-NS14A8INF561-MB-35.56 cm-i5-10210U-Graphics/dp/B0873JP8WQ/" target="_blank">Buy now ></a></span>
+                            <span class="buy-now2"><a href="https://in.nexstmall.com/collections/liber-v14" target="_blank">Buy now ></a></span>
                             <!--- <a href="/where-to-buy" style="color:#09F">Where to buy ></a> --->
                             </span>
                         </div>

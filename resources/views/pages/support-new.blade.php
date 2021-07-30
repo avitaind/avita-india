@@ -110,7 +110,7 @@
                             <div class="warranty-content text-left mt-4 mb-3 font-weight-light">Thanks for the valuable suggestion from our customers. You can purchase the newly launched “Warranty Extension Service” online now. You may choose to extend 1 or 2 years to enjoy our worry-free warranty service.</div>
                             
                             <div class="text-center purchase_steps">
-                                <a href="/warranty-extension" class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">
+                                <a href="#" class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">
                                     See More  </a> 
                             </div>  
                         </div> 

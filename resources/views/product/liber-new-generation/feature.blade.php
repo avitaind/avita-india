@@ -32,7 +32,27 @@
                 </div>
             </div>
         </section>
-
+ 
+        <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
+                <div class="container">
+                        <div class="space60"></div>
+                        <div class="banner-para">
+                        <div align="center" class="col-lg-12" >
+                       <!--   <div class="admiror_h1">COMING SOON</div>
+                      <span class="buy-now2"> COMING SOON</span> --->
+                        </div>
+                      
+                            <div class="banner-para text-center">
+                            <span class="d-lg-block">
+                            <span class="buy-now2"><a href="https://in.nexstmall.com/collections/patterns-14" target="_blank">Buy now ></a></span>
+                            <!--- <a href="/where-to-buy" style="color:#09F">Where to buy ></a> --->
+                            </span>
+                        </div>
+                       
+                        <div class="space60"></div>
+                    </div>
+                </div>
+        </section>
         <section class="product-liber-computer ls-0" id="test">
             <div class="banner-block">
                 <div class="banner-bg"></div>

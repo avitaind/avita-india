@@ -36,7 +36,7 @@
                         <div class="banner-para">
                         <div align="center" class="col-lg-12" >
                        <!--   <div class="admiror_h1">COMING SOON</div>--->
-                      <span class="buy-now"><a href="https://www.amazon.in/s?k=avita+admiror">Buy Now</a></span> 
+                      <span class="buy-now"><a href="https://in.nexstmall.com/products/avita-admiror-35-56cm">Buy Now</a></span> 
                         </div>
   <!---
                         <br/>

@@ -125,10 +125,13 @@
 
     <div class="h1 text-center mt-4 mb-3 font-weight-light">Warranty Extension</div>
             <div class="text-center purchase_steps">
-                <a href="https://www.avita.global/warranty-extension" target="_blank" class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">See More</a> 
+                {{--  <a href="https://www.avita.global/warranty-extension" target="_blank" class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">See More</a>   --}}
+                <a href="https://www.avita.com/hk/warranty-extension" target="_blank" class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">See More</a> 
             </div>
    
          <br/>
+
+         
 
    <div class="container">
    <div class="alert alert-dismissible alert-info">

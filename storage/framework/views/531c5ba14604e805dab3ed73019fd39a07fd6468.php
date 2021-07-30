@@ -22,16 +22,22 @@
             </div>
         </section> 
         
-        
+
         <section class="product-liber-computer ls-0" id="test" style="background-color:#eee;">
                 <div class="container">
+
                     <div class="banner-info" style="max-width:100%;">
                         <div class="space60"></div>
                         <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">All-Day Comfort．Essential Performance</div>
                         <div class="banner-para">
                             <span class="d-lg-block">Versatile entry notebook for everyday use</span>
                         </div>
+                         <div class="space60"></div>
+
+                        <span class="buy-now2"><a href="https://in.nexstmall.com/products/avita-essential-35-56-cm-laptop" target="_blank">Buy now ></a></span>
+
                         <div class="space60"></div>
+
                     </div>
                 </div>
         </section>

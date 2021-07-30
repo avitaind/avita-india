@@ -40,12 +40,37 @@
                         </div>
                     </div>
                 </div>
+    
             </div>
         </section>
         
-   
+        <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
+                <div class="container">
+                        <div class="space60"></div>
+                        <div class="banner-para">
+                        <div align="center" class="col-lg-12" >
+                       <!--   <div class="admiror_h1">COMING SOON</div>
+                      <span class="buy-now2"> COMING SOON</span> --->
+                        </div>
+                      
+                            <div class="banner-para text-center">
+                            <span class="d-lg-block">
+                            <span class="buy-now2"><a href="https://bit.ly/3f732Qv" target="_blank">Buy now ></a></span>
+                            <!--- <a href="/where-to-buy" style="color:#09F">Where to buy ></a> --->
+                            </span>
+                        </div>
+                       
+                        <div class="space60"></div>
+                    </div>
+                </div>
+        </section>
+    
         <section class="product-liber-port ls-0">
+                   
+                      
             <div class="banner-block">
+     
+           
                 <div class="banner-bg"> </div>
                 <div class="banner-image">
                     <img class="bc-computer-image bc-computer-1" src="/images/cosmos/sc2_img1.png">
