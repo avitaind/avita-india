@@ -55,7 +55,7 @@
                 <div class="banner-block s-banner">
                     <div class="banner-inner">
                         <div class="banner-wrap">
-                            <a class="banner-bg" href="https://www.avita.com/login" target="_blank" style="background-image: url('/images/demo/@lang('site.home_photo4_image')')"></a>
+                            <a class="banner-bg" style="background-image: url('/images/demo/@lang('site.home_photo4_image')')"  href="https://www.avita.com/login" ></a>
                         </div>
                     </div>
                 </div>
