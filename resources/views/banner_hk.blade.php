@@ -27,17 +27,6 @@
         </div>
 
 
-    <!-- <div class="carousel-item">
-            <div class="responsive-block">
-                <a target="_blank" href="https://in.nexstmall.com/">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-lvg"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-lvg"></div>
-                    </div>
-                </a>
-            </div>
-        </div> -->
-
        <div class="carousel-item ">
             <div class="responsive-block">
                     <div class="banner-block responsive-item">
