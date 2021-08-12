@@ -14,7 +14,7 @@
         "jeroennoten/laravel-adminlte": "^1.19",
         "kylekatarnls/laravel-carbon-2": "^1.0.0",
         "laracasts/presenter": "^0.2.1",
-        "laravel/framework": "6.*",
+        "laravel/framework": "8.*",
         "laravel/socialite": "^3.0",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.4",
