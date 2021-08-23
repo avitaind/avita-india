@@ -3,6 +3,7 @@
 @php
 
     $genders = [ 'm' => \Lang::get('site.gender_m'), 'f' => \Lang::get('site.gender_f')];
+    $country = 'in';
 
 @endphp
 
