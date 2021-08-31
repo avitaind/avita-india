@@ -11,12 +11,9 @@
                         <div class="banner-bg hidden-sm-down banner-web-liveitup"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-liveitup"></div>
                     </div>
-                    </a>
-
+                  </a>
             </div>
         </div> 
-
-
 <div class="carousel-item">
             <div class="responsive-block">
                     <div class="banner-block responsive-item" controls>
