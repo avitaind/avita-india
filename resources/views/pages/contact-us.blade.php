@@ -30,7 +30,7 @@
 
 
                             <div class="mb-2"><b>Address :</b><br>
-                                     Tower A, 405, 4<sup>th</sup> Floor, Copia Business Suites, <br/>Jasola Vihar, New Delhi – 110025</div>
+                                    405, 4<sup>th</sup> Floor, Copia Business Suites, <br/>Jasola Vihar, New Delhi – 110025</div>
                             <h2 class="contact_us_title">Service :</h2>
                             <div class="mb-2">Toll Free : 1800-103-9635</div>
 
