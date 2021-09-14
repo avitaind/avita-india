@@ -66,11 +66,11 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('cosmos.cpu')</div>
-                                <div>Intel® Celeron® N4020</div>
+                                <div>Intel® Celeron® N4000</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('cosmos.dis')</div>
-                                <div>11.6 TFT,  (1920 x 1080)  IPS Touch Screen</div>
+                                <div>11.6 Capacitive Touchscreen Display</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('cosmos.mem')</div>
