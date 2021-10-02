@@ -5,7 +5,7 @@
 --->
 <div class="carousel-item active">
     <div class="responsive-block">
-    <a href="" target="_blank">
+    <a href="{{ route('product.overview', ['liber-v']) }}">
 
             <div class="banner-block responsive-item">
                 <div class="banner-bg hidden-sm-down banner-web-Liber-V"></div>                  
@@ -17,7 +17,7 @@
 
 <div class="carousel-item ">
   <div class="responsive-block">
-  <a href="" target="_blank">
+  <a href="{{ route('product.overview', ['essential']) }}">
 
           <div class="banner-block responsive-item">
               <div class="banner-bg hidden-sm-down banner-web-Essential"></div>                  
@@ -29,7 +29,7 @@
 
 <div class="carousel-item ">
   <div class="responsive-block">
-  <a href="" target="_blank">
+  <a href="{{ route('product.overview', ['cosmos-2in1']) }}">
 
           <div class="banner-block responsive-item">
               <div class="banner-bg hidden-sm-down banner-web-Cosmos"></div>                  
@@ -41,7 +41,7 @@
 
 <div class="carousel-item ">
   <div class="responsive-block">
-  <a href="" target="_blank">
+  <a href="{{ route('product.overview', ['pura']) }}">
 
           <div class="banner-block responsive-item">
               <div class="banner-bg hidden-sm-down banner-web-PURA-E"></div>                  
