@@ -5,7 +5,7 @@ return [
     'global_in'                     => 'India',
     'cosmos'                      => 'COSMOS',
     'admiror'                      => 'ADMIROR',
-    'pura'                           => 'PURA ',
+    'pura'                           => 'PURA / PURA E',
     'pura-intel'                     => 'PURA Intel',
     'pura-amd'                       => 'PURA AMD',
     'liber-new-generation'          => 'LIBER',
