@@ -3,7 +3,20 @@
         <div class="carousel-inner" role="listbox">
 <!---
 --->
+
 <div class="carousel-item active">
+  <div class="responsive-block">
+  <a href="<?php echo e(route('product.overview', ['pura'])); ?>">
+
+          <div class="banner-block responsive-item">
+              <div class="banner-bg hidden-sm-down banner-web-PURA-E"></div>                  
+              <div class="banner-bg hidden-md-up banner-mob-PURA-E"></div>
+          </div>
+        </a>
+  </div>
+</div> 
+
+<div class="carousel-item ">
     <div class="responsive-block">
     <a href="<?php echo e(route('product.overview', ['liber-v'])); ?>">
 
@@ -34,18 +47,6 @@
           <div class="banner-block responsive-item">
               <div class="banner-bg hidden-sm-down banner-web-Cosmos"></div>                  
               <div class="banner-bg hidden-md-up banner-mob-Cosmos"></div>
-          </div>
-        </a>
-  </div>
-</div> 
-
-<div class="carousel-item ">
-  <div class="responsive-block">
-  <a href="<?php echo e(route('product.overview', ['pura'])); ?>">
-
-          <div class="banner-block responsive-item">
-              <div class="banner-bg hidden-sm-down banner-web-PURA-E"></div>                  
-              <div class="banner-bg hidden-md-up banner-mob-PURA-E"></div>
           </div>
         </a>
   </div>
