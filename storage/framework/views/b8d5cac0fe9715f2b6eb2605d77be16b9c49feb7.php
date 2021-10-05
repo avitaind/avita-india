@@ -18,7 +18,7 @@
 
 <div class="carousel-item ">
     <div class="responsive-block">
-    <a href="<?php echo e(route('product.overview', ['liber-v'])); ?>">
+    <a href="https://bit.ly/3AondkR">
 
             <div class="banner-block responsive-item">
                 <div class="banner-bg hidden-sm-down banner-web-Liber-V"></div>                  
@@ -42,7 +42,7 @@
 
 <div class="carousel-item ">
   <div class="responsive-block">
-  <a href="<?php echo e(route('product.overview', ['cosmos-2in1'])); ?>">
+  <a href="https://amzn.to/3iydJ0f">
 
           <div class="banner-block responsive-item">
               <div class="banner-bg hidden-sm-down banner-web-Cosmos"></div>                  
