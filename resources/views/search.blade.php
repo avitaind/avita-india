@@ -30,6 +30,26 @@
     font-size: 18px;
     weight:600;
 }
+{{--  .page-link {
+    position: relative;
+    display: block;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: rgb(2, 117, 216);
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem 0.75rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-image: initial;
+}
+.page-item.active .page-link {
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 117, 216);
+    border-color: rgb(2, 117, 216);
+}  --}}
+
 </style>
 @stop
 
@@ -185,6 +205,7 @@
               
          
                <div class="shopsList" id="shopsList">
+                @if(!empty($searchResults) && $searchResults->count())
                      @foreach( $searchResults as $search )
                      <div class="col-md-6">
                                 <div>
@@ -201,13 +222,17 @@
                                     <i class="fa fa-phone icon"></i>
                                     {{ $search->phone }}
                                 </div>
-                                
                          </div>
                      @endforeach
+                     @else
+                        <tr>
+                            <td colspan="10">There are no data.</td>
+                        </tr>
+                    @endif
                 </div>
-               
             </div>
         </div>
+        {!! $searchResults->links(("pagination::bootstrap-4")) !!}
     </section>
     <div class="gotop-wrap">
             <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>

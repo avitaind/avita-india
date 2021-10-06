@@ -356,6 +356,7 @@ class ProductsController extends Controller
     public function whereToBuy(){
 
         $rshops = NewWhereToBuy::all();
+        $rshops = NewWhereToBuy::paginate(10);
         $country = 'in';
 
         if ( \App::isLocale('en') ) {

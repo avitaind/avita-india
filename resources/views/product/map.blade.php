@@ -117,6 +117,7 @@
 		
 	<div class="container  ls-0">
 			<div class="shopsList" id="shopsList">
+             @if(!empty($rshops) && $rshops->count())
 			@foreach( $rshops as $rshop )
 				<div class="col-md-6">					
 						<div class="pb-1"><strong>{{ $rshop->name }}</strong></div>
@@ -130,9 +131,16 @@
 						</div>
 					</div>
 				@endforeach
+				@else
+                        <tr>
+                            <td colspan="10">There are no data.</td>
+                        </tr>
+                    @endif
 			</div>		
-	</div>
+	{!! $rshops->links(("pagination::bootstrap-4")) !!}
+	<br>
 
+	</div>
 	</section>
 
 		<section class="product-statement mt-4 mt-sm-0">
