@@ -27,11 +27,11 @@ class WhereToBuyController extends Controller
                         
                         $output.='<div class="col-md-6">
 
-                                        <div class=""><i class="fa fa-map icon"></i><span></span>  '
+                                        <div class="pb-1"><strong>  '
                                             .$shop->name.
-                                        '</div>
+                                        '</strong></div>
 
-                                        <div><i class="fa fa-clock-o icon"></i>  '
+                                        <div><i class="fa fa-map icon"></i> '
                                             .$shop->address.
                                         '</div>
 
