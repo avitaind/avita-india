@@ -6,7 +6,7 @@
 
 <div class="carousel-item active">
   <div class="responsive-block">
-  <a href="{{ route('product.overview', ['pura']) }}">
+  <a href="https://bit.ly/3FoPUl0">
 
           <div class="banner-block responsive-item">
               <div class="banner-bg hidden-sm-down banner-web-PURA-E"></div>                  
