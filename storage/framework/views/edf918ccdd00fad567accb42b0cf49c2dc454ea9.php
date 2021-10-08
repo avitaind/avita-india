@@ -202,9 +202,9 @@
 						</div> 
 						
 						<div class="banner-para ls-0 mb-5 mb-sm-4 mob-text-center">
-							<a class="btn btn-whilte" href="https://www.nexstmall.com/?utm_source=brandsite&utm_medium=win11page&utm_campaign=win11page" target="_blank" style="margin-right: 15px;">ACTION NOW</a> 
+							<a class="btn btn-whilte" href="https://in.nexstmall.com/" target="_blank" style="margin-right: 15px;">ACTION NOW</a> 
 							
-							<a class="btn btn-whilte" href="https://www.avita.com/hk/news/detail/93?utm_source=brandsite&utm_medium=win11page&utm_campaign=win11page" target="_blank">PRODUCT LIST</a> 
+							<a class="btn btn-whilte" href="#" target="_blank">PRODUCT LIST</a> 
                    		</div> 
 						
 					</div>
@@ -420,17 +420,17 @@
 					 
 					<div class="col-12 col-lg-4 mb-5 mb-sm-5 wow fadeInLeft" align="center">
 						<img class="mb-4 mb-sm-4" src="/images/windows11/win11_feature_6.jpg" style="width:100%;">
-						<a class="btn btn-black" target="_blank" href="https://www.nexstmall.com/collections/avita-liber-v?utm_source=brandsite&utm_medium=win11page&utm_campaign=win11page">LIBER V</a>
+						<a class="btn btn-black" target="_blank" href="https://in.nexstmall.com/products/avita-pura-14">PURA E</a>
 					</div>
 					 
 					 <div class="col-12 col-lg-4 mb-5 mb-sm-5 wow fadeInUp" align="center">
 						<img class="mb-4 mb-sm-4" src="/images/windows11/win11_feature_7.jpg" style="width:100%;">
-						<a class="btn btn-black"  target="_blank"  href="https://www.nexstmall.com/products/avita-magus-14-all-in-one-laptop?utm_source=brandsite&utm_medium=win11page&utm_campaign=win11page">MAGUS 14</a>
+						<a class="btn btn-black"  target="_blank"  href="https://in.nexstmall.com/products/avita-cosmos-2-in-1-ns12t5in021p">COSMOS 2-IN-1</a>
 					</div> 
 					 
 					 <div class="col-12 col-lg-4 mb-5 mb-sm-5 wow fadeInRight" align="center">
 						<img class="mb-4 mb-sm-4 " src="/images/windows11/win11_feature_8.jpg" style="width:100%;">
-						<a class="btn btn-black"  target="_blank"  href="https://www.nexstmall.com/products/avita-pura-14?utm_source=brandsite&utm_medium=win11page&utm_campaign=win11page">PURA</a>
+						<a class="btn btn-black"  target="_blank"  href="https://in.nexstmall.com/collections/liber-v14">LIBER V</a>
 					</div>
 					 
                 </div>
@@ -458,9 +458,9 @@
                         <div class="banner-para ls-0 text-center">
 							 				
 							<span class="d-lg-block">
-								<a class="btn btn-whilte" href="https://www.nexstmall.com/?utm_source=brandsite&utm_medium=win11page&utm_campaign=win11page" target="_blank" style="margin-right: 15px;">ACTION NOW</a>
+								<a class="btn btn-whilte" href="https://in.nexstmall.com/" target="_blank" style="margin-right: 15px;">ACTION NOW</a>
 								 
-								<a class="btn btn-whilte" href="https://www.avita.com/hk/news/detail/93?utm_source=brandsite&utm_medium=win11page&utm_campaign=win11page" target="_blank">PRODUCT LIST</a> 
+								<a class="btn btn-whilte" href="#" target="_blank">PRODUCT LIST</a> 
 								
 							</span> 		
 							
