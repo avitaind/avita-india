@@ -28,6 +28,12 @@ class HomeController extends Controller
  
      }
 
+    public function Windows( ) {
+
+        return view('windows11.windows_en');
+        
+    }
+
     public function entry(){
         return view('global');
     }
