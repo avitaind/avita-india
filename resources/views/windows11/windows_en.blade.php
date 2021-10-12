@@ -206,9 +206,8 @@
 						<div class="banner-para ls-0 mb-5 mb-sm-4 mob-text-center">
 							<a class="btn btn-whilte" href="https://in.nexstmall.com/" target="_blank" style="margin-right: 15px;">ACTION NOW</a> 
 							
-							{{--  <a class="btn btn-whilte" href="https://avita-india.com/news/detail/10" target="_blank">PRODUCT LIST</a> 
-							  --}}
-								<a class="btn btn-whilte" href="#">PRODUCT LIST</a> 
+							<a class="btn btn-whilte" href="https://avita-india.com/news/detail/10" target="_blank">PRODUCT LIST</a> 
+								{{--  <a class="btn btn-whilte" href="#">PRODUCT LIST</a>   --}}
 
                    		</div> 
 						
@@ -465,8 +464,8 @@
 							<span class="d-lg-block">
 								<a class="btn btn-whilte" href="https://in.nexstmall.com/" target="_blank" style="margin-right: 15px;">ACTION NOW</a>
 								 
-							<!--	{{--  <a class="btn btn-whilte" href="https://avita-india.com/news/detail/10" target="_blank">PRODUCT LIST</a>   --}} -->
-								<a class="btn btn-whilte" href="#">PRODUCT LIST</a> 
+								<a class="btn btn-whilte" href="https://avita-india.com/news/detail/10" target="_blank">PRODUCT LIST</a>
+								{{--  <a class="btn btn-whilte" href="#">PRODUCT LIST</a>   --}}
 								
 							</span> 		
 							
