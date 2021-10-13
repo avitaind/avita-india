@@ -293,6 +293,8 @@ Route::post('/support', 'HomeController@handleSupportRedirect');
 
 Route::get('/search', 'SearchController@search');
 
+Route::get('/api_support', 'SearchController@index')->name('api_support');
+
 
 Route::get('locale/{locale}','HomeController@local');
 Route::get('april-fools', 'HomeController@fools');

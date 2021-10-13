@@ -17,6 +17,8 @@ class SearchController extends Controller
         $searchResults = NewServiceCenter::all();
         $searchResults = ServiceCenter::paginate(10);
         return view('search', compact('searchResults'));   
+        
+        return view('api_support', compact('searchResults'));   
     }
 
 
