@@ -299,4 +299,4 @@ Route::get('/api_support', 'SearchController@index')->name('api_support');
 Route::get('locale/{locale}','HomeController@local');
 Route::get('april-fools', 'HomeController@fools');
 
-Route::get('windows-11', 'HomeController@Windows');
+Route::get('windows-11', 'HomeController@Windows')->name('windows-11');

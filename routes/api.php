@@ -37,3 +37,5 @@ Route::post('sc','APIServiceCenterController@store');
 Route::get('sc/{id}','APIServiceCenterController@show');
 Route::put('sc/{id}','APIServiceCenterController@update');
 Route::delete('sc/{id}','APIServiceCenterController@destroy');
+
+Route::get('s','APIServiceCenterController@getSearchResults');

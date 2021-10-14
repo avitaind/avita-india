@@ -4,17 +4,38 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Response;
 use App\APIServiceCenter;
 
 
 class APIServiceCenterController extends Controller
 {
-
-    public function index()
+    public function index(Request $request)
     {
-        $result = APIServiceCenter::all();
+        if(strlen($request->city)>0)
+            {
+                $result =APIServiceCenter::Where('city','like','%'. $request->city . '%')->get();
+            } 
+            else{
+                $result = APIServiceCenter::get();
+            }
+            if(strlen($request->state)>0)
+            {
+                $result =APIServiceCenter::Where('state','like','%'. $request->state . '%')->get();
+            } 
+            else{
+                $result = APIServiceCenter::get();
+            } if(strlen($request->pin)>0)
+            {
+                $result =APIServiceCenter::Where('pin','=', $request->pin)->get();
+            } 
+            else{
+                $result = APIServiceCenter::get();
+            }   
         return $result;
     }
+
+   
 
     /**
      * Show the form for creating a new resource.
@@ -126,7 +147,8 @@ class APIServiceCenterController extends Controller
         }
         else{
             return["result"=>"failed"];
-
         }
     }
 }
+
+

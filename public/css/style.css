@@ -586,6 +586,14 @@ section.color-choice .container{
 
 @media only screen and (min-width : 1600px) {
 
+    .banner-web-windows-11{
+        background: url('/images/banner/WIN_11_web.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
     .banner-web-Liber-v{
         background: url('/images/banner/Liber_V_Desktop_Banner.jpg');
         -webkit-background-size: 100% 100%;
@@ -643,11 +651,19 @@ section.color-choice .container{
       background-size: 100% 100%;
      }
 
-    }
+    }s
   
 
 /*Laptop Size */
 @media only screen and (min-width : 1200px) {
+
+    .banner-web-windows-11{
+        background: url('/images/banner/WIN_11_web.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
 
     .banner-web-Liber-v{
         background: url('/images/banner/Liber_V_Desktop_Banner.jpg');
@@ -711,6 +727,14 @@ section.color-choice .container{
 /*Tab Size*/
 @media only screen and (min-width : 768px){
 
+    .banner-web-windows-11{
+        background: url('/images/banner/WIN_11_web.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
     .banner-web-Liber-V{
         background: url('/images/banner/Liber_V_Desktop_Banner.jpg');
         -webkit-background-size: 100% 100%;
@@ -772,6 +796,14 @@ section.color-choice .container{
 /*Mob Banners*/
 @media only screen and (min-width : 320px)  {
 
+    .banner-mob-windows-11{
+        background: url('/images/banner/WIN_11_homepage_banner_en_mo.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
     .banner-mob-Liber-V{
         background: url('/images/banner/Liber_V_Mobile_Banner.jpg');
         -webkit-background-size: 100% 100%;
@@ -832,6 +864,14 @@ section.color-choice .container{
 
 /*Mob Banners*/
 @media only screen and (min-width : 200px)  {
+
+    .banner-mob-windows-11{
+        background: url('/images/banner/WIN_11_homepage_banner_en_mo.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
 
     .banner-mob-Liber-V{
         background: url('/images/banner/Liber_V_Mobile_Banner.jpg');
