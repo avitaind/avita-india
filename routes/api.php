@@ -28,3 +28,12 @@ Route::group(['middleware' => 'api_service_provider'], function () {
     Route::delete('device_data', 'DeviceDataAPIController@deleteDeviceData');
 });
 
+//  API Service Center 
+
+// Route::apiResource("post",APIServiceCenterController::class);
+
+Route::get('sc','APIServiceCenterController@index');
+Route::post('sc','APIServiceCenterController@store');
+Route::get('sc/{id}','APIServiceCenterController@show');
+Route::put('sc/{id}','APIServiceCenterController@update');
+Route::delete('sc/{id}','APIServiceCenterController@destroy');
