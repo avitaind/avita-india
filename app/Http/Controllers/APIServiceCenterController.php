@@ -12,22 +12,41 @@ class APIServiceCenterController extends Controller
 {
     public function index(Request $request)
     {
+    
         if(strlen($request->city)>0)
             {
-                $result =APIServiceCenter::Where('city','like','%'. $request->city . '%')->get();
+                
+                //$result =APIServiceCenter::select('city', 'state', 'pin','address','opening_hour')->Where('city','like','%'. $request->city . '%')->get();
+                $result =APIServiceCenter::select('city', 'state', 'pin','address','opening_hour')->Where('city', $request->city)->get();
+                // dd(count($result)==0);
+                // dd($result=='NULL');
+                if(count($result)==0)
+                {
+                    return ["result"=>"No data found"];
+                }
             } 
-            else{
-                $result = APIServiceCenter::get();
-            }
-            if(strlen($request->state)>0)
+            // else{
+            //     $result = APIServiceCenter::get();
+            // }
+            elseif(strlen($request->state)>0)
             {
-                $result =APIServiceCenter::Where('state','like','%'. $request->state . '%')->get();
+                $result =APIServiceCenter::select('city', 'state', 'pin','address','opening_hour')->Where('state',$request->state)->get();
+                // $result =APIServiceCenter::Where('state','like','%'. $request->state . '%')->get();
+                if(count($result)==0)
+                {
+                    return ["result"=>"No data found"];
+                }
             } 
-            else{
-                $result = APIServiceCenter::get();
-            } if(strlen($request->pin)>0)
+            // else{
+            //     $result = APIServiceCenter::get();
+            // } 
+            elseif(strlen($request->pin)>0)
             {
-                $result =APIServiceCenter::Where('pin','=', $request->pin)->get();
+                $result =APIServiceCenter::select('city', 'state', 'pin','address','opening_hour')->Where('pin', $request->pin)->get();
+                if(count($result)==0)
+                {
+                    return ["result"=>"No data found"];
+                }
             } 
             else{
                 $result = APIServiceCenter::get();
