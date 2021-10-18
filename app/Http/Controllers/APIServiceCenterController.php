@@ -17,7 +17,7 @@ class APIServiceCenterController extends Controller
             {
                 
                 //$result =APIServiceCenter::select('city', 'state', 'pin','address','opening_hour')->Where('city','like','%'. $request->city . '%')->get();
-                $result =APIServiceCenter::select('city', 'state', 'pin','address','opening_hour')->Where('city', $request->city)->get();
+                $result =APIServiceCenter::select('address', 'opening_hour', 'city','state','pin')->Where('city', $request->city)->get();
                 // dd(count($result)==0);
                 // dd($result=='NULL');
                 if(count($result)==0)
@@ -30,8 +30,8 @@ class APIServiceCenterController extends Controller
             // }
             elseif(strlen($request->state)>0)
             {
-                $result =APIServiceCenter::select('city', 'state', 'pin','address','opening_hour')->Where('state',$request->state)->get();
-                // $result =APIServiceCenter::Where('state','like','%'. $request->state . '%')->get();
+                $result =APIServiceCenter::select('address', 'opening_hour', 'city','state','pin')->Where('state',$request->state)->get();
+                // $result =APIServiceCenter::Where('city','like','%'. $request->state . '%')->get();
                 if(count($result)==0)
                 {
                     return ["result"=>"No data found"];
@@ -42,7 +42,8 @@ class APIServiceCenterController extends Controller
             // } 
             elseif(strlen($request->pin)>0)
             {
-                $result =APIServiceCenter::select('city', 'state', 'pin','address','opening_hour')->Where('pin', $request->pin)->get();
+                $result =APIServiceCenter::select('address', 'opening_hour', 'city','state','pin')->Where('pin', $request->pin)->get();
+                // $result =APIServiceCenter::Where('pin','like','%'. $request->pin . '%')->get();
                 if(count($result)==0)
                 {
                     return ["result"=>"No data found"];
