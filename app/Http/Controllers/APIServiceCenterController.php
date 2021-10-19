@@ -12,10 +12,8 @@ class APIServiceCenterController extends Controller
 {
     public function index(Request $request)
     {
-    
         if(strlen($request->city)>0)
-            {
-                
+            {              
                 //$result =APIServiceCenter::select('city', 'state', 'pin','address','opening_hour')->Where('city','like','%'. $request->city . '%')->get();
                 $result =APIServiceCenter::select('address', 'opening_hour', 'city','state','pin')->Where('city', $request->city)->get();
                 // dd(count($result)==0);
@@ -54,9 +52,6 @@ class APIServiceCenterController extends Controller
             }   
         return $result;
     }
-
-   
-
     /**
      * Show the form for creating a new resource.
      *
@@ -66,7 +61,6 @@ class APIServiceCenterController extends Controller
     {
         //
     }
-
     /**
      * Store a newly created resource in storage.
      *
@@ -96,7 +90,6 @@ class APIServiceCenterController extends Controller
             return ["result"=>"failed "];
         }
     }
-
     /**
      * Display the specified resource.
      *
@@ -108,7 +101,6 @@ class APIServiceCenterController extends Controller
         $result = APIServiceCenter::find($id);
         return $result;
     }
-
     /**
      * Show the form for editing the specified resource.
      *
@@ -119,7 +111,6 @@ class APIServiceCenterController extends Controller
     {
         //
     }
-
     /**
      * Update the specified resource in storage.
      *
@@ -149,9 +140,7 @@ class APIServiceCenterController extends Controller
         else{
             return ["result"=>"failed "];
         }
-        
     }
-
     /**
      * Remove the specified resource from storage.
      *
@@ -170,5 +159,3 @@ class APIServiceCenterController extends Controller
         }
     }
 }
-
-
