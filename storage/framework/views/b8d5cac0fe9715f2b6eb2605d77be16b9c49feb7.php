@@ -29,6 +29,18 @@
 </div> 
 
 <div class="carousel-item ">
+  <div class="responsive-block">
+  
+
+          <div class="banner-block responsive-item">
+              <div class="banner-bg hidden-sm-down banner-web-Sleeve-Bag"></div>                  
+              <div class="banner-bg hidden-md-up banner-mob-Sleeve-Bag"></div>
+          </div>
+        </a>
+  </div>
+</div>
+
+<div class="carousel-item ">
     <div class="responsive-block">
     <a href="https://bit.ly/3AondkR">
 
@@ -110,6 +122,7 @@
            <li data-target="#home_banner" data-slide-to="5"></li>
            <li data-target="#home_banner" data-slide-to="6"></li>
            <li data-target="#home_banner" data-slide-to="7"></li>
+           <li data-target="#home_banner" data-slide-to="8"></li>
       
         </ol>
     </div>
