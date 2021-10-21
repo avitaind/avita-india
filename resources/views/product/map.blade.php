@@ -127,7 +127,7 @@
 						</div>
 						<div class="">
 							<i class="fa fa-phone icon"></i>
-							{{ $rshop->phone }}
+							+91-{{ $rshop->phone }}
 						</div>
 					</div>
 				@endforeach
