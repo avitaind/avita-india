@@ -88,27 +88,7 @@
   </div>
 </div> 
 
-<div class="carousel-item">
-            <div class="responsive-block">
-                    <div class="banner-block responsive-item" controls>
-                        
-                        <div class="banner-bg hidden-sm-down banner-web-iamavita"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-iamavita"></div>
-                    </div>
-                
-            </div>
-        </div>
 
-        <div class="carousel-item">
-            <div class="responsive-block">
-                    <div class="banner-block responsive-item" controls>
-                        
-                        <div class="banner-bg hidden-sm-down banner-web-iamavita-1"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-iamavita-1"></div>
-                    </div>
-                
-            </div>
-        </div>
 
 
       
@@ -121,8 +101,8 @@
            <li data-target="#home_banner" data-slide-to="4"></li>
            <li data-target="#home_banner" data-slide-to="5"></li>
            <li data-target="#home_banner" data-slide-to="6"></li>
-           <li data-target="#home_banner" data-slide-to="7"></li>
-           <li data-target="#home_banner" data-slide-to="8"></li>
+           
+           
       
         </ol>
     </div>
