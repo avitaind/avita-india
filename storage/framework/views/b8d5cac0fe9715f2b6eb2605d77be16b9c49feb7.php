@@ -17,7 +17,7 @@
 
 <div class="carousel-item ">
   <div class="responsive-block">
-  <a href="https://bit.ly/3CEquOD">
+  <a href="https://bit.ly/2ZLRuNP">
 
           <div class="banner-block responsive-item">
               <div class="banner-bg hidden-sm-down banner-web-cosmos-diwali"></div>                  
