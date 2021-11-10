@@ -1,45 +1,8 @@
 <section class="top-nav-padding homepage-banner">
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
-<!---
---->
-<div class="carousel-item active">
-  <div class="responsive-block">
-  <a href="https://bit.ly/2ZKGBLT">
 
-          <div class="banner-block responsive-item">
-              <div class="banner-bg hidden-sm-down banner-web-pura-e-diwali"></div>                  
-              <div class="banner-bg hidden-md-up banner-mob-pura-e-diwali"></div>
-          </div>
-        </a>
-  </div>
-</div> 
-
-<div class="carousel-item ">
-  <div class="responsive-block">
-  <a href="https://bit.ly/2ZLRuNP">
-
-          <div class="banner-block responsive-item">
-              <div class="banner-bg hidden-sm-down banner-web-cosmos-diwali"></div>                  
-              <div class="banner-bg hidden-md-up banner-mob-cosmos-diwali"></div>
-          </div>
-        </a>
-  </div>
-</div> 
-
-<div class="carousel-item ">
-  <div class="responsive-block">
-  
-
-          <div class="banner-block responsive-item">
-              <div class="banner-bg hidden-sm-down banner-web-sleeves-diwali"></div>                  
-              <div class="banner-bg hidden-md-up banner-mob-sleeves-diwali"></div>
-          </div>
-        
-  </div>
-</div> 
-
-<div class="carousel-item ">
+<div class="carousel-item active ">
   <div class="responsive-block">
   <a href="<?php echo e(route('windows-11')); ?>">
 
@@ -136,9 +99,7 @@
            <li data-target="#home_banner" data-slide-to="4"></li>
            <li data-target="#home_banner" data-slide-to="5"></li>
            <li data-target="#home_banner" data-slide-to="6"></li>
-           <li data-target="#home_banner" data-slide-to="7"></li>
-           <li data-target="#home_banner" data-slide-to="8"></li>
-           <li data-target="#home_banner" data-slide-to="9"></li>
+  
       
         </ol>
     </div>
