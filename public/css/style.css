@@ -587,235 +587,6 @@ section.color-choice .container{
 
 @media only screen and (min-width : 1600px) {
 
-    .banner-web-pura-e-diwali{
-        background: url('/images/banner/pura-e-diwali-web.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-web-cosmos-diwali{
-        background: url('/images/banner/cosmos-diwali-web.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-web-sleeves-diwali{
-        background: url('/images/banner/sleeves-web-banner.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-web-Sleeve-Bag{
-        background: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-web-windows-11{
-        background: url('/images/banner/WIN_11_web.jpg');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-
-    .banner-web-Liber-v{
-        background: url('/images/banner/Liber_V_Desktop_Banner.jpg');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-
-    .banner-web-Essential{
-            background: url('/images/banner/Essential_Desktop_Banner.jpg');
-            -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        background-size: 100% 100%;
-        }
-
-    .banner-web-Cosmos{
-            background: url('/images/banner/cosmos-web.jpg');
-            -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        background-size: 100% 100%;
-        }
-
-    .banner-web-PURA-E{
-            background: url('/images/banner/pura-e-web.jpg');
-            -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        background-size: 100% 100%;
-        }
-
-    .banner-web-liveitup{
-        background: url('/images/banner/liveitup.jpg');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-
-
-    .banner-web-iamavita-1{
-        background: url('/images/banner/iamavita_web-1.gif');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-
-    .banner-web-iamavita{
-        background: url('/images/banner/iamavita_web.gif');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-
-    }
-  
-
-/*Laptop Size */
-@media only screen and (min-width : 1200px) {
-
-    .banner-web-pura-e-diwali{
-        background: url('/images/banner/pura-e-diwali-web.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-web-cosmos-diwali{
-        background: url('/images/banner/cosmos-diwali-web.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-web-sleeves-diwali{
-        background: url('/images/banner/sleeves-web-banner.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-web-Sleeve-Bag{
-        background: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-web-windows-11{
-        background: url('/images/banner/WIN_11_web.jpg');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-
-    .banner-web-Liber-v{
-        background: url('/images/banner/Liber_V_Desktop_Banner.jpg');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-
-    .banner-web-Essential{
-            background: url('/images/banner/Essential_Desktop_Banner.jpg');
-            -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        background-size: 100% 100%;
-        }
-
-    .banner-web-Cosmos{
-            background: url('/images/banner/cosmos-web.jpg');
-            -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        background-size: 100% 100%;
-        }
-
-    .banner-web-PURA-E{
-            background: url('/images/banner/pura-e-web.jpg');
-            -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        background-size: 100% 100%;
-        }
-
-    .banner-web-liveitup{
-        background: url('/images/banner/liveitup.jpg');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-
-    .banner-web-iamavita-1{
-        background: url('/images/banner/iamavita_web-1.gif');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-
-    .banner-web-iamavita{
-        background: url('/images/banner/iamavita_web.gif');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-
-   
-}
-   
-/*Tab Size*/
-@media only screen and (min-width : 768px){
-
-    .banner-web-pura-e-diwali{
-        background: url('/images/banner/pura-e-diwali-web.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-web-cosmos-diwali{
-        background: url('/images/banner/cosmos-diwali-web.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-web-sleeves-diwali{
-        background: url('/images/banner/sleeves-web-banner.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
     .banner-web-Sleeve-Bag{
         background: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg');
         -webkit-background-size: 100% 100%;
@@ -872,51 +643,132 @@ section.color-choice .container{
       background-size: 100% 100%;
      }
 
-    .banner-web-iamavita-1{
-        background: url('/images/banner/iamavita_web-1.gif');
+    }
+  
+
+/*Laptop Size */
+@media only screen and (min-width : 1200px) {
+
+    .banner-web-Sleeve-Bag{
+        background: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
+
+    .banner-web-windows-11{
+        background: url('/images/banner/WIN_11_web.jpg');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
       background-size: 100% 100%;
      }
 
-   .banner-web-iamavita{
-        background: url('/images/banner/iamavita_web.gif');
+    .banner-web-Liber-V{
+        background: url('/images/banner/Liber_V_Desktop_Banner.jpg');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
       background-size: 100% 100%;
      }
+
+    .banner-web-Essential{
+            background: url('/images/banner/Essential_Desktop_Banner.jpg');
+            -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+        }
+
+    .banner-web-Cosmos{
+            background: url('/images/banner/cosmos-web.jpg');
+            -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+        }
+
+    .banner-web-PURA-E{
+            background: url('/images/banner/pura-e-web.jpg');
+            -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+        }
+
+    .banner-web-liveitup{
+        background: url('/images/banner/liveitup.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+}
    
+/*Tab Size*/
+@media only screen and (min-width : 768px){
+
+    .banner-web-Sleeve-Bag{
+        background: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
+
+    .banner-web-windows-11{
+        background: url('/images/banner/WIN_11_web.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
+    .banner-web-Liber-V{
+        background: url('/images/banner/Liber_V_Desktop_Banner.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }
+
+    .banner-web-Essential{
+            background: url('/images/banner/Essential_Desktop_Banner.jpg');
+            -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+        }
+
+    .banner-web-Cosmos{
+            background: url('/images/banner/cosmos-web.jpg');
+            -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+        }
+
+    .banner-web-PURA-E{
+            background: url('/images/banner/pura-e-web.jpg');
+            -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+        }
+
+    .banner-web-liveitup{
+        background: url('/images/banner/liveitup.jpg');
+        -webkit-background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%;
+     }    
    }
 
 /*Mob Banners*/
 @media only screen and (min-width : 320px)  {
 
-    .banner-mob-pura-e-diwali{
-        background: url('/images/banner/pura-e-diwali-mob.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-mob-cosmos-diwali{
-        background: url('/images/banner/cosmos-diwali-mob.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-mob-sleeves-diwali{
-        background: url('/images/banner/sleeves-mob-banner.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
     .banner-mob-Sleeve-Bag{
         background: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_mob.jpg');
         -webkit-background-size: 100% 100%;
@@ -972,52 +824,11 @@ section.color-choice .container{
       -o-background-size: 100% 100%;
       background-size: 100% 100%;
      }
-
-    .banner-mob-iamavita{
-        background: url('/images/banner/iamavita_mob.gif');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-
-     .banner-mob-iamavita-1{
-        background: url('/images/banner/iamavita_mob-1.gif');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-    
 }
 
 /*Mob Banners*/
 @media only screen and (min-width : 200px)  {
 
-    .banner-mob-pura-e-diwali{
-        background: url('/images/banner/pura-e-diwali-mob.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-mob-cosmos-diwali{
-        background: url('/images/banner/cosmos-diwali-mob.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
-    .banner-mob-sleeves-diwali{
-        background: url('/images/banner/sleeves-mob-banner.jpg');
-        -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    }
-
     .banner-mob-Sleeve-Bag{
         background: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_mob.jpg');
         -webkit-background-size: 100% 100%;
@@ -1068,21 +879,6 @@ section.color-choice .container{
 
     .banner-mob-liveitup{
         background: url('/images/banner/liveitup.jpg');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-
-    .banner-mob-iamavita-1{
-        background: url('/images/banner/iamavita_mob-1.gif');
-        -webkit-background-size: 100% 100%;
-      -moz-background-size: 100% 100%;
-      -o-background-size: 100% 100%;
-      background-size: 100% 100%;
-     }
-    .banner-mob-iamavita{
-        background: url('/images/banner/iamavita_mob.gif');
         -webkit-background-size: 100% 100%;
       -moz-background-size: 100% 100%;
       -o-background-size: 100% 100%;
