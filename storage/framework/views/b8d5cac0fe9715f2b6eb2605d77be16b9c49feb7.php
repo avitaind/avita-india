@@ -25,19 +25,7 @@
                   </a>
             </div>
           </div> 
-          
-          <div class="carousel-item ">
-            <div class="responsive-block">
-            
-          
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-Sleeve-Bag"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-Sleeve-Bag"></div>
-                    </div>
-                  </a>
-            </div>
-          </div>
-          
+
           <div class="carousel-item ">
             <div class="responsive-block">
             <a href="<?php echo e(route('product.overview', ['essential'])); ?>">
@@ -50,6 +38,18 @@
             </div>
           </div> 
           
+          <div class="carousel-item ">
+            <div class="responsive-block">
+            
+          
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-Sleeve-Bag"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-Sleeve-Bag"></div>
+                    </div>
+                  </a>
+            </div>
+          </div>
+
           <div class="carousel-item ">
               <div class="responsive-block">
               <a href="https://bit.ly/3AondkR">
