@@ -45,6 +45,6 @@ return [
     'color'               			=> 'Color',
     'color-detail'           		=> 'Charcoal Grey',
     'img-feature'           		=> '/images/cosmos/feature.png',
-	'img-banner1'           		=> '/images/banner/Cosmos_1920x720.jpg',
-	'img-banner2'           		=> '/images/banner/Cosmos_350x600.jpg',
+	'img-banner1'           		=> '/images/banner/cosmos-web.jpg',
+	'img-banner2'           		=> '/images/banner/cosmos-mob.jpg',
 ];

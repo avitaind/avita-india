@@ -16,8 +16,8 @@
             <div class="responsive-block">
             <a href="https://www.amazon.in/s?k=avita+pura">
                 <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/Pura_E_Avita_web_banner_1920X720.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/Pura-E_Avita_mobile_banner_350X600.jpg')"></div>
+                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/pura-e-web.jpg')"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/pura-e-mob.jpg')"></div>
                     <div class="banner-info">
                         <div class="an-scroll-wrap">
                             <div class="an-scroll">
