@@ -7,6 +7,18 @@
             <a href="https://bit.ly/3FoPUl0">
           
                     <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-avita-5Year"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-avita-5Year"></div>
+                    </div>
+                  </a>
+            </div>
+          </div> 
+
+          <div class="carousel-item ">
+            <div class="responsive-block">
+            <a href="https://bit.ly/3FoPUl0">
+          
+                    <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-PURA-E"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-PURA-E"></div>
                     </div>
@@ -84,7 +96,7 @@
            <li data-target="#home_banner" data-slide-to="3"></li>
            <li data-target="#home_banner" data-slide-to="4"></li>
            <li data-target="#home_banner" data-slide-to="5"></li>
-           
+           <li data-target="#home_banner" data-slide-to="6"></li>
         </ol>
     </div>
   </div>       

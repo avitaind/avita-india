@@ -1,5 +1,5 @@
 <?php $__env->startSection('title'); ?>
-    <?php echo app('translator')->getFromJson('title.whats_new'); ?>
+    <?php echo app('translator')->getFromJson('title.whats_new'); ?>    
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
