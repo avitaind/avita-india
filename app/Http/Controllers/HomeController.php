@@ -224,4 +224,6 @@ class HomeController extends Controller
     public function getModus() {
         return view('product.modus');
     }
+
+   
 }

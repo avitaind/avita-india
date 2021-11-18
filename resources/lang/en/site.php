@@ -48,6 +48,7 @@ return [
     'smart_device'                  => 'Smart Device',
     'imago_series'                  => 'IMAGO Series Smart Mirror',
     'modus_scale'                   => 'MODUS Smart Scale',
+    'domus_led'                   => 'DOMUS Smart LED',
     'home_notify'                   =>'Notify Me',
     'gender_m'                      => 'Male',
     'gender_f'                      => 'Female',

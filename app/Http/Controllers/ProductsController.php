@@ -192,6 +192,11 @@ class ProductsController extends Controller
             return view('product.magus_lite_spec', compact( 'product'));
         }
 
+        if ( $slug == 'domus' ) {
+            return view('product.domus', compact( 'product'));
+        }
+
+
         if ( !$product ) {
             abort(404);
         }

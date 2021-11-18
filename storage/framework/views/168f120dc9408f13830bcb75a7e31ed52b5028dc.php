@@ -70,6 +70,9 @@
                                         <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['modus'])); ?>"><?php echo app('translator')->getFromJson('site.modus_scale'); ?></a>
                                         </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['domus'])); ?>"><?php echo app('translator')->getFromJson('site.domus_led'); ?></a>
+                                        </li>
                                     </ul>
                                 </div>
                             </li>
