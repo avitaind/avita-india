@@ -60,7 +60,22 @@
                         </ul>
                     </a>
                       
-                    
+                    <a class="col text-center nav-link " data-toggle="tab" href="#spec-2" role="tab">
+                        <div class="spec-item-name mb-4"><div class="d-sm-block">AVITA PURA E</div><div class="d-sm-block">(35.56 cm)</div></div>
+                        <!--<img class="hidden-sm-down" src="/images/liber/u13/lightpurple.png"> -->
+                        <img class="hidden-sm-down" src="/images/pura/water_blue.png">
+                        <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">  
+                            <li class="active" style="background-color: #02355b " data-image="/images/pura/water_blue.png"></li>
+                            <li style="background-color: #6f4781" data-image="/images/pura/bubble_purple.png"></li>
+                            <li style="background-color: #ecd94a " data-image="/images/pura/butter_yellow.png"></li>
+                            <li style="background-color: #6f090f " data-image="/images/pura/crayon_red.png"></li>
+                            <li style="background-color: #e8b19d" data-image="/images/pura/fresh_peach.png"></li>
+                            <li style="background-color: #201a16" data-image="/images/pura/ink_blue.png"></li>
+                            <li style="background-color: #00473c " data-image="/images/pura/leaf_green.png"></li>
+                            <li style="background-color: #e2a7af" data-image="/images/pura/pink_flower.png"></li>
+                            <li style="background-color: #505253 " data-image="/images/pura/shadow_grey.png"></li>
+                        </ul>
+                    </a>
 
                       </nav>
                  </div>
@@ -82,26 +97,25 @@
                     <ul class="list-unstyled spec-list">
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Operating System</div>
-                            <div>Windows 10 Home in S mode / Windows 10 Home</div>
+                            <div>Windows 10 Home in S mode </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">CPU</div>
                             <div>
                                 Intel® Core™ i3-8145U / Intel® Core™ i5-8265U  / AMD A6-9220E / AMD A9-9420E / AMD R3-3200U / AMD R5-3500U
-
                             </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Display</div>
-                            <div>14 TFT (1920 x 1080) / 14 HD TFT </div>
+                            <div>14 TFT (1920 x 1080) / IPS Anti-Glare Panel </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Memory</div>
-                            <div>4GB / 8GB DDR4</div>
+                            <div>4GB LPDDR3 / 8GB DDR4</div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Graphics</div>
-                            <div>Intel® UHD Graphics 620 / AMD Radeon® R5 Graphics / AMD Radeon Vega 3 Graphics / AMD Radeon Vega 8  Graphics / AMD Radeon R4 </div>
+                            <div>Intel® UHD Graphics 620 / AMD Radeon® R5 Graphics / AMD Radeon Vega 3 Graphics / AMD Radeon Vega 8  Graphics  </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Storage</div>
@@ -121,7 +135,7 @@
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Wireless</div>
-                            <div>IEEE 802.11 b/g/n/ac / IEEE 802.11 b/g/n</div>
+                            <div>IEEE 802.11 b/g/n/ac </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Bluetooth</div>
@@ -129,11 +143,12 @@
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">I/O Ports</div>
-                            <div>1 x 3.5mm Headphone Jack, 2 x Full Size USB 3.0, 1 x USB 3.0 Type-C (PD 2.0 Charging, Display out), 1 x MicroSD card slot (Max support 256GB), Micro HDMI x 1 / USB 3.0 Type-C x 1 (data only)</div>
+                            <div>Full Size HDMI x 1 / Micro HDMI x 1 / Mini HDMI x 1 / USB 3.0 Type-A x 2 / USB 3.0 Type-C x 1 (PD 2.0 charging, Display out) / MicroSD card slot x 1 (support 256G) / Type C x 1 / USB 2.0 Type A x 1 / 3.5mm x 1 / Power Jack </div>
+                            
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Dimension</div>
-                            <div>332(W) x 221(H) x 15(D) mm / 333(W) x 221(H) x 19(D) mm</div>
+                            <div>332(W) x 221(H) x 15(D) mm / 332(W) x 221(H) x 17(D) mm / 332(W) x 222(H) x 20(D) mm</div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Weight</div>
@@ -142,7 +157,7 @@
                         
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Battery</div>
-                            <div>7.6V 4830mAh / 7.4V 3200mAh </div>
+                            <div>7.6V 4830mAh  </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Battery Life</div>
@@ -151,7 +166,7 @@
                         
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Colour</div>
-                            <div>Space Grey / Metallic Black / Silky White / Crystal Blue / Glossy Purple / Sugar Red / Shiny Yellow / Pink Diamond / Sparkling Pink /  Ink Black / Shadow Grey / Water Blue* / Bubble Purple* / Crayon Red* / Pink Flower* / Butter Yellow* / Fresh Peach* / Leaf Green* (* To be released)</div>
+                            <div>Space Grey / Metallic Black / Silky White / Crystal Blue / Glossy Purple / Sugar Red / Shiny Yellow / Pink Diamond / Sparkling Pink /  Ink Black / Shadow Grey </div>
                         </li>
                         
                         <li class="spec-item d-flex">
@@ -173,7 +188,7 @@
                     <ul class="list-unstyled spec-list">
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Operating System</div>
-                            <div>Windows 10 Home </div>
+                            <div>Window 10 Home in S mode </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">CPU</div>
@@ -187,7 +202,7 @@
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Memory</div>
-                            <div>8GB DDR4</div>
+                            <div>4 / 8GB DDR4</div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Graphics</div>
@@ -195,11 +210,11 @@
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Storage</div>
-                            <div>256GB SSD </div>
+                            <div>128 / 256 GB SSD </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Integrated Camera</div>
-                            <div>2M / VGA </div>
+                            <div>VGA </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Audio</div>
@@ -215,11 +230,11 @@
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Bluetooth</div>
-                            <div>v4.2</div>
+                            <div>V4.2</div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">I/O Ports</div>
-                            <div>Mini HDMI x 1, USB 3.0 Type-A x 2, USB 3.0 Type x 1(Data only), Power Jack </div>
+                            <div>Mini HDMI x 1, USB 3.0 Type-A x 2, USB 3.0 Type-C x 1(Data only), 3.5mm x 1 Power Jack </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Dimension</div>
