@@ -278,6 +278,7 @@ return [
     'article_title' => 'Events',
     'article_status_finished'=>'Finished',
     'article_status_processing'=>'Processing',
+    'article_status_processing'=>'In Progress',
     'news_status_processing'=>'Processing',
     'article_status_coming_soon'=>'Coming Soon',
     'blog_title'=>'Blogs',
@@ -285,6 +286,6 @@ return [
     'publish_title'=>'News',
 
       
-
+    
 
 ];
