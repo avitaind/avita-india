@@ -239,7 +239,7 @@
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">I/O Ports</div>
-                            <div>Mini HDMI x 1, USB 3.0 Type-A x 2, USB 3.0 Type-C x 1(Data only), 3.5mm x 1 Power Jack </div>
+                            <div>Mini HDMI x 1, USB 3.0 Type-A x 2, USB 3.0 Type-C x 1(Data only), 3.5mm x 1 Audio Jack, Power Jack </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Dimension</div>
@@ -264,7 +264,7 @@
                         
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Colour</div>
-                            <div>Shadow Grey / Water Blue / Bubble Purple / Crayon Red / Pink Flower / Butter Yellow / Fresh Peach / Leaf Green</div>
+                            <div>Shadow Grey / Water Blue / Bubble Purple / Crayon Red / Pink Flower / Butter Yellow / Fresh Peach / Leaf Green / Ink Black</div>
                         </li>
                         
                         <li class="spec-item d-flex">
