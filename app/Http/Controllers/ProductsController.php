@@ -196,7 +196,9 @@ class ProductsController extends Controller
             return view('product.domus', compact( 'product'));
         }
 
-
+        if ( $slug == 'baton' ) {
+            return view('product.baton', compact( 'product'));
+        }
         if ( !$product ) {
             abort(404);
         }

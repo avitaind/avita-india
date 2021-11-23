@@ -27,6 +27,7 @@ return [
     'india'    => 'INDIA',
     'all_rights_reserved'    => 'All Rights Reserved',
     'career'    => 'Career',
+    'domus'    => 'AVITA DOMUS',
 
    //Where to Buy
     'AVITA Exclusive Store'    => 'AVITA Exclusive Store',

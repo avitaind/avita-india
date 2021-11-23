@@ -1,78 +1,69 @@
-<?php $__env->startSection('title'); ?>
-    <?php echo app('translator')->getFromJson('title.DOMUS_home'); ?>
-<?php $__env->stopSection(); ?>
+@extends('layouts.app')
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+@section('title')
+    @lang('title.DOMUS_home')
+@stop
 
 
-<?php $__env->startSection('content'); ?>
-<section class="top-nav-padding homepage-banner">
-    <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <div class="responsive-block">
-            <a href="">
-          
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down " style="background-image: url('https://www.lighting.philips.co.in/content/dam/b2c/en_IN/marketing-catalog/lighting/homebase/smart-wifi-led-l.jpg');">
-                            <div class="carousel-text">
-                                <h1>Smart Wi-fi<br/>LED Lighting</h1>
-                                <p>No Smart is Simple</p>
-                                <button class="btn btn-secondary">View More</butto>
-                            </div>
-                        </div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-PURA-E"></div>
-                    </div>
-                  </a>
-            </div>
-          </div> 
-          
-          <div class="carousel-item ">
-            <div class="responsive-block">
-            <a href="">
-          
-                    <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down " style="background-image: url('https://www.lighting.philips.co.in/b-dam/b2c/en_IN/marketing-catalog/lighting/homebase/twinglow-l.jpg');">
-                            <div class="carousel-text">
-                                <h1>Smart Wi-fi<br/>LED Lighting</h1>
-                                <p>No Smart is Simple</p>
-                                <button class="btn btn-secondary">View More</butto>
-                            </div>
-                        </div>                 
-                        <div class="banner-bg hidden-md-up banner-mob-Cosmos"></div>
-                    </div>
-                  </a>
-            </div>
-          </div> 
+@section('content')
+ <!-- ======= Hero Section ======= -->
+ <section id="hero" class="d-fluid align-items-center">
 
-          <div class="carousel-item ">
-            <div class="responsive-block">
-            <a href="">
-          
-                    <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down " style="background-image: url('https://www.lighting.philips.co.in/b-dam/b2c/en_IN/marketing-catalog/lighting/homebase/world-of-lighting-l.jpg');">
-                            <div class="carousel-text">
-                                <h1>Smart Wi-fi<br/>LED Lighting</h1>
-                                <p>No Smart is Simple</p>
-                                <button class="btn btn-secondary">View More</butto>
-                            </div>
-                        </div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-Essential"></div>
-                    </div>
-                  </a>
-            </div>
-          </div> 
-          
 
-      
- 
-          <ol class="carousel-indicators">
-           <li data-target="#home_banner" data-slide-to="0" class="active"></li>
-           <li data-target="#home_banner" data-slide-to="1"></li>
-           <li data-target="#home_banner" data-slide-to="2"></li>
-        </ol>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+      <div class="carousel-text">
+          <h1>Smart Wi-fi<br/>LED Lighting</h1>
+          <p>No Smart is Simple</p>
+          <button class="btn btn-secondary">View More</butto>
+        </div>
+        <img src="https://www.lighting.philips.co.in/content/dam/b2c/en_IN/marketing-catalog/lighting/homebase/smart-wifi-led-l.jpg" alt="Smart LED Slider 1" width="100%" height="auto">
+    
     </div>
-  </div>       
+  
+      </div>
+      <div class="carousel-item">
+      <div class="carousel-text">
+          <h1>Smart Wi-fi<br/>LED Lighting</h1>
+          <p>No Smart is Simple</p>
+          <button class="btn btn-secondary">View More</butto>
+        </div>
+        <img src="https://www.lighting.philips.co.in/b-dam/b2c/en_IN/marketing-catalog/lighting/homebase/twinglow-l.jpg" alt="Smart LED Slider 2" width="100%" height="auto">
+      </div>
+      <div class="carousel-item">
+      <div class="carousel-text">
+          <h1>Smart Wi-fi<br/>LED Lighting</h1>
+          <p>No Smart is Simple</p>
+          <button class="btn btn-secondary">View More</butto>
+        </div>
 
-</section>
+        <img src="https://www.lighting.philips.co.in/b-dam/b2c/en_IN/marketing-catalog/lighting/homebase/world-of-lighting-l.jpg" alt="Smart LED Slider 3" width="100%" height="auto">
+      </div>
+    </div>
+  
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+
+</section><!-- End Hero -->
 
 <main id="main">
 
@@ -411,36 +402,11 @@
 
 </main><!-- End #main -->
 
+@stop
+@section('js')
+<!-- <script type="text/js" href="{{ asset('js/product-domus.js') }}"></script> -->
 
-<?php $__env->stopSection(); ?>
-<?php $__env->startSection('js'); ?>
-
-<?php $__env->stopSection(); ?>
-<?php $__env->startSection('css'); ?>
-<link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-domus.css')); ?>"/>
-
-<style>
-.carousel-text{
-	position:absolute;
-	right:60%;
-	bottom:30%;
-	left:5%;
-	z-index:10;
-	padding-top:20px;
-	padding-bottom:20px;
-	color:#fff;
-	text-align:center;
-	text-shadow:0 1px 2px rgba(0,0,0,.6)
-	}
-
-	.carousel-text h2{
-		font-size: 24px;
-	}
-	
-	.carousel-text.btn
-	{
-	text-shadow:none
-	}
-    </style>
-<?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+@endsection
+@section('css')
+ <link type="text/css" rel="stylesheet" href="{{ asset('css/product-domus.css') }}"/>
+@endsection

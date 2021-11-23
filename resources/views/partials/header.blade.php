@@ -70,8 +70,19 @@
                                         <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['modus']) }}">@lang('site.modus_scale')</a>
                                         </li>
-                                        <!-- <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['domus']) }}">@lang('site.domus_led')</a>
+                                        <!-- <li class="nav-item has-dropdown">
+                                        <input id="header_product_device" type="checkbox" hidden="">
+                                            <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">{{ __('messages.domus') }}</label></a>
+                                              <div class="dropdown">
+                                                 <ul class="list-unstyled">
+                                                  <li class="nav-item">
+                                                      <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['domus']) }}">@lang('site.domus_led')</a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                      <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['baton']) }}">@lang('site.domus_baton')</a>
+                                                  </li>
+                                                 </ul>
+                                              </div>  
                                         </li> -->
                                     </ul>
                                 </div>
