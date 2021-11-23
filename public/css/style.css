@@ -529,7 +529,7 @@ section.color-choice .container{
    width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('/images/pre-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+    background: url('/images/pre-loader.gif') 50% 50% no-repeat rgb(255, 255, 255);
 }
 
 @media (max-width: 767px) {
@@ -542,7 +542,7 @@ section.color-choice .container{
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('/images/pre-loader-mob.gif') 50% 50% no-repeat rgb(249,249,249);
+    background: url('/images/pre-loader-mob.gif') 50% 50% no-repeat rgb(255, 255, 255);
       
   }
   
@@ -586,6 +586,14 @@ section.color-choice .container{
 /*Web Banners*/
 
 @media only screen and (min-width : 1600px) {
+
+    .banner-web-avita-5Year{
+        background: url('/images/banner/AVITA_5TH_KV.jpg');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
 
     .banner-web-Sleeve-Bag{
         background: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg');
@@ -649,6 +657,14 @@ section.color-choice .container{
 /*Laptop Size */
 @media only screen and (min-width : 1200px) {
 
+    .banner-web-avita-5Year{
+        background: url('/images/banner/AVITA_5TH_KV.jpg');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
+
     .banner-web-Sleeve-Bag{
         background: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg');
         -webkit-background-size: 100% 100%;
@@ -708,6 +724,14 @@ section.color-choice .container{
    
 /*Tab Size*/
 @media only screen and (min-width : 768px){
+
+    .banner-web-avita-5Year{
+        background: url('/images/banner/AVITA_5TH_KV.jpg');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
 
     .banner-web-Sleeve-Bag{
         background: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_web.jpg');
@@ -769,6 +793,14 @@ section.color-choice .container{
 /*Mob Banners*/
 @media only screen and (min-width : 320px)  {
 
+    .banner-mob-avita-5Year{
+        background: url('/images/banner/AVITA_5TH_KV_vert.jpg');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
+
     .banner-mob-Sleeve-Bag{
         background: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_mob.jpg');
         -webkit-background-size: 100% 100%;
@@ -828,6 +860,14 @@ section.color-choice .container{
 
 /*Mob Banners*/
 @media only screen and (min-width : 200px)  {
+
+    .banner-mob-avita-5Year{
+        background: url('/images/banner/AVITA_5TH_KV_vert.jpg');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
 
     .banner-mob-Sleeve-Bag{
         background: url('/images/banner/Sleeve_bag_in_Avita_website_banner_size_mob.jpg');
