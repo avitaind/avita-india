@@ -36,7 +36,7 @@
                         </div>
                          <div class="space60"></div>
 
-                        <span class="buy-now2"><a href="https://in.nexstmall.com/products/avita-essential-35-56-cm-laptop" target="_blank">Buy now ></a></span>
+                        <span class="buy-now2"><a href="https://in.nexstmall.com/" target="_blank">Buy now ></a></span>
 
                         <div class="space60"></div>
 
