@@ -102,7 +102,7 @@
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">CPU</div>
                             <div>
-                                Intel® Core™ i3-8145U / Intel® Core™ i5-8265U  / AMD A6-9220E / AMD A9-9420E / AMD R3-3200U / AMD R5-3500U
+                                Intel® Core™ i3-8145U / Intel® Core™ i5-8265U / AMD A9-9420E / AMD R3-3200U / AMD R5-3500U
                             </div>
                         </li>
                         <li class="spec-item d-flex">
@@ -188,7 +188,7 @@
                     <ul class="list-unstyled spec-list">
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Operating System</div>
-                            <div>Window 10 Home </div>
+                            <div>Windows 10 Home </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">CPU</div>

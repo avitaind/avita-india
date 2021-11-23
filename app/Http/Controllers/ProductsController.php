@@ -28,6 +28,10 @@ class ProductsController extends Controller
         return view('mouse');
     }
 
+    public function sleeve(){
+        return view('product.sleeve');
+    }
+
     public function getproducts(){
         return view('product.overview');
     }
@@ -199,6 +203,7 @@ class ProductsController extends Controller
         if ( $slug == 'baton' ) {
             return view('product.baton', compact( 'product'));
         }
+
         if ( !$product ) {
             abort(404);
         }
