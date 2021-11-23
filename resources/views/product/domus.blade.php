@@ -123,7 +123,9 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4><a href="">Lorem Ipsum</a></h4>
+              <img src="https://www.lighting.philips.co.in/b-dam/b2c/en_IN/marketing-catalog/lighting/homebase/led-collection.jpg" style="width:200px;">
               <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <h6 class="mt-4"><a href="#">View Details</a></h6>
             </div>
           </div>
 
@@ -131,7 +133,9 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Sed ut perspici</a></h4>
+              <img src="https://www.lighting.philips.co.in/b-dam/b2c/en_IN/marketing-catalog/lighting/homebase/led-collection.jpg" style="width:200px;">
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h6 class="mt-4"><a href="#">View Details</a></h6>
             </div>
           </div>
 
@@ -139,7 +143,9 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4><a href="">Magni Dolores</a></h4>
+              <img src="https://www.lighting.philips.co.in/b-dam/b2c/en_IN/marketing-catalog/lighting/homebase/led-collection.jpg" style="width:200px;">
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h6 class="mt-4"><a href="#">View Details</a></h6>
             </div>
           </div>
 
@@ -147,7 +153,9 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
               <h4><a href="">Nemo Enim</a></h4>
+              <img src="https://www.lighting.philips.co.in/b-dam/b2c/en_IN/marketing-catalog/lighting/homebase/led-collection.jpg" style="width:200px;">
               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <h6 class="mt-4"><a href="#">View Details</a></h6>
             </div>
           </div>
 
@@ -287,7 +295,7 @@
 
 
 <!-- ======= Pricing Section ======= -->
-<section id="pricing" class="pricing">
+<!-- <section id="pricing" class="pricing">
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
@@ -345,7 +353,9 @@
     </div>
 
   </div>
-</section><!-- End Pricing Section -->
+</section> -->
+
+<!-- End Pricing Section -->
 
 <!-- ======= Frequently Asked Questions Section ======= -->
 <section id="faq" class="faq section-bg">
@@ -416,6 +426,7 @@
 
 @stop
 @section('js')
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 @endsection
 @section('css')
