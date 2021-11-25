@@ -163,7 +163,7 @@
                   An ideal laptop bag is one that keeps the device safe. It also acts as a style accessory and adds more to your personality. Our newly launched Avita Ubique 3-in-1 sleeve is designed to give safety to your laptop while making you look fabulous as you do it. 
                </p>
             </div>
-            <div class="accordion-list">
+            <div class="accordion-list hidden-sm-down">
                <ul>
                   <li>
                      {{--  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>  --}}
@@ -213,7 +213,7 @@
                   As the name suggests, AVITA Ubique 3-in-1 is available in 3 different styles. While one can use this as a sling bag, it can also be arm candy and can be carried around easily. Last but not the least, the bag also acts as a laptop sleeve for days when you don't feel like twirling around with your bag. 
                </p>
             </div>
-            <div class="accordion-list">
+            <div class="accordion-list hidden-sm-down">
                <ul>
                   <li>
                      {{--  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>  --}}
@@ -261,7 +261,7 @@
                   Pick your bag as per your mood! The versatile bag is available in 4 different shades namely blue, black, dark grey, and light grey.
                </p>
             </div>
-            <div class="accordion-list">
+            <div class="accordion-list hidden-sm-down">
                <ul>
                   <li>
                      {{--  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>  --}}
@@ -311,7 +311,7 @@
                   What's even a bag that cannot hold all your essentials? AVITA Ubique 3-in-1 sleeve comes with spacious interiors to keep your belongings like charger, hard disks, notepad, pen, etc. Its 3 extra pockets give you easy access to take out smaller items. 
                </p>
             </div>
-            <div class="accordion-list">
+            <div class="accordion-list hidden-sm-down">
                <ul>
                   <li>
                      {{--  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>  --}}
@@ -359,7 +359,7 @@
                   This lightweight build bag is easy to carry around. It is also equipped with cushioned laptop support for optimal comfort and safety. 
                </p>
             </div>
-            <div class="accordion-list">
+            <div class="accordion-list hidden-sm-down">
                <ul>
                   <li>
                      {{--  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>  --}}
@@ -409,7 +409,7 @@
                   Made for all weather conditions. The durable PU-coated material makes the bag resistant to water.
                </p>
             </div>
-            <div class="accordion-list">
+            <div class="accordion-list hidden-sm-down">
                <ul>
                   <li>
                      {{--  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>  --}}
