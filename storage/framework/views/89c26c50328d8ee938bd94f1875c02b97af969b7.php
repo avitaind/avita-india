@@ -1,11 +1,9 @@
-@extends('layouts.app')
-
-@section('title')
-    @lang('title.DOMUS_home')
-@stop
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.DOMUS_home'); ?>
+<?php $__env->stopSection(); ?>
 
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 <main id="main">
 
 <section class="top-nav-padding homepage-banner">
@@ -118,7 +116,7 @@
 
   <div class="row">
        <div class="col py-4 px-md-6 border bg-light">
-               <img src="{{ asset('images/bulb.png') }}"></img>
+               <img src="<?php echo e(asset('images/bulb.png')); ?>"></img>
           <div class="circle" id ="colorVal" >
             
          </div>
@@ -457,8 +455,8 @@
 </main><!-- End #main -->
 
 
-@stop
-@section('js')
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('js'); ?>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> -->
 
@@ -475,9 +473,9 @@
         });
 
 </script>
-@endsection
-@section('css')
-<link type="text/css" rel="stylesheet" href="{{ asset('css/product-domus.css') }}"/>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('css'); ?>
+<link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-domus.css')); ?>"/>
 
 <style>
 .carousel-text{
@@ -502,4 +500,5 @@
 	text-shadow:none
 	}
     </style>
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

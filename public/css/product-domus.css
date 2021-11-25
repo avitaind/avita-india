@@ -334,7 +334,7 @@ body {
 	  max-width: 40%;
 	}
   }
-  
+
   /*--------------------------------------------------------------
   # About Us
   --------------------------------------------------------------*/
@@ -590,7 +590,7 @@ body {
   # Cta
   --------------------------------------------------------------*/
   .cta {
-	background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+	background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../images/cta-bg.jpg") fixed center center;
 	background-size: cover;
 	padding: 120px 0;
   }
@@ -1227,6 +1227,42 @@ body {
 	color: #4668a2;
 	content: "/";
   }
+
+  
+
+ /*--------------------------------------------------------------
+  # Demo
+  --------------------------------------------------------------*/
+
+  input[type="color"].custom {
+  padding: 0;
+  border: none;
+  height: 20px;
+  width: 100%;
+  vertical-align: middle;
+  margin-top: 15%;
+}
+
+.circle {
+  height: 100%!important;
+  width: 23%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 13%;
+}
+
+.avita {
+	height: 5%;
+	width: 5%;
+	background-color: #662d91;
+	display: inline-flex;
+	padding: 2%;
+	margin-left: 65%;
+	box-shadow: 0 1px 2px rgba(255,255,255,.5);
+  }
+
+
   .carousel-text{
 	position:absolute;
 	right:60%;
@@ -1249,3 +1285,38 @@ body {
 	text-shadow:none
 	}
 	
+  
+  .demo {
+	background: linear-gradient(rgba(250, 250, 250, 0.404), rgba(40, 58, 90, 0.9)), url("../images/bulb-bg.jpg") fixed center center;
+	background-size: cover;
+	padding: 5% 0 10% 0;
+  }
+
+  .demo img {
+	max-width: 26%;
+	transition: all 0.4s ease-in-out;
+	display: inline-block;
+	padding: 11% 0;
+	filter: grayscale(100);
+	margin-top: 10%;
+	position: absolute;
+
+  }
+  /* .demo img:hover {
+	filter: none;
+	transform: scale(1.5);
+  } */
+  @media (max-width: 768px) {
+	.demo img {
+	  width: auto;
+	}
+  }
+
+  h1{
+	  color:#fff;
+	  text-align: center;
+	  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	  text-shadow: 2px 2px #000000;
+	  font-size: 26px;
+	}
+
