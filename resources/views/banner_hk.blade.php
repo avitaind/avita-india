@@ -7,7 +7,7 @@
             <a href="https://avita-india.com/news/detail/12">
           
                     <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-avita-5Year"></div>                  
+                        <div class="banner-bg hidden-sm-down banner-web-avita-5Year"></div>                   
                         <div class="banner-bg hidden-md-up banner-mob-avita-5Year"></div>
                     </div>
                   </a>

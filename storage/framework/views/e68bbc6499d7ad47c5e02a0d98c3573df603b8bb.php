@@ -9,6 +9,116 @@
    margin-right: auto;
    width: 50%;
    }
+   /*--------------------------------------------------------------
+   # Why Us
+   --------------------------------------------------------------*/
+   .why-us{
+   background-color: #F0F0F0;
+   }
+   .section-bg{
+      background-color: #ffffff;
+      }
+   .why-us .content {
+   padding: 60px 100px 0 100px;
+   }
+   .why-us .content h3 {
+   font-weight: 400;
+   font-size: 34px;
+   color: #37517e;
+   }
+   .why-us .content h4 {
+   font-size: 20px;
+   font-weight: 700;
+   margin-top: 5px;
+   }
+   .why-us .content p {
+   font-size: 15px;
+   color: #848484;
+   }
+   .why-us .img {
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center center;
+   }
+   .why-us .accordion-list {
+   padding: 0 100px 60px 100px;
+   }
+   .why-us .accordion-list ul {
+   padding: 0;
+   list-style: none;
+   }
+   .why-us .accordion-list li + li {
+   margin-top: 15px;
+   }
+   .why-us .accordion-list li {
+   padding: 20px;
+   background: #fff;
+   border-radius: 4px;
+   }
+   .why-us .accordion-list a {
+   display: block;
+   position: relative;
+   font-family: "Poppins", sans-serif;
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 500;
+   padding-right: 30px;
+   outline: none;
+   cursor: pointer;
+   }
+   .why-us .accordion-list span {
+   color: #47b2e4;
+   font-weight: 600;
+   font-size: 18px;
+   padding-right: 10px;
+   }
+   .why-us .accordion-list i {
+   font-size: 24px;
+   position: absolute;
+   right: 0;
+   top: 0;
+   }
+   .why-us .accordion-list p {
+   margin-bottom: 0;
+   padding: 10px 0 0 0;
+   }
+   .why-us .accordion-list .icon-show {
+   display: none;
+   }
+   .why-us .accordion-list a.collapsed {
+   color: #343a40;
+   }
+   .why-us .accordion-list a.collapsed:hover {
+   color: #47b2e4;
+   }
+   .why-us .accordion-list a.collapsed .icon-show {
+   display: inline-block;
+   }
+   .why-us .accordion-list a.collapsed .icon-close {
+   display: none;
+   }
+   @media (max-width: 1024px) {
+   .why-us .content, .why-us .accordion-list {
+   padding-left: 0;
+   padding-right: 0;
+   }
+   }
+   @media (max-width: 992px) {
+   .why-us .img {
+   min-height: 400px;
+   }
+   .why-us .content {
+   padding-top: 30px;
+   }
+   .why-us .accordion-list {
+   padding-bottom: 30px;
+   }
+   }
+   @media (max-width: 575px) {
+   .why-us .img {
+   min-height: 200px;
+   }
+   }
 </style>
 
 <?php $__env->stopSection(); ?>
@@ -34,76 +144,295 @@
    </div>
 </section>
 
-
-<section>
-   <div class=" container-fluid">
-      <div class="row m-5">
-         <div class="col-md-6">
-            <img class="center" src="<?php echo e(asset('/images/sleeves/front_&back.jpg')); ?>" style="width:500px; height:500px;">
+<!-- End Why Us Section 1 -->
+<section id="why-us" class="why-us section-bg">
+   <div class="container-fluid" data-aos="fade-up">
+      <div class="row">
+         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+            <div class="content">
+               <h3>AVITA Ubique<strong> 3-in-1 </strong>sleeve</h3>
+               <p>
+                  An ideal laptop bag is one that keeps the device safe. It also acts as a style accessory and adds more to your personality. Our newly launched Avita Ubique 3-in-1 sleeve is designed to give safety to your laptop while making you look fabulous as you do it. 
+               </p>
+            </div>
+            <div class="accordion-list">
+               <ul>
+                  <li>
+                     
+                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     
+                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     
+                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+               </ul>
+            </div>
          </div>
-         <div class="col-md-6">
-            <div>
-               <div class="h2 banner-header text-center m-5">AVITA Ubique 3-in-1 sleeve </div>
-               <p class="text-justify">An ideal laptop bag is one that keeps the device safe. It also acts as a style accessory and adds more to your personality. Our newly launched Avita Ubique 3-in-1 sleeve is designed to give safety to your laptop while making you look fabulous as you do it. </p>
+         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img " style='background-image: url("https://avita-india.com/images/sleeves/front_&back.jpg");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+      </div>
+   </div>
+</section>
+<!-- End Why Us Section -->
+
+ 
+
+<!-- End Why Us Section 2 -->
+<section id="why-us" class="why-us section-bg">
+   <div class="container-fluid" data-aos="fade-up">
+      <div class="row">
+         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("https://avita-india.com/images/sleeves/Lifestyle_3.jpg");' data-aos="zoom-in" data-aos-delay="">&nbsp;</div>
+         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+            <div class="content">
+               
+               <h3>Perfect fit for all your needs</h3>
+               <p>
+                  As the name suggests, AVITA Ubique 3-in-1 is available in 3 different styles. While one can use this as a sling bag, it can also be arm candy and can be carried around easily. Last but not the least, the bag also acts as a laptop sleeve for days when you don't feel like twirling around with your bag. 
+               </p>
+            </div>
+            <div class="accordion-list">
+               <ul>
+                  <li>
+                     
+                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     
+                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     
+                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+               </ul>
             </div>
          </div>
       </div>
    </div>
-   <div class=" container-fluid">
-      <div class="row m-5">
-         <div class="col-md-6">
-            <div class=" h2 banner-header text-center m-5">Perfect fit for all your needs</div>
-            <p class="text-justify  ">As the name suggests, AVITA Ubique 3-in-1 is available in 3 different styles. While one can use this as a sling bag, it can also be arm candy and can be carried around easily. Last but not the least, the bag also acts as a laptop sleeve for days when you don't feel like twirling around with your bag. </p>
+</section>
+<!-- End Why Us Section -->
+
+ 
+
+<!-- End Why Us Section 3 -->
+<section id="why-us" class="why-us section-bg">
+   <div class="container-fluid" data-aos="fade-up">
+      <div class="row">
+         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+            <div class="content">
+               
+               <h3>Available in 4 colours</h3>
+               <p>
+                  Pick your bag as per your mood! The versatile bag is available in 4 different shades namely blue, black, dark grey, and light grey.
+               </p>
+            </div>
+            <div class="accordion-list">
+               <ul>
+                  <li>
+                     
+                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     
+                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     
+                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+               </ul>
+            </div>
          </div>
-         <div class="col-md-6">
-            <img class=" text-center center" src="<?php echo e(asset('/images/sleeves/Lifestyle_2.jpg')); ?>" style="width:500px; height:500px;">
+         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("https://avita-india.com/images/sleeves/Multicolors.jpg");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+      </div>
+   </div>
+</section>
+<!-- End Why Us Section -->
+
+ 
+
+<!-- End Why Us Section 4 -->
+<section id="why-us" class="why-us section-bg">
+   <div class="container-fluid" data-aos="fade-up">
+      <div class="row">
+         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("https://avita-india.com/images/sleeves/Lifestyle_2.jpg");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+            <div class="content">
+               
+               <h3>Spacious interiors</h3>
+               <p>
+                  What's even a bag that cannot hold all your essentials? AVITA Ubique 3-in-1 sleeve comes with spacious interiors to keep your belongings like charger, hard disks, notepad, pen, etc. Its 3 extra pockets give you easy access to take out smaller items. 
+               </p>
+            </div>
+            <div class="accordion-list">
+               <ul>
+                  <li>
+                     
+                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     
+                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     
+                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+               </ul>
+            </div>
          </div>
       </div>
    </div>
-   <div class=" container-fluid">
-      <div class="row m-5">
-         <div class="col-md-6">
-            <img class=" center" src="<?php echo e(asset('/images/sleeves/Lifestyle_3.jpg')); ?>" style="width:500px; height:500px;">
+</section>
+<!-- End Why Us Section -->
+
+ 
+
+<!-- End Why Us Section 5 -->
+<section id="why-us" class="why-us section-bg">
+   <div class="container-fluid" data-aos="fade-up">
+      <div class="row">
+         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+            <div class="content">
+               
+               <h3>Lightweight and comfortable</strong></h3>
+               <p>
+                  This lightweight build bag is easy to carry around. It is also equipped with cushioned laptop support for optimal comfort and safety. 
+               </p>
+            </div>
+            <div class="accordion-list">
+               <ul>
+                  <li>
+                     
+                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     
+                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     
+                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+               </ul>
+            </div>
          </div>
-         <div class="col-md-6">
-            <div class=" h2 banner-header text-center m-5">Available in 4 colours</div>
-            <p class="text-justify ">Pick your bag as per your mood! The versatile bag is available in 4 different shades namely blue, black, dark grey, and light grey.</p>
+         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("https://avita-india.com/images/sleeves/top_shot.jpg");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+      </div>
+   </div>
+</section>
+<!-- End Why Us Section -->
+
+ 
+
+<!-- End Why Us Section 6 -->
+<section id="why-us" class="why-us section-bg">
+   <div class="container-fluid" data-aos="fade-up">
+      <div class="row">
+         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("https://avita-india.com/images/sleeves/spill_resistant.jpg");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+            <div class="content">
+               
+               <h3>Waterproof coating</h3>
+               <p>
+                  Made for all weather conditions. The durable PU-coated material makes the bag resistant to water.
+               </p>
+            </div>
+            <div class="accordion-list">
+               <ul>
+                  <li>
+                     
+                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     
+                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+                  <li>
+                     
+                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                        <p>
+                           
+                        </p>
+                     </div>
+                  </li>
+               </ul>
+            </div>
          </div>
       </div>
    </div>
-   <div class=" container-fluid">
-      <div class="row m-5">
-         <div class="col-md-6">
-            <div class=" h2 banner-header text-center m-5">Spacious interiors</div>
-            <p class="text-justify ">What's even a bag that cannot hold all your essentials? AVITA Ubique 3-in-1 sleeve comes with spacious interiors to keep your belongings like charger, hard disks, notepad, pen, etc. Its 3 extra pockets give you easy access to take out smaller items. </p>
-         </div>
-         <div class="col-md-6">
-            <img class=" center" src="<?php echo e(asset('/images/sleeves/Multicolors.jpg')); ?>" style="width:500px; height:500px;">
-         </div>
-      </div>
-   </div>
-   <div class=" container-fluid">
-      <div class="row m-5">
-         <div class="col-md-6">
-            <img class=" center" src="<?php echo e(asset('/images/sleeves/spill_resistant.jpg')); ?>" style="width:500px; height:500px;">
-         </div>
-         <div class="col-md-6">
-            <div class=" h2 banner-header text-center m-5">Lightweight and comfortable </div>
-            <p class="text-justify ">This lightweight build bag is easy to carry around. It is also equipped with cushioned laptop support for optimal comfort and safety. </p>
-         </div>
-      </div>
-   </div>
-   <div class=" container-fluid">
-      <div class="row m-5">
-         <div class="col-md-6">
-            <div class=" h2 banner-header text-center m-5">Waterproof coating </div>
-            <p class="">Made for all weather conditions. The durable PU-coated material makes the bag resistant to water.</p>
-         </div>
-         <div class="col-md-6">
-            <img class=" center" src="<?php echo e(asset('/images/sleeves/top_shot.jpg')); ?>" style="width:500px; height:500px;">
-         </div>
-      </div>
-   </div>
-</section >
+</section>
+<!-- End Why Us Section -->
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
