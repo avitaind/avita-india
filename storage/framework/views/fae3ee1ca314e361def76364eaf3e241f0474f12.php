@@ -202,7 +202,7 @@
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Memory</div>
-                            <div>4 GB / 8 GB DDR4</div>
+                            <div>4GB / 8GB DDR4</div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Graphics</div>
@@ -234,7 +234,7 @@
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">I/O Ports</div>
-                            <div>Mini HDMI x 1,USB 3.0 TYPE A X 1, USB 2.0 TYPE A X 1, USB 2.0 TYPE C X 1, 3.5mm x 1 Audio Jack, Power Jack </div>
+                            <div>Mini HDMI x 1, USB 3.0 TYPE A X 1, USB 2.0 TYPE A X 1, USB 2.0 TYPE C X 1, 3.5mm x 1 Audio Jack, Power Jack </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Dimension</div>
