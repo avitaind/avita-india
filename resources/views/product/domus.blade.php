@@ -86,22 +86,35 @@
       <h2>About AVITA DOMUS</h2>
     </div>
 
-    <div class="row content">
-      <div class="col-lg-6">
-        <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+    <div class="row">
+      <p class="">
+        AVITA DOMUS enables you to make every moment mesmerizing and extra-special. With DOMUS spread the essence of a whopping 16 million colors. It gives your moments an everlasting touch without compromising your convenience and comfort. 
+      </p>
+    </div>
 
+    <div class="section-title">
+      <h2>Features</h2>
+    </div>
+
+    <div class="row content">
+      <div class="col-lg-6 pt-4 pt-lg-0">
+        <ul class="my-3">
+        
+          <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Wi-Fi and Bluetooth enabled – AVITA Domus does not require hub or bridge as it can directly connect to your Wi-Fi. It can also be paired with your smartphone or tablet.</li>
+          <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Voice control – With voice access, you can control AVITA Domus with spoken demands. </li>
+          <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Mood enhancer – AVITA Domus acts as a mood enhancer and increases motivation.</li>
+          
+        </ul>
       </div>
       <div class="col-lg-6 pt-4 pt-lg-0">
-      <strong>Features: </strong>
       
       <ul class="my-3">
         
-          <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-          <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-          <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+          
+          <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Wide range of colours - AVITA Domus provides a number of colour changing options ranging from cool, warm to solid.</li>
+          <li><i class="fa fa-check-circle-o" aria-hidden="true"></i> Timers – Scheduling made easy! AVITA Domus allows you to schedule automated events. These events include turning lights on and off, changing the colour, or performing certain functions at scheduled times.</li>
         </ul>
-        <a href="#" class="btn-learn-more">Buy Now</a>
+        {{--  <a href="#" class="btn-learn-more">Buy Now</a>  --}}
       </div>
     </div>
 
@@ -131,12 +144,12 @@
           </div>
 
   </div>
-  <div class="col py-4 px-md-6 border bg-light">
+  {{--  <div class="col py-4 px-md-6 border bg-light">
   <h1>AVITA Pre-sets</h1>
 
-      <div class="avita" id ="avitaColor" value="#662d91">
-</div>
-  </div>
+      <div class="avita" id ="avitaColor" value="#662d91">  
+      </div>
+  </div>  --}}
       
 </section>
 <!-- ======= Demo Section End ======= -->
@@ -206,13 +219,14 @@
       <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
         <div class="content">
-          <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
-          <p>
+          <h3>How to install the <strong>app/ Scan the QR code</strong> to install</h3>
+          
+          {{--  <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-          </p>
+          </p>  --}}
         </div>
 
-        <div class="accordion-list">
+        {{--  <div class="accordion-list">
           <ul>
             <li>
               <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
@@ -242,7 +256,16 @@
             </li>
 
           </ul>
-        </div>
+        </div>  --}}
+
+        <ul class=" content mt-0">
+        
+          <li> Step 1: Download free AVITA bulb app on App store or Google Play</li>
+          <li> Step 2: Fix the bulb carefully into the fixture</li>
+          <li> Step 3: Following the stated steps, pair light with the app </li>
+          <li> Step 4: Your smart light LED experience is ready! </li>
+          
+        </ul>
 
       </div>
 
