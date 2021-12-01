@@ -59,7 +59,7 @@
    .why-us .accordion-list a {
    display: block;
    position: relative;
-   font-family: "Poppins", sans-serif;
+   font-family: 'Times New Roman';
    font-size: 16px;
    line-height: 24px;
    font-weight: 500;
