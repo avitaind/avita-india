@@ -209,6 +209,45 @@
 
       </div>
     </section><!-- End Services Section -->
+
+    
+<!-- ======= Demo Section ======= -->
+
+<section id="demo" class="demo">
+
+      <div class="container circle-view">
+        <div class="row">
+          <div class="col-md-2">
+              <div class="circle1" id ="colorVal1" ></div>
+        </div>
+        <div class="col-md-2">
+              <div class="circle2" id ="colorVal2" ></div>
+        </div>
+        <div class="col-md-2">
+              <div class="circle3" id ="colorVal3" ></div>
+        </div>
+        <div class="col-md-2">
+              <div class="circle4" id ="colorVal4" ></div>
+        </div>
+        <div class="col-md-2">
+              <div class="circle5" id ="colorVal5" ></div>
+        </div>
+        <div class="col-md-2">
+              <div class="circle6" id ="colorVal6" ></div>
+        </div>
+      </div>
+
+  </div>
+  <div class="container demo-text w-50">
+      <h1>Personal smart lighting</h1>
+      <p>AVITA DOMUS transforms your every day. It can gently wake you up in the morning, get you energized for the day ahead, and even give you a warm welcome when you arrive home. Because the right light changes everything.</p>
+  </div>
+
+
+
+</section>
+<!-- ======= Demo Section End ======= -->
+
  
 <!-- ======= Why Us Section ======= -->
 <section id="why-us" class="why-us section-bg">
