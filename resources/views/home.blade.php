@@ -6,7 +6,7 @@
 
 @section('content')
 
-      @php
+    @php
         $country = strtolower( request()->segment(1) );
     @endphp
     

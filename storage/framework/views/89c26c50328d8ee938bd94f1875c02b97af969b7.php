@@ -208,27 +208,27 @@
 
 <section id="demo" class="demo">
 
-  <div class="container circle-view">
-    <div class="row">
-       <div class="col-md-2">
-          <div class="circle1" id ="colorVal1" ></div>
-    </div>
-    <div class="col-md-2">
-          <div class="circle2" id ="colorVal2" ></div>
-    </div>
-    <div class="col-md-2">
-          <div class="circle3" id ="colorVal3" ></div>
-    </div>
-    <div class="col-md-2">
-          <div class="circle4" id ="colorVal4" ></div>
-    </div>
-    <div class="col-md-2">
-          <div class="circle5" id ="colorVal5" ></div>
-    </div>
-    <div class="col-md-2">
-          <div class="circle6" id ="colorVal6" ></div>
-    </div>
-  </div>
+      <div class="container circle-view">
+        <div class="row">
+          <div class="col-md-2">
+              <div class="circle1" id ="colorVal1" ></div>
+        </div>
+        <div class="col-md-2">
+              <div class="circle2" id ="colorVal2" ></div>
+        </div>
+        <div class="col-md-2">
+              <div class="circle3" id ="colorVal3" ></div>
+        </div>
+        <div class="col-md-2">
+              <div class="circle4" id ="colorVal4" ></div>
+        </div>
+        <div class="col-md-2">
+              <div class="circle5" id ="colorVal5" ></div>
+        </div>
+        <div class="col-md-2">
+              <div class="circle6" id ="colorVal6" ></div>
+        </div>
+      </div>
 
   </div>
   <div class="container demo-text w-50">

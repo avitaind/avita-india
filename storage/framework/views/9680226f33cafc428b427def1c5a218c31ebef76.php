@@ -4,7 +4,7 @@
 
 <?php $__env->startSection('content'); ?>
 
-      <?php 
+    <?php 
         $country = strtolower( request()->segment(1) );
      ?>
     
