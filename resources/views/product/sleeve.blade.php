@@ -33,8 +33,9 @@
    margin-top: 5px;
    }
    .why-us .content p {
-   font-size: 15px;
+   font-size: 19px;
    color: #848484;
+   font-family: 'Lato';
    }
    .why-us .img {
    background-size: contain;
@@ -59,7 +60,7 @@
    .why-us .accordion-list a {
    display: block;
    position: relative;
-   font-family: 'Times New Roman';
+   font-family: 'Lato';
    font-size: 16px;
    line-height: 24px;
    font-weight: 500;
