@@ -291,7 +291,7 @@
                </ul>
             </div>
          </div>
-         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("https://avita-india.com/images/sleeves/Multicolors.jpg");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("https://avita-india.com/images/sleeves/Multicolors.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
       </div>
    </div>
 </section>
@@ -303,7 +303,7 @@
 <section id="why-us" class="why-us section-bg">
    <div class="container-fluid" data-aos="fade-up">
       <div class="row">
-         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("https://avita-india.com/images/sleeves/top_shot.jpg");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("https://avita-india.com/images/sleeves/top_shot.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
             <div class="content">
                {{--  <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>  --}}
@@ -401,7 +401,7 @@
 <section id="why-us" class="why-us section-bg">
    <div class="container-fluid" data-aos="fade-up">
       <div class="row">
-         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("https://avita-india.com/images/sleeves/spill_resistant.jpg");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("https://avita-india.com/images/sleeves/spill_resistant.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
             <div class="content">
                {{--  <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>  --}}
