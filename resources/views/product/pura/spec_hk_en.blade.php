@@ -109,7 +109,7 @@
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Display</div>
-                            <div>14 TFT (1920 x 1080) / IPS Anti-Glare Panel </div>
+                            <div>14 FHD (1920x1080) IPS Panel / Anti-Glare Panel </div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Memory</div>
@@ -133,11 +133,11 @@
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Keyboard</div>
-                            <div> Island Style Re-engineered Keyboard</div>
+                            <div> Island Style Keyboard</div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Wireless</div>
-                            <div>IEEE 802.11 b/g/n/ac </div>
+                            <div>IEEE 802.11 a/b/g/n/ac</div>
                         </li>
                         <li class="spec-item d-flex">
                             <div class="offset-md-1 col-4 col-md-3">Bluetooth</div>
@@ -291,7 +291,8 @@
                     <li>Colors of actual products may differ from product shots due to photography lighting or display setting of your viewing device.</li>
                     <li>We try our best to provide accurate and complete product information online yet we reserve the rights to keep, change or correct any information without further notice.</li>
                     <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.</li>
-                    <li>*Under Test Conditions</li>
+                    <li>*Under Test Conditions.  Actual battery life may vary depending on product configuration, usage, operational conditions and power management settings. Battery life will decrease over the lifetime of the battery.</li>
+                    
                 </ul>
             </div>
         </section>
