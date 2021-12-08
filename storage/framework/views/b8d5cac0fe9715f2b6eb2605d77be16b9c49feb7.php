@@ -52,7 +52,7 @@
           
           <div class="carousel-item ">
             <div class="responsive-block">
-            
+            <a href="https://in.nexstmall.com/collections/laptop-sleeves" target="_blank">
           
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-Sleeve-Bag"></div>                  

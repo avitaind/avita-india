@@ -1,12 +1,8 @@
 @extends('layouts.app')
 
 @section('title')
-    @lang('title.LIBER_u_series_home')
+    @lang('title.Accessories')
 @stop
-
-@php
-        $page = 'products';
-@endphp
 
 @section('content')
     <main class="top-nav-padding">

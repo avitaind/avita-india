@@ -1,10 +1,6 @@
 <?php $__env->startSection('title'); ?>
-    <?php echo app('translator')->getFromJson('title.LIBER_u_series_home'); ?>
+    <?php echo app('translator')->getFromJson('title.Accessories'); ?>
 <?php $__env->stopSection(); ?>
-
-<?php 
-        $page = 'products';
- ?>
 
 <?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
