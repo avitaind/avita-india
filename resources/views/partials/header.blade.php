@@ -95,10 +95,10 @@
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
 
-                                        <li class="nav-item">
+                                        {{--  <li class="nav-item">
 
                                             <a class="nav-link px-md-4 py-2" href="/accessories/mouse">@lang('site.mouse')</a>
-                                        </li>
+                                        </li>  --}}
                                         {{--  <li class="nav-item">
 
                                             <a class="nav-link px-md-4 py-2" href="/accessories/sleeve">@lang('site.sleeve')</a>
@@ -117,85 +117,54 @@
                 </li>
          
                
-                  
-                
-                
-
-
-
                 <li class="nav-item has-dropdown">
-                  <input id="where_to_buy" type="checkbox" hidden="">
-                    <a class="nav-link"><label for="where_to_buy">{{ __('messages.where_to_buy') }}</label></a>
-                
-                    <div class="dropdown">
-                       <ul class="list-unstyled">
-                        <input id="header_buy_online" type="checkbox" hidden="">
-                        <a class="nav-link px-md-4 py-2"> <label for="header_buy_online" class="d-block mb-0">{{ __('messages.buy_online') }}</label></a>
-
-                         <div class="dropdown">
-                             <ul class="list-unstyled">
-
-                             <li class="nav-item">
-                                 <a class="nav-link px-md-4 py-2" target="_blank" href="https://in.nexstmall.com/">NEXSTMALL</a>
-                             </li>
-                             <li class="nav-item">
-                                 <a class="nav-link px-md-4 py-2" target="_blank" href="https://www.flipkart.com/search?q=avita+laptops&otracker=search&otracker1=search&marketplace=FLIPKART&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DAvita">Flipkart</a>
-                             </li>
-                             <li class="nav-item">
-                                 <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.amazon.in/s?k=avita&ref=nb_sb_noss_2">Amazon</a>
-                             </li>
-                             <li class="nav-item">
-                                 <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.reliancedigital.in/search?q=avita:relevance">Reliance Digital</a>
-                             </li>
-                             <li class="nav-item">
-                                 <a class="nav-link px-md-4 py-2"  target="_blank" href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2&page=1&brand=510306">Paytm Mall</a>
-                             </li>
-                             <li class="nav-item">
-                                 <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.tatacliq.com/search/?searchCategory=all&text=avita">TATA Cliq</a>
-                             </li>
-
-                            </ul>
-                        </div>
-                       
-
-                         <li class="nav-item has-dropdown">
-                            <input id="header_buy_online" type="checkbox" hidden="">
-                               <a class="nav-link px-md-4 py-2"> <label for="header_buy_online" class="d-block mb-0">{{ __('messages.buy_online') }}</label></a>
-
-                                <div class="dropdown">
-                                    <ul class="list-unstyled">
-
-                                    <li class="nav-item">
-                                        <a class="nav-link px-md-4 py-2" target="_blank" href="https://in.nexstmall.com/">NEXSTMALL</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link px-md-4 py-2" target="_blank" href="https://www.flipkart.com/search?q=avita+laptops&otracker=search&otracker1=search&marketplace=FLIPKART&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DAvita">Flipkart</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.amazon.in/s?k=avita&ref=nb_sb_noss_2">Amazon</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.reliancedigital.in/search?q=avita:relevance">Reliance Digital</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link px-md-4 py-2"  target="_blank" href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2&page=1&brand=510306">Paytm Mall</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.tatacliq.com/search/?searchCategory=all&text=avita">TATA Cliq</a>
-                                    </li>
-
-                                   </ul>
-                               </div>
-                          </li>  
-
-                       
-                        </ul>
-                    </li>
+                    <input id="where_to_buy" type="checkbox" hidden="">
+                      <a class="nav-link"><label for="where_to_buy">{{ __('messages.where_to_buy') }}</label></a>
+                  
+                      <div class="dropdown">
+                         <ul class="list-unstyled">
+                            <li class="nav-item has-dropdown">
+                            <a class="nav-link px-md-4 py-2" href="/where-to-buy"> <label for="header_offline" class="d-block mb-0">{{ __('messages.offline_stores') }}</label></a>
+                            </li>
+  
+                            <li class="nav-item has-dropdown">
+                                <input id="header_buy_online" type="checkbox" hidden="">
+                                   <a class="nav-link px-md-4 py-2"> <label for="header_buy_online" class="d-block mb-0">{{ __('messages.buy_online') }}</label></a>
+    
+                                    <div class="dropdown">
+                                        <ul class="list-unstyled">
+    
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2" target="_blank" href="https://in.nexstmall.com/">NEXSTMALL</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2" target="_blank" href="https://www.flipkart.com/search?q=avita+laptops&otracker=search&otracker1=search&marketplace=FLIPKART&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DAvita">Flipkart</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.amazon.in/s?k=avita&ref=nb_sb_noss_2">Amazon</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.reliancedigital.in/search?q=avita:relevance">Reliance Digital</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2"  target="_blank" href="https://paytmmall.com/shop/search?q=avita&from=organic&child_site_id=6&site_id=2&page=1&brand=510306">Paytm Mall</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2"  target="_blank" href="https://www.tatacliq.com/search/?searchCategory=all&text=avita">TATA Cliq</a>
+                                        </li>
+    
+                                       </ul>
+                                   </div>
+                              </li>   
+  
+                         
+                          </ul>
+                      </li>
 
 
 
                
-                   <li class="nav-item">
+                <li class="nav-item">
                         <a class="nav-link" href="{{ route('support') }}">{{ __('messages.support') }}</a> 
                 </li>
 
