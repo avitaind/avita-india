@@ -4,6 +4,7 @@
     @lang('title.Accessories')
 @stop
 
+
 @section('content')
     <main class="top-nav-padding">
 
@@ -31,47 +32,22 @@
  
         <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
                 <div class="container">
-                        <div class="space60"></div>
-                        <div class="banner-para">
-                        <div align="center" class="col-lg-12" >
-                       <!--   <div class="admiror_h1">COMING SOON</div>
-                      <span class="buy-now2"> COMING SOON</span> --->
-                        </div>
-                      
-                            <div class="banner-para text-center">
-                            <span class="d-lg-block">
-                            <span class="buy-now2"><a href="https://in.nexstmall.com/" target="_blank">Buy now ></a></span>
-                            <!--- <a href="/where-to-buy" style="color:#09F">Where to buy ></a> --->
-                            </span>
-                        </div>
-                       
-                        <div class="space60"></div>
-                    </div>
                 </div>
-        </section> 
+        </section>
 
         <section class="product-liber-size ls-0"/>
         <div class="banner-block">
             <div class="banner-bg"></div>
             <div class="banner-image">
-                {{--  <img class="bc-computer-image bc-computer-1" src="/images/liber/liber_u_feature/sc3_fimg1.png" style="right: 840px" >  --}}
-                {{--  <img class="bc-computer-image bc-computer-2" src="/images/liber/liber_u_feature/sc3_fimg2.png">  --}}
-                <img class="bc-computer-image bc-computer-1" src="/images/sleeves/front_&back.jpg" style="right: 840px" >
+                <img class="bc-computer-image bc-computer-1" src="/images/sleeves/front_&back.png" style="right: 900px" >
                 <img class="bc-computer-image bc-computer-2" src="/images/sleeves/spill_resistant.png">
-                <img class="bc-computer-image bc-computer-3" src="/images/liber/liber_u_feature/sc3_fimg3.png">
-                <img class="bc-computer-image bc-computer-4" src="/images/liber/liber_u_feature/sc3_fimg4.png">
-                <img class="bc-computer-image bc-computer-5" src="/images/liber/liber_u_feature/sc3_fimg5.png">
-                <img class="bc-computer-image bc-computer-6" src="/images/liber/liber_u_feature/sc3_fimg6.png">
-                <img class="bc-computer-image bc-computer-7" src="/images/liber/liber_u_feature/sc3_fimg7.png">
-                <img class="bc-computer-image bc-computer-8" src="/images/liber/liber_u_feature/sc3_fimg8.png">
             </div>
             <div class="container">
                 <div class="banner-info">
 
-                    <div class="h2 banner-header mb-4 mb-sm-5">AVITA Ubique 3-in-1 sleeve </div>
+                    <div class="h2 banner-header mb-4 mb-sm-5">AVITA Ubique 3-in-1 Sleeve</div>
                     <div class="ac-computer-wrap hidden-md-up">
-                        {{--  <img class="ac-computer-image ac-computer-1" style="" src="/images/liber/liber_u_feature/sc3_fimg2.png">  --}}
-                        <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/front_&back.jpg">
+                        <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/front_&back_mob.png">
                     </div>
                     <div class="banner-para ls-0">
                         <span class="d-lg-block">An ideal laptop bag is one that keeps the device safe.</span>
@@ -79,34 +55,6 @@
                         <span class="d-lg-block">Our newly launched Avita Ubique 3-in-1 sleeve is designed to </span>
                         <span class="d-lg-block">give safety to your laptop while making you look fabulous as you do it.</span>
                     </div>
-                    {{--  <div class="banner-data d-flex flex-wrap text-left mx-auto pl-sm-5">
-                        <div class="data-card data-card-1 col-6 my-2 my-sm-4 pl-1 px-sm-4">
-                            <span class="badge-value">5</span>
-                            <span class="badge-caption">mm</span>
-                            <div class="badge-caption pt-1">Thin</div>
-                        </div>
-                        <div class="data-card data-card-4 col-6 my-2 my-sm-4">
-                            <div class="badge-caption">Starting from</div>
-                            <span class="badge-value">1.46</span>
-                            <span class="badge-caption">kg</span>
-                            <div  class="badge-caption pt-1">35.56 cm weight</div>
-                        </div>
-                        <div class="data-card data-card-2 col-6 my-2 my-sm-4">  --}}
-                            {{-- <span class="badge-value">180</span>
-                            <span style="font-size: 3rem; font-weight: 300;">&deg;</span>
-                            <div class="badge-caption pt-1">Hinge</div> --}}
-                        {{--  </div>
-                       
-                        <div class="data-card data-card-3 col-6 my-2 my-sm-4 pl-1 px-sm-4">  --}}
-                        {{--  <div class="badge-caption">Starting from</div>
-                            <span class="badge-value">1.35</span>
-                            <span class="badge-caption">kg</span>
-                            <div  class="badge-caption pt-1">13.3-inch weight</div> --}}
-                        {{--  </div>
-                      
-                     
-                        
-                    </div>  --}}
                 </div>
             </div>
         </div>
@@ -116,14 +64,13 @@
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
-                    {{--  <img class="bc-computer-image bc-computer-1" src="/images/liber/liber_u_feature/sc4_fimg1.jpg">  --}}
-                    <img class="bc-computer-image bc-computer-1" src="/images/sleeves/Lifestyle_2.jpg">
+                    <img class="bc-computer-image bc-computer-1" src="/images/sleeves/Lifestyle_2.png">
                     <!-- <img class="bc-computer-image bc-computer-2" src="/images/liber/liber_u_feature/sc4_fimg2.png"> -->
                 </div>
                 <div class="container">
                     <div class="banner-info">
                         <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-1" style="" src="/images/liber/liber_u_feature/sc4_fimg1.jpg">
+                            <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/Lifestyle_2.png">
                         </div>
                         <div class="h2 banner-header mb-4 mb-sm-5">Perfect fit for all your needs</div>
                         <div class="banner-para ls-0">
@@ -138,51 +85,56 @@
             </div>
         </section>
 
+
+
         <section class="product-liber-power ls-0">
             <div class="banner-block">
                 <div class="banner-bg"></div>
-                <div class="banner-image">
-                    {{--  <img class="bc-computer-image bc-computer-1" src="/images/liber/liber_u_feature/sc5_fimg1.jpg">  --}}
-                </div>
+                
                 <div class="container">
                     <div class="row no-gutters">
-                        <div class="col-12 col-lg-5">
+                        <div class="col-12 col-lg-6">  
+                                <img class="demo ac-computer-image ac-computer-1 hidden-sm-down" src="/images/sleeves/Multicolors.png"> 
+                                
+                        </div>
+                        <div class="col-12 col-lg-6">
                             <div class="banner-info  mx-auto">
-
                                 <div class="h2 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Choose from 4 different hues</div></div>
+                                <div class="ac-computer-wrap hidden-md-up">
+                                    <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/Multicolors.png">
+                                </div>
                                 <div class="banner-para ls-0">
                                     <span class="d-lg-block">Pick your bag as per your mood! The versatile bag is available </span>
-                                    <span class="d-lg-block">available in 4 different colours namely blue, black, dark grey, and light grey.</span>
-                                    
+                                    <span class="d-lg-block">available in 4 different colours namely blue, black, dark grey, and light grey.</span>                                    
                                 <br/>
                                 </div>
                             </div>
-                            <!-- <img class="ac-computer-image ac-computer-1" src="/images/liber/liber_u_feature/sc5_fimg1.jpg"> -->
                         </div>
                     </div>
                 </div>
         </section>
 
+
+
         <section class="product-liber-keyboard ls-0">
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-1" src="/images/sleeves/Lifestyle_3.jpg">
-                    {{--  <img class="bc-computer-image bc-computer-1" src="/images/liber/liber_u_feature/sc6_fimg1.png">  --}}
+                    <img class="bc-computer-image bc-computer-1" src="/images/sleeves/top_shot.png">
                 </div>
                 <div class="container">
                     <div class="banner-info mx-auto ml-lg-0">
 
-                        <div class="h2 banner-header mb-4 mb-sm-5">Capacious storage  </div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">Capacious storage</div>
                         <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-1" style="" src="/images/liber/liber_u_feature/sc6_fimg1.png">
+                            <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/top_shot.png">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">What's even a bag that cannot hold all your essentials? </span>
-                            <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve comes with capacious</span>
-                            <span class="d-lg-block">pockets to keep your belongings like charger, hard disks</span>
-                            <span class="d-lg-block">notepad, pen, etc while traveling.</span>
-                            <span class="d-lg-block">Its 3 extra sections give you easy access to take out itsy-bitsy items. </span>
+                            <span class="d-lg-block">What's even a bag that cannot hold all your</span>
+                            <span class="d-lg-block">essentials? AVITA Ubique 3-in-1 sleeve comes with</span>
+                            <span class="d-lg-block">capacious pockets to keep your belongings</span>
+                            <span class="d-lg-block">like charger,hard disks notepad, pen, etc while</span>
+                            <span class="d-lg-block">traveling.Its 3 extra sections give you easy access to take out itsy-bitsy items. </span>
                         </div>
                     </div>
                 </div>
@@ -193,17 +145,14 @@
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-1" src="/images/sleeves/top_shot.png">
-                    {{--  <img class="bc-computer-image bc-computer-1" src="/images/liber/liber_u_feature/sc7_fimg1.png">
-                    <img class="bc-computer-image bc-computer-2" src="/images/liber/liber_u_feature/sc7_fimg2.png">
-                    <img class="bc-computer-image bc-computer-3" src="/images/liber/liber_u_feature/sc7_fimg3.png">  --}}
+                    <img class="bc-computer-image bc-computer-1" src="/images/sleeves/Lifestyle_3.png">
                 </div>
                 <div class="container">
                     <div class="banner-info mx-auto mr-lg-0">
                         <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-1" style="" src="/images/liber/liber_u_feature/sc7_fimg1.png">
+                            <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/Lifestyle_3.png">
                         </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Lightweight and comfortable </div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">Lightweight and comfortable</div>
 
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">This lightweight build bag is easy to carry around. It is also has cushioned laptop support to provide optimal comfort and safety for everyday use. </span>
@@ -219,26 +168,18 @@
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-1" src="/images/sleeves/Multicolors.png">
-                    {{--  <img class="bc-computer-image bc-computer-1" src="/images/liber/liber_u_feature/sc8_fimg1.png">  --}}
-                    <!-- <img class="bc-computer-image bc-computer-2" src="/images/liber/liber_u_feature/sc8_fimg2.png"> -->
-
-                    {{--  <img class="bc-computer-image bc-computer-3" src="/images/liber/liber_u_feature/sc8_fimg3.png">
-                    <img class="bc-computer-image bc-computer-4" src="/images/liber/liber_u_feature/sc8_fimg4.png">
-                    <img class="bc-computer-image bc-computer-5" src="/images/liber/liber_u_feature/sc8_fimg5.png">
-                    <img class="bc-computer-image bc-computer-6" src="/images/liber/liber_u_feature/sc8_fimg6.png">
-                    <img class="bc-computer-image bc-computer-7" src="/images/liber/liber_u_feature/sc8_fimg7.png">
-                    <img class="bc-computer-image bc-computer-8" src="/images/liber/liber_u_feature/sc8_fimg8.png">  --}}
+                    <img class="bc-computer-image bc-computer-1" src="/images/sleeves/Waterproof_coating.png">
                 </div>
                 <div class="container">
                     <div class="banner-info mx-auto ml-lg-0">
                         <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-1" style="" src="/images/liber/liber_u_feature/sc8_fimg2.png">
+                            <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/Waterproof_coating.png">
                         </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Waterproof coating </div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">Waterproof coating</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve is made for all weather conditions.</span>
-                            <span class="d-lg-block">The durable PU-coated material makes the bag resistant to water. </span>
+                            <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve is made for</span>
+                            <span class="d-lg-block">all weather conditions.The durable PU-coated</span>
+                            <span class="d-lg-block">material makes the bag resistant to water.</span>
                         </div>
                     </div>
                 </div>
@@ -250,12 +191,12 @@
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-1" src="/images/liber/liber_u_feature/sc9_fimg1.png">
-                    <img class="bc-computer-image bc-computer-2" src="/images/liber/liber_u_feature/sc9_fimg2.png">
+                    {{--  <img class="bc-computer-image bc-computer-1" src="/images/liber/liber_u_feature/sc9_fimg1.png">
+                    <img class="bc-computer-image bc-computer-2" src="/images/liber/liber_u_feature/sc9_fimg2.png">  --}}
                 </div>
                 <div class="container">
                     <div class="banner-info mx-auto ls-0">
-                        <div class="h2 banner-header mb-4 mb-sm-5"> High quality and stylish design </div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">High quality and stylish design</div>
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve oozes out style and excellence. </span>
                             <span class="d-lg-block">It is apt for travel and outdoor activities </span>
@@ -267,25 +208,7 @@
             </div>
         </section>
 
-     <!---
-            <section class="product-statement">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3">
-                    </div>
-                    <div class="col-sm-6">
-                        <br/>
-                        <br/>
-                        <img class="bc-computer-image bc-computer-2" src="/images/liber/avita_sleeves.png" style="width: 512px; height: 300px; ">
-                    </div>
-                    <div class="col-sm-3">
-                    </div>
-                </div>
-            </div>
 
-
-        </section>
---->
         <section class="product-statement">
             <div class="container">
                 <ul class="product-statement-list py-2 py-sm-5 mx-auto ls-0 pl-4 py-0 mt-0 mt-sm-5">
@@ -308,12 +231,12 @@
 @endsection
 
 @section('css')
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/product-liber.css') }}"/>
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/sleeve.css') }}"/>
 @endsection
 
 @section('js')
 
-<script type="text/javascript" src="{{ asset('js/liber.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/sleeve.js') }}"></script>
 
 
 

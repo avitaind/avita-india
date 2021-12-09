@@ -78,6 +78,11 @@ class HomeController extends Controller
         return view('pages.about_us');
     }
 
+    public function chill_in_style( ) 
+    {
+        return view('pages.chill_in_style');
+    }
+
 /*
    public function getSupport( ){
 

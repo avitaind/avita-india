@@ -107,6 +107,8 @@ Route::get('/entry','HomeController@entry');
 Route::get('/aboutus', 'HomeController@getAboutUs');
 Route::get('/contact-us', 'HomeController@getContactUs');
 Route::get('tnc', 'HomeController@getTerms');
+Route::get('/chill-in-style', 'HomeController@chill_in_style');
+
 
 // Route::get('/imago', 'HomeController@getImago')->name('imago');
 // Route::get('/imago/spec', 'HomeController@getImagoSpec')->name('imago.spec');

@@ -39,7 +39,7 @@
 
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-4" role="tab">
                             <div class="spec-item-name mb-4"><div class="d-sm-block">@lang('cosmos.name')</div></div>
-                            <img class="hidden-sm-down" src="/images/magus/magus_grey.png">
+                            <img class="hidden-sm-down" src="/images/cosmos/charcoal_grey.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
                                 <li style="background-color: #434343" class="active" data-image="/images/cosmos/charcoal_grey.png"></li>
                                 {{-- <li style="background-color: #b699ca" data-image="/images/magus/magus_violet.png"></li>
