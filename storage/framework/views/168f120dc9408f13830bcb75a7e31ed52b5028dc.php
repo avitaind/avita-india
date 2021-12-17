@@ -82,8 +82,14 @@
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
 
-                                        
-                                        
+                                        <li class="nav-item">
+
+                                            <a class="nav-link px-md-4 py-2" ><?php echo app('translator')->getFromJson('site.mouse'); ?></a>
+                                        </li> 
+                                        <li class="nav-item">
+
+                                            <a class="nav-link px-md-4 py-2" ><?php echo app('translator')->getFromJson('site.sleeve'); ?></a>
+                                        </li>
 
                                     </ul>
                                 </div>
