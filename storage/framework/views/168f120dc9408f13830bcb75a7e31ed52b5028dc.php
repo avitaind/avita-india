@@ -88,7 +88,7 @@
                                         </li> 
                                         <li class="nav-item">
 
-                                            <a class="nav-link px-md-4 py-2" ><?php echo app('translator')->getFromJson('site.sleeve'); ?></a>
+                                            <a class="nav-link px-md-4 py-2" href="/accessories/sleeve"><?php echo app('translator')->getFromJson('site.sleeve'); ?></a>
                                         </li>
 
                                     </ul>

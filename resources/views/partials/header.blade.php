@@ -101,7 +101,7 @@
                                         </li> 
                                         <li class="nav-item">
 
-                                            <a class="nav-link px-md-4 py-2" >@lang('site.sleeve')</a>
+                                            <a class="nav-link px-md-4 py-2" href="/accessories/sleeve">@lang('site.sleeve')</a>
                                         </li>
 
                                     </ul>

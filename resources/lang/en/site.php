@@ -13,7 +13,7 @@ return [
     'liber12'                       => 'LIBER 12.5',
     'accessories'                   =>'Accessories',
     'mouse'                         => 'AVITA Mouse [Coming Soon]',
-    'sleeve'                        => 'AVITA Sleeve [Coming Soon]',
+    'sleeve'                        => 'AVITA Sleeve ',
     'products'                      => 'Products',
     'news'                          => 'What\'s New',
     'service'                       => 'Service',
