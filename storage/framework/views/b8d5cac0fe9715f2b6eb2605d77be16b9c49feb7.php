@@ -4,6 +4,18 @@
 
           <div class="carousel-item active">
             <div class="responsive-block">
+            <a href="/product/pura">
+          
+                    <div class="banner-block responsive-item">
+                        <div class="banner-bg hidden-sm-down banner-web-PURA-E"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-PURA-E"></div>
+                    </div>
+                  </a>
+            </div>
+          </div>
+
+          <div class="carousel-item ">
+            <div class="responsive-block">
             <a href="https://avita-india.com/news/detail/12">
           
                     <div class="banner-block responsive-item">
@@ -12,19 +24,7 @@
                     </div>
                   </a>
             </div>
-          </div> 
-
-          <div class="carousel-item ">
-            <div class="responsive-block">
-            <a href="https://bit.ly/3FoPUl0">
-          
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-PURA-E"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-PURA-E"></div>
-                    </div>
-                  </a>
-            </div>
-          </div> 
+          </div>  
           
           <div class="carousel-item ">
             <div class="responsive-block">

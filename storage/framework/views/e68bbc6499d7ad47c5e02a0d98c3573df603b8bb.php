@@ -27,11 +27,7 @@
             </div>
         </section>
  
-        <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
-                <div class="container">
-
-                </div>
-        </section>
+        
 
         <section class="product-liber-computer ls-0" id="test"  style="background-color:#fff;">
             <div class="container">
