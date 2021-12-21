@@ -19,16 +19,16 @@
     @else
         @include('banner_hk')
     @endif
-
+    
     {{-- <div class="admiror-video">
         <video autoplay="" controls="" muted="" loop=""> 
            <source src="/images/Nexstgo_video/The_Success_Story_of_AVITA.mp4" type="video/mp4"> 
         </video>
     </div> --}}
 
-     <div class="admiror-video">
+    <div class="admiror-video">
         <video autoplay="" controls="" muted="" loop=""> 
-            <source src="https://www.nexstgo.com/video/The_Success_Story_of_AVITA.mp4?controls=1&amp;rel=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;mute=1" type="video/mp4">
+        <source src="https://www.nexstgo.com/video/The_Success_Story_of_AVITA.mp4?controls=1&amp;rel=0&amp;showinfo=0&amp;autoplay=1&amp;loop=1&amp;mute=1" type="video/mp4">
         </video>
     </div>
     
