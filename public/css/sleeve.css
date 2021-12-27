@@ -539,17 +539,24 @@ body.lang_id .product-liber-power .battery-wrap .badge-caption {
 }
 .product-liber-keyboard .bc-computer-image {
 	position: absolute;
-	max-width: 100%;
+	max-width: 102%;
 	padding-top: 327px;
-	margin-left: 450px;
+	margin-left: 500px;
 }
 .product-liber-keyboard .bc-computer-1 {
-	top: -130px;
+	top: 99px;
 	left: 373px;
-	transform: rotate(62deg);
+	transform: rotateZ(70deg);
+	/* transform: rotateZ(-2deg); */
 	max-width: 89%;
 	/* animation: mymove 5s ; */
 }
+.rotated {
+	/* transform: rotate(62deg); */
+	transform: rotateZ(67deg);
+	/* background-color: pink; */
+  }
+
 /* 
 @keyframes mymove {
 	from {left: 200px;}
@@ -1526,7 +1533,3 @@ section.product-liber-v-gold-ssd{
 
 }
 
-.rotated {
-	transform: rotate(60deg); /* Equal to rotateZ(45deg) */
-	/* background-color: pink; */
-  }

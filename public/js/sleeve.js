@@ -170,8 +170,8 @@ $(document).ready(function() {
 					.addTo(controller);			
 
 		/* .product-liber-keyboard */
-		var tween = TweenMax.fromTo(".product-liber-keyboard .bc-computer-1", .9, { x: 100, opacity: 0 }, { x: 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-keyboard", reverse: false, })
+		var tween = TweenMax.fromTo(".product-liber-keyboard .bc-computer-1", .8, { x: 100, opacity: 0 }, { x: 0, opacity: 1 });
+		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-keyboard", })
 					.setTween(tween)
 					// .addIndicators({name:'.product-liber-keyboard .bc-computer-1'}) 
 					.addTo(controller);

@@ -72,10 +72,15 @@
                         <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/front_&back_mob.png">
                     </div>
                     <div class="banner-para ls-0">
-                        <span class="d-lg-block">An ideal laptop bag is one that keeps the device safe.</span>
-                        <span class="d-lg-block">It also acts as a style accessory and adds more to your personality.</span>
-                        <span class="d-lg-block">Our newly launched Avita Ubique 3-in-1 sleeve is designed to give </span>
-                        <span class="d-lg-block">safety to your laptop while making you look fabulous as you do it.</span>
+                        <span class="d-lg-block">An ideal laptop bag is the perfect amalgamation of fashion and utility. </span>
+                        <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve is a versatile and timeless accessory </span>
+                        <span class="d-lg-block">that's an ideal plus one to your overall personality. What sets this bag </span>
+                        <span class="d-lg-block">apart from ordinary laptop bags is that it comes in an assortment of </span>
+                        <span class="d-lg-block">as it can be carried in multiple ways. Sling it, sleeve it, sway it, the</span>
+                        <span class="d-lg-block">styling options choice is yours! This casual-yet-chic bag is designed </span>
+                        <span class="d-lg-block">with optimum space to fill in your daily work needs, as well as,</span>
+                        <span class="d-lg-block"> keeping the device intact. AVITA Ubique 3-in-1 sleeve offers 4</span>
+                        <span class="d-lg-block">colours that blend well with most outfits while making you look up to the mark.</span>
                     </div>
                 </div>
             </div>
@@ -94,13 +99,14 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/Lifestyle_2.png">
                         </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Perfect fit for all your needs</div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">Sling it Sleeve it Sway it</div>
                         <div class="banner-para ls-0">
-                            <span class="d-md-block">AVITA Ubique 3-in-1 sleeve can be modified in 3 different ways.</span>
-                            <span class="d-md-block">While one can use it as a sling bag it can also be arm </span>
-                            <span class="d-md-block">candy and can be carried around easily.</span>
-                            <span class="d-md-block">The bag also acts as a laptop sleeve for days when </span>
-                            <span class="d-md-block">you don't feel like twirling around with your bag. </span>
+                            <span class="d-md-block">How often do you come across a bag that can be styled in 3 </span>
+                            <span class="d-md-block">different ways? Unlike other laptop bags, AVITA Ubique 3-in-1</span>
+                            <span class="d-md-block">sleeve can be carried in not 1, 2 but 3 various manners. While one</span>
+                            <span class="d-md-block">can use it as a sling bag, it can be arm candy and can be carried</span>
+                            <span class="d-md-block">around easily. The bag also acts as a laptop sleeve for days</span>
+                            <span class="d-md-block">when you don't feel like twirling around with your bag.</span>
                         </div>
                     </div>
                 </div>
@@ -121,14 +127,13 @@
                         </div>
                         <div class="col-12 col-lg-6">
                             <div class="banner-info  mx-auto" style="">
-                                <div class="h2 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Choose from 4 different hues</div></div>
+                                <div class="h2 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">1 bag, 4 different colours</div></div>
                                 <div class="ac-computer-wrap hidden-md-up">
                                     <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/Multicolors.png">
                                 </div>
                                 <div class="banner-para ls-0">
-                                    <span class="d-lg-block">Pick your bag as per your mood! The versatile</span>
-                                    <span class="d-lg-block">bag is available is available in 4 different</span>
-                                    <span class="d-lg-block"> colours namely blue, black, dark grey, and light grey.</span>                                    
+                                    <span class="d-lg-block">Pick your bag as per your mood! The versatile bag is available</span>
+                                    <span class="d-lg-block">in 4 different colours including blue, black, dark grey, and light grey.</span>                                  
                                         
                                 <br/>
                                 </div>
@@ -146,22 +151,25 @@
                 <div class="banner-bg"></div>
                 <div class="banner-image">
                     {{-- <img class="bc-computer-image bc-computer-1" src="/images/sleeves/top_shot.png"> --}}
-                    <img class="bc-computer-image bc-computer-1" src="/images/sleeves/top_shot_2.png" style="top: -15%; left: 15%;">
-                    <img class="bc-computer-image rotated " src="/images/sleeves/top_shot_1.png" style="margin-left: 37%; margin-top: -9%;">
+                    <img class="bc-computer-image bc-computer-1" src="/images/sleeves/top_shot_2.png" style="top: 2%; left: 5%;">
+                    <img class="bc-computer-image rotated " src="/images/sleeves/top_shot_1.png" style="margin-left: 33%; top: 10px;">
                 </div>
                 <div class="container">
                     <div class="banner-info mx-auto ml-lg-0 ">
 
-                        <div class="h2 banner-header mb-4 mb-sm-5">Capacious storage</div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">Holds all your essentials</div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/top_shot.png">
                         </div>
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">What's even a bag that cannot hold all your</span>
                             <span class="d-lg-block">essentials? AVITA Ubique 3-in-1 sleeve comes with</span>
-                            <span class="d-lg-block">capacious pockets to keep your belongings</span>
-                            <span class="d-lg-block">like charger,hard disks notepad, pen, etc while</span>
-                            <span class="d-lg-block">traveling.Its 3 extra sections give you easy access to take out itsy-bitsy items. </span>
+                            <span class="d-lg-block">capacious pockets to keep your belongings like</span>
+                            <span class="d-lg-block">charger, hard disks, notepad, pen, etc. when on</span>
+                            <span class="d-lg-block">the move. The main section of the bag is large</span>
+                            <span class="d-lg-block">enough to accommodate alaptop up to 14 inch</span>
+                            <span class="d-lg-block">along with a charging cable and mouse. Its 3 extra</span>
+                            <span class="d-lg-block">pockets give you easy access to take out itsy-bitsy items.</span>
                         </div>
                     </div>
                 </div>
@@ -179,10 +187,10 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/Lifestyle_3.png">
                         </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Lightweight and comfortable</div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">Lightweight and cartable</div>
 
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">This lightweight build bag is easy to carry around. It is also has cushioned laptop support to provide optimal comfort and safety for everyday use. </span>
+                            <span class="d-lg-block">This lightweight build bag is easy to carry around. It also has cushioned laptop support to provide optimal comfort and safety for everyday use. The soft strap reduces stress on your shoulder, maintaining the comfort level.</span>
 
                         </div>
 
@@ -202,11 +210,11 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/Waterproof_coating.png">
                         </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Waterproof coating</div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">Splash-proof</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve is made for</span>
-                            <span class="d-lg-block">all weather conditions.The durable PU-coated</span>
-                            <span class="d-lg-block">material makes the bag resistant to water.</span>
+                            <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve protects your belongings from</span>
+                            <span class="d-lg-block">a light splash, light rain, or a beverage spillage. The</span>
+                            <span class="d-lg-block">durable PU-coated material makes the bag splash-proof.</span>
                         </div>
                     </div>
                 </div>
@@ -223,11 +231,15 @@
                 </div>
                 <div class="container">
                     <div class="banner-info mx-auto ls-0">
-                        <div class="h2 banner-header mb-4 mb-sm-5">High quality and stylish design</div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">Style that oozes practicality</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve oozes out style and excellence. </span>
-                            <span class="d-lg-block">It is apt for travel and outdoor activities </span>
-                            <span class="d-lg-block">while ensuring all-day protection for the laptop.</span>
+                            <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve oozes out style and comfort.</span>
+                            <span class="d-lg-block">It is apt for travel and outdoor activities while</span>
+                            <span class="d-lg-block">ensuring all-day protection for the laptop. A bespoke</span>
+                            <span class="d-lg-block">example of elegance and utility, the bag’s minimalistic</span>
+                            <span class="d-lg-block">design matches your everyday vibe, hence making it an</span>
+                            <span class="d-lg-block">ensuring all-day protection for the laptop. A bespoke</span>
+                            <span class="d-lg-block">edgy mix of functionality and chic.</span>
                         </div>
                     </div>
 
@@ -266,8 +278,6 @@
 @section('js')
 
 <script type="text/javascript" src="{{ asset('js/sleeve.js') }}"></script>
-
-<script type="text/javascript" src="{{ asset('js/liber-v-gold.js') }}"></script>
 
 
 @endsection
