@@ -67,8 +67,8 @@
                     <div class="banner-para ls-0">
                         <span class="d-lg-block">An ideal laptop bag is one that keeps the device safe.</span>
                         <span class="d-lg-block">It also acts as a style accessory and adds more to your personality.</span>
-                        <span class="d-lg-block">Our newly launched Avita Ubique 3-in-1 sleeve is designed to </span>
-                        <span class="d-lg-block">give safety to your laptop while making you look fabulous as you do it.</span>
+                        <span class="d-lg-block">Our newly launched Avita Ubique 3-in-1 sleeve is designed to give </span>
+                        <span class="d-lg-block">safety to your laptop while making you look fabulous as you do it.</span>
                     </div>
                 </div>
             </div>
@@ -90,10 +90,10 @@
                         <div class="h2 banner-header mb-4 mb-sm-5">Perfect fit for all your needs</div>
                         <div class="banner-para ls-0">
                             <span class="d-md-block">AVITA Ubique 3-in-1 sleeve can be modified in 3 different ways.</span>
-                            <span class="d-md-block">While one can use it as a sling bag</span>
-                            <span class="d-md-block">it can also be arm candy and can be carried around easily.</span>
-                            <span class="d-md-block">The bag also acts as a laptop sleeve for days</span>
-                            <span class="d-md-block">when you don't feel like twirling around with your bag. </span>
+                            <span class="d-md-block">While one can use it as a sling bag it can also be arm </span>
+                            <span class="d-md-block">candy and can be carried around easily.</span>
+                            <span class="d-md-block">The bag also acts as a laptop sleeve for days when </span>
+                            <span class="d-md-block">you don't feel like twirling around with your bag. </span>
                         </div>
                     </div>
                 </div>
@@ -113,14 +113,16 @@
                                 
                         </div>
                         <div class="col-12 col-lg-6">
-                            <div class="banner-info  mx-auto">
+                            <div class="banner-info  mx-auto" style="padding-left: 150px;">
                                 <div class="h2 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Choose from 4 different hues</div></div>
                                 <div class="ac-computer-wrap hidden-md-up">
                                     <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/Multicolors.png">
                                 </div>
                                 <div class="banner-para ls-0">
-                                    <span class="d-lg-block">Pick your bag as per your mood! The versatile bag is available </span>
-                                    <span class="d-lg-block">available in 4 different colours namely blue, black, dark grey, and light grey.</span>                                    
+                                    <span class="d-lg-block">Pick your bag as per your mood! The versatile</span>
+                                    <span class="d-lg-block">bag is available is available in 4 different</span>
+                                    <span class="d-lg-block"> colours namely blue, black, dark grey, and light grey.</span>                                    
+                                        
                                 <br/>
                                 </div>
                             </div>
@@ -131,14 +133,17 @@
 
 
 
+
         <section class="product-liber-keyboard ls-0">
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-1" src="/images/sleeves/top_shot.png">
+                    
+                    <img class="bc-computer-image bc-computer-1" src="/images/sleeves/top_shot_2.png" style="top: -15%; left: 15%;">
+                    <img class="bc-computer-image rotated " src="/images/sleeves/top_shot_1.png" style="margin-left: 37%; margin-top: -9%;">
                 </div>
                 <div class="container">
-                    <div class="banner-info mx-auto ml-lg-0">
+                    <div class="banner-info mx-auto ml-lg-0 ">
 
                         <div class="h2 banner-header mb-4 mb-sm-5">Capacious storage</div>
                         <div class="ac-computer-wrap hidden-md-up">
@@ -246,12 +251,15 @@
 
 <?php $__env->startSection('css'); ?>
     <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/sleeve.css')); ?>"/>
+    
+
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('js'); ?>
 
 <script type="text/javascript" src="<?php echo e(asset('js/sleeve.js')); ?>"></script>
 
+<script type="text/javascript" src="<?php echo e(asset('js/liber-v-gold.js')); ?>"></script>
 
 
 <?php $__env->stopSection(); ?>

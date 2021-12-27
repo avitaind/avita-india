@@ -540,11 +540,22 @@ body.lang_id .product-liber-power .battery-wrap .badge-caption {
 .product-liber-keyboard .bc-computer-image {
 	position: absolute;
 	max-width: 100%;
+	padding-top: 327px;
+	margin-left: 450px;
 }
 .product-liber-keyboard .bc-computer-1 {
-	top: 20px;
-	left: 503px;
+	top: -130px;
+	left: 373px;
+	transform: rotate(62deg);
+	max-width: 89%;
+	/* animation: mymove 5s ; */
 }
+/* 
+@keyframes mymove {
+	from {left: 200px;}
+	to {left: 0px;}
+  } */
+
 
 .product-liber-port .banner-block {
 	padding-top: 60px;
@@ -1454,3 +1465,68 @@ section.product-liber-v-io{
 	 
 
 }
+
+section.product-liber-v-gold-ssd{
+    background-image: url(../images/liber-v-gold/dynamic-performance-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+	background-repeat: no-repeat;
+	height: 720px;
+	z-index: 999;
+}
+
+.product-liber-computer .dynamic-performance-laptop {
+	position: absolute;
+	max-width: 100%;
+	margin: 10% 0% 0% 15%;
+}
+
+.product-liber-computer .screen1 {
+	position: absolute;
+	max-width: 100%;
+	margin: 20%;
+	transition: 1s;
+	transform: translateY(-75%);
+	width: 10%;
+	z-index: -1;
+
+}
+
+.screen1.screen1-1 {
+	opacity: 1;
+	position: absolute;
+	max-width: 100%;
+	width: 16%;
+	margin: 20% 0% 0% 40%;
+	overflow-y: visible;
+	z-index: 1;
+
+
+	
+}
+
+.product-liber-computer .screen2{
+	position: absolute;
+	max-width: 100%;
+	margin: 20%;
+	transform: translateY(-75%);
+	transition: 1s;
+	width: 10%;
+	z-index: -1;
+}
+
+.screen2.screen2-2 {
+	opacity: 1;
+	position: absolute;
+	max-width: 100%;
+	width: 22%;
+	margin: 28% 0%;
+	overflow-y: visible;
+	z-index: 1;
+
+}
+
+.rotated {
+	transform: rotate(60deg); /* Equal to rotateZ(45deg) */
+	/* background-color: pink; */
+  }
