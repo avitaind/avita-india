@@ -113,7 +113,7 @@
                                 
                         </div>
                         <div class="col-12 col-lg-6">
-                            <div class="banner-info  mx-auto" style="padding-left: 150px;">
+                            <div class="banner-info  mx-auto" style="">
                                 <div class="h2 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Choose from 4 different hues</div></div>
                                 <div class="ac-computer-wrap hidden-md-up">
                                     <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/Multicolors.png">
