@@ -1353,7 +1353,7 @@ section.product-liber-v-io{
   	/*font-size: 1.6rem*/
   }
   .banner-para {
-  	text-align: left;
+  	text-align: justify;
   }
   .product-liber-performance .data-card {
   	text-align: center;
@@ -1533,3 +1533,6 @@ section.product-liber-v-gold-ssd{
 
 }
 
+.d-lg-block {
+	text-align: justify;
+}
