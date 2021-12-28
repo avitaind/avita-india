@@ -70,7 +70,7 @@
                         <span class="d-lg-block">that's an ideal plus one to your overall personality. What sets this bag </span>
                         <span class="d-lg-block">apart from ordinary laptop bags is that it comes in an assortment of </span>
                         <span class="d-lg-block">as it can be carried in multiple ways. Sling it, sleeve it, sway it, the</span>
-                        <span class="d-lg-block">styling options choice is yours! This casual-yet-chic bag is designed </span>
+                        <span class="d-lg-block">choice is yours! This casual-yet-chic bag is designed </span>
                         <span class="d-lg-block">with optimum space to fill in your daily work needs, as well as,</span>
                         <span class="d-lg-block"> keeping the device intact. AVITA Ubique 3-in-1 sleeve offers 4</span>
                         <span class="d-lg-block">colours that blend well with most outfits while making you look up to the mark.</span>
