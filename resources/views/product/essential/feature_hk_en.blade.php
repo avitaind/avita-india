@@ -32,7 +32,7 @@
                         <div class="space60"></div>
                         <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">All-Day Comfort．Essential Performance</div>
                         <div class="banner-para">
-                            <span class="d-lg-block">Versatile entry notebook for everyday use</span>
+                            <span >Versatile entry notebook for everyday use</span>
                         </div>
                          <div class="space60"></div>
 
@@ -63,7 +63,9 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style="" src="/images/essential/essential_bg1_en_mo.jpg">
                         </div>                
-                        <div class="banner-para ls-0">Essential's Full HD IPS anti-glare display ensures comfortable, distraction-free viewing from every angle while delivering vivid and authentic visuals in pin-sharp detail. Housing a full-size keyboard, the compact laptop is designed for maximum comfort regardless of the environment. Thanks to the comprehensive connection ports that go with most peripherals, Essential offers unrivaled versatility that caters to your every business need.</span></div>
+                        <div class="banner-para ls-0">
+                            <span class="d-lg-block">Essential's Full HD IPS anti-glare display ensures comfortable, distraction-free viewing from every angle while delivering vivid and authentic visuals in pin-sharp detail. Housing a full-size keyboard, the compact laptop is designed for maximum comfort regardless of the environment. Thanks to the comprehensive connection ports that go with most peripherals, Essential offers unrivaled versatility that caters to your every business need.</span>
+                        </div>
                     </div>
                 </div>
                 <div class="space60 hidden-sm-down"></div>
@@ -92,7 +94,9 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style="" src="/images/essential/essential_bg2_en_mo.jpg" style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>                
-                        <div class="banner-para ls-0">Essential features an enormous capacity offered by the SATA SSD of up to 128GB for faster data processing and near-instant booting up, making it a work-friendly entry level laptop. With maximum power consumption as low as 2.6GHz, the laptop promises excellent power efficiency and guarantees a battery life longer than ever. Besides, the fan-less design eliminates distracting noises, allowing the device to run most silently so you can stay focused on the tasks on hand. Coupled with professional design, the unique cloth design of Matt White, Matt Black, and Concrete Grey is perfect for your home life!</span></div>                       
+                        <div class="banner-para ls-0">
+                            <span class="d-lg-block">Essential features an enormous capacity offered by the SATA SSD of up to 128GB for faster data processing and near-instant booting up, making it a work-friendly entry level laptop. With maximum power consumption as low as 2.6GHz, the laptop promises excellent power efficiency and guarantees a battery life longer than ever. Besides, the fan-less design eliminates distracting noises, allowing the device to run most silently so you can stay focused on the tasks on hand. Coupled with professional design, the unique cloth design of Matt White, Matt Black, and Concrete Grey is perfect for your home life!</span>
+                        </div>                       
                         
                     </div>
                 	<div class="col-12 col-lg-6" align="left"></div>
@@ -113,7 +117,7 @@
                     <img class="bc-computer-image bc-computer-2" src="/images/essential/essential_product.png">
                 </div>
                 <div class="container">
-                    <div class="banner-info ls-0" style="text-align:left; min-height:950px;">
+                    <div class="banner-info ls-0" style="text-align:left; min-height:950px; width: 611px;">
                         <div class="h2 mob-text-center banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Light load and perfect for on-the-go</div>
                         
                         <div class="ac-computer-wrap hidden-md-up">
@@ -173,7 +177,9 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style="" src="/images/essential/essential_bg3_en_mo.jpg">
                         </div>                
-                        <div class="banner-para ls-0">The 14" model comes with a full-sized screen for maximized viewing comfort even after a long day of use. Its stunning performance and capabilities make it an ideal device for everyday office work or an e-learning notebook for students.</span></div>
+                        <div class="banner-para ls-0">
+                            <span class="d-lg-block">The 14" model comes with a full-sized screen for maximized viewing comfort even after a long day of use. Its stunning performance and capabilities make it an ideal device for everyday office work or an e-learning notebook for students.</span>
+                        </div>
                         
                         <section class="product-liber-wifi">
                             <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
@@ -224,6 +230,11 @@
 @endsection
 
 @section('css')
+<style>
+    span{
+        text-align: justify;
+    }
+</style>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/product-liber.css') }}"/>
 @endsection
 

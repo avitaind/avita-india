@@ -3,11 +3,11 @@
 return [
     // universal
     '2in1'               				=> '2-in-1 detachable design',
-    '2in1-detail'                      	=> 'With the AVITA COSMOS 2-in-1 Laptop, your work, play, and entertainment experience become convenient, smooth, and stylish. It comes with a 11.6 IPS touch screen that offers ultra-wide viewing angle. With a keyboard cover, the COSMOS 2-in-1 transforms from a tablet into a laptop by simply opening the built-in stand, enabling users to stay productive with ease anytime, anywhere.',
+    '2in1-detail'                      	=> 'With the AVITA COSMOS 2-in-1 Laptop, your work, play, and entertainment experience become convenient, smooth, and stylish. It comes with a 11.6 IPS touch screen that offers ultra-wide viewing angle. With a keyboard cover, the COSMOS 2-in-1 transforms from a tablet into a laptop by simply the built-in stand, enabling users to stay productive with ease anytime, ',
 	'inside-out'               			=> 'Inside-out Vibrancy',
 	'inside-out-detail'               	=> 'COSMOS 2-in-1 combines minimalistic design with a metallic casing. Be it in tablet form or laptop mode, MAGUS allows users to express their personal styles with the four color options available – Seashell Pink, Steel Blue, Charcoal Grey, and Pastel Violet.',
 	'accommodate'               		=> 'Accommodate daily work and entertainment needs',
-	'accommodate-detail'               	=> 'COSMOS 2-in-1 can run a variety of Windows applications with battery life up to eight hours<sup>#</sup>. It has a microSDXC card reader built in, equipped with a 3.5mm audio jack, a mini HDMI port and a USB 3.0 interface, taking care of the users\' needs in every way possible.',
+	'accommodate-detail'               	=> 'COSMOS 2-in-1 can run a variety of Windows applications with battery life up to eight hours<sup>#</sup>. It has a microSDXC card reader built in, equipped with a 3.5mm audio jack, a mini HDMI port and a USB 3.0 interface, taking care of the users\' needs in ',
 	
 	'promo'               			=> 'AVAILABLE NOW',
 	'promo-detail'               	=> '<h3>Purchase by 6 March 23:59, you can save HK$200 and get 3 Bonus Freebies.</h3><span style="font-size:13px;">Terms and conditions apply and is subject to change without prior notice.</span></br>',

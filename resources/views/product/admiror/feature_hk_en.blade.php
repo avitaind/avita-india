@@ -180,12 +180,12 @@
                         <div class="banner-info col-sm-5">
                             <div class="admiror_h2">Exquisite design that combines Gothic architectural aesthetics</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block txt_white text-left">Inspired by the magnificence of the Gothic architecture, the brand new AVITA ADMIROR series combines contemporary architectural aesthetics into its state-of-the-art technology. The ADMIROR features an ultra-slim body in a modern design, paying attention to the smallest detail. The hinge concealed between the screen and the keyboard references the renowned flying buttress of the Gothic design. The essence of the grand and tall Gothic architecture is reflected in the laptop's slender body that contrasts with the rounded hedge, mimicking the iconic pointed arches. With a unique appearance inspired by epoch-making architectural art, ADMIROR is an iconic design for fashionistas and those who crave for an individual style.</span>
+                                <span class="d-lg-block txt_white ">Inspired by the magnificence of the Gothic architecture, the brand new AVITA ADMIROR series combines contemporary architectural aesthetics into its state-of-the-art technology. The ADMIROR features an ultra-slim body in a modern design, paying attention to the smallest detail. The hinge concealed between the screen and the keyboard references the renowned flying buttress of the Gothic design. The essence of the grand and tall Gothic architecture is reflected in the laptop's slender body that contrasts with the rounded hedge, mimicking the iconic pointed arches. With a unique appearance inspired by epoch-making architectural art, ADMIROR is an iconic design for fashionistas and those who crave for an individual style.</span>
                             </div>
                             <div class="space60"></div>
                             <div class="admiror_h2">Stand out with colors</div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block txt_white text-left">ADMIROR makes sure your individuality gets all the attention. The new series offers 5 unique color options to express your personal style. Be it the rebellious Blazing Brown or Flaming Copper, the eye-catching Delight Pink or Pride Blue, or the soothing Traveler Green, the ADMIROR simply compliments any outfit you choose to wear.
+                                <span class="d-lg-block txt_white ">ADMIROR makes sure your individuality gets all the attention. The new series offers 5 unique color options to express your personal style. Be it the rebellious Blazing Brown or Flaming Copper, the eye-catching Delight Pink or Pride Blue, or the soothing Traveler Green, the ADMIROR simply compliments any outfit you choose to wear.
     (Choice of 3 colours available now: Flaming Copper, Delight Pink and Blazing Brown)</span>
                             </div>
                         </div><!--banner-info col-sm-6-->
@@ -472,7 +472,7 @@
                 <div class="bottom-banner-bg">
 
                     <div class="row">
-                    	<div class="float_img2">
+                    	<div class="float_img2" style="left: -59px;">
                             <img src="/images/admiror/ADMIROR05.png">
                         </div>
                         <div align="left" class="col-12 col-md-5">
@@ -581,6 +581,11 @@
 @endsection
 
 @section('css')
+<style>
+    span{
+        text-align: justify;
+    }
+</style>
  <link type="text/css" rel="stylesheet" href="{{ asset('css/product-liber.css') }}"/>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/animate.css') }}"/> 
 @endsection

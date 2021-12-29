@@ -96,7 +96,7 @@
                         <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Simplicity at its best</div>
                         <div class="banner-para">
                             <span class="d-lg-block">The all-new AVITA PURA /  PURA E adopts a minimalistic design</span>
-                            <span class="d-lg-block">that takes the clutters out of the equation.</span>
+                            <span >that takes the clutters out of the equation.</span>
                         </div>
                         <div class="space60"></div>
                     </div>
@@ -121,6 +121,7 @@
 
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">The all-new AVITA PURA /  PURA E cleverly packs powerful functionalities inside a clean and sleek body design that is like no others. Forget the clumsiness of conventional laptop computers and welcome to a world of new experience!</span>
+                            <span></span>
                             <span class="d-lg-block"><a href="<?php echo e(route('product.spec', 'pura')); ?>" style="color:#09F">Tech Spec ></a></span>
                         </div>
                         
@@ -161,7 +162,7 @@
                 <div class="space60 hidden-sm-down"></div>
                 <div class="row">
                 	<div class="col-12 col-lg-6" align="left"></div>
-                	<div class="col-12 col-lg-6" align="left">
+                	<div class="col-12 col-lg-6" align="">
                     	<div class="h2 banner-header mob-text-center"><div class="d-sm-inline" style="text-transform:uppercase;">Light as a feather</div></div>
                 		<div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
@@ -169,24 +170,26 @@
                         </div>
                 
                         <div class="banner-para ls-0">
-The 35.56 cm AVITA PURA /  PURA E embraces a super slim outfit and weighs from a mere 1.21 kg / 1.34 kg, offering you unparalleled portability and ease of use.</span>   </div>
-                        <section class="product-liber-wifi">
-                            <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
-                            <div class="data-card mx-3 text-left">
-                                <span class="badge-value">5</span>
-				<span class="badge-caption">mm</span>
-				<div class="badge-caption">Thinnest part</div>
-                            </div>
-			  <span class="badge-caption text-right">starting<br/>from</span>
-			 <div class="data-card mx-3 text-left">
-                           <span class="badge-value">1.21</span>
-			    <span class="badge-caption">kg </span>
-                <span class="badge-value"> / 1.34</span>
-			    <span class="badge-caption">kg</span>
-				<div class="badge-caption">35.56 cm weight</div>
-                            </div>
+                            <span class="d-lg-block">The 35.56 cm AVITA PURA /  PURA E embraces a super slim outfit and weighs from a mere 1.21 kg / 1.34 kg, offering you unparalleled</span>
+                            <span>portability and ease of use.</span>   
                         </div>
-			</section>  
+                                    <section class="product-liber-wifi">
+                                        <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
+                                        <div class="data-card mx-3 text-left">
+                                            <span class="badge-value">5</span>
+                            <span class="badge-caption">mm</span>
+                            <div class="badge-caption">Thinnest part</div>
+                                        </div>
+                        <span class="badge-caption text-right">starting<br/>from</span>
+                        <div class="data-card mx-3 text-left">
+                                    <span class="badge-value">1.21</span>
+                            <span class="badge-caption">kg </span>
+                            <span class="badge-value"> / 1.34</span>
+                            <span class="badge-caption">kg</span>
+                            <div class="badge-caption">35.56 cm weight</div>
+                                        </div>
+                                    </div>
+                        </section>  
                     </div>
                 </div>
                 <div class="space60 hidden-sm-down"></div>
@@ -203,16 +206,15 @@ The 35.56 cm AVITA PURA /  PURA E embraces a super slim outfit and weighs from a
                 <div class="space60 hidden-sm-down"></div>
                 <div class="space60"></div>
                 <div class="row">
-                	<div class="col-12 col-lg-6" align="left">
+                	<div class="col-12 col-lg-6" align="left" style="max-width: 44%;">
                     	<div class="h2 banner-header mob-text-center"><div class="d-sm-inline" style="text-transform:uppercase;">Always at your service</div></div>
                         <div class="ac-computer-wrap hidden-sm-up">
                             <img class="ac-computer-image ac-computer-2" style="" src="/images/pura/pura_bg2_mob.jpg">
                         </div>
                 <div class="space60 hidden-sm-down"></div>
                         <div class="banner-para ls-0">
-No more agonising wait for the laptop to power up! The AVITA PURA /  PURA E is the perfect example of modern computing and could turn on in as soon as 20 seconds, so you can hop on anytime to flex your creativity - in a lightning fast manner. Thanks to the extended battery life that lasts up to 10 hours*, the AVITA PURA /  PURA E is the perfect companion to have your work and life seamlessly combined.<br />
-<br />
-The AVITA PURA /  PURA E is pre-installed with the Windows 10 Home / Windows 10 Home Edition operating system (in S mode), along with the 8th-generation Intel® Core™ i3-8145U or i5-8265U processor / AMD A6-9220e , up to 4GB / 8GB RAM DDR4, 128GB / 256GB / 512GB SSD hard disk and various ports to meet your everyday needs.</span>                        </div>
+                            <span class="d-lg-block">No more agonising wait for the laptop to power up! The AVITA PURA /  PURA E is the perfect example of modern computing and could turn on in as soon as 20 seconds, so you can hop on anytime to flex your creativity - in a lightning fast manner. Thanks to the extended battery life that lasts up to 10 hours*, the AVITA PURA /  PURA E is the perfect companion to have your work and life seamlessly combined.<br /><br />The AVITA PURA /  PURA E is pre-installed with the Windows 10 Home / Windows 10 Home Edition operating system (in S mode), along with the 8th-generation Intel® Core™ i3-8145U or i5-8265U processor / AMD A6-9220e , up to 4GB / 8GB RAM DDR4, 128GB / 256GB / 512GB SSD hard disk and various ports to meet your everyday needs.</span>
+                        </div>
                     </div>
                 </div>
                 <div class="space60 hidden-sm-down"></div>
@@ -235,7 +237,8 @@ The AVITA PURA /  PURA E is pre-installed with the Windows 10 Home / Windows 10 
                         </div>
                 <div class="space60"></div>
                         <div class="banner-para ls-0">
-    						<span class="d-lg-block">Every piece of detail on the AVITA PURA /  PURA E has been carefully thought through to ensure the best possible experience for you. While the re-engineered keyboard could enhance your work efficiency, the non-slip cover effectively reduces the risks of falling or impact to the device.</span>
+    						<span class="d-lg-block">Every piece of detail on the AVITA PURA /  PURA E has been carefully thought through to ensure the best possible experience for you. While the re-engineered keyboard could enhance your work efficiency, the non-slip cover effectively reduces the risks of falling or </span>
+                            <span>impact to the device.</span>
                         </div>
                     </div>
                 </div>
@@ -254,8 +257,10 @@ The AVITA PURA /  PURA E is pre-installed with the Windows 10 Home / Windows 10 
                 	<div class="col-12 col-lg-8" align="center">
                     	<div class="h2 banner-header"><div class="d-sm-inline" style="text-transform:uppercase;">SIMPLY PERFECT</div></div>
                         <div class="banner-para ls-0 py-3">
-    			 <span class="d-lg-block">Pre-installed Windows 10 Home / Windows 10 (S Mode). Windows 10 in S mode is a version of Windows 10 that's streamlined for the best performance, while providing a fast startup and long life battery. To increase security, it allows apps from the Microsoft Store, and requires Microsoft Edge for safe browsing. It's available to switch from S mode to Windows 10 as your preference.　
+    			 <span class="d-lg-block">Pre-installed Windows 10 Home / Windows 10 (S Mode). Windows 10 in S mode is a version of Windows 10 that's streamlined for the best performance, while providing a fast startup and long life battery. To increase security, it allows apps from the Microsoft Store, and requires Microsoft Edge for safe browsing. It's available to switch from S mode to Windows 10 as your　
+
                             </span>
+                            <span>preference.</span>
                             <span class="d-lg-block  py-3">
                             <a href="https://support.microsoft.com/en-in/help/4020089/windows-10-in-s-mode-faq" style="color:#09F" target="_blank">How to switch to Windows 10 Home Edition for free　></a>
                             </span>
@@ -282,9 +287,9 @@ The AVITA PURA /  PURA E is pre-installed with the Windows 10 Home / Windows 10 
                     	<div class="h2 banner-header"><div class="d-sm-inline" style="text-transform:uppercase;">Show your colours</div></div>
                 <div class="space60"></div>
                         <div class="banner-para ls-0">
-    				<span class="d-lg-block mx-3">The AVITA PURA /  PURA E comes with a complimentary notebook 3-in-1 computer sleeve that can be used as a handy carrying case or a stylish carrying bag for your personal belongings. What's more, the soft and slouchy premium sleeve sports a choice of six colours, grey, green, orange, blue, black and purple, to suit your style. </span>
-                            <span class="d-lg-block  mx-3">
-<small>*The 3-in-1 sleeve is only available during the promotional period and while stocks last.</small></span>
+    				<span class="d-lg-block mx-3">The AVITA PURA /  PURA E comes with a complimentary notebook 3-in-1 computer sleeve that can be used as a handy carrying case or a stylish carrying bag for your personal belongings. What's more, the soft and slouchy premium sleeve sports a choice</span>
+                    <span>of six colours, grey, green, orange, blue, black and purple, to suit your style.</span><br>
+                    <span ><small>*The 3-in-1 sleeve is only available during the promotional period and while stocks last.</small></span>
                         </div>
                     </div>
                 </div>
@@ -380,6 +385,11 @@ The AVITA PURA /  PURA E is pre-installed with the Windows 10 Home / Windows 10 
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('css'); ?>
+<style>
+    span{
+        text-align: justify;
+    }
+</style>
     <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-liber.css')); ?>"/>
 <?php $__env->stopSection(); ?>
 

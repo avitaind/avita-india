@@ -41,7 +41,7 @@
                         </div>
                       
                             <div class="banner-para text-center">
-                            <span class="d-lg-block">
+                            <span class="">
                             <span class="buy-now2"><a href="https://in.nexstmall.com/" target="_blank">Buy now ></a></span>
                             <!--- <a href="/where-to-buy" style="color:#09F">Where to buy ></a> --->
                             </span>
@@ -71,11 +71,9 @@
                         </div>
                         <div class="h2 banner-header mb-4 mb-sm-5">Inside-out Vibrancy</div>
                         <div class="banner-para">
-                            <span class="d-lg-block">LIBER is a new journey of self-discovery</span>
-                            <span class="d-lg-block">through art and humanity in technology.</span>
-                            <span class="d-lg-block">Where the form of a laptop remains,</span>
-                            <span class="d-lg-block">it on top features chic and interchangeable </span>
-                            <span class="d-lg-block">form factors to reveal your true colors.</span>
+                            <span class="d-lg-block">LIBER is a new journey of self-discovery through art and humanity in technology. Where the form of a laptop remains, it on top features chic and interchangeable form factors to reveal your </span>
+                            <span>true colors.</span>
+                            
                         </div>
                     </div>
                 </div>
@@ -86,7 +84,7 @@
         <div class="banner-block">
             <div class="banner-bg"></div>
             <div class="banner-image">
-                <img class="bc-computer-image bc-computer-1" src="/images/liber/liber_u_feature/sc3_fimg1.png" style="right: 840px" >
+                <img class="bc-computer-image bc-computer-1" src="/images/liber/liber_u_feature/sc3_fimg1.png" style="right: 932px;" >
                 <img class="bc-computer-image bc-computer-2" src="/images/liber/liber_u_feature/sc3_fimg2.png">
                 <img class="bc-computer-image bc-computer-3" src="/images/liber/liber_u_feature/sc3_fimg3.png">
                 <img class="bc-computer-image bc-computer-4" src="/images/liber/liber_u_feature/sc3_fimg4.png">
@@ -103,13 +101,11 @@
                         <img class="ac-computer-image ac-computer-1" style="" src="/images/liber/liber_u_feature/sc3_fimg2.png">
                     </div>
                     <div class="banner-para ls-0">
-                        <span class="d-lg-block">LIBER offers great mobility. </span>
-                        <span class="d-lg-block">Having no compromise to a silky metallic body </span>
-                        <span class="d-lg-block">with the thinnest part of only 5mm and </span>
-                        <span class="d-lg-block"> weight starting from 1.46kg (35.56 cm), </span>
-                        <span class="d-lg-block">it comes with an ultra slim and light design </span>
-                        <span class="d-lg-block">that unburdens you on the go.</span>
-                        <span class="d-block"><small>* Thinnest part</small></span>
+                        <span class="d-lg-block">LIBER offers great mobility. Having no compromise to a silky metallic body with the thinnest part of only 5mm and weight starting from 1.46kg (35.56 cm), it comes with an ultra slim and light design that </span>
+                        <span>unburdens you on the go. </span>
+                        
+                        <br>
+                        <span ><small>* Thinnest part</small></span>
                     </div>
                     <div class="banner-data d-flex flex-wrap text-left mx-auto pl-sm-5">
                         <div class="data-card data-card-1 col-6 my-2 my-sm-4 pl-1 px-sm-4">
@@ -153,9 +149,9 @@
                         </div>
                         <div class="h2 banner-header mb-4 mb-sm-5">Seamless Efficiency</div>
                         <div class="banner-para ls-0">
-                            <span class="d-md-block">LIBER is made for the best work and entertainment experience. </span>
-                            <span class="d-md-block">It is marked with a high performance speed particularly useful in</span>
-                            <span class="d-md-block">handling complicated operations and visual contents.</span>
+                            <span class="d-md-block">LIBER is made for the best work and entertainment experience. It is marked with a high performance speed particularly useful in handling complicated operations </span>
+                            <span>and visual contents.</span>
+                            
                         </div>
                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between">
                             <div class="data-card my-3 text-left">
@@ -212,9 +208,8 @@
 
                                 <div class="h2 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Full Battery for All-day Menu</div></div>
                                 <div class="banner-para ls-0">
-                                    <span class="d-lg-block">From the first news feed you get in the morning, </span>
-                                    <span class="d-lg-block">through a hectic day of work to finally some entertainment before sleep, LIBER can stay cordless for up to 10 hours* </span>
-                                    <span class="d-lg-block">to handle all of your daytime activities.</span>
+                                    <span class="d-lg-block">From the first news feed you get in the morning, through a hectic day of work to finally some entertainment before sleep, LIBER can stay cordless for up to 10 hours* to handle all of your daytime activities.</span>
+                                    
                                     <span class="d-lg-block"><small>*Up to 8 hours on MobileMark 2014 (Up to 10 hours in the condition of Wi-Fi, Bluetooth, audio are off, brightness as 20, and Power in Battery saver mode)</small></span>
                                 <br/>
                                 </div>
@@ -263,11 +258,8 @@
                             <img class="ac-computer-image ac-computer-1" style="" src="/images/liber/liber_u_feature/sc6_fimg1.png">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Every touch on the keyboard directly </span>
-                            <span class="d-lg-block">determines your performance. </span>
-                            <span class="d-lg-block">Therefore, LIBER incorporates a pleasing-to-use </span>
-                            <span class="d-lg-block">keyboard of delicate details that ensures</span>
-                            <span class="d-lg-block">the best comfort and accuracy for you.</span>
+                            <span class="d-lg-block">Every touch on the keyboard directly determines your performance. Therefore, LIBER incorporates a pleasing-to-use keyboard of delicate details that ensures the best comfort and accuracy for you.</span>
+                            
                         </div>
                         <!-- <div class="banner-data d-flex justify-content-around">
                             <div class="data-card">
@@ -300,7 +292,8 @@
                         <div class="h2 banner-header mb-4 mb-sm-5">Built to be Secured</div>
 
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">No matter where you use your AVITA notebooks, your security is always our top priority. AVITA LIBER feature full support for Windows Hello for daily life, replacing passwords with fingerprint reading. With improved convenience and security, you can log in without the need for a password, and keep all your data safe anytime.</span>
+                            <span class="d-lg-block">No matter where you use your AVITA notebooks, your security is always our top priority. AVITA LIBER feature full support for Windows Hello for daily life, replacing passwords with fingerprint reading. With improved convenience and security, you can log in without the need for a </span>
+                            <span>password, and keep all your data safe anytime.</span>
 
                         </div>
 
@@ -330,15 +323,9 @@
                         </div>
                         <div class="h2 banner-header mb-4 mb-sm-5">A Feast to Eyes &amp; Ears</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">LIBER is engineered for an outstanding reproduction of</span>
-                            <span class="d-lg-block">original colors that brings no fatigue to eyes.</span>
-                            <span class="d-lg-block">With a well-adjusted contrast level, </span>
-                            <span class="d-lg-block">images remain vivid with great details. </span>
-                            <span class="d-lg-block">Its inbuilt speaker is also good at </span>
-                            <span class="d-lg-block">delivering stunning sound effects as it has </span>
-                            <span class="d-lg-block">a wide dynamic range and strong bass. </span>
-                            <span class="d-lg-block">No matter it is for work or entertainment to go, </span>
-                            <span class="d-lg-block">LIBER always has the best to offer.</span>
+                            <span class="d-lg-block">LIBER is engineered for an outstanding reproduction of original colors that brings no fatigue to eyes. With a well-adjusted contrast level, images remain vivid with great details. Its inbuilt speaker is also good at delivering stunning sound effects as it has a wide dynamic range and strong bass. No matter it is for work or entertainment to go, LIBER </span>
+                            <span>always has the best to offer.</span>
+                            
                         </div>
                     </div>
 
@@ -427,9 +414,9 @@
                     <div class="banner-info mx-auto ls-0">
                         <div class="h2 banner-header mb-4 mb-sm-5">Stay Connected <div class="hidden-sm-up"></div> Anytime, Anywhere</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Equipped with BLUETOOTH 4.2 and 802.11ac Wi-Fi, </span>
-                            <span class="d-lg-block">LIBER offers the speediest online means, </span>
-                            <span class="d-lg-block">which is three times faster than an 802.11n connection.</span>
+                            <span class="d-lg-block">Equipped with BLUETOOTH 4.2 and 802.11ac Wi-Fi, LIBER offers the speediest online means, which is three times faster </span>
+                            <span>than an 802.11n connection.</span>
+                            
                         </div>
                         <div class="banner-data d-flex flex-wrap justify-content-around align-items-center">
                             <div class="data-card my-2 my-sm-0">
@@ -495,6 +482,11 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('css'); ?>
+<style>
+    span{
+        text-align: justify;
+    }
+</style>
     <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-liber.css')); ?>"/>
 <?php $__env->stopSection(); ?>
 

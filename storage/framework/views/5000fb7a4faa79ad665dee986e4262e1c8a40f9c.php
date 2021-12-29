@@ -56,7 +56,8 @@
                     <div class="banner-info">
                     	<div class="h1 banner-header mb-4 mb-sm-5">Avant Garde Design</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Inspired by the neat geometric lines of La Muralla Roja (The Red Wall) fortress in Spain, the perfect embodiment of Post-Modern architecture, LIBER V’s design completely justifies its slogan ‘Limitless evolution’. Its high-quality webcam stands out quite literally, perfectly completing the picture of a sleek and angular body with pleasing aesthetics. LIBER V comes in 14 vibrant color options* encasing an ultra-slim Aluminum build and equipped with an easy-to-open clip thereby achieving the trifecta of design, durability and function.</span> 
+                            <span class="d-lg-block">Inspired by the neat geometric lines of La Muralla Roja (The Red Wall) fortress in Spain, the perfect embodiment of Post-Modern architecture, LIBER V’s design completely justifies its slogan ‘Limitless evolution’. Its high-quality webcam stands out quite literally, perfectly completing the picture of a sleek and angular body with pleasing aesthetics. LIBER V comes in 14 vibrant color options* encasing an ultra-slim Aluminum build and equipped with an easy-to-open clip thereby achieving the trifecta </span> 
+                            <span>of design, durability and function.</span>
                         </div> 
                     </div>
                     <div class="banner-image">
@@ -79,7 +80,10 @@
     
         <section class="product-liber-wifi product-liber-v-view">
             <div class="h1 banner-header mb-sm-5 container  text-center pt-3">Statement by the Red Dot Jury</div>
-            <div class=" container text-center banner-para ls-0"><span class="d-lg-block">LIBER V impressively combines expressive individuality with state-of-the-art technology, paying attention to carefully crafted details such as the webcam that is beautifully integrated into the frame.</span></div>
+            <div class=" container text-center banner-para ls-0">
+                <span class="d-lg-block">LIBER V impressively combines expressive individuality with state-of-the-art technology, paying attention to carefully crafted details such as </span>
+                <span>the webcam that is beautifully integrated into the frame.</span>
+            </div>
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image"> 
@@ -90,7 +94,8 @@
                     <div class="banner-info">
                         <div class="h1 banner-header mb-4 mb-sm-5">Experience Visual Transcendence</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Expand your vision with LIBER V’s 3.7 mm unbound ultra-narrow bezel which gives its screen a larger viewing area compared to the previous LIBER notebooks.  A high screen to body ratio at 72.8% combined with an FHD 16:9 IPS anti-glare display allows you to the stretch the limits of your viewing experience for an ultra-wide viewing angle of 178 degrees. Whether you are working or playing; indoors or outdoors, never miss any details with the vibrant image feedback at a quite stable response time with LIBER V.</span> 
+                            <span class="d-lg-block">Expand your vision with LIBER V’s 3.7 mm unbound ultra-narrow bezel which gives its screen a larger viewing area compared to the previous LIBER notebooks.  A high screen to body ratio at 72.8% combined with an FHD 16:9 IPS anti-glare display allows you to the stretch the limits of your viewing experience for an ultra-wide viewing angle of 178 degrees. Whether you are working or playing; indoors or outdoors, never miss any details with the vibrant image feedback at a quite </span> 
+                            <span>stable response time with LIBER V.</span>
                         </div> 
                     </div>
 
@@ -104,18 +109,14 @@
                 <div class="banner-image"> 
                     <img class="bc-computer-image bc-computer-1" src="/images/liber-v/AVITA_liber_v_all.png"> 
 	                <img class="bc-computer-image fade-img" src="/images/liber-v/p04.png"> 
-                    <img class="bc-computer-image fade-img-2" src="/images/liber-v/p05.png"> 
+                    <img class="bc-computer-image fade-img-2" src="/images/liber-v/p05.png" style="right: -181px;"> 
                 </div>
                 <div class="container">
                     <div class="banner-info"> 
                         <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Kaleidoscopic Expression</div></div>
                         <div class="banner-para ls-0">
-                            <span class="d-md-block">The 14 distinctive and flamboyant color options* of </span>
-                            <span class="d-md-block">LIBER V boost its uniqueness as a personality statement accessory. </span>
-                            <span class="d-md-block">Now, put your own mark further on LIBER V by opting for</span>
-                            <span class="d-md-block">Laser Engraving Service for the chassis. We will keep</span> 
-                            <span class="d-md-block">adding more colors and patterns to LIBER V catalog,</span>
-                            <span class="d-md-block">keeping you spoilt for choices.</span>
+                            <span class="d-md-block">The 14 distinctive and flamboyant color options* of LIBER V boost its uniqueness as a personality statement accessory. Now, put your own mark further on LIBER V by opting for Laser Engraving Service for the chassis. We will keep adding more colors and patterns to LIBER V catalog, keeping you spoilt for choices.</span>
+                            
                             <span class="d-md-block">&nbsp;</span>
                             <span class="d-md-block"></span>
                             <p class="hidden-md-up">&nbsp;</p>
@@ -143,14 +144,9 @@
                         </div>
                         <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Prompt Portability</div></div>
                         <div class="banner-para ls-0">
-                            <span class="d-md-block">The smart design and sophisticated engineering behind </span>
-                            <span class="d-md-block">LIBER V ensures that the 35.56 cm visage of</span>
-                            <span class="d-md-block">LIBER V weighs merely 1.25 kgs, 14% lighter than</span>
-                            <span class="d-md-block">previous LIBER models, LIBER V achieves the ideal</span>
-                            <span class="d-md-block">in terms of easy mobility factor. Combine that</span>
-                            <span class="d-md-block">with the fingerprint lock powered by Windows Hello,</span>
-                            <span class="d-md-block">and LIBER V becomes the perfect technology weapon,</span>
-                            <span class="d-md-block">easy to carry and ready to be unleashed with a snap and a touch.</span>
+                            <span class="d-md-block">The smart design and sophisticated engineering behind LIBER V ensures that the 35.56 cm visage of LIBER V weighs merely 1.25 kgs, 14% lighter than previous LIBER models, LIBER V achieves the ideal in terms of easy mobility factor. Combine that with the fingerprint lock powered by Windows Hello, and LIBER V becomes the perfect technology weapon, easy to carry and ready to be </span>
+                            <span>unleashed with a snap and a touch.</span>
+                            
                         </div>
                         <div class="banner-data d-flex flex-wrap text-left mx-auto pl-sm-5">
                         	
@@ -187,7 +183,7 @@
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-1" src="/images/liber-v/AVITA_liber_v_performance.jpg"> 
+                    <img class="bc-computer-image bc-computer-1" src="/images/liber-v/AVITA_liber_v_performance.jpg" style="left: 630px;"> 
 	                <img class="bc-computer-image fade-img" src="/images/liber-v/p02_hk_en.png"> 
                 </div>
                 <div class="container">
@@ -197,13 +193,9 @@
                         </div>
                         <div class="h1 banner-header mb-4 mb-sm-5"><div class="d-sm-inline">Sensational Performance and Productivity</div></div>
                         <div class="banner-para ls-0">
-                            <span class="d-md-block">LIBER V takes an evolutionary step forward in terms of </span>
-                            <span class="d-md-block">performance parameter by adapting the new 10<sup>th</sup> Gen Intel® </span>
-                            <span class="d-md-block">Core™i5-10210U/i7-10510U processors and AMD Ryzen™ 5</span>
-                            <span class="d-md-block">3500U- AMD Ryzen™ 7 3700U with 8 GB RAM,</span>
-                            <span class="d-md-block">an ultra-fast SSD Drive up to 1 TB and </span>
-                            <span class="d-md-block">preloaded Windows 10 home enabling you to tackle even</span>
-                            <span class="d-md-block">the most complex tasks with practiced ease.</span>
+                            <span class="d-md-block">LIBER V takes an evolutionary step forward in terms of performance parameter by adapting the new 10<sup>th</sup> Gen Intel® Core™i5-10210U/i7-10510U processors and AMD Ryzen™ 5 3500U- AMD Ryzen™ 7 3700U with 8 GB RAM, an ultra-fast SSD Drive up to 1 TB and preloaded Windows 10 home enabling you to tackle </span>
+                            <span>even the most complex tasks with practiced ease.</span>
+                            
                             <span class="d-md-block">&nbsp;</span>
                             <span class="d-md-block"></span>
                             <p class="hidden-md-up">&nbsp;</p>
@@ -308,7 +300,11 @@
     </main>
 
 <?php $__env->stopSection(); ?>
-
+<style>
+    span{
+        text-align: justify;
+    }
+</style>
 <?php $__env->startSection('css'); ?>
     <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-liber.css')); ?>"/>
 <?php $__env->stopSection(); ?>

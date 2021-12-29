@@ -59,15 +59,15 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-1" style="" src="/images/mouse/sc8_fimg1.jpg">
                         </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">A Feast to Eyes &amp; Ears</div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">Lorem Ipsum is simply dummy</div>
                         <div class="banner-para ls-0">
-                            <span class="d-md-block">Lorem Ipsum is simply dummy text of the printing and typesetting industry </span>
-                            <span class="d-md-block">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
+                            <span class="d-md-block">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</span>
+                            {{-- <span class="d-md-block">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
                             <span class="d-md-block">when an unknown printer took a galley of type and scrambled it to make a type specimen book</span>
                             <span class="d-lg-block">Its inbuilt speaker is also good at </span>
                             <span class="d-lg-block">delivering stunning sound effects as it has </span>
                             <span class="d-lg-block">a wide dynamic range and strong bass. </span>
-                            <span class="d-lg-block">No matter it is for work or entertainment to go, </span>
+                            <span class="d-lg-block">No matter it is for work or entertainment to go, </span> --}}
                             
                         </div>
                     </div>
@@ -86,10 +86,10 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-1" style="" src="/images/mouse/sc8_fimg1.jpg">
                         </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Built to be Secured</div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">Lorem Ipsum is simply dummy</div>
 
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+                            <span class="d-lg-block">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</span>
 
                         </div>
                         
@@ -109,11 +109,13 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-1" style="" src="/images/mouse/sc8_fimg1.jpg">
                         </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Seamless Efficiency</div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">Lorem Ipsum is simply dummy</div>
                         <div class="banner-para ls-0">
-                            <span class="d-md-block">Lorem Ipsum is simply dummy text of the printing and typesetting industry </span>
+                            {{-- <span class="d-md-block">Lorem Ipsum is simply dummy text of the printing and typesetting industry </span>
                             <span class="d-md-block">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
-                            <span class="d-md-block">when an unknown printer took a galley of type and scrambled it to make a type specimen book</span>
+                            <span class="d-md-block">when an unknown printer took a galley of type and scrambled it to make a type specimen book</span> --}}
+                            <span class="d-lg-block">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</span>
+
                         </div>
                     </div>
                 </div>
@@ -131,10 +133,10 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-4" style="" src="/images/mouse/sc8_fimg1.jpg">
                         </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Built to be Secured</div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">Lorem Ipsum is simply dummy</div>
 
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+                            <span class="d-lg-block">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</span>
 
                         </div>
                         

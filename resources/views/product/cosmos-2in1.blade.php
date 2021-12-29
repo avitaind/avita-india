@@ -86,7 +86,8 @@
                         </div>
                         <div class="h2 banner-header mb-4 mb-sm-5">@lang('cosmos.2in1')</div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">@lang('cosmos.2in1-detail')</span><span class="d-lg-block"></span>
+                            <span class="d-lg-block">@lang('cosmos.2in1-detail')</span>
+                            <span>anywhere.</span>
                        <p class="d-lg-block"><img src="@lang('cosmos.img-feature')"></p>
                         </div>
                     </div>
@@ -135,7 +136,8 @@
                         <div class="h2 banner-header mb-4 mb-sm-5">@lang('cosmos.accommodate')</div>
 
                         <div class="banner-para ls-0">
-                            <p class="d-lg-block">@lang('cosmos.accommodate-detail') </p>
+                            <span class="d-lg-block">@lang('cosmos.accommodate-detail') </span>
+                            <span>every way possible.</span>
                             <!--p class="d-lg-block"><img src="/images/magus/sideview.png"></p-->
                             <p class="d-lg-block"><img src="/images/cosmos/port_en.png"></p>
                             
@@ -184,6 +186,11 @@
 @endsection
 
 @section('css')
+<style>
+    span{
+        text-align: justify;
+    }
+</style>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/product-magus.css') }}"/>
 @endsection
 

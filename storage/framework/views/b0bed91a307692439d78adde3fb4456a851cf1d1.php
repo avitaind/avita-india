@@ -84,7 +84,8 @@
                         </div>
                         <div class="h2 banner-header mb-4 mb-sm-5"><?php echo app('translator')->getFromJson('cosmos.2in1'); ?></div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block"><?php echo app('translator')->getFromJson('cosmos.2in1-detail'); ?></span><span class="d-lg-block"></span>
+                            <span class="d-lg-block"><?php echo app('translator')->getFromJson('cosmos.2in1-detail'); ?></span>
+                            <span>anywhere.</span>
                        <p class="d-lg-block"><img src="<?php echo app('translator')->getFromJson('cosmos.img-feature'); ?>"></p>
                         </div>
                     </div>
@@ -116,7 +117,8 @@
                         <div class="h2 banner-header mb-4 mb-sm-5"><?php echo app('translator')->getFromJson('cosmos.accommodate'); ?></div>
 
                         <div class="banner-para ls-0">
-                            <p class="d-lg-block"><?php echo app('translator')->getFromJson('cosmos.accommodate-detail'); ?> </p>
+                            <span class="d-lg-block"><?php echo app('translator')->getFromJson('cosmos.accommodate-detail'); ?> </span>
+                            <span>every way possible.</span>
                             <!--p class="d-lg-block"><img src="/images/magus/sideview.png"></p-->
                             <p class="d-lg-block"><img src="/images/cosmos/port_en.png"></p>
                             
@@ -160,6 +162,11 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('css'); ?>
+<style>
+    span{
+        text-align: justify;
+    }
+</style>
     <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-magus.css')); ?>"/>
 <?php $__env->stopSection(); ?>
 
