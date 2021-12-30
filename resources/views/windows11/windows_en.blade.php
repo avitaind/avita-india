@@ -424,12 +424,12 @@
 					 
 					<div class="col-12 col-lg-4 mb-5 mb-sm-5 wow fadeInLeft" align="center">
 						<img class="mb-4 mb-sm-4" src="/images/windows11/win11_feature_6.jpg" style="width:100%;">
-						<a class="btn btn-black" target="_blank" href="https://in.nexstmall.com/products/avita-pura-14">PURA E</a>
+						<a class="btn btn-black" target="_blank" href="https://in.nexstmall.com/collections/pura-e">PURA E</a>
 					</div>
 					 
 					 <div class="col-12 col-lg-4 mb-5 mb-sm-5 wow fadeInUp" align="center">
 						<img class="mb-4 mb-sm-4" src="/images/windows11/win11_feature_7.jpg" style="width:100%;">
-						<a class="btn btn-black"  target="_blank"  href="https://in.nexstmall.com/products/avita-cosmos-2-in-1-ns12t5in021p">COSMOS 2-IN-1</a>
+						<a class="btn btn-black"  target="_blank"  href="https://in.nexstmall.com/collections/cosmos-2-in-1">COSMOS 2-IN-1</a>
 					</div> 
 					 
 					 <div class="col-12 col-lg-4 mb-5 mb-sm-5 wow fadeInRight" align="center">
