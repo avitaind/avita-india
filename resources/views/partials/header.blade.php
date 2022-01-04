@@ -59,7 +59,7 @@
                             </li>
 
 
-                            <li class="nav-item has-dropdown">
+                            {{-- <li class="nav-item has-dropdown">
                                 <input id="header_product_device" type="checkbox" hidden="">
                                 <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">{{ __('messages.smart device') }}</label></a>
                                 <div class="dropdown">
@@ -70,7 +70,7 @@
                                         <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['modus']) }}">@lang('site.modus_scale')</a>
                                         </li>
-                                        {{--  <li class="nav-item has-dropdown">
+                                        <li class="nav-item has-dropdown">
                                         <input id="header_product_device" type="checkbox" hidden="">
                                             <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">{{ __('messages.domus') }}</label></a>
                                               <div class="dropdown">
@@ -83,10 +83,10 @@
                                                   </li>
                                                  </ul>
                                               </div>  
-                                        </li>  --}}
+                                        </li> 
                                     </ul>
                                 </div>
-                            </li>
+                            </li> --}}
 
 
                             <li class="nav-item has-dropdown">

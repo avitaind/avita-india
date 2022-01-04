@@ -57,21 +57,7 @@
                             </li>
 
 
-                            <li class="nav-item has-dropdown">
-                                <input id="header_product_device" type="checkbox" hidden="">
-                                <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0"><?php echo e(__('messages.smart device')); ?></label></a>
-                                <div class="dropdown">
-                                    <ul class="list-unstyled">
-                                        <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['imago'])); ?>"><?php echo app('translator')->getFromJson('site.imago_series'); ?></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['modus'])); ?>"><?php echo app('translator')->getFromJson('site.modus_scale'); ?></a>
-                                        </li>
-                                        
-                                    </ul>
-                                </div>
-                            </li>
+                            
 
 
                             <li class="nav-item has-dropdown">
