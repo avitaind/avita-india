@@ -41,10 +41,10 @@
                         </div>
                       
                             <div class="banner-para text-center">
-                            <span class="d-lg-block">
+                            {{-- <span class="d-lg-block"> --}}
                             <span class="buy-now2"><a href="https://in.nexstmall.com/" target="_blank">Buy now ></a></span>
                             <!--- <a href="/where-to-buy" style="color:#09F">Where to buy ></a> --->
-                            </span>
+                            {{-- </span> --}}
                         </div>
                        
                         <div class="space60"></div>

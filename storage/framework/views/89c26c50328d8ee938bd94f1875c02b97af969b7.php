@@ -14,14 +14,15 @@
             <a href="">
           
                     <div class="banner-block responsive-item">
+                        
                         <div class="banner-bg hidden-sm-down " style="background-image: url('https://www.lighting.philips.co.in/content/dam/b2c/en_IN/marketing-catalog/lighting/homebase/smart-wifi-led-l.jpg');">
                             <div class="carousel-text">
                                 <h1>Smart Wi-fi<br/>LED Lighting</h1>
                                 <p>No Smart is Simple</p>
-                                <button class="btn btn-secondary">View More</butto>
+                                <button class="btn btn-secondary">View More</button>
                             </div>
                         </div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-PURA-E"></div>
+                        <div class="banner-bg hidden-md-up" style="background-image: url('/images/domus/mobile_domus_banner.jpg')"></div>
                     </div>
                   </a>
             </div>
@@ -32,14 +33,14 @@
             <a href="">
           
                     <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down " style="background-image: url('https://www.lighting.philips.co.in/b-dam/b2c/en_IN/marketing-catalog/lighting/homebase/twinglow-l.jpg');">
-                            <div class="carousel-text">
-                                <h1>Smart Wi-fi<br/>LED Lighting</h1>
-                                <p>No Smart is Simple</p>
-                                <button class="btn btn-secondary">View More</butto>
-                            </div>
-                        </div>                 
-                        <div class="banner-bg hidden-md-up banner-mob-Cosmos"></div>
+                      <div class="banner-bg hidden-sm-down " style="background-image: url('https://www.lighting.philips.co.in/b-dam/b2c/en_IN/marketing-catalog/lighting/homebase/twinglow-l.jpg');">
+                          <div class="carousel-text">
+                              <h1>Smart Wi-fi<br/>LED Lighting</h1>
+                              <p>No Smart is Simple</p>
+                              <button class="btn btn-secondary">View More</button>
+                          </div>
+                      </div>                 
+                      <div class="banner-bg hidden-md-up" style="background-image: url('/images/domus/mobile_domus_banner.jpg')"></div>
                     </div>
                   </a>
             </div>
@@ -54,10 +55,11 @@
                             <div class="carousel-text">
                                 <h1>Smart Wi-fi<br/>LED Lighting</h1>
                                 <p>No Smart is Simple</p>
-                                <button class="btn btn-secondary">View More</butto>
+                                <button class="btn btn-secondary">View More</button>
                             </div>
                         </div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-Essential"></div>
+                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/domus/mobile_domus_banner.jpg')"></div>
+
                     </div>
                   </a>
             </div>

@@ -101,7 +101,7 @@
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-1" style="" src="/images/sleeves/Lifestyle_2.png">
                         </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Sling it Sleeve it Sway it</div>
+                        <div class="h2 banner-header mb-4 mb-sm-5">Sling it. Sleeve it. Sway it.</div>
                         <div class="banner-para ls-0">
                             {{-- <span class="d-md-block">How often do you come across a bag that can be styled in 3 </span>
                             <span class="d-md-block">different ways? Unlike other laptop bags, AVITA Ubique 3-in-1</span>
