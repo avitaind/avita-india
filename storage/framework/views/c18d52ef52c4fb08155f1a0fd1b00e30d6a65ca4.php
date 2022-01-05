@@ -29,7 +29,7 @@
                     <div class="space60"></div>
                     
                     <div class="banner-para ls-0">
-                        <span class="">A wireless mouse means no cord and no cord means no muss and fuss. It improves the functionality and makes every movement smooth and hassle-free. AVITA Ubique OMA-100, wireless mouse is available in a wide range of hues such as AVITA Purple, Ribon Egg Blue, Carbon Black, Rose Pink, and Mint Green. With OMA-100 you can sit anywhere in the room and can easily access the device. The compact and ergonomic design helps you to take the mouse to places and glide conveniently. It perfectly complements AVITA laptops and your voguish personality.</span>
+                        <span class="d-md-block">A wireless mouse means no cord and no cord means no muss and fuss. It improves the functionality and makes every movement smooth and hassle-free. AVITA Ubique OMA-100, wireless mouse is available in a wide range of hues such as AVITA Purple, Ribon Egg Blue, Carbon Black, Rose Pink, and Mint Green. With OMA-100 you can sit anywhere in the room and can easily access the device. The compact and ergonomic design helps you to take the mouse to places and glide conveniently. It perfectly complements AVITA laptops and your voguish personality.</span>
                     </div>
                      
 
@@ -163,7 +163,7 @@
 
 
 
-        <section class="product-liber-performance2 ls-0">
+        <section class="product-liber-performance2 ls-0" style="background-color: #fff;">
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
