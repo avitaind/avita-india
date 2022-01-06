@@ -1,4 +1,4 @@
-@extends('layouts.appMain')
+@extends('layouts.app')
 
 @section('title')
     @lang('title.Homepage')

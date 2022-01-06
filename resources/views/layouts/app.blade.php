@@ -52,19 +52,19 @@
 
     <title>{{ __('messages.title') }}</title>
 
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
+    {{-- <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/global.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}" /> 
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />  --}}
 
-    {{-- <link rel="stylesheet" href="{{ asset('css/combine.css') }}" /> 
-    <script type="text/javascript" src="{{ asset('js/combine.js') }}"></script> --}}
-
-
+    <link rel="stylesheet" href="{{ asset('css/combine.css') }}" /> 
+    <script type="text/javascript" src="{{ asset('js/combine.js') }}"></script>
 
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+    {{-- <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> --}}
 
 
    <script defer src="//use.typekit.net/wpk4iql.js"></script>
@@ -79,7 +79,7 @@
 
     @if( $ga_code )
 
-    <script type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
+    {{-- <script type="text/javascript" src="{{ asset('js/ga.js') }}"></script> --}}
 
 
 
@@ -170,7 +170,7 @@
 
 </script>
 <script>var chatbot_id=9428;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script> 
+{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>  --}}
 
 </head>
 
