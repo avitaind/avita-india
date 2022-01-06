@@ -1,211 +1,199 @@
-<?php $__env->startSection('title'); ?>
-    <?php echo app('translator')->getFromJson('title.Accessories'); ?>
-<?php $__env->stopSection(); ?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Card Effect</title>
+<style>
+    body{
+  display:flex;
+  margin:0;
+  padding:0;
+  min-height: 100vh;
+  background: #444;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+}
+
+.container{
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  
+}
+
+.container .card{
+  position: relative;
+}
+
+.container .card .face{
+  width:300px;
+  height: 200px;
+  transition:.4s;
+  
+}
+
+.container .card .face.face1{
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0 60px whitesmoke,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+    10px 0 80px #0ff;
+   
+}
 
 
-<?php $__env->startSection('content'); ?>
-    <main class="top-nav-padding">
-
-        <section class="product-liber-banner">
-            <div class="responsive-block">
-                <div class="banner-block responsive-item">
-                    <div class="banner-bg hidden-sm-down" style="background-image: url('/images/banner/website_mouse_banner.jpg')"></div>
-                    <div class="banner-bg hidden-md-up" style="background-image: url('/images/banner/mobile_mouse_banner.jpg')"></div>
-                    <div class="banner-info">
-                        <div class="an-scroll-wrap">
-                            <div class="an-scroll">
-                                <span></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> 
+.container .card .face.face1 .content{
+  opacity: .2;
+  transition:  0.5s;
+  text-align: center;
+  
+   
+  
+  
  
-        <section >
-            <div class="container">
 
-                <div class="banner-info" style="max-width:100%;">
-                    <div class="space60"></div>
-                    
-                    <div class="banner-para ls-0">
-                        <span class="d-md-block">A wireless mouse means no cord and no cord means no muss and fuss. It improves the functionality and makes every movement smooth and hassle-free. AVITA Ubique OMA-100, wireless mouse is available in a wide range of hues such as AVITA Purple, Ribon Egg Blue, Carbon Black, Rose Pink, and Mint Green. With OMA-100 you can sit anywhere in the room and can easily access the device. The compact and ergonomic design helps you to take the mouse to places and glide conveniently. It perfectly complements AVITA laptops and your voguish personality.</span>
-                    </div>
-                     
+}
 
-                    
+.container .card:hover .face.face1 .content{
+  opacity: 1;
+ 
+}
 
-                    
+.container .card .face.face1 .content i{
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+   
+}
 
-                </div>
-            </div>
-    </section>
+.container .card .face.face1 .content h3{
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  
 
-    <section class="product-liber-computer ls-0" style="background-color: ">
-        <div class="container">
+}
 
-            <div class="banner-info" style="max-width:100%;">
-                
-                <div class="h2 banner-header mb-4 mb-sm-5 " style="text-transform:uppercase;">Product features</div>
-                <div class="banner-para">
-                    <ul>
-                        <li style="text-align: justify;"> <i class="fa fa-mouse" aria-hidden="true"></i> High precision optical tracking</li> 
-                        <li style="text-align: justify;">Dextrous design</li>
-                        <li style="text-align: justify;">Convenient plug & play</li>
-                        <li style="text-align: justify;">Inaudible click</li>
-                        <li style="text-align: justify;">Diminutive size </li>
-                    </ul>
-                </div>
-                 <div class="space60"></div>
-                <div class="space60"></div>
+.container .card .face.face1 .content a{
+   transition: .5s;
+}
 
-            </div>
-        </div>
-</section>
+.container .card .face.face2{
+   position: relative;
+   background: whitesmoke;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0,0,0,.8);
+  transform: translateY(-100px);
+}
 
-
-
-
-        <section class="product-liber-performance2 ls-0">
-            <div class="banner-block">
-                <div class="banner-bg"></div>
-                <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-1" src="/images/mouse/sc8_fimg1.jpg">
-                </div>
-                <div class="container">
-                    <div class="banner-info mx-auto ml-lg-0">
-                        <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-1" style="" src="/images/mouse/sc8_fimg1.jpg">
-                        </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Scroll and glide in silence</div>
-                        <div class="banner-para ls-0">
-                            <span class="d-md-block">Experience the same click feel but with lesser noise. Work in any surrounding you wish to without disturbing the fellow mates. The wide rubber scroll at the feet lets you glide freely in silence.</span>
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="product-liber-port ls-0">
-            <div class="banner-block">
-                <div class="banner-bg"></div>
-                <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-1" src="/images/mouse/sc8_fimg1.jpg">
-                </div>
-                <div class="container">
-                    <div class="banner-info mx-auto mr-lg-0">
-                        <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-1" style="" src="/images/mouse/sc8_fimg1.jpg">
-                        </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Contemporary, Sleek and Chic Design </div>
-
-                        <div class="banner-para ls-0">
-                            <span class="d-lg-block">AVITA UBIQUE OMA-100 is beautifully fabricated to fit your curated lifestyle. It perfectly complements your desk set up and can be conveniently tossed in your bag to carry anywhere and everywhere.</span>
-
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="product-liber-wifi ls-0" style="min-height:550px;">
-            <div class="banner-block">
-                <div class="banner-bg"></div>
-                <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-2" src="/images/mouse/sc8_fimg1.jpg">
-                </div>
-                <div class="container">
-                    <div class="banner-info">
-                        <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-1" style="" src="/images/mouse/sc8_fimg1.jpg">
-                        </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Explore the right hues </div>
-                        <div class="banner-para ls-0">
-                            
-                            <span class="d-lg-block">Match the rest of your accessories with the AVITA Ubique OMA-100, available in a wide range of colors such as Purple, Ribon Egg Blue, Carbon Black, Rose Pink, and Mint Green.</span>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="product-liber-port1 ls-0">
-            <div class="banner-block">
-                <div class="banner-bg"></div>
-                <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-4" src="/images/mouse/sc8_fimg1.jpg">
-                </div>
-                <div class="container">
-                    <div class="banner-info mx-auto mr-lg-0">
-                        <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-4" style="" src="/images/mouse/sc8_fimg1.jpg">
-                        </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Come-at-able</div>
-
-                        <div class="banner-para ls-0">
-                            <span class="d-lg-block">Plug and play from wherever your comfort and convenience demand. Sit at a couch, bed or desk AVITA Ubique OMA-100 glides with the same pace and accuracy in every situation. No lag up to the range of 8m. Smooth movements with high resolutions of 1000 dpi. </span>
-
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
+.container .card:hover .face.face2{
+    transform: translateY(0);
 
 
-        <div class="space60"></div>
-        <div class="space60"></div>
-        <div class="space60"></div>
+}
 
+.container .card .face.face2 .content p, a{
+  font-size: 10pt;
+  margin: 0 ;
+  padding: 0;
+  color:#333;
+}
 
+.container .card .face.face2 .content a{
+  text-decoration:none;
+  color: black;
+  box-sizing: border-box;
+  outline : 1px dashed #333;
+  padding: 10px;
+  margin: 15px 0 0;
+  display: inline-block;
+}
 
-        <section class="product-liber-performance2 ls-0" style="background-color: #fff;">
-            <div class="banner-block">
-                <div class="banner-bg"></div>
-                <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-1" src="/images/mouse/sc8_fimg1.jpg">
-                </div>
-                <div class="container">
-                    <div class="banner-info mx-auto ml-lg-0">
-                        <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-1" style="" src="/images/mouse/sc8_fimg1.jpg">
-                        </div>
-                        <div class="h2 banner-header mb-4 mb-sm-5">Convenient and mobile size</div>
-                        <div class="banner-para ls-0">
-                            <span class="d-md-block">The multifaceted design of AVITA UBIQUE OMA-100 offers more comfort and ease. </span>
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+.container .card .face.face2 .content a:hover{
+  background: #333 ;
+  color: whitesmoke; 
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
 
+</style>
+</head>
+<body>
+     <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
 
-
-        <div class="gotop-wrap">
-            <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
-        </div>
-
-    </main>
-
-<?php $__env->stopSection(); ?>
-
-<?php $__env->startSection('css'); ?>
+  <div class="container">
+     <div class="card">
+       <div class="face face1">
+         <div class="content">
+            <i class="fab fa-windows"></i>            
+           <h3>Windows</h3>
+         </div>
+       </div>
+       <div class="face face2">
+         <div class="content">
+           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+           <a href="#" type="button">Read More</a>
+         </div>
+       </div>
+    </div>
+    
+    <div class="card">
+       <div class="face face1">
+         <div class="content">
+      <i class="fab fa-android"></i>               <h3>Android</h3>
+         </div>
+       </div>
+       <div class="face face2">
+         <div class="content">
+           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+           <a href="#" type="button">Read More</a>
+         </div>
+       </div>
+    </div>
     
     
-    <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/mouse.css')); ?>"/>
-<?php $__env->stopSection(); ?>
-
-<?php $__env->startSection('js'); ?>
-
-<script type="text/javascript" src="<?php echo e(asset('js/mouse.js')); ?>"></script>
-
-
-<?php $__env->stopSection(); ?>
-
-<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <div class="card">
+       <div class="face face1">
+         <div class="content">
+           <i class="fab fa-apple"></i>
+            <h3>Apple</h3>
+         </div>
+       </div>
+       <div class="face face2">
+         <div class="content">
+           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+           <a href="#" type="button">Read More</a>
+         </div>
+       </div>
+    </div>
+    
+    
+    
+    
+    
+    
+  </div>
+  
+</body>
+</html>
