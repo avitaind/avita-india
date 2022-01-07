@@ -52,15 +52,14 @@
 
     <title><?php echo e(__('messages.title')); ?></title>
 
-    
-
-    <link rel="stylesheet" href="<?php echo e(asset('css/combine.css')); ?>" /> 
-    <script type="text/javascript" src="<?php echo e(asset('js/combine.js')); ?>"></script>
-
-
+    <link rel="stylesheet" async href="<?php echo e(asset('css/bootstrap.min.css')); ?>" />
+    <link rel="stylesheet" async href="<?php echo e(asset('css/font-awesome.min.css')); ?>" />
+    <link rel="stylesheet" async href="<?php echo e(asset('css/global.css')); ?>" />
+    <link rel="stylesheet" async href="<?php echo e(asset('css/style.css')); ?>" />  
 
 
-    
+ <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
 
 
    <script defer src="//use.typekit.net/wpk4iql.js"></script>
@@ -75,7 +74,7 @@
 
     <?php if( $ga_code ): ?>
 
-    
+    <script type="text/javascript" src="<?php echo e(asset('js/ga.js')); ?>"></script>
 
 
 
@@ -166,7 +165,7 @@
 
 </script>
 <script>var chatbot_id=9428;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();</script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script> 
 
 </head>
 
