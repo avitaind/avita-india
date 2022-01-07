@@ -52,19 +52,19 @@
 
     <title><?php echo e(__('messages.title')); ?></title>
 
-    <link rel="stylesheet" async href="<?php echo e(asset('css/bootstrap.min.css')); ?>" />
-    <link rel="stylesheet" async href="<?php echo e(asset('css/font-awesome.min.css')); ?>" />
-    <link rel="stylesheet" async href="<?php echo e(asset('css/global.css')); ?>" />
-    <link rel="stylesheet" async href="<?php echo e(asset('css/style.css')); ?>" />  
+    <link async rel="stylesheet" href="<?php echo e(asset('css/bootstrap.min.css')); ?>" />
+    <link async rel="stylesheet" href="<?php echo e(asset('css/font-awesome.min.css')); ?>" />
+    <link async rel="stylesheet" href="<?php echo e(asset('css/global.css')); ?>" />
+    <link async rel="stylesheet" href="<?php echo e(asset('css/style.css')); ?>" />  
 
 
- <script async src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
 
 
-   <script defer src="//use.typekit.net/wpk4iql.js"></script>
-   <script defer>try{Typekit.load();}catch(e){}</script>
-   <script defer type="text/javascript" src="<?php echo e(asset('js/jquery.min.js')); ?>"></script>
+    <script async src="//use.typekit.net/wpk4iql.js"></script>
+   <script async>try{Typekit.load();}catch(e){}</script>
+    <script async type="text/javascript" src="<?php echo e(asset('js/jquery.min.js')); ?>"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -74,11 +74,11 @@
 
     <?php if( $ga_code ): ?>
 
-    <script async type="text/javascript" src="<?php echo e(asset('js/ga.js')); ?>"></script>
+     <script async type="text/javascript" src="<?php echo e(asset('js/ga.js')); ?>"></script>
 
 
 
-    <script type="application/ld+json">
+     <script async type="application/ld+json">
         {
             "@context": "https://schema.org/",
             "@type": "WebSite",
@@ -92,7 +92,7 @@
     }
 </script>
 
-<script defer type="text/javascript">
+ <script async type="text/javascript">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -123,7 +123,7 @@
     <!-- Global site tag (gtag.js) - Google Ads: 878181922 -->
   
   <!--
-   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-878181922"></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=AW-878181922"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -133,7 +133,7 @@
     </script>
   --->
   <!-- Facebook Pixel Code -->
-        <script>
+        <script async>
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -157,15 +157,15 @@
     <?php echo $__env->yieldPushContent('css'); ?>
     <?php echo $__env->yieldContent('css'); ?>
   
-<script defer type="text/javascript">
+ <script async type="text/javascript">
     window.addEventListener('load', 
      function() { 
           $('.preloader').fadeOut('slow');
   },false);
 
 </script>
-<script>var chatbot_id=9428;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();</script>
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script> 
+ <script async>var chatbot_id=9428;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();</script>
+ <script async src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script> 
 
 </head>
 
@@ -215,17 +215,17 @@
 
 <!-- Google Code for Remarketing Tag -->
 
-    <script type="text/javascript">
+     <script async type="text/javascript">
     /* <![CDATA[ */
     var google_conversion_id = 830592061;
     var google_custom_params = window.google_tag_params;
     var google_remarketing_only = true;
     /* ]]> */
 </script>
-<script async type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+ <script async type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
 
-<script async type="text/javascript" defer src="<?php echo e(asset('js/vendor.js')); ?>"></script>
-<script async type="text/javascript"defer src="<?php echo e(asset('js/demo.js')); ?>"></script>
+ <script async type="text/javascript" defer src="<?php echo e(asset('js/vendor.js')); ?>"></script>
+ <script async type="text/javascript"defer src="<?php echo e(asset('js/demo.js')); ?>"></script>
 
 
     <noscript>
