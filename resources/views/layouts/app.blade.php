@@ -52,10 +52,10 @@
 
     <title>{{ __('messages.title') }}</title>
 
-    <link type="text/css" rel="stylesheet" async href="{{ asset('css/bootstrap.min.css') }}" />
-    <link type="text/css" rel="stylesheet" async href="{{ asset('css/font-awesome.min.css') }}" />
-    <link type="text/css" rel="stylesheet" async href="{{ asset('css/global.css') }}" />
-    <link type="text/css" rel="stylesheet" async href="{{ asset('css/style.css') }}" />  
+    <link type="text/css" rel="stylesheet" async="async" href="{{ asset('css/bootstrap.min.css') }}" />
+    <link type="text/css" rel="stylesheet" async="async" href="{{ asset('css/font-awesome.min.css') }}" />
+    <link type="text/css" rel="stylesheet" async="async" href="{{ asset('css/global.css') }}" />
+    <link type="text/css" rel="stylesheet" async="async" href="{{ asset('css/style.css') }}" />  
 
 
  <script async src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
