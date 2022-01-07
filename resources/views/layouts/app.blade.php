@@ -58,8 +58,8 @@
     <link async rel="stylesheet" href="{{ asset('css/style.css') }}" />  
 
 
- <script async src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+ <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
 
 
    <script defer src="//use.typekit.net/wpk4iql.js"></script>
@@ -74,7 +74,7 @@
 
     @if( $ga_code )
 
-    <script async type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
 
 
 
@@ -123,7 +123,7 @@
     <!-- Global site tag (gtag.js) - Google Ads: 878181922 -->
   
   <!--
-   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-878181922"></script>
+   <script src="https://www.googletagmanager.com/gtag/js?id=AW-878181922"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
