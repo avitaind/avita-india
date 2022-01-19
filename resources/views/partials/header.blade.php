@@ -124,6 +124,18 @@
                                         </li>
 
                                     </ul> --}}
+                                     {{-- <ul class="list-unstyled">
+
+                                        <li class="nav-item">
+
+                                            <a class="nav-link px-md-4 py-2" >Smart lighting (coming soon)</a>
+                                        </li> 
+                                        <li class="nav-item">
+
+                                            <a class="nav-link px-md-4 py-2" >Conventional lighting (coming soon)</a>
+                                        </li>
+
+                                    </ul> --}}
                                 </div>
                             </li>
 
