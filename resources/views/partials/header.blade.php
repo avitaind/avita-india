@@ -107,6 +107,26 @@
                                     </ul>
                                 </div>
                             </li>
+
+                            <li class="nav-item has-dropdown">
+                                <input id="header_product_accessories" type="checkbox" hidden="">
+                                <a class="nav-link px-md-4 py-2"><label for="header_product_accessories" class="d-block mb-0">DOMUS (Launching Soon) </label></a>
+                                <div class="dropdown">
+                                    {{-- <ul class="list-unstyled">
+
+                                        <li class="nav-item">
+
+                                            <a class="nav-link px-md-4 py-2" >Smart lighting (coming soon)</a>
+                                        </li> 
+                                        <li class="nav-item">
+
+                                            <a class="nav-link px-md-4 py-2" >Conventional lighting (coming soon)</a>
+                                        </li>
+
+                                    </ul> --}}
+                                </div>
+                            </li>
+
                         </ul>
                     </div>
                 </li>
