@@ -222,7 +222,7 @@
     var google_remarketing_only = true;
     /* ]]> */
 </script>
- 
+ <script  type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
 
  <script  type="text/javascript" defer src="<?php echo e(asset('js/vendor.js')); ?>"></script>
  <script  type="text/javascript"defer src="<?php echo e(asset('js/demo.js')); ?>"></script>
