@@ -189,7 +189,7 @@ if ( Request::segment(1) != 'admin') {
     Route::get('/accessories/mouse', 'ProductsController@mouse');
     Route::get('/accessories/mouse_', 'ProductsController@mouse_');
     Route::get('/accessories/sleeve', 'ProductsController@sleeve');
-
+ 
     
     //});
 
