@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use App\ASPAPIService;
 use App\Product;
 use App\ProductModel;
@@ -11,113 +12,173 @@ use Illuminate\Http\Request;
 class ProductsController extends Controller
 {
 
-    protected function productFromURL($country, $slug ) {
+    protected function productFromURL($country, $slug)
+    {
 
         $country = 'in';
         $product = Product::whereCountry($country)->where('short_code', $slug)->first();
 
         // Fallback..
-        if ( !$product ) {
+        if (!$product) {
             $product = Product::where('short_code', $slug)->first();
         }
 
         return $product;
     }
 
-    public function mouse(){
+    public function mouse()
+    {
         return view('mouse');
     }
-    public function mouse_(){
+    public function mouse_()
+    {
         return view('mouse_');
     }
 
-    public function sleeve(){
+    public function sleeve()
+    {
         return view('product.sleeve');
     }
 
-    public function getproducts(){
+    public function domus()
+    {
+
+        return view('product.domus.index');
+    }
+
+    public function smart()
+    {
+
+        return view('product.domus.smart');
+    }
+
+    public function conventional()
+    {
+
+        return view('product.domus.conventional');
+    }
+
+
+    public function emergency()
+    {
+
+        return view('product.domus.emergency');
+    }
+
+    public function getproducts()
+    {
         return view('product.overview');
     }
 
 
-    public function showAccessoriesFeatures( $slug) {
+    public function showAccessoriesFeatures($slug)
+    {
         $country = 'in';
         $accessories = $this->productFromURL($country, $slug);
 
-    if ( $slug == 'ubique' ){
+        if ($slug == 'ubique') {
 
-            switch ( $country ) {
+            switch ($country) {
                 case 'in':
-                    return view('accessories.mouse.feature_hk_en', compact( 'accessories'));
+                    return view('accessories.mouse.feature_hk_en', compact('accessories'));
                     break;
             }
         }
     }
 
 
-    public function showProductFeatures( $slug) {
+    public function showProductFeatures($slug)
+    {
         $country = 'in';
         $product = $this->productFromURL($country, $slug);
 
+        if ($slug == 'domus') {
 
-     		
-		if ( $slug == 'essential' ){  
-			
-			switch ( $country ) {
-				case 'in':  
-                        return view('product.essential.feature_hk_en', compact( 'product')); 
-                        break;
-                    }
-                }
-				
-       
-     if ( $slug == 'magus-lite' ){
-
-            switch ( $country ) {
+            switch ($country) {
                 case 'in':
-                    return view('product.magus-lite', compact( 'product'));
+                    return view('product.domus.index', compact('product'));
+                    break;
+            }
+        }
+        if ($slug == 'smart-lighting') {
+
+            switch ($country) {
+                case 'in':
+                    return view('product.domus.smart', compact('product'));
+                    break;
+            }
+        }
+        if ($slug == 'conventional-lighting') {
+
+            switch ($country) {
+                case 'in':
+                    return view('product.domus.conventional', compact('product'));
+                    break;
+            }
+        }
+        if ($slug == 'emergency-lighting') {
+
+            switch ($country) {
+                case 'in':
+                    return view('product.domus.emergency', compact('product'));
                     break;
             }
         }
 
-    if ( $slug == 'liber-v' ){
 
-            switch ( $country ) {
+        if ($slug == 'essential') {
+
+            switch ($country) {
                 case 'in':
-                    return view('product.liber-v.feature_hk_en', compact( 'product'));
+                    return view('product.essential.feature_hk_en', compact('product'));
                     break;
-
             }
         }
-  
-        if ( $slug == 'liber-v-gold' ){
 
-            switch ( $country ) {
+
+        if ($slug == 'magus-lite') {
+
+            switch ($country) {
                 case 'in':
-                    return view('product.liber-v-gold.feature_hk_en_demo', compact( 'product'));
+                    return view('product.magus-lite', compact('product'));
                     break;
-
             }
         }
-        if ( $slug == 'liber-v-gold-black' ){
 
-            switch ( $country ) {
+        if ($slug == 'liber-v') {
+
+            switch ($country) {
                 case 'in':
-                    return view('product.liber-v-gold.feature_hk_black_en', compact( 'product'));
+                    return view('product.liber-v.feature_hk_en', compact('product'));
                     break;
-
             }
         }
-        if ( $slug == 'liber-v-gold-blue' ){
 
-            switch ( $country ) {
+        if ($slug == 'liber-v-gold') {
+
+            switch ($country) {
                 case 'in':
-                    return view('product.liber-v-gold.feature_hk_blue_en', compact( 'product'));
+                    return view('product.liber-v-gold.feature_hk_en_demo', compact('product'));
                     break;
-
             }
         }
-      /*  if ( $slug == 'cosmos' ){
+        if ($slug == 'liber-v-gold-black') {
+
+            switch ($country) {
+                case 'in':
+                    return view('product.liber-v-gold.feature_hk_black_en', compact('product'));
+                    break;
+            }
+        }
+        if ($slug == 'liber-v-gold-blue') {
+
+            switch ($country) {
+                case 'in':
+                    return view('product.liber-v-gold.feature_hk_blue_en', compact('product'));
+                    break;
+            }
+        }
+        /*  if ( $slug == 'cosmos' ){
 
             switch ( $country ) {
                 case 'in':
@@ -127,27 +188,25 @@ class ProductsController extends Controller
             }
         }
     */
-        if ( $slug == 'admiror' ){
+        if ($slug == 'admiror') {
 
-            switch ( $country ) {
+            switch ($country) {
                 case 'in':
-                    return view('product.admiror.feature_hk_en', compact( 'product'));
+                    return view('product.admiror.feature_hk_en', compact('product'));
                     break;
-
             }
         }
 
-        if ( $slug == 'pura' ){
+        if ($slug == 'pura') {
 
-            switch ( $country ) {
+            switch ($country) {
                 case 'in':
-                    return view('product.pura.feature_hk_en', compact( 'product'));
+                    return view('product.pura.feature_hk_en', compact('product'));
 
                     break;
-
             }
         }
-       /*
+        /*
         if ( $slug == 'pura-amd' ){
 
             switch ( $country ) {
@@ -159,68 +218,66 @@ class ProductsController extends Controller
             }
         }
         */
-        if ( $slug == 'liber-new-generation' ){
+        if ($slug == 'liber-new-generation') {
 
-            switch ( $country ) {
+            switch ($country) {
                 case 'in':
-                    return view('product.liber-new-generation.feature', compact( 'product'));
+                    return view('product.liber-new-generation.feature', compact('product'));
 
                     break;
-
             }
-            
         }
 
 
-        
-            if ( $slug == 'cosmos-2in1' ) {
-                return view('product.cosmos-2in1', compact( 'product'));
-            }
 
-            if ( $slug == 'cosmos-2in1-spec' ) {
-                return view('product.cosmos_2in1_spec', compact( 'product'));
-            } 
-
-
-        if ( $slug == 'magus-lite-2in1-laptop' ) {
-                return view('product.magus', compact( 'product'));
+        if ($slug == 'cosmos-2in1') {
+            return view('product.cosmos-2in1', compact('product'));
         }
-        if ( $slug == 'magus12-2in1-laptop-c' ) {
-            return view('product.magus_tc', compact( 'product'));
+
+        if ($slug == 'cosmos-2in1-spec') {
+            return view('product.cosmos_2in1_spec', compact('product'));
         }
-        if ( $slug == 'magus-spec' ) {
-            if ( $country == 'id' ) {
-                return view('product.magus_spec_id', compact( 'product'));
+
+
+        if ($slug == 'magus-lite-2in1-laptop') {
+            return view('product.magus', compact('product'));
+        }
+        if ($slug == 'magus12-2in1-laptop-c') {
+            return view('product.magus_tc', compact('product'));
+        }
+        if ($slug == 'magus-spec') {
+            if ($country == 'id') {
+                return view('product.magus_spec_id', compact('product'));
             } else {
-                return view('product.magus_spec_hk', compact( 'product'));
+                return view('product.magus_spec_hk', compact('product'));
             }
         }
-        if ( $slug == 'magus-lite-spec' ) {
-            return view('product.magus_lite_spec', compact( 'product'));
+        if ($slug == 'magus-lite-spec') {
+            return view('product.magus_lite_spec', compact('product'));
         }
 
-        if ( $slug == 'domus' ) {
-            return view('product.domus', compact( 'product'));
+        if ($slug == 'domus') {
+            return view('product.domus', compact('product'));
         }
 
-        if ( $slug == 'baton' ) {
-            return view('product.baton', compact( 'product'));
+        if ($slug == 'baton') {
+            return view('product.baton', compact('product'));
         }
 
-        if ( !$product ) {
+        if (!$product) {
             abort(404);
         }
 
-        $view = $product->getFeatureView( );
+        $view = $product->getFeatureView();
 
-        if (!$view){
+        if (!$view) {
             abort(404);
         }
 
         return view($view, compact('product'));
     }
 
-   /* public function showProductSpecNew( $slug) {
+    /* public function showProductSpecNew( $slug) {
         
         $country = 'in';
         $product = $this->productFromURL($country, $slug);
@@ -239,14 +296,15 @@ class ProductsController extends Controller
     }
     */
 
-    public function showAccessoriesSpec( $slug) {
+    public function showAccessoriesSpec($slug)
+    {
         $country = 'in';
         $accessories = $this->productFromURL($country, $slug);
 
-        if ( $slug == 'ubique' ){
-            switch ( $country ) {
+        if ($slug == 'ubique') {
+            switch ($country) {
                 case 'in':
-                    return view('accessories.mouse.spec_hk_en', compact( 'accessories'));
+                    return view('accessories.mouse.spec_hk_en', compact('accessories'));
 
                     break;
             }
@@ -254,64 +312,64 @@ class ProductsController extends Controller
     }
 
 
-    public function showProductSpec( $slug) {
+    public function showProductSpec($slug)
+    {
         $country = 'in';
         $product = $this->productFromURL($country, $slug);
 
-        if ( $slug == 'essential' ){  
-			
-			switch ( $country ) {
-				case 'in': 
-                        return view('product.essential.spec_hk_en', compact( 'product')); 
-                        break;
-					}
-                } 
-         
-        if ( $slug == 'liber-v' ){
-            switch ( $country ) {
+        if ($slug == 'essential') {
+
+            switch ($country) {
                 case 'in':
-                    return view('product.liber-v.spec_hk_en', compact( 'product'));
+                    return view('product.essential.spec_hk_en', compact('product'));
                     break;
             }
         }
 
-        if ( $slug == 'liber-v-gold' ){
-            switch ( $country ) {
+        if ($slug == 'liber-v') {
+            switch ($country) {
                 case 'in':
-                    return view('product.liber-v-gold.spec_hk_en', compact( 'product'));
-
+                    return view('product.liber-v.spec_hk_en', compact('product'));
                     break;
             }
         }
-       
-   
-        if ( $slug == 'cosmos' ){
-            switch ( $country ) {
+
+        if ($slug == 'liber-v-gold') {
+            switch ($country) {
                 case 'in':
-                    return view('product.cosmos.spec_hk_en', compact( 'product'));
+                    return view('product.liber-v-gold.spec_hk_en', compact('product'));
 
                     break;
             }
         }
 
-        if ( $slug == 'admiror' ){
-            switch ( $country ) {
+
+        if ($slug == 'cosmos') {
+            switch ($country) {
                 case 'in':
-                    return view('product.admiror.spec_hk_en', compact( 'product'));
+                    return view('product.cosmos.spec_hk_en', compact('product'));
 
                     break;
             }
         }
 
-        if ( $slug == 'pura' ){
-            switch ( $country ) {
+        if ($slug == 'admiror') {
+            switch ($country) {
                 case 'in':
-                    return view('product.pura.spec_hk_en', compact( 'product'));
+                    return view('product.admiror.spec_hk_en', compact('product'));
 
+                    break;
             }
         }
 
-       /* if ( $slug == 'pura-amd' ){
+        if ($slug == 'pura') {
+            switch ($country) {
+                case 'in':
+                    return view('product.pura.spec_hk_en', compact('product'));
+            }
+        }
+
+        /* if ( $slug == 'pura-amd' ){
             switch ( $country ) {
                 case 'in':
                     return view('product.pura.amd_spec_hk_en', compact( 'product'));
@@ -320,42 +378,42 @@ class ProductsController extends Controller
         }
         */
 
-        if ( $slug == 'liber-new-generation' ){
-            switch ( $country ) {
+        if ($slug == 'liber-new-generation') {
+            switch ($country) {
                 case 'in':
-                    return view('product.liber-new-generation.spec', compact( 'product'));
+                    return view('product.liber-new-generation.spec', compact('product'));
 
                     break;
             }
-            
         }
 
 
-        if ( !$product ) {
+        if (!$product) {
             abort(404);
         }
 
-        $view = $product->getSpecView( );
+        $view = $product->getSpecView();
 
-        if (!$view){
+        if (!$view) {
             abort(404);
         }
 
 
         return view($view, compact('product'));
     }
-    public function showProductSupport(Request $request, $slug) {
+    public function showProductSupport(Request $request, $slug)
+    {
         $country = 'in';
         $product = $this->productFromURL($country, $slug);
 
-        if ( !$product ) {
+        if (!$product) {
             abort(404);
         }
 
-//        $product_model = $request->get('model');
-//        $product_number =
-//        $product_type = $request->get('type');
-//        $product_series = $request->get('series');
+        //        $product_model = $request->get('model');
+        //        $product_number =
+        //        $product_type = $request->get('type');
+        //        $product_series = $request->get('series');
 
         $json_data = [
             'product_model' =>  $request->get('model'),
@@ -368,37 +426,35 @@ class ProductsController extends Controller
         return view('product.support', compact('product', 'slug', 'json_data'));
     }
 
-    public function whereToBuy(){
+    public function whereToBuy()
+    {
 
         $rshops = NewWhereToBuy::all();
         $rshops = NewWhereToBuy::paginate(10);
         $country = 'in';
 
-        if ( \App::isLocale('en') ) {
+        if (\App::isLocale('en')) {
             $equery = Shop::select('shops.*')->leftJoin('shop_translations', function ($join) {
                 $join->on('shops.id', '=', 'shop_translations.shop_id');
-                $join->on('shop_translations.locale', '=', \DB::raw('"en"') );
+                $join->on('shop_translations.locale', '=', \DB::raw('"en"'));
             });
             $rquery = Shop::select('shops.*')->leftJoin('shop_translations', function ($join) {
                 $join->on('shops.id', '=', 'shop_translations.shop_id');
-                $join->on('shop_translations.locale', '=', \DB::raw('"en"') );
+                $join->on('shop_translations.locale', '=', \DB::raw('"en"'));
             });
-               
-            } else {
+        } else {
             $equery = Shop::select();
             $rquery = Shop::select();
-
         }
 
         $equery->where('country', $country);
         $equery->where('enabled', true);
         $equery->where('priority', 1);
         $eshops = $equery->get();
-    //    $rquery->orwhere('priority', 0);
-    //    $rshops = $rquery->get();
+        //    $rquery->orwhere('priority', 0);
+        //    $rshops = $rquery->get();
 
-        return view('product.map', compact('eshops','rshops'));
-
+        return view('product.map', compact('eshops', 'rshops'));
     }
 
     /*public function whereToBuy(){
@@ -428,56 +484,58 @@ class ProductsController extends Controller
     }
 
     */
-    
 
-    public function showDriverComponent(Request $request) {
+
+    public function showDriverComponent(Request $request)
+    {
 
         $product_number = $request->get('product_number');
 
         // Get drivers list from asp server.
         $all_drivers = ASPAPIService::getDriversForModelNumber($product_number);
 
-        $total = $all_drivers->reduce(function ( $carry, $item ) {
-            return $carry + count( $item );
+        $total = $all_drivers->reduce(function ($carry, $item) {
+            return $carry + count($item);
         });
 
-        if ( !$total ) {
+        if (!$total) {
             $total = 0;
         }
 
         return view('product.drivers', compact('all_drivers', 'total'));
     }
 
-    public function showProductTypes(Request $request) {
-        return ASPAPIService::getProductTypes( );
+    public function showProductTypes(Request $request)
+    {
+        return ASPAPIService::getProductTypes();
     }
 
-    public function showProductSeries(Request $request) {
+    public function showProductSeries(Request $request)
+    {
 
         $type = $request->get('type');
         return ASPAPIService::getProductSeries($type);
-
     }
 
-    public function showProductMarketingNumbers(Request $request) {
+    public function showProductMarketingNumbers(Request $request)
+    {
         $series = $request->get('series');
         return ASPAPIService::getProductMarketingNumbersBySeries($series);
     }
 
-    public function showProductNumbers(Request $request) {
+    public function showProductNumbers(Request $request)
+    {
 
-        if ( $request->has('marketing_number' ) ) {
-            return ASPAPIService::getProductNumbersByMarketingNumber( $request->get('marketing_number') );
+        if ($request->has('marketing_number')) {
+            return ASPAPIService::getProductNumbersByMarketingNumber($request->get('marketing_number'));
         } else {
-            return ASPAPIService::getProductNumbersByProductSeries( $request->get('series') );
+            return ASPAPIService::getProductNumbersByProductSeries($request->get('series'));
         }
-      
     }
 
-    public static function showProductModels(Request $request) {
+    public static function showProductModels(Request $request)
+    {
 
-        return ASPAPIService::getProductModels( $request->get('product_number'), $request->get('marketing_number'));
-
+        return ASPAPIService::getProductModels($request->get('product_number'), $request->get('marketing_number'));
     }
-
 }

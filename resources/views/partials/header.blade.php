@@ -107,6 +107,29 @@
                                     </ul>
                                 </div>
                             </li>
+
+                            <li class="nav-item has-dropdown">
+                                <input id="header_product_domus" type="checkbox" hidden="">
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['domus']) }}"><label for="header_product_domus" class="d-block mb-0">@lang('site.domus')</label></a>
+                                <div class="dropdown">
+                                    <ul class="list-unstyled">
+
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['smart-lighting']) }}">@lang('site.smart_lighting')</a>
+                                        </li> 
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['conventional-lighting']) }}">@lang('site.conventional_lighting')</a>
+                                        </li>
+                                        <li class="nav-item">
+
+                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['emergency-lighting']) }}" >@lang('site.emergency_lighting')</a>
+                                        </li> 
+
+                                    </ul>
+                                     
+                                </div>
+                            </li>
+
                         </ul>
                     </div>
                 </li>
