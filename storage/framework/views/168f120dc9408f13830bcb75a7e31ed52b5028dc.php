@@ -81,21 +81,23 @@
 
                             <li class="nav-item has-dropdown">
                                 <input id="header_product_domus" type="checkbox" hidden="">
-                                <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['domus'])); ?>"><label for="header_product_domus" class="d-block mb-0"><?php echo app('translator')->getFromJson('site.domus'); ?></label></a>
+                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2" href="/domus">DOMUS (Launching Soon) </a></label>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
 
                                         <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['smart-lighting'])); ?>"><?php echo app('translator')->getFromJson('site.smart_lighting'); ?></a>
+
+                                            <a class="nav-link px-md-4 py-2" href="/domus/smart">Smart lighting (coming soon)</a>
                                         </li> 
                                         <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['conventional-lighting'])); ?>"><?php echo app('translator')->getFromJson('site.conventional_lighting'); ?></a>
+
+                                            <a class="nav-link px-md-4 py-2" href="/domus/conventional">Conventional lighting (coming soon)</a>
                                         </li>
                                         <li class="nav-item">
 
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['emergency-lighting'])); ?>" ><?php echo app('translator')->getFromJson('site.emergency_lighting'); ?></a>
-                                        </li> 
-
+                                            <a class="nav-link px-md-4 py-2" href="/domus/emergency">Emergency lighting (coming soon)</a>
+                                        </li>
+                   
                                     </ul>
                                      
                                 </div>

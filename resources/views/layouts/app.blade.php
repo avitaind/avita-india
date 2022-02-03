@@ -62,9 +62,9 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
 
 
-    <script async src="//use.typekit.net/wpk4iql.js"></script>
-   <script async>try{Typekit.load();}catch(e){}</script>
-    <script async type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
+    <script  src="//use.typekit.net/wpk4iql.js"></script>
+   <script >try{Typekit.load();}catch(e){}</script>
+    <script  type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -74,11 +74,11 @@
 
     @if( $ga_code )
 
-     <script async type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
+     <script  type="text/javascript" src="{{ asset('js/ga.js') }}"></script>
 
 
 
-     <script async type="application/ld+json">
+     <script  type="application/ld+json">
         {
             "@context": "https://schema.org/",
             "@type": "WebSite",
@@ -92,7 +92,7 @@
     }
 </script>
 
- <script async type="text/javascript">
+ <script  type="text/javascript">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -133,7 +133,7 @@
     </script>
   --->
   <!-- Facebook Pixel Code -->
-        <script async>
+        <script >
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -157,15 +157,15 @@
     @stack('css')
     @yield('css')
   
- <script async type="text/javascript">
+ <script  type="text/javascript">
     window.addEventListener('load', 
      function() { 
           $('.preloader').fadeOut('slow');
   },false);
 
 </script>
- <script async>var chatbot_id=9428;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();</script>
- <script async src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script> 
+ <script >var chatbot_id=9428;!function(){var t,e,a=document,s="smatbot-chatbot";a.getElementById(s)||(t=a.createElement("script"),t.id=s,t.type="text/javascript",t.src="https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz",e=a.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e))}();</script>
+ <script  src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script> 
 
 </head>
 
@@ -215,17 +215,17 @@
 
 <!-- Google Code for Remarketing Tag -->
 
-     <script async type="text/javascript">
+     <script  type="text/javascript">
     /* <![CDATA[ */
     var google_conversion_id = 830592061;
     var google_custom_params = window.google_tag_params;
     var google_remarketing_only = true;
     /* ]]> */
 </script>
- <script async type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+ <script  type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
 
- <script async type="text/javascript" defer src="{{ asset('js/vendor.js') }}"></script>
- <script async type="text/javascript"defer src="{{ asset('js/demo.js') }}"></script>
+ <script  type="text/javascript" defer src="{{ asset('js/vendor.js') }}"></script>
+ <script  type="text/javascript"defer src="{{ asset('js/demo.js') }}"></script>
 
 
     <noscript>

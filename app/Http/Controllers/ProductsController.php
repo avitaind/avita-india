@@ -86,6 +86,21 @@ class ProductsController extends Controller
         }
     }
 
+    public function showDomus() {
+        return view('product.domus.index');
+     }
+
+    public function showSmart() {
+        return view('product.domus.smart'); 
+    }
+
+    public function showConventional() {
+        return view('product.domus.conventional'); 
+    }
+
+    public function showEmergency() {
+        return view('product.domus.emergency'); 
+    }
 
     public function showProductFeatures($slug)
     {
