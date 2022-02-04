@@ -40,30 +40,30 @@ class ProductsController extends Controller
         return view('product.sleeve');
     }
 
-    public function domus()
-    {
+    // public function domus()
+    // {
 
-        return view('product.domus.index');
-    }
+    //     return view('product.domus.index');
+    // }
 
-    public function smart()
-    {
+    // public function smart()
+    // {
 
-        return view('product.domus.smart');
-    }
+    //     return view('product.domus.smart');
+    // }
 
-    public function conventional()
-    {
+    // public function conventional()
+    // {
 
-        return view('product.domus.conventional');
-    }
+    //     return view('product.domus.conventional');
+    // }
 
 
-    public function emergency()
-    {
+    // public function emergency()
+    // {
 
-        return view('product.domus.emergency');
-    }
+    //     return view('product.domus.emergency');
+    // }
 
     public function getproducts()
     {

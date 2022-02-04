@@ -199,10 +199,10 @@ if ( Request::segment(1) != 'admin') {
 //    Route::get('/accessories/{slug}', 'ProductsController@showAccessoriesFeatures')->name('accessories.overview');
   //  Route::get('/accessories/{slug}/spec', 'ProductsController@showAccessoriesSpec')->name('accessories.spec');
     
-    Route::get('/domus', 'ProductsController@showDomus');
-    Route::get('/domus/smart', 'ProductsController@showSmart');
-    Route::get('/domus/conventional', 'ProductsController@showConventional');
-    Route::get('/domus/emergency', 'ProductsController@showEmergency');
+    // Route::get('/domus', 'ProductsController@showDomus');
+    // Route::get('/domus/smart', 'ProductsController@showSmart');
+    // Route::get('/domus/conventional', 'ProductsController@showConventional');
+    // Route::get('/domus/emergency', 'ProductsController@showEmergency');
     
     
 

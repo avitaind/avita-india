@@ -81,21 +81,21 @@
 
                             <li class="nav-item has-dropdown">
                                 <input id="header_product_domus" type="checkbox" hidden="">
-                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2" href="/domus">DOMUS (Launching Soon) </a></label>
+                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['domus'])); ?>">DOMUS (Launching Soon) </a></label>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
 
                                         <li class="nav-item">
 
-                                            <a class="nav-link px-md-4 py-2" href="/domus/smart">Smart lighting (coming soon)</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['smart-lighting'])); ?>">Smart lighting (coming soon)</a>
                                         </li> 
                                         <li class="nav-item">
 
-                                            <a class="nav-link px-md-4 py-2" href="/domus/conventional">Conventional lighting (coming soon)</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['conventional-lighting'])); ?>">Conventional lighting (coming soon)</a>
                                         </li>
                                         <li class="nav-item">
 
-                                            <a class="nav-link px-md-4 py-2" href="/domus/emergency">Emergency lighting (coming soon)</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['emergency-lighting'])); ?>">Emergency lighting (coming soon)</a>
                                         </li>
                    
                                     </ul>
