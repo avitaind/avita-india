@@ -78,30 +78,36 @@
                                     </ul>
                                 </div>
                             </li>
-
-                            <li class="nav-item has-dropdown">
+                               <li class="nav-item has-dropdown">
                                 <input id="header_product_domus" type="checkbox" hidden="">
-                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['domus'])); ?>">DOMUS (Launching Soon) </a></label>
+                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2" href="/">DOMUS (Launching Soon) </a></label>
+                        
+                            </li>
+
+
+                             <li class="nav-item has-dropdown">
+                                <input id="header_product_domus" type="checkbox" hidden="">
+                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['domus'])); ?>"><?php echo e(__('site.domus')); ?></a></label>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
 
                                         <li class="nav-item">
 
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['smart-lighting'])); ?>">Smart lighting (coming soon)</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['smart-lighting'])); ?>"><?php echo e(__('site.smart_lighting')); ?></a>
                                         </li> 
                                         <li class="nav-item">
 
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['conventional-lighting'])); ?>">Conventional lighting (coming soon)</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['conventional-lighting'])); ?>"><?php echo e(__('site.conventional_lighting')); ?></a>
                                         </li>
                                         <li class="nav-item">
 
-                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['emergency-lighting'])); ?>">Emergency lighting (coming soon)</a>
+                                            <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['emergency-lighting'])); ?>"><?php echo e(__('site.emergency_lighting')); ?></a>
                                         </li>
                    
                                     </ul>
                                      
                                 </div>
-                            </li>
+                            </li> 
 
                         </ul>
                     </div>
