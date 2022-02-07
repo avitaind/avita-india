@@ -199,10 +199,10 @@ if ( Request::segment(1) != 'admin') {
 //    Route::get('/accessories/{slug}', 'ProductsController@showAccessoriesFeatures')->name('accessories.overview');
   //  Route::get('/accessories/{slug}/spec', 'ProductsController@showAccessoriesSpec')->name('accessories.spec');
     
-    Route::get('/domus', 'ProductsController@showDomus');
-    Route::get('/domus/smart', 'ProductsController@showSmart');
-    Route::get('/domus/conventional', 'ProductsController@showConventional');
-    Route::get('/domus/emergency', 'ProductsController@showEmergency');
+    // Route::get('/domus', 'ProductsController@showDomus');
+    // Route::get('/domus/smart', 'ProductsController@showSmart');
+    // Route::get('/domus/conventional', 'ProductsController@showConventional');
+    // Route::get('/domus/emergency', 'ProductsController@showEmergency');
     
     
 
@@ -311,3 +311,11 @@ Route::get('locale/{locale}','HomeController@local');
 Route::get('april-fools', 'HomeController@fools');
 
 Route::get('windows-11', 'HomeController@Windows')->name('windows-11');
+
+
+
+// Route::get('/product/domus', 'DomusController@index')->name('domus');
+// Route::get('/product/smart-lighting', 'DomusController@smart')->name('product.smart-lighting');
+// Route::get('/product/conventional-lighting', 'DomusController@conventional')->name('conventional-lighting');
+// Route::get('/product/emergency-lighting', 'DomusController@emergency')->name('emergency-lighting');
+

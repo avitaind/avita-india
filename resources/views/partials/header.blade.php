@@ -107,30 +107,36 @@
                                     </ul>
                                 </div>
                             </li>
-
-                            <li class="nav-item has-dropdown">
+                               <li class="nav-item has-dropdown">
                                 <input id="header_product_domus" type="checkbox" hidden="">
-                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2" >DOMUS (Launching Soon) </a></label>
+                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2">DOMUS (Launching Soon) </a></label>
+                        
+                            </li>
+
+
+                             {{-- <li class="nav-item has-dropdown">
+                                <input id="header_product_domus" type="checkbox" hidden="">
+                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['domus']) }}">{{ __('site.domus') }}</a></label>
                                 <div class="dropdown">
-                                    {{-- <ul class="list-unstyled">
+                                    <ul class="list-unstyled">
 
                                         <li class="nav-item">
 
-                                            <a class="nav-link px-md-4 py-2" href="/domus/smart">Smart lighting (coming soon)</a>
+                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['smart-lighting']) }}">{{ __('site.smart_lighting') }}</a>
                                         </li> 
                                         <li class="nav-item">
 
-                                            <a class="nav-link px-md-4 py-2" href="/domus/conventional">Conventional lighting (coming soon)</a>
+                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['conventional-lighting']) }}">{{ __('site.conventional_lighting') }}</a>
                                         </li>
                                         <li class="nav-item">
 
-                                            <a class="nav-link px-md-4 py-2" href="/domus/emergency">Emergency lighting (coming soon)</a>
+                                            <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['emergency-lighting']) }}">{{ __('site.emergency_lighting') }}</a>
                                         </li>
-
-                                    </ul> --}}
+                   
+                                    </ul>
                                      
                                 </div>
-                            </li>
+                            </li>  --}}
 
                         </ul>
                     </div>
