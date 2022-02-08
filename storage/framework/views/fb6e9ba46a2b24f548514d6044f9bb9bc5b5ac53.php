@@ -29,31 +29,6 @@
 </section>
 
 
-<section class="events-page">
-  
-  <div class="event event1">
-    <div class="pinWrapper">
-      <div class="image"></div>
-    </div>
-  </div>
-  <div class="event event2">
-    <div class="pinWrapper">
-      <div class="image"></div>
-    </div>
-  </div>
-  <div class="event event3">
-    <div class="pinWrapper">
-      <div class="image"></div>
-    </div>
-  </div>
-  <div class="event event4">
-    <div class="pinWrapper">
-      <div class="image"></div>
-    </div>
-  </div>
-  
-</section>
-
 
 <section class="product-liber-wifi ls-0" style="min-height:50px; height:400px;">
     <div class="banner-block">
