@@ -4,13 +4,11 @@
         
         <div class="carousel-item active">
             <div class="responsive-block">
-            <a href="/product/pura">
           
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-domus"></div>                  
                         <div class="banner-bg hidden-md-up banner-mob-domus"></div>
                     </div>
-                  </a>
             </div>
           </div>
           
