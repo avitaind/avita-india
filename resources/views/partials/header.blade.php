@@ -109,7 +109,7 @@
                             </li>
                                <li class="nav-item has-dropdown">
                                 <input id="header_product_domus" type="checkbox" hidden="">
-                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2">DOMUS (Launching Soon) </a></label>
+                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2">Smart Lights (Launching Soon) </a></label>
                         
                             </li>
 
