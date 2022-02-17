@@ -49,7 +49,7 @@ return [
     'smart_device'                  => 'Smart Device',
     'imago_series'                  => 'IMAGO Series Smart Mirror',
     'modus_scale'                   => 'MODUS Smart Scale',
-    'domus'                        => 'DOMUS (Launching Soon)',
+    'domus'                        => 'Smart Lights (Launching Soon)',
     'smart_lighting'                => 'Smart Lighting',
     'conventional_lighting'       => 'Conventional Lighting',
     'emergency_lighting'             => 'Emergency Lighting',
