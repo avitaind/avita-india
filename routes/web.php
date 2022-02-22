@@ -110,7 +110,7 @@ Route::get('/chill-in-style', 'HomeController@chill_in_style');
 
 Route::get('/Privacy-Policy-for-Alexa-Skill', 'HomeController@PrivacyPolicyforAlexaSkill');
 Route::get('/Privacy-Policy-for-Google-Assistant-Action', 'HomeController@PrivacyPolicyforGoogleAssistantAction');
-Route::get('/Service-Policy-for-Google-Assistant-Action', 'HomeController@PrivacyPolicyforGoogleAssistantAction');
+Route::get('/Service-Policy-for-Google-Assistant-Action', 'HomeController@ServicePolicyforGoogleAssistantAction');
 
 
 
