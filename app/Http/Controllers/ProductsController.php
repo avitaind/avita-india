@@ -107,6 +107,15 @@ class ProductsController extends Controller
         $country = 'in';
         $product = $this->productFromURL($country, $slug);
 
+        if ($slug == 'ultimus') {
+
+            switch ($country) {
+                case 'in':
+                    return view('product.ultimus.feature_hk_en', compact('product'));
+                    break;
+            }
+        }
+
         if ($slug == 'domus') {
 
             switch ($country) {
@@ -332,6 +341,15 @@ class ProductsController extends Controller
         $country = 'in';
         $product = $this->productFromURL($country, $slug);
 
+        if ($slug == 'ultimus') {
+
+            switch ($country) {
+                case 'in':
+                    return view('product.ultimus.spec_hk_en', compact('product'));
+                    break;
+            }
+        }
+
         if ($slug == 'essential') {
 
             switch ($country) {
@@ -340,6 +358,8 @@ class ProductsController extends Controller
                     break;
             }
         }
+
+        
 
         if ($slug == 'liber-v') {
             switch ($country) {

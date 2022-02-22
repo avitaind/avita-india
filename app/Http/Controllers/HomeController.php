@@ -78,6 +78,14 @@ class HomeController extends Controller
         return view('pages.about_us');
     }
 
+    public function PrivacyPolicyforAlexaSkill( ) {
+        return view('pages.Privacy-Policy-for-Alexa-Skill');
+    }
+
+    public function PrivacyPolicyforGoogleAssistantAction( ) {
+        return view('pages.Privacy-Policy-for-Google-Assistant-Action');
+    }
+
     public function chill_in_style( ) 
     {
         return view('pages.chill_in_style');

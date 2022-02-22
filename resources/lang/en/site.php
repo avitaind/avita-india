@@ -291,6 +291,9 @@ return [
     'blog_title'=>'Blogs',
     'blog_published' => 'Published',
     'publish_title'=>'News',
+    'ultimus' => 'Overview Ultimus',
+    'ultimus_spec' => 'Tech Spec',
+
 
       
     
