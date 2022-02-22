@@ -85,7 +85,11 @@ class HomeController extends Controller
     public function PrivacyPolicyforGoogleAssistantAction( ) {
         return view('pages.Privacy-Policy-for-Google-Assistant-Action');
     }
-
+	
+  public function ServicePolicyforGoogleAssistantAction( ) {
+        return view('pages.Service-Policy-for-Google-Assistant-Action');
+    }
+	
     public function chill_in_style( ) 
     {
         return view('pages.chill_in_style');
