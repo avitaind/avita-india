@@ -18,7 +18,6 @@
 
 <body>
     <div class="container">
-        <!-- Content here -->
         <h1 class="p-4">AVITA Smart device Privacy Policy</h1>
         <p>Welcome aboard!</p>
         <p>So you have purchased our AVITA Smart device hardware and are starting to use the AVITA Smart device software
@@ -243,7 +242,6 @@
             as acceptance of the updated Privacy Policy. We will seek your fresh consent before we collect more personal
             data from you or when we wish to use or disclose your personal data for new purposes.</p>
     </div>
-
 
 
     <!-- Optional JavaScript; choose one of the two! -->
