@@ -1,43 +1,113 @@
 @extends('layouts.app')
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
 
 @section('title')
     @lang('title.DOMUS_home')
 @stop
 
-@section('content')
-
-    <section class="top-nav-padding homepage-banner">
-        <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <div class="responsive-block">
-                        <div class="banner-block responsive-item">
-                            <div class="banner-bg hidden-sm-down banner-web-domus"></div>
-                            <div class="banner-bg hidden-md-up banner-mob-domus"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section style="background-color:#000">
-        <div class="container" style="text-align:center;">
-            <div class="space60"></div>
-            <div class="banner-para">
-                <div align="center" class="col-lg-12">
-                    <span class="buy-now"><a href="https://in.nexstmall.com/">Buy Now</a></span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-@stop
+@section('css')
+    {{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> --}}
+    <link rel="stylesheet" href="{{ asset('css/conventional.css') }}" />
+@endsection
 @section('js')
-    <script type="text/js" href="{{ asset('js/product-domus.js') }}"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.min.js"></script>
+    <script src="{{ asset('js/conventional.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
 
 @endsection
-@section('css')
-    {{-- <link type="text/css" rel="stylesheet" href="{{ asset('css/product-domus.css') }}" /> --}}
+@section('content')
+
+    <div class="space">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/domus/img/conventional_banner_1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/domus/img/conventional_banner_2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/domus/img/conventional_banner_3.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="section section-1 row">
+
+        <div class="box box-1 col-md-6">
+
+            
+        </div>
+        <div class="box box-11 col-md-6">
+                <span>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rem eum impedit magni, aperiam, eaque voluptate at aut tempore labore, laborum adipisci ea consequatur illo voluptates nulla veniam repellendus provident?</h3>
+                </span>
+        </div>
+    </div>
+    <div class="section section-1">
+
+    <span>
+        <h1>What is Lorem ipsum</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rem eum impedit magni, aperiam, eaque voluptate at aut tempore labore, laborum adipisci ea consequatur illo voluptates nulla veniam repellendus provident?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rem eum impedit magni, aperiam, eaque voluptate at aut tempore labore, laborum adipisci ea consequatur illo voluptates nulla veniam repellendus provident?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rem eum impedit magni, aperiam, eaque voluptate at aut tempore labore, laborum adipisci ea consequatur illo voluptates nulla veniam repellendus provident?
+        </p>
+    
+    </span>
+
+    </div>
+
+    <div class="section section-2 row">
+        <div class="box box-22 col-md-6">
+            <span>
+                
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rem eum impedit magni, aperiam, eaque voluptate at aut tempore labore, laborum adipisci ea consequatur illo voluptates nulla veniam repellendus provident?</h3>
+            </span>
+       </div>
+        <div class="box box-2">
+
+        </div>
+    </div>
+
+    <div class="section section-2">
+
+        <span>
+            <h1>What is Lorem ipsum</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rem eum impedit magni, aperiam, eaque voluptate at aut tempore labore, laborum adipisci ea consequatur illo voluptates nulla veniam repellendus provident?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rem eum impedit magni, aperiam, eaque voluptate at aut tempore labore, laborum adipisci ea consequatur illo voluptates nulla veniam repellendus provident?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rem eum impedit magni, aperiam, eaque voluptate at aut tempore labore, laborum adipisci ea consequatur illo voluptates nulla veniam repellendus provident?
+            </p>
+         </span>
+    
+    </div>
+
+
+    <div class="section section-3 row">
+
+        <div class="box box-3 col-md-6">
+
+            
+        </div>
+        <div class="box box-33 col-md-6">
+                <span>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel rem eum impedit magni, aperiam, eaque voluptate at aut tempore labore, laborum adipisci ea consequatur illo voluptates nulla veniam repellendus provident?</h3>
+                </span>
+        </div>
+    </div>
+
 @endsection
