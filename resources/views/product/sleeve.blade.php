@@ -81,8 +81,8 @@
                         <span class="d-lg-block">with optimum space to fill in your daily work needs, as well as,</span>
                         <span class="d-lg-block"> keeping the device intact. AVITA Ubique 3-in-1 sleeve offers 4</span>
                         <span class="d-lg-block">colours that blend well with most outfits while making you look up to the mark.</span> --}}
-                        <span class="d-lg-block">An ideal laptop bag is the perfect amalgamation of fashion and utility. AVITA Ubique 3-in-1 sleeve is a versatile and timeless accessory that's an ideal plus one to your overall personality. What sets this bag apart from ordinary laptop bags is that it comes in an assortment of as it can be carried in multiple ways. Sling it, sleeve it, sway it, the choice is yours! This casual-yet-chic bag is designed with optimum space to fill in your daily work needs, as well as, keeping the device intact. AVITA Ubique 3-in-1 sleeve offers 4 colours that blend well </span>
-                        <span>with most outfits while making you look up to the mark.</span>
+                        <span class="d-lg-block">An ideal laptop bag is the perfect amalgamation of fashion and utility. AVITA Ubique 3-in-1 sleeve is a versatile and timeless accessory that's an ideal plus one to your overall personality. What sets this bag apart from ordinary laptop bags is that it comes in an assortment of as it can be carried in multiple ways. Sling it, sleeve it, sway it, the choice is yours! This casual-yet-chic bag is designed with optimum space to fill in your daily work needs, as well as, keeping the device intact. AVITA Ubique 3-in-1 sleeve offers 4 colours that blend well with most outfits while making you look up to the mark.</span>
+                        {{-- <span>look up to the mark.</span> --}}
                     </div>
                 </div>
             </div>
@@ -174,8 +174,8 @@
                             <span class="d-lg-block">enough to accommodate alaptop up to 14 inch</span>
                             <span class="d-lg-block">along with a charging cable and mouse. Its 3 extra</span>
                             <span class="d-lg-block">pockets give you easy access to take out itsy-bitsy items.</span> --}}
-                            <span class="d-lg-block" style="    width: 101%;">What's even a bag that cannot hold all your essentials? AVITA Ubique 3-in-1 sleeve comes with capacious pockets to keep your belongings like charger, hard disks, notepad, pen, etc. when on the move. The main section of the bag is large enough to accommodate a laptop up to 14 inch along with a charging cable and mouse. Its 3 extra pockets give</span>
-                            <span>you easy access to take out itsy-bitsy items.</span>
+                            <span class="d-lg-block" style="width: 101%;">What's even a bag that cannot hold all your essentials? AVITA Ubique 3-in-1 sleeve comes with capacious pockets to keep your belongings like charger, hard disks, notepad, pen, etc. when on the move. The main section of the bag is large enough to accommodate a laptop up to 14 inch along with a charging cable and mouse. Its 3 extra pockets give you easy access to take out itsy-bitsy items.</span>
+                            {{-- <span>you easy access to take out itsy-bitsy items.</span> --}}
                         </div>
                     </div>
                 </div>
@@ -196,9 +196,9 @@
                         <div class="h2 banner-header mb-4 mb-sm-5">Lightweight and cartable</div>
 
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block" style="width: 102%;">This lightweight build bag is easy to carry around. It also has cushioned laptop support to provide optimal comfort and safety for everyday use. The</span>
+                            <span class="d-lg-block" style="width: 102%;">This lightweight build bag is easy to carry around. It also has cushioned laptop support to provide optimal comfort and safety for everyday use. The soft strap reduces stress on your shoulder, maintaining the comfort level.</span>
 
-                            <span>soft strap reduces stress on your shoulder, maintaining the comfort level.</span>
+                            {{-- <span>soft strap reduces stress on your shoulder, maintaining the comfort level.</span> --}}
 
                         </div>
 
@@ -223,8 +223,8 @@
                             {{-- <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve protects your belongings from</span>
                             <span class="d-lg-block">a light splash, light rain, or a beverage spillage. The</span>
                             <span class="d-lg-block">durable PU-coated material makes the bag splash-proof.</span> --}}
-                            <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve protects your belongings from a light splash, light rain, or a beverage spillage. The durable</span>
-                            <span>PU-coated material makes the bag splash-proof.</span>
+                            <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve protects your belongings from a light splash, light rain, or a beverage spillage. The durable PU-coated material makes the bag splash-proof.</span>
+                            {{-- <span>PU-coated material makes the bag splash-proof.</span> --}}
                         </div>
                     </div>
                 </div>
@@ -250,8 +250,8 @@
                             <span class="d-lg-block">design matches your everyday vibe, hence making it an</span>
                             <span class="d-lg-block">ensuring all-day protection for the laptop. A bespoke</span>
                             <span class="d-lg-block">edgy mix of functionality and chic.</span> --}}
-                            <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve oozes out style and comfort. It is apt for travel and outdoor activities while ensuring all-day protection for the laptop. A bespoke example of elegance and utility, the bag’s minimalistic design matches your everyday vibe</span>
-                            <span>hence making it an edgy mix of functionality and chic.</span>
+                            <span class="d-lg-block">AVITA Ubique 3-in-1 sleeve oozes out style and comfort. It is apt for travel and outdoor activities while ensuring all-day protection for the laptop. A bespoke example of elegance and utility, the bag’s minimalistic design matches your everyday vibe hence making it an edgy mix of functionality and chic.</span>
+                            {{-- <span>hence making it an edgy mix of functionality and chic.</span> --}}
                         </div>
                     </div>
 
@@ -284,6 +284,12 @@
 @section('css')
     <link type="text/css" rel="stylesheet" href="{{ asset('css/sleeve.css') }}"/>
     {{-- <link type="text/css" rel="stylesheet" href="{{ asset('css/liber-v-gold.css') }}"/> --}}
+    <style>
+        span{
+            text-align: justify;
+    text-align-last: center;
+        }
+    </style>
 
 @endsection
 
