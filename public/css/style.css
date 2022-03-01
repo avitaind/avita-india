@@ -587,6 +587,13 @@ section.color-choice .container{
 
 @media only screen and (min-width : 1600px) {
     
+    .banner-web-jasmy{
+        background: url('/images/banner/web_jasmy.jpg');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
       
         
     .banner-web-domus{
@@ -668,7 +675,13 @@ section.color-choice .container{
 /*Laptop Size */
 @media only screen and (min-width : 1200px) {
     
-      
+    .banner-web-jasmy{
+        background: url('/images/banner/web_jasmy.jpg');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
         
     .banner-web-domus{
         background: url('/images/banner/avita_domus_web.jpg');
@@ -747,6 +760,13 @@ section.color-choice .container{
 /*Tab Size*/
 @media only screen and (min-width : 768px){
     
+    .banner-web-jasmy{
+        background: url('/images/banner/web_jasmy.jpg');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
         
     .banner-web-domus{
         background: url('/images/banner/avita_domus_web.jpg');
@@ -824,6 +844,13 @@ section.color-choice .container{
 /*Mob Banners*/
 @media only screen and (min-width : 320px)  {
 
+    .banner-mob-jasmy{
+        background: url('/images/banner/mob_banner_jasmy.png');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
         
     .banner-mob-domus{
         background: url('/images/banner/avita_domus_mob.jpg');
@@ -901,6 +928,14 @@ section.color-choice .container{
 /*Mob Banners*/
 @media only screen and (min-width : 200px)  {
     
+    .banner-mob-jasmy{
+        background: url('/images/banner/mob_banner_jasmy.png');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
+
     .banner-mob-domus{
         background: url('/images/banner/avita_domus_mob.jpg');
         -webkit-background-size: 100% 100%;
