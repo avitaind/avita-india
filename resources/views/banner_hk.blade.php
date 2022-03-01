@@ -4,7 +4,7 @@
         
           <div class="carousel-item active">
             <div class="responsive-block">
-            <a href="">
+            <a href="news/detail/17">
           
                     <div class="banner-block responsive-item">
                         <div class="banner-bg hidden-sm-down banner-web-jasmy"></div>                  
