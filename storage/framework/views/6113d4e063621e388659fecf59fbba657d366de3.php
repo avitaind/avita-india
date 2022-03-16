@@ -47,78 +47,78 @@
                         <ul class="list-unstyled spec-list">
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Operating System</div>
-                                
+                                <div>Windows 11 Home </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">CPU</div>
-                                
+                                <div>Intel® Celeron™ N4020 PROCESSOR</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Display</div>
-                                
+                                <div>16:9 Full HD (1920 x 1080) IPS Display</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Memory</div>
-                                
+                                <div>4GB LPDDR4</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Graphics</div>
-                                
+                                <div>Intel UHD Graphics</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Storage</div>
-                                
+                                <div>128GB SSD </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Integrated Camera</div>
-                                
+                                <div>2M</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Audio</div>
-                                
+                                <div>SPEAKER 8Ω/1W 83.3/66.5 x 57.6 x 6mm</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Keyboard</div>
-                                
+                                <div>Ergonomic keyboard</div>
                             </li>
                            <!-- <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Wireless</div>
                                 <div>IEEE 802.11 b/g/n/ac</div>
-                            </li> 
+                            </li> -->
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Bluetooth</div>
-                                <div>Bluetooth v4.1</div>
-                            </li>-->
+                                <div>Bluetooth v4.0</div>
+                            </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">I/O Ports</div>
-                                
+                                <div>1 x USB2.0, 1 x USB3.0, and 1 x mini HDMI C Type</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Dimension</div>
-                                
+                                <div>332.9(W) x 220.2(H) x 16.9(D) mm</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Weight</div>
-                                
+                                <div>Starting from 1.3kg</div>
                             </li>
                             
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery</div>
-                                
+                                <div>7.4V 5000mAH</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery Life</div>
-                                
+                                <div>Up to 6 hours*</div>
                             </li>
                             
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Colour</div>
-                                
+                                <div>Champagne Gold / Shamrock Green / Sugar Red / Matt Black / Cloud Silver / Space Grey</div>
                             </li>
                             
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Accessories</div>
-                                 
+                                 <div>User Guide, Manuals ,AC Adapter and Power cord</div>  
                             </li>
 
                         </ul>
