@@ -51,7 +51,7 @@
         <section>
             <div class="banner-block ls-0">
                 <div class="banner-bg hidden-sm-down"
-                    style="background:url(/images/ultimus/ultimus_bg1_en.jpg) top center no-repeat;"></div>
+                    style="background:url(/images/ultimus/ultimus_bg1_en.png) top center no-repeat;"></div>
                 <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
                 <div class="container">
                     <div class="space60 hidden-sm-down"></div>
@@ -88,9 +88,8 @@
         <div class="banner-block">
             <div class="banner-bg"></div>
             <div class="banner-image">
-                <img class="bc-computer-image bc-computer-1" src="/images/liber/liber_u_feature/sc3_fimg1.png"
-                    style="right: 932px;">
-                <img class="bc-computer-image bc-computer-2" src="/images/liber/liber_u_feature/sc3_fimg2.png">
+                <img class="bc-computer-image bc-computer-1" src="/images/ultimus/sc3_fimg1.png" style="right: 932px;">
+                <img class="bc-computer-image bc-computer-2" src="/images/ultimus/sc3_fimg2.png">
                 <img class="bc-computer-image bc-computer-3" src="/images/liber/liber_u_feature/sc3_fimg3.png">
                 <img class="bc-computer-image bc-computer-4" src="/images/liber/liber_u_feature/sc3_fimg4.png">
                 <img class="bc-computer-image bc-computer-5" src="/images/liber/liber_u_feature/sc3_fimg5.png">
@@ -103,8 +102,7 @@
 
                     <div class="h2 banner-header mb-4 mb-sm-5">Head-turning Colours</div>
                     <div class="ac-computer-wrap hidden-md-up">
-                        <img class="ac-computer-image ac-computer-1" style=""
-                            src="/images/liber/liber_u_feature/sc3_fimg2.png">
+                        <img class="ac-computer-image ac-computer-1" style="" src="/images/ultimus/sc3_fimg2.png">
                     </div>
                     <div class="banner-para ls-0">
                         <span class="d-lg-block">In a world of blues and greys, ooze out vibrancy! Make a statement each
@@ -154,14 +152,15 @@
         <section>
             <div class="banner-block ls-0">
                 <div class="banner-bg hidden-sm-down"
-                    style="background:url(/images/ultimus/ultimus_bg2_en.jpg) top center no-repeat;"></div>
+                    style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;"></div>
                 <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
                 <div class="container">
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
-                    <div class="row">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="row" style="margin-right: 82px;">
                         <div class="col-12 col-lg-6" align="left">
                             <div class="h2 banner-header mob-text-center">
                                 <div class="d-sm-inline" style="text-transform:uppercase;">Sound that needs to be heard
@@ -193,7 +192,7 @@
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-1" src="/images/liber/liber_u_feature/sc5_fimg1.jpg">
+                    <img class="bc-computer-image bc-computer-1" src="/images/ultimus/sc5_fimg1.png">
                 </div>
                 <div class="container">
                     <div class="row no-gutters">
