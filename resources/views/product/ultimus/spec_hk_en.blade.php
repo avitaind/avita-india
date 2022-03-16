@@ -83,7 +83,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Audio</div>
-                                <div>SPEAKER 8Ω/1W 83.3/66.5 x 57.6 x 6mm</div>
+                                <div>SPEAKER 8Ω/2W 83.3/66.5 x 57.6 x 6mm</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Keyboard</div>
