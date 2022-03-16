@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 */
 
 
-Route::group(['middleware' => 'auth.avita'], function() {
+Route::group(['middleware' => 'auth.avita'], function () {
     Route::get('/me', 'APIController@myProfile');
     Route::post('/me', 'APIController@updateProfile');
     Route::post('/refresh_token', 'APIController@refreshToken');
@@ -32,10 +32,10 @@ Route::group(['middleware' => 'api_service_provider'], function () {
 
 // Route::apiResource("post",APIServiceCenterController::class);
 
-Route::get('sc','APIServiceCenterController@index');
-Route::post('sc','APIServiceCenterController@store');
-Route::get('sc/{id}','APIServiceCenterController@show');
-Route::put('sc/{id}','APIServiceCenterController@update');
-Route::delete('sc/{id}','APIServiceCenterController@destroy');
+Route::get('sc', 'APIServiceCenterController@index');
+Route::post('sc', 'APIServiceCenterController@store');
+Route::get('sc/{id}', 'APIServiceCenterController@show');
+Route::put('sc/{id}', 'APIServiceCenterController@update');
+Route::delete('sc/{id}', 'APIServiceCenterController@destroy');
 
 // Route::get('s','APIServiceCenterController@getSearchResults');
