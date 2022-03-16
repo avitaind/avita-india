@@ -413,7 +413,6 @@
         </div>
 
     </main>
-
 @endsection
 
 @section('css')
