@@ -36,7 +36,7 @@
                         <span>SATUS ULTIMUS is the right balance of affordability and conventionality. The newly-launched
                             laptop is crafted with precision and is equipped with all the essentials you need in a digital
                             notebook. Create an engaging work and wondrous play experience with SATUS ULTIMUS that offers a
-                            14" FHD, anti-glare display to indulge in the best viewing experience.</span>
+                            14 FHD, anti-glare display to indulge in the best viewing experience.</span>
                     </div>
                     <div class="space60"></div>
 
@@ -126,7 +126,7 @@
                         </div>
                         <div class="data-card data-card-4 col-6 my-2 my-sm-4">
                             <div class="badge-caption">Starting from</div>
-                            <span class="badge-value">1.46</span>
+                            <span class="badge-value">1.3</span>
                             <span class="badge-caption">kg</span>
                             <div class="badge-caption pt-1">35.56 cm weight</div>
                         </div>
@@ -281,24 +281,24 @@
                             style="margin-top:30px;">
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Operating System</div>
-                                <div class="badge-value">Windows 10 in S Mode</div>
+                                <div class="badge-value">Windows 11 in S Mode</div>
                                 <div class="badge-caption"><a
                                         href="https://support.microsoft.com/en-hk/help/4020089/windows-10-in-s-mode-faq"
                                         style="color:#09F" target="_blank">Know more ></a></div>
                             </div>
                             <div class="data-card my-3 col-12 col-lg-6 text-left">
-                                <div class="badge-caption">Up to</div>
-                                <div class="badge-value">N4000</div>
+                                {{-- <div class="badge-caption">Up to</div> --}}
+                                <div class="badge-value">N4020</div>
                                 <div class="badge-caption">INTEL&reg; Celeron&trade; PROCESSOR</div>
                             </div>
                             <div class="data-card my-3 col-12 col-lg-6 text-left">
-                                <div class="badge-caption">Up to</div>
+                                {{-- <div class="badge-caption">Up to</div> --}}
                                 <div class="badge-value">128<span class="badge-caption pl-1">GB</span></div>
                                 <div class="badge-caption">SSD</div>
                             </div>
                             <div class="data-card my-3 col-12 col-lg-6 text-left">
-                                <div class="badge-caption">Up to</div>
-                                <div class="badge-value">8<span class="badge-caption pl-1">GB</span></div>
+                                {{-- <div class="badge-caption">Up to</div> --}}
+                                <div class="badge-value">4<span class="badge-caption pl-1">GB</span></div>
                                 <div class="badge-caption">RAM</div>
                             </div>
 
@@ -365,7 +365,7 @@
                             <section class="product-liber-wifi">
                                 <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
                                     <div class="data-card mx-3 text-left">
-                                        <span class="badge-value">1.377</span>
+                                        <span class="badge-value">1.3</span>
                                         <span class="badge-caption">kg</span>
                                         <div class="badge-caption">35.56 cm weight</div>
                                     </div>
