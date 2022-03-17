@@ -159,7 +159,7 @@
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
-                    <div class="row" style="margin-right: 100px; margin-bottom:60px;">
+                    <div class="row" style="margin-right: 100px; margin-bottom:160px;">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
                                 <div class="d-sm-inline" style="text-transform:uppercase; ">Sound that needs to be heard
@@ -369,20 +369,20 @@
             </div>
         </section>
 
-        <section>
-            <div class="banner-block ls-0">
+        <section >
+            <div class="banner-block ls-0" >
                 <div class="banner-bg hidden-sm-down"
-                    style="background:url(/images/ultimus/ultimus_bg3_en.jpg) top center no-repeat;"></div>
+                    style="background:url(/images/ultimus/ultimus_bg3_en.png) top center no-repeat;" ></div>
                 <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
                 <div class="container">
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
-                    <div class="row">
+                    <div class="row" >
                         <div class="col-12 col-lg-6" align="left"></div>
-                        <div class="col-12 col-lg-6" align="left">
+                        <div class="col-12 col-lg-6" align="left" >
                             <div class="h2 banner-header mob-text-center">
-                                <div class="d-sm-inline" style="text-transform:uppercase;">Unrivaled & Perceptible
+                                <div class="d-sm-inline" style="text-transform:uppercase; margin-top:50px;">Unrivaled & Perceptible
                                     Mobility</div>
                             </div>
                             <div class="space60"></div>
