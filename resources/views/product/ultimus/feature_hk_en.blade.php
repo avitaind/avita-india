@@ -88,8 +88,8 @@
         <div class="banner-block">
             <div class="banner-bg"></div>
             <div class="banner-image">
-                <img class="bc-computer-image bc-computer-1" src="/images/ultimus/sc3_fimg1.png" style="right: 932px;">
-                <img class="bc-computer-image bc-computer-2" src="/images/ultimus/sc3_fimg2.png">
+                <img class="bc-computer-image bc-computer-1" src="/images/ultimus/sc3_fimg1.png" style="right: 800px;">
+                <img class="bc-computer-image bc-computer-2" src="/images/ultimus/sc3_fimg2.png" style="left: 750px;">
                 <img class="bc-computer-image bc-computer-3" src="/images/liber/liber_u_feature/sc3_fimg3.png">
                 <img class="bc-computer-image bc-computer-4" src="/images/liber/liber_u_feature/sc3_fimg4.png">
                 <img class="bc-computer-image bc-computer-5" src="/images/liber/liber_u_feature/sc3_fimg5.png">
@@ -150,7 +150,7 @@
         </section>
 
         <section>
-            <div class="banner-block ls-0">
+            <div class="banner-block ls-0 hidden-sm-down">
                 <div class="banner-bg hidden-sm-down"
                     style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;"></div>
                 <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
@@ -159,11 +159,47 @@
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="row" style="margin-right: 82px;">
-                        <div class="col-12 col-lg-6" align="left">
+                    <div class="row" style="margin-right: 100px; margin-bottom:60px;">
+                        <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="d-sm-inline" style="text-transform:uppercase;">Sound that needs to be heard
+                                <div class="d-sm-inline" style="text-transform:uppercase; ">Sound that needs to be heard
+                                </div>
+                            </div>
+                            <div class="space60"></div>
+                            <div class="ac-computer-wrap hidden-md-up">
+                                <img class="ac-computer-image ac-computer-2" style=""
+                                    src="/images/ultimus/ultimus_bg2_en_mo.png"
+                                    style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
+                            </div>
+                            <div class="banner-para ls-0">
+                                <span class="d-lg-block">With high-quality x 2W speakers, now rest assured that everyone
+                                    listens to you clearly without any disturbance. The powerful audio will make sure to
+                                    capture your every word.</span>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-lg-6" align="left"></div>
+                    </div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                </div>
+            </div>
+            <div class="banner-block ls-0 ">
+                <div class="banner-bg hidden-sm-down hidden-md-up"
+                    style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;"></div>
+                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+                <div class="container hidden-md-up">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="row hidden-md-up" style="">
+                        <div class="col-12 col-lg-6" align="">
+                            <div class="h2 banner-header mob-text-center">
+                                <div class="d-sm-inline" style="text-transform:uppercase; padding-top: 50px;">Sound that needs to be heard
                                 </div>
                             </div>
                             <div class="space60"></div>
@@ -363,7 +399,7 @@
 
                             <section class="product-liber-wifi">
                                 <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
-                                    <div class="data-card mx-3 text-left">
+                                    <div class="data-card mx-3 text-left" style="margin-bottom: 50px;">
                                         <span class="badge-value">1.3</span>
                                         <span class="badge-caption">kg</span>
                                         <div class="badge-caption">35.56 cm weight</div>
