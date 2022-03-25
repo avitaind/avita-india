@@ -88,8 +88,8 @@
         <div class="banner-block">
             <div class="banner-bg"></div>
             <div class="banner-image">
-                <img class="bc-computer-image bc-computer-1" src="/images/ultimus/sc3_fimg1.png" style="right: 800px;">
-                <img class="bc-computer-image bc-computer-2" src="/images/ultimus/sc3_fimg2.png" style="left: 750px;">
+                <img class="bc-computer-image bc-computer-1" src="/images/ultimus/sc3_fimg1.png" style="right: 870px; height:600px;">
+                <img class="bc-computer-image bc-computer-2" src="/images/ultimus/sc3_fimg2.png" style="left: 800px; height:600px;">
                 <img class="bc-computer-image bc-computer-3" src="/images/liber/liber_u_feature/sc3_fimg3.png">
                 <img class="bc-computer-image bc-computer-4" src="/images/liber/liber_u_feature/sc3_fimg4.png">
                 <img class="bc-computer-image bc-computer-5" src="/images/liber/liber_u_feature/sc3_fimg5.png">
@@ -232,7 +232,7 @@
                 </div>
                 <div class="container">
                     <div class="row no-gutters">
-                        <div class="col-12 col-lg-5">
+                        <div class="col-12 col-lg-7">
                             <div class="banner-info  mx-auto">
 
                                 <div class="h2 banner-header mb-4 mb-sm-5">
@@ -252,7 +252,7 @@
                             </div>
                             <!-- <img class="ac-computer-image ac-computer-1" src="/images/liber/liber_u_feature/sc5_fimg1.jpg"> -->
                         </div>
-                        <div class="col-12 col-lg-7">
+                        <div class="col-12 col-lg-5">
                             <div class="battery-wrap d-flex align-items-center">
                                 <div class="badge-caption">Up to <span class="badge-value px-1">10</span> hrs*<br>Battery
                                     life</div>
@@ -292,7 +292,7 @@
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-2" src="/images/ultimus/ultimus_product.png">
+                    <img class="bc-computer-image bc-computer-2" src="/images/ultimus/ultimus_product-1.png">
                 </div>
                 <div class="container">
                     <div class="banner-info ls-0" style="text-align:left; min-height:950px; width: 611px;">
@@ -458,14 +458,14 @@
         }
 
     </style>
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/product-liber.css') }}" />
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/product-ultimus.css') }}" />
 @endsection
 
 @section('js')
 
     {{-- <script type="text/javascript" src="{{ asset('js/pura.js') }}"></script> --}}
 
-    <script type="text/javascript" src="{{ asset('js/liber.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/ultimus.js') }}"></script>
 
 
 
