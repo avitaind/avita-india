@@ -25,7 +25,7 @@
         </section>
 
         <section class="product-liber-computer ls-0" id="test" style="background-color:#eee;">
-            <div class="container">
+            <div class="container" style="padding-bottom: 40px;">
 
                 <div class="banner-info" style="max-width:100%;">
                     <div class="space60"></div>
@@ -40,7 +40,7 @@
 
                     <span class="buy-now2"><a href="https://in.nexstmall.com/" target="_blank">Buy now ></a></span>
 
-                    <div class="space60"></div>
+                    
 
                 </div>
             </div>
@@ -56,13 +56,14 @@
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space30 hidden-sm-down"></div>
                     <div class="row">
                         <div class="col-12 col-lg-6" align="left"></div>
                         <div class="col-12 col-lg-6" align="left">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="d-sm-inline" style="text-transform:uppercase;">Connectivity that Speaks</div>
+                                <div class="d-sm-inline"
+                                    style="text-transform:uppercase;padding-top: 30px;text-align: center;">Connectivity that
+                                    Speaks</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -88,8 +89,10 @@
         <div class="banner-block">
             <div class="banner-bg"></div>
             <div class="banner-image">
-                <img class="bc-computer-image bc-computer-1" src="/images/ultimus/sc3_fimg1.png" style="right: 870px; height:600px;">
-                <img class="bc-computer-image bc-computer-2" src="/images/ultimus/sc3_fimg2.png" style="left: 800px; height:600px;">
+                <img class="bc-computer-image bc-computer-1" src="/images/ultimus/sc3_fimg1.png"
+                    style="right: 870px; height:600px;">
+                <img class="bc-computer-image bc-computer-2" src="/images/ultimus/sc3_fimg2.png"
+                    style="left: 800px; height:600px;">
                 <img class="bc-computer-image bc-computer-3" src="/images/liber/liber_u_feature/sc3_fimg3.png">
                 <img class="bc-computer-image bc-computer-4" src="/images/liber/liber_u_feature/sc3_fimg4.png">
                 <img class="bc-computer-image bc-computer-5" src="/images/liber/liber_u_feature/sc3_fimg5.png">
@@ -190,7 +193,8 @@
                     <div class="row hidden-md-up" style="">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="d-sm-inline" style="text-transform:uppercase; padding-top: 50px;">Sound that needs to be heard
+                                <div class="d-sm-inline" style="text-transform:uppercase; padding-top: 50px;">Sound that
+                                    needs to be heard
                                 </div>
                             </div>
                             <div class="space60"></div>
@@ -200,7 +204,8 @@
                                     style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                             </div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block">With high-quality x 2W speakers, now rest assured that everyone
+                                <span class="d-lg-block">With high-quality x 2W speakers, now rest assured that
+                                    everyone
                                     listens to you clearly without any disturbance. The powerful audio will make sure to
                                     capture your every word.</span>
                             </div>
@@ -227,10 +232,10 @@
                             <div class="banner-info  mx-auto">
 
                                 <div class="h2 banner-header mb-4 mb-sm-5">
-                                    <div class="d-sm-inline">Ever-ready Battery</div>
+                                    <div class="d-sm-inline left" >Ever-ready Battery</div>
                                 </div>
                                 <div class="banner-para ls-0">
-                                    <span class="d-lg-block">The constant ping of a low battery is no more an issue
+                                    <span class="d-lg-block" style="text-align-last: center;">The constant ping of a low battery is no more an issue
                                         now! Get used to non-stop work and entertainment with SATUS ULTIMUS. The up to 8
                                         hours battery life of this laptop lets you work smoothly anytime of the day.</span>
                                     
@@ -306,7 +311,7 @@
                             style="margin-top:30px;">
                             <div class="data-card my-3 text-left">
                                 <div class="badge-caption">Operating System</div>
-                                <div class="badge-value">Windows 11 in S Mode</div>
+                                <div class="badge-value">Windows 11</div>
                                 <div class="badge-caption"><a
                                         href="https://support.microsoft.com/en-hk/help/4020089/windows-10-in-s-mode-faq"
                                         style="color:#09F" target="_blank">Know more ></a></div>
@@ -335,7 +340,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="product-liber-computer ls-0" id="test" style="background-color:#eee;">
             <div class="container">
 
@@ -360,20 +365,21 @@
             </div>
         </section>
 
-        <section >
-            <div class="banner-block ls-0" >
+        <section>
+            <div class="banner-block ls-0">
                 <div class="banner-bg hidden-sm-down"
-                    style="background:url(/images/ultimus/ultimus_bg3_en.png) top center no-repeat;" ></div>
+                    style="background:url(/images/ultimus/ultimus_bg3_en.png) top center no-repeat;"></div>
                 <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
                 <div class="container">
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
-                    <div class="row" >
+                    <div class="row">
                         <div class="col-12 col-lg-6" align="left"></div>
-                        <div class="col-12 col-lg-6" align="left" >
+                        <div class="col-12 col-lg-6" align="left">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="d-sm-inline" style="text-transform:uppercase; margin-top:50px;">Unrivaled & Perceptible
+                                <div class="d-sm-inline" style="text-transform:uppercase; margin-top:50px;">Unrivaled &
+                                    Perceptible
                                     Mobility</div>
                             </div>
                             <div class="space60"></div>
@@ -445,6 +451,7 @@
     <style>
         span {
             text-align: justify;
+            /* text-align-last: center; */
         }
 
     </style>
