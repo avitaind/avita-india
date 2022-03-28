@@ -58,8 +58,8 @@
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
-                    <div class="space30 hidden-sm-down"></div>
-                    <div class="row">
+                    {{-- <div class="space30 hidden-sm-down"></div> --}}
+                    <div class="row" style="    padding-bottom: 40px;">
                         <div class="col-12 col-lg-6" align="left"></div>
                         <div class="col-12 col-lg-6" align="left">
                             <div class="h2 banner-header mob-text-center">
@@ -92,7 +92,7 @@
             <div class="banner-bg"></div>
             <div class="banner-image">
                 <img class="bc-computer-image bc-computer-1" src="/images/ultimus/sc3_fimg1.png"
-                    style="right: 870px; height:600px;">
+                    style="right: 870px; height:500px;">
                 <img class="bc-computer-image bc-computer-2" src="/images/ultimus/sc3_fimg2.png"
                     style="left: 800px; height:600px;">
                 <img class="bc-computer-image bc-computer-3" src="/images/liber/liber_u_feature/sc3_fimg3.png">
@@ -100,7 +100,7 @@
                 <img class="bc-computer-image bc-computer-5" src="/images/liber/liber_u_feature/sc3_fimg5.png">
                 <img class="bc-computer-image bc-computer-6" src="/images/liber/liber_u_feature/sc3_fimg6.png">
                 <img class="bc-computer-image bc-computer-7" src="/images/liber/liber_u_feature/sc3_fimg7.png">
-                <img class="bc-computer-image bc-computer-8" src="/images/liber/liber_u_feature/sc3_fimg8.png">
+                {{-- <img class="bc-computer-image bc-computer-8" src="/images/liber/liber_u_feature/sc3_fimg8.png"> --}}
             </div>
             <div class="container">
                 <div class="banner-info">

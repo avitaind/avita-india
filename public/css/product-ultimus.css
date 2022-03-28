@@ -1251,8 +1251,8 @@ section.product-liber-v-io{
 		padding-bottom: 180px;
 	}
 	.product-liber-size .banner-block {
-		padding-top: 200px;
-		padding-bottom: 170px;
+		padding-top: 100px;
+		/* padding-bottom: 170px; */
 	}
 	.product-liber-performance .banner-block {
 		padding-top: 200px;
