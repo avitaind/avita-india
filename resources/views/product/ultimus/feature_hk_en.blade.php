@@ -105,7 +105,7 @@
             <div class="container">
                 <div class="banner-info">
 
-                    <div class="h2 banner-header mb-4 mb-sm-5">Head-turning Colours</div>
+                    <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Head-turning Colours</div>
                     <div class="ac-computer-wrap hidden-md-up">
                         <img class="ac-computer-image ac-computer-1" style="" src="/images/ultimus/sc3_fimg2.png">
                     </div>
@@ -121,7 +121,7 @@
                         <br>
                         {{-- <span><small>* Thinnest part</small></span> --}}
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -140,7 +140,8 @@
                     <div class="row" style="margin-right: 100px; margin-bottom:160px;">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase;text-align: center; ">Sound that needs to be heard
+                                <div class="" style="text-transform:uppercase;text-align: center; ">Sound that
+                                    needs to be heard
                                 </div>
                             </div>
                             <div class="space60"></div>
@@ -216,10 +217,11 @@
                             <div class="banner-info  mx-auto">
 
                                 <div class="h2 banner-header mb-4 mb-sm-5">
-                                    <div class=" left" >Ever-ready Battery</div>
+                                    <div class=" left" style="text-transform:uppercase;">Ever-ready Battery</div>
                                 </div>
                                 <div class="banner-para ls-0">
-                                    <span class="d-lg-block" style="text-align-last: center;">The constant ping of a low battery is no more an issue
+                                    <span class="d-lg-block" style="text-align-last: center;">The constant ping of a
+                                        low battery is no more an issue
                                         now! Get used to non-stop work and entertainment with SATUS ULTIMUS. Up to 8
                                         hours* battery life of this laptop lets you work smoothly anytime of the day.</span>
                                     {{-- <span class="d-lg-block">through a hectic day of work to finally some entertainment before sleep, LIBER can stay cordless for up to 10 hours* </span>
@@ -277,8 +279,8 @@
                 </div>
                 <div class="container">
                     <div class="banner-info ls-0" style="text-align:left; min-height:950px; width: 611px;">
-                        <div class="h2 mob-text-center banner-header mb-4 mb-sm-5" style="text-transform:uppercase;text-align: center; ">
-                            Keyboard that Screams Comfort</div>
+                        <div class="h2 mob-text-center banner-header mb-4 mb-sm-5"
+                            style="text-transform:uppercase;text-align: center; ">Impeccable Competence</div>
 
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
@@ -286,9 +288,12 @@
                         </div>
 
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">The ergonomic keyboard of SATUS ULTIMUS minimizes muscle strain,
-                                fatigue, and other problems. Its thoughtfully designed keyboard provides a seamless typing
-                                experience with maximum convenience.</span>
+                            <span class="d-lg-block">This laptop has a lot more in store than you expect! The
+                                magnificent performance of SATUS ULTIMUS gives you the power and a sense of reliability. It
+                                is coupled with the high-speed Intel Celeron N4020 processor, 1.10 GHz base processor speed,
+                                2.80 GHz Max speed, and 4 GB RAM to expedite your tasks. The high-speed processor is
+                                complemented with the enormous storage capacity of 128 GB SSD to cure your storage
+                                hindrances.</span>
                             <span class="d-lg-block"><a href="{{ route('product.spec', 'ultimus') }}"
                                     style="color:#09F">@lang('site.productnav_spec') ></a></span>
                         </div>
@@ -332,14 +337,12 @@
 
                 <div class="banner-info" style="max-width:100%;">
                     <div class="space60"></div>
-                    <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Impeccable Competence
-                    </div>
+                    <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">KEYBOARD THAT SCREAMS
+                        COMFORT</div>
                     <div class="banner-para">
-                        <span>This laptop has a lot more in store than you expect! The magnificent performance of SATUS
-                            ULTIMUS gives you the power and a sense of reliability. It is coupled with the high-speed Intel
-                            Celeron N4020 processor, 1.10 GHz base processor speed, 2.80 GHz Max speed, and 4 GB RAM to
-                            expedite your tasks. The high-speed processor is complemented with the enormous storage capacity
-                            of 128 GB SSD to cure your storage hindrances.</span>
+                        <span>The ergonomic keyboard of SATUS ULTIMUS minimizes muscle strain, fatigue, and other problems.
+                            Its thoughtfully designed keyboard provides a seamless typing experience with maximum
+                            convenience.</span>
                     </div>
                     <div class="space60"></div>
 
@@ -364,7 +367,8 @@
                         <div class="col-12 col-lg-6" align="left"></div>
                         <div class="col-12 col-lg-6" align="left">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase; margin-top:50px;text-align: center; ">Unrivaled &
+                                <div class=""
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Unrivaled &
                                     Perceptible
                                     Mobility</div>
                             </div>
