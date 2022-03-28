@@ -61,7 +61,7 @@
                         <div class="col-12 col-lg-6" align="left"></div>
                         <div class="col-12 col-lg-6" align="left">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="d-sm-inline"
+                                <div class=""
                                     style="text-transform:uppercase;padding-top: 30px;text-align: center;">Connectivity that
                                     Speaks</div>
                             </div>
@@ -113,31 +113,9 @@
                             Red, Matt Black, Cloud Silver, and Space Grey.</span>
                         
                         <br>
-                        <span><small>* Thinnest part</small></span>
+                        
                     </div>
-                    <div class="banner-data d-flex flex-wrap text-left mx-auto pl-sm-5">
-                        <div class="data-card data-card-1 col-6 my-2 my-sm-4 pl-1 px-sm-4">
-                            <span class="badge-value">5</span>
-                            <span class="badge-caption">mm</span>
-                            <div class="badge-caption pt-1">Thin</div>
-                        </div>
-                        <div class="data-card data-card-4 col-6 my-2 my-sm-4">
-                            <div class="badge-caption">Starting from</div>
-                            <span class="badge-value">1.3</span>
-                            <span class="badge-caption">kg</span>
-                            <div class="badge-caption pt-1">35.56 cm weight</div>
-                        </div>
-                        <div class="data-card data-card-2 col-6 my-2 my-sm-4">
-                            
-                        </div>
-
-                        <div class="data-card data-card-3 col-6 my-2 my-sm-4 pl-1 px-sm-4">
-                            
-                        </div>
-
-
-
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -156,7 +134,7 @@
                     <div class="row" style="margin-right: 100px; margin-bottom:160px;">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="d-sm-inline" style="text-transform:uppercase; ">Sound that needs to be heard
+                                <div class="" style="text-transform:uppercase;text-align: center; ">Sound that needs to be heard
                                 </div>
                             </div>
                             <div class="space60"></div>
@@ -193,7 +171,7 @@
                     <div class="row hidden-md-up" style="">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="d-sm-inline" style="text-transform:uppercase; padding-top: 50px;">Sound that
+                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Sound that
                                     needs to be heard
                                 </div>
                             </div>
@@ -232,16 +210,14 @@
                             <div class="banner-info  mx-auto">
 
                                 <div class="h2 banner-header mb-4 mb-sm-5">
-                                    <div class="d-sm-inline left" >Ever-ready Battery</div>
+                                    <div class=" left" >Ever-ready Battery</div>
                                 </div>
                                 <div class="banner-para ls-0">
                                     <span class="d-lg-block" style="text-align-last: center;">The constant ping of a low battery is no more an issue
-                                        now! Get used to non-stop work and entertainment with SATUS ULTIMUS. The up to 8
-                                        hours battery life of this laptop lets you work smoothly anytime of the day.</span>
+                                        now! Get used to non-stop work and entertainment with SATUS ULTIMUS. Up to 8
+                                        hours* battery life of this laptop lets you work smoothly anytime of the day.</span>
                                     
-                                    <span class="d-lg-block"><small>*Up to 8 hours on MobileMark 2014 (Up to 10 hours
-                                            in the condition of Wi-Fi, Bluetooth, audio are off, brightness as 20, and Power
-                                            in Battery saver mode)</small></span>
+                                    
                                     <br />
                                 </div>
                             </div>
@@ -249,15 +225,16 @@
                         </div>
                         <div class="col-12 col-lg-5">
                             <div class="battery-wrap d-flex align-items-center">
-                                <div class="badge-caption">Up to <span class="badge-value px-1">10</span> hrs*<br>Battery
+                                <div class="badge-caption">Up to <span class="badge-value px-1">8</span> hrs*<br>Battery
                                     life</div>
                             </div>
                             <div class="banner-data d-flex flex-wrap justify-content-center ls-0">
                                 <div class="data-card">
                                     <div class="badge-caption">&nbsp;</div>
-                                    <div class="badge-value text-center">36.7<span class="badge-caption pl-1">Wh</span>
+                                    <div class="badge-value text-center">7.4V<span class="badge-caption pl-1"></span>
                                     </div>
-                                    <div class="badge-caption">Li-polymer battery</div>
+                                    
+                                    <div class="badge-caption">5000mAH battery</div>
                                 </div>
 
                                 <ul class="battery-block d-flex">
@@ -291,7 +268,7 @@
                 </div>
                 <div class="container">
                     <div class="banner-info ls-0" style="text-align:left; min-height:950px; width: 611px;">
-                        <div class="h2 mob-text-center banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">
+                        <div class="h2 mob-text-center banner-header mb-4 mb-sm-5" style="text-transform:uppercase;text-align: center; ">
                             Keyboard that Screams Comfort</div>
 
                         <div class="ac-computer-wrap hidden-md-up">
@@ -303,7 +280,7 @@
                             <span class="d-lg-block">The ergonomic keyboard of SATUS ULTIMUS minimizes muscle strain,
                                 fatigue, and other problems. Its thoughtfully designed keyboard provides a seamless typing
                                 experience with maximum convenience.</span>
-                            <span class="d-lg-block"><a href="<?php echo e(route('product.spec', 'Ultimus')); ?>"
+                            <span class="d-lg-block"><a href="<?php echo e(route('product.spec', 'ultimus')); ?>"
                                     style="color:#09F"><?php echo app('translator')->getFromJson('site.productnav_spec'); ?> ></a></span>
                         </div>
 
@@ -319,7 +296,7 @@
                             <div class="data-card my-3 col-12 col-lg-6 text-left">
                                 
                                 <div class="badge-value">N4020</div>
-                                <div class="badge-caption">INTEL&reg; Celeron&trade; PROCESSOR</div>
+                                <div class="badge-caption">Intel&reg; Celeron&reg; Processor</div>
                             </div>
                             <div class="data-card my-3 col-12 col-lg-6 text-left">
                                 
@@ -378,7 +355,7 @@
                         <div class="col-12 col-lg-6" align="left"></div>
                         <div class="col-12 col-lg-6" align="left">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="d-sm-inline" style="text-transform:uppercase; margin-top:50px;">Unrivaled &
+                                <div class="" style="text-transform:uppercase; margin-top:50px;text-align: center; ">Unrivaled &
                                     Perceptible
                                     Mobility</div>
                             </div>
@@ -399,7 +376,7 @@
                                     <div class="data-card mx-3 text-left" style="margin-bottom: 50px;">
                                         <span class="badge-value">1.3</span>
                                         <span class="badge-caption">kg</span>
-                                        <div class="badge-caption">35.56 cm weight</div>
+                                        <div class="badge-caption">16.9 mm thin</div>
                                     </div>
                                 </div>
                             </section>
@@ -436,6 +413,7 @@
                         rights to keep, change or correct any information without further notice.</li>
                     <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States
                         and/or other countries.</li>
+                    <li>*Under Test Conditions</li>
                 </ul>
             </div>
         </section>
@@ -451,7 +429,7 @@
     <style>
         span {
             text-align: justify;
-            /* text-align-last: center; */
+            text-align-last: center;
         }
 
     </style>
