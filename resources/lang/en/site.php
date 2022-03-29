@@ -12,6 +12,7 @@ return [
     'liber14'                       =>'Overview 14',
     'liber12'                       => 'LIBER 12.5',
     'accessories'                   =>'Accessories',
+    'ultimus_c'                       => 'AVITA SATUS ULTIMUS [Coming Soon]',
     'mouse'                         => 'AVITA Mouse [Coming Soon]',
     'sleeve'                        => 'AVITA UBIQUE 3-in-1 Sleeve ',
     'products'                      => 'Products',
