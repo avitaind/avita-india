@@ -130,7 +130,7 @@
         <section>
             <div class="banner-block ls-0 hidden-sm-down">
                 <div class="banner-bg hidden-sm-down"
-                    style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;"></div>
+                    style="background:url(/images/ultimus/ultimus_bg2_en.jpg) top center no-repeat;"></div>
                 <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
                 <div class="container">
                     <div class="space60 hidden-sm-down"></div>
@@ -147,7 +147,7 @@
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
                                 <img class="ac-computer-image ac-computer-2" style=""
-                                    src="/images/ultimus/ultimus_bg2_en_mo.png"
+                                    src="/images/ultimus/ultimus_bg2_en_mo.jpg"
                                     style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                             </div>
                             <div class="banner-para ls-0">
@@ -166,7 +166,7 @@
             </div>
             <div class="banner-block ls-0 ">
                 <div class="banner-bg hidden-sm-down hidden-md-up"
-                    style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;"></div>
+                    style="background:url(/images/ultimus/ultimus_bg2_en.jpg) top center no-repeat;"></div>
                 <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
                 <div class="container hidden-md-up">
                     <div class="space60 hidden-sm-down"></div>
@@ -185,7 +185,7 @@
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
                                 <img class="ac-computer-image ac-computer-2" style=""
-                                    src="/images/ultimus/ultimus_bg2_en_mo.png"
+                                    src="/images/ultimus/ultimus_bg2_en_mo.jpg"
                                     style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                             </div>
                             <div class="banner-para ls-0">
