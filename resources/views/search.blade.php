@@ -48,15 +48,15 @@
     color: rgb(255, 255, 255);
     background-color: rgb(2, 117, 216);
     border-color: rgb(2, 117, 216);
-}  */
+} 
+
+*/
 
 </style>
 @stop
 
 @section('content')
 <main>
-
-
 
 <section class="top-nav-padding support-search-section">
             <div class="support-search-wrap pb-sm-5">
