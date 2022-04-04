@@ -30,7 +30,7 @@
     font-size: 18px;
     weight:600;
 }
-{{--  .page-link {
+/* .page-link {
     position: relative;
     display: block;
     margin-left: -1px;
@@ -48,7 +48,7 @@
     color: rgb(255, 255, 255);
     background-color: rgb(2, 117, 216);
     border-color: rgb(2, 117, 216);
-}  --}}
+}  */
 
 </style>
 @stop
@@ -64,49 +64,8 @@
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-6 text-center">
-                            <form method="POST" action="{{ route('support') }}" class="">
-                                {{ csrf_field() }}
-                                <div class="support-search-mob-img">
-                                    <img class="hidden-lg-up " src="/images/background/support-min.png"/>
-                                </div>
+                            <div class="h1 section-title my-4 ls-0 font-weight-light">@lang('site.support_title')</div>
 
-                                
-                                <div class="h1 section-title my-4 ls-0 font-weight-light">@lang('site.support_title')</div>
-
-                                <div class="row no-gutters my-4 align-content-center justify-content-center col-12 col-sm-8 col-lg-12 mx-auto">
-                                    <div class="col-12 col-md-12 col-md-12 ml-0 ml-md-4">
-                                        <div class="form-group mb-2">
-
-                                            <select id="product_type_field" name="type" class="form-control custom-select mb-3">
-
-                                            </select>
-
-                                            <select id="product_series_field" name="series" class="form-control custom-select mb-3" style="display: none;">
-
-                                            </select>
-
-                                            <select id="marketing_number_field" name="marketing_number" class="form-control custom-select mb-3" style="display: none;">
-
-                                            </select>
-
-                                            <select id="product_number_field" name="product_number" class="form-control custom-select mb-3" style="display: none;">
-
-                                            </select>
-
-                                            {{--<select id="product_model_field" name="product_model" class="form-control custom-select mb-3" style="display: none;">--}}
-
-                                            {{--</select>--}}
-
-                                            {{--<p id="product_config_field"></p>--}}
-
-                                            <button class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">&nbsp;<i class="fa fa-search" aria-hidden="true"></i>&nbsp;</button>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </form>
-                              <br/>
                         <img src="/images/contact.png" style="width:320px;">
                             </div>
                     </div>
@@ -141,6 +100,73 @@
                                                       
                 </div>
         --->
+        <div class="content-product-support">
+
+			<article class="product-support-article py-5 ls-0" id="support-drivers">
+				<div class="container">
+					<div class="text-center mx-auto px-0 my-0 my-md-5 col-12 col-sm-8 col-md-5">
+						<div class="h3 font-weight-normal mb-3 mb-md-5">@lang('site.product_support_1')</div>
+                        <form method="POST" action="{{ route('support') }}" class="">
+                            {{ csrf_field() }}
+                            <div class="support-search-mob-img">
+                                <img class="hidden-lg-up " src="/images/background/support-min.png"/>
+                            </div>
+
+                            
+
+                            <div class="row no-gutters my-4 align-content-center justify-content-center col-12 col-sm-8 col-lg-12 mx-auto">
+                                <div class="col-12 col-md-12 col-md-12 ml-0 ml-md-4">
+                                    <div class="form-group mb-2">
+
+                                        <select id="product_type_field" name="type" class="form-control custom-select mb-3">
+
+                                        </select>
+
+                                        <select id="product_series_field" name="series" class="form-control custom-select mb-3" style="display: none;">
+
+                                        </select>
+
+                                        <select id="marketing_number_field" name="marketing_number" class="form-control custom-select mb-3" style="display: none;">
+
+                                        </select>
+
+                                        <select id="product_number_field" name="product_number" class="form-control custom-select mb-3" style="display: none;">
+
+                                        </select>
+
+                                        {{--<select id="product_model_field" name="product_model" class="form-control custom-select mb-3" style="display: none;">--}}
+
+                                        {{--</select>--}}
+
+                                        {{--<p id="product_config_field"></p>--}}
+
+                                        {{-- <button class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">&nbsp;<i class="fa fa-search" aria-hidden="true"></i>&nbsp;</button> --}}
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                            <div class="mt-4">
+
+                                        
+
+                                <p class="text-left">The entirety of AVITA Laptop products do not support update of Windows 10 S.</p>
+                                <p class="text-left">AVITA does not have plans to release Windows 10 S based Laptop products.</p>
+                        
+                            </div>
+                    </div>        
+                    <div id="product-driver-wrapper" class="d-flex flex-wrap text-left mx-auto px-0 my-0 my-md-5 col-12 col-md-10 ls-0">
+
+                    </div>
+                </div>
+            </article>
+            </div>
+
+
+    
+        </div>
+
         <div class="support-center-wrap py-5">
 
     <div class="h1 text-center mt-4 mb-3 font-weight-light">Warranty Extension</div>
@@ -194,7 +220,7 @@
                         
                         <div class="input-group">
                     
-                        <input type="text" class="form-control" id="search" name="search" placeholder="Type your City / State or Postal Code Here"> </input> 
+                        <input type="text" class="form-control" id="search" name="search" placeholder="Type your City / State or Postal Code Here"/>  
                         <div class="input-group-addon overlay-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
                         
                         </div>
@@ -241,6 +267,8 @@
 @endsection
 
 @section('js')
+<script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
+
             <script type="text/javascript">
 
             $('#search').on('keyup', function(){
@@ -258,7 +286,24 @@
             </script>
 
     
-    <script type="text/javascript" src="{{ asset('js/support.js') }}"></script>
+	<script>
 
 
+		function reload_driver_list( ) {
+
+		    var product_number = $("#product_number_field").val();
+
+		    if (product_number != null) {
+                var url = '/api/drivers?product_number=' + product_number;
+                $("#product-driver-wrapper").load(url);
+			}
+		}
+
+		$('#product_number_field').on('init change', function(e) {
+            reload_driver_list( );
+		}).trigger('init');
+
+
+
+	</script>
 @endsection
