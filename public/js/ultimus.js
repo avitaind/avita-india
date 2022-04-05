@@ -245,21 +245,21 @@ $(document).ready(function() {
 					// .addIndicators({name:'.product-liber-performance2 .banner-data-block'}) 
 					.addTo(controller);	
 
-		/* .product-liber-wifi */
-		var tween = TweenMax.fromTo(".product-liber-wifi .bc-computer-1", .4, { 'calx': -400, opacity: 1 }, { 'calx': 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-wifi", duration: '100%'})
+		/* .product-ultimus-wifi */
+		var tween = TweenMax.fromTo(".product-ultimus-wifi .bc-computer-1", .4, { 'calx': -400, opacity: 1 }, { 'calx': 0, opacity: 1 });
+		var scene = new ScrollMagic.Scene({triggerElement: ".product-ultimus-wifi", duration: '100%'})
 					.setTween(tween)
 					.on("progress", function (e) {
-						TweenMax.to(".product-liber-wifi .bc-computer-1", .2 ,{ x: (-400 - (( -400 - ( 0 ) ) * e.progress)) , overwrite:5, ease:Power1.easeOut });       
+						TweenMax.to(".product-ultimus-wifi .bc-computer-1", .2 ,{ x: (-400 - (( -400 - ( 0 ) ) * e.progress)) , overwrite:5, ease:Power1.easeOut });       
 					})
 					// .addIndicators({name:'.product-liber-size .bc-computer-1'})
 					.addTo(controller);
 
-		var tween = TweenMax.fromTo(".product-liber-wifi .bc-computer-2", .4, { 'calx': 400, opacity: 1 }, { 'calx': 0, opacity: 1 });
-		var scene = new ScrollMagic.Scene({triggerElement: ".product-liber-wifi", duration: '100%'})
+		var tween = TweenMax.fromTo(".product-ultimus-wifi .bc-computer-2", .4, { 'calx': 400, opacity: 1 }, { 'calx': 0, opacity: 1 });
+		var scene = new ScrollMagic.Scene({triggerElement: ".product-ultimus-wifi", duration: '100%'})
 					.setTween(tween)
 					.on("progress", function (e) {
-						TweenMax.to(".product-liber-wifi .bc-computer-2", .2 ,{ x: (400 - (( 400 - ( 0 ) ) * e.progress)) , overwrite:5, ease:Power1.easeOut });       
+						TweenMax.to(".product-ultimus-wifi .bc-computer-2", .2 ,{ x: (400 - (( 400 - ( 0 ) ) * e.progress)) , overwrite:5, ease:Power1.easeOut });       
 					})
 					// .addIndicators({name:'.product-liber-size .bc-computer-2'}) 
 					.addTo(controller);

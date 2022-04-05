@@ -31,19 +31,143 @@
 
                 <div class="banner-info" style="max-width:100%;">
                     <div class="space60"></div>
-                    <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">A Treat to the Eyes!</div>
+                    <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Built to delight</div>
                     <div class="banner-para">
                         <span>SATUS ULTIMUS is the right balance of affordability and conventionality. The newly-launched
                             laptop is crafted with precision and is equipped with all the essentials you need in a digital
                             notebook. Create an engaging work and wondrous play experience with SATUS ULTIMUS that offers a
-                            14 FHD, anti-glare display to indulge in the best viewing experience.</span>
+                            14.1 FHD, anti-glare display to indulge in the best viewing experience.</span>
+
                     </div>
                     <div class="space60"></div>
 
-                    <span class="buy-now2"><a href="https://in.nexstmall.com/" target="_blank">Buy now ></a></span>
+                    {{-- <span class="buy-now2"><a href="https://in.nexstmall.com/" target="_blank">Buy now ></a></span> --}}
+                    <div class="container">
+                        <div class="card-deck">
 
+                            <div class="card" style="border:none;background-color:#EEEEEE;">
+                                <a class="" target="_blank" href="#">
+                                    <img class="pt-3 w-50" src="/images/ultimus/AZ-logo.png">
+                                </a>
+                            </div>
+
+                            <div class="card" style="border:none; background-color:#EEEEEE;">
+                                <a class="" target="_blank" href="https://in.nexstmall.com/collections/status-ultimus">
+                                    <img class="pt-2 w-75" src="/images/ultimus/Nexstgo_mall_logo.png">
+                                </a>
+                            </div>
+
+                            <div class="card" style="border:none;background-color:#EEEEEE;">
+                                <a class="" target="_blank" href="#">
+                                    <img class="w-50" src="/images/ultimus/FK-logo.png">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
                     {{-- <div class="space60"></div> --}}
 
+                </div>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="banner-block ls-0 hidden-sm-down">
+                <div class="banner-bg hidden-sm-down"
+                    style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;"></div>
+                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+                <div class="container">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="row" style="margin-right: 100px; ">
+                        <div class="col-12 col-lg-6" align="">
+                            <div class="h2 banner-header mob-text-center">
+                                <div class="" style="text-transform:uppercase;text-align: center; ">Sound that
+                                    needs to be heard
+                                </div>
+                            </div>
+                            <div class="space60"></div>
+                            <div class="ac-computer-wrap hidden-md-up">
+                                <img class="ac-computer-image ac-computer-2" style=""
+                                    src="/images/ultimus/ultimus_bg2_en_mo.jpg"
+                                    style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
+                            </div>
+                            <div class="banner-para ls-0">
+                                <span class="d-lg-block">With high-quality x 2W speakers, now rest assured that everyone
+                                    listens to you clearly without any disturbance. The powerful audio will make sure to
+                                    capture your every word.</span>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 col-lg-6" align="">
+                                    <section class="product-liber-wifi">
+                                        <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
+                                            <div class="data-card mx-3 text-left" style="margin-bottom: 50px;">
+                                                <div class="badge-caption">2 x 2 W</div>
+                                                <span class="badge-value" style="font-size: 2rem;">Stereo Speakers</span>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="col-12 col-lg-6" align="left">
+                                    <section class="product-liber-wifi">
+                                        <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
+                                            <div class="data-card mx-3 text-left" style="margin-bottom: 40px; padding-top: 20px;">
+                                                <span class="badge-value" style="font-size: 2rem;">Dual Mic</span>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="col-12 col-lg-6" align="left"></div>
+                    </div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                </div>
+            </div>
+            <div class="banner-block ls-0 ">
+                <div class="banner-bg hidden-sm-down hidden-md-up"
+                    style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;"></div>
+                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+                <div class="container hidden-md-up">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="row hidden-md-up" style="">
+                        <div class="col-12 col-lg-6" align="">
+                            <div class="h2 banner-header mob-text-center">
+                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Sound that
+                                    needs to be heard
+                                </div>
+                            </div>
+                            <div class="space60"></div>
+                            <div class="ac-computer-wrap hidden-md-up">
+                                <img class="ac-computer-image ac-computer-2" style=""
+                                    src="/images/ultimus/ultimus_bg2_en_mo.jpg"
+                                    style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
+                            </div>
+                            <div class="banner-para ls-0">
+                                <span class="d-lg-block">With high-quality x 2W speakers, now rest assured that
+                                    everyone
+                                    listens to you clearly without any disturbance. The powerful audio will make sure to
+                                    capture your every word.</span>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-lg-6" align="left"></div>
+                    </div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
                 </div>
             </div>
         </section>
@@ -97,7 +221,7 @@
                     style="left: 800px; height:600px;">
                 <img class="bc-computer-image bc-computer-3" src="/images/liber/liber_u_feature/sc3_fimg3.png">
                 <img class="bc-computer-image bc-computer-4" src="/images/liber/liber_u_feature/sc3_fimg4.png">
-                <img class="bc-computer-image bc-computer-5" src="/images/liber/liber_u_feature/sc3_fimg5.png">
+                {{-- <img class="bc-computer-image bc-computer-5" src="/images/liber/liber_u_feature/sc3_fimg5.png"> --}}
                 <img class="bc-computer-image bc-computer-6" src="/images/liber/liber_u_feature/sc3_fimg6.png">
                 <img class="bc-computer-image bc-computer-7" src="/images/liber/liber_u_feature/sc3_fimg7.png">
                 {{-- <img class="bc-computer-image bc-computer-8" src="/images/liber/liber_u_feature/sc3_fimg8.png"> --}}
@@ -110,7 +234,8 @@
                         <img class="ac-computer-image ac-computer-1" style="" src="/images/ultimus/sc3_fimg2.png">
                     </div>
                     <div class="banner-para ls-0">
-                        <span class="d-lg-block">In a world of blues and greys, ooze out vibrancy! Make a statement each
+                        <span class="d-lg-block">In a world of blues and greys, ooze out vibrancy! Make a statement
+                            each
                             time you step out as the new series 6 copious colours: Champagne Gold, Shamrock Green, Sugar
                             Red, Matt Black, Cloud Silver, and Space Grey.</span>
                         {{-- <span class="d-lg-block">Having no compromise to a silky metallic body </span>
@@ -127,84 +252,6 @@
         </div>
         </section>
 
-        <section>
-            <div class="banner-block ls-0 hidden-sm-down">
-                <div class="banner-bg hidden-sm-down"
-                    style="background:url(/images/ultimus/ultimus_bg2_en.jpg) top center no-repeat;"></div>
-                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
-                <div class="container">
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="row" style="margin-right: 100px; margin-bottom:160px;">
-                        <div class="col-12 col-lg-6" align="">
-                            <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase;text-align: center; ">Sound that
-                                    needs to be heard
-                                </div>
-                            </div>
-                            <div class="space60"></div>
-                            <div class="ac-computer-wrap hidden-md-up">
-                                <img class="ac-computer-image ac-computer-2" style=""
-                                    src="/images/ultimus/ultimus_bg2_en_mo.jpg"
-                                    style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
-                            </div>
-                            <div class="banner-para ls-0">
-                                <span class="d-lg-block">With high-quality x 2W speakers, now rest assured that everyone
-                                    listens to you clearly without any disturbance. The powerful audio will make sure to
-                                    capture your every word.</span>
-                            </div>
-
-                        </div>
-                        <div class="col-12 col-lg-6" align="left"></div>
-                    </div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                </div>
-            </div>
-            <div class="banner-block ls-0 ">
-                <div class="banner-bg hidden-sm-down hidden-md-up"
-                    style="background:url(/images/ultimus/ultimus_bg2_en.jpg) top center no-repeat;"></div>
-                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
-                <div class="container hidden-md-up">
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="row hidden-md-up" style="">
-                        <div class="col-12 col-lg-6" align="">
-                            <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Sound that
-                                    needs to be heard
-                                </div>
-                            </div>
-                            <div class="space60"></div>
-                            <div class="ac-computer-wrap hidden-md-up">
-                                <img class="ac-computer-image ac-computer-2" style=""
-                                    src="/images/ultimus/ultimus_bg2_en_mo.jpg"
-                                    style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
-                            </div>
-                            <div class="banner-para ls-0">
-                                <span class="d-lg-block">With high-quality x 2W speakers, now rest assured that
-                                    everyone
-                                    listens to you clearly without any disturbance. The powerful audio will make sure to
-                                    capture your every word.</span>
-                            </div>
-
-                        </div>
-                        <div class="col-12 col-lg-6" align="left"></div>
-                    </div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                </div>
-            </div>
-        </section>
-
         <section class="product-liber-power ls-0">
             <div class="banner-block">
                 <div class="banner-bg"></div>
@@ -217,7 +264,8 @@
                             <div class="banner-info  mx-auto">
 
                                 <div class="h2 banner-header mb-4 mb-sm-5">
-                                    <div class=" left" style="text-transform:uppercase;">Ever-ready Battery</div>
+                                    <div class=" left" style="text-transform:uppercase;">All day Battery life
+                                    </div>
                                 </div>
                                 <div class="banner-para ls-0">
                                     <span class="d-lg-block" style="text-align-last: center;">The constant ping of a
@@ -271,7 +319,7 @@
                 </div>
         </section>
 
-        <section class="product-liber-wifi ls-0">
+        <section class="product-liber-wifi product-ultimus-wifi ls-0">
             <div class="banner-block">
                 <div class="banner-bg"></div>
                 <div class="banner-image">
@@ -315,7 +363,7 @@
                             <div class="data-card my-3 col-12 col-lg-6 text-left">
                                 {{-- <div class="badge-caption">Up to</div> --}}
                                 <div class="badge-value">128<span class="badge-caption pl-1">GB</span></div>
-                                <div class="badge-caption">SSD</div>
+                                <div class="badge-caption">Expendable SSD</div>
                             </div>
                             <div class="data-card my-3 col-12 col-lg-6 text-left">
                                 {{-- <div class="badge-caption">Up to</div> --}}
@@ -384,15 +432,30 @@
                                     your hard-pressed adventures.</span>
                             </div>
 
+                            <div class="row">
+                                <div class="col-12 col-lg-6" align="">
+                                    
                             <section class="product-liber-wifi">
                                 <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
                                     <div class="data-card mx-3 text-left" style="margin-bottom: 50px;">
                                         <span class="badge-value">1.3</span>
                                         <span class="badge-caption">kg</span>
-                                        <div class="badge-caption">16.9 mm thin</div>
                                     </div>
                                 </div>
                             </section>
+                                </div>
+                                <div class="col-12 col-lg-6" align="">
+                                    
+                            <section class="product-liber-wifi">
+                                <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
+                                    <div class="data-card mx-3 text-left" style="margin-bottom: 50px;">
+                                        <span class="badge-value">16.9</span>
+                                        <span class="badge-caption">mm thin</span>
+                                    </div>
+                                </div>
+                            </section>
+                                </div>
+                            </div>
 
 
                         </div>
@@ -410,10 +473,11 @@
         <section class="product-statement">
             <div class="container">
                 <ul class="product-statement-list py-2 py-sm-5 mx-auto ls-0 pl-4 py-0 mt-0 mt-sm-5">
-                    <li>Windows 10 Home in S mode works exclusively with apps from the Microsoft Store within Windows and
+                    <li>Windows 11 Home works exclusively with apps from the Microsoft Store within Windows and
                         accessories that are compatible with Windows 10 Home in S mode. A one-way switch out of S mode is
-                        available. Learn more at <a href="https://Windows.com/SmodeFAQ"
-                            target="_blank"><u>Windows.com/SmodeFAQ</u></a>. </li>
+                        available. Learn more at <a
+                            href="https://support.microsoft.com/en-gb/windows/windows-10-and-windows-11-in-s-mode-faq-851057d6-1ee9-b9e5-c30b-93baebeebc85#WindowsVersion=Windows_11"
+                            target="_blank"><u>Windows.com/SmodeFAQ</u></a>.</li>
                     <li>Centrino Logo, Core Inside, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo, Intel
                         Viiv, Intel vPro, Itanium, Itanium Inside, Pentium, Pentium Inside, Viiv Inside, vPro Inside, Xeon,
                         and Xeon Inside are trademarks of Intel Corporation in the U.S. and other countries.</li>

@@ -19,7 +19,7 @@
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-4" role="tab">
                             <div class="spec-item-name mb-4">
                                 <div class="d-sm-block">AVITA ultimus</div>
-                                <div class="d-sm-block">(35.56 cm)</div>
+                                <div class="d-sm-block">(35.81 cm)</div>
                             </div>
                             <img class="hidden-sm-down" src="/images/ultimus/champagne_gold.png">
                             <ul
@@ -80,7 +80,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Graphics</div>
-                                <div>Intel UHD Graphics</div>
+                                <div>Intel UHD Graphics®</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Storage</div>
@@ -88,11 +88,11 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Integrated Camera</div>
-                                <div>2M</div>
+                                <div>2MP</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Audio</div>
-                                <div>SPEAKER 8Ω/2W 83.3/66.5 x 57.6 x 6mm</div>
+                                <div class="offset-md-1 col-4 col-md-3">Audio/Mic</div>
+                                <div>2 X 2 W Stereo Speakers / Dual Mic</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Keyboard</div>
@@ -116,7 +116,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Weight</div>
-                                <div>Starting from 1.3kg</div>
+                                <div>1.3kg<sup>1</sup></div>
                             </li>
                             
                             <li class="spec-item d-flex">
@@ -125,7 +125,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery Life</div>
-                                <div>Up to 8 hours*</div>
+                                <div>Up to 8 hours<sup>2</sup></div>
                             </li>
 
                             <li class="spec-item d-flex">
@@ -169,7 +169,8 @@
                         rights to keep, change or correct any information without further notice.</li>
                     <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States
                         and/or other countries.</li>
-                    <li>*Under Test Conditions.</li>
+                    <li>1. Under Test Conditions.</li>
+                    <li>2. Under Test Conditions.</li>
 
                 </ul>
             </div>
