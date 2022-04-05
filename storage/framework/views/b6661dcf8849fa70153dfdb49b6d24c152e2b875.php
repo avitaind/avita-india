@@ -31,10 +31,10 @@
                     <div class="space60"></div>
                     <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Built to delight</div>
                     <div class="banner-para">
-                        <span>SATUS ULTIMUS is the right balance of affordability and conventionality. The newly-launched
-                            laptop is crafted with precision and is equipped with all the essentials you need in a digital
-                            notebook. Create an engaging work and wondrous play experience with SATUS ULTIMUS that offers a
-                            14.1 FHD, anti-glare display to indulge in the best viewing experience.</span>
+                        <span>The newly-launched SATUS ULTIMUS is crafted with precision and equipped with all the
+                            essentials you need in a modern digital notebook. Create an engaging work and wondrous play
+                            experience with SATUS ULTIMUS. An instant head-turner to help you move around with
+                            flamboyance.</span>
 
                     </div>
                     <div class="space60"></div>
