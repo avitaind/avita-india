@@ -307,7 +307,7 @@
                     <div class="space60 hidden-sm-down"></div>
                     <div class="row">
                         <div class="col-12 col-lg-6" align="left"></div>
-                        <div class="col-12 col-lg-6" align="left" style="margin-left: 750px;">
+                        <div class="col-12 col-lg-6" align="left" style="margin-left: 630px;">
                             <div class="h2 banner-header mob-text-center">
                                 <div class=""
                                     style="text-transform:uppercase; margin-top:50px;text-align: center; ">Pre-loaded with
