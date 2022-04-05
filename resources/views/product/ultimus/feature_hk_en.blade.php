@@ -52,7 +52,8 @@
                             </div>
 
                             <div class="card" style="border:none; background-color:#EEEEEE;">
-                                <a class="" target="_blank" href="https://in.nexstmall.com/collections/status-ultimus">
+                                <a class="" target="_blank"
+                                    href="https://in.nexstmall.com/collections/status-ultimus">
                                     <img class="pt-2 w-75" src="/images/ultimus/Nexstgo_mall_logo.png">
                                 </a>
                             </div>
@@ -114,15 +115,16 @@
                                 <div class="col-12 col-lg-6" align="left">
                                     <section class="product-liber-wifi">
                                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
-                                            <div class="data-card mx-3 text-left" style="margin-bottom: 40px; padding-top: 20px;">
+                                            <div class="data-card mx-3 text-left"
+                                                style="margin-bottom: 40px; padding-top: 20px;">
                                                 <span class="badge-value" style="font-size: 2rem;">Dual Mic</span>
                                             </div>
                                         </div>
                                     </section>
                                 </div>
                             </div>
-                            
-                            
+
+
                         </div>
                         <div class="col-12 col-lg-6" align="left"></div>
                     </div>
@@ -250,6 +252,89 @@
                 </div>
             </div>
         </div>
+        </section>
+
+        <section class="hidden-md-up">
+            <div class="banner-block ls-0">
+                <div class="banner-bg hidden-sm-down"
+                    style="background:url(/images/ultimus/ultimus_bg6_en.png) top center no-repeat;"></div>
+                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+                <div class="container">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6" align="left"></div>
+                        <div class="col-12 col-lg-6" align="left">
+                            <div class="h2 banner-header mob-text-center">
+                                <div class=""
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Pre-loaded with
+                                    the latest Windows 11</div>
+                            </div>
+                            <div class="space60"></div>
+                            <div class="ac-computer-wrap hidden-md-up">
+                                <img class="ac-computer-image ac-computer-2" style=""
+                                    src="/images/ultimus/ultimus_bg6_en_mo.png">
+                            </div>
+                            <div class="banner-para ls-0">
+                                <span class="d-lg-block">Pre-Loaded with the latest Windows 11 Home that is web- and
+                                    mobile-friendly. Its new user interface is simple and provides precise control over all
+                                    elements, helping consumers to work more comfortably and efficiently.</span>
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="space60 hidden-sm-down"></div>
+                    {{-- <div class="space60 hidden-sm-down"></div> --}}
+                    {{-- <div class="space60 hidden-sm-down"></div> --}}
+                    {{-- <div class="space60 hidden-sm-down"></div> --}}
+                </div>
+            </div>
+        </section>
+
+        <section class="hidden-sm-down">
+            <div class="banner-block ls-0">
+                <div class="banner-bg hidden-sm-down"
+                    style="background:url(/images/ultimus/ultimus_bg6_en.png) top center no-repeat;"></div>
+                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+                <div class="container">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6" align="left"></div>
+                        <div class="col-12 col-lg-6" align="left" style="margin-left: 750px;">
+                            <div class="h2 banner-header mob-text-center">
+                                <div class=""
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Pre-loaded with
+                                    the latest Windows 11</div>
+                            </div>
+                            <div class="space60"></div>
+                            <div class="ac-computer-wrap hidden-md-up">
+                                <img class="ac-computer-image ac-computer-2" style=""
+                                    src="/images/ultimus/ultimus_bg6_en_mo.png">
+                            </div>
+                            <div class="banner-para ls-0">
+                                <span class="d-lg-block">Pre-Loaded with the latest Windows 11 Home that is web- and
+                                    mobile-friendly. Its new user interface is simple and provides precise control over all
+                                    elements, helping consumers to work more comfortably and efficiently.</span>
+                            </div>
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+
+                        </div>
+                    </div>
+                    <div class="space60 hidden-sm-down"></div>
+                    {{-- <div class="space60 hidden-sm-down"></div> --}}
+                    {{-- <div class="space60 hidden-sm-down"></div> --}}
+                    {{-- <div class="space60 hidden-sm-down"></div> --}}
+                </div>
+            </div>
         </section>
 
         <section class="product-liber-power ls-0">
@@ -434,26 +519,26 @@
 
                             <div class="row">
                                 <div class="col-12 col-lg-6" align="">
-                                    
-                            <section class="product-liber-wifi">
-                                <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
-                                    <div class="data-card mx-3 text-left" style="margin-bottom: 50px;">
-                                        <span class="badge-value">1.3</span>
-                                        <span class="badge-caption">kg</span>
-                                    </div>
-                                </div>
-                            </section>
+
+                                    <section class="product-liber-wifi">
+                                        <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
+                                            <div class="data-card mx-3 text-left" style="margin-bottom: 50px;">
+                                                <span class="badge-value">1.3</span>
+                                                <span class="badge-caption">kg</span>
+                                            </div>
+                                        </div>
+                                    </section>
                                 </div>
                                 <div class="col-12 col-lg-6" align="">
-                                    
-                            <section class="product-liber-wifi">
-                                <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
-                                    <div class="data-card mx-3 text-left" style="margin-bottom: 50px;">
-                                        <span class="badge-value">16.9</span>
-                                        <span class="badge-caption">mm thin</span>
-                                    </div>
-                                </div>
-                            </section>
+
+                                    <section class="product-liber-wifi">
+                                        <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
+                                            <div class="data-card mx-3 text-left" style="margin-bottom: 50px;">
+                                                <span class="badge-value">16.9</span>
+                                                <span class="badge-caption">mm thin</span>
+                                            </div>
+                                        </div>
+                                    </section>
                                 </div>
                             </div>
 
