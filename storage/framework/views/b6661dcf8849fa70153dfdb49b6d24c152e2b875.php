@@ -97,9 +97,10 @@
                                 <div class="col-12 col-lg-6" align="">
                                     <section class="product-liber-wifi">
                                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
-                                            <div class="data-card mx-3 text-left" style="margin-bottom: 50px;">
-                                                <div class="badge-caption">2 x 2 W</div>
-                                                <span class="badge-value" style="font-size: 2rem;">Stereo Speakers</span>
+                                            <div class="data-card mx-3 text-left" style="margin-bottom: 50px;padding-top: 20px;">
+                                                
+                                                <div class="badge-caption">  </div>
+                                                <span class="badge-value" style="font-size: 2rem; ">Stereo Speakers</span>
                                             </div>
                                         </div>
                                     </section>
@@ -109,7 +110,7 @@
                                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
                                             <div class="data-card mx-3 text-left"
                                                 style="margin-bottom: 40px; padding-top: 20px;">
-                                                <span class="badge-value" style="font-size: 2rem;">Dual Mic</span>
+                                                <span class="badge-value" style="font-size: 2rem;">Dual <br/>Mic</span>
                                             </div>
                                         </div>
                                     </section>
@@ -500,8 +501,7 @@
                         <div class="col-12 col-lg-6" align="left">
                             <div class="h2 banner-header mob-text-center">
                                 <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Slim and
-                                    Lightweight; Effortless Mobility</div>
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">ultra thin & light</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -567,8 +567,7 @@
                         <div class="col-12 col-lg-6" align="left" style="padding-left: 50px;">
                             <div class="h2 banner-header mob-text-center">
                                 <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Slim and
-                                    Lightweight; Effortless Mobility</div>
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">ultra thin & light</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -635,8 +634,7 @@
                     <div class="row" style="margin-right: 100px; ">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase;text-align: center; ">Fanless
-                                    Notebook</div>
+                                <div class="" style="text-transform:uppercase;text-align: center; ">Fanless design</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -678,8 +676,7 @@
                     <div class="row hidden-md-up" style="">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Fanless
-                                    Notebook</div>
+                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Fanless design</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
