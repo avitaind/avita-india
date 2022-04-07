@@ -33,11 +33,10 @@
                     <div class="space60"></div>
                     <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Built to delight</div>
                     <div class="banner-para">
-                        <span>The newly-launched SATUS ULTIMUS is crafted with precision and equipped with all the
-                            essentials you need in a modern digital notebook. Create an engaging work and wondrous play
-                            experience with SATUS ULTIMUS. An instant head-turner to help you move around with
-                            flamboyance.</span>
-
+                        <span>The newly-launched AVITA ULTIMUS, the first in its series SATUS, is crafted with precision and
+                            equipped with all the essentials you need in a modern digital notebook. Create an engaging work
+                            and wondrous play experience with SATUS ULTIMUS. An instant head-turner to help you move around
+                            with flamboyance.</span>
                     </div>
                     <div class="space60"></div>
 
@@ -46,23 +45,23 @@
                         <div class="card-deck">
 
                             <div class="card" style="border:none;background-color:#EEEEEE;">
-                                <a class="" target="_blank" href="#">
+                                <a class="" target="_blank" href="https://www.amazon.in/dp/B09V73PJB8">
                                     <img class="pt-3 w-50" src="/images/ultimus/AZ-logo.png">
                                 </a>
                             </div>
 
                             <div class="card" style="border:none; background-color:#EEEEEE;">
                                 <a class="" target="_blank"
-                                    href="https://in.nexstmall.com/collections/status-ultimus">
+                                    href="https://in.nexstmall.com/collections/satus-ultimus">
                                     <img class="pt-2 w-75" src="/images/ultimus/Nexstgo_mall_logo.png">
                                 </a>
                             </div>
 
-                            <div class="card" style="border:none;background-color:#EEEEEE;">
+                            {{-- <div class="card" style="border:none;background-color:#EEEEEE;">
                                 <a class="" target="_blank" href="#">
                                     <img class="w-50" src="/images/ultimus/FK-logo.png">
                                 </a>
-                            </div>
+                            </div> --}}
 
                         </div>
                     </div>
@@ -85,8 +84,8 @@
                     <div class="row" style="margin-right: 100px; ">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase;text-align: center; ">Multimedia
-                                    Experience</div>
+                                <div class="" style="text-transform:uppercase;text-align: center; ">
+                                    Captivating Multimedia Experience</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -146,8 +145,8 @@
                     <div class="row hidden-md-up" style="">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Multimedia
-                                    Experience</div>
+                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Captivating
+                                    Multimedia Experience</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -188,8 +187,8 @@
                         <div class="col-12 col-lg-6" align="left">
                             <div class="h2 banner-header mob-text-center">
                                 <div class=""
-                                    style="text-transform:uppercase;padding-top: 30px;text-align: center;">Connectivity that
-                                    Speaks</div>
+                                    style="text-transform:uppercase;padding-top: 30px;text-align: center;">Seamless
+                                    connectivity; Efficient Productivity</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -229,7 +228,8 @@
             <div class="container">
                 <div class="banner-info">
 
-                    <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Head-turning Colours</div>
+                    <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;text-align: center;">Pick from 6 Copious
+                        Colours</div>
                     <div class="ac-computer-wrap hidden-md-up">
                         <img class="ac-computer-image ac-computer-1" style="" src="/images/ultimus/sc3_fimg2.png">
                     </div>
@@ -335,6 +335,8 @@
             </div>
         </section>
 
+        {{-- Section 6 Start --}}
+
         <section class="product-liber-power ls-0">
             <div class="banner-block">
                 <div class="banner-bg"></div>
@@ -402,6 +404,10 @@
                 </div>
         </section>
 
+        {{-- Section 6 End --}}
+
+        {{-- section 7 Start --}}
+
         <section class="product-liber-wifi product-ultimus-wifi ls-0">
             <div class="banner-block">
                 <div class="banner-bg"></div>
@@ -411,7 +417,7 @@
                 <div class="container">
                     <div class="banner-info ls-0" style="text-align:left; min-height:950px; width: 611px;">
                         <div class="h2 mob-text-center banner-header mb-4 mb-sm-5"
-                            style="text-transform:uppercase;text-align: center; ">Impeccable Competence</div>
+                            style="text-transform:uppercase;text-align: center; ">Processor </div>
 
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
@@ -463,13 +469,17 @@
             </div>
         </section>
 
+        {{-- Section 7 End --}}
+
+        {{-- Section 8 Start --}}
+
         <section class="product-liber-computer ls-0" id="test" style="background-color:#eee;">
             <div class="container">
 
                 <div class="banner-info" style="max-width:100%;">
                     <div class="space60"></div>
-                    <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">KEYBOARD THAT SCREAMS
-                        COMFORT</div>
+                    <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Keyboard that Redefines
+                        Comfort</div>
                     <div class="banner-para">
                         <span>The ergonomic keyboard of SATUS ULTIMUS minimizes muscle strain, fatigue, and other problems.
                             Its thoughtfully designed keyboard provides a seamless typing experience with maximum
@@ -485,6 +495,10 @@
             </div>
         </section>
 
+        {{-- Section 8 End --}}
+
+        {{-- Section 9 Start --}}
+
         <section class="hidden-md-up">
             <div class="banner-block ls-0">
                 <div class="banner-bg hidden-sm-down"
@@ -499,9 +513,8 @@
                         <div class="col-12 col-lg-6" align="left">
                             <div class="h2 banner-header mob-text-center">
                                 <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Unrivaled &
-                                    Perceptible
-                                    Mobility</div>
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Slim and
+                                    Lightweight; Effortless Mobility</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -511,7 +524,7 @@
                             <div class="banner-para ls-0">
                                 <span class="d-lg-block">SATUS ULTIMUS proposes tangible portability. It is housed in a
                                     metallic chassis without compromising the thinness and lightweight. At merely, 16.9 mm
-                                    thinness and weight just 1.3 kg, it makes for a tremendously compatible companion for
+                                    thinness and weight just 1.3 kg*, it makes for a tremendously compatible companion for
                                     your hard-pressed adventures.</span>
                             </div>
 
@@ -522,7 +535,7 @@
                                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
                                             <div class="data-card mx-3 text-left" style="margin-bottom: 50px;">
                                                 <span class="badge-value">1.3</span>
-                                                <span class="badge-caption">kg</span>
+                                                <span class="badge-caption">kg*</span>
                                             </div>
                                         </div>
                                     </section>
@@ -564,12 +577,11 @@
                     <div class="space60 hidden-sm-down"></div>
                     <div class="row">
                         <div class="col-12 col-lg-6" align="left"></div>
-                        <div class="col-12 col-lg-6" align="left">
+                        <div class="col-12 col-lg-6" align="left" style="padding-left: 50px;">
                             <div class="h2 banner-header mob-text-center">
                                 <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Unrivaled &
-                                    Perceptible
-                                    Mobility</div>
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Slim and
+                                    Lightweight; Effortless Mobility</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -579,7 +591,7 @@
                             <div class="banner-para ls-0">
                                 <span class="d-lg-block">SATUS ULTIMUS proposes tangible portability. It is housed in a
                                     metallic chassis without compromising the thinness and lightweight. At merely, 16.9 mm
-                                    thinness and weight just 1.3 kg, it makes for a tremendously compatible companion for
+                                    thinness and weight just 1.3 kg*, it makes for a tremendously compatible companion for
                                     your hard-pressed adventures.</span>
                             </div>
 
@@ -590,7 +602,7 @@
                                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
                                             <div class="data-card mx-3 text-left" style="margin-bottom: 50px;">
                                                 <span class="badge-value">1.3</span>
-                                                <span class="badge-caption">kg</span>
+                                                <span class="badge-caption">kg*</span>
                                             </div>
                                         </div>
                                     </section>
@@ -614,12 +626,368 @@
 
                     </div>
                     <div class="space60 hidden-sm-down"></div>
+                    {{-- <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div> --}}
+                </div>
+            </div>
+        </section>
+
+        {{-- Section 9 End --}}
+
+        {{-- Section 10 Start --}}
+
+        <section class="">
+            <div class="banner-block ls-0 hidden-sm-down">
+                <div class="banner-bg hidden-sm-down"
+                    style="background:url(/images/ultimus/ultimus_bg10_en.png) top center no-repeat;"></div>
+                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+                <div class="container">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="row" style="margin-right: 100px; ">
+                        <div class="col-12 col-lg-6" align="">
+                            <div class="h2 banner-header mob-text-center">
+                                <div class="" style="text-transform:uppercase;text-align: center; ">Fanless
+                                    Notebook</div>
+                            </div>
+                            <div class="space60"></div>
+                            <div class="ac-computer-wrap hidden-md-up">
+                                <img class="ac-computer-image ac-computer-2" style=""
+                                    src="/images/ultimus/ultimus_bg10_en_mo.png"
+                                    style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
+                            </div>
+                            <div class="banner-para ls-0">
+                                <span class="d-lg-block">Keep your laptop close to you. The Fanless design helps
+                                    eliminate any heating issues whatsoever so you can enjoy working without any fuss. SATUS
+                                    ULTIMUS is quiet, clean, reliable, and cool.</span>
+                            </div>
+
+
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+
+
+                        </div>
+                        <div class="col-12 col-lg-6" align="left"></div>
+                    </div>
+                    {{-- <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div> --}}
+                </div>
+            </div>
+            <div class="banner-block ls-0 ">
+                <div class="banner-bg hidden-sm-down hidden-md-up"
+                    style="background:url(/images/ultimus/ultimus_bg10_en.png) top center no-repeat;"></div>
+                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+                <div class="container hidden-md-up">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="row hidden-md-up" style="">
+                        <div class="col-12 col-lg-6" align="">
+                            <div class="h2 banner-header mob-text-center">
+                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Fanless
+                                    Notebook</div>
+                            </div>
+                            <div class="space60"></div>
+                            <div class="ac-computer-wrap hidden-md-up">
+                                <img class="ac-computer-image ac-computer-2" style=""
+                                    src="/images/ultimus/ultimus_bg10_en_mo.png"
+                                    style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
+                            </div>
+                            <div class="banner-para ls-0">
+                                <span class="d-lg-block">Keep your laptop close to you. The Fanless design helps
+                                    eliminate any heating issues whatsoever so you can enjoy working without any fuss. SATUS
+                                    ULTIMUS is quiet, clean, reliable, and cool.</span>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-lg-6" align="left"></div>
+                    </div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                 </div>
             </div>
         </section>
+
+        {{-- Section 10 End --}}
+
+        {{-- Section 11 Start --}}
+
+        <section class="hidden-md-up">
+            <div class="banner-block ls-0">
+                <div class="banner-bg hidden-sm-down"
+                    style="background:url(/images/ultimus/ultimus_bg7_en.png) top center no-repeat;"></div>
+                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+                <div class="container">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6" align="left"></div>
+                        <div class="col-12 col-lg-6" align="left">
+                            <div class="h2 banner-header mob-text-center">
+                                <div class=""
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Lightning Fast
+                                    SSD</div>
+                            </div>
+                            <div class="space60"></div>
+                            <div class="ac-computer-wrap hidden-md-up">
+                                <img class="ac-computer-image ac-computer-2" style=""
+                                    src="/images/ultimus/ultimus_bg7_en_mo.png">
+                            </div>
+                            <div class="banner-para ls-0">
+                                <span class="d-lg-block">Experience speed with the expandable 128 GB SSD that provides
+                                    faster and more efficient alternative to the HDDs.</span>
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hidden-sm-down">
+            <div class="banner-block ls-0">
+                <div class="banner-bg hidden-sm-down"
+                    style="background:url(/images/ultimus/ultimus_bg7_en.png) top center no-repeat;"></div>
+                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+                <div class="container">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6" align="left"></div>
+                        <div class="col-12 col-lg-6" align="left" style="padding-left: 50px;">
+                            <div class="h2 banner-header mob-text-center">
+                                <div class=""
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Lightning Fast
+                                    SSD</div>
+                            </div>
+                            <div class="space60"></div>
+                            <div class="ac-computer-wrap hidden-md-up">
+                                <img class="ac-computer-image ac-computer-2" style=""
+                                    src="/images/ultimus/ultimus_bg7_en_mo.png">
+                            </div>
+                            <div class="banner-para ls-0">
+                                <span class="d-lg-block">Experience speed with the expandable 128 GB SSD that provides
+                                    faster and more efficient alternative to the HDDs.</span>
+                            </div>
+
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="space60 hidden-sm-down"></div>
+                    {{-- <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div> --}}
+                </div>
+            </div>
+        </section>
+
+        {{-- Section 11 End --}}
+
+        {{-- Section 12 Start --}}
+
+        <section class="">
+            <div class="banner-block ls-0 hidden-sm-down">
+                <div class="banner-bg hidden-sm-down"
+                    style="background:url(/images/ultimus/ultimus_bg8_en.png) top center no-repeat;"></div>
+                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+                <div class="container">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="row" style="margin-right: 100px; ">
+                        <div class="col-12 col-lg-6" align="">
+                            <div class="h2 banner-header mob-text-center">
+                                <div class="" style="text-transform:uppercase;text-align: center; ">Link your
+                                    PC & Phone</div>
+                            </div>
+                            <div class="space60"></div>
+                            <div class="ac-computer-wrap hidden-md-up">
+                                <img class="ac-computer-image ac-computer-2" style=""
+                                    src="/images/ultimus/ultimus_bg8_en_mo.png"
+                                    style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
+                            </div>
+                            <div class="banner-para ls-0">
+                                <span class="d-lg-block">Connect your laptop & phone through Windows 11’s Your Phone
+                                    app. Access photos, make or receive phone calls, and send or take text messages on your
+                                    PC.</span>
+                            </div>
+
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+
+
+                        </div>
+                        <div class="col-12 col-lg-6" align="left"></div>
+                    </div>
+                    {{-- <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div> --}}
+                </div>
+            </div>
+            <div class="banner-block ls-0 ">
+                <div class="banner-bg hidden-sm-down hidden-md-up"
+                    style="background:url(/images/ultimus/ultimus_bg8_en.png) top center no-repeat;"></div>
+                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+                <div class="container hidden-md-up">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="row hidden-md-up" style="">
+                        <div class="col-12 col-lg-6" align="">
+                            <div class="h2 banner-header mob-text-center">
+                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Link your PC & Phone</div>
+                            </div>
+                            <div class="space60"></div>
+                            <div class="ac-computer-wrap hidden-md-up">
+                                <img class="ac-computer-image ac-computer-2" style=""
+                                    src="/images/ultimus/ultimus_bg8_en_mo.png"
+                                    style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
+                            </div>
+                            <div class="banner-para ls-0">
+                                <span class="d-lg-block">Connect your laptop & phone through Windows 11’s Your Phone app. Access photos, make or receive phone calls, and send or take text messages on your PC.</span>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-lg-6" align="left"></div>
+                    </div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                </div>
+            </div>
+        </section>
+
+        {{-- Section 12 End --}}
+
+        {{-- Section 13 Start --}}
+
+        <section class="hidden-md-up">
+            <div class="banner-block ls-0">
+                <div class="banner-bg hidden-sm-down"
+                    style="background:url(/images/ultimus/ultimus_bg9_en.png) top center no-repeat;"></div>
+                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+                <div class="container">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6" align="left"></div>
+                        <div class="col-12 col-lg-6" align="left">
+                            <div class="h2 banner-header mob-text-center">
+                                <div class=""
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Mesmerizing FHD
+                                    Display </div>
+                            </div>
+                            <div class="space60"></div>
+                            <div class="ac-computer-wrap hidden-md-up">
+                                <img class="ac-computer-image ac-computer-2" style=""
+                                    src="/images/ultimus/ultimus_bg9_en_mo.png">
+                            </div>
+                            <div class="banner-para ls-0">
+                                <span class="d-lg-block">Give a wider perspective to work and play with the mesmerizing
+                                    14.1 FHD anti-glare display of SATUS ULTIMUS. Indulge in the best viewing experience with
+                                    a Full HD 1920 x 1080p resolution.</span>
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hidden-sm-down">
+            <div class="banner-block ls-0">
+                <div class="banner-bg hidden-sm-down"
+                    style="background:url(/images/ultimus/ultimus_bg9_en.png) top center no-repeat;"></div>
+                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+                <div class="container">
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6" align="left"></div>
+                        <div class="col-12 col-lg-6" align="left" style="padding-left: 50px;">
+                            <div class="h2 banner-header mob-text-center">
+                                <div class=""
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Mesmerizing FHD
+                                    Display </div>
+                            </div>
+                            <div class="space60"></div>
+                            <div class="ac-computer-wrap hidden-md-up">
+                                <img class="ac-computer-image ac-computer-2" style=""
+                                    src="/images/ultimus/ultimus_bg9_en_mo.png">
+                            </div>
+                            <div class="banner-para ls-0">
+                                <span class="d-lg-block">Give a wider perspective to work and play with the mesmerizing
+                                    14.1 FHD anti-glare display of SATUS ULTIMUS. Indulge in the best viewing experience with
+                                    a Full HD 1920 x 1080p resolution.</span>
+                            </div>
+
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space60 hidden-sm-down"></div>
+
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="space60 hidden-sm-down"></div>
+                    {{-- <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div> --}}
+                </div>
+            </div>
+        </section>
+
+        {{-- Section 13 End --}}
 
         <section class="product-statement">
             <div class="container">
