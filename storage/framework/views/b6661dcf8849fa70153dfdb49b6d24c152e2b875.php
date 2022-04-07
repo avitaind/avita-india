@@ -262,6 +262,7 @@
                                 <div class=""
                                     style="text-transform:uppercase; margin-top:50px;text-align: center; ">Pre-loaded with
                                     the latest Windows 11</div>
+                                    <img src="/images/ultimus/windows_11.png" style="width: 200px;padding-top: 20px;">
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -304,6 +305,8 @@
                                 <div class=""
                                     style="text-transform:uppercase; margin-top:50px;text-align: center; ">Pre-loaded with
                                     the latest Windows 11</div>
+                                    <img src="/images/ultimus/windows_11.png" style="width: 310px;margin-left: 107px;padding-top: 20px;">
+
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -810,6 +813,8 @@
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
                     <div class="row" style="margin-right: 100px; ">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
@@ -996,6 +1001,7 @@
                     <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States
                         and/or other countries.</li>
                     <li>*Under Test Conditions</li>
+                    <li>"Microsoft" "Your Phone" and "Your Phone Companion" are trademarks of the Microsoft group of companies in the US and/or other countries</li>
                 </ul>
             </div>
         </section>
