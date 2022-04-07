@@ -46,7 +46,7 @@
                                 <a class="" target="_blank" href="https://www.amazon.in/dp/B09V73PJB8">
                                     <img class="pt-3 w-50" src="/images/ultimus/AZ-logo.png">
                                 </a>
-                            </div>
+                            </div> &nbsp;
 
                             <div class="card" style="border:none; background-color:#EEEEEE;">
                                 <a class="" target="_blank"
@@ -97,10 +97,12 @@
                                 <div class="col-12 col-lg-6" align="">
                                     <section class="product-liber-wifi">
                                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
-                                            <div class="data-card mx-3 text-left" style="margin-bottom: 50px;padding-top: 20px;">
+                                            <div class="data-card mx-3 text-left"
+                                                style="margin-bottom: 50px;padding-top: 20px;">
                                                 
-                                                <div class="badge-caption">  </div>
-                                                <span class="badge-value" style="font-size: 2rem; ">Stereo Speakers</span>
+                                                <div class="badge-caption"> </div>
+                                                <span class="badge-value" style="font-size: 2rem; ">Stereo
+                                                    Speakers</span>
                                             </div>
                                         </div>
                                     </section>
@@ -110,7 +112,7 @@
                                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
                                             <div class="data-card mx-3 text-left"
                                                 style="margin-bottom: 40px; padding-top: 20px;">
-                                                <span class="badge-value" style="font-size: 2rem;">Dual <br/>Mic</span>
+                                                <span class="badge-value" style="font-size: 2rem;">Dual <br />Mic</span>
                                             </div>
                                         </div>
                                     </section>
@@ -223,7 +225,8 @@
             <div class="container">
                 <div class="banner-info">
 
-                    <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;text-align: center;">Pick from 6 Copious
+                    <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;text-align: center;">Pick
+                        from 6 Copious
                         Colours</div>
                     <div class="ac-computer-wrap hidden-md-up">
                         <img class="ac-computer-image ac-computer-1" style="" src="/images/ultimus/sc3_fimg2.png">
@@ -501,7 +504,8 @@
                         <div class="col-12 col-lg-6" align="left">
                             <div class="h2 banner-header mob-text-center">
                                 <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">ultra thin & light</div>
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">ultra thin &
+                                    light</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -567,7 +571,8 @@
                         <div class="col-12 col-lg-6" align="left" style="padding-left: 50px;">
                             <div class="h2 banner-header mob-text-center">
                                 <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">ultra thin & light</div>
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">ultra thin &
+                                    light</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -634,7 +639,8 @@
                     <div class="row" style="margin-right: 100px; ">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase;text-align: center; ">Fanless design</div>
+                                <div class="" style="text-transform:uppercase;text-align: center; ">Fanless
+                                    design</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -676,7 +682,8 @@
                     <div class="row hidden-md-up" style="">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Fanless design</div>
+                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Fanless
+                                    design</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -753,8 +760,8 @@
                 <div class="container">
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
-                            <div class="space60 hidden-sm-down"></div>
-                            <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
                     <div class="row">
                         <div class="col-12 col-lg-6" align="left"></div>
                         <div class="col-12 col-lg-6" align="left" style="padding-left: 50px;">
@@ -847,7 +854,8 @@
                     <div class="row hidden-md-up" style="">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Link your PC & Phone</div>
+                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Link your
+                                    PC & Phone</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -856,7 +864,9 @@
                                     style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                             </div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block">Connect your laptop & phone through Windows 11’s Your Phone app. Access photos, make or receive phone calls, and send or take text messages on your PC.</span>
+                                <span class="d-lg-block">Connect your laptop & phone through Windows 11’s Your Phone
+                                    app. Access photos, make or receive phone calls, and send or take text messages on your
+                                    PC.</span>
                             </div>
 
                         </div>
@@ -897,7 +907,8 @@
                             </div>
                             <div class="banner-para ls-0">
                                 <span class="d-lg-block">Give a wider perspective to work and play with the mesmerizing
-                                    14.1 FHD anti-glare display of SATUS ULTIMUS. Indulge in the best viewing experience with
+                                    14.1 FHD anti-glare display of SATUS ULTIMUS. Indulge in the best viewing experience
+                                    with
                                     a Full HD 1920 x 1080p resolution.</span>
                             </div>
 
@@ -940,7 +951,8 @@
                             </div>
                             <div class="banner-para ls-0">
                                 <span class="d-lg-block">Give a wider perspective to work and play with the mesmerizing
-                                    14.1 FHD anti-glare display of SATUS ULTIMUS. Indulge in the best viewing experience with
+                                    14.1 FHD anti-glare display of SATUS ULTIMUS. Indulge in the best viewing experience
+                                    with
                                     a Full HD 1920 x 1080p resolution.</span>
                             </div>
 
@@ -1000,6 +1012,13 @@
         span {
             text-align: justify;
             text-align-last: center;
+        }
+
+        @media (max-width: 575px) {
+            .banner-para {
+                text-align: justify!important;
+            }
+
         }
 
     </style>
