@@ -38,24 +38,30 @@
                             and wondrous play experience with SATUS ULTIMUS. An instant head-turner to help you move around
                             with flamboyance.</span>
                     </div>
-                    <div class="space60"></div>
+                    <div class="space60 hidden-sm-down"></div>
 
                     {{-- <span class="buy-now2"><a href="https://in.nexstmall.com/" target="_blank">Buy now ></a></span> --}}
                     <div class="container">
                         <div class="card-deck">
 
-                            <div class="card" style="border:none;background-color:#EEEEEE;">
+                            <div class="card hidden-sm-down" style="border:none;background-color:#EEEEEE;">
+                                <a class="" target="_blank" href="https://www.amazon.in/AVITA-SATUS-S111-NU14A1INC43PN-MB-35-81cms/dp/B09V73PJB8/">
+                                    <img class="pt-3 w-25" src="/images/ultimus/AZ-logo.png">
+                                </a>
+                            </div> &nbsp;
+
+                            <div class="card hidden-md-up" style="border:none;background-color:#EEEEEE;">
                                 <a class="" target="_blank" href="https://www.amazon.in/AVITA-SATUS-S111-NU14A1INC43PN-MB-35-81cms/dp/B09V73PJB8/">
                                     <img class="pt-3 w-50" src="/images/ultimus/AZ-logo.png">
                                 </a>
                             </div> &nbsp;
 
-                            <div class="card" style="border:none; background-color:#EEEEEE;">
+                            {{-- <div class="card" style="border:none; background-color:#EEEEEE;">
                                 <a class="" target="_blank"
                                     href="https://in.nexstmall.com/products/avita-satus-ultimus-s111-nu14a1inc43pn-mb-intel-gemini-lake-n4020-4gb-ram-128gb-ssd-matt-black">
                                     <img class="pt-2 w-75" src="/images/ultimus/Nexstgo_mall_logo.png">
                                 </a>
-                            </div>
+                            </div> --}}
 
                             {{-- <div class="card" style="border:none;background-color:#EEEEEE;">
                                 <a class="" target="_blank" href="#">

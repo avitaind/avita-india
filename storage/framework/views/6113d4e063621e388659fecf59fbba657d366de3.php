@@ -1,14 +1,12 @@
-@extends('layouts.app')
+<?php $__env->startSection('title'); ?>
+    <?php echo app('translator')->getFromJson('title.Pura_spec'); ?>
+<?php $__env->stopSection(); ?>
 
-@section('title')
-    @lang('title.Pura_spec')
-@stop
-
-@section('content')`
+<?php $__env->startSection('content'); ?>`
 
     <main class="top-nav-padding">
 
-        @include('partials.ultimus-product-navbar')
+        <?php echo $__env->make('partials.ultimus-product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
         <section>
 
@@ -61,12 +59,7 @@
                 <div class="tab-pane active" id="spec-4" role="tabpanel">
                     <div class="container">
 
-                        {{-- <div class="logo-wrapper d-flex px-3 mt-4">
-                            <div class="offset-md-1">
-                                <img style="width: 200px;" src="{{ asset('images/win10_logo.png') }}"
-                                    alt="Windows 10 Home">
-                            </div>
-                        </div> --}}
+                        
 
                         <ul class="list-unstyled spec-list">
                             <li class="spec-item d-flex">
@@ -125,10 +118,7 @@
                                 <div class="offset-md-1 col-4 col-md-3">Weight</div>
                                 <div>1.3kg<sup>1</sup></div>
                             </li>
-                            {{-- <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Adapter</div>
-                                <div>40W AC Adapter</div>
-                            </li> --}}
+                            
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery</div>
                                 <div>7.4V 5000mAH</div>
@@ -192,4 +182,6 @@
 
     </main>
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
