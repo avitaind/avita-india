@@ -46,7 +46,7 @@
 
                             <div class="card hidden-sm-down" style="border:none;background-color:#EEEEEE;">
                                 <a class="" target="_blank" href="https://www.amazon.in/AVITA-SATUS-S111-NU14A1INC43PN-MB-35-81cms/dp/B09V73PJB8/">
-                                    <img class="pt-3 w-25" src="/images/ultimus/AZ-logo.png">
+                                    <img class="pt-3 w-25" src="/images/ultimus/AZ-logo.png" style="    margin-left: 30px;">
                                 </a>
                             </div> &nbsp;
 
