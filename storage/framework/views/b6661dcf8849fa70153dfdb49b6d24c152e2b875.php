@@ -50,7 +50,7 @@
 
                             <div class="card" style="border:none; background-color:#EEEEEE;">
                                 <a class="" target="_blank"
-                                    href="https://in.nexstmall.com/collections/satus-ultimus">
+                                    href="https://in.nexstmall.com/products/avita-satus-ultimus-s111-nu14a1inc43pn-mb-intel-gemini-lake-n4020-4gb-ram-128gb-ssd-matt-black">
                                     <img class="pt-2 w-75" src="/images/ultimus/Nexstgo_mall_logo.png">
                                 </a>
                             </div>
