@@ -61,8 +61,9 @@
                                                 href="<?php echo e(route('product.overview', ['liber-new-generation'])); ?>"><?php echo app('translator')->getFromJson('site.liber-new-generation'); ?></a>
                                         </li>
                                         <li class="nav-item">
-                                            
-                                                <a class="nav-link px-md-4 py-2" ><?php echo app('translator')->getFromJson('site.ultimus_c'); ?></a>
+                                            <a class="nav-link px-md-4 py-2"
+                                                href="<?php echo e(route('product.overview', ['ultimus'])); ?>"><?php echo app('translator')->getFromJson('site.ultimus_c'); ?></a>
+                                                
                                         </li>
                                     </ul>
                                 </div>

@@ -43,7 +43,7 @@
                         <div class="card-deck">
 
                             <div class="card" style="border:none;background-color:#EEEEEE;">
-                                <a class="" target="_blank" href="https://www.amazon.in/dp/B09V73PJB8">
+                                <a class="" target="_blank" href="https://www.amazon.in/AVITA-SATUS-S111-NU14A1INC43PN-MB-35-81cms/dp/B09V73PJB8/">
                                     <img class="pt-3 w-50" src="/images/ultimus/AZ-logo.png">
                                 </a>
                             </div> &nbsp;
