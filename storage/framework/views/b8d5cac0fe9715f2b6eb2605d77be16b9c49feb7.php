@@ -132,6 +132,8 @@
                 <li data-target="#home_banner" data-slide-to="5"></li>
                 <li data-target="#home_banner" data-slide-to="6"></li>
                 <li data-target="#home_banner" data-slide-to="7"></li>
+                <li data-target="#home_banner" data-slide-to="8"></li>
+                <li data-target="#home_banner" data-slide-to="9"></li>
             </ol>
         </div>
     </div>
