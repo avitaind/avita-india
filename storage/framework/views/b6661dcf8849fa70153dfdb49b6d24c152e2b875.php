@@ -528,7 +528,7 @@
 
                                     <section class="product-liber-wifi">
                                         <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
-                                            <div class="data-card mx-3 text-left" style="margin-bottom: 50px;">
+                                            <div class="data-card mx-3 text-left" style="margin-bottom: 80px;">
                                                 <span class="badge-value">1.3</span>
                                                 <span class="badge-caption">kg*</span>
                                             </div>

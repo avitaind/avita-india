@@ -14,7 +14,7 @@
                 </div>
             </div>
 
-            <div class="carousel-item ">
+            {{-- <div class="carousel-item ">
                 <div class="responsive-block">
                     <a href="news/detail/17">
 
@@ -24,7 +24,7 @@
                         </div>
                     </a>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="carousel-item ">
                 <div class="responsive-block">
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="carousel-item ">
+            {{-- <div class="carousel-item ">
                 <div class="responsive-block">
                     <a href="https://avita-india.com/news/detail/12">
 
@@ -58,9 +58,9 @@
                         </div>
                     </a>
                 </div>
-            </div>
+            </div> --}}
 
-            <div class="carousel-item ">
+            {{-- <div class="carousel-item ">
                 <div class="responsive-block">
                     <a href="https://amzn.to/3iydJ0f">
 
@@ -70,15 +70,27 @@
                         </div>
                     </a>
                 </div>
-            </div>
+            </div> --}}
 
-            <div class="carousel-item ">
+            {{-- <div class="carousel-item ">
                 <div class="responsive-block">
                     <a href="{{ route('product.overview', ['essential']) }}">
 
                         <div class="banner-block responsive-item">
                             <div class="banner-bg hidden-sm-down banner-web-Essential"></div>
                             <div class="banner-bg hidden-md-up banner-mob-Essential"></div>
+                        </div>
+                    </a>
+                </div>
+            </div> --}}
+
+            <div class="carousel-item  ">
+                <div class="responsive-block">
+                    <a href="{{ route('windows-11') }}">
+
+                        <div class="banner-block responsive-item">
+                            <div class="banner-bg hidden-sm-down banner-web-windows-11"></div>
+                            <div class="banner-bg hidden-md-up banner-mob-windows-11"></div>
                         </div>
                     </a>
                 </div>
@@ -96,7 +108,7 @@
                 </div>
             </div>
 
-            <div class="carousel-item ">
+            {{-- <div class="carousel-item ">
                 <div class="responsive-block">
                     <a href="https://bit.ly/3AondkR">
 
@@ -106,19 +118,9 @@
                         </div>
                     </a>
                 </div>
-            </div>
+            </div> --}}
 
-            <div class="carousel-item  ">
-                <div class="responsive-block">
-                    <a href="{{ route('windows-11') }}">
-
-                        <div class="banner-block responsive-item">
-                            <div class="banner-bg hidden-sm-down banner-web-windows-11"></div>
-                            <div class="banner-bg hidden-md-up banner-mob-windows-11"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+            
 
 
 
@@ -129,11 +131,6 @@
                 <li data-target="#home_banner" data-slide-to="2"></li>
                 <li data-target="#home_banner" data-slide-to="3"></li>
                 <li data-target="#home_banner" data-slide-to="4"></li>
-                <li data-target="#home_banner" data-slide-to="5"></li>
-                <li data-target="#home_banner" data-slide-to="6"></li>
-                <li data-target="#home_banner" data-slide-to="7"></li>
-                <li data-target="#home_banner" data-slide-to="8"></li>
-                <li data-target="#home_banner" data-slide-to="9"></li>
             </ol>
         </div>
     </div>
