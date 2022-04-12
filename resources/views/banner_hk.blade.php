@@ -14,18 +14,6 @@
                 </div>
             </div>
 
-            {{-- <div class="carousel-item ">
-                <div class="responsive-block">
-                    <a href="news/detail/17">
-
-                        <div class="banner-block responsive-item">
-                            <div class="banner-bg hidden-sm-down banner-web-jasmy"></div>
-                            <div class="banner-bg hidden-md-up banner-mob-jasmy"></div>
-                        </div>
-                    </a>
-                </div>
-            </div> --}}
-
             <div class="carousel-item ">
                 <div class="responsive-block">
 
@@ -33,6 +21,18 @@
                         <div class="banner-bg hidden-sm-down banner-web-domus"></div>
                         <div class="banner-bg hidden-md-up banner-mob-domus"></div>
                     </div>
+                </div>
+            </div>
+
+            <div class="carousel-item  ">
+                <div class="responsive-block">
+                    <a href="{{ route('windows-11') }}">
+
+                        <div class="banner-block responsive-item">
+                            <div class="banner-bg hidden-sm-down banner-web-windows-11"></div>
+                            <div class="banner-bg hidden-md-up banner-mob-windows-11"></div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -47,6 +47,30 @@
                     </a>
                 </div>
             </div>
+
+            <div class="carousel-item ">
+                <div class="responsive-block">
+                    <a href="/accessories/sleeve" target="_blank">
+
+                        <div class="banner-block responsive-item">
+                            <div class="banner-bg hidden-sm-down banner-web-Sleeve-Bag"></div>
+                            <div class="banner-bg hidden-md-up banner-mob-Sleeve-Bag"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            {{-- <div class="carousel-item ">
+                <div class="responsive-block">
+                    <a href="https://bit.ly/3AondkR">
+
+                        <div class="banner-block responsive-item">
+                            <div class="banner-bg hidden-sm-down banner-web-Liber-V"></div>
+                            <div class="banner-bg hidden-md-up banner-mob-Liber-V"></div>
+                        </div>
+                    </a>
+                </div>
+            </div> --}}
 
             {{-- <div class="carousel-item ">
                 <div class="responsive-block">
@@ -84,42 +108,17 @@
                 </div>
             </div> --}}
 
-            <div class="carousel-item  ">
-                <div class="responsive-block">
-                    <a href="{{ route('windows-11') }}">
-
-                        <div class="banner-block responsive-item">
-                            <div class="banner-bg hidden-sm-down banner-web-windows-11"></div>
-                            <div class="banner-bg hidden-md-up banner-mob-windows-11"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="carousel-item ">
-                <div class="responsive-block">
-                    <a href="/accessories/sleeve" target="_blank">
-
-                        <div class="banner-block responsive-item">
-                            <div class="banner-bg hidden-sm-down banner-web-Sleeve-Bag"></div>
-                            <div class="banner-bg hidden-md-up banner-mob-Sleeve-Bag"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
             {{-- <div class="carousel-item ">
                 <div class="responsive-block">
-                    <a href="https://bit.ly/3AondkR">
+                    <a href="news/detail/17">
 
                         <div class="banner-block responsive-item">
-                            <div class="banner-bg hidden-sm-down banner-web-Liber-V"></div>
-                            <div class="banner-bg hidden-md-up banner-mob-Liber-V"></div>
+                            <div class="banner-bg hidden-sm-down banner-web-jasmy"></div>
+                            <div class="banner-bg hidden-md-up banner-mob-jasmy"></div>
                         </div>
                     </a>
                 </div>
             </div> --}}
-
             
 
 
