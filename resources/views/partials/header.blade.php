@@ -25,6 +25,11 @@
                                         class="d-block mb-0">{{ __('messages.laptops') }}</label></a>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
+                                        <li class="nav-item">
+                                            <a class="nav-link px-md-4 py-2"
+                                                href="{{ route('product.overview', ['ultimus']) }}">@lang('site.ultimus_c')</a>
+                                                {{-- <a class="nav-link px-md-4 py-2" >@lang('site.ultimus_c')</a> --}}
+                                        </li>
 
                                         <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2"
@@ -62,11 +67,7 @@
                                             <a class="nav-link px-md-4 py-2"
                                                 href="{{ route('product.overview', ['liber-new-generation']) }}">@lang('site.liber-new-generation')</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link px-md-4 py-2"
-                                                href="{{ route('product.overview', ['ultimus']) }}">@lang('site.ultimus_c')</a>
-                                                {{-- <a class="nav-link px-md-4 py-2" >@lang('site.ultimus_c')</a> --}}
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                             </li>
