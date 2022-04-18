@@ -1045,6 +1045,7 @@
                         and/or other countries.</li>
                     <li>*Under Test Conditions</li>
                     <li>"Microsoft" "Your Phone" and "Your Phone Companion" are trademarks of the Microsoft group of companies in the US and/or other countries</li>
+                    <li>For details on ssd upgradation please get it touch with our <a href="{{ route('support') }}" target="_blank">customer</a> care via call/whatsapp/email.</li>
                 </ul>
             </div>
         </section>

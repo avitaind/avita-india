@@ -180,6 +180,7 @@
                         and/or other countries.</li>
                     <li>1. Weights vary depending on configuration and manufacturing variability.</li>
                     <li>2. Under Test Conditions.</li>
+                    <li>For details on ssd upgradation please get it touch with our <a href="{{ route('support') }}" target="_blank">customer</a> care via call/whatsapp/email.</li>
 
                 </ul>
             </div>
