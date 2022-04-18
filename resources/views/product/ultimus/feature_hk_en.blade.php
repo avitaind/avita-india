@@ -45,8 +45,10 @@
                         <div class="card-deck">
 
                             <div class="card hidden-sm-down" style="border:none;background-color:#EEEEEE;">
-                                <a class="" target="_blank" href="https://www.amazon.in/AVITA-SATUS-S111-NU14A1INC43PN-MB-35-81cms/dp/B09V73PJB8/">
-                                    <img class="pt-3 w-50" src="/images/ultimus/AZ-logo.png" style="    margin-left: 30px;">
+                                <a class="" target="_blank"
+                                    href="https://www.amazon.in/AVITA-SATUS-S111-NU14A1INC43PN-MB-35-81cms/dp/B09V73PJB8/">
+                                    <img class="pt-3 w-50" src="/images/ultimus/AZ-logo.png"
+                                        style="    margin-left: 30px;">
                                 </a>
                             </div> &nbsp;
 
@@ -58,7 +60,8 @@
                             </div> &nbsp;
 
                             <div class="card hidden-md-up" style="border:none;background-color:#EEEEEE;">
-                                <a class="" target="_blank" href="https://www.amazon.in/AVITA-SATUS-S111-NU14A1INC43PN-MB-35-81cms/dp/B09V73PJB8/">
+                                <a class="" target="_blank"
+                                    href="https://www.amazon.in/AVITA-SATUS-S111-NU14A1INC43PN-MB-35-81cms/dp/B09V73PJB8/">
                                     <img class="pt-3 w-50" src="/images/ultimus/AZ-logo.png">
                                 </a>
                             </div> &nbsp;
@@ -292,7 +295,7 @@
                                 <div class=""
                                     style="text-transform:uppercase; margin-top:50px;text-align: center; ">Pre-loaded with
                                     the latest Windows 11</div>
-                                    <img src="/images/ultimus/windows_11.png" style="width: 200px;padding-top: 20px;">
+                                <img src="/images/ultimus/windows_11.png" style="width: 200px;padding-top: 20px;">
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -335,7 +338,8 @@
                                 <div class=""
                                     style="text-transform:uppercase; margin-top:50px;text-align: center; ">Pre-loaded with
                                     the latest Windows 11</div>
-                                    <img src="/images/ultimus/windows_11.png" style="width: 310px;margin-left: 107px;padding-top: 20px;">
+                                <img src="/images/ultimus/windows_11.png"
+                                    style="width: 310px;margin-left: 107px;padding-top: 20px;">
 
                             </div>
                             <div class="space60"></div>
@@ -549,8 +553,8 @@
                                     src="/images/ultimus/ultimus_bg3_en_mo.png">
                             </div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block">SATUS ULTIMUS proposes tangible portability. It is housed in a
-                                    metallic chassis without compromising the thinness and lightweight. At merely, 16.9 mm
+                                <span class="d-lg-block">SATUS ULTIMUS proposes tangible portability. The framework of
+                                    the laptop is made without compromising the thinness and lightweight. At merely, 16.9 mm
                                     thinness and weight just 1.3 kg*, it makes for a tremendously compatible companion for
                                     your hard-pressed adventures.</span>
                             </div>
@@ -616,8 +620,8 @@
                                     src="/images/ultimus/ultimus_bg3_en_mo.png">
                             </div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block">SATUS ULTIMUS proposes tangible portability. It is housed in a
-                                    metallic chassis without compromising the thinness and lightweight. At merely, 16.9 mm
+                                <span class="d-lg-block">SATUS ULTIMUS proposes tangible portability. The framework of
+                                    the laptop is made without compromising the thinness and lightweight. At merely, 16.9 mm
                                     thinness and weight just 1.3 kg*, it makes for a tremendously compatible companion for
                                     your hard-pressed adventures.</span>
                             </div>
@@ -1044,8 +1048,10 @@
                     <li>Windows is either registered trademark or trademark of Microsoft Corporation in the United States
                         and/or other countries.</li>
                     <li>*Under Test Conditions</li>
-                    <li>"Microsoft" "Your Phone" and "Your Phone Companion" are trademarks of the Microsoft group of companies in the US and/or other countries</li>
-                    <li>For details on ssd upgradation please get it touch with our <a href="{{ route('support') }}" target="_blank"><u>customer care</u></a> via call/whatsapp/email.</li>
+                    <li>"Microsoft" "Your Phone" and "Your Phone Companion" are trademarks of the Microsoft group of
+                        companies in the US and/or other countries</li>
+                    <li>For details on ssd upgradation please get it touch with our <a href="{{ route('support') }}"
+                            target="_blank"><u>customer care</u></a> via call/whatsapp/email.</li>
                 </ul>
             </div>
         </section>
@@ -1066,7 +1072,7 @@
 
         @media (max-width: 575px) {
             .banner-para {
-                text-align: justify!important;
+                text-align: justify !important;
             }
 
         }
