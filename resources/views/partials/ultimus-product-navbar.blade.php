@@ -11,8 +11,8 @@
                         href="{{ route('product.overview', 'ultimus') }}">@lang('site.ultimus')</a></li>
                 <li class="nav-item"><a class="nav-link py-1"
                         href="{{ route('product.spec', 'ultimus') }}">@lang('site.ultimus_spec')</a></li>
-                {{-- <li class="nav-item"><a class="nav-link py-1"
-                        href="{{ route('product.support', 'liber') }}">@lang('site.productnav_support')</a></li> --}}
+                <li class="nav-item"><a class="nav-link py-1"
+                        href="{{ route('product.support', 'liber') }}">@lang('site.productnav_support')</a></li>
                 <li class="nav-item"><a class="nav-link py-1"
                         href="/where-to-buy">@lang('site.productnav_wheretobuy')</a></li>
             </ul>
