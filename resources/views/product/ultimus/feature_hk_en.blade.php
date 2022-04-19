@@ -702,7 +702,6 @@
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
-                            <div class="space60 hidden-sm-down"></div>
 
 
                         </div>
