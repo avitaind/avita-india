@@ -1052,6 +1052,8 @@
                         companies in the US and/or other countries</li>
                     <li>For details on ssd upgradation please get it touch with our <a href="{{ route('support') }}"
                             target="_blank"><u>customer care</u></a> via call/whatsapp/email.</li>
+                    <li>NEXSTGO provides a limited warranty period, twelve (12) months for SATUS ULTIMUS for customer who has free carry-in repair service, including parts and labour for the notebook.</li>
+
                 </ul>
             </div>
         </section>
