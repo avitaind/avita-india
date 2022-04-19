@@ -188,15 +188,15 @@
                      Customer Service Hotline
                  </div>
 
-                  <div>
-                     <i class="fa fa-clock-o icon"></i>
-                     09:30AM-6:30PM (Mon to Sat, Excluding 3rd Saturday), close on Sunday and Public Holidays
-                 </div>
-
                  <div>
-                     <i class="fa fa-phone icon"></i>
-                        1800-103-9635
-                 </div>
+                    <i class="fa fa-clock-o icon"></i>
+                    09:30AM-6:30PM (Mon to Sat), close on Sunday and Public Holidays
+                </div>
+
+                <div>
+                    <i class="fa fa-phone icon"></i>
+                    0120-4761661
+                </div>
 
                  <div>
                      <i class="fa fa-envelope icon"></i>
