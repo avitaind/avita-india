@@ -658,6 +658,7 @@
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
+                    <div class="space60 hidden-sm-down"></div>
                     <div class="row" style="margin-right: 100px; ">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
@@ -671,9 +672,8 @@
                                     style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                             </div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block">Keep your laptop close to you. The Fanless design helps
-                                    eliminate any heating issues whatsoever so you can enjoy working without any fuss. SATUS
-                                    ULTIMUS is quiet, clean, reliable, and cool.</span>
+                                <span class="d-lg-block">Enjoy working or watching a movie without any fuss. Experience
+                                    the golden silence with quiet, clean, reliable, and cool SATUS ULTIMUS.</span>
                             </div>
 
 
@@ -714,9 +714,8 @@
                                     style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                             </div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block">Keep your laptop close to you. The Fanless design helps
-                                    eliminate any heating issues whatsoever so you can enjoy working without any fuss. SATUS
-                                    ULTIMUS is quiet, clean, reliable, and cool.</span>
+                                <span class="d-lg-block">Enjoy working or watching a movie without any fuss. Experience
+                                    the golden silence with quiet, clean, reliable, and cool SATUS ULTIMUS.</span>
                             </div>
 
                         </div>
@@ -1024,6 +1023,9 @@
                         companies in the US and/or other countries</li>
                     <li>For details on ssd upgradation please get it touch with our <a href="<?php echo e(route('support')); ?>"
                             target="_blank"><u>customer care</u></a> via call/whatsapp/email.</li>
+                    <li>NEXSTGO provides a limited warranty period, twelve (12) months for SATUS ULTIMUS for customer who
+                        has free carry-in repair service, including parts and labour for the notebook.</li>
+
                 </ul>
             </div>
         </section>

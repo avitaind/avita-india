@@ -555,7 +555,7 @@
                             <div class="banner-para ls-0">
                                 <span class="d-lg-block">SATUS ULTIMUS proposes tangible portability. The framework of
                                     the laptop is made without compromising the thinness and lightweight. At merely, 16.9 mm
-                                    thinness and weight just 1.3 kg*, it makes for a tremendously compatible companion for
+                                    thinness and weighs just 1.3 kg*, it makes for a tremendously compatible companion for
                                     your hard-pressed adventures.</span>
                             </div>
 
@@ -622,7 +622,7 @@
                             <div class="banner-para ls-0">
                                 <span class="d-lg-block">SATUS ULTIMUS proposes tangible portability. The framework of
                                     the laptop is made without compromising the thinness and lightweight. At merely, 16.9 mm
-                                    thinness and weight just 1.3 kg*, it makes for a tremendously compatible companion for
+                                    thinness and weighs just 1.3 kg*, it makes for a tremendously compatible companion for
                                     your hard-pressed adventures.</span>
                             </div>
 
