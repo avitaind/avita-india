@@ -32,7 +32,7 @@
                             <div class="mb-2"><b>Address :</b><br>
                                      405, 4<sup>th</sup> Floor, Copia Business Suites, <br/>Jasola Vihar, New Delhi – 110025</div>
                             <h2 class="contact_us_title">Service :</h2>
-                            <div class="mb-2">Toll Free : 0120-4761661</div>
+                            <div class="mb-2">Contact : 0120-4761661</div>
 
                         </div>
                         <div class="col-sm-6">
