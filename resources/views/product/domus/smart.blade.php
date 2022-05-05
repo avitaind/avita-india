@@ -9,7 +9,7 @@
         type="text/css">
     <link rel="stylesheet" href="{{ asset('/domus/css/styles.css') }}">
 
-    <script src="{{ asset('/domus/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js ') }}"></script>
+    <script src="{{ asset('domus/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js ') }}"></script>
 
 @endsection
 @section('content')
