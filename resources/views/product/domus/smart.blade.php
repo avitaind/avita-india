@@ -7,9 +7,9 @@
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,100|Roboto+Condensed:700" rel="stylesheet"
         type="text/css">
-    <link rel="stylesheet" href="{{ asset('/domus/css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('domus/css/styles.css') }}">
 
-    <script src="{{ asset('domus/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js ') }}"></script>
+    <script src="{{ asset('domus/js/modernizr-2.8.3-respond-1.4.2.min.js ') }}"></script>
 
 @endsection
 @section('content')
@@ -158,7 +158,7 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>
-            window.jQuery || document.write('<script src="/domus/js/vendor/jquery-1.11.2.min.js"><\/script>')
+            window.jQuery || document.write('<script src="/domus/js/jquery-1.11.2.min.js"><\/script>')
         </script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
