@@ -73,7 +73,7 @@
                             </li>
 
 
-                            {{-- <li class="nav-item has-dropdown">
+                            <li class="nav-item has-dropdown">
                                 <input id="header_product_device" type="checkbox" hidden="">
                                 <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">{{ __('messages.smart device') }}</label></a>
                                 <div class="dropdown">
@@ -100,7 +100,7 @@
                                         </li> 
                                     </ul>
                                 </div>
-                            </li> --}}
+                            </li>
 
 
                             <li class="nav-item has-dropdown">
@@ -131,7 +131,7 @@
                             </li>
 
 
-                            {{-- <li class="nav-item has-dropdown">
+                            <li class="nav-item has-dropdown">
                                 <input id="header_product_domus" type="checkbox" hidden="">
                                 <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['domus']) }}">{{ __('site.domus') }}</a></label>
                                 <div class="dropdown">
@@ -153,7 +153,7 @@
                                     </ul>
                                      
                                 </div>
-                            </li> --}}
+                            </li>
 
                         </ul>
                     </div>
