@@ -116,6 +116,24 @@ class ProductsController extends Controller
             }
         }
 
+        if ($slug == 'LED-Baton-downLight') {
+
+            switch ($country) {
+                case 'in':
+                    return view('product.domus.LED-Baton-downLight', compact('product'));
+                    break;
+            }
+        }
+
+        if ($slug == 'LED-Baton-downLight-2') {
+
+            switch ($country) {
+                case 'in':
+                    return view('product.domus.LED-Baton-downLight-2', compact('product'));
+                    break;
+            }
+        }
+
         if ($slug == 'domus') {
 
             switch ($country) {

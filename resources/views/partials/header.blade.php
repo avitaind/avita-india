@@ -129,6 +129,12 @@
                                         class="nav-link px-md-4 py-2">Smart Lighting [Launching Soon] </a></label>
 
                             </li>
+                            {{-- <li class="nav-item">
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['LED-Baton-downLight']) }}">LED-Baton-downLight</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['LED-Baton-downLight-2']) }}">LED-Baton-downLight-2</a>
+                            </li> --}}
 
 
                             {{-- <li class="nav-item has-dropdown">

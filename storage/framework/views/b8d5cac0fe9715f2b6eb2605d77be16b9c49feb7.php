@@ -14,8 +14,6 @@
                 </div>
             </div>
 
-            
-
             <div class="carousel-item ">
                 <div class="responsive-block">
 
@@ -26,24 +24,6 @@
                 </div>
             </div>
 
-            <div class="carousel-item">
-                <div class="responsive-block">
-                    <a href="/product/pura">
-
-                        <div class="banner-block responsive-item">
-                            <div class="banner-bg hidden-sm-down banner-web-PURA-E"></div>
-                            <div class="banner-bg hidden-md-up banner-mob-PURA-E"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            
-
-            
-
-            
-
             <div class="carousel-item  ">
                 <div class="responsive-block">
                     <a href="<?php echo e(route('windows-11')); ?>">
@@ -51,6 +31,18 @@
                         <div class="banner-block responsive-item">
                             <div class="banner-bg hidden-sm-down banner-web-windows-11"></div>
                             <div class="banner-bg hidden-md-up banner-mob-windows-11"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="responsive-block">
+                    <a href="/product/pura">
+
+                        <div class="banner-block responsive-item">
+                            <div class="banner-bg hidden-sm-down banner-web-PURA-E"></div>
+                            <div class="banner-bg hidden-md-up banner-mob-PURA-E"></div>
                         </div>
                     </a>
                 </div>
@@ -70,6 +62,13 @@
 
             
 
+            
+
+            
+
+            
+
+            
             
 
 
