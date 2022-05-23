@@ -22,6 +22,104 @@
     {{-- Section End --}}
 
     {{-- Section 2 for Web --}}
+
+    <section class=" pt-3">
+        <div class="banner-block ls-0 hidden-sm-down">
+            <div class="banner-bg hidden-sm-down"
+                style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;">
+            </div>
+            <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+            <div class="container">
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
+                <div class="row" style="margin-right: 100px; ">
+                    <div class="col-12 col-lg-6" align="">
+                        <div class="h2 banner-header mob-text-center">
+                            <div class="" style="text-transform:uppercase;text-align: center; ">Dance with
+                                Music/ Sync with Music</div>
+                        </div>
+                        <div class="space60"></div>
+                        <div class="ac-computer-wrap hidden-md-up">
+                            <img class="ac-computer-image ac-computer-2" style=""
+                                src="/images/ultimus/ultimus_bg2_en_mo.jpg"
+                                style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
+                        </div>
+                        <div class="banner-para ls-0">
+                            <span class="d-lg-block">Elevates the ambiance by making lights dance and switching colors to the beats of your favorite music.</span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 col-lg-6" align="">
+                                <section class="product-liber-wifi">
+                                    <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
+                                        <div class="data-card mx-3 text-left"
+                                            style="margin-bottom: 50px;padding-top: 20px;">
+                                            {{-- <div class="badge-caption">2 x 2 W</div> --}}
+                                            <div class="badge-caption"> </div>
+                                            <div class="space60 hidden-sm-down"></div>
+
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="col-12 col-lg-6" align="left">
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-12 col-lg-6" align="left"></div>
+                </div>
+                {{-- <div class="space60 hidden-sm-down"></div> --}}
+                {{-- <div class="space60 hidden-sm-down"></div> --}}
+                <div class="space60 hidden-sm-down"></div>
+            </div>
+        </div>
+        {{-- Section for Mob --}}
+
+        <div class="banner-block ls-0 ">
+            <div class="banner-bg hidden-sm-down hidden-md-up"
+                style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;">
+            </div>
+            <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+            <div class="container hidden-md-up">
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
+                <div class="row hidden-md-up" style="">
+                    <div class="col-12 col-lg-6" align="">
+                        <div class="h2 banner-header mob-text-center">
+                            <div class="" style="text-transform:uppercase; padding-top: 50px;">Dance with Music/ Sync with Music</div>
+                        </div>
+                        <div class="space60"></div>
+                        <div class="ac-computer-wrap hidden-md-up">
+                            <img class="ac-computer-image ac-computer-2" style=""
+                                src="/images/ultimus/ultimus_bg2_en_mo.jpg"
+                                style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
+                        </div>
+                        <div class="banner-para ls-0">
+                            <span class="d-lg-block">Elevates the ambiance by making lights dance and switching colors to the beats of your favorite music.</span>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-lg-6" align="left"></div>
+                </div>
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
+            </div>
+        </div>
+    </section>
+
+    {{-- Section End --}}
+
+    {{-- Section 3 for Web --}}
     <section class="hidden-sm-down">
         <div class="banner-block ls-0">
             {{-- <div class="banner-bg hidden-sm-down"
@@ -118,7 +216,7 @@
 
     {{-- Section End --}}
 
-    {{-- Section 3 for Web --}}
+    {{-- Section 4 for Web --}}
 
     <section class=" pt-3">
         <div class="banner-block ls-0 hidden-sm-down">
@@ -196,7 +294,8 @@
                 <div class="row hidden-md-up" style="">
                     <div class="col-12 col-lg-6" align="">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase; padding-top: 50px;">Lights that
+                            <div class="" style="text-transform:uppercase; padding-top: 50px;">Lights
+                                that
                                 mimic your presence</div>
                         </div>
                         <div class="space60"></div>
@@ -224,7 +323,7 @@
 
     {{-- Section End --}}
 
-    {{-- Section 4 for Web --}}
+    {{-- Section 5 for Web --}}
 
     <section class="product-liber-size ls-0">
         <div class="banner-block">
@@ -257,7 +356,7 @@
 
     {{-- Section End --}}
 
-    {{-- Section 5 for Web --}}
+    {{-- Section 6 for Web --}}
 
     <section class="product-liber-computer ls-0" style="background-color:##F0F0F0;">
         <div class="container" style="padding-bottom: 40px;">
@@ -278,7 +377,7 @@
 
     {{-- Section End --}}
 
-    {{-- Section 6 for Web --}}
+    {{-- Section 7 for Web --}}
     <section class="hidden-sm-down">
         <div class="banner-block ls-0">
             <div class="banner-bg hidden-sm-down"
@@ -368,7 +467,7 @@
 
     {{-- Section End --}}
 
-    {{-- Section 7 --}}
+    {{-- Section 8 --}}
 
     <section class="">
         <div class="banner-block ls-0 hidden-sm-down">
@@ -471,7 +570,7 @@
 
     {{-- Section End --}}
 
-    {{-- Section 8 for Web --}}
+    {{-- Section 9 for Web --}}
     <section class="hidden-sm-down">
         <div class="banner-block ls-0">
             <div class="banner-bg hidden-sm-down"
