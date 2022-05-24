@@ -37,7 +37,8 @@
                 <div class="row" style="margin-right: 100px; ">
                     <div class="col-12 col-lg-6" align="">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase;text-align: center; ">Syncs with Music</div>
+                            <div class="" style="text-transform:uppercase;text-align: center; ">Syncs with
+                                Music</div>
                         </div>
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
@@ -46,7 +47,8 @@
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Elevates the ambiance by making lights dance and switching colors to the beats of your favorite music.</span>
+                            <span class="d-lg-block">Elevates the ambiance by making lights dance and switching
+                                colors to the beats of your favorite music.</span>
                         </div>
 
                         <div class="row">
@@ -94,7 +96,8 @@
                 <div class="row hidden-md-up" style="">
                     <div class="col-12 col-lg-6" align="">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase; padding-top: 50px;">Syncs with Music</div>
+                            <div class="" style="text-transform:uppercase; padding-top: 50px;">Syncs with
+                                Music</div>
                         </div>
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
@@ -103,7 +106,8 @@
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Elevates the ambiance by making lights dance and switching colors to the beats of your favorite music.</span>
+                            <span class="d-lg-block">Elevates the ambiance by making lights dance and switching
+                                colors to the beats of your favorite music.</span>
                         </div>
 
                     </div>
@@ -352,7 +356,7 @@
 
     
 
-    
+
 
     
     <section class="hidden-sm-down">
@@ -375,11 +379,9 @@
                         </div>
                         <div class="space60"></div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Smart bulb reigns supreme when it comes to
-                                the idea of less energy consumption. It consumes less landfill use,
-                                less production costs, and less transportation which of course means
-                                cleaner air. Smart bulbs are said to be the ‘most environment
-                                friendly in the market. </span>
+                            <span class="d-lg-block">Smart bulbs are eco-friendly and reign supreme in the market.
+                                As they consume less energy, have a longer life span, and use non-toxic material in
+                                production, they are less harmful and save the environment.</span>
                         </div>
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>
@@ -421,11 +423,9 @@
                                 src="/images/ultimus/ultimus_bg6_en_mo.png">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Smart bulb reigns supreme when it comes to
-                                the idea of less energy consumption. It consumes less landfill use,
-                                less production costs, and less transportation which of course means
-                                cleaner air. Smart bulbs are said to be the ‘most environment
-                                friendly in the market. </span>
+                            <span class="d-lg-block">Smart bulbs are eco-friendly and reign supreme in the market.
+                                As they consume less energy, have a longer life span, and use non-toxic material in
+                                production, they are less harmful and save the environment.</span>
                         </div>
 
 
