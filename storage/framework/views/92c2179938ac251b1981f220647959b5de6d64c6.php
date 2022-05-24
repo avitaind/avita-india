@@ -44,7 +44,7 @@
                                 <div class="banner-para">
                                     <span>Welcome to the family of the smarts! AVITA DOMUS offers a wide range of
                                         smart light bulbs,
-                                        battens and down ceiling light. Whether it’s for your living room, kitchen,
+                                        battens and Smart LED down light. Whether it’s for your living room, kitchen,
                                         bathroom, or backyard,
                                         AVITA DOMUS has the
                                         perfect light.</span>

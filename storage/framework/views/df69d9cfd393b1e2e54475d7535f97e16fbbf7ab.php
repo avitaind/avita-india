@@ -5,11 +5,11 @@
     <section class="product-liber-computer ls-0" style="background-color:##EEEEEE;">
         <div class="container" style="padding-bottom: 40px;">
             <div class="banner-info" style="max-width:100%;">
-                <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">SMART LED PANEL</div>
+                <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">smart LED down light</div>
                 <div class="banner-para">
                     <span>Switch the lighting of your home at the tip of your fingers. Opt to live smart with DOMUS
-                        Smart LED Panel, which is fun and functional. Dispense a cooler environment throughout the day
-                        or just dim the lights when required. The Wi-Fi and Bluetooth-operated Smart LED Panel is
+                        Smart LED down light, which is fun and functional. Dispense a cooler environment throughout the day
+                        or just dim the lights when required. The Wi-Fi and Bluetooth-operated Smart LED down light is
                         energy-efficient and is low on budget and maintenance costs.</span>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                                 src="/images/ultimus/ultimus_bg6_en_mo.png">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">AVITA DOMUS Smart LED Panel does not require any warm-up time
+                            <span class="d-lg-block">AVITA DOMUS Smart LED down light does not require any warm-up time
                                 and remains cool all day which leads to emitting no heat. Thus, providing a cooler
                                 environment all day and night. </span>
                         </div>
@@ -88,7 +88,7 @@
                                 src="/images/ultimus/ultimus_bg6_en_mo.png">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">AVITA DOMUS Smart LED Panel does not require any warm-up time
+                            <span class="d-lg-block">AVITA DOMUS Smart LED down light does not require any warm-up time
                                 and remains cool all day which leads to emitting no heat. Thus, providing a cooler
                                 environment all day and night. </span>
                         </div>
