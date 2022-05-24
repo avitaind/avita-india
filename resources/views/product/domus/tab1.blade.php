@@ -37,8 +37,7 @@
                 <div class="row" style="margin-right: 100px; ">
                     <div class="col-12 col-lg-6" align="">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase;text-align: center; ">Dance with
-                                Music/ Sync with Music</div>
+                            <div class="" style="text-transform:uppercase;text-align: center; ">Syncs with Music</div>
                         </div>
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
@@ -95,7 +94,7 @@
                 <div class="row hidden-md-up" style="">
                     <div class="col-12 col-lg-6" align="">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase; padding-top: 50px;">Dance with Music/ Sync with Music</div>
+                            <div class="" style="text-transform:uppercase; padding-top: 50px;">Syncs with Music</div>
                         </div>
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
@@ -356,26 +355,7 @@
 
     {{-- Section End --}}
 
-    {{-- Section 6 for Web --}}
-
-    <section class="product-liber-computer ls-0" style="background-color:##F0F0F0;">
-        <div class="container" style="padding-bottom: 40px;">
-            <div class="banner-info" style="max-width:100%;">
-                <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Smart
-                    Lighting made simple
-                    with DOMUS</div>
-                <div class="banner-para">
-                    <span>Welcome to the family of the smarts! AVITA DOMUS offers a wide range of
-                        smart light bulbs and
-                        battens. Whether it’s for your living room, kitchen, bathroom, or backyard,
-                        AVITA DOMUS has the
-                        perfect light.</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {{-- Section End --}}
+    
 
     {{-- Section 7 for Web --}}
     <section class="hidden-sm-down">

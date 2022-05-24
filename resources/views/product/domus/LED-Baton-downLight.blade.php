@@ -35,6 +35,27 @@
             <div class="container" style="width: ">
                 <div align="center">
 
+                    {{-- Section 6 for Web --}}
+
+    <section class="product-liber-computer ls-0" style="background-color:##F0F0F0;">
+        <div class="container" style="padding-bottom: 40px;">
+            <div class="banner-info" style="max-width:100%;">
+                <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Smart
+                    Lighting made simple
+                    with DOMUS</div>
+                <div class="banner-para">
+                    <span>Welcome to the family of the smarts! AVITA DOMUS offers a wide range of
+                        smart light bulbs,
+                        battens and down ceiling light. Whether it’s for your living room, kitchen, bathroom, or backyard,
+                        AVITA DOMUS has the
+                        perfect light.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- Section End --}}
+
                     <section class="banner-anchor">
                         <div class="container">
                             <div class="row">
