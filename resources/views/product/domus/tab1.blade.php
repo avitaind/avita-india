@@ -47,8 +47,8 @@
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Elevates the ambiance by making lights dance and switching
-                                colors to the beats of your favorite music.</span>
+                            <span class="d-lg-block">Elevate the ambiance by making lights dance and switching
+                                colors to the beat of your favorite music.</span>
                         </div>
 
                         <div class="row">

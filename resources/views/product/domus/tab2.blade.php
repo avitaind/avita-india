@@ -277,9 +277,9 @@
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Make every moment mesmerizing with AVITA DOMUS smart batten.
-                                AVITA DOMUS smart batten creates a perfect ambiance for parties, festivals, or a movie
-                                night. Explore endless lighting possibilities with 16 million color options. </span>
+                            <span class="d-lg-block">Control the lighting with just a click. Conveniently schedule
+                                the light to switch on automatically at dusk and switch off at dawn. At scheduled times,
+                                you can also explore the colors along with the other various functions.</span>
                         </div>
 
                         <div class="row">
@@ -335,7 +335,7 @@
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">Control the lighting with just a click. Conveniently schedule
                                 the light to switch on automatically at dusk and switch off at dawn. At scheduled times,
-                                you can also explore the colors along with the other various functions. </span>
+                                you can also explore the colors along with the other various functions.</span>
                         </div>
 
                     </div>

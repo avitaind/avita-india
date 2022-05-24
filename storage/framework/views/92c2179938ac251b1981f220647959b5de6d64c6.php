@@ -76,7 +76,7 @@
                         </li>
                         <li class="nav-item col-md-4 " align="center">
                             <a class="nav-link" id="DOWN-tab" data-toggle="tab" href="#DOWN" role="tab"
-                                aria-controls="DOWN" aria-selected="false">SMART DOWN
+                                aria-controls="DOWN" aria-selected="false">SMART LED DOWN
                                 LIGHT</a>
                         </li>
                     </ul>
