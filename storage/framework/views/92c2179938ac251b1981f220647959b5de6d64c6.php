@@ -68,16 +68,16 @@
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item col-md-4 " align="center">
                             <a class="nav-link  text-center" id="LED-tab" data-toggle="tab" href="#LED" role="tab"
-                                aria-controls="LED" aria-selected="true">LED</a>
+                                aria-controls="LED" aria-selected="true">SMART BULB</a>
                         </li>
                         <li class="nav-item col-md-4 " align="center">
                             <a class="nav-link" id="BATON-tab" data-toggle="tab" href="#BATON" role="tab"
-                                aria-controls="BATON" aria-selected="false">BATON</a>
+                                aria-controls="BATON" aria-selected="false">SMART BATTEN</a>
                         </li>
                         <li class="nav-item col-md-4 " align="center">
                             <a class="nav-link" id="DOWN-tab" data-toggle="tab" href="#DOWN" role="tab"
-                                aria-controls="DOWN" aria-selected="false">DOWN
-                                Light</a>
+                                aria-controls="DOWN" aria-selected="false">SMART DOWN
+                                LIGHT</a>
                         </li>
                     </ul>
 
