@@ -361,7 +361,7 @@
 
 
 
-    {{-- Section 7 for Web --}}
+    {{-- Section 6 for Web --}}
     <section class="hidden-sm-down">
         <div class="banner-block ls-0">
             <div class="banner-bg hidden-sm-down"
@@ -447,7 +447,7 @@
 
     {{-- Section End --}}
 
-    {{-- Section 8 --}}
+    {{-- Section 7 --}}
 
     <section class="">
         <div class="banner-block ls-0 hidden-sm-down">
@@ -550,7 +550,7 @@
 
     {{-- Section End --}}
 
-    {{-- Section 9 for Web --}}
+    {{-- Section 8 for Web --}}
     <section class="hidden-sm-down">
         <div class="banner-block ls-0">
             <div class="banner-bg hidden-sm-down"
