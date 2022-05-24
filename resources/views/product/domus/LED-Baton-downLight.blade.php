@@ -37,24 +37,25 @@
 
                     {{-- Section 6 for Web --}}
 
-    <section class="product-liber-computer ls-0" style="background-color:##F0F0F0;">
-        <div class="container" style="padding-bottom: 40px;">
-            <div class="banner-info" style="max-width:100%;">
-                <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Smart
-                    Lighting made simple
-                    with DOMUS</div>
-                <div class="banner-para">
-                    <span>Welcome to the family of the smarts! AVITA DOMUS offers a wide range of
-                        smart light bulbs,
-                        battens and down ceiling light. Whether it’s for your living room, kitchen, bathroom, or backyard,
-                        AVITA DOMUS has the
-                        perfect light.</span>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <section class="product-liber-computer ls-0" style="background-color:##F0F0F0;">
+                        <div class="container">
+                            <div class="banner-info" style="max-width:100%;">
+                                <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Smart
+                                    Lighting made simple
+                                    with DOMUS</div>
+                                <div class="banner-para">
+                                    <span>Welcome to the family of the smarts! AVITA DOMUS offers a wide range of
+                                        smart light bulbs,
+                                        battens and down ceiling light. Whether it’s for your living room, kitchen,
+                                        bathroom, or backyard,
+                                        AVITA DOMUS has the
+                                        perfect light.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
 
-    {{-- Section End --}}
+                    {{-- Section End --}}
 
                     <section class="banner-anchor">
                         <div class="container">
@@ -83,9 +84,27 @@
                         </div>
                     </section>
 
+                    {{-- <section style="padding-bottom: 40px;">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item col-md-4 " align="center">
+                                <a class="nav-link  text-center" id="LED-tab" data-toggle="tab" href="#LED" role="tab"
+                                    aria-controls="LED" aria-selected="true">LED</a>
+                            </li>
+                            <li class="nav-item col-md-4 " align="center">
+                                <a class="nav-link" id="BATON-tab" data-toggle="tab" href="#BATON" role="tab"
+                                    aria-controls="BATON" aria-selected="false">BATON</a>
+                            </li>
+                            <li class="nav-item col-md-4 " align="center">
+                                <a class="nav-link" id="DOWN-tab" data-toggle="tab" href="#DOWN" role="tab"
+                                    aria-controls="DOWN" aria-selected="false">DOWN
+                                    Light</a>
+                            </li>
+                        </ul>
+                    </section> --}}
+
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item col-md-4 " align="center">
-                            <a class="nav-link active text-center" id="LED-tab" data-toggle="tab" href="#LED" role="tab"
+                            <a class="nav-link  text-center" id="LED-tab" data-toggle="tab" href="#LED" role="tab"
                                 aria-controls="LED" aria-selected="true">LED</a>
                         </li>
                         <li class="nav-item col-md-4 " align="center">
@@ -121,20 +140,38 @@
 @endsection
 
 @section('css')
-<style>
-    span {
-        text-align: justify;
-        text-align-last: center;
-    }
-
-    @media (max-width: 575px) {
-        .banner-para {
-            text-align: justify !important;
+    <style>
+        span {
+            text-align: justify;
+            text-align-last: center;
         }
 
-    }
+        @media (max-width: 575px) {
+            .banner-para {
+                text-align: justify !important;
+            }
 
-</style>
+        }
+
+        .nav-tabs {
+            border-bottom: 1px solid #ddd;
+        }
+
+
+        .nav-tabs .nav-link:focus,
+        .nav-tabs .nav-link:hover {
+            background: #662D91;
+            color: #fff;
+            border-color: #662D91 #662D91 #662D91;
+        }
+
+        .nav-tabs .nav-link.active {
+            color: #fff;
+            background-color: #662D91;
+            border-color: #ddd #ddd #fff;
+        }
+
+    </style>
     <link type="text/css" rel="stylesheet" href="{{ asset('css/product-ultimus.css') }}" />
 @endsection
 
