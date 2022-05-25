@@ -135,11 +135,11 @@
         }
 
     </style>
-    <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/product-ultimus.css')); ?>" />
+    <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/domus.css')); ?>" />
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('js'); ?>
-    <script type="text/javascript" src="<?php echo e(asset('js/ultimus.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(asset('js/domus.js')); ?>"></script>
     <script>
         var Bulbstate = 0;
 

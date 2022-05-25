@@ -172,11 +172,11 @@
         }
 
     </style>
-    <link type="text/css" rel="stylesheet" href="{{ asset('css/product-ultimus.css') }}" />
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/domus.css') }}" />
 @endsection
 
 @section('js')
-    <script type="text/javascript" src="{{ asset('js/ultimus.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/domus.js') }}"></script>
     <script>
         var Bulbstate = 0;
 
