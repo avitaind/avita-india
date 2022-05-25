@@ -34,6 +34,7 @@
                 <div class="space60 hidden-sm-down"></div>
                 <div class="space60 hidden-sm-down"></div>
                 <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
                 <div class="row" style="margin-right: 100px; ">
                     <div class="col-12 col-lg-6" align="">
                         <div class="h2 banner-header mob-text-center">
@@ -76,6 +77,7 @@
                 </div>
                 
                 
+                <div class="space60 hidden-sm-down"></div>
                 <div class="space60 hidden-sm-down"></div>
             </div>
         </div>
