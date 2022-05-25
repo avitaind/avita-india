@@ -9,9 +9,9 @@
             <div class="responsive-block">
                 <div class="banner-block responsive-item">
                     <div class="banner-bg hidden-sm-down"
-                        style="background-image: url('/images/ultimus/web-banner-ultimus.jpg')"></div>
+                        style="background-image: url('/images/domus/website_domus_banner.jpg')"></div>
                     <div class="banner-bg hidden-md-up"
-                        style="background-image: url('/images/ultimus/mob-banner-ultimus.jpg')">
+                        style="background-image: url('/images/ultimus/mobile_domus_banner.jpg')">
                     </div>
                     <div class="banner-info">
                         <div class="an-scroll-wrap">

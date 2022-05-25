@@ -26,7 +26,7 @@
     <section class=" pt-3">
         <div class="banner-block ls-0 hidden-sm-down">
             <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;">
+                style="background:url(/images/domus/domus_bg2_en.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
@@ -43,7 +43,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg2_en_mo.jpg"
+                                src="/images/domus/domus_bg2_en_mo.png"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
@@ -83,7 +83,7 @@
 
         <div class="banner-block ls-0 ">
             <div class="banner-bg hidden-sm-down hidden-md-up"
-                style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;">
+                style="background:url(/images/domus/domus_bg2_en.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container hidden-md-up">
@@ -102,7 +102,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg2_en_mo.jpg"
+                                src="/images/domus/domus_bg2_en_mo.png"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
@@ -221,7 +221,7 @@
     <section class=" pt-3">
         <div class="banner-block ls-0 hidden-sm-down">
             <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;">
+                style="background:url(/images/domus/domus_bg4_en.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
@@ -239,7 +239,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg2_en_mo.jpg"
+                                src="/images/domus/domus_bg4_en_mo.png"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
@@ -281,7 +281,7 @@
 
         <div class="banner-block ls-0 ">
             <div class="banner-bg hidden-sm-down hidden-md-up"
-                style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;">
+                style="background:url(/images/domus/domus_bg4_en.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container hidden-md-up">
@@ -301,7 +301,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg2_en_mo.jpg"
+                                src="/images/domus/domus_bg4_en_mo.png"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
@@ -355,8 +355,6 @@
     </section>
 
     
-
-
 
     
     <section class="hidden-sm-down">
@@ -449,7 +447,7 @@
     <section class="">
         <div class="banner-block ls-0 hidden-sm-down">
             <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;">
+                style="background:url(/images/domus/domus_bg7_en.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
@@ -467,7 +465,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg2_en_mo.jpg"
+                                src="/images/domus/domus_bg7_en_mo.png"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
@@ -504,7 +502,7 @@
 
         <div class="banner-block ls-0 ">
             <div class="banner-bg hidden-sm-down hidden-md-up"
-                style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;">
+                style="background:url(/images/domus/domus_bg7_en.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container hidden-md-up">
@@ -524,7 +522,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg2_en_mo.jpg"
+                                src="/images/domus/domus_bg7_en_mo.png"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
