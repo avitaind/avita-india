@@ -11,7 +11,7 @@
                     <div class="banner-bg hidden-sm-down"
                         style="background-image: url('/images/domus/website_domus_banner.jpg')"></div>
                     <div class="banner-bg hidden-md-up"
-                        style="background-image: url('/images/ultimus/mobile_domus_banner.jpg')">
+                        style="background-image: url('/images/domus/mobile_domus_banner.jpg')">
                     </div>
                     <div class="banner-info">
                         <div class="an-scroll-wrap">

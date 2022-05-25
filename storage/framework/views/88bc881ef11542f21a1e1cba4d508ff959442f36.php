@@ -129,10 +129,11 @@
         <div class="banner-block ls-0">
             
             <div class="banner-bg hidden-sm-down">
-                <img src="/images/ultimus/ultimus_bg6_en.png" class="image" id="myimage" alt="Orisfina">
+                <img src="/images/domus/domus_bg3_en.png" class="image" id="myimage" alt="Orisfina">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
+                <div class="space60 hidden-sm-down"></div>
                 <div class="space60 hidden-sm-down"></div>
                 <div class="space60 hidden-sm-down"></div>
                 <div class="space60 hidden-sm-down"></div>
@@ -144,15 +145,13 @@
                                 style="text-transform:uppercase; margin-top:25px;text-align: center; ">
                                 Box of spectrum to build up scenes</div>
                             
-                            <button class="bttn" onclick="changeBulbStateOff()"
-                                style="margin-left: 160px; ">Night</button>
-                            <button class="bttn" onclick="changeBulbState()">Day</button>
+                            
 
                         </div>
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg6_en_mo.png">
+                                src="/images/domus/domus_bg3_en_mo.jpg">
                         </div>
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">Dive into the infinite lighting
@@ -179,7 +178,7 @@
     <section class="hidden-md-up">
         <div class="banner-block ls-0">
             <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg6_en.png) top center no-repeat;">
+                style="background:url(/images/domus/domus_bg3_en.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
@@ -197,7 +196,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg6_en_mo.png">
+                                src="/images/domus/domus_bg3_en_mo.jpg">
                         </div>
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">Dive into the infinite lighting
@@ -220,7 +219,7 @@
 
     
 
-    <section class=" pt-3">
+    <section class="">
         <div class="banner-block ls-0 hidden-sm-down">
             <div class="banner-bg hidden-sm-down"
                 style="background:url(/images/domus/domus_bg4_en.png) top center no-repeat;">
@@ -331,9 +330,9 @@
         <div class="banner-block">
             <div class="banner-bg"></div>
             <div class="banner-image">
-                <img class="bc-computer-image bc-computer-1" src="/images/ultimus/sc3_fimg1.png"
+                <img class="bc-computer-image bc-computer-1" src="/images/domus/sc5_fimg1_left.png"
                     style="right: 870px; height:500px;">
-                <img class="bc-computer-image bc-computer-2" src="/images/ultimus/sc3_fimg2.png"
+                <img class="bc-computer-image bc-computer-2" src="/images/domus/sc5_fimg2_right.png"
                     style="left: 800px; height:600px;">
             </div>
             <div class="container">
@@ -342,7 +341,7 @@
                     <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;text-align: center;">
                         Schedule at ease</div>
                     <div class="ac-computer-wrap hidden-md-up">
-                        <img class="ac-computer-image ac-computer-1" style="" src="/images/ultimus/sc3_fimg2.png">
+                        <img class="ac-computer-image ac-computer-1" style="" src="/images/domus/sc5_fimg1_left.png">
                     </div>
                     <div class="banner-para ls-0">
                         <span class="d-lg-block">Waking up in the morning is no more a task
@@ -362,13 +361,13 @@
     <section class="hidden-sm-down">
         <div class="banner-block ls-0">
             <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg6_en.png) top center no-repeat;">
+                style="background:url(/images/domus/domus_bg6_en.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
                 <div class="space60 hidden-sm-down"></div>
                 <div class="space60 hidden-sm-down"></div>
-                
+                <div class="space60 hidden-sm-down"></div>
                 <div class="row">
                     <div class="col-12 col-lg-6" align="left"></div>
                     <div class="col-12 col-lg-6" align="left" style="margin-left: 630px;">
@@ -402,7 +401,7 @@
     <section class="hidden-md-up">
         <div class="banner-block ls-0">
             <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg6_en.png) top center no-repeat;">
+                style="background:url(/images/domus/domus_bg6_en.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
@@ -420,7 +419,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg6_en_mo.png">
+                                src="/images/domus/domus_bg6_en_mo.png">
                         </div>
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">Smart bulbs are eco-friendly and reign supreme in the market.
@@ -551,7 +550,7 @@
     <section class="hidden-sm-down">
         <div class="banner-block ls-0">
             <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg6_en.png) top center no-repeat;">
+                style="background:url(/images/domus/domus_bg8_en.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
@@ -593,7 +592,7 @@
     <section class="hidden-md-up">
         <div class="banner-block ls-0">
             <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg6_en.png) top center no-repeat;">
+                style="background:url(/images/domus/domus_bg8_en.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
@@ -611,7 +610,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg6_en_mo.png">
+                                src="/images/domus/domus_bg8_en_mo.png">
                         </div>
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">Switch your existing lighting system with
