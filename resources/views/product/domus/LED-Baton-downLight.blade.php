@@ -149,6 +149,7 @@
         @media (max-width: 575px) {
             .banner-para {
                 text-align: justify !important;
+                text-align-last: center;
             }
 
         }
