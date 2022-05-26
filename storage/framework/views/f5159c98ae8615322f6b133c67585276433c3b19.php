@@ -462,8 +462,9 @@
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Control the lights of your home by commanding virtual
-                                assistants such as Amazon Alexa and Google Assistant. </span>
+                            <span class="d-lg-block">The innovative lighting with powerful functionality and
+                                gorgeous style. Command your lighting through Amazon Alexa or Google Assistant and light
+                                up the space with your voice. Let's modernize your space and experience wonders.</span>
                         </div>
 
                         <div class="row">
@@ -517,8 +518,9 @@
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Control the lights of your home by commanding virtual
-                                assistants such as Amazon Alexa and Google Assistant. </span>
+                            <span class="d-lg-block">The innovative lighting with powerful functionality and
+                                gorgeous style. Command your lighting through Amazon Alexa or Google Assistant and light
+                                up the space with your voice. Let's modernize your space and experience wonders.</span>
                         </div>
 
                     </div>
