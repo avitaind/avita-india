@@ -161,7 +161,7 @@
                             </span>
                         </div>
                         <img src="/images/domus/BOX_OF_SPECTRUM_TO_BUILD_UP_SCENES_100px.png"
-                            style=" margin-top: 25px;margin-bottom: 10px;margin-left: 230px;">
+                            style=" margin-top: 25px;margin-bottom: 10px;margin-left: 220px;">
                         
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>
