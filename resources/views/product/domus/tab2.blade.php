@@ -96,7 +96,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/domus/SPECTRUM-OF-COLORS-MOB.PNG"
+                                src="/images/domus/SPECTRUM-OF-COLORS-MOB.png"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
