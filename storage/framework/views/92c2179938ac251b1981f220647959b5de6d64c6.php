@@ -38,7 +38,7 @@
                                 <div class="banner-para">
                                     <span>Welcome to the family of the smarts! AVITA DOMUS offers a wide range of
                                         smart light bulbs,
-                                        battens and Smart LED down light. Whether it’s for your living room, kitchen,
+                                        battens and Smart LED downlight. Whether it’s for your living room, kitchen,
                                         bathroom, or backyard,
                                         AVITA DOMUS has the
                                         perfect light.</span>
@@ -70,8 +70,7 @@
                         </li>
                         <li class="nav-item col-md-4 " align="center">
                             <a class="nav-link" id="DOWN-tab" data-toggle="tab" href="#DOWN" role="tab"
-                                aria-controls="DOWN" aria-selected="false">SMART LED DOWN
-                                LIGHT</a>
+                                aria-controls="DOWN" aria-selected="false">SMART LED DOWNLIGHT</a>
                         </li>
                     </ul>
 
@@ -129,8 +128,20 @@
             border-color: #ddd #ddd #fff;
         }
 
+        .btun {
+            min-width: 160px;
+            line-height: 1.15;
+        }
+
+        .btun:hover {
+            background: #662D91;
+            color: #fff;
+            border-color: #662D91;
+        }
+
     </style>
     <link type="text/css" rel="stylesheet" href="<?php echo e(asset('css/domus.css')); ?>" />
+
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('js'); ?>
@@ -138,27 +149,43 @@
     <script>
         var Bulbstate = 0;
 
-        function changeBulbState() {
+        function CH5() {
             switch (Bulbstate) {
                 case 0:
-                    document.getElementById("myimage").src = "/images/ultimus/ultimus_bg6_en.png";
+                    document.getElementById('heading').innerHTML = "Wide spectrum of colors to set up moods"
+                    document.getElementById('message')
+                        .innerHTML =
+                        "Make every moment mesmerizing with AVITA DOMUS smart batten. AVITA DOMUS smart batten creates a perfect ambiance for parties, festivals, or a movie night. Explore endless lighting possibilities with 16 million color options.";
+                    document.getElementById("myimage").src = "/images/domus/SPECTRUM-OF-COLORS-WEB.png";
                     Bulbstate = 0;
                     break;
                 default:
-                    document.getElementById("myimage").src = "/images/ultimus/ultimus_bg6_en.png";
+                    document.getElementById('heading').innerHTML = "Wide spectrum of colors to set up moods"
+                    document.getElementById('message')
+                        .innerHTML =
+                        "Make every moment mesmerizing with AVITA DOMUS smart batten. AVITA DOMUS smart batten creates a perfect ambiance for parties, festivals, or a movie night. Explore endless lighting possibilities with 16 million color options.";
+                    document.getElementById("myimage").src = "/images/domus/SPECTRUM-OF-COLORS-WEB.png";
                     Bulbstate = 0;
             }
 
         }
 
-        function changeBulbStateOff() {
+        function CH2() {
             switch (Bulbstate) {
                 case 1:
-                    document.getElementById("myimage").src = "/images/ultimus/ultimus_bg7_en.png";
+                    document.getElementById('heading').innerHTML = "Explore the shades of white"
+                    document.getElementById('message')
+                        .innerHTML =
+                        "Give your space a touch of freshness with the shades of white. Relax in the ambiance, change the brightness and tune your light to any shade of white between warm white and cool day white.";
+                    document.getElementById("myimage").src = "/images/domus/2CH-SPECTRUM-OF-COLORS-WEB.png";
                     Bulbstate = 1;
                     break;
                 default:
-                    document.getElementById("myimage").src = "/images/ultimus/ultimus_bg7_en.png";
+                    document.getElementById('heading').innerHTML = "Explore the shades of white"
+                    document.getElementById('message')
+                        .innerHTML =
+                        "Give your space a touch of freshness with the shades of white. Relax in the ambiance, change the brightness and tune your light to any shade of white between warm white and cool day white.";
+                    document.getElementById("myimage").src = "/images/domus/2CH-SPECTRUM-OF-COLORS-WEB.png";
                     Bulbstate = 1;
             }
 

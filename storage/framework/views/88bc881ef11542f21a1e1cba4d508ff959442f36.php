@@ -128,7 +128,7 @@
         <div class="banner-block ls-0">
             
             <div class="banner-bg hidden-sm-down">
-                <img src="/images/domus/domus_bg3_en.png" class="image" id="myimage" alt="Orisfina">
+                <img src="/images/domus/domus_bg3_en.png" >
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">

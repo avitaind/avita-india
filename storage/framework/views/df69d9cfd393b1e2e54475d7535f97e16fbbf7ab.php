@@ -8,8 +8,9 @@
                 <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">smart LED down light</div>
                 <div class="banner-para">
                     <span>Switch the lighting of your home at the tip of your fingers. Opt to live smart with DOMUS
-                        Smart LED down light, which is fun and functional. Dispense a cooler environment throughout the day
-                        or just dim the lights when required. The Wi-Fi and Bluetooth-operated Smart LED down light is
+                        Smart LED downlight, which is fun and functional. Dispense a cooler environment throughout the
+                        day
+                        or just dim the lights when required. The Wi-Fi and Bluetooth-operated Smart LED downlight is
                         energy-efficient and is low on budget and maintenance costs.</span>
                 </div>
             </div>
@@ -22,7 +23,7 @@
     <section class="hidden-sm-down">
         <div class="banner-block ls-0">
             <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg6_en.png) top center no-repeat;">
+                style="background:url(/images/domus/EXPERIENCE-A-COOLER-ENVIRONMENT-web.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
@@ -40,10 +41,11 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg6_en_mo.png">
+                                src="/images/domus/EXPERIENCE-A-COOLER-ENVIRONMENT-mob.png">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">AVITA DOMUS Smart LED down light does not require any warm-up time
+                            <span class="d-lg-block">AVITA DOMUS Smart LED down light does not require any warm-up
+                                time
                                 and remains cool all day which leads to emitting no heat. Thus, providing a cooler
                                 environment all day and night. </span>
                         </div>
@@ -67,7 +69,7 @@
     <section class="hidden-md-up">
         <div class="banner-block ls-0">
             <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg6_en.png) top center no-repeat;">
+                style="background:url(/images/domus/EXPERIENCE-A-COOLER-ENVIRONMENT-web.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
@@ -85,10 +87,11 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg6_en_mo.png">
+                                src="/images/domus/EXPERIENCE-A-COOLER-ENVIRONMENT-mob.png">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">AVITA DOMUS Smart LED down light does not require any warm-up time
+                            <span class="d-lg-block">AVITA DOMUS Smart LED down light does not require any warm-up
+                                time
                                 and remains cool all day which leads to emitting no heat. Thus, providing a cooler
                                 environment all day and night. </span>
                         </div>
@@ -109,10 +112,11 @@
     <section class="">
         <div class="banner-block ls-0 hidden-sm-down">
             <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;">
+                style="background:url(/images/domus/SHARPENED-BRIGHTNESS-web.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
+                <div class="space60 hidden-sm-down"></div>
                 <div class="space60 hidden-sm-down"></div>
                 <div class="space60 hidden-sm-down"></div>
                 <div class="space60 hidden-sm-down"></div>
@@ -126,7 +130,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg2_en_mo.jpg"
+                                src="/images/domus/SHARPENED-BRIGHTNESS-mob.png"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
@@ -162,7 +166,7 @@
 
         <div class="banner-block ls-0 ">
             <div class="banner-bg hidden-sm-down hidden-md-up"
-                style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;">
+                style="background:url(/images/domus/SHARPENED-BRIGHTNESS-web.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container hidden-md-up">
@@ -181,7 +185,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg2_en_mo.jpg"
+                                src="/images/domus/SHARPENED-BRIGHTNESS-mob.png"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
@@ -203,25 +207,55 @@
 
     
 
+
+
+    
+
+
+
+    
+
+
+
+    
     <section class="hidden-sm-down">
         <div class="banner-block ls-0">
             <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/web-banner-ultimus.jpg) top center no-repeat;">
+                style="background:url(/images/domus/CONVENIENTLY-DIMMABLE-web.png) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
                 <div class="space60 hidden-sm-down"></div>
                 <div class="space60 hidden-sm-down"></div>
                 <div class="space60 hidden-sm-down"></div>
+                <div class="row">
+                    <div class="col-12 col-lg-6" align="left"></div>
+                    <div class="col-12 col-lg-6" align="left" style="margin-left: 630px;">
+                        <div class="h2 banner-header mob-text-center">
+                            <div class=""
+                                style="text-transform:uppercase; margin-top:50px;text-align: center; ">
+                                Conveniently dimmable</div>
+                        </div>
+                        <div class="space60"></div>
+                        <div class="ac-computer-wrap hidden-md-up">
+                            <img class="ac-computer-image ac-computer-2" style=""
+                                src="/images/domus/EXPERIENCE-A-COOLER-ENVIRONMENT-mob.png">
+                        </div>
+                        <div class="banner-para ls-0">
+                            <span class="d-lg-block">Saves energy by dimming the brightness of lights between 1% to
+                                100% according to the requirement. </span>
+                        </div>
+                        <div class="space60 hidden-sm-down"></div>
+                        <div class="space60 hidden-sm-down"></div>
+                        <div class="space60 hidden-sm-down"></div>
+                        <div class="space60 hidden-sm-down"></div>
+
+                    </div>
+                </div>
                 <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
+                
+                
+                
             </div>
         </div>
     </section>
@@ -230,19 +264,38 @@
 
     <section class="hidden-md-up">
         <div class="banner-block ls-0">
+            <div class="banner-bg hidden-sm-down"
+                style="background:url(/images/domus/CONVENIENTLY-DIMMABLE-web.png) top center no-repeat;">
+            </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
                 <div class="row">
                     <div class="col-12 col-lg-6" align="left"></div>
                     <div class="col-12 col-lg-6" align="left">
-                        <div class="space30"></div>
+                        <div class="h2 banner-header mob-text-center">
+                            <div class=""
+                                style="text-transform:uppercase; margin-top:50px;text-align: center; ">Conveniently
+                                dimmable</div>
+                        </div>
+                        <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/mob-banner-ultimus.jpg">
+                                src="/images/domus/CONVENIENTLY-DIMMABLE-mob.png">
+                        </div>
+                        <div class="banner-para ls-0">
+                            <span class="d-lg-block">Saves energy by dimming the brightness of lights between 1% to
+                                100% according to the requirement.
+                            </span>
                         </div>
                     </div>
                 </div>
                 <div class="space60 hidden-sm-down"></div>
+                
+                
+                
             </div>
         </div>
     </section>
@@ -254,7 +307,7 @@
     <section class="">
         <div class="banner-block ls-0 hidden-sm-down">
             <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;">
+                style="background:url(/images/domus/Low-on-budget-&-maintenance-cost-web.jpg) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
@@ -265,18 +318,21 @@
                 <div class="row" style="margin-right: 100px; ">
                     <div class="col-12 col-lg-6" align="">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase;text-align: center; ">
-                                Conveniently dimmable</div>
+                            <div class="" style="text-transform:uppercase;text-align: center; ">Low on
+                                budget &
+                                maintenance cost</div>
                         </div>
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg2_en_mo.jpg"
+                                src="/images/domus/Low-on-budget-&-maintenance-cost-mob.jpg"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Saves energy by dimming the brightness of lights between 1% to
-                                100% according to the requirement. </span>
+                            <span class="d-lg-block">
+                                Diligently designed to consume fewer lumens per watt which
+                                means less burden on the budget. Also, fewer lumens consumption ensures long service
+                                life. Thus, leading to a cut in maintenance costs.</span>
                         </div>
 
                         <div class="row">
@@ -307,7 +363,7 @@
 
         <div class="banner-block ls-0 ">
             <div class="banner-bg hidden-sm-down hidden-md-up"
-                style="background:url(/images/ultimus/ultimus_bg2_en.png) top center no-repeat;">
+                style="background:url(/images/domus/Low-on-budget-&-maintenance-cost-web.jpg) top center no-repeat;">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container hidden-md-up">
@@ -320,109 +376,29 @@
                 <div class="row hidden-md-up" style="">
                     <div class="col-12 col-lg-6" align="">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase; padding-top: 50px;">
-                                Conveniently dimmable</div>
-                        </div>
-                        <div class="space60"></div>
-                        <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg2_en_mo.jpg"
-                                style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
-                        </div>
-                        <div class="banner-para ls-0">
-                            <span class="d-lg-block">Saves energy by dimming the brightness of lights between 1% to
-                                100% according to the requirement. </span>
-                        </div>
-
-                    </div>
-                    <div class="col-12 col-lg-6" align="left"></div>
-                </div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-            </div>
-        </div>
-    </section>
-
-    
-
-    
-    <section class="hidden-sm-down">
-        <div class="banner-block ls-0">
-            <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg6_en.png) top center no-repeat;">
-            </div>
-            <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
-            <div class="container">
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="row">
-                    <div class="col-12 col-lg-6" align="left"></div>
-                    <div class="col-12 col-lg-6" align="left" style="margin-left: 630px;">
-                        <div class="h2 banner-header mob-text-center">
-                            <div class=""
-                                style="text-transform:uppercase; margin-top:50px;text-align: center; ">Low on budget &
+                            <div class="" style="text-transform:uppercase; padding-top: 50px;">Low on
+                                budget &
                                 maintenance cost</div>
                         </div>
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg6_en_mo.png">
+                                src="/images/domus/Low-on-budget-&-maintenance-cost-mob.jpg"
+                                style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Diligently designed to consume fewer lumens per watt which
-                                means less burden on the budget. Also, fewer lumens consumption ensures long service
-                                life. Thus, leading to a cut in maintenance costs. </span>
+                            <span class="d-lg-block">Diligently
+                                designed to consume fewer lumens per watt which means less burden on the budget. Also,
+                                fewer lumens consumption ensures long service life. Thus, leading to a cut in
+                                maintenance costs.</span>
                         </div>
-                        <div class="space60 hidden-sm-down"></div>
-                        <div class="space60 hidden-sm-down"></div>
-                        <div class="space60 hidden-sm-down"></div>
-                        <div class="space60 hidden-sm-down"></div>
 
                     </div>
-                </div>
-                <div class="space60 hidden-sm-down"></div>
-                
-                
-                
-            </div>
-        </div>
-    </section>
-
-    
-
-    <section class="hidden-md-up">
-        <div class="banner-block ls-0">
-            <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/ultimus/ultimus_bg6_en.png) top center no-repeat;">
-            </div>
-            <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
-            <div class="container">
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="row">
                     <div class="col-12 col-lg-6" align="left"></div>
-                    <div class="col-12 col-lg-6" align="left">
-                        <div class="h2 banner-header mob-text-center">
-                            <div class=""
-                                style="text-transform:uppercase; margin-top:50px;text-align: center; ">Low on budget & maintenance cost</div>
-                        </div>
-                        <div class="space60"></div>
-                        <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/ultimus/ultimus_bg6_en_mo.png">
-                        </div>
-                        <div class="banner-para ls-0">
-                            <span class="d-lg-block">Diligently designed to consume fewer lumens per watt which means less burden on the budget. Also, fewer lumens consumption ensures long service life. Thus, leading to a cut in maintenance costs.  </span>
-                        </div>
-                    </div>
                 </div>
                 <div class="space60 hidden-sm-down"></div>
-                
-                
-                
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
             </div>
         </div>
     </section>

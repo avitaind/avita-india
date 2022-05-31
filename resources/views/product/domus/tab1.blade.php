@@ -130,7 +130,7 @@
                 style="background:url(/images/domus/domus_bg6_en.png) top center no-repeat;">
             </div> --}}
             <div class="banner-bg hidden-sm-down">
-                <img src="/images/domus/domus_bg3_en.png" class="image" id="myimage" alt="Orisfina">
+                <img src="/images/domus/domus_bg3_en.png" >
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
@@ -148,9 +148,7 @@
                             <div class="space30 hidden-sm-down"></div>
                             {{-- <img src="/images/domus/100px.png" "
                                 style=" margin-left: 107px;padding-top: 20px;"> --}}
-                            {{-- <button class="bttn" onclick="changeBulbStateOff()"
-                                style="margin-left: 160px; ">Night</button>
-                            <button class="bttn" onclick="changeBulbState()">Day</button> --}}
+                            
 
                         </div>
 

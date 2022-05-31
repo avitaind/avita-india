@@ -158,11 +158,11 @@ class ProductsController extends Controller
                     break;
             }
         }
-        if ($slug == 'emergency-lighting') {
+        if ($slug == 'inverter-LED') {
 
             switch ($country) {
                 case 'in':
-                    return view('product.domus.emergency', compact('product'));
+                    return view('product.domus.inverter-LED', compact('product'));
                     break;
             }
         }

@@ -18,33 +18,42 @@
 
     
 
-       
+    
 
-       <section class="">
+    <section class="">
         <div class="banner-block ls-0 hidden-sm-down">
-            <div class="banner-bg hidden-sm-down"
-                style="background:url(/images/domus/SPECTRUM-OF-COLORS-WEB.png) top center no-repeat;">
+            
+            <div class="banner-bg hidden-sm-down">
+                <img src="/images/domus/SPECTRUM-OF-COLORS-WEB.png" class="image" id="myimage" alt="Orisfina">
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
                 <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
+                <div class="space30 hidden-sm-down"></div>
+                <div class="space30 hidden-sm-down"></div>
+                <div class="space30 hidden-sm-down"></div>
+                <div class="space30 hidden-sm-down"></div>
                 <div class="space60 hidden-sm-down"></div>
                 <div class="row" style="margin-right: 100px; ">
                     <div class="col-12 col-lg-6" align="">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase;text-align: center; ">Wide
+                            <div class="" style="text-transform:uppercase;text-align: center; " id="heading">Wide
                                 spectrum of colors to set up moods</div>
                         </div>
-                        <div class="space60"></div>
+                        `
+                        <div class="m-4">
+                            <button class="btun " onclick="CH2()" style="">2CH</button>
+                            <button class="btun " onclick="CH5()">5CH</button>
+                        </div>
+
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
                                 src="/images/domus/SPECTRUM-OF-COLORS-WEB.png"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Make every moment mesmerizing with AVITA DOMUS smart batten.
+                            <span class="d-lg-block" id="message">Make every moment mesmerizing with AVITA DOMUS
+                                smart batten.
                                 AVITA DOMUS smart batten creates a perfect ambiance for parties, festivals, or a movie
                                 night. Explore endless lighting possibilities with 16 million color options. </span>
                         </div>
@@ -96,7 +105,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/domus/SPECTRUM-OF-COLORS-MOB.PNG"
+                                src="/images/domus/SPECTRUM-OF-COLORS-MOB.png"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
@@ -116,7 +125,7 @@
     </section>
 
     
-    
+
 
     
     <section class="hidden-sm-down">
@@ -204,24 +213,24 @@
 
     
 
- 
-
-    
-
-    
-
-    
 
 
     
 
+    
 
-  
+    
+    
 
-        
+    
 
 
 
+
+    
+
+
+    
 
     
     <section class="hidden-sm-down">
@@ -238,7 +247,8 @@
                 <div class="row" style="margin-right: 100px; ">
                     <div class="col-12 col-lg-6" align="">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase;text-align: center; ">Intensified
+                            <div class="" style="text-transform:uppercase;text-align: center; ">
+                                Intensified
                                 tuneability</div>
                         </div>
                         <div class="space60"></div>
@@ -252,7 +262,7 @@
                                 color. Be it a romantic candlelight dinner or a family gathering effortlessly tune the
                                 lighting according to your mood. </span>
                         </div>
-        
+
                         <div class="row">
                             <div class="col-12 col-lg-6" align="">
                                 <section class="product-liber-wifi">
@@ -276,7 +286,7 @@
                 <div class="space60 hidden-sm-down"></div>
                 
             </div>
-        </div>      
+        </div>
     </section>
 
     
@@ -324,53 +334,54 @@
     
 
 
- <section class="hidden-sm-down">
-    <div class="banner-block ls-0">
-        <div class="banner-bg hidden-sm-down"
-            style="background:url(/images/domus/Voice_Control_Web.png) top center no-repeat;">
-        </div>
-        <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
-        <div class="container">
-            <div class="space60 hidden-sm-down"></div>
-            <div class="space60 hidden-sm-down"></div>
-            <div class="space60 hidden-sm-down"></div>
-            <div class="row">
-                <div class="col-12 col-lg-6" align="left"></div>
-                <div class="col-12 col-lg-6" align="left" style="margin-left: 630px;">
-                    <div class="h2 banner-header mob-text-center">
-                        <div class=""
-                            style="text-transform:uppercase; margin-top:50px;text-align: center; ">Controlled through virtual assistant</div>
-                    </div>
-                    <div class="space60"></div>
-                    <div class="ac-computer-wrap hidden-md-up">
-                        <img class="ac-computer-image ac-computer-2" style=""
-                            src="/images/domus/Voice_Control_Web.png">
-                    </div>
-                    <div class="banner-para ls-0">
-                        <span class="d-lg-block">The innovative lighting with powerful functionality and
-                            gorgeous style. Command your lighting through Amazon Alexa or Google Assistant and light
-                            up the space with your voice. Let's modernize your space and experience wonders.</span>
-                    </div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-
-                </div>
+    <section class="hidden-sm-down">
+        <div class="banner-block ls-0">
+            <div class="banner-bg hidden-sm-down"
+                style="background:url(/images/domus/Voice_Control_Web.png) top center no-repeat;">
             </div>
-            <div class="space60 hidden-sm-down"></div>
-            
-            
-            
+            <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
+            <div class="container">
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
+                <div class="space60 hidden-sm-down"></div>
+                <div class="row">
+                    <div class="col-12 col-lg-6" align="left"></div>
+                    <div class="col-12 col-lg-6" align="left" style="margin-left: 630px;">
+                        <div class="h2 banner-header mob-text-center">
+                            <div class=""
+                                style="text-transform:uppercase; margin-top:50px;text-align: center; ">Controlled
+                                through virtual assistant</div>
+                        </div>
+                        <div class="space60"></div>
+                        <div class="ac-computer-wrap hidden-md-up">
+                            <img class="ac-computer-image ac-computer-2" style=""
+                                src="/images/domus/Voice_Control_Web.png">
+                        </div>
+                        <div class="banner-para ls-0">
+                            <span class="d-lg-block">The innovative lighting with powerful functionality and
+                                gorgeous style. Command your lighting through Amazon Alexa or Google Assistant and light
+                                up the space with your voice. Let's modernize your space and experience wonders.</span>
+                        </div>
+                        <div class="space60 hidden-sm-down"></div>
+                        <div class="space60 hidden-sm-down"></div>
+                        <div class="space60 hidden-sm-down"></div>
+                        <div class="space60 hidden-sm-down"></div>
+
+                    </div>
+                </div>
+                <div class="space60 hidden-sm-down"></div>
+                
+                
+                
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
-        
+    
 
     <section class="">
-       <div class="banner-block ls-0 ">
+        <div class="banner-block ls-0 ">
             <div class="banner-bg hidden-sm-down hidden-md-up"
                 style="background:url(/images/domus/Voice_Control_Mob.png) top center no-repeat;">
             </div>
@@ -428,7 +439,8 @@
                 <div class="row" style="margin-right: 100px; ">
                     <div class="col-12 col-lg-6" align="">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase;text-align: center; ">EASY SCHEDULING</div>
+                            <div class="" style="text-transform:uppercase;text-align: center; ">EASY
+                                SCHEDULING</div>
                         </div>
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
@@ -437,9 +449,11 @@
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Control the lighting with just a click. Conveniently schedule the light to switch on automatically at dusk and switch off at dawn. At scheduled times, you can also explore the colors along with the other various functions.</span>
+                            <span class="d-lg-block">Control the lighting with just a click. Conveniently schedule
+                                the light to switch on automatically at dusk and switch off at dawn. At scheduled times,
+                                you can also explore the colors along with the other various functions.</span>
                         </div>
-        
+
                         <div class="row">
                             <div class="col-12 col-lg-6" align="">
                                 <section class="product-liber-wifi">
@@ -463,7 +477,7 @@
                 <div class="space60 hidden-sm-down"></div>
                 
             </div>
-        </div>      
+        </div>
     </section>
 
 
@@ -494,7 +508,9 @@
                                 src="/images/domus/EASY-SCHEDULING-MOB.png">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Control the lighting with just a click. Conveniently schedule the light to switch on automatically at dusk and switch off at dawn. At scheduled times, you can also explore the colors along with the other various functions.
+                            <span class="d-lg-block">Control the lighting with just a click. Conveniently schedule
+                                the light to switch on automatically at dusk and switch off at dawn. At scheduled times,
+                                you can also explore the colors along with the other various functions.
                             </span>
                         </div>
                     </div>
