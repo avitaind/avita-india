@@ -28,16 +28,16 @@
             </div>
             <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
             <div class="container">
-                <div class="space60 hidden-sm-down"></div>
                 <div class="space30 hidden-sm-down"></div>
                 <div class="space30 hidden-sm-down"></div>
                 <div class="space30 hidden-sm-down"></div>
                 <div class="space30 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
+                <div class="space30 hidden-sm-down"></div>
                 <div class="row" style="margin-right: 100px; ">
                     <div class="col-12 col-lg-6" align="">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase;text-align: center; " id="heading">Wide
+                            <div class="" style="text-transform:uppercase;text-align: center; "
+                                id="heading">Wide
                                 spectrum of colors to set up moods</div>
                         </div>
                         `
@@ -57,13 +57,14 @@
                                 AVITA DOMUS smart batten creates a perfect ambiance for parties, festivals, or a movie
                                 night. Explore endless lighting possibilities with 16 million color options. </span>
                         </div>
-
+                        <img src="/images/domus/BOX_OF_SPECTRUM_TO_BUILD_UP_SCENES_100px.png" style="margin-top: 20px;" id="iconweb">
                         <div class="row">
                             <div class="col-12 col-lg-6" align="">
                                 <section class="product-liber-wifi">
                                     <div class="banner-data d-flex flex-column flex-sm-row flex-wrap">
                                         <div class="data-card mx-3 text-left"
                                             style="margin-bottom: 50px;padding-top: 20px;">
+                                            
                                             
                                             <div class="badge-caption"> </div>
                                             <span class="badge-value" style="font-size: 2rem; "></span>
@@ -78,8 +79,6 @@
                     <div class="col-12 col-lg-6" align="left"></div>
                 </div>
                 <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                
             </div>
         </div>
         
@@ -99,17 +98,23 @@
                 <div class="row hidden-md-up" style="">
                     <div class="col-12 col-lg-6" align="">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase; padding-top: 50px;">Wide
+                            <div class="" style="text-transform:uppercase; padding-top: 50px;" id="headingmob">Wide
                                 spectrum of colors to set up moods</div>
+                        </div>
+                        <img src="/images/domus/BOX_OF_SPECTRUM_TO_BUILD_UP_SCENES_100px.png" style="margin-top: 20px;" id="iconmob">
+
+                        <div class="m-4" >
+                            <button class="btun button" onclick="CH2()" style="">2CH</button>
+                            <button class="btun button" onclick="CH5()">5CH</button>
                         </div>
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/domus/SPECTRUM-OF-COLORS-MOB.png"
+                                src="/images/domus/SPECTRUM-OF-COLORS-MOB.png" class="image" id="myimagemob" alt="Orisfina"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
-                            <span class="d-lg-block">Make every moment mesmerizing with AVITA DOMUS smart batten.
+                            <span class="d-lg-block" id="messagemob">Make every moment mesmerizing with AVITA DOMUS smart batten.
                                 AVITA DOMUS smart batten creates a perfect ambiance for parties, festivals, or a movie
                                 night. Explore endless lighting possibilities with 16 million color options. </span>
                         </div>
@@ -156,7 +161,8 @@
                                 about the security of the house? Worry not now control your lights throughout the globe
                                 with the AVITA app.</span>
                         </div>
-                        <div class="space60 hidden-sm-down"></div>
+                        <img src="/images/domus/OPERATED_GLOBALLY_100px.png" style="margin-top: 26px;margin-left: 210px;">
+                        
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>
@@ -190,8 +196,9 @@
                             <div class=""
                                 style="text-transform:uppercase; margin-top:50px;text-align: center; ">Operated globally
                             </div>
+                            <img src="/images/domus/OPERATED_GLOBALLY_100px.png" style="margin-top: 30px; margin-bottom: 30px;">
                         </div>
-                        <div class="space60"></div>
+                        
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
                                 src="/images/domus/OPERATED-GLOBALLY-MOB.png">
@@ -213,24 +220,6 @@
 
     
 
-
-
-    
-
-    
-
-    
-    
-
-    
-
-
-
-
-    
-
-
-    
 
     
     <section class="hidden-sm-down">
@@ -262,7 +251,7 @@
                                 color. Be it a romantic candlelight dinner or a family gathering effortlessly tune the
                                 lighting according to your mood. </span>
                         </div>
-
+                        <img src="/images/domus/INTENSIFIED-TUNEABILITY_100px.png" style="margin-top: 26px;margin-left: 10px;">
                         <div class="row">
                             <div class="col-12 col-lg-6" align="">
                                 <section class="product-liber-wifi">
@@ -283,8 +272,6 @@
                     <div class="col-12 col-lg-6" align="left"></div>
                 </div>
                 <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                
             </div>
         </div>
     </section>
@@ -308,8 +295,9 @@
                             <div class=""
                                 style="text-transform:uppercase; margin-top:50px;text-align: center; ">Intensified
                                 tuneability</div>
+                                <img src="/images/domus/INTENSIFIED-TUNEABILITY_100px.png" style="margin-top: 30px; margin-bottom: 30px;">
                         </div>
-                        <div class="space60"></div>
+                        
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
                                 src="/images/domus/INTENSIFIED-TUNEABILITY-MOB.png">
@@ -332,7 +320,6 @@
     
 
     
-
 
     <section class="hidden-sm-down">
         <div class="banner-block ls-0">
@@ -362,21 +349,16 @@
                                 gorgeous style. Command your lighting through Amazon Alexa or Google Assistant and light
                                 up the space with your voice. Let's modernize your space and experience wonders.</span>
                         </div>
-                        <div class="space60 hidden-sm-down"></div>
-                        <div class="space60 hidden-sm-down"></div>
+                        <img src="/images/domus/CONTROLLED-THROUGH-VIRTUAL-ASSISTANT_100px.png" style="margin-top: 17px;margin-left: 220px;">
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>
 
                     </div>
                 </div>
                 <div class="space60 hidden-sm-down"></div>
-                
-                
-                
             </div>
         </div>
     </section>
-
 
     
 
@@ -399,7 +381,8 @@
                             <div class="" style="text-transform:uppercase; padding-top: 50px;">Controlled
                                 through virtual assistant</div>
                         </div>
-                        <div class="space60"></div>
+                        <img src="/images/domus/CONTROLLED-THROUGH-VIRTUAL-ASSISTANT_100px.png" style="margin-top: 30px; margin-bottom: 30px;">
+                        
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
                                 src="/images/domus/Voice_Control_Mob.png"
@@ -453,7 +436,7 @@
                                 the light to switch on automatically at dusk and switch off at dawn. At scheduled times,
                                 you can also explore the colors along with the other various functions.</span>
                         </div>
-
+                        <img src="/images/domus/EASY-SCHEDULING_100px.png" style="margin-top: 26px;margin-left: 10px;">
                         <div class="row">
                             <div class="col-12 col-lg-6" align="">
                                 <section class="product-liber-wifi">
@@ -473,13 +456,10 @@
                     </div>
                     <div class="col-12 col-lg-6" align="left"></div>
                 </div>
-                <div class="space60 hidden-sm-down"></div>
-                <div class="space60 hidden-sm-down"></div>
-                
+                <div class="space30 hidden-sm-down"></div>
             </div>
         </div>
     </section>
-
 
     
 
@@ -499,10 +479,11 @@
                         <div class="h2 banner-header mob-text-center">
                             <div class=""
                                 style="text-transform:uppercase; margin-top:50px;text-align: center; ">EASY SCHEDULING
-
+                                
                             </div>
+                            <img src="/images/domus/EASY-SCHEDULING_100px.png" style="margin-top: 30px; margin-bottom: 30px;">
                         </div>
-                        <div class="space60"></div>
+                        
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
                                 src="/images/domus/EASY-SCHEDULING-MOB.png">
