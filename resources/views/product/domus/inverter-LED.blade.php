@@ -291,6 +291,7 @@
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space30 hidden-sm-down"></div>
+                    <div class="space30 hidden-sm-down"></div>
                     <div class="row">
                         <div class="col-12 col-lg-6" align="left"></div>
                         <div class="col-12 col-lg-6" align="left" style="padding-left: 50px;">
@@ -310,7 +311,7 @@
                             </div>
                             <img src="/images/domus/Inverter/Works-like-a-regular-bulb-100px.png" style="margin-top: 30px;margin-left: 210px;">
                             <div class="space60 hidden-sm-down"></div>
-                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space30 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
                             
                         </div>
