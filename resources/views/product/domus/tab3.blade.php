@@ -135,7 +135,7 @@
                             <span class="d-lg-block">Unlike conventional lights, they achieve optimum lighting
                                 instantly and ensure appropriate light output by using a reflective material. </span>
                         </div>
-                        <img src="/images/domus/SHARPENED-BRIGHTNESS-100px.png" style="margin-top: 37px;margin-left: 20px;">
+                        <img src="/images/domus/SHARPENED-BRIGHTNESS-100px.png" style="margin-top: 37px;margin-left: -4px;">
                         <div class="row">
                             <div class="col-12 col-lg-6" align="">
                                 <section class="product-liber-wifi">
@@ -232,7 +232,7 @@
                             <span class="d-lg-block">Saves energy by dimming the brightness of lights between 1% to
                                 100% according to the requirement. </span>
                         </div>
-                        <img src="/images/domus/CONVENIENTLY-DIMMABLE-100px.png" style="margin-top: 30px;margin-left: 220px;">
+                        <img src="/images/domus/CONVENIENTLY-DIMMABLE-100px.png" style="margin-top: 30px;margin-left: 210px;">
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>

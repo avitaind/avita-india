@@ -157,7 +157,7 @@
                             </span>
                         </div>
                         <img src="/images/domus/BOX_OF_SPECTRUM_TO_BUILD_UP_SCENES_100px.png"
-                            style=" margin-top: 25px;margin-bottom: 23px;margin-left: 220px;">
+                            style=" margin-top: 25px;margin-bottom: 23px;margin-left: 210px;">
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space30 hidden-sm-down"></div>
@@ -261,7 +261,7 @@
                             </div>
                             <div class="col-12 col-lg-6" align="left">
                                 <img src="/images/domus/CONTROLLED_THROUGH_VIRTUAL_ASSISTANT_100px.png"
-                                    style="margin-left: -70px; margin-top: 30px;">
+                                    style="margin-left: -60px; margin-top: 30px;">
                             </div>
                         </div>
 
@@ -386,7 +386,7 @@
                                 production, they are less harmful and save the environment.</span>
                         </div>
                         <img src="/images/domus/LIGHTING_THAT_SAVES_THE_ENVIRONMENT_100px.png"
-                            style=" margin-top: 25px;margin-bottom: 10px;margin-left: 230px;">
+                            style=" margin-top: 25px;margin-bottom: 10px;margin-left: 213px;">
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space30 hidden-sm-down"></div>
@@ -423,7 +423,7 @@
 
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/domus/domus_bg6_en_mo.png">
+                                src="/images/domus/domus_bg6_en_mo.jpg">
                         </div>
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">Smart bulbs are eco-friendly and reign supreme in the market.
@@ -496,7 +496,7 @@
                             </div>
                             <div class="col-12 col-lg-6" align="left">
                                 <img src="/images/domus/LIGHTS_THAT_MIMIC_YOUR_PRESENCE_100px.png"
-                                    style="margin-left: -70px; margin-top: 30px;">
+                                    style="margin-left: -60px; margin-top: 30px;">
                             </div>
                         </div>
 
@@ -587,7 +587,7 @@
                                 also emits less heat than other conventional lights.</span>
                         </div>
                         <img src="/images/domus/SMART_&_ECONOMICAL_CHOICE_100px.png"
-                            style=" margin-top: 25px;margin-bottom: -7px;margin-left: 230px;">
+                            style=" margin-top: 25px;margin-bottom: -7px;margin-left: 211px;">
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>
 
@@ -698,7 +698,7 @@
                             </div>
                             <div class="col-12 col-lg-6" align="left">
                                 <img src="/images/domus/ACQUIRES_THE_AMAZING_LIFE_SPAN_100px.png"
-                                    style="margin-left: -70px; margin-top: 30px;">
+                                    style="margin-left: -64px; margin-top: 30px;">
                             </div>
                         </div>
                     </div>
