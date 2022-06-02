@@ -185,7 +185,7 @@
                                     off. We understand the luxury that light is, and hence, design our devices for optimum
                                     usage and long life.</span>
                             </div>
-                            <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png" style="margin-top: 30px;margin-left: 170px;">
+                            <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png" style="margin-top: 30px;margin-left: 190px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
                         </div>
@@ -307,7 +307,7 @@
                                 <span class="d-lg-block">Looks and works like a regular bulb. You may never be able to
                                     tell the difference until the inverter turns on.</span>
                             </div>
-                            <img src="/images/domus/Inverter/Works-like-a-regular-bulb-100px.png" style="margin-top: 30px;margin-left: 210px;">
+                            <img src="/images/domus/Inverter/Works-like-a-regular-bulb-100px.png" style="margin-top: 30px;margin-left: 200px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space30 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
@@ -351,7 +351,7 @@
                                     your eyes, without losing any illumination strength. Drop all the worries about harming
                                     your eyes.</span>
                             </div>
-                            <img src="/images/domus/Inverter/Easy-on-the-eyes-100px.png" style="margin-top: 30px;margin-left: 170px;">
+                            <img src="/images/domus/Inverter/Easy-on-the-eyes-100px.png" style="margin-top: 30px;margin-left: 190px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space30 hidden-sm-down"></div>
@@ -472,7 +472,7 @@
                                     ensure the consumption of less of lumens. However, it leads to 85% less power
                                     consumption and lower electricity costs.</span>
                             </div>
-                            <img src="/images/domus/Inverter/Saves-Energy-100px.png" style="margin-top: 27px;margin-left: 170px;">
+                            <img src="/images/domus/Inverter/Saves-Energy-100px.png" style="margin-top: 27px;margin-left: 202px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space30 hidden-sm-down"></div>
@@ -517,7 +517,7 @@
                                     the re-charging and makes sure that there is no drain on the battery present inside the
                                     bulb.</span>
                             </div>
-                            <img src="/images/domus/Inverter/Overcharging-Protection-100px.png" style="margin-top: 30px;margin-left: 175px;">
+                            <img src="/images/domus/Inverter/Overcharging-Protection-100px.png" style="margin-top: 30px;margin-left: 190px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space30 hidden-sm-down"></div>
@@ -640,7 +640,7 @@
                                 <span class="d-lg-block">Comes with a built-in rechargeable battery that lasts for a
                                     very long time. Charges automatically when the power supply is present.</span>
                             </div>
-                            <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png" style="margin-top: 30px;margin-left: 195px;">
+                            <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png" style="margin-top: 30px;margin-left: 200px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
