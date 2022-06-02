@@ -9,9 +9,9 @@
             <div class="responsive-block">
                 <div class="banner-block responsive-item">
                     <div class="banner-bg hidden-sm-down"
-                        style="background-image: url('/images/domus/website_domus_banner.png')"></div>
+                        style="background-image: url('/images/domus/Inverter/website_domus_Inverter_banner.png')"></div>
                     <div class="banner-bg hidden-md-up"
-                        style="background-image: url('/images/domus/mobile_domus_banner.png')">
+                        style="background-image: url('/images/domus/Inverter/mobile_domus_Inverter_banner.png')">
                     </div>
                 </div>
             </div>
