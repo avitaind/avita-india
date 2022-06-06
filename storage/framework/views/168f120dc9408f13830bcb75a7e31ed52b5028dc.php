@@ -94,14 +94,29 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item has-dropdown">
-                                <input id="header_product_domus" type="checkbox" hidden="">
-                                <label for="header_product_domus" class="d-block mb-0"><a
-                                        class="nav-link px-md-4 py-2">Smart Lighting [Launching Soon] </a></label>
-
-                            </li>
                             
 
+                            <li class="nav-item has-dropdown">
+                                <input id="header_product_domus" type="checkbox" hidden="">
+                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2" ><?php echo e(__('site.domus')); ?></a></label>
+                                <div class="dropdown">
+                                    <ul class="list-unstyled">
+
+                                        <li class="nav-item">
+
+                                            
+                                            <a class="nav-link px-md-4 py-2" ><?php echo e(__('site.LED_Baton_downLight')); ?></a>
+                                        </li> 
+                                        <li class="nav-item">
+
+                                            
+                                            <a class="nav-link px-md-4 py-2" ><?php echo e(__('site.inverter_led')); ?></a>
+                                        </li>
+                   
+                                    </ul>
+                                     
+                                </div>
+                            </li>
 
                             
 

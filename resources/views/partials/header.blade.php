@@ -123,19 +123,40 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item has-dropdown">
+                            {{-- <li class="nav-item has-dropdown">
                                 <input id="header_product_domus" type="checkbox" hidden="">
                                 <label for="header_product_domus" class="d-block mb-0"><a
                                         class="nav-link px-md-4 py-2">Smart Lighting [Launching Soon] </a></label>
 
                             </li>
-                            {{-- <li class="nav-item">
+                            <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['LED-Baton-downLight']) }}">LED-Baton-downLight</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['LED-Baton-downLight-2']) }}">LED-Baton-downLight-2</a>
                             </li> --}}
 
+                            <li class="nav-item has-dropdown">
+                                <input id="header_product_domus" type="checkbox" hidden="">
+                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2" >{{ __('site.domus') }}</a></label>
+                                <div class="dropdown">
+                                    <ul class="list-unstyled">
+
+                                        <li class="nav-item">
+
+                                            {{-- <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['LED-Baton-downLight']) }}">{{ __('site.LED_Baton_downLight') }}</a> --}}
+                                            <a class="nav-link px-md-4 py-2" >{{ __('site.LED_Baton_downLight') }}</a>
+                                        </li> 
+                                        <li class="nav-item">
+
+                                            {{-- <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['inverter-LED']) }}">{{ __('site.inverter_led') }}</a> --}}
+                                            <a class="nav-link px-md-4 py-2" >{{ __('site.inverter_led') }}</a>
+                                        </li>
+                   
+                                    </ul>
+                                     
+                                </div>
+                            </li>
 
                             {{-- <li class="nav-item has-dropdown">
                                 <input id="header_product_domus" type="checkbox" hidden="">
