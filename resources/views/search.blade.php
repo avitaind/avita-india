@@ -59,7 +59,7 @@
                         <div class="col-12 col-lg-6 text-center">
                             <div class="h1 section-title my-4 ls-0 font-weight-light">@lang('site.support_title')</div>
 
-                        <img src="/images/contact.png" style="width:320px;">
+                        <img src="/images/contact.png" style="width: 346px;margin-top: 15px;">
                             </div>
                     </div>
                 </div>
