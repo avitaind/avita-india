@@ -28,7 +28,7 @@
                                         <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2"
                                                 href="<?php echo e(route('product.overview', ['ultimus'])); ?>"><?php echo app('translator')->getFromJson('site.ultimus_c'); ?></a>
-                                                
+                                            
                                         </li>
 
                                         <li class="nav-item">
@@ -65,7 +65,7 @@
                                             <a class="nav-link px-md-4 py-2"
                                                 href="<?php echo e(route('product.overview', ['liber-new-generation'])); ?>"><?php echo app('translator')->getFromJson('site.liber-new-generation'); ?></a>
                                         </li>
-                                        
+
                                     </ul>
                                 </div>
                             </li>
@@ -98,23 +98,48 @@
 
                             <li class="nav-item has-dropdown">
                                 <input id="header_product_domus" type="checkbox" hidden="">
-                                <label for="header_product_domus" class="d-block mb-0"><a class="nav-link px-md-4 py-2" ><?php echo e(__('site.domus')); ?></a></label>
+                                <label for="header_product_domus" class="d-block mb-0"><a
+                                        class="nav-link px-md-4 py-2"><?php echo e(__('site.domus')); ?></a></label>
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
+                                        <li class="nav-item has-dropdown">
+                                            <input id="header_product_domus" type="checkbox" hidden="">
+                                            <label for="header_product_domus" class="d-block mb-0"><a
+                                                    class="nav-link px-md-4 py-2"><?php echo e(__('site.smart_product_led')); ?></a></label>
+                                            <div class="dropdown">
+                                                <ul class="list-unstyled">
 
-                                        <li class="nav-item">
+                                                    <li class="nav-item has-dropdown">
 
-                                            
-                                            <a class="nav-link px-md-4 py-2" ><?php echo e(__('site.LED_Baton_downLight')); ?></a>
-                                        </li> 
-                                        <li class="nav-item">
+                                                        
+                                                        <a
+                                                            class="nav-link px-md-4 py-2"><?php echo e(__('site.LED_Baton_downLight')); ?></a>
+                                                    </li>
 
-                                            
-                                            <a class="nav-link px-md-4 py-2" ><?php echo e(__('site.inverter_led')); ?></a>
+                                                </ul>
+
+                                            </div>
                                         </li>
-                   
+
+                                        <li class="nav-item has-dropdown">
+                                            <input id="header_product_domus" type="checkbox" hidden="">
+                                            <label for="header_product_domus" class="d-block mb-0"><a
+                                                    class="nav-link px-md-4 py-2"><?php echo e(__('site.inverter_led')); ?></a></label>
+                                            <div class="dropdown">
+                                                <ul class="list-unstyled">
+
+                                                    <li class="nav-item has-dropdown">
+
+                                                        
+                                                        <a
+                                                            class="nav-link px-md-4 py-2"><?php echo e(__('site.inverter_led_bulb')); ?></a>
+                                                    </li>
+
+                                                </ul>
+
+                                            </div>
+                                        </li>
                                     </ul>
-                                     
                                 </div>
                             </li>
 
