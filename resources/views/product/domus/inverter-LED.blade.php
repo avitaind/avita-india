@@ -35,7 +35,7 @@
                             situation. AVITA Inverter LED Bulb uses an independent power source and ensures it comes back
                             into effect even after the power is shut off. It is essential for offices, public buildings, or
                             any other space.</span>
-                        <span>Experience lighting round-the-clock with the 9W AVITA Inverter LED Bulb. It has a 2200 mAh
+                        <span>Experience lighting round-the-clock with the 9W / 10W AVITA Inverter LED Bulb. It has a 2200 / 2000 mAh
                             lithium battery that has a light backup of up to 4 hours with 8-10 hours for full
                             charging.</span>
                     </div>
