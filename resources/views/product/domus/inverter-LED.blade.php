@@ -7,7 +7,7 @@
 
 @section('content')
     <main class="top-nav-padding">
-        {{-- @include('partials.inverterDomus-product-navbar') --}}
+        @include('partials.inverterDomus-product-navbar')
 
 
         <section class="product-liber-banner">

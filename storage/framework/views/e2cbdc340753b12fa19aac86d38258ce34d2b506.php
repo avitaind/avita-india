@@ -5,7 +5,7 @@
 
 <?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
-        <?php echo $__env->make('partials.inverterDomus-product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+        
 
 
         <section class="product-liber-banner">
@@ -36,7 +36,7 @@
                             situation. AVITA Inverter LED Bulb uses an independent power source and ensures it comes back
                             into effect even after the power is shut off. It is essential for offices, public buildings, or
                             any other space.</span>
-                        <span>Experience lighting round-the-clock with the 9W / 10W AVITA Inverter LED Bulb. It has a 2200 /
+                        <span>Experience lighting round-the-clock with the 9W / 12W AVITA Inverter LED Bulb. It has a 2200 /
                             2000 mAh
                             lithium battery that has a light backup of up to 4 hours with 8-10 hours for full
                             charging.</span>
@@ -443,7 +443,7 @@
                             </div>
                             <div class="banner-para ls-0">
                                 <span class="d-lg-block">The Inverter LED Bulb is equipped with LED light beads that
-                                    ensure the consumption of less of lumens. However, it leads to 85% less power
+                                    ensure the consumption of less of lumens. However, it leads to less power
                                     consumption and lower electricity costs.</span>
                             </div>
                         </div>
@@ -482,7 +482,7 @@
                             </div>
                             <div class="banner-para ls-0">
                                 <span class="d-lg-block">The Inverter LED Bulb is equipped with LED light beads that
-                                    ensure the consumption of less of lumens. However, it leads to 85% less power
+                                    ensure the consumption of less of lumens. However, it leads to less power
                                     consumption and lower electricity costs.</span>
                             </div>
                             <img src="/images/domus/Inverter/Saves-Energy-100px.png"

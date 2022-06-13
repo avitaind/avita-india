@@ -6,7 +6,7 @@
 
 @section('content')
     <main class="top-nav-padding">
-        {{-- @include('partials.domusLBD-product-navbar') --}}
+        @include('partials.domusLBD-product-navbar')
 
         <section class="product-liber-banner">
             <div class="responsive-block">
