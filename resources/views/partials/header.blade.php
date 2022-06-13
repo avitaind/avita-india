@@ -151,7 +151,7 @@
 
                                                     <li class="nav-item has-dropdown">
 
-                                                        {{-- <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['LED-Baton-downLight']) }}">{{ __('site.LED_Baton_downLight') }}</a> --}}
+                                                        {{-- <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['LED-batten-downLight']) }}">{{ __('site.LED_Baton_downLight') }}</a> --}}
                                                         <a
                                                             class="nav-link px-md-4 py-2">{{ __('site.LED_Baton_downLight') }}</a>
                                                     </li>
@@ -170,7 +170,7 @@
 
                                                     <li class="nav-item has-dropdown">
 
-                                                        {{-- <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['LED-Baton-downLight']) }}">{{ __('site.LED_Baton_downLight') }}</a> --}}
+                                                        {{-- <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['inverter-LED']) }}">{{ __('site.LED_Baton_downLight') }}</a> --}}
                                                         <a
                                                             class="nav-link px-md-4 py-2">{{ __('site.inverter_led_bulb') }}</a>
                                                     </li>

@@ -55,13 +55,17 @@ return [
     'smart_lighting'                => 'Smart Lighting',
     'conventional_lighting'         => 'Conventional Lighting',
     'inverter_led'                  => 'Inverter LED', 
+    'inverter_led_o'                 => 'Overview Inverter LED', 
     'inverter_led_bulb'             => 'Inverter LED BULB (Launching Soon)',
     'smart_product_led'             => 'Smart LED Products ',
 
-    'LED_Baton_downLight'           => 'LED Baton DownLight (Launching Soon)',
+    'LED_Baton_downLight'           => 'LED Batten DownLight (Launching Soon)',
+    'smart_light_bulb'              => 'Smart LED Bulb',
+    'smart_led_batten'              => 'Smart LED Batten',
+    'smart_led_downlight'           => 'Smart LED Downlight',
     'domus_led'                     => 'Smart LED',
-    'domus_baton'                   => 'Smart Baton',
-    'home_notify'                   =>'Notify Me',
+    'domus_baton'                   => 'Smart Batten',
+    'home_notify'                   => 'Notify Me',
     'gender_m'                      => 'Male',
     'gender_f'                      => 'Female',
     // universal
@@ -299,6 +303,7 @@ return [
     'publish_title'=>'News',
     'ultimus' => 'Overview Ultimus',
     'ultimus_spec' => 'Tech Spec',
+    'led_batten_downlight' => 'Overview LED Batten DownLight'
 
 
       

@@ -5,6 +5,9 @@
 
 <?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
+        <?php echo $__env->make('partials.inverterDomus-product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
+
         <section class="product-liber-banner">
             <div class="responsive-block">
                 <div class="banner-block responsive-item">
@@ -33,7 +36,8 @@
                             situation. AVITA Inverter LED Bulb uses an independent power source and ensures it comes back
                             into effect even after the power is shut off. It is essential for offices, public buildings, or
                             any other space.</span>
-                        <span>Experience lighting round-the-clock with the 9W AVITA Inverter LED Bulb. It has a 2200 mAh
+                        <span>Experience lighting round-the-clock with the 9W / 10W AVITA Inverter LED Bulb. It has a 2200 /
+                            2000 mAh
                             lithium battery that has a light backup of up to 4 hours with 8-10 hours for full
                             charging.</span>
                     </div>
@@ -69,7 +73,8 @@
                                 <div class=""
                                     style="text-transform:uppercase; margin-top:50px;text-align: center; ">Power backup of 4
                                     hours</div>
-                                    <img src="/images/domus/Inverter/Power-backup-of-4-hours-100px.png" style="margin-top: 30px;margin-bottom: 30px;">
+                                <img src="/images/domus/Inverter/Power-backup-of-4-hours-100px.png"
+                                    style="margin-top: 30px;margin-bottom: 30px;">
                             </div>
                             
                             <div class="ac-computer-wrap hidden-md-up">
@@ -121,7 +126,8 @@
                                     hours of battery backup, AVITA’s LED Bulb stays on for 4 hours. You will not have to
                                     worry about living without light anymore.</span>
                             </div>
-                            <img src="/images/domus/Inverter/Power-backup-of-4-hours-100px.png" style="margin-top: 30px;margin-left:210px;">
+                            <img src="/images/domus/Inverter/Power-backup-of-4-hours-100px.png"
+                                style="margin-top: 30px;margin-left:210px;">
                             <div class="row">
                                 <div class="col-12 col-lg-6" align="">
                                     <section class="product-liber-wifi">
@@ -185,7 +191,8 @@
                                     off. We understand the luxury that light is, and hence, design our devices for optimum
                                     usage and long life.</span>
                             </div>
-                            <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png" style="margin-top: 30px;margin-left: 190px;">
+                            <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png"
+                                style="margin-top: 30px;margin-left: 190px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
                         </div>
@@ -213,7 +220,8 @@
                             <div class="h2 banner-header mob-text-center">
                                 <div class="" style="text-transform:uppercase; padding-top: 50px;">Best for
                                     unanticipated power outages</div>
-                                    <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png" style="margin-top: 30px;margin-bottom: 30px;">
+                                <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png"
+                                    style="margin-top: 30px;margin-bottom: 30px;">
                             </div>
                             <div class="ac-computer-wrap hidden-md-up">
                                 <img class="ac-computer-image ac-computer-2" style=""
@@ -257,7 +265,8 @@
                                 <div class=""
                                     style="text-transform:uppercase; margin-top:50px;text-align: center; ">Works like a
                                     regular bulb</div>
-                                    <img src="/images/domus/Inverter/Works-like-a-regular-bulb-100px.png" style="margin-top: 30px;margin-bottom: 30px;">
+                                <img src="/images/domus/Inverter/Works-like-a-regular-bulb-100px.png"
+                                    style="margin-top: 30px;margin-bottom: 30px;">
                             </div>
                             <div class="ac-computer-wrap hidden-md-up">
                                 <img class="ac-computer-image ac-computer-2" style=""
@@ -307,11 +316,12 @@
                                 <span class="d-lg-block">Looks and works like a regular bulb. You may never be able to
                                     tell the difference until the inverter turns on.</span>
                             </div>
-                            <img src="/images/domus/Inverter/Works-like-a-regular-bulb-100px.png" style="margin-top: 30px;margin-left: 200px;">
+                            <img src="/images/domus/Inverter/Works-like-a-regular-bulb-100px.png"
+                                style="margin-top: 30px;margin-left: 200px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space30 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
-                            
+
                         </div>
                     </div>
                     <div class="space60 hidden-sm-down"></div>
@@ -351,7 +361,8 @@
                                     your eyes, without losing any illumination strength. Drop all the worries about harming
                                     your eyes.</span>
                             </div>
-                            <img src="/images/domus/Inverter/Easy-on-the-eyes-100px.png" style="margin-top: 30px;margin-left: 190px;">
+                            <img src="/images/domus/Inverter/Easy-on-the-eyes-100px.png"
+                                style="margin-top: 30px;margin-left: 190px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space30 hidden-sm-down"></div>
@@ -379,7 +390,8 @@
                             <div class="h2 banner-header mob-text-center">
                                 <div class="" style="text-transform:uppercase; padding-top: 50px;">Easy on
                                     the eyes</div>
-                                    <img src="/images/domus/Inverter/Easy-on-the-eyes-100px.png" style="margin-top: 30px;margin-bottom: 30px;">
+                                <img src="/images/domus/Inverter/Easy-on-the-eyes-100px.png"
+                                    style="margin-top: 30px;margin-bottom: 30px;">
                             </div>
                             <div class="ac-computer-wrap hidden-md-up">
                                 <img class="ac-computer-image ac-computer-2" style=""
@@ -422,7 +434,8 @@
                                 <div class=""
                                     style="text-transform:uppercase; margin-top:50px;text-align: center; ">Saves Energy
                                 </div>
-                                <img src="/images/domus/Inverter/Saves-Energy-100px.png" style="margin-top: 30px;margin-bottom: 30px;">
+                                <img src="/images/domus/Inverter/Saves-Energy-100px.png"
+                                    style="margin-top: 30px;margin-bottom: 30px;">
                             </div>
                             <div class="ac-computer-wrap hidden-md-up">
                                 <img class="ac-computer-image ac-computer-2" style=""
@@ -472,7 +485,8 @@
                                     ensure the consumption of less of lumens. However, it leads to 85% less power
                                     consumption and lower electricity costs.</span>
                             </div>
-                            <img src="/images/domus/Inverter/Saves-Energy-100px.png" style="margin-top: 27px;margin-left: 202px;">
+                            <img src="/images/domus/Inverter/Saves-Energy-100px.png"
+                                style="margin-top: 27px;margin-left: 202px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space30 hidden-sm-down"></div>
@@ -517,7 +531,8 @@
                                     the re-charging and makes sure that there is no drain on the battery present inside the
                                     bulb.</span>
                             </div>
-                            <img src="/images/domus/Inverter/Overcharging-Protection-100px.png" style="margin-top: 30px;margin-left: 190px;">
+                            <img src="/images/domus/Inverter/Overcharging-Protection-100px.png"
+                                style="margin-top: 30px;margin-left: 190px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space30 hidden-sm-down"></div>
@@ -546,7 +561,8 @@
                             <div class="h2 banner-header mob-text-center">
                                 <div class="" style="text-transform:uppercase; padding-top: 50px;">
                                     Overcharging Protection</div>
-                                    <img src="/images/domus/Inverter/Overcharging-Protection-100px.png" style="margin-top: 30px;margin-bottom: 30px;">
+                                <img src="/images/domus/Inverter/Overcharging-Protection-100px.png"
+                                    style="margin-top: 30px;margin-bottom: 30px;">
                             </div>
                             <div class="ac-computer-wrap hidden-md-up">
                                 <img class="ac-computer-image ac-computer-2" style=""
@@ -591,7 +607,8 @@
                                 <div class=""
                                     style="text-transform:uppercase; margin-top:50px;text-align: center; ">Built-in
                                     rechargeable battery</div>
-                                    <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png" style="margin-top: 30px;margin-bottom: 30px;">
+                                <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png"
+                                    style="margin-top: 30px;margin-bottom: 30px;">
                             </div>
                             <div class="ac-computer-wrap hidden-md-up">
                                 <img class="ac-computer-image ac-computer-2" style=""
@@ -640,7 +657,8 @@
                                 <span class="d-lg-block">Comes with a built-in rechargeable battery that lasts for a
                                     very long time. Charges automatically when the power supply is present.</span>
                             </div>
-                            <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png" style="margin-top: 30px;margin-left: 200px;">
+                            <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png"
+                                style="margin-top: 30px;margin-left: 200px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
@@ -678,7 +696,6 @@
             }
 
         }
-
     </style>
 <?php $__env->stopSection(); ?>
 

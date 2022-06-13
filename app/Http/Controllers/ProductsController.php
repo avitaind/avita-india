@@ -116,20 +116,11 @@ class ProductsController extends Controller
             }
         }
 
-        if ($slug == 'LED-Baton-downLight') {
+        if ($slug == 'LED-batten-downLight') {
 
             switch ($country) {
                 case 'in':
-                    return view('product.domus.LED-Baton-downLight', compact('product'));
-                    break;
-            }
-        }
-
-        if ($slug == 'LED-Baton-downLight-2') {
-
-            switch ($country) {
-                case 'in':
-                    return view('product.domus.LED-Baton-downLight-2', compact('product'));
+                    return view('product.domus.LED-batten-downLight', compact('product'));
                     break;
             }
         }
@@ -269,6 +260,9 @@ class ProductsController extends Controller
                     break;
             }
         }
+
+        
+        
 
 
 
@@ -421,6 +415,47 @@ class ProductsController extends Controller
                     return view('product.pura.spec_hk_en', compact('product'));
             }
         }
+        
+        if ($slug == 'led-bulb') {
+
+            switch ($country) {
+                case 'in':
+                    return view('product.domus.led_bulb_spec', compact('product'));
+
+                    break;
+            }
+        }
+
+        if ($slug == 'led-batten') {
+
+            switch ($country) {
+                case 'in':
+                    return view('product.domus.led_batten_spec', compact('product'));
+
+                    break;
+            }
+        }
+
+        if ($slug == 'led-downLight') {
+
+            switch ($country) {
+                case 'in':
+                    return view('product.domus.led_downLight_spec', compact('product'));
+
+                    break;
+            }
+        }
+
+        if ($slug == 'inverter-LED') {
+
+            switch ($country) {
+                case 'in':
+                    return view('product.domus.led_inverter_spec', compact('product'));
+
+                    break;
+            }
+        }
+
 
         /* if ( $slug == 'pura-amd' ){
             switch ( $country ) {
