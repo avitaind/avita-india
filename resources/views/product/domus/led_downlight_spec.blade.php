@@ -21,20 +21,13 @@
                                 <div class="d-sm-block">10W TUNABLE CCT SMART LED DOWNLIGHTER</div>
                                 {{-- <div class="d-sm-block">(35.56 cm)</div> --}}
                             </div>
-                            <!--<img class="hidden-sm-down" src="/images/liber/u13/lightpurple.png"> -->
-                            <img class="hidden-sm-down" src="/images/pura/Pura_grey.png">
+                            <img class="hidden-sm-down" src="/images/domus/Pura_grey.png">
                             <ul
                                 class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
                                 <li class="active" style="background-color: #7d7e82"
-                                    data-image="/images/pura/Pura_grey.png"></li>
-                                <li style="background-color: #1b1b1d" data-image="/images/pura/Pura_black.png"></li>
-                                <li style="background-color: #dcdde2" data-image="/images/pura/Pura_white.png"></li>
-                                <li style="background-color: #81b9db" data-image="/images/pura/Pura_blue.png"></li>
-                                <li style="background-color: #BAA1B9" data-image="/images/pura/Pura_purple.png"></li>
-                                <li style="background-color: #9e0b0f" data-image="/images/pura/Pura_red.png"></li>
-                                <li style="background-color: #e1d059" data-image="/images/pura/Pura_yellow.png"></li>
-                                <li style="background-color: #cf346d" data-image="/images/pura/Pura_sparklingPink.png"></li>
-                                <li style="background-color: #e9a1a8" data-image="/images/pura/Pura_pink.png"></li>
+                                    data-image="/images/domus/Pura_grey.png"></li>
+                                <li style="background-color: #dcdde2" data-image="/images/domus/Pura_white.png"></li>
+                                <li style="background-color: #e1d059" data-image="/images/domus/Pura_yellow.png"></li>
                             </ul>
                         </a>
 
@@ -43,20 +36,13 @@
                                 <div class="d-sm-block">15W TUNABLE CCT SMART LED DOWNLIGHTER</div>
                                 {{-- <div class="d-sm-block">(35.56 cm)</div> --}}
                             </div>
-                            <!--<img class="hidden-sm-down" src="/images/liber/u13/lightpurple.png"> -->
-                            <img class="hidden-sm-down" src="/images/pura/Pura_grey.png">
+                            <img class="hidden-sm-down" src="/images/domus/Pura_grey.png">
                             <ul
                                 class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
                                 <li class="active" style="background-color: #7d7e82"
-                                    data-image="/images/pura/Pura_grey.png"></li>
-                                <li style="background-color: #1b1b1d" data-image="/images/pura/Pura_black.png"></li>
-                                <li style="background-color: #dcdde2" data-image="/images/pura/Pura_white.png"></li>
-                                <li style="background-color: #81b9db" data-image="/images/pura/Pura_blue.png"></li>
-                                <li style="background-color: #BAA1B9" data-image="/images/pura/Pura_purple.png"></li>
-                                <li style="background-color: #9e0b0f" data-image="/images/pura/Pura_red.png"></li>
-                                <li style="background-color: #e1d059" data-image="/images/pura/Pura_yellow.png"></li>
-                                <li style="background-color: #cf346d" data-image="/images/pura/Pura_sparklingPink.png"></li>
-                                <li style="background-color: #e9a1a8" data-image="/images/pura/Pura_pink.png"></li>
+                                    data-image="/images/domus/Pura_grey.png"></li>
+                                <li style="background-color: #dcdde2" data-image="/images/domus/Pura_white.png"></li>
+                                <li style="background-color: #e1d059" data-image="/images/domus/Pura_yellow.png"></li>
                             </ul>
                         </a>
                     </nav>
@@ -128,7 +114,7 @@
                                 <div>100V - 300V</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Voltage range for Lamp "ON" & Saftey</div>
+                                <div class="offset-md-1 col-4 col-md-3">Voltage range for Lamp "ON" & Safety</div>
                                 <div>100V - 300V</div>
                             </li>
                             <li class="spec-item d-flex">
@@ -136,7 +122,7 @@
                                 <div>220V - 240V</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Temparature for Performance measurment</div>
+                                <div class="offset-md-1 col-4 col-md-3">Temperature for Performance measurment</div>
                                 <div>25ᵒC (±2ᵒC)</div>
                             </li>
 
@@ -233,7 +219,7 @@
                                 <div>100V - 300V</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Voltage range for Lamp "ON" & Saftey</div>
+                                <div class="offset-md-1 col-4 col-md-3">Voltage range for Lamp "ON" & Safety</div>
                                 <div>100V - 300V</div>
                             </li>
                             <li class="spec-item d-flex">
@@ -241,7 +227,7 @@
                                 <div>220V - 240V</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Temparature for Performance measurment</div>
+                                <div class="offset-md-1 col-4 col-md-3">Temperature for Performance measurment</div>
                                 <div>25ᵒC (±2ᵒC)</div>
                             </li>
 

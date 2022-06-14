@@ -130,7 +130,7 @@
                                 <div>≥ 0.9</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Operating Voltage Range/Working voltage</div>
+                                <div class="offset-md-1 col-4 col-md-3">Operating Voltage Range / Working voltage</div>
                                 <div>100V - 300V</div>
                             </li>
                             <li class="spec-item d-flex">
