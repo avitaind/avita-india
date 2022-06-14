@@ -5,7 +5,7 @@
 
 <?php $__env->startSection('content'); ?>
     <main class="top-nav-padding">
-        
+        <?php echo $__env->make('partials.inverterDomus-product-navbar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
 
         <section class="product-liber-banner">

@@ -102,11 +102,11 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery Discharge Time</div>
-                                <div>3.5 Hrs</div>
+                                <div>Upto 4 Hrs</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery mAH</div>
-                                <div>2200mAH</div>
+                                <div>2200mAH / 2000mAH</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">CRI</div>
@@ -115,10 +115,6 @@
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Beam angle</div>
                                 <div>≥ 120ᵒ</div>
-                            </li>
-                            <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">A THD</div>
-                                <div>≤ 30%</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Driver Efficiency</div>
@@ -138,7 +134,7 @@
                                 <div>100V - 300V</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Voltage range for Lamp "ON" & Saftey</div>
+                                <div class="offset-md-1 col-4 col-md-3">Voltage range for Lamp "ON" & Safety</div>
                                 <div>100V - 300V</div>
                             </li>
                             <li class="spec-item d-flex">
@@ -146,7 +142,7 @@
                                 <div>220V - 240V</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Temparature for Performance measurment</div>
+                                <div class="offset-md-1 col-4 col-md-3">Temperature for Performance measurment</div>
                                 <div>25ᵒC (±2ᵒC)</div>
                             </li>
 
@@ -225,11 +221,11 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery Discharge Time</div>
-                                <div>3.5 Hrs</div>
+                                <div>Upto 4 Hrs</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Battery mAH</div>
-                                <div>2200mAH</div>
+                                <div>2200mAH / 2000mAH</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">CRI</div>
@@ -238,10 +234,6 @@
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Beam angle</div>
                                 <div>≥ 120ᵒ</div>
-                            </li>
-                            <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">A THD</div>
-                                <div>≤ 30%</div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Driver Efficiency</div>
@@ -261,7 +253,7 @@
                                 <div>100V - 300V</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Voltage range for Lamp "ON" & Saftey</div>
+                                <div class="offset-md-1 col-4 col-md-3">Voltage range for Lamp "ON" & Safety</div>
                                 <div>100V - 300V</div>
                             </li>
                             <li class="spec-item d-flex">
@@ -269,7 +261,7 @@
                                 <div>220V - 240V</div>
                             </li>
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Temparature for Performance measurment</div>
+                                <div class="offset-md-1 col-4 col-md-3">Temperature for Performance measurment</div>
                                 <div>25ᵒC (±2ᵒC)</div>
                             </li>
 
