@@ -34,8 +34,8 @@
                     <div class="col-12 col-lg-6" align="left"></div>
                     <div class="col-12 col-lg-6" align="left" style="margin-left: 630px;">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase; margin-top:50px;text-align: center; ">
-                                Experience a
+                            <div class=""
+                                style="text-transform:uppercase; margin-top:50px;text-align: center; ">Experience a
                                 cooler environment all day & night</div>
                         </div>
                         <div class="space60"></div>
@@ -49,8 +49,7 @@
                                 and remains cool all day which leads to emitting no heat. Thus, providing a cooler
                                 environment all day and night. </span>
                         </div>
-                        <img src="/images/domus/EXPERIENCE-A-COOLER-ENVIRONMENT-ALL-DAY-&-NIGHT-100px.png"
-                            style="margin-top: 20px;margin-left: 210px;">
+                        <img src="/images/domus/EXPERIENCE-A-COOLER-ENVIRONMENT-ALL-DAY-&-NIGHT-100px.png" style="margin-top: 20px;margin-left: 210px;">
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>
 
@@ -77,11 +76,10 @@
                     <div class="col-12 col-lg-6" align="left"></div>
                     <div class="col-12 col-lg-6" align="left">
                         <div class="h2 banner-header mob-text-center">
-                            <div class="" style="text-transform:uppercase; margin-top:50px;text-align: center; ">
-                                Experience a
+                            <div class=""
+                                style="text-transform:uppercase; margin-top:50px;text-align: center; ">Experience a
                                 cooler environment all day & night</div>
-                            <img src="/images/domus/EXPERIENCE-A-COOLER-ENVIRONMENT-ALL-DAY-&-NIGHT-100px.png"
-                                style="margin-top: 30px;margin-bottom: 30px;">
+                        <img src="/images/domus/EXPERIENCE-A-COOLER-ENVIRONMENT-ALL-DAY-&-NIGHT-100px.png" style="margin-top: 30px;margin-bottom: 30px;">
 
                         </div>
                         
@@ -137,8 +135,7 @@
                             <span class="d-lg-block">Unlike conventional lights, they achieve optimum lighting
                                 instantly and ensure appropriate light output by using a reflective material. </span>
                         </div>
-                        <img src="/images/domus/SHARPENED-BRIGHTNESS-100px.png"
-                            style="margin-top: 37px;margin-left: -4px;">
+                        <img src="/images/domus/SHARPENED-BRIGHTNESS-100px.png" style="margin-top: 37px;margin-left: -4px;">
                         <div class="row">
                             <div class="col-12 col-lg-6" align="">
                                 <section class="product-liber-wifi">
@@ -180,8 +177,7 @@
                         <div class="h2 banner-header mob-text-center">
                             <div class="" style="text-transform:uppercase; padding-top: 50px;">Sharpened
                                 brightness</div>
-                            <img src="/images/domus/SHARPENED-BRIGHTNESS-100px.png"
-                                style="margin-top: 30px;margin-bottom: 30px;">
+                        <img src="/images/domus/SHARPENED-BRIGHTNESS-100px.png" style="margin-top: 30px;margin-bottom: 30px;">
 
                         </div>
                         
@@ -236,8 +232,7 @@
                             <span class="d-lg-block">Saves energy by dimming the brightness of lights between 1% to
                                 100% according to the requirement. </span>
                         </div>
-                        <img src="/images/domus/CONVENIENTLY-DIMMABLE-100px.png"
-                            style="margin-top: 30px;margin-left: 210px;">
+                        <img src="/images/domus/CONVENIENTLY-DIMMABLE-100px.png" style="margin-top: 30px;margin-left: 210px;">
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>
                         <div class="space60 hidden-sm-down"></div>
@@ -269,8 +264,7 @@
                             <div class=""
                                 style="text-transform:uppercase; margin-top:50px;text-align: center; ">Conveniently
                                 dimmable</div>
-                            <img src="/images/domus/CONVENIENTLY-DIMMABLE-100px.png"
-                                style="margin-top: 30px;margin-bottom: 30px;">
+                                <img src="/images/domus/CONVENIENTLY-DIMMABLE-100px.png" style="margin-top: 30px;margin-bottom: 30px;">
                         </div>
                         
                         <div class="ac-computer-wrap hidden-md-up">
@@ -326,8 +320,7 @@
                                 means less burden on the budget. Also, fewer lumens consumption ensures long service
                                 life. Thus, leading to a cut in maintenance costs.</span>
                         </div>
-                        <img src="/images/domus/LOW-ON-BUDGET-&-MAINTENANCE-COST-100px.png"
-                            style="margin-top: 30px;margin-left: 10px;">
+                        <img src="/images/domus/LOW-ON-BUDGET-&-MAINTENANCE-COST-100px.png" style="margin-top: 30px;margin-left: 10px;">
                         <div class="row">
                             <div class="col-12 col-lg-6" align="">
                                 <section class="product-liber-wifi">
@@ -372,8 +365,7 @@
                             <div class="" style="text-transform:uppercase; padding-top: 50px;">Low on
                                 budget &
                                 maintenance cost</div>
-                            <img src="/images/domus/LOW-ON-BUDGET-&-MAINTENANCE-COST-100px.png"
-                                style="margin-top: 30px;margin-bottom: 30px;">
+                                <img src="/images/domus/LOW-ON-BUDGET-&-MAINTENANCE-COST-100px.png" style="margin-top: 30px;margin-bottom: 30px;">
                         </div>
                         
                         <div class="ac-computer-wrap hidden-md-up">

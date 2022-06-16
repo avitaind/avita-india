@@ -1,5 +1,5 @@
 
-<div class="tab-pane fade show " id="LED" role="tabpanel" aria-labelledby="LED-tab">
+<div class="tab-pane fade show active" id="LED" role="tabpanel" aria-labelledby="LED-tab">
     
 
     <section class="product-liber-computer ls-0" style="background-color:##EEEEEE;">
@@ -341,8 +341,7 @@
                     <div class="ac-computer-wrap hidden-md-up">
                         <img src="/images/domus/SCHEDULE AT_EASE_100px.png" class="hidden-md-up"
                             style="margin-top: 20px;margin-bottom: 30px; ">
-                        <img class="ac-computer-image ac-computer-1" style=""
-                            src="/images/domus/sc5_fimg2_right.png">
+                        <img class="ac-computer-image ac-computer-1" style="" src="/images/domus/sc5_fimg2_right.png">
 
                     </div>
                     <div class="banner-para ls-0">
