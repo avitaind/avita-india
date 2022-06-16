@@ -21,14 +21,7 @@
                                 <div class="d-sm-block">10W TUNABLE CCT SMART LED DOWNLIGHTER</div>
                                 {{-- <div class="d-sm-block">(35.56 cm)</div> --}}
                             </div>
-                            <img class="hidden-sm-down" src="/images/domus/Pura_grey.png">
-                            <ul
-                                class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
-                                <li class="active" style="background-color: #7d7e82"
-                                    data-image="/images/domus/Pura_grey.png"></li>
-                                <li style="background-color: #dcdde2" data-image="/images/domus/Pura_white.png"></li>
-                                <li style="background-color: #e1d059" data-image="/images/domus/Pura_yellow.png"></li>
-                            </ul>
+                            <img class="hidden-sm-down" src="/images/domus/10w_led_downlight.png">
                         </a>
 
                         <a class="col text-center nav-link" data-toggle="tab" href="#spec-2" role="tab">
@@ -36,14 +29,7 @@
                                 <div class="d-sm-block">15W TUNABLE CCT SMART LED DOWNLIGHTER</div>
                                 {{-- <div class="d-sm-block">(35.56 cm)</div> --}}
                             </div>
-                            <img class="hidden-sm-down" src="/images/domus/Pura_grey.png">
-                            <ul
-                                class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
-                                <li class="active" style="background-color: #7d7e82"
-                                    data-image="/images/domus/Pura_grey.png"></li>
-                                <li style="background-color: #dcdde2" data-image="/images/domus/Pura_white.png"></li>
-                                <li style="background-color: #e1d059" data-image="/images/domus/Pura_yellow.png"></li>
-                            </ul>
+                            <img class="hidden-sm-down" src="/images/domus/15w_led_downlight.png">
                         </a>
                     </nav>
                 </div>

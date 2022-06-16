@@ -20,14 +20,7 @@
                                 
                             </div>
                             <!--<img class="hidden-sm-down" src="/images/liber/u13/lightpurple.png"> -->
-                            <img class="hidden-sm-down" src="/images/domus/Pura_grey.png">
-                            <ul
-                                class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
-                                <li class="active" style="background-color: #7d7e82"
-                                    data-image="/images/domus/Pura_grey.png"></li>
-                                <li style="background-color: #dcdde2" data-image="/images/domus/Pura_white.png"></li>
-                                <li style="background-color: #e1d059" data-image="/images/domus/Pura_yellow.png"></li>
-                            </ul>
+                            <img class="hidden-sm-down" src="/images/domus/Inverter/9w_Inverter_led.png">
                         </a>
 
                         <a class="col text-center nav-link" data-toggle="tab" href="#spec-2" role="tab">
@@ -36,14 +29,7 @@
                                 
                             </div>
                             <!--<img class="hidden-sm-down" src="/images/liber/u13/lightpurple.png"> -->
-                            <img class="hidden-sm-down" src="/images/domus/Pura_grey.png">
-                            <ul
-                                class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">
-                                <li class="active" style="background-color: #7d7e82"
-                                    data-image="/images/domus/Pura_grey.png"></li>
-                                <li style="background-color: #dcdde2" data-image="/images/domus/Pura_white.png"></li>
-                                <li style="background-color: #e1d059" data-image="/images/domus/Pura_yellow.png"></li>
-                            </ul>
+                            <img class="hidden-sm-down" src="/images/domus/Inverter/12w_Inverter_led.png">
                         </a>
                     </nav>
                 </div>
