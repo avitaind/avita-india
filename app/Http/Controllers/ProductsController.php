@@ -436,11 +436,11 @@ class ProductsController extends Controller
             }
         }
 
-        if ($slug == 'led-downLight') {
+        if ($slug == 'led-downlight') {
 
             switch ($country) {
                 case 'in':
-                    return view('product.domus.led_downLight_spec', compact('product'));
+                    return view('product.domus.led_downlight_spec', compact('product'));
 
                     break;
             }
