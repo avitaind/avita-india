@@ -19,7 +19,7 @@
                                 <div class="d-sm-block">10W TUNABLE CCT SMART LED DOWNLIGHTER</div>
                                 
                             </div>
-                            <img class="hidden-sm-down" src="/images/domus/Pura_grey.png">
+                            <img class="hidden-sm-down" src="/images/domus/10w_led_downlight.png">
                         </a>
 
                         <a class="col text-center nav-link" data-toggle="tab" href="#spec-2" role="tab">
@@ -27,7 +27,7 @@
                                 <div class="d-sm-block">15W TUNABLE CCT SMART LED DOWNLIGHTER</div>
                                 
                             </div>
-                            <img class="hidden-sm-down" src="/images/domus/Pura_grey.png">
+                            <img class="hidden-sm-down" src="/images/domus/15w_led_downlight.png">
                         </a>
                     </nav>
                 </div>
