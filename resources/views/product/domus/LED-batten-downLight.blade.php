@@ -216,7 +216,7 @@
                         .innerHTML =
                         "Make every moment mesmerizing with AVITA DOMUS smart batten. AVITA DOMUS smart batten creates a perfect ambiance for parties, festivals, or a movie night. Explore endless lighting possibilities with 16 million color options.";
                     document.getElementById("myimage").src = "/images/domus/SPECTRUM-OF-COLORS-web.png";
-                    document.getElementById("myimagemob").src = "/images/domus/SPECTRUM-OF-COLORS-mob.png";
+                    document.getElementById("myimagemob").src = "/images/domus/SPECTRUM-OF-COLORS-MOB.png";
                     document.getElementById("iconweb").src = "/images/domus/BOX_OF_SPECTRUM_TO_BUILD_UP_SCENES_100px.png";
                     document.getElementById("iconmob").src = "/images/domus/BOX_OF_SPECTRUM_TO_BUILD_UP_SCENES_100px.png";
                     Bulbstate = 0;
@@ -231,7 +231,7 @@
                         .innerHTML =
                         "Make every moment mesmerizing with AVITA DOMUS smart batten. AVITA DOMUS smart batten creates a perfect ambiance for parties, festivals, or a movie night. Explore endless lighting possibilities with 16 million color options.";
                     document.getElementById("myimage").src = "/images/domus/SPECTRUM-OF-COLORS-WEB.png";
-                    document.getElementById("myimagemob").src = "/images/domus/SPECTRUM-OF-COLORS-mob.png";
+                    document.getElementById("myimagemob").src = "/images/domus/SPECTRUM-OF-COLORS-MOB.png";
                     document.getElementById("iconweb").src = "/images/domus/BOX_OF_SPECTRUM_TO_BUILD_UP_SCENES_100px.png";
                     document.getElementById("iconmob").src = "/images/domus/BOX_OF_SPECTRUM_TO_BUILD_UP_SCENES_100px.png";
                     Bulbstate = 0;
