@@ -35,9 +35,6 @@
 
             <!-- Tab panes -->
 
-
-
-
             <div class="tab-content">
                 <div class="tab-pane active" id="spec-1" role="tabpanel">
                     <div class="container">

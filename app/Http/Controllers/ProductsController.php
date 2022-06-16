@@ -627,3 +627,6 @@ class ProductsController extends Controller
         return ASPAPIService::getProductModels($request->get('product_number'), $request->get('marketing_number'));
     }
 }
+
+
+
