@@ -21,7 +21,7 @@
                                 href="<?php echo e(route('product.spec', 'led-batten')); ?>"
                                 style="padding-right: 28px!important;font-size: -0.15rem!important;"><?php echo app('translator')->getFromJson('site.smart_led_batten'); ?></a>
                                 <a class="nav-link py-1"
-                                href="<?php echo e(route('product.spec', 'led-downLight')); ?>"
+                                href="<?php echo e(route('product.spec', 'led-downlight')); ?>"
                                 style="padding-right: 0px!important;font-size: -0.15rem!important;"><?php echo app('translator')->getFromJson('site.smart_led_downlight'); ?></a>
 
                     </div>
