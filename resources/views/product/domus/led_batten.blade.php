@@ -112,7 +112,7 @@
                         <div class="space60"></div>
                         <div class="ac-computer-wrap hidden-md-up">
                             <img class="ac-computer-image ac-computer-2" style=""
-                                src="/images/domus/SPECTRUM-OF-COLORS-MOB.png" class="image" id="myimagemob" alt="Orisfina"
+                                src="/images/domus/SPECTRUM-OF-COLORS-MOB.png" class="image" id="myimagemob" alt="SPECTRUM-OF-COLORS"
                                 style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                         </div>
                         <div class="banner-para ls-0">
