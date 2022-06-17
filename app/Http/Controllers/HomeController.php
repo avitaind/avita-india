@@ -213,7 +213,7 @@ class HomeController extends Controller
     public function handleSubscription(Request $request, AppMailer $mailer) {
 
         $this->validate($request, [
-             'email'     => 'required|email|unique:users,email',
+             'email'     => ['required', 'string', 'email', 'max:255', 'unique:users'],
             ]);
     
         $subscription = new Subscription([
