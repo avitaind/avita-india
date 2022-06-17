@@ -84,7 +84,7 @@
 
     <section class="email-subscription py-5 ls-0">
         <form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto" role="form" method="POST"
-            action="{{ url('/subscribe') }}" enctype="multipart/form-data">
+            action="{{ url('/subscribe') }}">
             {!! csrf_field() !!}
 
             @include('includes.flash')
