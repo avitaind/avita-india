@@ -12,6 +12,14 @@
 
 <?php $__env->stopSection(); ?>
 
+<?php $__env->startSection('css'); ?>
+    <style>
+        p {
+            text-align: justify;
+        }
+    </style>
+<?php $__env->stopSection(); ?>
+
 <?php $__env->startSection('content'); ?>
     <main>
         <section class="event-detail top-nav-padding">
@@ -19,7 +27,7 @@
                 <h3 class="section-title ls-0 my-4 mt-5"><?php echo app('translator')->getFromJson('site.blog_title'); ?></h3>
                 <div class="row p-3 align-items-center">
                     <div class="event-date color-required h5 mb-0 pr-3">
-                        <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><?php echo e($blog_detail->published_date); ?>
+                        <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><?php echo e(gmdate("j F Y", strtotime($blog_detail->published_date))); ?>
 
                     </div>
                     <div class="event-status px-4 py-1 <?php echo e($blog_detail->status); ?>">

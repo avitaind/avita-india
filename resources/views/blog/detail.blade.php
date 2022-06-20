@@ -14,6 +14,14 @@
 
 @stop
 
+@section('css')
+    <style>
+        p {
+            text-align: justify;
+        }
+    </style>
+@endsection
+
 @section('content')
     <main>
         <section class="event-detail top-nav-padding">
@@ -21,7 +29,7 @@
                 <h3 class="section-title ls-0 my-4 mt-5">@lang('site.blog_title')</h3>
                 <div class="row p-3 align-items-center">
                     <div class="event-date color-required h5 mb-0 pr-3">
-                        <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>{{ $blog_detail->published_date }}
+                        <i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>{{ gmdate("j F Y", strtotime($blog_detail->published_date)) }}
                     </div>
                     <div class="event-status px-4 py-1 {{ $blog_detail->status }}">
                         @lang('site.blog_published')
