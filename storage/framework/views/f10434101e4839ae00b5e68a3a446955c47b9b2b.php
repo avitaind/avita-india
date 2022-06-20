@@ -28,25 +28,25 @@ $page = 'support';
         }
 
         /* .page-link {
-        position: relative;
-        display: block;
-        margin-left: -1px;
-        line-height: 1.25;
-        color: rgb(2, 117, 216);
-        background-color: rgb(255, 255, 255);
-        padding: 0.5rem 0.75rem;
-        border-width: 1px;
-        border-style: solid;
-        border-color: rgb(221, 221, 221);
-        border-image: initial;
-    }
-    .page-item.active .page-link {
-        z-index: 2;
-        color: rgb(255, 255, 255);
-        background-color: rgb(2, 117, 216);
-        border-color: rgb(2, 117, 216);
-    }
-    */
+            position: relative;
+            display: block;
+            margin-left: -1px;
+            line-height: 1.25;
+            color: rgb(2, 117, 216);
+            background-color: rgb(255, 255, 255);
+            padding: 0.5rem 0.75rem;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(221, 221, 221);
+            border-image: initial;
+        }
+        .page-item.active .page-link {
+            z-index: 2;
+            color: rgb(255, 255, 255);
+            background-color: rgb(2, 117, 216);
+            border-color: rgb(2, 117, 216);
+        }
+        */
     </style>
 <?php $__env->stopSection(); ?>
 
@@ -71,29 +71,29 @@ $page = 'support';
             </div>
 
             <!----  <div class="warranty-center-wrap py-5">
-                <div class="container h-100">
-                   
-                    <div class="row h-100 align-items-center">
-                        
-                        <div class="col-12 col-lg-6">
-     <img src="/images/background/AVITA_warranty.png" style="width:100%; max-width:600px;">
-                            </div>
+                    <div class="container h-100">
+                       
+                        <div class="row h-100 align-items-center">
                             
                             <div class="col-12 col-lg-6">
-                            
-                                <div class="h1 text-center mt-4 mb-3 font-weight-light">Warranty Extension Service is available now</div>
-                                <div class="warranty-content text-left mt-4 mb-3 font-weight-500 ">Thanks for the valuable suggestion from our customers. You can purchase the newly launched “Warranty Extension Service” online now. You may choose to extend 1 or 2 years to enjoy our worry-free warranty service.</div>
-                                
-                                <div class="text-center purchase_steps">
-                                    <a href="/warranty-extension" class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">
-                                        See More
-                                    </a>
+         <img src="/images/background/AVITA_warranty.png" style="width:100%; max-width:600px;">
                                 </div>
-                              
-                            </div>
-                                                          
-                    </div>
-            --->
+                                
+                                <div class="col-12 col-lg-6">
+                                
+                                    <div class="h1 text-center mt-4 mb-3 font-weight-light">Warranty Extension Service is available now</div>
+                                    <div class="warranty-content text-left mt-4 mb-3 font-weight-500 ">Thanks for the valuable suggestion from our customers. You can purchase the newly launched “Warranty Extension Service” online now. You may choose to extend 1 or 2 years to enjoy our worry-free warranty service.</div>
+                                    
+                                    <div class="text-center purchase_steps">
+                                        <a href="/warranty-extension" class="btn btn-primary support-search-btn-block mt-3 mt-md-0 mx-auto ml-md-3 px-5 px-md-0">
+                                            See More
+                                        </a>
+                                    </div>
+                                  
+                                </div>
+                                                              
+                        </div>
+                --->
             <div class="content-product-support">
 
                 <article class="product-support-article py-5 ls-0" id="support-drivers">
@@ -224,17 +224,56 @@ $page = 'support';
 
                             </div>
 
-                            
+                            <div class="form-group">
+
+                                <div class="input-group">
+
+                                    <input type="text" class="form-control" id="search" name="search"
+                                        placeholder="Type your City / State or Postal Code Here" />
+                                    <div class="input-group-addon overlay-addon"><i class="fa fa-search"
+                                            aria-hidden="true"></i></div>
+
+                                </div>
+                            </div>
 
 
 
 
 
-                            
+                            <div class="shopsList" id="shopsList">
+                                <?php if(!empty($searchResults) && $searchResults->count()): ?>
+                                    <?php $__currentLoopData = $searchResults; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $search): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                        <div class="col-md-6">
+                                            <div>
+                                                <i class="fa fa-map icon"></i>
+                                                <?php echo e($search->address); ?>
+
+                                            </div>
+
+                                            <div>
+                                                <i class="fa fa-clock-o icon"></i>
+                                                <?php echo e($search->opening_hour); ?>
+
+                                            </div>
+
+                                            <div>
+                                                <i class="fa fa-phone icon"></i>
+                                                <?php echo e($search->phone); ?>
+
+                                            </div>
+                                        </div>
+                                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                <?php else: ?>
+                                    <tr>
+                                        <td colspan="10">There are no data.</td>
+                                    </tr>
+                                <?php endif; ?>
+                            </div>
 
                         </div>
                     </div>
-                    
+                    <?php echo $searchResults->links('pagination::bootstrap-4'); ?>
+
         </section>
         <div class="gotop-wrap">
             <button class="btn-gotop"><span class="sr-only">Back to Top</span></button>
