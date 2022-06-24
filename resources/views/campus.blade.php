@@ -35,7 +35,7 @@
                         <p class="MsoListParagraph"
                             style="margin-left: 20.4pt; mso-add-space: auto; mso-para-margin-left: 0gd;">The Campus
                             Ambassador Program by AVITA is an initiative to motivate the India Youth to showcase their
-                            skills and uniqueness like the AVITA Liber Series of Personalized Laptops.</p>
+                            skills and uniqueness like the AVITA Range of Personalized Laptops.</p>
                         <p class="MsoListParagraph"
                             style="margin-left: 20.4pt; mso-add-space: auto; mso-para-margin-left: 0gd;">Get ready to become
                             the Face, Voice, and Evangelist of your Campus and build the most vibrant community of students
@@ -52,6 +52,18 @@
                             <li>Love meeting new people and guiding them about opportunities at AVITA India</li>
                             <li>Have a great attitude to learn & an interest to guide students.</li>
                             <li>Have great communication skills</li>
+                        </ul>
+
+                        <h1>What will you get?</h1>
+                        <p class="MsoListParagraph"
+                            style="margin-left: 20.4pt; mso-add-space: auto; mso-para-margin-left: 0gd;"> </p>
+                        <ul class="">
+                            <li>Goodies: AVITA goodies that include mugs, pens, etc.</li>
+                            <li>Spotlight: Get featured on the AVITA wall</li>
+                            <li>Exposure: Tech industry exposure and connection</li>
+                            <li>Certificates: Completion certificates from AVITA</li>
+                            <li>Growth: Tailored skill development and meteoric growth</li>
+                            <li>Experience: Thorough experience and industry understanding</li>
                         </ul>
 
                     </div>

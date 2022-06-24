@@ -55,7 +55,7 @@
                                         Ambassador Program by AVITA is an initiative to motivate the Indian Youth to
                                         showcase
                                         their
-                                        skills and uniqueness like the AVITA Liber Series of Personalized Laptops.
+                                        skills and uniqueness like the AVITA Range of Personalized Laptops.
                                     </p>
                                     <p class="MsoListParagraph"
                                         style="margin-left: 20.4pt; mso-add-space: auto; mso-para-margin-left: 0gd;">Get
@@ -66,6 +66,24 @@
                                         students
                                         striving to color up their lives!
                                     </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h1 class="h1">Who are we looking for?</h1>
+                                    <p class="MsoListParagraph"
+                                        style="margin-left: 20.4pt; mso-add-space: auto; mso-para-margin-left: 0gd;">We are
+                                        looking for
+                                        students who-
+                                    </p>
+                                    <ul>
+                                        <li>Have a burning desire to make a change in the college student community in
+                                            India.
+                                        </li>
+                                        <li>Are interested to lead the student community in their college</li>
+                                        <li>Have taken initiatives/ held leadership positions in college</li>
+                                        <li>Love meeting new people and guiding them about opportunities at AVITA India</li>
+                                        <li>Have a great attitude to learn & an interest to guide students.</li>
+                                        <li>Have great communication skills</li>
+                                    </ul>
                                 </div>
                                 <div class="col-md-6">
                                     <h1 class="h1">Who are we looking for?</h1>

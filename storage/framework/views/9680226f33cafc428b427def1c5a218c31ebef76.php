@@ -74,7 +74,7 @@
 
     <section class="email-subscription py-5 ls-0">
         <form class="email-subscription-form col-12 col-lg-8 col-xl-6 mx-auto" role="form" method="POST"
-            action="<?php echo e(url('/subscribe')); ?>" enctype="multipart/form-data">
+            action="<?php echo e(url('/subscribe')); ?>">
             <?php echo csrf_field(); ?>
 
 
@@ -87,7 +87,7 @@
                     <div class="input-group">
                         <div class="input-group-addon overlay-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i>
                         </div>
-                        <input id="email" type="text" class="form-control" name="email" required>
+                        <input id="email" type="email" class="form-control" name="email" required>
                     </div>
                 </div>
                 <div class="form-group">
