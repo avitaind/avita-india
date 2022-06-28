@@ -54,7 +54,7 @@ return [
     'domus'                         => 'Smart Lights ',
     'smart_lighting'                => 'Smart Lighting',
     'conventional_lighting'         => 'Conventional Lighting',
-    'inverter_led'                  => 'Inverter LED BULB', 
+    'inverter_led'                  => 'Inverter LED Bulb', 
     'inverter_led_o'                 => 'Overview', 
     'inverter_led_bulb'             => 'Inverter LED BULB (Launching Soon)',
     'smart_product_led'             => 'Smart LED Products ',
