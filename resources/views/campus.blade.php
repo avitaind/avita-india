@@ -58,12 +58,12 @@
                         <p class="MsoListParagraph"
                             style="margin-left: 20.4pt; mso-add-space: auto; mso-para-margin-left: 0gd;"> </p>
                         <ul class="">
-                            <li>Goodies: AVITA goodies that include mugs, pens, etc.</li>
-                            <li>Spotlight: Get featured on the AVITA wall</li>
-                            <li>Exposure: Tech industry exposure and connection</li>
-                            <li>Certificates: Completion certificates from AVITA</li>
-                            <li>Growth: Tailored skill development and meteoric growth</li>
-                            <li>Experience: Thorough experience and industry understanding</li>
+                            <li>AVITA goodies that include mugs, pens, etc.</li>
+                            <li>Get featured on the AVITA wall</li>
+                            <li>Tech industry exposure and connection</li>
+                            <li>Completion certificates from AVITA</li>
+                            <li>Tailored skill development and meteoric growth</li>
+                            <li>Thorough experience and industry understanding</li>
                         </ul>
 
                     </div>
