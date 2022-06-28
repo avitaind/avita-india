@@ -106,15 +106,15 @@
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item col-md-4 " align="center">
                             <a class="nav-link active text-center" id="LED-tab" data-toggle="tab" href="#LED"
-                                role="tab" aria-controls="LED" aria-selected="true">SMART BULB</a>
+                                role="tab" aria-controls="LED" aria-selected="true">SMART LED BULB</a>
                         </li>
                         <li class="nav-item col-md-4 " align="center">
                             <a class="nav-link" id="BATON-tab" data-toggle="tab" href="#BATON" role="tab"
-                                aria-controls="BATON" aria-selected="false">SMART BATTEN</a>
+                                aria-controls="BATON" aria-selected="false">SMART LED BATTEN (Launching Soon)</a>
                         </li>
                         <li class="nav-item col-md-4 " align="center">
                             <a class="nav-link" id="DOWN-tab" data-toggle="tab" href="#DOWN" role="tab"
-                                aria-controls="DOWN" aria-selected="false">SMART LED DOWNLIGHT</a>
+                                aria-controls="DOWN" aria-selected="false">SMART LED DOWNLIGHT (Launching Soon)</a>
                         </li>
                     </ul>
 

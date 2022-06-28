@@ -22,6 +22,7 @@ class CreateCampusTable extends Migration
             $table->string('college');
             $table->string('fest');
             $table->string('position');
+            $table->string('referral_code');
             $table->timestamps();
         });
     }

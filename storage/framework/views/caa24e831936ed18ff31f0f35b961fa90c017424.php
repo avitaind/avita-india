@@ -8,16 +8,16 @@
             <div class="responsive-block">
                 <div class="banner-block responsive-item admiror-banner">
                     <div class="banner-bg hidden-sm-down"
-                        style="background-image: url('/images/banner/campus_web_banner.png')"></div>
+                        style="background-image: url('/images/banner/campus_web_banner.jpg')"></div>
                     <div class="banner-bg hidden-md-up"
-                        style="background-image: url('/images/banner/campus_mobile_banner.png')"></div>
+                        style="background-image: url('/images/banner/campus_mobile_banner.jpg')"></div>
                     <div class="banner-info">
                         <!--  <div class="an-scroll-wrap">
-                                <div class="an-scroll">
-                                    <span></span>
-                                </div>
-                            </div>
-                            -->
+                                            <div class="an-scroll">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        -->
                     </div>
                 </div>
             </div>
@@ -56,12 +56,12 @@
                         <p class="MsoListParagraph"
                             style="margin-left: 20.4pt; mso-add-space: auto; mso-para-margin-left: 0gd;"> </p>
                         <ul class="">
-                            <li>Goodies: AVITA goodies that include mugs, pens, etc.</li>
-                            <li>Spotlight: Get featured on the AVITA wall</li>
-                            <li>Exposure: Tech industry exposure and connection</li>
-                            <li>Certificates: Completion certificates from AVITA</li>
-                            <li>Growth: Tailored skill development and meteoric growth</li>
-                            <li>Experience: Thorough experience and industry understanding</li>
+                            <li>AVITA goodies that include mugs, pens, etc.</li>
+                            <li>Get featured on the AVITA wall</li>
+                            <li>Tech industry exposure and connection</li>
+                            <li>Completion certificates from AVITA</li>
+                            <li>Tailored skill development and meteoric growth</li>
+                            <li>Thorough experience and industry understanding</li>
                         </ul>
 
                     </div>
@@ -82,8 +82,8 @@
                                 <!--Student Name Start-->
                                 <div class="form-group<?php echo e($errors->has('name') ? ' has-error' : ''); ?> row">
                                     <label for="name">Name* :</label>
-                                    <input type="text" class="form-control" placeholder="Enter Name" id="name" name="name"
-                                        require>
+                                    <input type="text" class="form-control" placeholder="Enter Name" id="name"
+                                        name="name">
                                     <?php if($errors->has('name')): ?>
                                         <span class="error" style="color:red;">Name Can Not Be Empty</span>
                                     <?php endif; ?>
@@ -95,7 +95,7 @@
                                 <div class="form-group<?php echo e($errors->has('email') ? ' has-error' : ''); ?> row">
                                     <label for="email">Email*:</label>
                                     <input type="email" class="form-control" id="email" placeholder="Enter Email"
-                                        name="email" require>
+                                        name="email">
                                     <?php if($errors->has('email')): ?>
                                         <span class="error" style="color:red;">Email Can Not Be Empty</span>
                                     <?php endif; ?>
@@ -104,8 +104,8 @@
                                 <!-- Phone Number Start-->
                                 <div class="form-group<?php echo e($errors->has('phone') ? ' has-error' : ''); ?> row">
                                     <label for="phone">Phone Number* :</label>
-                                    <input type="text" class="form-control" placeholder="Enter Phone Number" id="phone"
-                                        name="phone" require>
+                                    <input type="text" class="form-control" placeholder="Enter Phone Number"
+                                        id="phone" name="phone">
                                     <?php if($errors->has('phone')): ?>
                                         <span class="error" style="color:red;">Phone no. Can Not Be Empty</span>
                                     <?php endif; ?>
@@ -116,13 +116,13 @@
                                     <label for="internship">Will you be interested in pursuing a summer internship with
                                         AVITA India? :</label>
                                     <label class="radio-inline">
-                                        <input type="radio" name="internship" value="YES" checked> YES
+                                        <input type="radio" name="internship" value="YES"> YES
                                     </label>
                                     <label class="radio-inline">
                                         <input type="radio" name="internship" value="NO"> NO
                                     </label>
                                     <?php if($errors->has('internship')): ?>
-                                        <span class="error" style="color:red;">Please choose anyone</span>
+                                        <span class="error" style="color:red;">&nbsp;Please choose anyone</span>
                                     <?php endif; ?>
                                 </div>
                                 <!-- College Name End-->
@@ -130,7 +130,7 @@
                                 <div class="form-group<?php echo e($errors->has('college') ? ' has-error' : ''); ?> row">
                                     <label for="college">College/University Name* :</label>
                                     <input type="text" class="form-control" placeholder="Enter College/University Name"
-                                        id="college" name="college" require>
+                                        id="college" name="college">
                                     <?php if($errors->has('college')): ?>
                                         <span class="error" style="color:red;">College / University Name Can Not Be
                                             Empty</span>
@@ -138,10 +138,11 @@
                                 </div>
                                 <!-- College Name End-->
                                 <div class="form-group<?php echo e($errors->has('team') ? ' has-error' : ''); ?> row">
-                                    <label for="team">Have you ever been in the organising team of a festival or event in
+                                    <label for="team">Have you ever been in the organising team of a festival or event
+                                        in
                                         your college in some official capacity?:</label>
-                                    <input type="text" class="form-control" placeholder="Please Give Details" id="team"
-                                        name="team" require>
+                                    <input type="text" class="form-control" placeholder="Please Give Details"
+                                        id="team" name="team">
                                     <?php if($errors->has('name')): ?>
                                         <span class="error" style="color:red;">This Can Not Be Empty</span>
                                     <?php endif; ?>
@@ -151,34 +152,29 @@
                                     <label for="represent">How do you think you can help represent Avita in a better way in
                                         your college? :</label>
                                     <input type="text" class="form-control" placeholder="Write Your Answer Here"
-                                        id="represent" name="represent" require>
+                                        id="represent" name="represent">
                                     <?php if($errors->has('represent')): ?>
                                         <span class="error" style="color:red;">This Can Not Be Empty</span>
                                     <?php endif; ?>
                                 </div>
                                 <!-- College Name End-->
 
-                                <!-- College Name Start-->
-                                <!--
-        <div class="form-group row">
-         <label for="fest">Have you ever been part of a college fest before? *:</label>
-         <input type="text" class="form-control" placeholder="YES / NO" id="fest" name="fest" require>
-       
-        </div>
-        --->
                                 <!-- College Name End-->
+                                
+                                <!-- College Name End-->
+
                                 <!-- College Name Start-->
-                                <!--  <div class="form-group row">
-         <label for="position">Do you hold any position in your college department or society ?:</label>
-         <input type="text" class="form-control" placeholder="YES / NO" id="position" name="position">
-        -->
+                                
+                                <!-- College Name End-->
+
+                                <!-- College Name Start-->
+                                
+                                <!-- College Name End-->
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
                         </div>
-                        <!-- College Name End-->
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
                     </div>
                 </div>
-            </div>
         </section>
 
         <div class="gotop-wrap">

@@ -31,6 +31,7 @@ class CampusController extends Controller
             'college' =>  'required',
             'team' =>  'required',
             'represent' =>  'required',
+            // 'referral_code' => 'required',
 
             ]);
      
@@ -42,6 +43,7 @@ class CampusController extends Controller
             'college' => $request->get('college'),
             'team' => $request->get('team'),
             'represent' => $request->get('represent'),
+            // 'referral_code' => $request->get('referral_code'),
         
         ]);
 

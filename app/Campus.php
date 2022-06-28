@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Campus extends Model
 {
     public $table = 'campus';
-    public $fillable = ['name','email','phone','internship','college','team','represent'];
+    public $fillable = ['name','email','phone','internship','college','team','represent','referral_code'];
 }

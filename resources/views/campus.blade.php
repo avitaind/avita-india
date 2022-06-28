@@ -10,16 +10,16 @@
             <div class="responsive-block">
                 <div class="banner-block responsive-item admiror-banner">
                     <div class="banner-bg hidden-sm-down"
-                        style="background-image: url('/images/banner/campus_web_banner.png')"></div>
+                        style="background-image: url('/images/banner/campus_web_banner.jpg')"></div>
                     <div class="banner-bg hidden-md-up"
-                        style="background-image: url('/images/banner/campus_mobile_banner.png')"></div>
+                        style="background-image: url('/images/banner/campus_mobile_banner.jpg')"></div>
                     <div class="banner-info">
                         <!--  <div class="an-scroll-wrap">
-                                <div class="an-scroll">
-                                    <span></span>
-                                </div>
-                            </div>
-                            -->
+                                            <div class="an-scroll">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        -->
                     </div>
                 </div>
             </div>
@@ -82,8 +82,8 @@
                                 <!--Student Name Start-->
                                 <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }} row">
                                     <label for="name">Name* :</label>
-                                    <input type="text" class="form-control" placeholder="Enter Name" id="name" name="name"
-                                        require>
+                                    <input type="text" class="form-control" placeholder="Enter Name" id="name"
+                                        name="name">
                                     @if ($errors->has('name'))
                                         <span class="error" style="color:red;">Name Can Not Be Empty</span>
                                     @endif
@@ -95,7 +95,7 @@
                                 <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }} row">
                                     <label for="email">Email*:</label>
                                     <input type="email" class="form-control" id="email" placeholder="Enter Email"
-                                        name="email" require>
+                                        name="email">
                                     @if ($errors->has('email'))
                                         <span class="error" style="color:red;">Email Can Not Be Empty</span>
                                     @endif
@@ -104,8 +104,8 @@
                                 <!-- Phone Number Start-->
                                 <div class="form-group{{ $errors->has('phone') ? ' has-error' : '' }} row">
                                     <label for="phone">Phone Number* :</label>
-                                    <input type="text" class="form-control" placeholder="Enter Phone Number" id="phone"
-                                        name="phone" require>
+                                    <input type="text" class="form-control" placeholder="Enter Phone Number"
+                                        id="phone" name="phone">
                                     @if ($errors->has('phone'))
                                         <span class="error" style="color:red;">Phone no. Can Not Be Empty</span>
                                     @endif
@@ -116,13 +116,13 @@
                                     <label for="internship">Will you be interested in pursuing a summer internship with
                                         AVITA India? :</label>
                                     <label class="radio-inline">
-                                        <input type="radio" name="internship" value="YES" checked> YES
+                                        <input type="radio" name="internship" value="YES"> YES
                                     </label>
                                     <label class="radio-inline">
                                         <input type="radio" name="internship" value="NO"> NO
                                     </label>
                                     @if ($errors->has('internship'))
-                                        <span class="error" style="color:red;">Please choose anyone</span>
+                                        <span class="error" style="color:red;">&nbsp;Please choose anyone</span>
                                     @endif
                                 </div>
                                 <!-- College Name End-->
@@ -130,7 +130,7 @@
                                 <div class="form-group{{ $errors->has('college') ? ' has-error' : '' }} row">
                                     <label for="college">College/University Name* :</label>
                                     <input type="text" class="form-control" placeholder="Enter College/University Name"
-                                        id="college" name="college" require>
+                                        id="college" name="college">
                                     @if ($errors->has('college'))
                                         <span class="error" style="color:red;">College / University Name Can Not Be
                                             Empty</span>
@@ -138,10 +138,11 @@
                                 </div>
                                 <!-- College Name End-->
                                 <div class="form-group{{ $errors->has('team') ? ' has-error' : '' }} row">
-                                    <label for="team">Have you ever been in the organising team of a festival or event in
+                                    <label for="team">Have you ever been in the organising team of a festival or event
+                                        in
                                         your college in some official capacity?:</label>
-                                    <input type="text" class="form-control" placeholder="Please Give Details" id="team"
-                                        name="team" require>
+                                    <input type="text" class="form-control" placeholder="Please Give Details"
+                                        id="team" name="team">
                                     @if ($errors->has('name'))
                                         <span class="error" style="color:red;">This Can Not Be Empty</span>
                                     @endif
@@ -151,34 +152,45 @@
                                     <label for="represent">How do you think you can help represent Avita in a better way in
                                         your college? :</label>
                                     <input type="text" class="form-control" placeholder="Write Your Answer Here"
-                                        id="represent" name="represent" require>
+                                        id="represent" name="represent">
                                     @if ($errors->has('represent'))
                                         <span class="error" style="color:red;">This Can Not Be Empty</span>
                                     @endif
                                 </div>
                                 <!-- College Name End-->
 
-                                <!-- College Name Start-->
-                                <!--
-        <div class="form-group row">
-         <label for="fest">Have you ever been part of a college fest before? *:</label>
-         <input type="text" class="form-control" placeholder="YES / NO" id="fest" name="fest" require>
-       
-        </div>
-        --->
                                 <!-- College Name End-->
+                                {{-- <div class="form-group{{ $errors->has('referral_code') ? ' has-error' : '' }} row">
+                                    <label for="referral_code">Referral Code (optional):</label>
+                                    <input type="text" class="form-control" placeholder="Write Your Answer Here"
+                                        id="referral_code" name="referral_code">
+                                    @if ($errors->has('referral_code'))
+                                        <span class="error" style="color:red;">Referral Code Can Not Be Empty</span>
+                                    @endif
+                                </div> --}}
+                                <!-- College Name End-->
+
                                 <!-- College Name Start-->
-                                <!--  <div class="form-group row">
-         <label for="position">Do you hold any position in your college department or society ?:</label>
-         <input type="text" class="form-control" placeholder="YES / NO" id="position" name="position">
-        -->
+                                {{-- <div class="form-group row">
+                                    <label for="fest">Have you ever been part of a college fest before? *:</label>
+                                    <input type="text" class="form-control" placeholder="YES / NO" id="fest"
+                                        name="fest">
+                                </div> --}}
+                                <!-- College Name End-->
+
+                                <!-- College Name Start-->
+                                {{-- <div class="form-group row">
+                                    <label for="position">Do you hold any position in your college department or society
+                                        ?:</label>
+                                    <input type="text" class="form-control" placeholder="YES / NO" id="position"
+                                        name="position">
+                                </div> --}}
+                                <!-- College Name End-->
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
                         </div>
-                        <!-- College Name End-->
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
                     </div>
                 </div>
-            </div>
         </section>
 
         <div class="gotop-wrap">

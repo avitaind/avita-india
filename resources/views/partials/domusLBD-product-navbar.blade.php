@@ -25,12 +25,12 @@
                         <a class="nav-link py-1"
                                 href="{{ route('product.spec', 'led-bulb') }}"
                                 style="padding-right: 40px!important;margin-top: 5px;font-size: -0.15rem!important;">@lang('site.smart_light_bulb')</a>
-                                <a class="nav-link py-1"
+                                {{-- <a class="nav-link py-1"
                                 href="{{ route('product.spec', 'led-batten') }}"
-                                style="padding-right: 28px!important;font-size: -0.15rem!important;">@lang('site.smart_led_batten')</a>
-                                <a class="nav-link py-1"
+                                style="padding-right: 28px!important;font-size: -0.15rem!important;">@lang('site.smart_led_batten')</a> --}}
+                                {{-- <a class="nav-link py-1"
                                 href="{{ route('product.spec', 'led-downlight') }}"
-                                style="padding-right: 0px!important;font-size: -0.15rem!important;">@lang('site.smart_led_downlight')</a>
+                                style="padding-right: 0px!important;font-size: -0.15rem!important;">@lang('site.smart_led_downlight')</a> --}}
 
                     </div>
                 </div>
