@@ -13,11 +13,11 @@
                         style="background-image: url('/images/banner/campus_mobile_banner.jpg')"></div>
                     <div class="banner-info">
                         <!--  <div class="an-scroll-wrap">
-                                            <div class="an-scroll">
-                                                <span></span>
+                                                <div class="an-scroll">
+                                                    <span></span>
+                                                </div>
                                             </div>
-                                        </div>
-                                        -->
+                                            -->
                     </div>
                 </div>
             </div>
@@ -111,6 +111,16 @@
                                     <?php endif; ?>
                                 </div>
                                 <!-- Phone Number End-->
+
+                                <!-- Referral Code End-->
+                                <div class="form-group<?php echo e($errors->has('referral_code') ? ' has-error' : ''); ?> row">
+                                    <label for="referral_code">Referral Code (Optional):</label>
+                                    <input type="text" class="form-control" placeholder="Write Your Answer Here"
+                                        id="referral_code" name="referral_code">
+                                    
+                                </div>
+                                <!-- Referral Code End-->
+
                                 <!-- College Name Start-->
                                 <div class="form-group<?php echo e($errors->has('internship') ? ' has-error' : ''); ?> row">
                                     <label for="internship">Will you be interested in pursuing a summer internship with
@@ -157,10 +167,6 @@
                                         <span class="error" style="color:red;">This Can Not Be Empty</span>
                                     <?php endif; ?>
                                 </div>
-                                <!-- College Name End-->
-
-                                <!-- College Name End-->
-                                
                                 <!-- College Name End-->
 
                                 <!-- College Name Start-->
