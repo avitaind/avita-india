@@ -145,39 +145,39 @@
                                         <li class="nav-item has-dropdown">
                                             <input id="header_product_domus" type="checkbox" hidden="">
                                             <label for="header_product_domus" class="d-block mb-0"><a
-                                                    class="nav-link px-md-4 py-2">{{ __('site.smart_product_led') }}</a></label>
-                                            <div class="dropdown">
+                                                    class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['LED-batten-downLight']) }}">{{ __('site.smart_product_led') }}</a></label>
+                                            {{-- <div class="dropdown">
                                                 <ul class="list-unstyled">
 
-                                                    <li class="nav-item has-dropdown">
+                                                    <li class="nav-item has-dropdown"> --}}
 
                                                         {{-- <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['LED-batten-downLight']) }}">{{ __('site.LED_Baton_downLight') }}</a> --}}
-                                                        <a
+                                                        {{-- <a
                                                             class="nav-link px-md-4 py-2">{{ __('site.LED_Baton_downLight') }}</a>
                                                     </li>
 
                                                 </ul>
 
-                                            </div>
+                                            </div> --}}
                                         </li>
 
                                         <li class="nav-item has-dropdown">
                                             <input id="header_product_domus" type="checkbox" hidden="">
                                             <label for="header_product_domus" class="d-block mb-0"><a
-                                                    class="nav-link px-md-4 py-2">{{ __('site.inverter_led') }}</a></label>
-                                            <div class="dropdown">
+                                                    class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['inverter-LED']) }}">{{ __('site.inverter_led') }}</a></label>
+                                            {{-- <div class="dropdown">
                                                 <ul class="list-unstyled">
 
-                                                    <li class="nav-item has-dropdown">
+                                                    <li class="nav-item has-dropdown"> --}}
 
                                                         {{-- <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['inverter-LED']) }}">{{ __('site.LED_Baton_downLight') }}</a> --}}
-                                                        <a
+                                                        {{-- <a
                                                             class="nav-link px-md-4 py-2">{{ __('site.inverter_led_bulb') }}</a>
                                                     </li>
 
                                                 </ul>
 
-                                            </div>
+                                            </div> --}}
                                         </li>
                                     </ul>
                                 </div>

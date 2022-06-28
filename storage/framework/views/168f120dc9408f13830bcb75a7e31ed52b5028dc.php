@@ -105,39 +105,21 @@
                                         <li class="nav-item has-dropdown">
                                             <input id="header_product_domus" type="checkbox" hidden="">
                                             <label for="header_product_domus" class="d-block mb-0"><a
-                                                    class="nav-link px-md-4 py-2"><?php echo e(__('site.smart_product_led')); ?></a></label>
-                                            <div class="dropdown">
-                                                <ul class="list-unstyled">
-
-                                                    <li class="nav-item has-dropdown">
+                                                    class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['LED-batten-downLight'])); ?>"><?php echo e(__('site.smart_product_led')); ?></a></label>
+                                            
 
                                                         
-                                                        <a
-                                                            class="nav-link px-md-4 py-2"><?php echo e(__('site.LED_Baton_downLight')); ?></a>
-                                                    </li>
-
-                                                </ul>
-
-                                            </div>
+                                                        
                                         </li>
 
                                         <li class="nav-item has-dropdown">
                                             <input id="header_product_domus" type="checkbox" hidden="">
                                             <label for="header_product_domus" class="d-block mb-0"><a
-                                                    class="nav-link px-md-4 py-2"><?php echo e(__('site.inverter_led')); ?></a></label>
-                                            <div class="dropdown">
-                                                <ul class="list-unstyled">
-
-                                                    <li class="nav-item has-dropdown">
+                                                    class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', ['inverter-LED'])); ?>"><?php echo e(__('site.inverter_led')); ?></a></label>
+                                            
 
                                                         
-                                                        <a
-                                                            class="nav-link px-md-4 py-2"><?php echo e(__('site.inverter_led_bulb')); ?></a>
-                                                    </li>
-
-                                                </ul>
-
-                                            </div>
+                                                        
                                         </li>
                                     </ul>
                                 </div>
