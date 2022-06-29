@@ -917,6 +917,14 @@ section.color-choice .container{
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
     }
+
+    .banner-mob-domus{
+        background: url('/images/banner/mobile_domus_banner.png');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
     
     .banner-mob-avita-5Year{
         background: url('/images/banner/AVITA_5TH_KV_vert.jpg');
@@ -1004,6 +1012,14 @@ section.color-choice .container{
 
     .banner-mob-inverter-LED{
         background: url('/images/banner/mobile_domus_Inverter_banner.png');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
+
+    .banner-mob-domus{
+        background: url('/images/banner/mobile_domus_banner.png');
         -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
