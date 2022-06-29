@@ -16,11 +16,23 @@
 
             <div class="carousel-item ">
                 <div class="responsive-block">
+                    <a href="{{ route('product.overview', ['LED-batten-downLight']) }}">
+                        <div class="banner-block responsive-item">
+                            <div class="banner-bg hidden-sm-down banner-web-domus"></div>
+                            <div class="banner-bg hidden-md-up banner-mob-domus"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-domus"></div>
-                        <div class="banner-bg hidden-md-up banner-mob-domus"></div>
-                    </div>
+            <div class="carousel-item ">
+                <div class="responsive-block">
+                    <a href="{{ route('product.overview', ['inverter-LED']) }}">
+                        <div class="banner-block responsive-item">
+                            <div class="banner-bg hidden-sm-down banner-web-inverter-LED"></div>
+                            <div class="banner-bg hidden-md-up banner-mob-inverter-LED"></div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -119,7 +131,7 @@
                     </a>
                 </div>
             </div> --}}
-            
+
 
 
 
@@ -130,6 +142,7 @@
                 <li data-target="#home_banner" data-slide-to="2"></li>
                 <li data-target="#home_banner" data-slide-to="3"></li>
                 <li data-target="#home_banner" data-slide-to="4"></li>
+                <li data-target="#home_banner" data-slide-to="5"></li>
             </ol>
         </div>
     </div>

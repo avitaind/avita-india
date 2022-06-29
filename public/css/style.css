@@ -605,7 +605,15 @@ section.color-choice .container{
       
         
     .banner-web-domus{
-        background: url('/images/banner/avita_domus_web.jpg');
+        background: url('/images/banner/website_domus_banner.png');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
+
+    .banner-web-inverter-LED{
+        background: url('/images/banner/website_domus_Inverter_banner.png');
         -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -701,7 +709,15 @@ section.color-choice .container{
     }
         
     .banner-web-domus{
-        background: url('/images/banner/avita_domus_web.jpg');
+        background: url('/images/banner/website_domus_banner.png');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
+
+    .banner-web-inverter-LED{
+        background: url('/images/banner/website_domus_Inverter_banner.png');
         -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -795,7 +811,15 @@ section.color-choice .container{
     }
         
     .banner-web-domus{
-        background: url('/images/banner/avita_domus_web.jpg');
+        background: url('/images/banner/website_domus_banner.png');
+        -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    }
+
+    .banner-web-inverter-LED{
+        background: url('/images/banner/website_domus_Inverter_banner.png');
         -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -886,8 +910,8 @@ section.color-choice .container{
     background-size: 100% 100%;
     }
         
-    .banner-mob-domus{
-        background: url('/images/banner/avita_domus_mob.jpg');
+    .banner-mob-inverter-LED{
+        background: url('/images/banner/mobile_domus_Inverter_banner.png');
         -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -978,8 +1002,8 @@ section.color-choice .container{
     background-size: 100% 100%;
     }
 
-    .banner-mob-domus{
-        background: url('/images/banner/avita_domus_mob.jpg');
+    .banner-mob-inverter-LED{
+        background: url('/images/banner/mobile_domus_Inverter_banner.png');
         -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
