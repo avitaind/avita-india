@@ -72,65 +72,7 @@
                 </div>
             </div>
 
-            {{-- <div class="carousel-item ">
-                <div class="responsive-block">
-                    <a href="https://bit.ly/3AondkR">
-
-                        <div class="banner-block responsive-item">
-                            <div class="banner-bg hidden-sm-down banner-web-Liber-V"></div>
-                            <div class="banner-bg hidden-md-up banner-mob-Liber-V"></div>
-                        </div>
-                    </a>
-                </div>
-            </div> --}}
-
-            {{-- <div class="carousel-item ">
-                <div class="responsive-block">
-                    <a href="https://avita-india.com/news/detail/12">
-
-                        <div class="banner-block responsive-item">
-                            <div class="banner-bg hidden-sm-down banner-web-avita-5Year"></div>
-                            <div class="banner-bg hidden-md-up banner-mob-avita-5Year"></div>
-                        </div>
-                    </a>
-                </div>
-            </div> --}}
-
-            {{-- <div class="carousel-item ">
-                <div class="responsive-block">
-                    <a href="https://amzn.to/3iydJ0f">
-
-                        <div class="banner-block responsive-item">
-                            <div class="banner-bg hidden-sm-down banner-web-Cosmos"></div>
-                            <div class="banner-bg hidden-md-up banner-mob-Cosmos"></div>
-                        </div>
-                    </a>
-                </div>
-            </div> --}}
-
-            {{-- <div class="carousel-item ">
-                <div class="responsive-block">
-                    <a href="{{ route('product.overview', ['essential']) }}">
-
-                        <div class="banner-block responsive-item">
-                            <div class="banner-bg hidden-sm-down banner-web-Essential"></div>
-                            <div class="banner-bg hidden-md-up banner-mob-Essential"></div>
-                        </div>
-                    </a>
-                </div>
-            </div> --}}
-
-            {{-- <div class="carousel-item ">
-                <div class="responsive-block">
-                    <a href="news/detail/17">
-
-                        <div class="banner-block responsive-item">
-                            <div class="banner-bg hidden-sm-down banner-web-jasmy"></div>
-                            <div class="banner-bg hidden-md-up banner-mob-jasmy"></div>
-                        </div>
-                    </a>
-                </div>
-            </div> --}}
+            
 
 
 
