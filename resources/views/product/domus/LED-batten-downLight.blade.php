@@ -215,8 +215,8 @@
                     document.getElementById('messagemob')
                         .innerHTML =
                         "Make every moment mesmerizing with AVITA DOMUS smart batten. AVITA DOMUS smart batten creates a perfect ambiance for parties, festivals, or a movie night. Explore endless lighting possibilities with 16 million color options.";
-                    document.getElementById("myimage").src = "/images/domus/SPECTRUM-OF-COLORS-web.png";
-                    document.getElementById("myimagemob").src = "/images/domus/SPECTRUM-OF-COLORS-MOB.png";
+                    // document.getElementById("myimage").src = "/images/domus/SPECTRUM-OF-COLORS-web.png";
+                    // document.getElementById("myimagemob").src = "/images/domus/SPECTRUM-OF-COLORS-MOB.png";
                     document.getElementById("iconweb").src = "/images/domus/BOX_OF_SPECTRUM_TO_BUILD_UP_SCENES_100px.png";
                     document.getElementById("iconmob").src = "/images/domus/BOX_OF_SPECTRUM_TO_BUILD_UP_SCENES_100px.png";
                     Bulbstate = 0;
@@ -230,8 +230,8 @@
                     document.getElementById('messagemob')
                         .innerHTML =
                         "Make every moment mesmerizing with AVITA DOMUS smart batten. AVITA DOMUS smart batten creates a perfect ambiance for parties, festivals, or a movie night. Explore endless lighting possibilities with 16 million color options.";
-                    document.getElementById("myimage").src = "/images/domus/SPECTRUM-OF-COLORS-WEB.png";
-                    document.getElementById("myimagemob").src = "/images/domus/SPECTRUM-OF-COLORS-MOB.png";
+                    // document.getElementById("myimage").src = "/images/domus/SPECTRUM-OF-COLORS-WEB.png";
+                    // document.getElementById("myimagemob").src = "/images/domus/SPECTRUM-OF-COLORS-MOB.png";
                     document.getElementById("iconweb").src = "/images/domus/BOX_OF_SPECTRUM_TO_BUILD_UP_SCENES_100px.png";
                     document.getElementById("iconmob").src = "/images/domus/BOX_OF_SPECTRUM_TO_BUILD_UP_SCENES_100px.png";
                     Bulbstate = 0;
@@ -250,8 +250,8 @@
                     document.getElementById('messagemob')
                         .innerHTML =
                         "Give your space a touch of freshness with the shades of white. Relax in the ambiance, change the brightness and tune your light to any shade of white between warm white and cool day white.";
-                    document.getElementById("myimage").src = "/images/domus/EXPLORE-THE-SHADES-OF-WHITE_2CH_web.png";
-                    document.getElementById("myimagemob").src = "/images/domus/EXPLORE-THE-SHADES-OF-WHITE_2CH_mob.png";
+                    // document.getElementById("myimage").src = "/images/domus/EXPLORE-THE-SHADES-OF-WHITE_2CH_web.png";
+                    // document.getElementById("myimagemob").src = "/images/domus/EXPLORE-THE-SHADES-OF-WHITE_2CH_mob.png";
                     document.getElementById("iconweb").src = "/images/domus/EXPLORE-THE-SHADES-OF-WHITE_2CH_web_100px.png";
                     document.getElementById("iconmob").src = "/images/domus/EXPLORE-THE-SHADES-OF-WHITE_2CH_mob_100px.png";
                     Bulbstate = 1;
@@ -265,8 +265,8 @@
                     document.getElementById('messagemob')
                         .innerHTML =
                         "Give your space a touch of freshness with the shades of white. Relax in the ambiance, change the brightness and tune your light to any shade of white between warm white and cool day white.";
-                    document.getElementById("myimage").src = "/images/domus/EXPLORE-THE-SHADES-OF-WHITE_2CH_web.png";
-                    document.getElementById("myimagemob").src = "/images/domus/EXPLORE-THE-SHADES-OF-WHITE_2CH_mob.png";
+                    // document.getElementById("myimage").src = "/images/domus/EXPLORE-THE-SHADES-OF-WHITE_2CH_web.png";
+                    // document.getElementById("myimagemob").src = "/images/domus/EXPLORE-THE-SHADES-OF-WHITE_2CH_mob.png";
                     document.getElementById("iconweb").src = "/images/domus/EXPLORE-THE-SHADES-OF-WHITE_2CH_web_100px.png";
                     document.getElementById("iconmob").src = "/images/domus/EXPLORE-THE-SHADES-OF-WHITE_2CH_mob_100px.png";
                     Bulbstate = 1;

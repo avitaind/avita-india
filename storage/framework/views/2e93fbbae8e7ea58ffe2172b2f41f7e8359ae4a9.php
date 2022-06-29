@@ -16,7 +16,7 @@
                     <nav class="nav nav-pills nav-product-spec justify-content-center">
                         <a class="col text-center nav-link active" data-toggle="tab" href="#spec-1" role="tab">
                             <div class="spec-item-name mb-4">
-                                <div class="d-sm-block">9W EMERGENCY LED BULB</div>
+                                <div class="d-sm-block">9W INVERTER LED BULB</div>
                                 
                             </div>
                             <!--<img class="hidden-sm-down" src="/images/liber/u13/lightpurple.png"> -->
@@ -25,7 +25,7 @@
 
                         <a class="col text-center nav-link" data-toggle="tab" href="#spec-2" role="tab">
                             <div class="spec-item-name mb-4">
-                                <div class="d-sm-block">12W EMERGENCY LED BULB</div>
+                                <div class="d-sm-block">12W INVERTER LED BULB</div>
                                 
                             </div>
                             <!--<img class="hidden-sm-down" src="/images/liber/u13/lightpurple.png"> -->
