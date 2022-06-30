@@ -33,13 +33,14 @@
                     <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Say goodbye to blackouts
                         with Inverter LED Bulb</div>
                     <div class="banner-para">
-                        <span>Unanticipated power outages are annoying, especially when you’re in the middle of something.
+                        <p style="text-align: justify;  text-align-last: center;">Unanticipated power outages are annoying, especially when you’re in the middle of something.
                             Consequently, it is vital to have lighting that can evacuate you from such a situation. AVITA
                             Inverter LED Bulb uses an independent power source and ensures it comes into effect even after
-                            the power cuts off. It is essential for offices, public buildings, or any other space.
-                            Experience lighting round-the-clock with the 9W/12W AVITA Inverter LED Bulb. It has a 2000/2200
+                            the power cuts off. It is essential for offices, public buildings, or any other space.  Experience lighting round-the-clock with the 9W/12W AVITA Inverter LED Bulb. It has a 2000/2200
                             mAh lithium-ion battery with a light backup of up to 4 hours through 8-10 hours for fully
-                            charging.</span>
+                            charging.</p>
+                            <span>
+                           </span>
                     </div>
                     <div class="space60"></div>
 
@@ -103,7 +104,7 @@
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
+                    {{-- <div class="space60 hidden-sm-down"></div> --}}
                     <div class="row">
                         <div class="col-12 col-lg-6" align="left"></div>
                         <div class="col-12 col-lg-6" align="left" style="padding-left: 50px;">
@@ -307,10 +308,10 @@
                                 style="margin-top: 30px;margin-left: 200px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
-                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space30 hidden-sm-down"></div>
                         </div>
                     </div>
-                    <div class="space60 hidden-sm-down"></div>
+                    {{-- <div class="space60 hidden-sm-down"></div> --}}
                 </div>
             </div>
         </section>
