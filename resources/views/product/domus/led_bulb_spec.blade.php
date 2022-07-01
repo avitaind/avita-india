@@ -155,7 +155,7 @@
                             </li>
 
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Technology Based </div>
+                                <div class="offset-md-1 col-4 col-md-3">Technology </div>
                                 <div>WiFi Based</div>
                             </li>
 
@@ -269,7 +269,7 @@
                             </li>
 
                             <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Technology Based </div>
+                                <div class="offset-md-1 col-4 col-md-3">Technology </div>
                                 <div>WiFi Based</div>
                             </li>
 
@@ -383,7 +383,7 @@
                             </li>
 
                             {{-- <li class="spec-item d-flex">
-                                <div class="offset-md-1 col-4 col-md-3">Technology Based </div>
+                                <div class="offset-md-1 col-4 col-md-3">Technology </div>
                                 <div>WiFi Based</div>
                             </li> --}}
 
