@@ -386,7 +386,7 @@
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">Smart bulbs are eco-friendly and reign supreme in the market.
                                 As they consume less energy, have a longer life span, and use non-toxic material in
-                                production, they are less harmful and save the environment.</span>
+                                production, they are less harmful and environment friendly.</span>
                         </div>
                         <img src="/images/domus/LIGHTING_THAT_SAVES_THE_ENVIRONMENT_100px.png"
                             style=" margin-top: 25px;margin-bottom: 10px;margin-left: 213px;">
@@ -585,7 +585,7 @@
                         <div class="banner-para ls-0">
                             <span class="d-lg-block">Switch your existing lighting system with
                                 the AVITA DOMUS smart bulb and explore the world of efficiency. The
-                                changing of light brightness from 1%-100% leads to saving a large
+                                changing of brightness from 1%-100% leads to saving a large
                                 amount of energy along with a reduction in the electricity bills. It
                                 also emits less heat than other conventional lights.</span>
                         </div>
