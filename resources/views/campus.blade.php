@@ -15,11 +15,11 @@
                         style="background-image: url('/images/banner/campus_mobile_banner.jpg')"></div>
                     <div class="banner-info">
                         <!--  <div class="an-scroll-wrap">
-                                                <div class="an-scroll">
-                                                    <span></span>
+                                                    <div class="an-scroll">
+                                                        <span></span>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            -->
+                                                -->
                     </div>
                 </div>
             </div>
@@ -75,6 +75,11 @@
                             @if (session()->has('message'))
                                 <div class="alert alert-success">
                                     {{ session()->get('message') }}
+                                </div>
+                            @endif
+                            @if (session('error'))
+                                <div class="alert alert-danger">
+                                    {{ session()->get('error') }}
                                 </div>
                             @endif
                             <form action="/cap" method="POST" role="form" enctype="multipart/form-data">

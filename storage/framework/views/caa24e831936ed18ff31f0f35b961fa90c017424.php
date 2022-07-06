@@ -13,11 +13,11 @@
                         style="background-image: url('/images/banner/campus_mobile_banner.jpg')"></div>
                     <div class="banner-info">
                         <!--  <div class="an-scroll-wrap">
-                                                <div class="an-scroll">
-                                                    <span></span>
+                                                    <div class="an-scroll">
+                                                        <span></span>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            -->
+                                                -->
                     </div>
                 </div>
             </div>
@@ -73,6 +73,12 @@
                             <?php if(session()->has('message')): ?>
                                 <div class="alert alert-success">
                                     <?php echo e(session()->get('message')); ?>
+
+                                </div>
+                            <?php endif; ?>
+                            <?php if(session('error')): ?>
+                                <div class="alert alert-danger">
+                                    <?php echo e(session()->get('error')); ?>
 
                                 </div>
                             <?php endif; ?>
