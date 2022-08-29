@@ -31,15 +31,14 @@
                     <div class="h2 banner-header mb-4 mb-sm-5" style="text-transform:uppercase;">Say goodbye to blackouts
                         with Inverter LED Bulb</div>
                     <div class="banner-para">
-                        <span>Unanticipated power outages are extremely annoying, especially when you’re in the middle of
-                            something, consequently, it is vital to have lighting that can evacuate you from such a
-                            situation. AVITA Inverter LED Bulb uses an independent power source and ensures it comes back
-                            into effect even after the power is shut off. It is essential for offices, public buildings, or
-                            any other space.</span>
-                        <span>Experience lighting round-the-clock with the 9W / 12W AVITA Inverter LED Bulb. It has a 2200 /
-                            2000 mAh
-                            lithium battery that has a light backup of up to 4 hours with 8-10 hours for full
-                            charging.</span>
+                        <p style="text-align: justify;  text-align-last: center;">Unanticipated power outages are annoying, especially when you’re in the middle of something.
+                            Consequently, it is vital to have lighting that can evacuate you from such a situation. AVITA
+                            Inverter LED Bulb uses an independent power source and ensures it comes into effect even after
+                            the power cuts off. It is essential for offices, public buildings, or any other space.  Experience lighting round-the-clock with the 9W/12W AVITA Inverter LED Bulb. It has a 2000/2200
+                            mAh lithium-ion battery with a light backup of up to 4 hours through 8-10 hours for fully
+                            charging.</p>
+                            <span>
+                           </span>
                     </div>
                     <div class="space60"></div>
 
@@ -70,9 +69,7 @@
                         <div class="col-12 col-lg-6" align="left"></div>
                         <div class="col-12 col-lg-6" align="left">
                             <div class="h2 banner-header mob-text-center">
-                                <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Power backup of 4
-                                    hours</div>
+                                <div class="" style="text-transform:uppercase; margin-top:50px;text-align: center; ">Rechargeable batteries with 4 hours of power backup</div>
                                 <img src="/images/domus/Inverter/Power-backup-of-4-hours-100px.png"
                                     style="margin-top: 30px;margin-bottom: 30px;">
                             </div>
@@ -82,9 +79,7 @@
                                     src="/images/domus/Inverter/Power-backup-of-4-hours-mob.png">
                             </div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block">Unlike other inverter LED bulbs that have only a couple of
-                                    hours of battery backup, AVITA’s LED Bulb stays on for 4 hours. You will not have to
-                                    worry about living without light anymore.</span>
+                                <span class="d-lg-block">The Inverter LED bulb has a built-in rechargeable battery that charges automatically when the supply power is present. Once the power cuts off, the bulb stays on for 4 hours, leaving you unworried about living without light.</span>
                             </div>
                         </div>
                     </div>
@@ -107,14 +102,12 @@
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
                     <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
+                    
                     <div class="row">
                         <div class="col-12 col-lg-6" align="left"></div>
                         <div class="col-12 col-lg-6" align="left" style="padding-left: 50px;">
                             <div class="h2 banner-header mob-text-center">
-                                <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Power backup of 4
-                                    hours</div>
+                                <div class="" style="text-transform:uppercase; margin-top:50px;text-align: center; ">Rechargeable batteries with 4 hours of power backup</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -122,9 +115,7 @@
                                     src="/images/domus/Inverter/Power-backup-of-4-hours-mob.png">
                             </div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block">Unlike other inverter LED bulbs that have only a couple of
-                                    hours of battery backup, AVITA’s LED Bulb stays on for 4 hours. You will not have to
-                                    worry about living without light anymore.</span>
+                                <span class="d-lg-block">The Inverter LED bulb has a built-in rechargeable battery that charges automatically when the supply power is present. Once the power cuts off, the bulb stays on for 4 hours, leaving you unworried about living without light.</span>
                             </div>
                             <img src="/images/domus/Inverter/Power-backup-of-4-hours-100px.png"
                                 style="margin-top: 30px;margin-left:210px;">
@@ -177,8 +168,7 @@
                     <div class="row" style="margin-right: 100px; ">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase;text-align: center; ">Best for
-                                    unanticipated power outages</div>
+                                <div class="" style="text-transform:uppercase;text-align: center; ">Works as a regular bulb until power cuts-off</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -187,9 +177,7 @@
                                     style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                             </div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block">AVITA’s inverter LED bulb stays on after the electricity cuts
-                                    off. We understand the luxury that light is, and hence, design our devices for optimum
-                                    usage and long life.</span>
+                                <span class="d-lg-block">The Inverter LED bulb looks and works like a regular bulb but turns on impulsively after the electricity cuts off. You may never be able to tell the difference until the power goes out.</span>
                             </div>
                             <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png"
                                 style="margin-top: 30px;margin-left: 190px;">
@@ -218,8 +206,7 @@
                     <div class="row hidden-md-up" style="">
                         <div class="col-12 col-lg-6" align="">
                             <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Best for
-                                    unanticipated power outages</div>
+                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Works as a regular bulb until power cuts-off</div>
                                 <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png"
                                     style="margin-top: 30px;margin-bottom: 30px;">
                             </div>
@@ -229,9 +216,7 @@
                                     style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
                             </div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block">AVITA’s inverter LED bulb stays on after the electricity cuts
-                                    off. We understand the luxury that light is, and hence, design our devices for optimum
-                                    usage and long life.</span>
+                                <span class="d-lg-block">The Inverter LED bulb looks and works like a regular bulb but turns on impulsively after the electricity cuts off. You may never be able to tell the difference until the power goes out.</span>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6" align="left"></div>
@@ -245,347 +230,11 @@
 
         
 
-        
+    
 
-        
-        <section class="hidden-md-up">
-            <div class="banner-block ls-0">
-                <div class="banner-bg hidden-sm-down"
-                    style="background:url(/images/domus/Inverter/Works-like-a-regular-bulb-web.png) top center no-repeat;">
-                </div>
-                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
-                <div class="container">
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="row">
-                        <div class="col-12 col-lg-6" align="left"></div>
-                        <div class="col-12 col-lg-6" align="left">
-                            <div class="h2 banner-header mob-text-center">
-                                <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Works like a
-                                    regular bulb</div>
-                                <img src="/images/domus/Inverter/Works-like-a-regular-bulb-100px.png"
-                                    style="margin-top: 30px;margin-bottom: 30px;">
-                            </div>
-                            <div class="ac-computer-wrap hidden-md-up">
-                                <img class="ac-computer-image ac-computer-2" style=""
-                                    src="/images/domus/Inverter/Works-like-a-regular-bulb-mob.png">
-                            </div>
-                            <div class="banner-para ls-0">
-                                <span class="d-lg-block">Looks and works like a regular bulb. You may never be able to
-                                    tell the difference until the inverter turns on.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                </div>
-            </div>
-        </section>
+  
 
-        
-        <section class="hidden-sm-down">
-            <div class="banner-block ls-0">
-                <div class="banner-bg hidden-sm-down"
-                    style="background:url(/images/domus/Inverter/Works-like-a-regular-bulb-web.png) top center no-repeat;">
-                </div>
-                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
-                <div class="container">
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space30 hidden-sm-down"></div>
-                    <div class="space30 hidden-sm-down"></div>
-                    <div class="row">
-                        <div class="col-12 col-lg-6" align="left"></div>
-                        <div class="col-12 col-lg-6" align="left" style="padding-left: 50px;">
-                            <div class="h2 banner-header mob-text-center">
-                                <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Works like a
-                                    regular bulb</div>
-                            </div>
-                            <div class="space60"></div>
-                            <div class="ac-computer-wrap hidden-md-up">
-                                <img class="ac-computer-image ac-computer-2" style=""
-                                    src="/images/domus/Inverter/Works-like-a-regular-bulb-mob.png">
-                            </div>
-                            <div class="banner-para ls-0">
-                                <span class="d-lg-block">Looks and works like a regular bulb. You may never be able to
-                                    tell the difference until the inverter turns on.</span>
-                            </div>
-                            <img src="/images/domus/Inverter/Works-like-a-regular-bulb-100px.png"
-                                style="margin-top: 30px;margin-left: 200px;">
-                            <div class="space60 hidden-sm-down"></div>
-                            <div class="space30 hidden-sm-down"></div>
-                            <div class="space60 hidden-sm-down"></div>
 
-                        </div>
-                    </div>
-                    <div class="space60 hidden-sm-down"></div>
-                </div>
-            </div>
-        </section>
-
-        
-
-        
-
-        
-        <section class="">
-            <div class="banner-block ls-0 hidden-sm-down">
-                <div class="banner-bg hidden-sm-down"
-                    style="background:url(/images/domus/Inverter/Easy-on-the-eyes-web.png) top center no-repeat;"></div>
-                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
-                <div class="container">
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="row" style="margin-right: 100px; ">
-                        <div class="col-12 col-lg-6" align="">
-                            <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase;text-align: center; ">Easy on
-                                    the eyes</div>
-                            </div>
-                            <div class="space60"></div>
-                            <div class="ac-computer-wrap hidden-md-up">
-                                <img class="ac-computer-image ac-computer-2" style=""
-                                    src="/images/domus/Inverter/Easy-on-the-eyes-mob.png"
-                                    style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
-                            </div>
-                            <div class="banner-para ls-0">
-                                <span class="d-lg-block">Calibrated to minimize the strain that unnatural light puts on
-                                    your eyes, without losing any illumination strength. Drop all the worries about harming
-                                    your eyes.</span>
-                            </div>
-                            <img src="/images/domus/Inverter/Easy-on-the-eyes-100px.png"
-                                style="margin-top: 30px;margin-left: 190px;">
-                            <div class="space60 hidden-sm-down"></div>
-                            <div class="space60 hidden-sm-down"></div>
-                            <div class="space30 hidden-sm-down"></div>
-                        </div>
-                        <div class="col-12 col-lg-6" align="left"></div>
-                    </div>
-                    <div class="space60 hidden-sm-down"></div>
-                </div>
-            </div>
-
-            
-            <div class="banner-block ls-0 ">
-                <div class="banner-bg hidden-sm-down hidden-md-up"
-                    style="background:url(/images/domus/Inverter/Easy-on-the-eyes-web.png) top center no-repeat;"></div>
-                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
-                <div class="container hidden-md-up">
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="row hidden-md-up" style="">
-                        <div class="col-12 col-lg-6" align="">
-                            <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase; padding-top: 50px;">Easy on
-                                    the eyes</div>
-                                <img src="/images/domus/Inverter/Easy-on-the-eyes-100px.png"
-                                    style="margin-top: 30px;margin-bottom: 30px;">
-                            </div>
-                            <div class="ac-computer-wrap hidden-md-up">
-                                <img class="ac-computer-image ac-computer-2" style=""
-                                    src="/images/domus/Inverter/Easy-on-the-eyes-mob.png"
-                                    style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
-                            </div>
-                            <div class="banner-para ls-0">
-                                <span class="d-lg-block">Calibrated to minimize the strain that unnatural light puts on
-                                    your eyes, without losing any illumination strength. Drop all the worries about harming
-                                    your eyes.</span>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6" align="left"></div>
-                    </div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                </div>
-            </div>
-        </section>
-
-        
-
-        
-
-        
-        <section class="hidden-md-up">
-            <div class="banner-block ls-0">
-                <div class="banner-bg hidden-sm-down"
-                    style="background:url(/images/domus/Inverter/Saves-Energy-web.png) top center no-repeat;"></div>
-                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
-                <div class="container">
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="row">
-                        <div class="col-12 col-lg-6" align="left"></div>
-                        <div class="col-12 col-lg-6" align="left">
-                            <div class="h2 banner-header mob-text-center">
-                                <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Saves Energy
-                                </div>
-                                <img src="/images/domus/Inverter/Saves-Energy-100px.png"
-                                    style="margin-top: 30px;margin-bottom: 30px;">
-                            </div>
-                            <div class="ac-computer-wrap hidden-md-up">
-                                <img class="ac-computer-image ac-computer-2" style=""
-                                    src="/images/domus/Inverter/Saves-Energy-mob.png">
-                            </div>
-                            <div class="banner-para ls-0">
-                                <span class="d-lg-block">The Inverter LED Bulb is equipped with LED light beads that
-                                    ensure the consumption of less of lumens. However, it leads to less power
-                                    consumption and lower electricity costs.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                </div>
-            </div>
-        </section>
-
-        
-        <section class="hidden-sm-down">
-            <div class="banner-block ls-0">
-                <div class="banner-bg hidden-sm-down"
-                    style="background:url(/images/domus/Inverter/Saves-Energy-web.png) top center no-repeat;"></div>
-                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
-                <div class="container">
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space30 hidden-sm-down"></div>
-                    <div class="row">
-                        <div class="col-12 col-lg-6" align="left"></div>
-                        <div class="col-12 col-lg-6" align="left" style="padding-left: 50px;">
-                            <div class="h2 banner-header mob-text-center">
-                                <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Saves Energy
-                                </div>
-                            </div>
-                            <div class="space60"></div>
-                            <div class="ac-computer-wrap hidden-md-up">
-                                <img class="ac-computer-image ac-computer-2" style=""
-                                    src="/images/domus/Inverter/Saves-Energy-mob.png">
-                            </div>
-                            <div class="banner-para ls-0">
-                                <span class="d-lg-block">The Inverter LED Bulb is equipped with LED light beads that
-                                    ensure the consumption of less of lumens. However, it leads to less power
-                                    consumption and lower electricity costs.</span>
-                            </div>
-                            <img src="/images/domus/Inverter/Saves-Energy-100px.png"
-                                style="margin-top: 27px;margin-left: 202px;">
-                            <div class="space60 hidden-sm-down"></div>
-                            <div class="space60 hidden-sm-down"></div>
-                            <div class="space30 hidden-sm-down"></div>
-                        </div>
-                    </div>
-                    <div class="space60 hidden-sm-down"></div>
-                </div>
-            </div>
-        </section>
-
-        
-
-        
-
-        
-        <section class="">
-            <div class="banner-block ls-0 hidden-sm-down">
-                <div class="banner-bg hidden-sm-down"
-                    style="background:url(/images/domus/Inverter/Overcharging-Protection-web.png) top center no-repeat;">
-                </div>
-                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
-                <div class="container">
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space30 hidden-sm-down"></div>
-                    <div class="row" style="margin-right: 100px; ">
-                        <div class="col-12 col-lg-6" align="">
-                            <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase;text-align: center; ">
-                                    Overcharging Protection</div>
-                            </div>
-                            <div class="space60"></div>
-                            <div class="ac-computer-wrap hidden-md-up">
-                                <img class="ac-computer-image ac-computer-2" style=""
-                                    src="/images/domus/Inverter/Overcharging-Protection-mob.png"
-                                    style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
-                            </div>
-                            <div class="banner-para ls-0">
-                                <span class="d-lg-block">The bulb takes around 8-10 hours to be fully charged. After
-                                    the charging is completed, the built-in overcharging protection automatically cuts off
-                                    the re-charging and makes sure that there is no drain on the battery present inside the
-                                    bulb.</span>
-                            </div>
-                            <img src="/images/domus/Inverter/Overcharging-Protection-100px.png"
-                                style="margin-top: 30px;margin-left: 190px;">
-                            <div class="space60 hidden-sm-down"></div>
-                            <div class="space60 hidden-sm-down"></div>
-                            <div class="space30 hidden-sm-down"></div>
-                        </div>
-                        <div class="col-12 col-lg-6" align="left"></div>
-                    </div>
-                    <div class="space60 hidden-sm-down"></div>
-                </div>
-            </div>
-
-            
-            <div class="banner-block ls-0 ">
-                <div class="banner-bg hidden-sm-down hidden-md-up"
-                    style="background:url(/images/domus/Inverter/Overcharging-Protection-web.png) top center no-repeat;">
-                </div>
-                <div class="banner-bg hidden-md-up" style="background-color:#fff;"></div>
-                <div class="container hidden-md-up">
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="row hidden-md-up" style="">
-                        <div class="col-12 col-lg-6" align="">
-                            <div class="h2 banner-header mob-text-center">
-                                <div class="" style="text-transform:uppercase; padding-top: 50px;">
-                                    Overcharging Protection</div>
-                                <img src="/images/domus/Inverter/Overcharging-Protection-100px.png"
-                                    style="margin-top: 30px;margin-bottom: 30px;">
-                            </div>
-                            <div class="ac-computer-wrap hidden-md-up">
-                                <img class="ac-computer-image ac-computer-2" style=""
-                                    src="/images/domus/Inverter/Overcharging-Protection-mob.png"
-                                    style="width: 700px;    margin-right: 150px;    margin-top: 200px;">
-                            </div>
-                            <div class="banner-para ls-0">
-                                <span class="d-lg-block">The bulb takes around 8-10 hours to be fully charged. After
-                                    the charging is completed, the built-in overcharging protection automatically cuts off
-                                    the re-charging and makes sure that there is no drain on the battery present inside the
-                                    bulb.</span>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6" align="left"></div>
-                    </div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                    <div class="space60 hidden-sm-down"></div>
-                </div>
-            </div>
-        </section>
-
-        
 
         
 
@@ -605,8 +254,7 @@
                         <div class="col-12 col-lg-6" align="left">
                             <div class="h2 banner-header mob-text-center">
                                 <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Built-in
-                                    rechargeable battery</div>
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Saves energy and protects against overcharging</div>
                                 <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png"
                                     style="margin-top: 30px;margin-bottom: 30px;">
                             </div>
@@ -615,8 +263,7 @@
                                     src="/images/domus/Inverter/Built-in-rechargeable-battery-mob.png">
                             </div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block">Comes with a built-in rechargeable battery that lasts for a
-                                    very long time. Charges automatically when the power supply is present.</span>
+                                <span class="d-lg-block">Equipped with LED light beads that ensure the consumption of fewer lumens, the Inverter bulb also has built-in overcharging protection programmed to cut off the power supply once charged. Your savings will skyrocket.</span>
                             </div>
                         </div>
                     </div>
@@ -645,8 +292,7 @@
                         <div class="col-12 col-lg-6" align="left" style="padding-left: 50px;">
                             <div class="h2 banner-header mob-text-center">
                                 <div class=""
-                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Built-in
-                                    rechargeable battery</div>
+                                    style="text-transform:uppercase; margin-top:50px;text-align: center; ">Saves energy and protects against overcharging</div>
                             </div>
                             <div class="space60"></div>
                             <div class="ac-computer-wrap hidden-md-up">
@@ -654,17 +300,16 @@
                                     src="/images/domus/Inverter/Built-in-rechargeable-battery-mob.png">
                             </div>
                             <div class="banner-para ls-0">
-                                <span class="d-lg-block">Comes with a built-in rechargeable battery that lasts for a
-                                    very long time. Charges automatically when the power supply is present.</span>
+                                <span class="d-lg-block">Equipped with LED light beads that ensure the consumption of fewer lumens, the Inverter bulb also has built-in overcharging protection programmed to cut off the power supply once charged. Your savings will skyrocket.</span>
                             </div>
                             <img src="/images/domus/Inverter/Best-for-unanticipated-power-outages-100px.png"
                                 style="margin-top: 30px;margin-left: 200px;">
                             <div class="space60 hidden-sm-down"></div>
                             <div class="space60 hidden-sm-down"></div>
-                            <div class="space60 hidden-sm-down"></div>
+                            <div class="space30 hidden-sm-down"></div>
                         </div>
                     </div>
-                    <div class="space60 hidden-sm-down"></div>
+                    
                 </div>
             </div>
         </section>
@@ -704,5 +349,4 @@
     <script type="text/javascript" src="<?php echo e(asset('js/emergency-domus.js')); ?>"></script>
 
 <?php $__env->stopSection(); ?>
-
 <?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
